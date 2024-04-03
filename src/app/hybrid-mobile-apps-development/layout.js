@@ -1,0 +1,23 @@
+//===== Meta Data =====
+export const metadata = {
+  //===== Meta Tags =====
+  title: "Hybrid Mobile Apps Development Company | Hybrid App Developers",
+  description: "Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.",
+  //===== OG Tags =====
+  openGraph: {
+    title: 'Hybrid Mobile Apps Development Company | Hybrid App Developers',
+    description: 'Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.',
+    url: 'https://bitswits.co/hybrid-mobile-apps-development/',
+    siteName: 'BitsWits',
+    locale: 'en_US',
+    type: 'website',
+  },
+  //===== Canonical =====
+  alternates: { canonical: 'https://bitswits.co/hybrid-mobile-apps-development/' },
+  //===== GEO Tags =====
+  other: {},
+}
+
+export default function RootLayout({ children }) {
+  return (children);
+}
