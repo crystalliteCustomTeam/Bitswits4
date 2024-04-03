@@ -26,8 +26,6 @@ export default async function handler(req, res ) {
             auth,
             version: 'v4'
         });
-
-      
         var resource = {
             "values": ["farooq","farooq@gmail.com","123456789"]
         }
