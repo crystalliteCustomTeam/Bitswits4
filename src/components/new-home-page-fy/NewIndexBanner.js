@@ -5,6 +5,11 @@ import styles from "../../../styles/NewIndexBanner.module.css";
 //
 import next from "/public/homeslideimg/next.webp";
 import prev from "/public/homeslideimg/prev.webp";
+import slide1 from "media/homeslideimg/1.webp";
+import slide2 from "media/homeslideimg/2.webp";
+import slide3 from "media/homeslideimg/3.webp";
+import slide4 from "media/homeslideimg/4.webp";
+import slide5 from "media/homeslideimg/5.webp";
 
 const itemData = [
     {
@@ -47,7 +52,8 @@ const NewIndex2Banner = () => {
         <>
             <section className={styles.newHomeBg}>
                 <ul className={`${styles.slider}`} ref={sliderRef}>
-                    <li className={`${styles.item} item ${styles.item2}`}>
+                    <li className={`${styles.item} item relative overflow-hidden`}>
+                        <Image src={slide2} className="absolute" fill style={{ objectFit: 'cover' }} />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-0`}>
@@ -70,13 +76,14 @@ const NewIndex2Banner = () => {
                             </div>
                         ))}
                     </li>
-                    <li className={`${styles.item} item ${styles.item1}`}>
+                    <li className={`${styles.item} item item relative overflow-hidden`}>
+                        <Image src={slide1} className="absolute" fill style={{ objectFit: 'cover' }} />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h1 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top Mobile App Development Company
                                 </h1>
-                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0`}>
                                     Turning Challenges Into Opportunities With Expert App
                                     Development
                                 </h2>
@@ -93,14 +100,14 @@ const NewIndex2Banner = () => {
                             </div>
                         ))}
                     </li>
-
-                    <li className={`${styles.item} item ${styles.item3}`}>
+                    <li className={`${styles.item} item item relative overflow-hidden`}>
+                        <Image src={slide3} className="absolute" fill style={{ objectFit: 'cover' }} />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top-Rated Game Development Company
                                 </h2>
-                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0`}>
                                     Where Exceptional Apps Are Just The Beginning.
                                 </h2>
                                 <p className=" font-regular text-white font16 mt-3">
@@ -118,13 +125,14 @@ const NewIndex2Banner = () => {
                             </div>
                         ))}
                     </li>
-                    <li className={`${styles.item} item ${styles.item4}`}>
+                    <li className={`${styles.item} item item relative overflow-hidden`}>
+                        <Image src={slide4} className="absolute" fill style={{ objectFit: 'cover' }} />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top Artificial Intelligence Development Company
                                 </h2>
-                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0`}>
                                     Where Artificial Intelligence Meets Real-World Innovation
                                 </h2>
                                 <p className=" font-regular text-white font16 mt-3">
@@ -139,13 +147,14 @@ const NewIndex2Banner = () => {
                             </div>
                         ))}
                     </li>
-                    <li className={`${styles.item} item ${styles.item5}`}>
+                    <li className={`${styles.item} item item relative overflow-hidden`}>
+                        <Image src={slide5} className="absolute" fill style={{ objectFit: 'cover' }} />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Custom Software Development Solutions
                                 </h2>
-                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0`}>
                                     Tailored Software Solutions For Unique Business Needs
                                 </h2>
                                 <p className=" font-regular text-white font16 mt-3">

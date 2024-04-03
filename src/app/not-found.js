@@ -1,10 +1,9 @@
-"use client"
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Error.module.css'
 import Link from 'next/link'
 
-const Error = () => {
+const NotFound = () => {
     return (
         <>
             <div className={styles.error}>
@@ -26,4 +25,4 @@ const Error = () => {
     )
 }
 
-export default Error
+export default NotFound
