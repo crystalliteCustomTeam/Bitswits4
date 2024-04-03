@@ -53,7 +53,7 @@ const NewIndex2Banner = () => {
             <section className={styles.newHomeBg}>
                 <ul className={`${styles.slider}`} ref={sliderRef}>
                     <li className={`${styles.item} item relative overflow-hidden`}>
-                        <Image src={slide2} className="absolute" fill style={{ objectFit: 'cover' }} />
+                        <Image src={slide2} className="absolute" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw" style={{ objectFit: 'cover' }} placeholder="blur" />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-0`}>
@@ -77,7 +77,7 @@ const NewIndex2Banner = () => {
                         ))}
                     </li>
                     <li className={`${styles.item} item item relative overflow-hidden`}>
-                        <Image src={slide1} className="absolute" fill style={{ objectFit: 'cover' }} />
+                        <Image src={slide1} className="absolute" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw" style={{ objectFit: 'cover' }} placeholder="blur" />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h1 className={`${styles.just} font-heavy font30 mb-lg-0`}>
@@ -101,7 +101,7 @@ const NewIndex2Banner = () => {
                         ))}
                     </li>
                     <li className={`${styles.item} item item relative overflow-hidden`}>
-                        <Image src={slide3} className="absolute" fill style={{ objectFit: 'cover' }} />
+                        <Image src={slide3} className="absolute" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw" style={{ objectFit: 'cover' }} placeholder="blur" />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
@@ -126,7 +126,7 @@ const NewIndex2Banner = () => {
                         ))}
                     </li>
                     <li className={`${styles.item} item item relative overflow-hidden`}>
-                        <Image src={slide4} className="absolute" fill style={{ objectFit: 'cover' }} />
+                        <Image src={slide4} className="absolute" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw" style={{ objectFit: 'cover' }} placeholder="blur" />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
@@ -148,7 +148,7 @@ const NewIndex2Banner = () => {
                         ))}
                     </li>
                     <li className={`${styles.item} item item relative overflow-hidden`}>
-                        <Image src={slide5} className="absolute" fill style={{ objectFit: 'cover' }} />
+                        <Image src={slide5} className="absolute" fill sizes="(max-width: 768px) 50vw, (max-width: 1200px) 100vw" style={{ objectFit: 'cover' }} placeholder="blur" />
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
