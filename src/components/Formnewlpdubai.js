@@ -54,7 +54,7 @@ const Formnewlpdubai = () => {
     
 
 
-        fetch('api/emailapi/route', {
+        fetch('/api/emailapi/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
