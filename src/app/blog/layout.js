@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Blogs - BitsWits',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: '/blog/',
+    url: '/blog',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/blog/' },
+  alternates: { canonical: '/blog' },
   //===== GEO Tags =====
   other: {},
 }

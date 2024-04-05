@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Mobile Application Development Services | Apps Development Services',
     description: "Ignite your brand's success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights.",
-    url: '/mobile-app-development-services/',
+    url: '/mobile-app-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/mobile-app-development-services/' },
+  alternates: { canonical: '/mobile-app-development-services' },
   //===== GEO Tags =====
   other: {},
 }

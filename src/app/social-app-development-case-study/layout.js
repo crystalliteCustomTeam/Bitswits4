@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'BitsWits',
     description: 'Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.',
-    url: '/social-app-development-case-study/',
+    url: '/social-app-development-case-study',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/social-app-development-case-study/' },
+  alternates: { canonical: '/social-app-development-case-study' },
   //===== GEO Tags =====
   other: {},
 }
