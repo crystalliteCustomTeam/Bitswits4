@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
 //===== Import Components =====
+import Head from "next/head";
 import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
 //===== Meta Data =====
@@ -35,6 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" sizes="96x96" />
       <Scripts />
       <body>
         <ConditionalLayout>

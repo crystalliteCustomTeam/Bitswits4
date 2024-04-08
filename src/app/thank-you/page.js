@@ -1,6 +1,4 @@
 "use client"
-
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Script from "next/script";
@@ -10,10 +8,9 @@ import styles from "@/styles/Newhomeanner.module.css";
 
 
 export default function ThankYou() {
-
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
-    const delay = 7000;
+    const delay = 10000;
     const timeoutId = setTimeout(() => {
       setImagesLoaded(true);
     }, delay);
@@ -22,14 +19,6 @@ export default function ThankYou() {
 
   return (
     <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
       {imagesLoaded &&
         <>
           {/* Google tag (gtag.js) */}

@@ -35,7 +35,6 @@ export default function Post({ params }) {
                     <meta property="og:type" content={postData.opengraphType} />
                     <meta property="og:locale" content="en_IN" />
                     <meta property="og:site_name" content={postData.opengraphSiteName} />
-                    <link rel="icon" href="/images/icons/favicon.png" />
                 </Head>
                 <section className={styles.innerBlog}>
                     <Container>

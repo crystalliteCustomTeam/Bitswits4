@@ -1,7 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Error.module.css'
-import Link from 'next/link'
 
 const NotFound = () => {
     return (
@@ -22,7 +22,7 @@ const NotFound = () => {
                 </Container>
             </div>
         </>
-    )
+    );
 }
 
-export default NotFound
+export default NotFound;
