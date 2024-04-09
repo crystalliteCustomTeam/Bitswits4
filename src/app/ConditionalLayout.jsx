@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 //
 import Header from "../components/NewHeader";
+import HeaderMbl from "../components/HeaderMbl";
 import Headerlp from "../components/Headerlp";
 import Headerlphome from "../components/Headerlphome";
 import EcommerceBanner from "../components/EcommerceBanner";
@@ -103,7 +104,10 @@ const ConditionalLayout = ({ children }) => {
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
                             pathname == "/meet-our-team" ? null :
-                                <Header />
+                                <>
+                                    <Header />
+                                    <HeaderMbl />
+                                </>
             }
             {mouse && <Cursor />}
             {superecommer ? '' : <Skicky />}

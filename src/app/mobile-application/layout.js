@@ -11,6 +11,7 @@ export const metadata = {
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
+    images: "/public/images/icons/footerlogo.png",
   },
   //===== Canonical =====
   alternates: { canonical: '/mobile-application' },

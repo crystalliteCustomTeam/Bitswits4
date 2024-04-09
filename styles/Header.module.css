@@ -487,11 +487,6 @@
     position: unset;
   }
 
-  .menu li a {
-    padding: 0 12px;
-    font-size: 12px;
-  }
-
   .megaMenu1,
   .megaMenu2,
   .megaMenu3 {
@@ -520,9 +515,7 @@
   .boxSpace {
     height: auto;
   }
-}
 
-@media screen and (max-width: 991px) {
   .cross {
     top: -6%;
     right: -3%;
@@ -537,9 +530,13 @@
     width: 30%;
   }
 
-  .mblLogo {
+  .navLogo.mblLogo {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    z-index: 9999;
+    margin-top: -10px;
+    width: 50%;
+    margin-bottom: 50px;
   }
 
   .navBar {
@@ -556,7 +553,7 @@
     padding: 20px 15px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 18px;
     background-color: #272727;
     transition: all 0.5s ease-in-out;
     z-index: 9999;
@@ -567,14 +564,14 @@
   }
 
   .menu li a svg {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .menu .navList {
     height: 50px;
     width: 100%;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
   }
 
   .menu .inqBtn {
@@ -594,8 +591,9 @@
   }
 
   .menu li a {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
+    padding: 0 12px;
   }
 
   .megaList1 .megaMenu1,
@@ -630,7 +628,7 @@
   }
 
   .listBody ul li span {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .listBody p {
@@ -639,7 +637,8 @@
   }
 
   .listHeading h5 {
-    font-size: 18px;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
 
   .listHeading img {
@@ -690,7 +689,7 @@
   .backArrow {
     display: block;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 10px;
     z-index: 1;
     filter: invert(1);
@@ -702,7 +701,7 @@
   }
 
   .ourWork .workTitle {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .realDummy {
@@ -710,13 +709,26 @@
   }
 
   .megaMenu4 .megaRow {
-    row-gap: 30px;
+    row-gap: 20px;
+  }
+
+  .megaMenu4 {
+    padding: 0;
+  }
+
+  .megaRow {
+    padding: 20px 20px;
+  }
+
+  .megaRow {
+    row-gap: 20px;
   }
 
   .boxSpace {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 5px;
+    padding: 0 20px;
   }
 
   .mbInq {
@@ -725,11 +737,17 @@
   }
 
   .mbInq .ourWork .fill a {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .mbInq .ourWork .fill svg {
-    width: 20px;
+    width: 15px;
+    margin-bottom: 2px;
+  }
+
+  .workBox img {
+    width: 30px;
+    height: 25px;
   }
 }
 
