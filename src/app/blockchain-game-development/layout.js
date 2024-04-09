@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Blockchain Games Development Company | Blockchain game developers',
     description: 'Get your blockchain gaming projects off the ground with our team of experienced blockchain game developers. Connect with the top blockchain game development company today!',
-    url: '/blockchain-game-development/',
+    url: '/blockchain-game-development',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/blockchain-game-development/' },
+  alternates: { canonical: '/blockchain-game-development' },
   //===== GEO Tags =====
   other: {},
 }
