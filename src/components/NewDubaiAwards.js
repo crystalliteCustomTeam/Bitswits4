@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
-import { FaStar } from 'react-icons/fa'
+import Image from 'next/image'; 
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewDubiaAwards.module.css"
 import Slider from 'react-slick'
@@ -60,7 +59,7 @@ const NewDubaiAwards = () => {
     return (
         <>
             <section className={styles.awardSec}>
-                <div className='container'>
+                <div className='container-fluid px-lg-4'>
                     <Row className='align-items-center'>
                         <Col md={7}>
                             <div>

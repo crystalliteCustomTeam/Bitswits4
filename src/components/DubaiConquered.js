@@ -8,6 +8,7 @@ import styles from "@/styles/DubaiConquered.module.css"
 import SlideOne from "/public/newdubai/conquered1.png"
 import SlideTwo from "/public/newdubai/conquered2.png"
 import SlideThree from "/public/newdubai/conquered3.png"
+import SlideFour from "/public/newdubai/conquered4.png"
 
 const DubaiConquered = () => {
     var DubaiConquered = {
@@ -63,8 +64,8 @@ const DubaiConquered = () => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={SlideOne} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Ecommerce</h3>
+                                    <Image src={SlideFour} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Logistics</h3>
                                 </div>
                                 <div className={styles.cardHover}>
                                     <h5>Logistics</h5>
@@ -119,8 +120,8 @@ const DubaiConquered = () => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={SlideOne} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Ecommerce</h3>
+                                    <Image src={SlideFour} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Logistics</h3>
                                 </div>
                                 <div className={styles.cardHover}>
                                     <h5>Logistics</h5>

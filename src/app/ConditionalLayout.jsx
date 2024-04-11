@@ -17,6 +17,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
+import DubaiFooter from "../components/DubaiFooter";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -116,8 +117,9 @@ const ConditionalLayout = ({ children }) => {
                 pathname == "/mobile-app-development-company-lp2" ? <Footernewlp /> :
                     pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
-                            pathname == "/meet-our-team" ? null :
-                                <Footer />
+                            pathname == "/new-mobile-app-development-company-dubai-v1" ? <DubaiFooter /> :
+                                pathname == "/meet-our-team" ? null :
+                                    <Footer />
             }
         </>
     )
