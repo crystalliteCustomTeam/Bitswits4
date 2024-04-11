@@ -1,0 +1,159 @@
+.awardSec {
+    padding: 70px 0;
+}
+
+.awardsHeading {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.awardSec p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.btn a {
+    background: #F32F53;
+    border-radius: 4px;
+    height: 45px;
+    width: 246px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.pageReviews {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.pageReviews p {
+    font-size: 28px !important;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.pageReviews h4 {
+    font-size: 200px;
+    line-height: 185px;
+    font-weight: bold;
+    color: #F32F53;
+}
+
+.pageReviews .reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pageReviews .reviews .icons {
+    color: #FFB800;
+    font-size: 50px;
+}
+
+/* ========================== */
+
+.awardsliderSec {
+    padding-bottom: 60px;
+}
+
+.sliderCards {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 25px 20px;
+}
+
+.sliderTxt h6 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.sliderTxt p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.imageDiv {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1280px) {
+    .sliderCards {
+        min-height: 143px;
+        max-height: 300px;
+    }
+
+    .imageDiv {
+        min-height: 130px;
+        max-height: 130px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .awardsHeading {
+        font-size: 32px;
+    }
+
+    .awardSec p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sliderTxt p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pageReviews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .awardsliderSec {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .pageReviews p {
+        font-size: 22px !important;
+    }
+
+    .pageReviews h4 {
+        font-size: 160px;
+        line-height: 145px;
+    }
+
+    .pageReviews .reviews .icons {
+        color: #FFB800;
+        font-size: 30px;
+    }
+
+    .awardSec {
+        padding: 40px 0;
+    }
+}
+
+/* Media Query End */

@@ -1,6 +1,8 @@
 .mapGlobal {
   background-color: #f3f3f3;
   margin: 80px 0 100px;
+  position: relative;
+  height: 67vh;
 }
 
 .newtimg {
@@ -10,6 +12,7 @@
   align-items: center;
   text-align: center;
 }
+
 .map {
   width: 100%;
   height: 500px;
@@ -29,6 +32,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .timr {
   width: 220px;
   height: 45px;
@@ -41,8 +45,15 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .num {
   color: #f32f53;
+}
+
+@media only screen and (max-width: 1920px) {
+  .mapGlobal {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 1400px) {

@@ -1,23 +1,26 @@
 .team {
   background-color: white;
   position: relative;
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
+
 .loop,
 .pont {
   display: flex;
   gap: 50px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .postpoint {
   text-align: center;
 }
-.renew h3{
-  color:#F32F53;
+
+.renew h3 {
+  color: #F32F53;
   padding-bottom: 15px;
 }
+
 .success {
   font-size: 60px;
   font-weight: bold;
@@ -46,9 +49,11 @@ padding-bottom: 30px;
   .loop img {
     width: 10%;
   }
+
   .pont img {
     width: 10%;
   }
+
   .team {
     padding-bottom: 50px;
   }
@@ -62,6 +67,7 @@ padding-bottom: 30px;
   .loop img {
     width: auto;
   }
+
   .pont img {
     width: auto;
   }
@@ -104,10 +110,12 @@ padding-bottom: 30px;
     font-size: 30px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .newclassglobe {
     padding-top: 50px;
   }
+
   .team {
     text-align: center;
   }

@@ -1,0 +1,106 @@
+.DubaiDelivered {
+    padding: 80px 0;
+    background: #000;
+    position: relative;
+    height: 125vh;
+    display: flex;
+    align-items: center;
+}
+
+.DubaiDelivered h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.DubaiDelivered p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    background: #F32F53;
+    border-radius: 4px;
+    height: 45px;
+    width: 246px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.particleOne {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.particleThree {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.particleTwo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.particleFour {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* media Query start */
+
+@media only screen and (max-width: 991px) {
+
+    .particleOne {
+        display: none;
+    }
+
+    .particleThree {
+        display: none;
+    }
+
+    .particleTwo {
+        display: none;
+    }
+
+    .particleFour {
+        display: none;
+    }
+
+    .DubaiDelivered {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .DubaiDelivered h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .DubaiDelivered p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

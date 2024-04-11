@@ -1,0 +1,149 @@
+.bussinessSec {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #000;
+    position: relative;
+}
+
+.firstPara {
+    color: #F32F53 !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    line-height: 30px !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 0;
+}
+
+.bussinessSec h2 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 96px;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.bussinessSec h2 span {
+    color: #F32F53;
+}
+
+.bussinessSec .secondPara {
+    color: white;
+    line-height: 35px;
+    font-size: 20px;
+    width: 768px;
+}
+
+.bussinessSec h3 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.bussinessSec p {
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    width: 788px;
+}
+
+.btn {
+    width: 246px;
+    height: 45px;
+    background: #F32F53;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bussinessImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Media Query Start */
+@media only screen and (max-width:1920px) {
+    .bussinessImage img {
+        max-width: 650px;
+        min-width: 650px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .bussinessImage img {
+        max-width: auto;
+        min-width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .bussinessImage img {
+        max-width: 450px;
+        min-width: 390px;
+
+    }
+
+    .bussinessSec h2 {
+        font-size: 65px;
+        line-height: 75px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bussinessSec h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .bussinessSec .secondPara {
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .bussinessSec p {
+        line-height: 26px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .bussinessSec p {
+        width: 100%;
+    }
+
+    .bussinessSec .secondPara {
+        width: 100%;
+    }
+
+    .bussinessSec h3 {
+        font-size: 35px;
+    }
+
+    .bussinessSec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 567px) {
+    .bussinessSec h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bussinessSec h3 {
+        font-size: 25px;
+    }
+}

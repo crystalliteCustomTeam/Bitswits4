@@ -1,0 +1,77 @@
+.counter {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.counter h2 {
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 auto 15px;
+}
+
+.counter p {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.counter p span {
+    color: #f32f53;
+    font-weight: bold;
+}
+
+.counter a {
+    width: fit-content;
+    height: 45px;
+    width: 290px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin: 35px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .counter h2 {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 0 auto 0px;
+    }
+
+    .counter p {
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .counter h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .counter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .counter {
+        clip-path: inherit;
+    }
+}

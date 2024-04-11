@@ -1,0 +1,138 @@
+.clientSec {
+    padding: 0px 0 90px;
+}
+
+.clientSec h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 24px;
+}
+
+.clientSec span {
+    color: #F32F53;
+}
+
+.clientSec p {
+    color: black;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.trustPilot {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.trustPilot span {
+    color: #7F7F7F;
+}
+
+.trustPilot .clientsPara {
+    font-size: 17px;
+    color: #7F7F7F;
+    margin-bottom: 0;
+}
+
+.card {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 10px;
+    height: 100%;
+}
+
+.cardTop {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 0 20px 20px;
+    gap: 70px;
+}
+
+.cardTop h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardTop span {
+    font-size: 12px;
+    color: #9A9A9A;
+}
+
+.cardBottom {
+    padding: 20px 20px 0;
+}
+
+.cardBottom p {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    height: 200px;
+    padding-right: 35px;
+}
+
+/* Media Query Start */
+@media screen and (max-width: 1399px) {
+    .cardBottom p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .cardBottom p {
+        font-size: 11px;
+        line-height: 18px;
+        padding-right: 0px;
+        height: 150px;
+    }
+
+    .cardTop h6 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .cardTop span {
+        font-size: 10px;
+    }
+
+    .trustPilot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .clientSec {
+        padding: 80px 0 !important;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .clientSec {
+        padding: 50px 0;
+    }
+
+    .clientSec h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 24px;
+    }
+
+    .cardBottom p {
+        height: auto;
+    }
+
+    .clientSec p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

@@ -18,16 +18,17 @@ const Technologieslpdubai = () => {
     function fun1(tabs1) {
         setActiveTab1(tabs1);
     }
-
     return (
         <>
             <section className={styles.tech}>
                 <Container>
                     <Row>
                         <Col xl={12} className={styles.york}>
-                            <h2 className={styles.work}>Rev-Up App Development in Dubai with  Bitswits All- <br></br>Encompassing Services </h2>
-                            <p className='font16 font-normal black text-center'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p>
-                            <p className='font16 font-normal black text-center'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
+                            <h2 className={styles.work}>
+                                App Development in Dubai with Bitswits <br />
+                                All-Encompassing Services </h2>
+                            <p className='font-normal black fontsfregular'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p>
+                            <p className='font-normal black fontsfregular'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
                         </Col>
                         <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>
@@ -57,32 +58,31 @@ const Technologieslpdubai = () => {
                             {activeTab1 == 'tab1' &&
 
                                 <div className={styles.newyork}>
-
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Mobile App Development</h3>
-                                            <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
+                                            <p className='fontsfregular'>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
                                                 in Dubai.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon1} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon1} />
                                         </Col>
                                     </Row>
                                 </div>
                             }
-                            
+
                             {activeTab1 == 'tab2' &&
                                 <div className={styles.newyork}>
 
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Native App Development</h3>
-                                            <p>Develop platform-specific mobile applications and make an impact on the market while gradually capturing market share.</p>
+                                            <p className='fontsfregular'>Develop platform-specific mobile applications and make an impact on the market while gradually capturing market share.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon2} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon2} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -91,14 +91,14 @@ const Technologieslpdubai = () => {
                             {activeTab1 == 'tab3' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>
                                                 Hybrid App Development</h3>
-                                            <p>Get Hybrid or cross-platform app development with Bitswits’s app developers in UAE to build and deploy apps on multiple platforms – ensuring uniformity and a high-end user-experience.</p>
+                                            <p className='fontsfregular'>Get Hybrid or cross-platform app development with Bitswits’s app developers in UAE to build and deploy apps on multiple platforms – ensuring uniformity and a high-end user-experience.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon3} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon3} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -108,13 +108,13 @@ const Technologieslpdubai = () => {
                             {activeTab1 == 'tab4' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Product Strategy Development</h3>
-                                            <p>Strategic insights from Bitswits's expert app development consultant ensure the success of your product long before it hits the market.</p>
+                                            <p className='fontsfregular'>Strategic insights from Bitswits's expert app development consultant ensure the success of your product long before it hits the market.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon4} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon4} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -123,13 +123,13 @@ const Technologieslpdubai = () => {
                             {activeTab1 == 'tab5' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>E-Commerce App Development</h3>
-                                            <p>Get an impeccable design iterated and refined by our marketing experts, along with unprecedented functionality that generates more sales and conversions with our e-commerce apps.</p>
+                                            <p className='fontsfregular'>Get an impeccable design iterated and refined by our marketing experts, along with unprecedented functionality that generates more sales and conversions with our e-commerce apps.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon5} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon5} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -138,13 +138,13 @@ const Technologieslpdubai = () => {
                             {activeTab1 == 'tab6' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6}>
+                                        <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>B2B App Development</h3>
-                                            <p>Always business is always human to human (H2H); Bitswits's business apps are meant to streamline an organization's internal processes, i.e., communication, interactions, and more.</p>
+                                            <p className='fontsfregular'>Always business is always human to human (H2H); Bitswits's business apps are meant to streamline an organization's internal processes, i.e., communication, interactions, and more.</p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid' src={icon6} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon6} />
                                         </Col>
                                     </Row>
                                 </div>

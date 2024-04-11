@@ -110,7 +110,7 @@ const Brand = (props) => {
         <Container >
           <Row className={`${styles.newtsl} gy-3 gx-0`}>
             <Col lg={5} className={styles.imgtoken}>
-              <Image src={free} className="img-fluid" />
+              <Image src={free} width={436} height={618} className="img-fluid" />
             </Col>
             <Col lg={7}>
               <div className={styles.level}>

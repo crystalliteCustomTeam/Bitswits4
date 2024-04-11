@@ -14,7 +14,7 @@ const Latestblog = (props) => {
                             <h4 className='font40 black f-700 center'>Our Latest Blog Posts</h4>
                         </Col>
                         {props.blogBox.map((blog, index) => (
-                            <Col md={4}>
+                            <Col md={4} className='mb-lg-3'>
                                 <div key={index} className={`${styles.blogBox} d-flex flex-column gap-2 gap-lg-4 pb-3 pb-lg-5`}>
                                     <Image loading='lazy' src={blog.img} alt='BitsWits' className='img-fluid mb-2' />
                                     <div className='px-3'>

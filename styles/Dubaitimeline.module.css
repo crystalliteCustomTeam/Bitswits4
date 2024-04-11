@@ -1,0 +1,514 @@
+/* time line start */
+
+.timeline h1 {
+    text-align: center;
+    font-weight: 300;
+    color: #777
+}
+
+.timeline h1 span {
+    font-weight: 600;
+}
+
+.timelineMain {
+    width: 100%;
+    padding: 50px 0;
+    margin: 50px auto 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.timelineMain:before {
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -1px;
+    width: 100%;
+    height: 11.4%;
+    background-image: url(../public/newDubaiPagev1/timelinearrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1
+}
+
+.timeline {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+
+.timeOne::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70%;
+    width: 10px;
+    background: black;
+    bottom: -60px;
+}
+
+.timeTwo::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 31%;
+    width: 10px;
+    background: black;
+    top: 131px;
+}
+
+.timeThree::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 51%;
+    width: 10px;
+    background: black;
+    top: -276px;
+}
+
+.timeThree::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    width: 10px;
+    background: black;
+    top: 25px;
+}
+
+.spacing {
+    margin-top: -41px;
+}
+
+.spacingOne {
+    margin-top: 130px;
+}
+
+.spacingTwo {
+    margin-top: -440px;
+}
+
+.spacingThree {
+    margin-top: -540px;
+}
+
+.spacingFour {
+    margin-top: 40px;
+}
+
+.timelineRight {
+    float: right;
+}
+
+.timeLeft {
+    float: left;
+    direction: rtl;
+}
+
+.marker {
+    width: 220px;
+    height: 50px;
+    background-image: url(../public/newDubaiPagev1/timelineParticle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 51.8%;
+    transform: translateX(-50%);
+    top: 150px;
+    margin: 0 auto;
+    z-index: 9999
+}
+
+.numberOne {
+    width: 250px;
+    height: 50px;
+    background-image: url(../public/newDubaiPagev1/numberOne.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 51.8%;
+    transform: translateX(-50%);
+    top: 70px;
+    margin: 0 auto;
+    z-index: 9999
+}
+
+.numberTwo {
+    width: 250px;
+    height: 50px;
+    margin-left: -14px;
+    background-image: url(../public/newDubaiPagev1/numberTwo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    left: -48px;
+    top: 360px;
+    margin: 0 auto;
+}
+
+.numberThree {
+    width: 250px;
+    height: 50px;
+    margin-left: -14px;
+    background-image: url(../public/newDubaiPagev1/numberThree.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 51.8%;
+    transform: translateX(-50%);
+    top: -36px;
+    margin: 0 auto;
+}
+
+.numberFour {
+    width: 250px;
+    height: 50px;
+    margin-left: -14px;
+    background-image: url(../public/newDubaiPagev1/numberFour.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    left: -48px;
+    top: 258px;
+    margin: 0 auto;
+}
+
+.markerTwo {
+    width: 220px;
+    height: 50px;
+    margin-left: -50px;
+    background-image: url(../public/newDubaiPagev1/timelineParticle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    transform: rotate(-180deg);
+    z-index: 9999
+}
+
+.timelineContent {
+    width: 100%;
+    color: #666;
+    text-align: left;
+}
+
+.paddingOne {
+    padding: 0 35px 0 100px;
+}
+
+.paddingTwo {
+    padding: 0 75px 0 0px;
+}
+
+.paddingThree {
+    padding: 0 101px 0 0px;
+}
+
+.paddingFour {
+    padding: 0 35px 0 100px;
+}
+
+.paddingFive {
+    padding: 0 35px 0 100px;
+}
+
+.paddingSix {
+    padding: 0 101px 0 0px;
+}
+
+.paddingSeven {
+    padding: 0 35px;
+}
+
+.paddingEight {
+    padding: 0 35px;
+}
+
+.paddingNine {
+    padding: 0 35px;
+}
+
+.paddingTen {
+    padding: 0 35px;
+}
+
+.timelineContent h2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 18px;
+    color: black;
+}
+
+.timelineContent h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.timelineContent p {
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.timelineContent .timePara {
+    color: #3D3D3D !important;
+}
+
+.redPara {
+    color: #F32F53 !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
+}
+
+.timelineContent img {
+    object-fit: contain;
+}
+
+/* Media Query Start */
+@media screen and (max-width: 1399px) {
+    .marker {
+        left: 52%;
+    }
+
+    .timelineMain:before {
+        top: -33px;
+    }
+
+    .timeOne::after {
+        height: 72%;
+        bottom: -59px;
+        left: 49.9%;
+    }
+
+    .numberOne,
+    .numberThree {
+        left: 52%;
+    }
+
+    .timeTwo::after {
+        height: 29%;
+    }
+
+    .timeThree::after {
+        height: 47%;
+        top: 27px;
+    }
+
+    .timeThree::before {
+        height: 54%;
+        top: -296px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .timelineContent h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .timelineContent p {
+        margin-bottom: 6px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .timelineContent h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+
+    .timelineMain:before {
+        top: 0;
+    }
+
+    .marker {
+        width: 129px;
+        height: 32px;
+        left: 51.5%;
+        top: 126px;
+    }
+
+    .numberOne,
+    .numberThree {
+        left: 51.6%;
+    }
+
+    .numberTwo {
+        left: -31px;
+        top: 272px;
+    }
+
+    .numberOne {
+        top: 111px;
+    }
+
+    .numberOne,
+    .numberThree,
+    .numberTwo,
+    .numberFour {
+        width: 129px;
+        height: 32px;
+    }
+
+    .timeOne::after {
+        height: 84%;
+        bottom: -103px;
+    }
+
+    .timeTwo::after {
+        height: 20%;
+        top: 148px;
+    }
+
+    .timeThree::before {
+        height: 47%;
+        top: -260px;
+    }
+
+    .timeThree::after {
+        height: 60%;
+        top: 4px;
+    }
+
+    .spacingOne {
+        margin-top: 40px;
+    }
+
+    .spacingTwo {
+        margin-top: -250px;
+    }
+
+    .paddingOne {
+        margin-top: -11px;
+    }
+
+    .paddingOne,
+    .paddingFour {
+        padding: 0 35px 0 54px;
+    }
+
+    .timelineContent img {
+        max-width: 150px;
+        object-fit: contain;
+    }
+
+    .numberFour {
+        left: -31px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .timelineSec {
+        padding: 50px 0;
+    }
+
+    .paddingTwo {
+        margin-bottom: 50px;
+    }
+
+    .paddingTwo,
+    .paddingThree,
+    .paddingSix {
+        padding: 0 12px 0 0px;
+    }
+
+    .timelineContent h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .timelineMain:before {
+        height: 9%;
+    }
+
+    .paddingOne,
+    .paddingFour,
+    .paddingFive {
+        padding: 0px 0px 0 0px;
+    }
+
+    .marker {
+        left: 52%;
+        top: 123px;
+    }
+
+    .numberOne,
+    .numberThree {
+        left: 52%;
+    }
+
+    .timelineMain {
+        margin: 50px auto 0px;
+    }
+
+    .spacingOne,
+    .spacingTwo,
+    .spacingThree,
+    .spacingFour {
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .timelineSec {
+        padding: 50px 0 0;
+    }
+
+    .timelineMain:before {
+        left: 8px;
+        width: 2px;
+    }
+
+    .timeline {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .timelineRight {
+        float: none;
+    }
+
+    .timeLeft {
+        float: none;
+        direction: ltr;
+    }
+}

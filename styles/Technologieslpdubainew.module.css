@@ -1,24 +1,31 @@
 .tech {
-  background-color: #f3f3f3;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .work {
-  font-size: 40px;
-  text-align: center;
+  font-size: 55px;
+  line-height: 65px;
   color: black;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
+}
+
+.tech p {
+  line-height: 33px;
+  font-size: 19px;
+  padding-right: 30px;
+  margin-bottom: 22px;
 }
 
 .analpost {
   display: flex;
-  border-bottom: 1px solid #707070;
-  padding-bottom: 1%;
-  margin-top: 5%;
+  border-bottom: 2px solid #00000069;
+  padding-bottom: 7px;
+  margin-top: 2%;
   justify-content: space-between;
 }
+
 .tech {
   position: relative;
 }
@@ -28,14 +35,18 @@
   cursor: pointer;
   color: black;
   opacity: 0.5;
+  font-weight: bold;
 }
+
 .analpost div {
   padding-left: 30px;
   padding-right: 50px;
 }
+
 .analpost .active {
   color: black;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .active {
@@ -57,37 +68,42 @@
 .stook {
   color: black;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
+
 .colpont {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .newyork p {
-  font-size: 16px;
+  font-size: 19px;
   color: black;
+  line-height: 29px;
+  padding-right: 0px !important;
 }
 
 .buld {
-  width: 220px;
+  width: 246px;
   height: 45px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-weight: bold;
   background-color: #f32f53;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  border-radius: 10px;
-  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 25px;
 }
 
 @media screen and (min-width: 1400px) {
   .active:before {
-    bottom: -54%;
-  }
-  .york p {
-    padding-left: 70px;
-    padding-right: 70px;
+    bottom: -33%;
   }
 }
 
@@ -98,13 +114,23 @@
 }
 
 @media screen and (max-width: 991px) {
+  .analpost {
+    border-bottom: 0;
+  }
+
   .tech {
     padding-top: 50px;
     padding-bottom: 70px;
   }
 
+  .tech p {
+    line-height: 23px;
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
   .analpost select {
-    width: 80%;
+    width: 100%;
     height: 50px;
     padding: 0 20px;
     font-size: 24px;
@@ -114,6 +140,7 @@
     border: 1px solid #909090;
     margin: 0 auto;
   }
+
   .active::before {
     bottom: -67%;
   }
@@ -168,6 +195,7 @@
     font-size: 11px;
     cursor: pointer;
   }
+
   .work {
     margin-top: 5%;
     padding-bottom: 5%;

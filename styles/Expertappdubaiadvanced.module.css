@@ -1,18 +1,35 @@
-.newtown h2{
-  font-size: 40px;
+.newtown h2 {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
 }
 
 .expertapp {
   background-color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
+
+.expertapp p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-right: 10px;
+}
+
+.expertapp h3 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
 .appno {
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 2%;
 }
-.copy img{
+
+.copy img {
   filter: brightness(0);
 }
 
@@ -40,6 +57,7 @@
   align-items: center;
   gap: 13px;
 }
+
 .connect {
   width: 436px;
   height: 45px;
@@ -50,6 +68,7 @@
   color: white;
   font-weight: bold;
 }
+
 .offer {
   display: flex;
   justify-content: center;
@@ -60,15 +79,19 @@
   background-color: #f32f53;
   transition: all 1s ease-out;
 }
-.app:hover .copy img{
+
+.app:hover .copy img {
   filter: unset;
 }
+
 .app:hover .copy h3 {
   color: white;
 }
-.app:hover p{
+
+.app:hover p {
   color: white;
 }
+
 @media screen and (max-width: 991px) {
   .expertapp {
     padding: 0 0 80px;
