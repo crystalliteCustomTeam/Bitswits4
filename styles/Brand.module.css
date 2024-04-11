@@ -1,28 +1,18 @@
 .trandubai {
   padding-bottom: 70px;
-  position: relative;
 }
-
 .newtsl {
   align-items: end;
 }
 
 .level {
   box-shadow: rgb(0 0 0 / 9%) 0px 3px 8px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 70px;
   padding-bottom: 70px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  margin-bottom: 1%;
-  margin-left: -21px;
-  position: absolute;
-  top: 16px;
-  bottom: 0;
-  z-index: -99;
-  height: 88%;
-  width: 50%;
 }
 
 .level input[type="text"] {
@@ -33,7 +23,6 @@
   border-radius: 6px;
   padding-left: 20px;
 }
-
 .level input[type="tel"] {
   height: 52px;
   width: 50%;
@@ -42,7 +31,6 @@
   border-radius: 6px;
   padding-left: 20px;
 }
-
 .level input[type="Email"] {
   height: 52px;
   width: 50%;
@@ -51,7 +39,6 @@
   border-radius: 6px;
   padding-left: 20px;
 }
-
 .message {
   height: 120px;
   width: 100%;
@@ -62,45 +49,31 @@
   padding-top: 15px;
   resize: none;
 }
-
 .chill {
   display: flex;
-  gap: 15px;
-  margin-bottom: 15px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
-
 .level .message::placeholder {
   color: #000000;
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 400;
+  font-size: 14px;
   font-family: "SF-Pro-Display";
 }
-
 .level input[type="text"]::placeholder {
   color: #000000;
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 400;
+  font-size: 14px;
   font-family: "SF-Pro-Display";
 }
-
 .level input[type="email"]::placeholder {
   color: #000000;
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 400;
+  font-size: 14px;
   font-family: "SF-Pro-Display";
 }
-
 .level input[type="tel"]::placeholder {
   color: #000000;
-  font-size: 15px;
-  line-height: 25px;
-  font-weight: 400;
+  font-size: 14px;
   font-family: "SF-Pro-Display";
 }
-
 .level h3 {
   font-family: "SF-Pro-Display";
   font-size: 40px;
@@ -109,7 +82,6 @@
   color: black;
   padding-bottom: 15px;
 }
-
 .level h3 span {
   color: #f32f53;
 }
@@ -117,7 +89,6 @@
 .level input[type="submit"] {
   width: 190px;
   height: 45px;
-  letter-spacing: 1px;
   background-color: #f32f53;
   display: flex;
   align-items: center;
@@ -127,28 +98,19 @@
   font-weight: bold;
   border: unset;
   margin-bottom: 0;
-  margin-top: 7px;
 }
 
 .imgtoken img {
-  /* width: 85%; */
-  left: 15%;
   position: relative;
   height: auto;
 }
 
 @media screen and (max-width: 1499px) {
   .level {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 35px;
-    padding-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 1499px) {
-  .level {
-    margin-left: 25px;
+    padding-bottom: 35px;
   }
 }
 
@@ -197,11 +159,9 @@
   .level input[type="email"] {
     width: 100%;
   }
-
   .level input[type="tel"] {
     width: 100%;
   }
-
   .chill {
     display: flex;
     gap: 10px;

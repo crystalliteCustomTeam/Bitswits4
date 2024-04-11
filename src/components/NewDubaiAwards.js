@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewDubiaAwards.module.css"
 import Slider from 'react-slick'
-
 // Images
 import Star from "/public/newDubaiPagev1/star.png"
 import Slider1 from "/public/newDubaiPagev1/award1.png"
@@ -23,7 +22,7 @@ const NewDubaiAwards = () => {
         dots: false,
         autoPlay: true,
         speed: 1000,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         centerMode: false,
         variableWidth: false,
@@ -59,7 +58,7 @@ const NewDubaiAwards = () => {
     return (
         <>
             <section className={styles.awardSec}>
-                <div className='container-fluid px-lg-4'>
+                <Container>
                     <Row className='align-items-center'>
                         <Col md={7}>
                             <div>
@@ -92,11 +91,11 @@ const NewDubaiAwards = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </Container>
             </section>
             {/* award slider Start */}
             <section className={styles.awardsliderSec}>
-                <div className='container-fluid'>
+                <Container>
                     <Row>
                         <Col sm={12}>
                             <Slider {...awardSlider}>
@@ -230,7 +229,7 @@ const NewDubaiAwards = () => {
                             </Slider>
                         </Col>
                     </Row>
-                </div>
+                </Container>
             </section>
             {/* award slider Start */}
         </>

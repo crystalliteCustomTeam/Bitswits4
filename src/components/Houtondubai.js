@@ -12,7 +12,7 @@ const Processpro = () => {
             <section className={styles.houston}>
                 <Container>
                     <Row className={styles.tone}>
-                        <Col lg={5} className4='p-0'>
+                        <Col lg={5} className='p-0'>
                             <div className={`${styles.applicationlong} newfinfler`}>
                                 <Link href="#hou1">  <h3> Houston App Development Costs According To Business Size </h3> </Link>
                                 <Link href="#hou2">  <h3> Cost Of Mobile App Development In Houston For A Startup</h3>  </Link>

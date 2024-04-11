@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { Row, Col } from 'react-bootstrap'
 import styles from "@/styles/DubaiMobileApplication.module.css"
 // Images 
-import DubaiImage from "/public/newdubai/dubaiImage.png"
+import DubaiImage from "/public/newdubai/review-main.png"
+import review1 from "/public/newdubai/review1.png"
+import review2 from "/public/newdubai/review2.png"
 
 const DubaiMobileApplication = () => {
     return (
@@ -27,7 +29,11 @@ const DubaiMobileApplication = () => {
                             </div>
                         </Col>
                         <Col lg={6}>
-                            <Image src={DubaiImage} alt='Bitswits' width={743} height={610} className='img-fluid' />
+                            <div className={styles.reviewMain}>
+                                <Image src={DubaiImage} alt='Bitswits' width={743} height={610} className='img-fluid' />
+                                <Image src={review1} alt='Bitswits' className={`${styles.review1} img-fluid`} />
+                                <Image src={review2} alt='Bitswits' className={`${styles.review2} img-fluid`} />
+                            </div>
                         </Col>
                     </Row>
                 </div>
@@ -36,4 +42,4 @@ const DubaiMobileApplication = () => {
     )
 }
 
-export default DubaiMobileApplication
+export default DubaiMobileApplication 

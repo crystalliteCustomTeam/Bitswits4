@@ -2,7 +2,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
 //===== Import Components =====
-import Head from "next/head";
 import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
 //===== Meta Data =====

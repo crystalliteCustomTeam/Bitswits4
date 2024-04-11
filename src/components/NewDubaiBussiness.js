@@ -20,7 +20,7 @@ const NewDubaiBussiness = () => {
                                 We understand that you're interested in the financial aspects first and foremost. When Bitswits started, iPhone apps were just beginning to trend, the App Store was new and shiny, and Google Play was just a fraction of the marketplace it is today. Since then, apps can generate revenues ranging from thousands to millions of dollars each year. In 2020, mobile app revenue reached more than $581.9 billion.
                             </p>
                             <h3>Build A Stronger Brand</h3>
-                            <p lassName={` fontsfregular`}>The benefits of an app don’t just stop at monetary value; they are also a great way to provide value for your clients, build a stronger brand, and connect more effectively with your customers. Bitswits can help you develop a strategy that aligns with your goals and clients.</p>
+                            <p className={` fontsfregular`}>The benefits of an app don’t just stop at monetary value; they are also a great way to provide value for your clients, build a stronger brand, and connect more effectively with your customers. Bitswits can help you develop a strategy that aligns with your goals and clients.</p>
                             <div>
                                 <Link href="javascript:;" className={styles.btn}>
                                     Talk To Our Experts

@@ -109,8 +109,10 @@ const Brand = (props) => {
       <section className={styles.trandubai}>
         <Container >
           <Row className={`${styles.newtsl} gy-3 gx-0`}>
-            <Col lg={5} className={styles.imgtoken}>
-              <Image src={free} width={436} height={618} className="img-fluid" />
+            <Col lg={5}>
+              <div className={styles.imgtoken}>
+                <Image src={free} width={436} height={618} className="img-fluid" />
+              </div>
             </Col>
             <Col lg={7}>
               <div className={styles.level}>

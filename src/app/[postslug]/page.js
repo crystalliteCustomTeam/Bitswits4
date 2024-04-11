@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
+// import Head from "next/head";
 import Link from 'next/link'
 import Image from "next/image";
 import styles from '@/styles/InnerBlog.module.css'
@@ -26,7 +26,7 @@ export default function Post({ params }) {
     if (postData) {
         return (
             <>
-                <Head>
+                {/* <Head>
                     <title key="title">{postData.title}</title>
                     <meta name="description" content={postData.metaDesc} key="metadesc" />
                     <meta property="og:title" content={postData.opengraphTitle} />
@@ -35,7 +35,7 @@ export default function Post({ params }) {
                     <meta property="og:type" content={postData.opengraphType} />
                     <meta property="og:locale" content="en_IN" />
                     <meta property="og:site_name" content={postData.opengraphSiteName} />
-                </Head>
+                </Head> */}
                 <section className={styles.innerBlog}>
                     <Container>
                         <Row className="justify-content-between">
