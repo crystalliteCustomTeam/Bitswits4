@@ -73,5 +73,6 @@
     font-size: 14px;
     line-height: 24px;
     text-align: justify;
+    height: auto;
   }
 }

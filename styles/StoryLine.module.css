@@ -241,6 +241,10 @@
         width: 100%;
     }
 
+    .nonActive {
+        width: 100%;
+    }
+
     .bussinessEmpower .tabsInfo p {
         font-size: 14px;
         line-height: 24px;

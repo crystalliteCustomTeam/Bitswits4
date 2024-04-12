@@ -528,4 +528,10 @@
     .paddingTwo {
         padding: 0;
     }
+
+    .cardBg {
+        background: #efefefce;
+        border-radius: 10px;
+        padding: 20px;
+    }
 }

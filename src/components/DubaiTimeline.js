@@ -11,7 +11,6 @@ import TimelineFour from "/public/newDubaiPagev1/timeline4.png"
 import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 
 const DubaiTimeline = () => {
-
     var clientsthink = {
         dots: false,
         arrows: false,
@@ -30,7 +29,6 @@ const DubaiTimeline = () => {
             },
         ]
     };
-
     return (
         <>
             <section className={styles.timelineSec}>
@@ -117,38 +115,58 @@ const DubaiTimeline = () => {
                             </div>
                             <div className='d-lg-none d-block'>
                                 <Slider {...clientsthink}>
-                                    <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing} px-4`}>
-                                        <h3 className=''>Strategy And Concepting</h3>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            Our job at Bitswits is to take your idea and run with it, offering you a vast array of creative designs and strategies. While many development agencies will simply agree with your ideas, at Bitswits, we're here to challenge and innovate. We'll discuss how your mobile app can fit within your digital business strategy, and we'll carefully refine the design to align on a feature set that accomplishes your goals—and then some. Because we offer far more than the competition, we're able to provide well-rounded expert guidance in today's rigorous market.
-                                        </p>
+                                    <div className='px-1'>
+                                        <div className={`${styles.cardBg}`}>
+                                            <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing} `}>
+                                                <h3 className=''>Strategy And Concepting</h3>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    Our job at Bitswits is to take your idea and run with it, offering you a vast array of creative designs and strategies. While many development agencies will simply agree with your ideas, at Bitswits, we're here to challenge and innovate. We'll discuss how your mobile app can fit within your digital business strategy, and we'll carefully refine the design to align on a feature set that accomplishes your goals—and then some. Because we offer far more than the competition, we're able to provide well-rounded expert guidance in today's rigorous market.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className={`${styles.timelineContent} ${styles.spacingOne} ${styles.paddingThree} px-4`}>
-                                        <h3 className=''>Programming And Development</h3>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            Our development methodology revolves around agility. We work in two-week sprints, during which all team members focus entirely on creating the core of your app. With bi-weekly check-ins, you have the opportunity to review progress and provide feedback along the way. The result is a seamless and fluid process. We don't consider apps complete until they meet or exceed the standards set during the product concepting stages of development. That's a promise.
-                                        </p>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            We're dedicated to creating apps that leave a lasting impression, spark conversations, and above all, keep users engaged. With our international team of experts, we craft comprehensive, sleek designs that transform your idea into an app that succeeds in the marketplace.
-                                        </p>
+                                    <div className='px-1'>
+                                        <div className={`${styles.cardBg}`}>
+                                            <div className={`${styles.timelineContent} ${styles.spacingOne} ${styles.paddingThree} `}>
+                                                <h3 className=''>Programming And Development</h3>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    Our development methodology revolves around agility. We work in two-week sprints, during which all team members focus entirely on creating the core of your app. With bi-weekly check-ins, you have the opportunity to review progress and provide feedback along the way. The result is a seamless and fluid process. We don't consider apps complete until they meet or exceed the standards set during the product concepting stages of development. That's a promise.
+                                                </p>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    We're dedicated to creating apps that leave a lasting impression, spark conversations, and above all, keep users engaged. With our international team of experts, we craft comprehensive, sleek designs that transform your idea into an app that succeeds in the marketplace.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo} px-4`}>
-                                        <h3 className=''>User Experience And User Interface (UX/UI)</h3>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            Fluidity and efficiency are key factors in user retention and customer satisfaction. Our designers deliver multiple iterations of UI and UX prototypes to create wireframes that meet your requirements. We share and collaborate closely with our Android development team to ensure that all stakeholders are always on the same page. Once the user experience prototype design is finalized, our team unveils the blueprints of your app, and our developers begin their work.
-                                        </p>
+                                    <div className='px-1'>
+                                        <div className={`${styles.cardBg}`}>
+                                            <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo} `}>
+                                                <h3 className=''>User Experience And User Interface (UX/UI)</h3>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    Fluidity and efficiency are key factors in user retention and customer satisfaction. Our designers deliver multiple iterations of UI and UX prototypes to create wireframes that meet your requirements. We share and collaborate closely with our Android development team to ensure that all stakeholders are always on the same page. Once the user experience prototype design is finalized, our team unveils the blueprints of your app, and our developers begin their work.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree} px-4`}>
-                                        <h3 className=''>Branding</h3>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            Creating a unique identity and tone is essential for every great brand. Our branding capabilities allow us to adapt your brand's logos, color schemes, and associated symbolism for mobile platforms. Our Android design team seamlessly integrates user interaction, product functionality, and desired customer experience, ensuring that your app meets all requirements while maintaining your brand's essence.
-                                        </p>
+                                    <div className='px-1'>
+                                        <div className={`${styles.cardBg}`}>
+                                            <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree} `}>
+                                                <h3 className=''>Branding</h3>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    Creating a unique identity and tone is essential for every great brand. Our branding capabilities allow us to adapt your brand's logos, color schemes, and associated symbolism for mobile platforms. Our Android design team seamlessly integrates user interaction, product functionality, and desired customer experience, ensuring that your app meets all requirements while maintaining your brand's essence.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour} px-4`}>
-                                        <h3 className=''>Polish</h3>
-                                        <p className={`${styles.timePara} fontsfregular`}>
-                                            After finalizing the user interface and user experience, your app is ready to debut on the Google Play Store. However, at Bitswits, we include an additional step to ensure that your app surpasses industry standards. This is where we add transitions, animations, special touches, and any last Wishlist features to truly make your app stand out.
-                                        </p>
+                                    <div className='px-1'>
+                                        <div className={`${styles.cardBg}`}>
+                                            <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour} `}>
+                                                <h3 className=''>Polish</h3>
+                                                <p className={`${styles.timePara} fontsfregular`}>
+                                                    After finalizing the user interface and user experience, your app is ready to debut on the Google Play Store. However, at Bitswits, we include an additional step to ensure that your app surpasses industry standards. This is where we add transitions, animations, special touches, and any last Wishlist features to truly make your app stand out.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </Slider>
                             </div>

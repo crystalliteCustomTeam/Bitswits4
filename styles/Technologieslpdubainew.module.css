@@ -214,6 +214,7 @@
   .stook {
     font-size: 32px;
     line-height: 1;
+    text-align: left;
   }
 
   .tech p {
