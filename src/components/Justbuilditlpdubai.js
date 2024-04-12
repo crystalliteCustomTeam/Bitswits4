@@ -37,9 +37,8 @@ const Justbuilditlpdubai = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            {props.title}
-                            {props.para}
-
+                            <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
+                            <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
                                 <Link className={styles.about1} href="tel:8335006007">Call Now</Link>
                                 <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>

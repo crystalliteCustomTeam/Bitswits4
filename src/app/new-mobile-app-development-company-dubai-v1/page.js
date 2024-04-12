@@ -123,18 +123,9 @@ export default function gamedevelopmentcompany() {
           />
           <Expertappdubaiadvanced expertapp="expertapp" />
           <Justbuilditlpdubai
-            title={
-              <>
-                <h2 className={stylesjust.just}>Just Build It.</h2>
-              </>
-            }
-            para={
-              <>
-                <h3 className={`black center fw600`}>
-                  Design, Develop, and Grow with BitsWits.
-                </h3>
-              </>
-            }
+            title1="Just"
+            title="Build It."
+            para="Design, Develop, and Grow with BitsWits."
             slide="slide1lp"
           />
           <Globallplp6dubai />
