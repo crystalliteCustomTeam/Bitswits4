@@ -205,12 +205,19 @@
 }
 
 @media screen and (max-width: 480px) {
+  .houston {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  }
+
   .understand h2 {
     font-size: 16px;
   }
 
   .applicationlong h3 {
-    font-size: 14px;
+    font-size: 16px;
+    padding-right: 0;
   }
 
   .application h2 {

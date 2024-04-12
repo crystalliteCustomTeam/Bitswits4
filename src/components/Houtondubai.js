@@ -69,7 +69,7 @@ const Processpro = () => {
                             </div>
                         </Col>
                         <Col lg={7} className='p-0'>
-                            <div className={`${styles.posto} newscoolr`}>
+                            <div className={`${styles.posto} newscoolr `}>
                                 <div id="hou1" className={`${styles.understand} ${activeId === "#hou1" ? styles.active : ''}`}>
                                     <h2>Houston App Development Costs According To Business Size</h2>
                                     <p className='fontsfregular'>App development not only involves aesthetic designs and intuitive features. In fact, it’s more than just coding. In short, understanding the financial aspects, especially the cost of building a mobile app in Houston is equally crucial.</p>

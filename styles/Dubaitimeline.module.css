@@ -512,3 +512,20 @@
         direction: ltr;
     }
 }
+
+@media screen and (max-width: 567px) {
+    .timelineContent h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .timelineContent p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .paddingTwo {
+        padding: 0;
+    }
+}

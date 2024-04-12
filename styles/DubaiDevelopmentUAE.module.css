@@ -245,8 +245,14 @@
     }
 
     .developmentSec h2 {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .developmentSec p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
     }
 
     .dubaiSlider {

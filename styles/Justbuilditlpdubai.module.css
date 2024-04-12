@@ -6,6 +6,7 @@
 .slide2 a {
   border-radius: 10px;
 }
+
 .slide2lp6 a {
   border-radius: unset;
 }
@@ -137,6 +138,7 @@
   .develop {
     font-size: 20px;
   }
+
   .slide1lp,
   .slide2lp6,
   .slide2 {
@@ -147,5 +149,15 @@
 @media screen and (max-width: 480px) {
   .just {
     font-size: 30px;
+  }
+
+  .title {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+
+  .para {
+    font-size: 16px;
+    line-height: 26px;
   }
 }

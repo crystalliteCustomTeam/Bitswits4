@@ -69,7 +69,7 @@ export default function Expertappdubaiadvanced(props) {
                 <Container>
                     <Row className='align-items-center g-2 d-none d-lg-flex'>
                         <Col lg={12} className={styles.newtown}>
-                            <h2 className='black  f-700 center mb-5'>
+                            <h2 className='black  f-700 center mb-3 mb-md-5'>
                                 Advanced Technology Solutions for  Entrepreneurs <br /> & Businesses
                             </h2>
                         </Col>

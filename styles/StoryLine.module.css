@@ -207,6 +207,22 @@
         padding: 50px 0 50px;
     }
 
+    .bussinessEmpower h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .bussinessEmpower h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .bussinessEmpower p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
     .bussinessEmpower h5 {
         font-size: 17px;
     }
@@ -221,7 +237,13 @@
         height: 20px;
     }
 
+    .tabsInfo {
+        width: 100%;
+    }
+
     .bussinessEmpower .tabsInfo p {
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
     }
 }

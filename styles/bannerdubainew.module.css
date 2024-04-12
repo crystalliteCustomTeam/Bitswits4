@@ -319,11 +319,9 @@
 }
 
 .notice {
-  background: linear-gradient(
-    90deg,
-    rgba(243, 47, 92, 1) 0%,
-    rgba(74, 120, 239, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(243, 47, 92, 1) 0%,
+      rgba(74, 120, 239, 1) 100%);
   width: 100%;
   height: 50px;
   display: block;
@@ -665,6 +663,7 @@
 }
 
 @media screen and (max-width: 991px) {
+
   .comple1 p,
   .comple5 p {
     color: white;
@@ -829,7 +828,8 @@
 
 @media screen and (max-width: 480px) {
   .newpound {
-    margin-bottom: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .newpound {
@@ -837,8 +837,24 @@
   }
 
   .conform h2 {
-    font-size: calc(25px + 0.390625vw);
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 1.3;
+    padding-right: 0;
+  }
+
+  .newpound h4 {
+    font-size: 20px;
+  }
+
+  .newHomeBg h3 {
+    font-size: 25px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .your .value {
+    width: 100%;
   }
 
   .postimg img {
@@ -852,6 +868,7 @@
     text-align: justify;
     margin-top: 10px !important;
     margin-bottom: 45px !important;
+    padding-right: 0;
   }
 
   .deliver {

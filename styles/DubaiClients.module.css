@@ -118,21 +118,22 @@
 
 @media screen and (max-width: 567px) {
     .clientSec {
-        padding: 50px 0;
+        padding: 50px 0 !important;
     }
 
     .clientSec h2 {
-        font-size: 35px;
-        line-height: 45px;
-        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 14px;
     }
 
     .cardBottom p {
-        height: auto;
+        text-align: justify !important;
     }
 
     .clientSec p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
     }
 }

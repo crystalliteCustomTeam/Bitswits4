@@ -31,6 +31,9 @@ const Whowearenew = () => {
                             <Image src={ban3} width={368} height={374} className={`img-fluid ${styles.comm}`} />
                         </Col>
                         <Col md={4} className='p-0'>
+                            <div className={`${styles.ImageDiv}`}>
+                                <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block d-md-none`} />
+                            </div>
                             <div className={styles.travel}>
                                 <h3>Social Media App</h3>
                                 <p className='white fontsfregular'>
@@ -39,6 +42,9 @@ const Whowearenew = () => {
                             </div>
                         </Col>
                         <Col md={4} className='p-0'>
+                            <div className={`${styles.ImageDiv}`}>
+                                <Image src={ban2} width={368} height={374} className={`img-fluid mx-auto d-block d-md-none`} />
+                            </div>
                             <div className={styles.travel2}>
                                 <h3>Music App</h3>
                                 <p className='white fontsfregular'>
@@ -50,6 +56,9 @@ const Whowearenew = () => {
                             </div>
                         </Col>
                         <Col md={4} className='p-0'>
+                            <div className={`${styles.ImageDiv}`}>
+                                <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block d-md-none`} />
+                            </div>
                             <div className={styles.travel3}>
                                 <h3>Automobile App</h3>
                                 <p className='white fontsfregular'>

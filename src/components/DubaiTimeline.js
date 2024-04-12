@@ -14,6 +14,7 @@ const DubaiTimeline = () => {
 
     var clientsthink = {
         dots: false,
+        arrows: false,
         speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 1,

@@ -1,5 +1,6 @@
 .counter {
   padding: 40px 0 0;
+  height: 100%;
 }
 
 .travel {
@@ -183,8 +184,20 @@
 
 @media screen and (max-width: 480px) {
   .counter {
-    padding-top: 0px;
+    padding: 20px 0;
   }
+
+  .travel,
+  .travel2,
+  .travel3 {
+    height: auto;
+  }
+
+  .ImageDiv img:hover {
+    transform: translateY(0px);
+    transition: all ease-in-out 0.4s;
+  }
+
 
   .travel h3 {
     font-size: 25px;
@@ -195,12 +208,25 @@
   }
 
   .travel3 h3 {
-    font-size: 25px;
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .travel p,
+  .travel2 p,
+  .travel3 p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
   }
 
   .android h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
 
-    font-size: 25px;
-
+  .android p {
+    font-size: 14px;
+    line-height: 24px;
   }
 }

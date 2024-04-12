@@ -22,9 +22,9 @@ const Faqdubai = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h4 className="font40 black f-700 center pb-5">FAQs</h4>
+                            <h4 className="font40 black f-700 center pb-3 pb-md-5">FAQs</h4>
                             {props.faqsData.map((faq, index) => (
-                                <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-4 mb-lg-0`}>
+                                <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-2 mb-md-4 mb-lg-0`}>
                                     <div>
                                         <div onClick={() => toggleFaq(index)} className={`${styles.heading} newfoldpost p-3`}>
                                             <h3 className={`${faqStates[index] ? "black" : "black"} `}>

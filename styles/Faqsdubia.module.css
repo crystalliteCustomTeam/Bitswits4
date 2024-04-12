@@ -194,6 +194,10 @@
 
 @media screen and (max-width: 480px) {
 
+  .faqs h4 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
 
   .mostimg a {
     padding-left: 20px;
@@ -202,11 +206,26 @@
   }
 
   .faqs h3 {
-    font-size: 17px;
+    font-size: 16px;
+    /* padding-right: 46px; */
   }
 
-  .faqs p {
-    text-align: left;
+  .heading {
+    padding-top: 12px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .heading h3 img {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .mostimg p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
   }
 
   .comfort h2 {

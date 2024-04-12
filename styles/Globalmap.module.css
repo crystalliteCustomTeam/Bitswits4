@@ -112,3 +112,17 @@
     width: 80%;
   }
 }
+
+
+@media screen and (max-width: 567px) {
+  .newtimg h3 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .newtimg .address {
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 0;
+  }
+}

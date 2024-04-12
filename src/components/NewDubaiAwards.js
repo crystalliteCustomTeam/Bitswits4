@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'; 
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewDubiaAwards.module.css"
 import Slider from 'react-slick'
@@ -21,6 +21,7 @@ const NewDubaiAwards = () => {
     var awardSlider = {
         dots: false,
         autoPlay: true,
+        arrows: false,
         speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
