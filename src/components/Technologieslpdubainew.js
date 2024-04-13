@@ -5,12 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Technologieslpdubainew.module.css'
 import Link from 'next/link'
 //
-import icon1 from '@/public/dubailp/technology/1.webp'
-import icon2 from '@/public/dubailp/technology/2.webp'
-import icon3 from '@/public/dubailp/technology/3.webp'
-import icon4 from '@/public/dubailp/technology/4.webp'
-import icon5 from '@/public/dubailp/technology/5.webp'
-import icon6 from '@/public/dubailp/technology/6.webp'
+import icon1 from '@/public/dubailp/technology/1.png'
+import icon2 from '@/public/dubailp/technology/2.png'
+import icon3 from '@/public/dubailp/technology/3.png'
+import icon4 from '@/public/dubailp/technology/4.png'
+import icon5 from '@/public/dubailp/technology/5.png'
+import icon6 from '@/public/dubailp/technology/6.png'
 
 const Technologieslpdubai = () => {
 
@@ -66,7 +66,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon1} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={564} height={522} quality={85} src={icon1} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -82,7 +82,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon2} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={546} height={522} quality={85} src={icon2} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -98,7 +98,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon3} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={394} height={522} quality={85} src={icon3} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -114,7 +114,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon4} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={871} height={522} quality={85} src={icon4} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -129,7 +129,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon5} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={253} height={522} quality={85} src={icon5} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -144,7 +144,7 @@ const Technologieslpdubai = () => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' src={icon6} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={757} height={522} quality={85} src={icon6} />
                                         </Col>
                                     </Row>
                                 </div>
