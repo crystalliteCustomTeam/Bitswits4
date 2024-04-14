@@ -666,7 +666,7 @@ const Header = () => {
                                                         </div>
                                                         <div>
                                                             <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                                info@bitswits.com
+                                                                info@bitswits.co
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -710,7 +710,7 @@ const Header = () => {
                                         </div>
                                         <div>
                                             <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                info@bitswits.com
+                                                info@bitswits.co
                                             </Link>
                                         </div>
                                     </div>

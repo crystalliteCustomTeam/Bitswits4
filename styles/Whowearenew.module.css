@@ -184,7 +184,7 @@
 
 @media screen and (max-width: 480px) {
   .counter {
-    padding: 20px 0;
+    padding: 60px 0;
   }
 
   .travel,
@@ -215,7 +215,7 @@
   .travel p,
   .travel2 p,
   .travel3 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     text-align: justify;
   }
@@ -226,7 +226,7 @@
   }
 
   .android p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
   }
 }

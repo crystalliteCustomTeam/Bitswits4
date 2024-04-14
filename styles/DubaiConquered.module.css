@@ -107,7 +107,7 @@
 
 @media only screen and (max-width: 567px) {
   .conqueredSec {
-    padding: 50px 0 80px;
+    padding: 60px 0 90px;
   }
 
   .conqueredSec h2 {
@@ -116,7 +116,7 @@
   }
 
   .conqueredSec p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
   }
 

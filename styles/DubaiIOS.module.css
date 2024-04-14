@@ -59,7 +59,7 @@
 
 @media only screen and (max-width: 567px) {
     .iosSec {
-        padding: 50px 0;
+        padding: 70px 0;
     }
 
     .iosSec h2 {
@@ -70,7 +70,7 @@
     }
 
     .iosSec p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         text-align: justify;
     }

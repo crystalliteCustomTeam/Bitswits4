@@ -160,7 +160,7 @@
 
   .analpost div {
     color: #707070;
-    font-size: 13px;
+    font-size: 14px;
     cursor: pointer;
   }
 
@@ -191,7 +191,7 @@
 
 @media screen and (max-width: 480px) {
   .tech {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 
   .analpost div {
@@ -218,13 +218,13 @@
   }
 
   .tech p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     text-align: justify;
   }
 
   .tech {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     text-align: justify;
   }

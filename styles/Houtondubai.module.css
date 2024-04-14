@@ -212,9 +212,10 @@
   }
 
   .understand {
-    padding-left: 23px;
+    padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
+    margin:10px 12px;
   }
 
   .understand h2 {
@@ -234,6 +235,6 @@
   .application a {
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 13px;
+    font-size: 15px;
   }
 }

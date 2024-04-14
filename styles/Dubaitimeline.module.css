@@ -490,7 +490,7 @@
 @media screen and (max-width: 768px) {
 
     .timelineSec {
-        padding: 50px 0 0;
+        padding: 80px 0 0;
     }
 
     .timelineMain:before {
@@ -520,7 +520,7 @@
     }
 
     .timelineContent p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         text-align: justify;
     }

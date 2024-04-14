@@ -519,7 +519,7 @@ const HeaderMbl = () => {
                                         </div>
                                         <div>
                                             <Link className='font15 font-medium white fontf text-lowercase' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                info@bitswits.com
+                                                info@bitswits.co
                                             </Link>
                                         </div>
                                     </div>

@@ -204,7 +204,7 @@
 @media screen and (max-width: 567px) {
 
     .bussinessEmpower {
-        padding: 50px 0 50px;
+        padding: 60px 0 60px;
     }
 
     .bussinessEmpower h2 {
@@ -218,7 +218,7 @@
     }
 
     .bussinessEmpower p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         text-align: justify;
     }
@@ -246,7 +246,7 @@
     }
 
     .bussinessEmpower .tabsInfo p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         text-align: justify;
     }
