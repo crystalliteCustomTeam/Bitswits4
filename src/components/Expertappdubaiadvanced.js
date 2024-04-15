@@ -54,6 +54,7 @@ export default function Expertappdubaiadvanced(props) {
         arrows: false,
         infinite: true,
         autoplay: true,
+        dots: false,
         autoplaySpeed: 6000,
         speed: 3000,
         slidesToShow: 1,
@@ -65,7 +66,6 @@ export default function Expertappdubaiadvanced(props) {
                 settings: {
                     slidesToShow: 5,
                     dots: true,
-
                 }
             },
         ]
