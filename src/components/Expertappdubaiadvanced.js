@@ -64,7 +64,7 @@ export default function Expertappdubaiadvanced(props) {
             {
                 breakpoint: 1280,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 1,
                     dots: true,
                 }
             },
