@@ -103,7 +103,7 @@ const Bannerdubai = (props) => {
     return (
         <>
             <section className={`${styles[props.newHomeBgprops]} ${styles.DubaiBanner}`} >
-                <Container className={` ${styles.conform}`}>
+                <Container  className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost}`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
