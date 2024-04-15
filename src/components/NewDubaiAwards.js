@@ -19,9 +19,9 @@ import Slider11 from "/public/newDubaiPagev1/award11.png"
 
 const NewDubaiAwards = () => {
     var awardSlider = {
-        dots: false,
         autoPlay: true,
         arrows: false,
+        dots: true,
         speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -99,7 +99,7 @@ const NewDubaiAwards = () => {
                 <Container>
                     <Row>
                         <Col sm={12}>
-                            <Slider {...awardSlider}>
+                            <Slider {...awardSlider} className='dubaiClientSlider dubaiSliders'>
                                 <div className='px-2'>
                                     <div className={styles.sliderCards}>
                                         <div className={styles.imageDiv}>
