@@ -60,11 +60,10 @@
     padding-top: 14px;
 }
 
-/* .bussinessEmpower .storyLineImages {
-    width: 75%;
-    margin-left: auto;
-    display: block;
-} */
+.bussinessEmpower .storyLineImages {
+    object-fit: contain;
+    max-height: 600px;
+}
 
 .isActive {
     border-bottom: 1px solid #F32F53;

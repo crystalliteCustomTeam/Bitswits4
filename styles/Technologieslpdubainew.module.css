@@ -155,8 +155,15 @@
     gap: 20px 0;
   }
 
+  .analpost div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .active::before {
     bottom: -22%;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .analpost .active {

@@ -35,7 +35,20 @@ const DubaiTimeline = () => {
                 <div className='container'>
                     <Row>
                         <Col lg={12}>
-                            <div className='d-lg-block d-none'>
+                            <div className={`${styles.timelineContent} d-block d-lg-none`}>
+                                <p className={`${styles.redPara} fontsfregular`}>The Process </p>
+                                <h2>Mobile App Development Company In Dubai</h2>
+                                <p className='fontsfregular'>We are a digital transformation strategy company that goes beyond just developing mobile apps and digital products. We ensure that your product not only succeeds at launch but also has a growth plan in place to maintain its success for years to come.</p>
+                                <p className='fontsfregular'>
+                                    Our team of expert product managers focuses on retention to maximize your return on investment. Our app developers understand the importance of a robust analytics environment, allowing you to gain detailed insights into how people are using your app.
+                                </p>
+                                <p className='fontsfregular'>
+                                    This approach sets your team up for long-term success, enabling you to continuously optimize your app for growth and improvement.
+                                </p>
+                            </div>
+                        </Col>
+                        <Col lg={12}>
+                            <div className=''>
                                 <div className={styles.timelineMain}>
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
@@ -46,7 +59,7 @@ const DubaiTimeline = () => {
                                             </p>
                                         </div>
                                         <div className={styles.marker}></div>
-                                        <div className={`${styles.timelineContent} ${styles.paddingTwo}`}>
+                                        <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
                                             <p className={`${styles.redPara} fontsfregular`}>The Process </p>
                                             <h2>Mobile App Development Company In Dubai</h2>
                                             <p className='fontsfregular'>We are a digital transformation strategy company that goes beyond just developing mobile apps and digital products. We ensure that your product not only succeeds at launch but also has a growth plan in place to maintain its success for years to come.</p>
@@ -69,7 +82,8 @@ const DubaiTimeline = () => {
                                                 We're dedicated to creating apps that leave a lasting impression, spark conversations, and above all, keep users engaged. With our international team of experts, we craft comprehensive, sleek designs that transform your idea into an app that succeeds in the marketplace.
                                             </p>
                                         </div>
-                                        <div className={styles.numberTwo}></div>
+                                        <div className={`d-lg-block d-none ${styles.numberTwo}`}></div>
+                                        <div className={`d-lg-none d-block ${styles.numberTwoMobile}`}></div>
                                         <div className={styles.numberOne}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo}`}>
                                             <Image src={TimelineTwo} alt='Bitswits' width={184} height={100} />
@@ -88,7 +102,8 @@ const DubaiTimeline = () => {
                                             </p>
                                         </div>
                                         <div className={styles.numberThree}></div>
-                                        <div className={styles.numberFour}></div>
+                                        <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
+                                        <div className={`d-lg-none d-block ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour}`}>
                                             <Image src={TimelineFour} width={207} height={202} alt='Bitswits' />
                                             <h3 className=''>Polish</h3>
@@ -99,7 +114,7 @@ const DubaiTimeline = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='d-lg-none d-block'>
+                            <div className='d-none '>
                                 <div className={`${styles.timelineContent} ${styles.paddingTwo}`}>
                                     <p className={`${styles.redPara} fontsfregular`}>The Process </p>
                                     <h2>Mobile App Development Company In Dubai</h2>
@@ -113,7 +128,7 @@ const DubaiTimeline = () => {
                                 </div>
 
                             </div>
-                            <div className='d-lg-none d-block'>
+                            <div className='d-none'>
                                 <Slider {...clientsthink} className='dubaiClientSlider'>
                                     <div className='px-1'>
                                         <div className={`${styles.cardBg}`}>

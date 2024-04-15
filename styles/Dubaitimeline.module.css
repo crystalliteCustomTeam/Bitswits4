@@ -447,6 +447,7 @@
     .paddingThree,
     .paddingSix {
         padding: 0 12px 0 0px;
+        margin-bottom: 50px;
     }
 
     .timelineContent h2 {
@@ -455,18 +456,19 @@
     }
 
     .timelineMain:before {
-        height: 9%;
+        height: 4%;
+        top: 63px;
     }
 
     .paddingOne,
     .paddingFour,
     .paddingFive {
         padding: 0px 0px 0 0px;
+        margin-bottom: 50px;
     }
 
     .marker {
-        left: 52%;
-        top: 123px;
+        top: 34%;
     }
 
     .numberOne,
@@ -485,6 +487,109 @@
         margin-top: 0px;
     }
 
+    .timeLeft {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .timelineRight {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .timeThree {
+        flex-direction: column !important;
+    }
+
+
+    .timeOne::after,
+    .timeTwo::after,
+    .timeThree::before,
+    .timeThree::after {
+        left: 17.5px;
+    }
+
+    .timelineMain:before {
+        left: 18px;
+    }
+
+    .timeOne::after {
+        bottom: -42%;
+        width: 4px;
+        height: 95%;
+    }
+
+    .timeTwo::after {
+        height: 46%;
+        top: 21%;
+        width: 4px;
+    }
+
+    .timeThree::after {
+        height: 55%;
+        top: -27%;
+        width: 4px;
+    }
+
+    .timeThree::before {
+        height: 43%;
+        top: 34%;
+        width: 4px;
+    }
+
+    .numberThree {
+        top: 29%;
+    }
+
+    .marker,
+    .numberOne,
+    .numberTwo,
+    .numberThree,
+    .numberFour {
+        left: 32px;
+    }
+
+    .numberOne {
+        top: 15.5%;
+    }
+
+    .numberTwoMobile {
+        width: 129px;
+        height: 32px;
+        margin-left: -14px;
+        background-image: url(../public/newDubaiPagev1/numberTwoMob.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 48px;
+        transform: translateX(-50%);
+        top: 68.2%;
+    }
+
+    .numberFourMobile {
+        width: 129px;
+        height: 32px;
+        margin-left: -14px;
+        background-image: url(../public/newDubaiPagev1/numberFourMob.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 48px;
+        transform: translateX(-50%);
+        top: 78.5%;
+    }
+
+    .paddingOne,
+    .paddingTwo,
+    .paddingThree,
+    .paddingFour,
+    .paddingFive,
+    .paddingSix {
+        padding: 11px 12px 0 70px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -494,8 +599,49 @@
     }
 
     .timelineMain:before {
-        left: 8px;
-        width: 2px;
+        left: 17px;
+        width: 20px;
+        top: 56px;
+    }
+
+    .marker {
+        top: 37%;
+    }
+
+    .timeOne::after {
+        bottom: -50%;
+        height: 98%;
+    }
+
+    .numberOne {
+        top: 15.4%;
+    }
+
+    .numberTwoMobile {
+        top: 63.6%;
+    }
+
+    .numberFourMobile {
+        top: 76.5%;
+    }
+
+    .paddingOne,
+    .paddingFour,
+    .paddingFive {
+        margin-bottom: 0;
+    }
+
+    .timeThree::before {
+        height: 41%;
+    }
+
+    .timeThree::after {
+        height: 63%;
+        top: -35%;
+    }
+
+    .timeTwo::after {
+        height: 40%;
     }
 
     .timeline {
@@ -518,13 +664,26 @@
         padding-bottom: 30px;
     }
 
+    .timelineMain {
+        margin: 0px auto 0px;
+    }
+
+    .paddingOne,
+    .paddingTwo,
+    .paddingThree,
+    .paddingFour,
+    .paddingFive,
+    .paddingSix {
+        padding: 0px 12px 0 70px;
+    }
+
     .timelineContent h2 {
         font-size: 32px;
         line-height: 1.3;
     }
 
     .timelineContent p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         text-align: justify;
     }
@@ -537,5 +696,68 @@
         background: #efefefce;
         border-radius: 10px;
         padding: 20px;
+    }
+
+    .timelineMain:before {
+        height: 3%;
+        top: 39px;
+        left: 23px;
+    }
+
+    .timeOne::after,
+    .timeTwo::after,
+    .timeThree::after,
+    .timeThree::before {
+        left: 21.5px;
+    }
+
+    .timeOne::after {
+        bottom: -29%;
+        height: 102%;
+    }
+
+    .timeTwo::after {
+        height: 42%;
+        top: 12%;
+    }
+
+    .timeThree::after {
+        height: 45%;
+        top: 26%;
+    }
+
+    .timeThree::before {
+        height: 76%;
+        top: -54%;
+    }
+
+    .marker {
+        width: 119px;
+        height: 22px;
+        top: 20%;
+    }
+
+    .numberOne,
+    .numberThree,
+    .numberTwoMobile,
+    .numberFourMobile {
+        width: 119px;
+        height: 22px;
+    }
+
+    .numberOne {
+        top: 9.5%;
+    }
+
+    .numberTwoMobile {
+        top: 56%;
+    }
+
+    .numberThree {
+        top: 22.5%;
+    }
+
+    .numberFourMobile {
+        top: 71.5%;
     }
 }

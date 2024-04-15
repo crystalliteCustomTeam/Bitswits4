@@ -21,10 +21,10 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import StoryLine1 from "/public/newDubaiPagev1/storyLine1.png";
-import StoryLine2 from "/public/images/iosbanner/who_image2.png";
-import StoryLine3 from "/public/fluttermobiledevelopment/who_image2.png";
-import StoryLine4 from "/public/images/game2dbanner/bann2.png";
-import StoryLine5 from "/public/blockchaindevelopment/images/engageduplicate.png";
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -75,22 +75,22 @@ export default function gamedevelopmentcompany() {
     },
     {
       question: 'Iphone App Development In Dubai',
-      answer: "Step into a realm of immersive storytelling with our cutting-edge 3D animations. Elevate your visual narratives, whether for product showcases, virtual tours, or cinematic experiences.",
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
       StoryLineImg: StoryLine2
     },
     {
       question: 'Flutter App Development In Dubai',
-      answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
       StoryLineImg: StoryLine3
     },
     {
       question: 'Game App Development In Dubai',
-      answer: "Transform your content into visual masterpieces with our motion graphics. Every movement is a brushstroke of dynamic storytelling, enhancing your brand's visual appeal.",
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
       StoryLineImg: StoryLine4
     },
     {
       question: 'Blockchain Game Development In Dubai',
-      answer: "Refine your raw footage into cinematic brilliance with our video editing services. Every cut and transition is a stroke of storytelling precision, enhancing your visual narratives.",
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
       StoryLineImg: StoryLine5
     },
   ];
@@ -103,82 +103,82 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerdubai newHomeBgprops="newHomeBg" />
-      {showFolds &&
-        <>
-          <NewDubaiAwards />
-          <DubiaDevelopers />
-          <DubaiDelivered />
-          <DubaiTimeline />
-          <DubaiClients />
-          <StoryLine content={storyLine} />
-          <Whowearenew />
-          <Delivered />
-          <DeliveredBlack />
-          <Technologieslpdubainew />
-          <NewDubaiBussiness />
-          <DubaiDevelopment />
-          <DubaiDevelopmentUAE />
-          <DubaiIOS />
-          <DubaiAndriod />
-          <DubaiMobileApplication />
-          <DubaiConquered />
-          <LpChoosedubaishipnewdubai
-            transform="transformlp"
-          />
-          <Expertappdubaiadvanced expertapp="expertapp" />
-          <Justbuilditlpdubai
-            title1="Just"
-            title="Build It."
-            para="Design, Develop, and Grow with BitsWits."
-            slide="slide1lp"
-          />
-          <Globallplp6dubai />
-          <Globalmap />
-          <Brand />
-          <Houtondubai />
-          <Faqdubai
-            faqsData={[
-              {
-                question:
-                  "How can I launch an app in the UAE?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question: "How much time is required to build a mobile application?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "How much does it cost to create an app in Dubai?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "What is a mobile app support service, and does Bitswits offer it?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
+      {/* {showFolds && */}
+      <>
+        <NewDubaiAwards />
+        <DubiaDevelopers />
+        <DubaiDelivered />
+        <DubaiTimeline />
+        <DubaiClients />
+        <StoryLine content={storyLine} />
+        <Whowearenew />
+        <Delivered />
+        <DeliveredBlack />
+        <Technologieslpdubainew />
+        <NewDubaiBussiness />
+        <DubaiDevelopment />
+        <DubaiDevelopmentUAE />
+        <DubaiIOS />
+        <DubaiAndriod />
+        <DubaiMobileApplication />
+        <DubaiConquered />
+        <LpChoosedubaishipnewdubai
+          transform="transformlp"
+        />
+        <Expertappdubaiadvanced expertapp="expertapp" />
+        <Justbuilditlpdubai
+          title1="Just"
+          title="Build It."
+          para="Design, Develop, and Grow with BitsWits."
+          slide="slide1lp"
+        />
+        <Globallplp6dubai />
+        <Globalmap />
+        <Brand />
+        <Houtondubai />
+        <Faqdubai
+          faqsData={[
+            {
+              question:
+                "How can I launch an app in the UAE?",
+              answer: (
+                <>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </>
+              ),
+            },
+            {
+              question: "How much time is required to build a mobile application?",
+              answer: (
+                <>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </>
+              ),
+            },
+            {
+              question:
+                "How much does it cost to create an app in Dubai?",
+              answer: (
+                <>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </>
+              ),
+            },
+            {
+              question:
+                "What is a mobile app support service, and does Bitswits offer it?",
+              answer: (
+                <>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </>
+              ),
+            },
 
-            ]}
-          />
-          <Latestblog blogBox={blogBox} />
-        </>
-      }
+          ]}
+        />
+        <Latestblog blogBox={blogBox} />
+      </>
+      {/* } */}
     </>
   );
 }
