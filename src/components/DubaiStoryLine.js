@@ -89,7 +89,7 @@ const StoryLine = ({ content }) => {
                         <div>
                             {activeIndex !== null && (
                                 <figure className="relative">
-                                    <Image className={`img-fluid mx-auto mt-sm-0 mt-5`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
+                                    <Image className={`img-fluid mt-sm-0 mt-5 ${styles.storyLineImages}`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
                                 </figure>
                             )}
                         </div>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewDubiaAwards.module.css"
 import Slider from 'react-slick'
-// Images
+// Images    
 import Star from "/public/newDubaiPagev1/star.png"
 import Slider1 from "/public/newDubaiPagev1/award1.png"
 import Slider2 from "/public/newDubaiPagev1/award2.png"
@@ -118,7 +118,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>Dot Comm</h6>
-                                            <p className='mb-0 fontsfregular'>Excellence in Web Creativity & <br className='d-xl-block d-none' /> Digital Communication</p>
+                                            <p className='mb-0 fontsfregular'>Excellence in Web Creativity & <br className='d-xxl-block d-none' /> Digital Communication</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>INC. 5000</h6>
-                                            <p className='mb-0 fontsfregular'>America's Fastest Growing <br className='d-xl-block d-none' /> Companies</p>
+                                            <p className='mb-0 fontsfregular'>America's Fastest Growing <br className='d-xxl-block d-none' /> Companies</p>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>Rank Watch</h6>
-                                            <p className='mb-0 fontsfregular'>Top Web Development <br className='d-xl-block d-none' />
+                                            <p className='mb-0 fontsfregular'>Top Web Development <br className='d-xxl-block d-none' />
                                                 Agencies 2023</p>
                                         </div>
                                     </div>
@@ -176,7 +176,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>Right firms</h6>
-                                            <p className='mb-0 fontsfregular'>Top Mobile App Development <br className='d-xl-block d-none' /> Company 2023</p>
+                                            <p className='mb-0 fontsfregular'>Top Mobile App Development <br className='d-xxl-block d-none' /> Company 2023</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>Top Developers</h6>
-                                            <p className='mb-0 fontsfregular'>Top Entertainment App <br className='d-xl-block d-none' />
+                                            <p className='mb-0 fontsfregular'>Top Entertainment App <br className='d-xxl-block d-none' />
                                                 Developers</p>
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@ const NewDubaiAwards = () => {
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <h6>Top Rated</h6>
-                                            <p className='mb-0 fontsfregular'>Top App Development <br className='d-xl-block d-none' /> Companies</p>
+                                            <p className='mb-0 fontsfregular'>Top App Development <br className='d-xxl-block d-none' /> Companies</p>
                                         </div>
                                     </div>
                                 </div>

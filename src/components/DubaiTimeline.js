@@ -13,7 +13,7 @@ import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 const DubaiTimeline = () => {
     var clientsthink = {
         dots: false,
-        arrows: false,
+        arrows: true,
         speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -114,7 +114,7 @@ const DubaiTimeline = () => {
 
                             </div>
                             <div className='d-lg-none d-block'>
-                                <Slider {...clientsthink}>
+                                <Slider {...clientsthink} className='dubaiClientSlider'>
                                     <div className='px-1'>
                                         <div className={`${styles.cardBg}`}>
                                             <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing} `}>

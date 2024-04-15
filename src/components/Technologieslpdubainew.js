@@ -30,7 +30,7 @@ const Technologieslpdubai = () => {
                             <p className='font-normal black fontsfregular'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p>
                             <p className='font-normal black fontsfregular'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
                         </Col>
-                        <Col xl={12} className='mb-5 d-none d-lg-block'>
+                        <Col xl={12} className='mb-5 d-block'>
                             <div className={styles.analpost}>
                                 <div className={activeTab1 == 'tab1' ? styles.active : styles.new1} onClick={() => fun1('tab1')} href="#">Mobile App</div>
                                 <div className={activeTab1 == 'tab2' ? styles.active : styles.new1} onClick={() => fun1('tab2')} href="#">Native App</div>
@@ -40,8 +40,7 @@ const Technologieslpdubai = () => {
                                 <div className={activeTab1 == 'tab6' ? styles.active : styles.new1} onClick={() => fun1('tab6')} href="#">B2B App</div>
                             </div>
                         </Col>
-
-                        <Col xl={12} className='mb-5 d-block d-lg-none'>
+                        <Col xl={12} className='mb-5 d-none'>
                             <div className={styles.analpost}>
                                 <select onChange={(e) => setActiveTab1(e.target.value)}>
                                     <option className={styles.selOpt} value="tab1" label='Mobile App'>Mobile App</option>
@@ -53,10 +52,8 @@ const Technologieslpdubai = () => {
                                 </select>
                             </div>
                         </Col>
-
                         <Col xl={12}>
                             {activeTab1 == 'tab1' &&
-
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
@@ -103,7 +100,6 @@ const Technologieslpdubai = () => {
                                     </Row>
                                 </div>
                             }
-
 
                             {activeTab1 == 'tab4' &&
                                 <div className={styles.newyork}>

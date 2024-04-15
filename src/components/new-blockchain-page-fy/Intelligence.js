@@ -57,8 +57,6 @@ const Intelligence = (props) => {
                             <p className="font_17 white fontsfregular pt-2 pb-2">Bitswits designs and integrates custom Blockchain Applications into existing enterprise systems for businesses to leverage a safe, <br /> secure environment for diverse business transactions.</p>
                         </Col>
 
-
-
                         {isSliderActive ?
                             <>
                                 <h3 className="font_30 font-bold newfycolr">Blockchain Application Development</h3>
@@ -97,9 +95,7 @@ const Intelligence = (props) => {
                                 </Slider>
                             </>
                             :
-
                             <Col lg={7}>
-
                                 <h3 className="font_30 font-bold newfycolr">Blockchain Application Development</h3>
                                 <p className="font_15 linehight_1 white fontsfregular pt-2">We leverage third-party blockchain software solutions to develop protected, trusted, and scalable Blockchain Applications designed to support a wide range of plugins, reduce losses, avoid fraud, eliminate expensive intermediary fees, boost local & international trade, distribute sensitive information, and so much more in a centralized platform.</p>
 
@@ -129,12 +125,7 @@ const Intelligence = (props) => {
                                         <h3 className="font_20 newfycolr font-bold pb-2">Cut Intermediary Costs</h3>
                                         <p className={`${styles.create} font_15 fontsfregular linehight_1 white`}>We develop public and private blockchains for applications to exchange data records, status updates, payments, and other transaction information without added financial restraints.</p>
                                     </div>
-                                </div>
-
-
-
-
-
+                                </div> 
                             </Col>
                         }
                         <Col lg={5}>

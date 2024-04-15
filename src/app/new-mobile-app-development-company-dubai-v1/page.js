@@ -21,6 +21,10 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import StoryLine1 from "/public/newDubaiPagev1/storyLine1.png";
+import StoryLine2 from "/public/images/iosbanner/who_image2.png";
+import StoryLine3 from "/public/fluttermobiledevelopment/who_image2.png";
+import StoryLine4 from "/public/images/game2dbanner/bann2.png";
+import StoryLine5 from "/public/blockchaindevelopment/images/engageduplicate.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -70,24 +74,24 @@ export default function gamedevelopmentcompany() {
       StoryLineImg: StoryLine1,
     },
     {
-      question: 'iphone App Development In Dubai',
+      question: 'Iphone App Development In Dubai',
       answer: "Step into a realm of immersive storytelling with our cutting-edge 3D animations. Elevate your visual narratives, whether for product showcases, virtual tours, or cinematic experiences.",
-      StoryLineImg: StoryLine1
+      StoryLineImg: StoryLine2
     },
     {
       question: 'Flutter App Development In Dubai',
       answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
-      StoryLineImg: StoryLine1
+      StoryLineImg: StoryLine3
     },
     {
       question: 'Game App Development In Dubai',
       answer: "Transform your content into visual masterpieces with our motion graphics. Every movement is a brushstroke of dynamic storytelling, enhancing your brand's visual appeal.",
-      StoryLineImg: StoryLine1
+      StoryLineImg: StoryLine4
     },
     {
       question: 'Blockchain Game Development In Dubai',
       answer: "Refine your raw footage into cinematic brilliance with our video editing services. Every cut and transition is a stroke of storytelling precision, enhancing your visual narratives.",
-      StoryLineImg: StoryLine1
+      StoryLineImg: StoryLine5
     },
   ];
   const storyLine = {

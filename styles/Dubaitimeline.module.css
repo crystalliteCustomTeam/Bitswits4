@@ -514,6 +514,10 @@
 }
 
 @media screen and (max-width: 567px) {
+    .timelineSec {
+        padding-bottom: 30px;
+    }
+
     .timelineContent h2 {
         font-size: 32px;
         line-height: 1.3;

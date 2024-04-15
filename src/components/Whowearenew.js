@@ -57,7 +57,7 @@ const Whowearenew = () => {
                         </Col>
                         <Col md={4} className='p-0'>
                             <div className={`${styles.ImageDiv}`}>
-                                <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block d-md-none`} />
+                                <Image src={ban3} width={368} height={374} className={`img-fluid mx-auto d-block d-md-none`} />
                             </div>
                             <div className={styles.travel3}>
                                 <h3>Automobile App</h3>

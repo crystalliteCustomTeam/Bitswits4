@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
 import styles from "@/styles/DubaiDevelopers.module.css"
 
-// Images
+// Images     
 import Building from "/public/newDubaiPagev1/builingImage.png"
 
 const DubiaDevelopers = () => {
