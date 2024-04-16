@@ -321,26 +321,26 @@ export default function gamedevelopmentcompany() {
   }
   return (
     <>
-      <Bannerdubai newHomeBgprops="newHomeBg" />
+      <Bannerdubai content={Banner} />
       {/* {showFolds && */}
       <>
-        <NewDubaiAwards />
-        <DubiaDevelopers />
-        <DubaiDelivered />
-        <DubaiTimeline />
-        <DubaiClients />
+        <NewDubaiAwards content={Award} />
+        <DubiaDevelopers content={Development} />
+        <DubaiDelivered content={DeliveredContent} />
+        <DubaiTimeline content={timeline} />
+        <DubaiClients content={ClientContent} />
         <StoryLine content={storyLine} />
-        <Whowearenew />
-        <Delivered />
-        <DeliveredBlack />
-        <Technologieslpdubainew />
-        <NewDubaiBussiness />
-        <DubaiDevelopment />
-        <DubaiDevelopmentUAE />
-        <DubaiIOS />
-        <DubaiAndriod />
-        <DubaiMobileApplication />
-        <DubaiConquered />
+        <Whowearenew content={WhoWeAre} />
+        <Delivered content={delivered} />
+        <DeliveredBlack content={deliveredBlack} />
+        <Technologieslpdubainew content={technologies} />
+        <NewDubaiBussiness content={BussinessContent} />
+        <DubaiDevelopment content={compareContent} />
+        <DubaiDevelopmentUAE content={developmentUAE} />
+        <DubaiIOS content={IOSContent} />
+        <DubaiAndriod content={andriodContent} />
+        <DubaiMobileApplication content={MobileApplication} />
+        <DubaiConquered content={Conquered} />
         <LpChoosedubaishipnewdubai
           transform="transformlp"
         />
@@ -397,7 +397,6 @@ export default function gamedevelopmentcompany() {
         />
         <Latestblog blogBox={blogBox} />
       </>
-      {/* } */}
     </>
   );
 }

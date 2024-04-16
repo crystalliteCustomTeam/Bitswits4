@@ -153,7 +153,7 @@ export default function gamedevelopmentcompany() {
   const ClientContent = {
     title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Dubai</>,
     desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
-  } 
+  }
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
@@ -322,26 +322,26 @@ export default function gamedevelopmentcompany() {
   }
   return (
     <>
-      <Bannerdubai newHomeBgprops="newHomeBg" />
+      <Bannerdubai content={Banner} />
       {/* {showFolds && */}
       <>
-        <NewDubaiAwards />
-        <DubiaDevelopers />
-        <DubaiDelivered />
-        <DubaiTimeline />
-        <DubaiClients />
+        <NewDubaiAwards content={Award} />
+        <DubiaDevelopers content={Development} />
+        <DubaiDelivered content={DeliveredContent} />
+        <DubaiTimeline content={timeline} />
+        <DubaiClients content={ClientContent} />
         <StoryLine content={storyLine} />
-        <Whowearenew />
-        <Delivered />
-        <DeliveredBlack />
-        <Technologieslpdubainew />
-        <NewDubaiBussiness />
-        <DubaiDevelopment />
-        <DubaiDevelopmentUAE />
-        <DubaiIOS />
-        <DubaiAndriod />
-        <DubaiMobileApplication />
-        <DubaiConquered />
+        <Whowearenew content={WhoWeAre} />
+        <Delivered content={delivered} />
+        <DeliveredBlack content={deliveredBlack} />
+        <Technologieslpdubainew content={technologies} />
+        <NewDubaiBussiness content={BussinessContent} />
+        <DubaiDevelopment content={compareContent} />
+        <DubaiDevelopmentUAE content={developmentUAE} />
+        <DubaiIOS content={IOSContent} />
+        <DubaiAndriod content={andriodContent} />
+        <DubaiMobileApplication content={MobileApplication} />
+        <DubaiConquered content={Conquered} />
         <LpChoosedubaishipnewdubai
           transform="transformlp"
         />
@@ -398,7 +398,6 @@ export default function gamedevelopmentcompany() {
         />
         <Latestblog blogBox={blogBox} />
       </>
-      {/* } */}
     </>
   );
 }
