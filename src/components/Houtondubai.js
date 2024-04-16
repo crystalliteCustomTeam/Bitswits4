@@ -6,9 +6,22 @@ import styles from "@/styles/Houtondubai.module.css";
 //
 import newcom from "@/public/newdubai/newcom.png"
 
+const links = [
+    { id: '#hou1', label: 'Houston App Development Costs According To Business Size' },
+    { id: '#hou2', label: 'Cost Of Mobile App Development In Houston For A Startup' },
+    { id: '#hou3', label: 'Cost Of Mobile App Development In Houston For Mid-Sized Businesses' },
+    { id: '#hou4', label: 'Cost Of App Development In Houston For Enterprises' },
+    { id: '#hou5', label: 'Cost Of App Development In Houston For Individuals' },
+    { id: '#hou6', label: 'Mobile App Development Costs For B2B Clients' },
+    { id: '#hou7', label: 'Mobile App Development Costs For B2C Customers' },
+    { id: '#hou8', label: 'Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities' },
+    { id: '#hou9', label: 'Unlocking Houston’s Digital Potential – Trango Tech’s Footprint' }
+];
+
 const Processpro = () => {
 
-    const [activeId, setActiveId] = useState(null);
+    const [activeId, setActiveId] = useState('');
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
@@ -32,41 +45,44 @@ const Processpro = () => {
         };
     }, []);
 
+
+    const handleNavigation = (e) => {
+        setActiveId(e.target.value);
+    };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 992);
+        };
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     return (
         <>
             <section className={styles.houston}>
                 <Container>
                     <Row className={styles.tone}>
-                        <Col lg={5} className='p-0'>
-                            <div className={`${styles.applicationlong} newfinfler d-md-block d-none`}>
-                                <Link href="#hou1" className={activeId === "#hou1" ? styles.active : ''}>
-                                    <h3> Houston App Development Costs According To Business Size</h3>
-                                </Link>
-                                <Link href="#hou2" className={activeId === "#hou2" ? styles.active : ''}>
-                                    <h3> Cost Of Mobile App Development In Houston For A Startup</h3>
-                                </Link>
-                                <Link href="#hou3" className={activeId === "#hou3" ? styles.active : ''}>
-                                    <h3>Cost Of Mobile App Development In Houston For Mid-Sized Businesses</h3>
-                                </Link>
-                                <Link href="#hou4" className={activeId === "#hou4" ? styles.active : ''}>
-                                    <h3>Cost Of App Development In Houston For Enterprises</h3>
-                                </Link>
-                                <Link href="#hou5" className={activeId === "#hou5" ? styles.active : ''}>
-                                    <h3>Cost Of App Development In Houston For Individuals</h3>
-                                </Link>
-                                <Link href="#hou6" className={activeId === "#hou6" ? styles.active : ''}>
-                                    <h3>Mobile App Development Costs For B2B Clients</h3>
-                                </Link>
-                                <Link href="#hou7" className={activeId === "#hou7" ? styles.active : ''}>
-                                    <h3>Mobile App Development Costs For B2C Customers</h3>
-                                </Link>
-                                <Link href="#hou8" className={activeId === "#hou8" ? styles.active : ''}>
-                                    <h3>Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities</h3>
-                                </Link>
-                                <Link href="#hou9" className={activeId === "#hou9" ? styles.active : ''}>
-                                    <h3>Unlocking Houston’s Digital Potential – Trango Tech’s Footprint</h3>
-                                </Link>
-                            </div>
+                        <Col lg={5} className='p-0 text-center'>
+                            {isMobile ? (
+                                <select value={activeId} onChange={handleNavigation}>
+                                    {links.map((link) => (
+                                        <option key={link.id} value={link.id}>
+                                            {link.label}
+                                        </option>
+                                    ))}
+                                </select>
+                            ) : (
+                                <div className={`${styles.applicationlong} newfinfler`}>
+                                    {links.map((link) => (
+                                        <Link key={link.id} href={link.id} className={activeId === link.id ? styles.active : ''}>
+                                            <h3>{link.label}</h3>
+                                        </Link>
+                                    ))}
+                                </div>
+                            )}
                         </Col>
                         <Col lg={7} className='p-0'>
                             <div className={`${styles.posto} newscoolr d-md-block`}>
