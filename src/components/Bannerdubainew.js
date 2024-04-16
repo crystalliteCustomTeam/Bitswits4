@@ -11,7 +11,7 @@ import BannerImage from "@/public/newdubai/aroow.png"
 const backgroundClass = `${styles.newHomeBg}`;
 
 const Bannerdubai = ({ content }) => {
-    const { title, desc, pageSlug } = content
+    const { title, desc, pageSlug } = content;
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
