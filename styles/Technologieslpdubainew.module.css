@@ -32,6 +32,10 @@
   position: relative;
 }
 
+.tech span {
+  display: block;
+}
+
 .analpost .new1 {
   font-size: 18px;
   cursor: pointer;

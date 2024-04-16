@@ -17,34 +17,34 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const appData = [
     {
-        title: 'Blockchain',
-        description: 'Bitswits app developers in Dubai are capable of building blockchain-powered mobile apps that provide optimal protection for your data.',
-        imageSrc: banImg1,
-    },
-    {
-        title: 'IoT',
-        description: 'Harnessing the power of Internet-of-things technology, we build a connected infrastructure of devices that exchange data and communicate to improve business operations.',
+        title: 'Big Data',
+        description: 'Big Data technology monitors large data sources and provides strategic directions in real-time. This in turn, will help you with the tasks of personalized user experiences and app optimization. Our top expert mobile app developers in Dubai gear their work towards Big Data technology which will lead to your customers taking notice and staying put.',
         imageSrc: banImg2,
     },
     {
-        title: 'AI/ML',
-        description: 'Blending artificial intelligence and machine learning, Bitswits creates applications that automate certain processes and tasks, saving businesses a lot of time and cost while ensuring efficiency.',
+        title: 'Internet of Things (IoT)',
+        description: 'IoT technology provides an effective way of collecting, accessing, automating, and many other necessary functions in real-time. Incorporating the latest technologies and market trends, our team from the app developers Dubai are the ones that actually build applications. Our experts build apps that are created for users, especially those that go beyond everyone’s expectations. To conclude, by collaborating with us, you will improve the odds of success and obtain the most advantageous position in the competitive market.',
         imageSrc: banImg3,
     },
     {
+        title: 'Blockchain',
+        description: 'Blending artificial intelligence and machine learning, Bitswits creates applications that automate certain processes and tasks, saving businesses a lot of time and cost while ensuring efficiency.',
+        imageSrc: banImg1,
+    },
+    {
         title: 'AR/VR',
-        description: 'Our app development company in Dubai builds AR/VR applications that maximize the percentage of conversions while ensuring innovation.',
+        description: 'Through our high-end AR/VR app development services, take your business to new heights. We are all about making a difference by pushing the innovation within the virtual reality realm and creating a deep impact that connects, holds, and captive the users. Our experts apply both creativity and technical skills to produce AR/VR apps that are unique in the market. Whether you need a better customer experience, want big changes in training, or try for a new way of educating our AR/VR solutions are created to meet your specific requirements.',
+        imageSrc: banImg6,
+    },
+    {
+        title: 'AI/ML',
+        description: (<> Experience the power of the future through our AI/ML apps. We employed the most modern AI/ML technologies and developed very smart apps that constantly adjust and modify users' preferences. We are here to help you integrate your app with intelligent functionality through personalized recommendations and smart automation systems via integrating the latest technologies in your app. </>),
         imageSrc: banImg4,
     },
     {
         title: 'Cloud Computing',
-        description: (<> If you're in search of more security, scalability, and performance, then Bitswits cloud computing solution can help you move forward by connecting your mobile strategy to the cloud. </>),
+        description: (<> Experience the next level of business growth with our cloud computing solutions. With scalable and secure cloud services, you can conveniently store, manage, and analyze your data by trusting our expert app development company Dubai. Our skilled team will oversee the smooth transition from on-premise services to the cloud, and this migration will enable you to concentrate on your core business processes. Step in and take the advantages brought by cloud computing with BitsWits, and your business will never be the same. </>),
         imageSrc: banImg5,
-    },
-    {
-        title: 'Staff Augmentation',
-        description: (<> Get remarkable talent working on your project and scale up your team when it's required and scale down whenever you want with Bitswits staff augmentation solution. </>),
-        imageSrc: banImg6,
     },
 ];
 
@@ -79,26 +79,45 @@ export default function Expertappdubaiadvanced(props) {
                     <Row className='align-items-center g-2 d-none d-lg-flex'>
                         <Col lg={12} className={styles.newtown}>
                             <h2 className='black  f-700 center mb-3 mb-md-5'>
-                                Advanced Technology Solutions for  Entrepreneurs <br /> & Businesses
+                                Advanced Technology Solutions for Large-Scale Businesses & Enterprises
                             </h2>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                    <Image alt='BitsWits' src={banImg1} className='img-fluid' />
-                                    <h3 className=' black fw700'>Blockchain</h3>
+                                    <Image alt='BitsWits' src={banImg2} className='img-fluid' />
+                                    <h3 className=' black fw700'>Big Data</h3>
                                 </div>
-                                <p className='fw400 m-0'>Bitswits app developers in Dubai are capable of building blockchain-powered mobile apps that provide optimal protection for your data. </p>
+                                <p className='fw400 m-0'>Big Data technology monitors large data sources and provides strategic directions in real-time. This in turn, will help you with the tasks of personalized user experiences and app optimization. Our top expert mobile app developers in Dubai gear their work towards Big Data technology which will lead to your customers taking notice and staying put. </p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
                                     <Image alt='BitsWits' src={banImg3} className='img-fluid' />
-                                    <h3 className=' black fw700'>IoT</h3>
+                                    <h3 className=' black fw700'>Internet of Things (IoT)</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Harnessing the power of Internet-of-things technology, we build a connected infrastructure of devices that exchange data and communicate to improve business operations. </p>
+                                <p className='fw400 m-0'>IoT technology provides an effective way of collecting, accessing, automating, and many other necessary functions in real-time. Incorporating the latest technologies and market trends, our team from the app developers Dubai are the ones that actually build applications. Our experts build apps that are created for users, especially those that go beyond everyone’s expectations. To conclude, by collaborating with us, you will improve the odds of success and obtain the most advantageous position in the competitive market. </p>
+                            </div>
+                        </Col>
+                        <Col lg={4}>
+                            <div className={styles.app}>
+                                <div className={styles.copy}>
+                                    <Image alt='BitsWits' src={banImg1} className='img-fluid' />
+                                    <h3 className=' black fw700'>Blockchain</h3>
+
+                                </div>
+                                <p className='fw400 m-0'>Blockchain technology provides a safe and transparent environment for transactions. Our mobile app developers in Dubai use Blockchain technology to keep data integrity and stability intact in the apps created by them. We are always in contact with our clients in order to deliver them indigenious digital products, which are based on Blockchain technology.</p>
+                            </div>
+                        </Col>
+                        <Col lg={4}>
+                            <div className={styles.app}>
+                                <div className={styles.copy}>
+                                    <Image alt='BitsWits' src={banImg6} className='img-fluid' />
+                                    <h3 className=' black fw700'>AR/VR</h3>
+                                </div>
+                                <p className='fw400 m-0'>Through our high-end AR/VR app development services, take your business to new heights. We are all about making a difference by pushing the innovation within the virtual reality realm and creating a deep impact that connects, holds, and captive the users. Our experts apply both creativity and technical skills to produce AR/VR apps that are unique in the market. Whether you need a better customer experience, want big changes in training, or try for a new way of educating our AR/VR solutions are created to meet your specific requirements.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -108,37 +127,17 @@ export default function Expertappdubaiadvanced(props) {
                                     <h3 className=' black fw700'>AI/ML</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Blending artificial intelligence and machine learning, Bitswits creates applications that automate certain processes and tasks, saving businesses a lot of time and cost while ensuring efficiency. </p>
-                            </div>
-                        </Col>
-                        <Col lg={4}>
-                            <div className={styles.app}>
-                                <div className={styles.copy}>
-                                    <Image alt='BitsWits' src={banImg6} className='img-fluid' />
-                                    <h3 className=' black fw700'>AR/VR</h3>
-
-                                </div>
-                                <p className='fw400 m-0'>Our app development company in Dubai builds AR/VR applications that maximize the percentage of conversions while ensuring innovation.</p>
-                            </div>
-                        </Col>
-                        <Col lg={4}>
-                            <div className={styles.app}>
-                                <div className={styles.copy}>
-                                    <Image alt='BitsWits' src={banImg2} className='img-fluid' />
-                                    <h3 className=' black fw700'>Cloud Computing</h3>
-
-                                </div>
-                                <p className='fw400 m-0'>If you're in search of more security, scalability, and performance, then Bitswits cloud computing solution can help you move forward by connecting your mobile strategy to the cloud.</p>
+                                <p className='fw400 m-0'>Experience the power of the future through our AI/ML apps. We employed the most modern AI/ML technologies and developed very smart apps that constantly adjust and modify users' preferences. We are here to help you integrate your app with intelligent functionality through personalized recommendations and smart automation systems via integrating the latest technologies in your app.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
                                     <Image alt='BitsWits' src={banImg5} className='img-fluid' />
-                                    <h3 className=' black fw700'>Staff Augmentation</h3>
+                                    <h3 className=' black fw700'>Cloud Computing</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Get remarkable talent working on your project and scale up your team when it's required and scale down whenever you want with Bitswits staff augmentation solution.</p>
+                                <p className='fw400 m-0'>Experience the next level of business growth with our cloud computing solutions. With scalable and secure cloud services, you can conveniently store, manage, and analyze your data by trusting our expert app development company Dubai. Our skilled team will oversee the smooth transition from on-premise services to the cloud, and this migration will enable you to concentrate on your core business processes. Step in and take the advantages brought by cloud computing with BitsWits, and your business will never be the same.</p>
                             </div>
                         </Col>
 

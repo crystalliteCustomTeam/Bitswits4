@@ -6,7 +6,8 @@ import styles from "@/styles/DubaiAndrios.module.css"
 import PlayStore from "/public/newdubai/play-store.png"
 import Andriodmobile from "/public/newdubai/andriodMobile.png"
 
-const DubaiAndriod = () => {
+const DubaiAndriod = ({ content }) => {
+    const { title, desc } = content
     return (
         <>
             <section className={styles.iosSec}>
@@ -19,16 +20,14 @@ const DubaiAndriod = () => {
                         </Col>
                         <Col lg={7}>
                             <Image src={PlayStore} width={60} height={60} alt='Bitswits' />
-                            <h2>Android App Development In Dubai</h2>
-                            <p className='fontsfregular'>
-                                Bitswits also develops and designs apps for the Google Play Store. Our Android app developers have successfully transitioned chart-topping App Store icons to the Play Store.
-                            </p>
-                            <p className='fontsfregular'>
-                                Our product managers work on both iOS and Android projects, implementing the same proven strategies across both platforms. Some clients, such as QuizUp, have requested an Android version of their iOS-only app.
-                            </p>
-                            <p className='fontsfregular'>
-                                Others, like MGM Resorts International, have requested both Android and iOS builds to reach the largest possible user base. Bitswits' mobile app development has consistently delivered real business results for our clients.
-                            </p>
+                            <h2>{title}</h2>
+                            {desc.map((item, index) => (
+                                <div key={index}>
+                                    <p className='fontsfregular'>
+                                        {item.desc}
+                                    </p>
+                                </div>
+                            ))}
                         </Col>
                     </Row>
                 </div>

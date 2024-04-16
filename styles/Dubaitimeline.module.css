@@ -259,9 +259,9 @@
 }
 
 .timelineContent h2 {
-    font-size: 55px;
+    font-size: 46px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 56px;
     margin-bottom: 18px;
     color: black;
 }
@@ -281,7 +281,7 @@
     font-size: 15px;
     line-height: 25px;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .timelineContent .timePara {

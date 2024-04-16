@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Mobile App Development Company Dubai | BitsWits",
-  description: "Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.",
+  title: "Mobile App Development Company in Dubai | BitsWits",
+  description: "Looking for a reliable mobile app development company in Dubai to get your mobile app developed right away? Partner with us at BitsWits and experience the difference firsthand.",
   //===== OG Tags =====
   openGraph: {
-    title: 'Mobile App Development Company Dubai | BitsWits',
-    description: 'Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.',
+    title: 'Mobile App Development Company in Dubai | BitsWits',
+    description: 'Looking for a reliable mobile app development company in Dubai to get your mobile app developed right away? Partner with us at BitsWits and experience the difference firsthand.',
     url: '/new-mobile-app-development-company-dubai',
     siteName: 'BitsWits',
     locale: 'en_US',

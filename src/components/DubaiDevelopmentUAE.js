@@ -12,7 +12,8 @@ import WireCutter from "/public/newdubai/wirecutter.png"
 import Forbes from "/public/newdubai/forbes.png"
 import NewYork from "/public/newdubai/newyork.png"
 
-const DubaiDevelopmentUAE = () => {
+const DubaiDevelopmentUAE = ({content}) => {
+    const {title, desc} = content
     var dubaiDevelopmetOne = {
         arrows: false,
         dots: false,
@@ -107,15 +108,11 @@ const DubaiDevelopmentUAE = () => {
                     <Row>
                         <Col lg={12}>
                             <h2>
-                                Web Development Company <span>UAE</span>
+                               {title}
                             </h2>
                             <p className='fontsfregular mb-4'>
-                                We don't just work on apps; we also handle a wide range of products, from branding and strategy to web design and development. If a mobile app isn't the right fit for your business, we can create web apps that will enhance mobile conversions and elevate your online presence.
-                            </p>
-                            <p className='fontsfregular'>
-                                At Bitswits, we are data-driven and focus on your business goals. We optimize the steps for your customers to achieve those goals, aiming to not only generate more revenue but also improve your clients' satisfaction. If you're not convinced, take a look at what the world has to say about us.
-                            </p>
-
+                                {desc}
+                            </p> 
                         </Col>
                     </Row>
                 </div>
