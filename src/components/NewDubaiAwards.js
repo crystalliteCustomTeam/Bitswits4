@@ -19,7 +19,6 @@ import Slider11 from "/public/newDubaiPagev1/award11.png"
 
 const NewDubaiAwards = () => {
     var awardSlider = {
-        dots: false,
         autoPlay: true,
         arrows: false,
         speed: 1000,
@@ -32,26 +31,30 @@ const NewDubaiAwards = () => {
                 breakpoint: 1280,
                 settings: {
                     slidesToShow: 5,
+                    dots: false,
                 }
             },
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 4,
+                    dots: false,
                 }
             },
             {
                 breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: true,
                 }
             },
             {
                 breakpoint: 500,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: true,
                 }
             }
         ]
@@ -99,7 +102,7 @@ const NewDubaiAwards = () => {
                 <Container>
                     <Row>
                         <Col sm={12}>
-                            <Slider {...awardSlider}>
+                            <Slider {...awardSlider} className='dubaiClientSlider dubaiSliders'>
                                 <div className='px-2'>
                                     <div className={styles.sliderCards}>
                                         <div className={styles.imageDiv}>

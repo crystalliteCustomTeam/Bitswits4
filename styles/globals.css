@@ -4158,6 +4158,18 @@ button {
   content: url(/newDubaiPagev1/sliderArrowLeft.png);
 }
 
+
+/* new slider dots */
+
+.dubaiSliders .slick-dots {
+  bottom: -50px !important;
+}
+
+.dubaiSliders .slick-dots li button:before {
+  font-size: 12px;
+}
+
+
 /*====================== Media Queries ======================*/
 
 @media screen and (max-width: 1440px) {

@@ -174,28 +174,6 @@ const DubaiClients = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className={styles.card}>
-                                        <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Ryan Jaden</h6>
-                                                <span>ITRans.ai</span>
-                                            </div>
-                                            <div className='d-flex align-items-center'>
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                            </div>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <p className='fontsfregular'>
-                                                Bitswits delivered an efficient solution that significantly improved processing speed, productivity, and accuracy. Their proactive engagement, soliciting of feedback, and implementing improvements ensured a successful partnership. The team's versatility and adaptability were commendable.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                             </Slider>
                         </Col>
                     </Row>

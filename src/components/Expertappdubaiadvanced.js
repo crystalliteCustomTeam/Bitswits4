@@ -51,15 +51,24 @@ const appData = [
 export default function Expertappdubaiadvanced(props) {
 
     const mblSlider = {
-        dots: false,
         arrows: false,
         infinite: true,
         autoplay: true,
+        dots: false,
         autoplaySpeed: 6000,
         speed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                }
+            },
+        ]
     };
 
 
@@ -143,7 +152,7 @@ export default function Expertappdubaiadvanced(props) {
                             <h2 className='black font50 f-700 center mb-5'>Advanced Technology Solutions for <br></br> Entrepreneurs & Businesses </h2>
 
                         </Col>
-                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider} dubaiSliders`}>
                             {appData.map((app, index) => (
                                 <Col lg={4} key={index}>
                                     <div className={styles.app}>
