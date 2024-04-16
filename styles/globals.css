@@ -1400,7 +1400,6 @@ a {
 }
 
 .mblSlider .slick-dots li.slick-active button:before {
-  color: unset;
   opacity: 1;
 }
 

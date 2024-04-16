@@ -128,3 +128,9 @@
     padding-right: 0;
   }
 }
+
+@media screen and (max-width: 567px) {
+  .expertapp {
+    padding: 70px 0 90px;
+  }
+}

@@ -32,7 +32,6 @@ const Justbuilditlpdubai = (props) => {
 
     return (
         <>
-
             <section className={styles[props.slide]}>
                 <Container>
                     <Row>
@@ -47,7 +46,7 @@ const Justbuilditlpdubai = (props) => {
                     </Row>
                 </Container>
 
-                <Slider {...bannerslider} className='mt-5'>
+                <Slider {...bannerslider} className='mt-5 d-sm-block d-none'>
                     <div className={styles.strpImg}>
                         <Image alt="BitsWits" src={banImg1} className="img-fluid" />
                     </div>

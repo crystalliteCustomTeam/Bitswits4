@@ -213,8 +213,26 @@
     padding: 70px 0;
   }
 
-  .analpost div {
+
+  .active {
+    padding: 5px 13px !important;
+    border-radius: 20px;
+    background: #f32f53;
+    border: 3px solid #f32f53;
+    color: white !important;
+  }
+
+  .new1 {
+    border: 3px solid transparent;
     color: #707070;
+    padding: 5px 13px !important;
+  }
+
+  .active::before {
+    height: 0px;
+  }
+
+  .analpost div {
     font-size: 11px;
     cursor: pointer;
   }
