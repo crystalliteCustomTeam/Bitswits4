@@ -12,8 +12,8 @@ import icon4 from '@/public/dubailp/technology/4.png'
 import icon5 from '@/public/dubailp/technology/5.png'
 import icon6 from '@/public/dubailp/technology/6.png'
 
-const Technologieslpdubai = () => {
-
+const Technologieslpdubai = ({ content }) => {
+    const { title, desc } = content
     const [activeTab1, setActiveTab1] = useState('tab1');
     function fun1(tabs1) {
         setActiveTab1(tabs1);
@@ -25,10 +25,8 @@ const Technologieslpdubai = () => {
                     <Row>
                         <Col xl={12} className={styles.york}>
                             <h2 className={styles.work}>
-                                App Development in Dubai with Bitswits <br />
-                                All-Encompassing Services </h2>
-                            <p className='font-normal black fontsfregular'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p>
-                            <p className='font-normal black fontsfregular mb-5 mb-sm-0'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
+                                {title} </h2>
+                            <p className='font-normal black fontsfregular'>{desc}</p>
                         </Col>
                         <Col xl={12} className='mb-5 d-block'>
                             <div className={styles.analpost}>
@@ -36,20 +34,8 @@ const Technologieslpdubai = () => {
                                 <div className={activeTab1 == 'tab2' ? styles.active : styles.new1} onClick={() => fun1('tab2')} href="#">Native App</div>
                                 <div className={activeTab1 == 'tab3' ? styles.active : styles.new1} onClick={() => fun1('tab3')} href="#">Hybrid App</div>
                                 <div className={activeTab1 == 'tab4' ? styles.active : styles.new1} onClick={() => fun1('tab4')} href="#">Product Strategy</div>
-                                <div className={activeTab1 == 'tab5' ? styles.active : styles.new1} onClick={() => fun1('tab5')} href="#">E-Commerce App</div>
+                                <div className={activeTab1 == 'tab5' ? styles.active : styles.new1} onClick={() => fun1('tab5')} href="#">E-commerce App</div>
                                 <div className={activeTab1 == 'tab6' ? styles.active : styles.new1} onClick={() => fun1('tab6')} href="#">B2B App</div>
-                            </div>
-                        </Col>
-                        <Col xl={12} className='mb-5 d-none'>
-                            <div className={styles.analpost}>
-                                <select onChange={(e) => setActiveTab1(e.target.value)}>
-                                    <option className={styles.selOpt} value="tab1" label='Mobile App'>Mobile App</option>
-                                    <option className={styles.selOpt} value="tab2" label='Native App'>Native App</option>
-                                    <option className={styles.selOpt} value="tab3" label='Hybrid App'>Hybrid App</option>
-                                    <option className={styles.selOpt} value="tab4" label='Product Strategy'>Product Strategy</option>
-                                    <option className={styles.selOpt} value="tab5" label='E-Commerce App'>E-Commerce App</option>
-                                    <option className={styles.selOpt} value="tab6" label='B2B App'>B2B App</option>
-                                </select>
                             </div>
                         </Col>
                         <Col xl={12}>
@@ -58,8 +44,9 @@ const Technologieslpdubai = () => {
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Mobile App Development</h3>
-                                            <p className='fontsfregular'>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-                                                in Dubai.</p>
+                                            <p className='fontsfregular'>
+                                                Our mobile app development services include both native and hybrid app development, which in turn guarantee a high-performance and user-friendly app across all platforms.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
@@ -75,7 +62,9 @@ const Technologieslpdubai = () => {
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Native App Development</h3>
-                                            <p className='fontsfregular'>Develop platform-specific mobile applications and make an impact on the market while gradually capturing market share.</p>
+                                            <p className='fontsfregular'>
+                                                We are well-versed in developing native applications programmed exclusively for a specific platform, such as iOS or Android. This method equally utilizes each platform's distinctive traits and strengths, resulting in the same optimized user interface.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
@@ -91,7 +80,9 @@ const Technologieslpdubai = () => {
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>
                                                 Hybrid App Development</h3>
-                                            <p className='fontsfregular'>Get Hybrid or cross-platform app development with Bitswits’s app developers in UAE to build and deploy apps on multiple platforms – ensuring uniformity and a high-end user-experience.</p>
+                                            <p className='fontsfregular'>
+                                                We develop hybrid mobile applications capable of working on different platforms with a single codebase that allows you to get a wider audience coverage of the target market. Hybrid apps cost less and aren’t tied to a specific platform, meaning performance isn’t compromised when they run on different devices.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
@@ -106,7 +97,9 @@ const Technologieslpdubai = () => {
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Product Strategy Development</h3>
-                                            <p className='fontsfregular'>Strategic insights from Bitswits's expert app development consultant ensure the success of your product long before it hits the market.</p>
+                                            <p className='fontsfregular'>
+                                                The product strategy services offered by us assist you in deciding the goals of your app, the target audience as well as the key features of your app. Our team will work with you to agree on the best approach for your app, making sure that it helps achieve your business objectives and is appealing to your target audience.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
@@ -121,7 +114,9 @@ const Technologieslpdubai = () => {
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>E-Commerce App Development</h3>
-                                            <p className='fontsfregular'>Get an impeccable design iterated and refined by our marketing experts, along with unprecedented functionality that generates more sales and conversions with our e-commerce apps.</p>
+                                            <p className='fontsfregular'>
+                                                We excel in creating e-commerce applications that offer your customers a flawless online purchasing process. We go beyond doing the job that matters and deliver an e-commerce app with intelligent navigation, safe payment gateways, and every other feature that helps you increase sales and income.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
@@ -136,7 +131,9 @@ const Technologieslpdubai = () => {
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>B2B App Development</h3>
-                                            <p className='fontsfregular'>Always business is always human to human (H2H); Bitswits's business apps are meant to streamline an organization's internal processes, i.e., communication, interactions, and more.</p>
+                                            <p className='fontsfregular'>
+                                                Our B2B app development services are crafted to accommodate the business specifications of any company that strives to reduce manual work and amplify processing Be it a custom-made CRM or sales management app, we are proficient in developing sophisticated solutions for any type of business.
+                                            </p>
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>

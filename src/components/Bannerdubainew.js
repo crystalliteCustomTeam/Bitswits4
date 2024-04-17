@@ -8,7 +8,10 @@ import styles from "@/styles/bannerdubainew.module.css";
 //
 import BannerImage from "@/public/newdubai/aroow.png"
 
-const Bannerdubai = (props) => {
+const backgroundClass = `${styles.newHomeBg}`;
+
+const Bannerdubai = ({ content }) => {
+    const { title, desc, pageSlug } = content;
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -102,8 +105,8 @@ const Bannerdubai = (props) => {
 
     return (
         <>
-            <section className={`${styles[props.newHomeBgprops]} ${styles.DubaiBanner}`} >
-                <Container  className={` ${styles.conform}`}>
+            <section className={`${backgroundClass} ${styles.DubaiBanner}`} >
+                <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost}`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
@@ -112,12 +115,15 @@ const Bannerdubai = (props) => {
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='white fontsfregular'>Location</h4>
                                     <Image src={BannerImage} className='img-fluid' />
-                                    <h4 className='newfycolr fontsfregular'>Mobile App Development Company Dubai</h4>
+                                    <h4 className='newfycolr fontsfregular'>{pageSlug}</h4>
                                 </div>
-                                <h2 className='white fw700 mb-4'>Mobile App Development
-                                    Company Dubai</h2>
-                                <p className='font16 white fw500 mt-3 mb-lg-4 fontsfregular'>Bitswits is revolutionizing mobile app development in Dubai, driving disruption to elevate the conventional process. Our approach promises a cutting-edge experience, ensuring success for businesses. Leveraging data-driven expertise, we redefine the landscape, delivering ingenious mobile applications to thrive in Dubai's lucrative market.</p>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Discuss Your Project</Link>
+                                <h2 className='white fw700 mb-4'>
+                                    {title}
+                                </h2>
+                                <p className='font16 white fw500 mt-3 mb-lg-4 fontsfregular'>
+                                    {desc}
+                                </p>
+                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Build Your Dream App!</Link>
                             </div>
                         </Col>
                         <Col xl={5}>

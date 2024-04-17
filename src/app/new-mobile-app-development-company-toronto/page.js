@@ -1,8 +1,11 @@
 "use client"
 import React, { useEffect, useState } from "react";
+// css
+import stylesjust from "@/styles/Justbuilditlp.module.css";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import Whowearenew from "../../components/Whowearenew";
+import Delivered from "../../components/Delivered";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
 import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
 import Globallplp6dubai from "../../components/Globallplp6dubai";
@@ -36,10 +39,8 @@ import DubaiIOS from "@/src/components/DubaiIOS";
 import DubaiAndriod from "@/src/components/DubaiAndriod";
 import DubaiMobileApplication from "@/src/components/DubaiMobileApplication";
 import DubaiConquered from "@/src/components/DubaiConquered";
-import Delivered from "@/src/components/Delivered";
-import { title } from "process";
 
-export default function dubaidevelopmentcompany() {
+export default function gamedevelopmentcompany() {
   const blogBox = [
     {
       img: blog1,
@@ -64,6 +65,41 @@ export default function dubaidevelopmentcompany() {
     }, 2000);
     return () => clearTimeout(timeout);
   }, []);
+
+  //=====StoryLine Fold=====//
+  const accordionData = [
+    {
+      question: 'Android App Development In Dubai',
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
+      StoryLineImg: StoryLine1,
+    },
+    {
+      question: 'Iphone App Development In Dubai',
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
+      StoryLineImg: StoryLine2
+    },
+    {
+      question: 'Flutter App Development In Dubai',
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
+      StoryLineImg: StoryLine3
+    },
+    {
+      question: 'Game App Development In Dubai',
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
+      StoryLineImg: StoryLine4
+    },
+    {
+      question: 'Blockchain Game Development In Dubai',
+      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
+      StoryLineImg: StoryLine5
+    },
+  ];
+  const storyLine = {
+    subtitle: (<> Business Empowering </>),
+    title: (<> App Development Company in UAE </>),
+    para: "With years of experience empowering startups and well-established brands with advanced app development solutions, we have garnered attention from several credible platforms worldwide, including Zawya and Lovin Dubai in Dubai. Our recognition in the mobile app development industry has solidified us as an end-to-end mobile app development solution provider. Our team of highly talented individuals is ready to take your mobile app development project to the next level.",
+    accordionData: accordionData
+  };
 
   // Banner Content
   const Banner = {
@@ -118,46 +154,6 @@ export default function dubaidevelopmentcompany() {
     title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Dubai</>,
     desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
   }
-
-  //=====StoryLine Fold=====//
-  const accordionData = [
-    {
-      question: 'Premier Mobile App Development Company in UAE',
-      answer: "Our world-class mobile app development company in the UAE is focused on creating innovative and user-oriented mobile applications. For our clients, we aim to attain excellence and quality, always surpassing their expectations by yielding top-notch results. Our team of experienced developers and designers come together and collaborate with you to clarify your vision and create bespoke solutions that will always meet your unique business needs.",
-      StoryLineImg: StoryLine4,
-    },
-    {
-      question: 'Android App Development in Dubai',
-      answer: "Our Android app development Dubai service is specifically structured to help you to develop interactive and irresistible apps for your target consumers. Definitely, Android is one of the largest markets considering 3.718 million android apps in the app stores . App Development Dubai processes use the best practices and the latest technology to guarantee you a high-quality performing Android app. We merge our knowledge with your vision from the start to the end of the process assuring you performance, excellence, high speed, and user experience.",
-      StoryLineImg: StoryLine1
-    },
-    {
-      question: 'iPhone App Development in Dubai',
-      answer: "Another market that is equally impressive, as well as profitable, is the iOS market. App stores currently have 1.8 million apps available. With our iPhone app development services in Dubai, we can assist businesses in gaining access to this significant source of revenue. Our knowledgeable team is experienced in producing visually appealing, easy-to-use iPhone apps that will take your business to the next level and improve your target audience’s involvement. We can develop the iPhone app from scratch or improve an existing product.",
-      StoryLineImg: StoryLine2
-    },
-    {
-      question: 'Flutter App Development in Dubai',
-      answer: "The creation of cross-platform apps is being revolutionized by Flutter, and our Flutter app development services in Dubai are at the forefront of this breakthrough. Our team makes use of Flutter's features to develop attractive and efficient cross-platform applications that operate without any problems on both Android and iOS devices. We could offer users with high-performance apps that seem native in appearance thanks to Flutter technology.",
-      StoryLineImg: StoryLine3
-    },
-    {
-      question: 'Game App Development in Dubai',
-      answer: "Our game app development services in Dubai are designed to help you make the best use of the incredible opportunity that games have for capturing users' attention. Whether you want to make a simple game or a sophisticated multiplayer experience, our team is capable of fulfilling the idea you have. Our main goal is to develop engrossing and immersive gaming experiences that keep users coming back for more.",
-      StoryLineImg: StoryLine4
-    },
-    {
-      question: 'Blockchain App Development in Dubai',
-      answer: "Our expertise lies in developing decentralized experiences that provide security, dependability, and transparency. We are a top Blockchain app development company in Dubai. Blockchain technology allows us to produce one-of-a-kind products, facilitate safe transactions, and offer a degree of confidence that is unmatched by conventional apps. To ensure that your users have a smooth and satisfying experience, our blockchain app development services are customized to your game's unique requirements. ",
-      StoryLineImg: StoryLine5
-    },
-  ];
-  const storyLine = {
-    subtitle: (<> Continuous </>),
-    title: (<>  Improvement and Support </>),
-    para: "We commit to working with you every step of the way, even after releasing your app. We provide continual support and Maintenance to guarantee that your App continuously works properly and meets your business demands. We constantly monitor the performance of your app and track user-feedback so as to identify any areas which are in need of improvement and apply the necessary updates to match your app's performance.",
-    accordionData: accordionData
-  };
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
@@ -323,7 +319,7 @@ export default function dubaidevelopmentcompany() {
         Explore how our expertise in mobile app development can revolutionize your industry and take your business forward in the competitive digital world.
       </span>
     </>
-  } 
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -349,7 +345,7 @@ export default function dubaidevelopmentcompany() {
         <LpChoosedubaishipnewdubai
           transform="transformlp"
         />
-        <Expertappdubaiadvanced expertapp="expertapp"/>
+        <Expertappdubaiadvanced expertapp="expertapp" />
         <Justbuilditlpdubai
           title1="Just"
           title="Build It."
@@ -401,7 +397,7 @@ export default function dubaidevelopmentcompany() {
           ]}
         />
         <Latestblog blogBox={blogBox} />
-      </> 
+      </>
     </>
   );
-} 
+}

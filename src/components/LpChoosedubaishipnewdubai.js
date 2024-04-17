@@ -15,14 +15,14 @@ const LpChoosedubaiship = (props) => {
           <Row className="align-items-center gy-lg-5 gy-4">
             <Col lg={6} className={styles.walk}>
               <h3 className="black font-bold f-700">
-                We're Growing In Dubai & We Want Your Business To Grow With Us
+              We are Expanding in Dubai & We Want Your Business to Progress with Us
               </h3>
               <p className="fontsfregular">
-                BitsWits offers a diverse reach by providing industry-specificsolutions for every client. We work with clients who aim to improve customer quality oflife while simplifying the daily duties of their employees.
+              At BitsWits, we offer a wide range of services and solutions across diverse sectors and industries. Our app development company in Dubai work hand in hand with clients to create spectacular apps that drive results and generate revenue. 
               </p>
               <div className="mt-4">
                 <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
-                  Let's Work On Your App Together
+                Let’s Get Connected Today!
                 </Link>
               </div>
             </Col>

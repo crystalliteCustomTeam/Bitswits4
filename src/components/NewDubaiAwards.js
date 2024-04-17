@@ -17,7 +17,8 @@ import Slider9 from "/public/newDubaiPagev1/award9.png"
 import Slider10 from "/public/newDubaiPagev1/award10.png"
 import Slider11 from "/public/newDubaiPagev1/award11.png"
 
-const NewDubaiAwards = () => {
+const NewDubaiAwards = ({ content }) => {
+    const { title, desc } = content
     var awardSlider = {
         autoPlay: true,
         arrows: false,
@@ -67,10 +68,10 @@ const NewDubaiAwards = () => {
                         <Col md={7}>
                             <div>
                                 <h3 className={styles.awardsHeading}>
-                                    Awards & Recognitions
+                                    {title}
                                 </h3>
                                 <p className='fontsfregular'>
-                                    Our dedication and hardwork has consistently garnered acknowledgment by different platforms. We are proud to have received numerous awards and accolades, highlighting our expertise in creating innovative and top-notch android apps.
+                                    {desc}
                                 </p>
                                 <div className={styles.btn}>
                                     <a href='javascript:;'>

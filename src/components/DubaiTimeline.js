@@ -10,7 +10,8 @@ import TimelineThree from "/public/newDubaiPagev1/timeline3.png"
 import TimelineFour from "/public/newDubaiPagev1/timeline4.png"
 import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 
-const DubaiTimeline = () => {
+const DubaiTimeline = ({ content }) => {
+    const { title, desc } = content
     var clientsthink = {
         dots: false,
         arrows: true,
@@ -37,13 +38,9 @@ const DubaiTimeline = () => {
                         <Col lg={12}>
                             <div className={`${styles.timelineContent} d-block d-lg-none`}>
                                 <p className={`${styles.redPara} fontsfregular`}>The Process </p>
-                                <h2>Mobile App Development Company In Dubai</h2>
-                                <p className='fontsfregular'>We are a digital transformation strategy company that goes beyond just developing mobile apps and digital products. We ensure that your product not only succeeds at launch but also has a growth plan in place to maintain its success for years to come.</p>
+                                <h2>{title}</h2>
                                 <p className='fontsfregular'>
-                                    Our team of expert product managers focuses on retention to maximize your return on investment. Our app developers understand the importance of a robust analytics environment, allowing you to gain detailed insights into how people are using your app.
-                                </p>
-                                <p className='fontsfregular'>
-                                    This approach sets your team up for long-term success, enabling you to continuously optimize your app for growth and improvement.
+                                    {desc}
                                 </p>
                             </div>
                         </Col>
@@ -53,21 +50,17 @@ const DubaiTimeline = () => {
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
                                             <Image src={TimelineOne} width={165} height={87} alt='Bitswits' />
-                                            <h3 className=''>Strategy And Concepting</h3>
+                                            <h3 className=''>Idea Conceptualization and Research</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
-                                                Our job at Bitswits is to take your idea and run with it, offering you a vast array of creative designs and strategies. While many development agencies will simply agree with your ideas, at Bitswits, we're here to challenge and innovate. We'll discuss how your mobile app can fit within your digital business strategy, and we'll carefully refine the design to align on a feature set that accomplishes your goals—and then some. Because we offer far more than the competition, we're able to provide well-rounded expert guidance in today's rigorous market.
+                                                At BitsWits, we make your idea work through the most comprehensive research and creativeness in the first stage. We will make it align with your business plans and market trends so that it will be both viable and marketable. Our collaborative workstyle ensures that your application idea is creative, market-prepared, and resonates with the requirements of your targeted audience.
                                             </p>
                                         </div>
                                         <div className={styles.marker}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
                                             <p className={`${styles.redPara} fontsfregular`}>The Process </p>
-                                            <h2>Mobile App Development Company In Dubai</h2>
-                                            <p className='fontsfregular'>We are a digital transformation strategy company that goes beyond just developing mobile apps and digital products. We ensure that your product not only succeeds at launch but also has a growth plan in place to maintain its success for years to come.</p>
+                                            <h2>{title}</h2>
                                             <p className='fontsfregular'>
-                                                Our team of expert product managers focuses on retention to maximize your return on investment. Our app developers understand the importance of a robust analytics environment, allowing you to gain detailed insights into how people are using your app.
-                                            </p>
-                                            <p className='fontsfregular'>
-                                                This approach sets your team up for long-term success, enabling you to continuously optimize your app for growth and improvement.
+                                                {desc}
                                             </p>
                                         </div>
                                     </div>
@@ -76,10 +69,7 @@ const DubaiTimeline = () => {
                                             <Image src={TimelineThree} width={203} height={202} alt='Bitswits' />
                                             <h3 className=''>Programming And Development</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
-                                                Our development methodology revolves around agility. We work in two-week sprints, during which all team members focus entirely on creating the core of your app. With bi-weekly check-ins, you have the opportunity to review progress and provide feedback along the way. The result is a seamless and fluid process. We don't consider apps complete until they meet or exceed the standards set during the product concepting stages of development. That's a promise.
-                                            </p>
-                                            <p className={`${styles.timePara} fontsfregular`}>
-                                                We're dedicated to creating apps that leave a lasting impression, spark conversations, and above all, keep users engaged. With our international team of experts, we craft comprehensive, sleek designs that transform your idea into an app that succeeds in the marketplace.
+                                                At BitsWits, we follow an agile methodology that enables us to adapt to ever-changing market requirements and deliver your app quickly and hassle-free. We prioritize key features and functionality first, which will ensure your app is completed on time and within your budget constraints. Plus, we perform continuous testing on your app to maintain its quality and reliability, thus ensuring a smooth and efficient development process.
                                             </p>
                                         </div>
                                         <div className={`d-lg-block d-none ${styles.numberTwo}`}></div>
@@ -87,18 +77,18 @@ const DubaiTimeline = () => {
                                         <div className={styles.numberOne}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo}`}>
                                             <Image src={TimelineTwo} alt='Bitswits' width={184} height={100} />
-                                            <h3 className=''>User Experience And User Interface (UX/UI)</h3>
+                                            <h3 className=''>User-Centric Design (UX/UI)</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
-                                                Fluidity and efficiency are key factors in user retention and customer satisfaction. Our designers deliver multiple iterations of UI and UX prototypes to create wireframes that meet your requirements. We share and collaborate closely with our Android development team to ensure that all stakeholders are always on the same page. Once the user experience prototype design is finalized, our team unveils the blueprints of your app, and our developers begin their work.
+                                                Our mobile Google-certified app developers in Dubai focus on creating visually appealing and interactive interfaces that improve user experience. Our experts collect insights into user behavior and preferences and then make the design accordingly so that your app not only functions smoothly but also delivers user-friendliness and engagement. Through wireframing and prototyping, we iterate on design concepts in order to optimize usability and create a seamless user experience.
                                             </p>
                                         </div>
                                     </div>
                                     <div className={`${styles.timeline} ${styles.timeThree} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
                                             <Image src={TimelineFive} width={207} height={202} alt='Bitswits' />
-                                            <h3 className=''>Branding</h3>
+                                            <h3 className=''>Brand Integration</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
-                                                Creating a unique identity and tone is essential for every great brand. Our branding capabilities allow us to adapt your brand's logos, color schemes, and associated symbolism for mobile platforms. Our Android design team seamlessly integrates user interaction, product functionality, and desired customer experience, ensuring that your app meets all requirements while maintaining your brand's essence.
+                                                Your brand identity becomes part of your app, and we strive to maintain a seamless and memorable user experience. Our designers blend your logos, color schemes, and brand guidelines into the app's design to solidify your unique brand identity. By paying closer attention to each detail that we create, we develop a powerful brand presentation that forges a deep bond between your brand and your audience.
                                             </p>
                                         </div>
                                         <div className={styles.numberThree}></div>
@@ -106,9 +96,9 @@ const DubaiTimeline = () => {
                                         <div className={`d-lg-none d-block ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour}`}>
                                             <Image src={TimelineFour} width={207} height={202} alt='Bitswits' />
-                                            <h3 className=''>Polish</h3>
+                                            <h3 className=''>Final Touches and Polish</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
-                                                After finalizing the user interface and user experience, your app is ready to debut on the Google Play Store. However, at Bitswits, we include an additional step to ensure that your app surpasses industry standards. This is where we add transitions, animations, special touches, and any last Wishlist features to truly make your app stand out.
+                                                Prior to the launch, we add features like animations, transitions and special effects in order to make your app more user-friendly and interesting. Through a comprehensive testing mechanism, we eliminate any bugs or issues your application is faced with, hence, your users will have an easy and smooth time when using your application. Our focus is to produce an app that is highly customizable and meets your expectations, leaving a satisfactory impression.
                                             </p>
                                         </div>
                                     </div>
@@ -133,9 +123,9 @@ const DubaiTimeline = () => {
                                     <div className='px-1'>
                                         <div className={`${styles.cardBg}`}>
                                             <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing} `}>
-                                                <h3 className=''>Strategy And Concepting</h3>
+                                                <h3 className=''>Idea Conceptualization and Research</h3>
                                                 <p className={`${styles.timePara} fontsfregular`}>
-                                                    Our job at Bitswits is to take your idea and run with it, offering you a vast array of creative designs and strategies. While many development agencies will simply agree with your ideas, at Bitswits, we're here to challenge and innovate. We'll discuss how your mobile app can fit within your digital business strategy, and we'll carefully refine the design to align on a feature set that accomplishes your goals—and then some. Because we offer far more than the competition, we're able to provide well-rounded expert guidance in today's rigorous market.
+                                                    At BitsWits, we make your idea work through the most comprehensive research and creativeness in the first stage. We will make it align with your business plans and market trends so that it will be both viable and marketable. Our collaborative workstyle ensures that your application idea is creative, market-prepared, and resonates with the requirements of your targeted audience.
                                                 </p>
                                             </div>
                                         </div>
@@ -156,9 +146,9 @@ const DubaiTimeline = () => {
                                     <div className='px-1'>
                                         <div className={`${styles.cardBg}`}>
                                             <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo} `}>
-                                                <h3 className=''>User Experience And User Interface (UX/UI)</h3>
+                                                <h3 className=''>User-Centric Design (UX/UI)</h3>
                                                 <p className={`${styles.timePara} fontsfregular`}>
-                                                    Fluidity and efficiency are key factors in user retention and customer satisfaction. Our designers deliver multiple iterations of UI and UX prototypes to create wireframes that meet your requirements. We share and collaborate closely with our Android development team to ensure that all stakeholders are always on the same page. Once the user experience prototype design is finalized, our team unveils the blueprints of your app, and our developers begin their work.
+                                                    Our mobile Google-certified app developers in Dubai focus on creating visually appealing and interactive interfaces that improve user experience. Our experts collect insights into user behavior and preferences and then make the design accordingly so that your app not only functions smoothly but also delivers user-friendliness and engagement. Through wireframing and prototyping, we iterate on design concepts in order to optimize usability and create a seamless user experience.
                                                 </p>
                                             </div>
                                         </div>
@@ -166,9 +156,9 @@ const DubaiTimeline = () => {
                                     <div className='px-1'>
                                         <div className={`${styles.cardBg}`}>
                                             <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree} `}>
-                                                <h3 className=''>Branding</h3>
+                                                <h3 className=''>Programming and Development</h3>
                                                 <p className={`${styles.timePara} fontsfregular`}>
-                                                    Creating a unique identity and tone is essential for every great brand. Our branding capabilities allow us to adapt your brand's logos, color schemes, and associated symbolism for mobile platforms. Our Android design team seamlessly integrates user interaction, product functionality, and desired customer experience, ensuring that your app meets all requirements while maintaining your brand's essence.
+                                                    At BitsWits, we follow an agile methodology that enables us to adapt to ever-changing market requirements and deliver your app quickly and hassle-free. We prioritize key features and functionality first, which will ensure your app is completed on time and within your budget constraints. Plus, we perform continuous testing on your app to maintain its quality and reliability, thus ensuring a smooth and efficient development process.
                                                 </p>
                                             </div>
                                         </div>

@@ -8,7 +8,8 @@ import ParticleTwo from "/public/newDubaiPagev1/particale-2.png"
 import ParticleThree from "/public/newDubaiPagev1/particale-3.png"
 import ParticleFour from "/public/newDubaiPagev1/particale-4.png"
 
-const DubaiDelivered = () => {
+const DubaiDelivered = ({ content }) => {
+    const { title, desc, btntext } = content;
     return (
         <>
             <section className={styles.DubaiDelivered}>
@@ -19,11 +20,13 @@ const DubaiDelivered = () => {
                 <div className='container'>
                     <Row>
                         <Col sm={12}>
-                            <h2>We've Delivered 100+ Mobile Applications <br /> To Clients Worldwide!</h2>
-                            <p className='fontsfregular'>Your app idea can be the next game-changer! Do you wish to be on that list?</p>
+                            <h2>{title}</h2>
+                            <p className='fontsfregular'>
+                                {desc}
+                            </p>
                             <div className={styles.btn}>
                                 <a href='javascript:;'>
-                                    Check Reviews
+                                    {btntext}
                                 </a>
                             </div>
                         </Col>

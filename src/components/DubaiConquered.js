@@ -15,7 +15,8 @@ import Slide9 from "/public/newdubai/conquered9.png"
 import Slide10 from "/public/newdubai/conquered10.png"
 import Slide11 from "/public/newdubai/conquered11.png"
 
-const DubaiConquered = () => {
+const DubaiConquered = ({ content }) => {
+    const { title, desc } = content
     var DubaiConquered = {
         arrows: true,
         dots: false,
@@ -47,9 +48,9 @@ const DubaiConquered = () => {
         <>
             <section className={styles.conqueredSec}>
                 <div className='container'>
-                    <h2>Industries We’ve Conquered</h2>
+                    <h2>{title}</h2>
                     <p className='fontsfregular'>
-                        BitsWits offers a diverse reach by providing industry-specificsolutions for every client. We work with clients who aim <br /> to improve customer quality oflife while simplifying the daily duties of their employees.
+                        {desc}
                     </p>
                     <Slider {...DubaiConquered} className='dubaiClientSlider mt-5'>
                         <div className='px-2'>
@@ -61,7 +62,7 @@ const DubaiConquered = () => {
                                 <div className={styles.cardHover}>
                                     <h5>Ecommerce</h5>
                                     <p className='fontsfregular'>
-                                        Revamp your online presence with BitsWits ecommerce app development services and solutions. From user-friendly interfaces to secure transactions, we tailor solutions that redefine ecommerce development for your brand.
+                                        We, as professionals at BitsWits, know the specific problems and possibilities within e-commerce. Our solutions are aimed at improving user experience, simplifying operational workflow, and maximizing revenues for e-commerce companies.
                                     </p>
                                 </div>
                             </div>
@@ -70,28 +71,12 @@ const DubaiConquered = () => {
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
                                     <Image src={Slide2} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Manufacture</h3>
-                                </div>
-                                <div className={styles.cardHover}>
-                                    <h5>Manufacture</h5>
-                                    <p className='fontsfregular'>
-                                        Enhance productivity and efficiency in manufacturing with BitsWits manufacturing
-                                        development solutions. Our tailor-made solutions optimize workflows, reduce costs, and
-                                        elevate your manufacturing capabilities.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='px-2'>
-                            <div className={styles.mainCardDiv}>
-                                <div className={styles.card}>
-                                    <Image src={Slide3} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
                                     <h3>Automotive</h3>
                                 </div>
                                 <div className={styles.cardHover}>
                                     <h5>Automotive</h5>
                                     <p className='fontsfregular'>
-                                        Our automotive development services transform concepts into reality, leveraging technology to redefine the future of transportation. Embark on a journey of automotive excellence with Trango Tech.
+                                        Through our extensive experience in automotive app development, we are able to develop innovative solutions that enrich user experience, increase efficiency, and boost the automotive businesses' growth.
                                     </p>
                                 </div>
                             </div>
@@ -99,43 +84,13 @@ const DubaiConquered = () => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide4} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Logistics</h3>
+                                    <Image src={Slide10} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Food & Beverage</h3>
                                 </div>
                                 <div className={styles.cardHover}>
-                                    <h5>Logistics</h5>
+                                    <h5>Food & Beverage</h5>
                                     <p className='fontsfregular'>
-                                        Be it taxi, travel, or logistics, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking, we optimize every step for a seamless travel experience with bespoke logistics development solutions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='px-2'>
-                            <div className={styles.mainCardDiv}>
-                                <div className={styles.card}>
-                                    <Image src={Slide5} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Agriculture</h3>
-                                </div>
-                                <div className={styles.cardHover}>
-                                    <h5>Agriculture</h5>
-                                    <p className='fontsfregular'>
-                                        Harness the power of technology for sustainable farming. BitsWits agriculture development solutions optimize processes, maximize yields, and bring innovation to every aspect of modern farming.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='px-2'>
-                            <div className={styles.mainCardDiv}>
-                                <div className={styles.card}>
-                                    <Image src={Slide6} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>E-Learning</h3>
-                                </div>
-                                <div className={styles.cardHover}>
-                                    <h5>E-Learning</h5>
-                                    <p className='fontsfregular'>
-                                        BitsWits education development services and
-                                        solutions reshape the e-learning industry, we offer interactive, engaging platforms that foster knowledge acquisition and skill development.
+                                        We design and build custom mobile apps to meet the needs of the food and beverage industry. From the food delivery apps in this sector to restaurant management solutions, we help businesses get ahead of their competitors.
                                     </p>
                                 </div>
                             </div>
@@ -144,12 +99,12 @@ const DubaiConquered = () => {
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
                                     <Image src={Slide7} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Healthcare</h3>
+                                    <h3>Healthcare & Medical</h3>
                                 </div>
                                 <div className={styles.cardHover}>
-                                    <h5>Healthcare</h5>
+                                    <h5>Healthcare & Medical</h5>
                                     <p className='fontsfregular'>
-                                        BitsWits healthcare development solutions innovate patient care, assist doctors in streamlining medical operations, and amplify the impact of medical services.
+                                        It cannot be overstressed, though, that the healthcare industry leans on a culture of precision and accuracy. Our healthcare app solutions are developed to elevate patient care, speed up procedural work, and conform to regulatory standards.
                                     </p>
                                 </div>
                             </div>
@@ -163,7 +118,7 @@ const DubaiConquered = () => {
                                 <div className={styles.cardHover}>
                                     <h5>Real Estate</h5>
                                     <p className='fontsfregular'>
-                                        Experience innovation in the real estate industry with Trango Tech. We create modern real estate apps and software based on AR/VR and AI/ML technologies that help businesses stand out in the digital era.
+                                        For real estate businesses, we provide tailor-made app development services that enhance interaction between buyers and sellers. Our app development services ensure property listings, virtual tours, and all other essential features and functions that help any business stand out.
                                     </p>
                                 </div>
                             </div>
@@ -171,13 +126,13 @@ const DubaiConquered = () => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide9} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Food</h3>
+                                    <Image src={Slide6} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Enterprise Mobility Solutions</h3>
                                 </div>
                                 <div className={styles.cardHover}>
-                                    <h5>Food</h5>
+                                    <h5>Enterprise Mobility Solutions</h5>
                                     <p className='fontsfregular'>
-                                        Revolutionize the culinary world with our expertise in the food delivery industry. From seamless order management to swift delivery tracking systems, we ensure your business stands out with our exquisite software solutions for the food and grocery industry.
+                                        Our enterprise mobility solutions have been developed to help businesses succeed in these areas by providing them with the right tools for better productivity, process optimization and more efficient workflows.
                                     </p>
                                 </div>
                             </div>
@@ -186,13 +141,54 @@ const DubaiConquered = () => {
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
                                     <Image src={Slide10} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
-                                    <h3>Transportation</h3>
+                                    <h3>Manufacture</h3>
                                 </div>
                                 <div className={styles.cardHover}>
-                                    <h5>Transportation</h5>
+                                    <h5>Manufacture</h5>
                                     <p className='fontsfregular'>
-                                        Create a simplified and seamless supply chain management system, allowing you totrack
-                                        shipments via mobile apps, offer on-ground taskforce management solutions,and much more.
+                                        At BitsWits, we create digital-based solutions that reshape the manufacturing industry. From process automation to inventory management, we offer adaptive solutions which are aimed at raising productivity and efficiency.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='px-2'>
+                            <div className={styles.mainCardDiv}>
+                                <div className={styles.card}>
+                                    <Image src={Slide8} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Logistics</h3>
+                                </div>
+                                <div className={styles.cardHover}>
+                                    <h5>Logistics</h5>
+                                    <p className='fontsfregular'>
+                                        Our logistics solutions are specifically designed to perfectly match your needs, while also managing the supply chain with real-time tracking, route optimization, and efficient resource utilization. We empower logistics companies to be more efficient and offer impeccable services to their customers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='px-2'>
+                            <div className={styles.mainCardDiv}>
+                                <div className={styles.card}>
+                                    <Image src={Slide5} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>Agriculture</h3>
+                                </div>
+                                <div className={styles.cardHover}>
+                                    <h5>Agriculture</h5>
+                                    <p className='fontsfregular'>
+                                        In the agriculture sector , we provide the latest technologies which are used enhance effectiveness of farm operations , crop monitoring , and yield optimization. We aim to empower farmers with technologies which make agriculture process better and more sustainable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='px-2'>
+                            <div className={styles.mainCardDiv}>
+                                <div className={styles.card}>
+                                    <Image src={Slide10} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <h3>E-learning</h3>
+                                </div>
+                                <div className={styles.cardHover}>
+                                    <h5>E-learning</h5>
+                                    <p className='fontsfregular'>
+                                        Our e-learning solutions are the best alternative to the traditional process of education when transforming it into exciting and interactive online sessions. Our sites have engaging content, adaptive learning paths, and collaboration tools designed for both educators and students.
                                     </p>
                                 </div>
                             </div>
@@ -206,8 +202,7 @@ const DubaiConquered = () => {
                                 <div className={styles.cardHover}>
                                     <h5>Sports</h5>
                                     <p className='fontsfregular'>
-                                        Experience the pinnacle of athletic innovation. BitsWits amplify training, fan
-                                        engagement, and performance analysis, ensuring your brand stands at the forefront of the sports industry.
+                                        Our sports solution suite is designed to meet the industry's changing needs through fan engagement platforms, athlete performance tracking, and sports management system. We seek to provide better sports experience for athletes, fans and stakeholders.
                                     </p>
                                 </div>
                             </div>

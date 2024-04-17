@@ -9,8 +9,8 @@ import ClientTwo from "/public/newDubaiPagev1/client2.png"
 import ClientThree from "/public/newDubaiPagev1/client3.png"
 import Star from "/public/newDubaiPagev1/star.png"
 
-const DubaiClients = () => {
-
+const DubaiClients = ({ content }) => {
+    const { title, desc } = content
     var dubaiClients = {
         arrows: true,
         dots: false,
@@ -42,8 +42,8 @@ const DubaiClients = () => {
                 <div className='container'>
                     <Row>
                         <Col lg={12}>
-                            <h2>Why Our Clients <span>Love</span> BitsWits</h2>
-                            <p className='fontsfregular mb-5 mb-lg-4 pb-lg-5'>From concept to delivery, we are committed to working with our clients to create apps that are intuitive, engaging, <br /> and user-friendly. We take pride in our commitment to excellence and our team of experts.</p>
+                            <h2>{title}</h2>
+                            <p className='fontsfregular mb-5 mb-lg-4 pb-lg-5'>{desc}</p>
 
                         </Col>
                         <Col md={6} lg={4}>

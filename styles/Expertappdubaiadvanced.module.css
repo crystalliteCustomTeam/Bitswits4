@@ -41,18 +41,15 @@
   background-color: #F3F3F3;
   border: 2px solid #F3F3F3;
   border-radius: 15px;
-  height: 201px;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 100%;
+  padding: 20px 15px;
   gap: 10px;
   transition: all 1s ease-out;
   flex-direction: column;
   justify-content: center;
 
 }
-
-
-
+ 
 .copy {
   width: 91%;
   display: flex;
@@ -126,5 +123,11 @@
     line-height: 24px;
     text-align: justify;
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .expertapp {
+    padding: 70px 0 90px;
   }
 }
