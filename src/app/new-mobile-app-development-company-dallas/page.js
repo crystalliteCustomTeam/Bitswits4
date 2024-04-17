@@ -98,6 +98,7 @@ export default function gamedevelopmentcompany() {
     para: "With years of experience empowering startups and well-established brands with advanced app development solutions, we have garnered attention from several credible platforms worldwide, including Zawya and Lovin Dubai in Dubai. Our recognition in the mobile app development industry has solidified us as an end-to-end mobile app development solution provider. Our team of highly talented individuals is ready to take your mobile app development project to the next level.",
     accordionData: accordionData
   };
+
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
