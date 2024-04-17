@@ -320,81 +320,81 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerdubai content={Banner} />
-      {/* {showFolds && */}
-      <>
-        <NewDubaiAwards content={Award} />
-        <DubiaDevelopers content={Development} />
-        <DubaiDelivered content={DeliveredContent} />
-        <DubaiTimeline content={timeline} />
-        <DubaiClients content={ClientContent} />
-        <StoryLine content={storyLine} />
-        <Whowearenew content={WhoWeAre} />
-        <Delivered content={delivered} />
-        <DeliveredBlack content={deliveredBlack} />
-        <Technologieslpdubainew content={technologies} />
-        <NewDubaiBussiness content={BussinessContent} />
-        <DubaiDevelopment content={compareContent} />
-        <DubaiDevelopmentUAE content={developmentUAE} />
-        <DubaiIOS content={IOSContent} />
-        <DubaiAndriod content={andriodContent} />
-        <DubaiMobileApplication content={MobileApplication} />
-        <DubaiConquered content={Conquered} />
-        <LpChoosedubaishipnewdubai
-          transform="transformlp"
-        />
-        <Expertappdubaiadvanced expertapp="expertapp" />
-        <Justbuilditlpdubai
-          title1="Just"
-          title="Build It."
-          para="Design, Develop, and Grow with BitsWits."
-          slide="slide1lp"
-        />
-        <Globallplp6dubai />
-        <Globalmap />
-        <Brand />
-        <Houtondubai />
-        <Faqdubai
-          faqsData={[
-            {
-              question:
-                "How can I launch an app in the UAE?",
-              answer: (
-                <>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </>
-              ),
-            },
-            {
-              question: "How much time is required to build a mobile application?",
-              answer: (
-                <>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </>
-              ),
-            },
-            {
-              question:
-                "How much does it cost to create an app in Dubai?",
-              answer: (
-                <>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </>
-              ),
-            },
-            {
-              question:
-                "What is a mobile app support service, and does Bitswits offer it?",
-              answer: (
-                <>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </>
-              ),
-            },
-
-          ]}
-        />
-        <Latestblog blogBox={blogBox} />
-      </>
+      {showFolds &&
+        <>
+          <NewDubaiAwards content={Award} />
+          <DubiaDevelopers content={Development} />
+          <DubaiDelivered content={DeliveredContent} />
+          <DubaiTimeline content={timeline} />
+          <DubaiClients content={ClientContent} />
+          <StoryLine content={storyLine} />
+          <Whowearenew content={WhoWeAre} />
+          <Delivered content={delivered} />
+          <DeliveredBlack content={deliveredBlack} />
+          <Technologieslpdubainew content={technologies} />
+          <NewDubaiBussiness content={BussinessContent} />
+          <DubaiDevelopment content={compareContent} />
+          <DubaiDevelopmentUAE content={developmentUAE} />
+          <DubaiIOS content={IOSContent} />
+          <DubaiAndriod content={andriodContent} />
+          <DubaiMobileApplication content={MobileApplication} />
+          <DubaiConquered content={Conquered} />
+          <LpChoosedubaishipnewdubai
+            transform="transformlp"
+          />
+          <Expertappdubaiadvanced expertapp="expertapp" />
+          <Justbuilditlpdubai
+            title1="Just"
+            title="Build It."
+            para="Design, Develop, and Grow with BitsWits."
+            slide="slide1lp"
+          />
+          <Globallplp6dubai />
+          <Globalmap />
+          <Brand />
+          <Houtondubai />
+          <Faqdubai
+            faqsData={[
+              {
+                question:
+                  "How can I launch an app in the UAE?",
+                answer: (
+                  <>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </>
+                ),
+              },
+              {
+                question: "How much time is required to build a mobile application?",
+                answer: (
+                  <>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </>
+                ),
+              },
+              {
+                question:
+                  "How much does it cost to create an app in Dubai?",
+                answer: (
+                  <>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What is a mobile app support service, and does Bitswits offer it?",
+                answer: (
+                  <>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </>
+                ),
+              },
+            ]}
+          />
+          <Latestblog blogBox={blogBox} />
+        </>
+      }
     </>
   );
 }
