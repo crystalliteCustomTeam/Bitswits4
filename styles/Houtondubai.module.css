@@ -1,11 +1,16 @@
 .houston {
+  position: relative;
   margin-bottom: 70px;
 }
+/* 
+.sticky{
+  position: sticky;
+  top: 50px;
+} */
 
 .applicationlong {
-  height: 430px;
-  overflow: auto;
   position: relative;
+  padding: 10px 0;
 }
 
 .understand h5 {
@@ -151,27 +156,52 @@
 .applicationlong::before {
   content: "";
   position: absolute;
-  left: 0%;
-  width: 6px;
-  height: 660px;
+  left: -21px;
+  width: 8px;
+  height: 100%;
   border-radius: 15px;
   background-color: #fff;
+  top: 0;
+  bottom: 0;
 }
 
-.active h3 {
+.applicationlong ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.applicationlong ul li {
+  text-align: left;
   position: relative;
 }
 
-.active h3::before {
+.applicationlong ul li a {
+  font-family: "SF-Pro-Display";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: black;
+  text-align: left;
+  display: block;
+}
+
+.applicationlong ul li.active::before {
   content: "";
   position: absolute;
-  left: 1px;
-  top: 5px;
+  left: -18.5px;
+  top: 0;
+  bottom: 0;
   width: 4px;
-  height: 40px;
+  height: 100%;
   border-radius: 15px;
   background-color: #f32f53;
 }
+
+/* ==================================== */
 
 @media screen and (max-width: 1200px) {
   .application h2 {
@@ -180,27 +210,20 @@
 }
 
 @media screen and (max-width: 991px) {
-  .houston {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-
   .understand {
     height: auto;
-    padding-left: 30px;
-    padding-right: 40px;
     overflow: auto;
-    padding-top: 50px;
+    padding: 30px;
   }
 
   .posto {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
-    height: 520px;
+    height: 610px;
   }
 
   .houston select {
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     height: 45px;
     margin-top: 25px;
