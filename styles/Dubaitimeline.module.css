@@ -661,7 +661,11 @@
 
 @media screen and (max-width: 567px) {
     .timelineSec {
-        padding-bottom: 0px;
+        padding: 50px 0 0;
+    }
+
+    .timeline { 
+        margin-bottom: 0px;
     }
 
     .timelineMain {

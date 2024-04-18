@@ -7,7 +7,6 @@ import ban1 from "@/public/newdubai/ban1.png"
 import ban2 from "@/public/newdubai/ban2.png"
 import ban3 from "@/public/newdubai/ban3.png"
 
-
 const Whowearenew = ({ content }) => {
     const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
     return (

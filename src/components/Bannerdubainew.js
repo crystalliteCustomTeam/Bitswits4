@@ -8,9 +8,20 @@ import styles from "@/styles/bannerdubainew.module.css";
 //
 import BannerImage from "@/public/newdubai/aroow.png"
 
-const backgroundClass = `${styles.newHomeBg}`;
+const dubaiBackground = `${styles.newHomeBg}`;
+const houstonBackground = `${styles.newHoustonBg}`;
+const dallasBackground = `${styles.newDallasBg}`;
+const newYorkBackground = `${styles.newNewYorkBg}`;
+const washingtonBackground = `${styles.newWashingtonBg}`;
+const austinBackground = `${styles.newAustinBg}`;
+const chicagoBackground = `${styles.newChicagoBg}`;
+const miamiBackground = `${styles.newMiamiBg}`;
+const torontoBackground = `${styles.newTorontoBg}`;
+const ukBackground = `${styles.newUKBg}`;
+const saudiaBackground = `${styles.newSaudiaBg}`;
 
 const Bannerdubai = ({ content }) => {
+    const pathname = usePathname();
     const { title, desc, pageSlug } = content;
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -105,7 +116,19 @@ const Bannerdubai = ({ content }) => {
 
     return (
         <>
-            <section className={`${backgroundClass} ${styles.DubaiBanner}`} >
+            <section className={`
+            ${pathname === "/new-mobile-app-development-company-dubai" ? dubaiBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-dallas" ? dallasBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : "bg-black"}
+            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : "bg-black"} 
+             ${styles.DubaiBanner}`} >
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost}`}>
                         <Col xl={7}>
@@ -140,7 +163,7 @@ const Bannerdubai = ({ content }) => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
         </>
     )
 }

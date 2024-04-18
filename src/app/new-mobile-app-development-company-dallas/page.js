@@ -23,6 +23,7 @@ import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import Building from "/public/newhouston/builingImageTwo.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -101,9 +102,9 @@ export default function gamedevelopmentcompany() {
 
   // Banner Content
   const Banner = {
-    title: "Leading Mobile App Development Company Dubai",
-    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dubai are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
-    pageSlug: "Mobile App Development Company Dubai",
+    title: "Mobile App Development Company Dallas",
+    desc: "BitsWits stands out as a leading mobile app development company in Dallas due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dallas are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
+    pageSlug: "Mobile App Development Company Dallas",
   }
 
   // award Content
@@ -125,9 +126,11 @@ export default function gamedevelopmentcompany() {
     }
   ]
   const Development = {
-    title: "Top-Notch App Development Company in Dubai",
+    title: "Dallas App Developers",
     desc: "BitsWits stands out as a top-tier mobile app development company in Dubai, boasting a decade-long legacy of creating impactful, high-quality apps. Our tailored mobile apps help businesses make massive revenue over a short haul, showcasing our commitment to excellence and reflecting our dedication to delivering effective solutions.",
     subContent: subContent,
+    image: Building,
+    position: false,
   }
   // delivered content
   const DeliveredContent = {
@@ -318,6 +321,37 @@ export default function gamedevelopmentcompany() {
       </span>
     </>
   }
+  // Houston Dubai
+  const menus = [
+    "App Development Costs According to Business Size In Dubai",
+    "Cost of App Development in Dubai for a Startup",
+    "Cost of App Development in Dubai for Mid-Sized Businesses",
+    "Cost of App Development in Dubai for Enterprises",
+  ];
+
+  const sections = [
+    {
+      title: "App Development Costs According to Business Size In Dubai ",
+      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> `
+    },
+    {
+      title: "Cost of App Development in Dubai for a Startup",
+      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>`
+    },
+    {
+      title: "Cost of App Development in Dubai for Mid-Sized Businesses",
+      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>`
+    },
+    {
+      title: "Cost of App Development in Dubai for Enterprises",
+      content: `<p class='fontsfregular'>In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>`
+    }
+  ];
+
+  const HoustonContent = {
+    menus: menus,
+    sections: sections,
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -353,7 +387,7 @@ export default function gamedevelopmentcompany() {
           <Globallplp6dubai />
           <Globalmap />
           <Brand />
-          <Houtondubai />
+          <Houtondubai content={HoustonContent} />
           <Faqdubai
             faqsData={[
               {

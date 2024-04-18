@@ -4,9 +4,7 @@ import Slider from 'react-slick'
 import styles from "@/styles/DubaiConquered.module.css"
 // Images
 import Slide1 from "/public/newdubai/conquered1.png"
-import Slide2 from "/public/newdubai/conquered2.png"
-import Slide3 from "/public/newdubai/conquered3.png"
-import Slide4 from "/public/newdubai/conquered4.png"
+import Slide2 from "/public/newdubai/conquered2.png" 
 import Slide5 from "/public/newdubai/conquered5.png"
 import Slide6 from "/public/newdubai/conquered6.png"
 import Slide7 from "/public/newdubai/conquered7.png"

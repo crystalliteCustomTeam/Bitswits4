@@ -71,7 +71,6 @@ export default function Expertappdubaiadvanced(props) {
         ]
     };
 
-
     return (
         <>
             <section className={styles[props.expertapp]}>

@@ -34,6 +34,106 @@
   align-items: center;
 }
 
+.newHoustonBg {
+  background: #000;
+  background-image: url(../public/newhouston/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newDallasBg {
+  background: #000;
+  background-image: url(../public/newhouston/dallas-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newNewYorkBg {
+  background: #000;
+  background-image: url(../public/newhouston/newyork-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newWashingtonBg {
+  background: #000;
+  background-image: url(../public/newhouston/washington-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newAustinBg {
+  background: #000;
+  background-image: url(../public/newhouston/austin-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newChicagoBg {
+  background: #000;
+  background-image: url(../public/newhouston/chicago-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newMiamiBg {
+  background: #000;
+  background-image: url(../public/newhouston/miami-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newTorontoBg {
+  background: #000;
+  background-image: url(../public/newhouston/toronto-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newUKBg {
+  background: #000;
+  background-image: url(../public/newhouston/uk-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.newSaudiaBg {
+  background: #000;
+  background-image: url(../public/newhouston/saudia-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
 .conform .applost {
   justify-content: space-between;
 }
@@ -541,6 +641,46 @@
   .newHomeBg {
     height: 93dvh;
   }
+
+  .newHoustonBg {
+    height: 93dvh;
+  }
+
+  .newDallasBg {
+    height: 93dvh;
+  }
+
+  .newNewYorkBg {
+    height: 93dvh;
+  }
+
+  .neWashingtonBg {
+    height: 93dvh;
+  }
+
+  .newAustinBg {
+    height: 93dvh;
+  }
+
+  .newChicagoBg {
+    height: 93dvh;
+  }
+
+  .newMiamiBg {
+    height: 93dvh;
+  }
+
+  .newTorontoBg {
+    height: 93dvh;
+  }
+
+  .newUKBg {
+    height: 93dvh;
+  }
+
+  .newSaudiaBg {
+    height: 93dvh;
+  }
 }
 
 @media screen and (max-width: 1799px) {
@@ -601,6 +741,46 @@
   .newHomeBg {
     height: 110dvh;
   }
+
+  .newHoustonBg {
+    height: 110dvh;
+  }
+
+  .newDallasBg {
+    height: 110dvh;
+  }
+
+  .newNewYorkBg {
+    height: 110dvh;
+  }
+
+  .neWashingtonBg {
+    height: 110dvh;
+  }
+
+  .newAustinBg {
+    height: 110dvh;
+  }
+
+  .newChicagoBg {
+    height: 110dvh;
+  }
+
+  .newMiamiBg {
+    height: 110dvh;
+  }
+
+  .newTorontoBg {
+    height: 110dvh;
+  }
+
+  .newUKBg {
+    height: 110dvh;
+  }
+
+  .newSaudiaBg {
+    height: 110dvh;
+  }
 }
 
 @media screen and (max-width: 1499px) {
@@ -642,6 +822,46 @@
     height: 100dvh;
   }
 
+  .newHoustonBg {
+    height: 100dvh;
+  }
+
+  .newDallasBg {
+    height: 100dvh;
+  }
+
+  .newNewYorkBg {
+    height: 100dvh;
+  }
+
+  .neWashingtonBg {
+    height: 100dvh;
+  }
+
+  .newAustinBg {
+    height: 100dvh;
+  }
+
+  .newChicagoBg {
+    height: 100dvh;
+  }
+
+  .newMiamiBg {
+    height: 100dvh;
+  }
+
+  .newTorontoBg {
+    height: 100dvh;
+  }
+
+  .newUKBg {
+    height: 100dvh;
+  }
+
+  .newSaudiaBg {
+    height: 100dvh;
+  }
+
   .your {
     width: 85%;
   }
@@ -649,6 +869,66 @@
 
 @media screen and (max-width: 1099px) {
   .newHomeBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newHoustonBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newDallasBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newNewYorkBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .neWashingtonBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newAustinBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newChicagoBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newMiamiBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newTorontoBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newUKBg {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .newSaudiaBg {
     height: auto;
     padding-top: 20px;
     padding-bottom: 70px;
@@ -691,7 +971,7 @@
     line-height: 34px;
   }
 
-  .newHomeBg h3 {
+  .DubaiBanner h3 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -765,7 +1045,7 @@
     flex-direction: column;
   }
 
-  .newHomeBg h3 {
+  .DubaiBanner h3 {
     font-size: 25px;
     line-height: 30px;
     margin-top: 0;
@@ -776,6 +1056,56 @@
   }
 
   .newHomeBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newHoustonBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newDallasBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newNewYorkBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .neWashingtonBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newAustinBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newChicagoBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newMiamiBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newTorontoBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newUKBg {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .newSaudiaBg {
     padding-top: 0px;
     padding-bottom: 50px;
   }
@@ -846,7 +1176,7 @@
     font-size: 20px;
   }
 
-  .newHomeBg h3 {
+  .DubaiBanner h3 {
     font-size: 25px;
     line-height: 1.3;
     text-align: center;
