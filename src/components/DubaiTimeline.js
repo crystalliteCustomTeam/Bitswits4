@@ -48,19 +48,19 @@ const DubaiTimeline = ({ content }) => {
                             <div className=''>
                                 <div className={styles.timelineMain}>
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
-                                        <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
-                                            <Image src={TimelineOne} width={165} height={87} alt='Bitswits' />
-                                            <h3 className=''>Idea Conceptualization and Research</h3>
-                                            <p className={`${styles.timePara} fontsfregular`}>
-                                                At BitsWits, we make your idea work through the most comprehensive research and creativeness in the first stage. We will make it align with your business plans and market trends so that it will be both viable and marketable. Our collaborative workstyle ensures that your application idea is creative, market-prepared, and resonates with the requirements of your targeted audience.
-                                            </p>
-                                        </div>
-                                        <div className={styles.marker}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
                                             <p className={`${styles.redPara} fontsfregular`}>The Process </p>
                                             <h2>{title}</h2>
                                             <p className='fontsfregular'>
                                                 {desc}
+                                            </p>
+                                        </div>
+                                        <div className={styles.marker}></div>
+                                        <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
+                                            <Image src={TimelineOne} width={165} height={87} alt='Bitswits' />
+                                            <h3 className=''>Idea Conceptualization and Research</h3>
+                                            <p className={`${styles.timePara} fontsfregular`}>
+                                                At BitsWits, we make your idea work through the most comprehensive research and creativeness in the first stage. We will make it align with your business plans and market trends so that it will be both viable and marketable. Our collaborative workstyle ensures that your application idea is creative, market-prepared, and resonates with the requirements of your targeted audience.
                                             </p>
                                         </div>
                                     </div>
@@ -84,21 +84,21 @@ const DubaiTimeline = ({ content }) => {
                                         </div>
                                     </div>
                                     <div className={`${styles.timeline} ${styles.timeThree} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
-                                        <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
-                                            <Image src={TimelineFive} width={207} height={202} alt='Bitswits' />
-                                            <h3 className=''>Brand Integration</h3>
-                                            <p className={`${styles.timePara} fontsfregular`}>
-                                                Your brand identity becomes part of your app, and we strive to maintain a seamless and memorable user experience. Our designers blend your logos, color schemes, and brand guidelines into the app's design to solidify your unique brand identity. By paying closer attention to each detail that we create, we develop a powerful brand presentation that forges a deep bond between your brand and your audience.
-                                            </p>
-                                        </div>
-                                        <div className={styles.numberThree}></div>
-                                        <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
-                                        <div className={`d-lg-none d-block ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour}`}>
                                             <Image src={TimelineFour} width={207} height={202} alt='Bitswits' />
                                             <h3 className=''>Final Touches and Polish</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 Prior to the launch, we add features like animations, transitions and special effects in order to make your app more user-friendly and interesting. Through a comprehensive testing mechanism, we eliminate any bugs or issues your application is faced with, hence, your users will have an easy and smooth time when using your application. Our focus is to produce an app that is highly customizable and meets your expectations, leaving a satisfactory impression.
+                                            </p>
+                                        </div>
+                                        <div className={styles.numberThree}></div>
+                                        <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
+                                        <div className={`d-lg-none d-block ${styles.numberFourMobile}`}></div>
+                                        <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
+                                            <Image src={TimelineFive} width={207} height={202} alt='Bitswits' />
+                                            <h3 className=''>Brand Integration</h3>
+                                            <p className={`${styles.timePara} fontsfregular`}>
+                                                Your brand identity becomes part of your app, and we strive to maintain a seamless and memorable user experience. Our designers blend your logos, color schemes, and brand guidelines into the app's design to solidify your unique brand identity. By paying closer attention to each detail that we create, we develop a powerful brand presentation that forges a deep bond between your brand and your audience.
                                             </p>
                                         </div>
                                     </div>

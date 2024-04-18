@@ -30,9 +30,9 @@ import applewatch from "/public/artificalai/facialrecognition.png";
 import appletvappdevelopment from "/public/artificalai/locationtracking.png";
 import iphoneappdesigning from "/public/artificalai/motionsensing.png";
 import hybridiphone from "/public/artificalai/webconferencing.png";
+import Script from "next/script";
 
 export default function gamedevelopmentcompany() {
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -42,11 +42,8 @@ export default function gamedevelopmentcompany() {
         setIsSliderActive(true);
       }
     };
-
     handleResize();
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -118,7 +115,6 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   const [showFolds, setShowFolds] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -223,11 +219,10 @@ export default function gamedevelopmentcompany() {
             processclass="processLp6"
             title="Explore Our Artificial Intelligence App Development Journey"
             desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
           />
-
           <Justbuildit />
           <LpChoose transform="transform" />
           <ServicesPortfolio
@@ -354,6 +349,96 @@ export default function gamedevelopmentcompany() {
           <HomeLocation />
         </>
       }
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Artificial Intelligence Development Company",
+          "url": "https://www.bitswits.co/artificial-intelligence-development-company",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }                              
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/artificial-intelligence-development-company",
+          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+          "sameAs": [
+            "https://www.facebook.com/officialBitsWits",
+            "https://twitter.com/BitsWits_/",
+            "https://www.youtube.com/@officialBitsWits",
+            "https://www.instagram.com/officialBitsWits/",
+            "https://www.linkedin.com/company/officialBitsWits"
+          ]                        
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+         "@context": "https://schema.org",
+         "@type": "LocalBusiness",
+         "name": "Artificial Intelligence Development Company",
+         "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fai.7f124f53.png&w=1080&q=75",
+         "url": "https://www.bitswits.co/artificial-intelligence-development-company",
+         "telephone": "+1 713 565 7656",
+         "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+           "addressLocality": "Houston",
+           "addressRegion": "TX",
+           "postalCode": "77056",
+           "addressCountry": "US"
+         },
+         "geo": {
+           "@type": "GeoCoordinates",
+           "latitude": 29.7370769,
+           "longitude": -95.46221829999999
+         },
+         "openingHoursSpecification": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+             "Monday",
+             "Tuesday",
+             "Wednesday",
+             "Thursday",
+             "Friday"
+           ],
+           "opens": "09:00",
+           "closes": "06:00"
+         },
+         "sameAs": [
+           "https://www.facebook.com/officialBitsWits",
+           "https://www.instagram.com/officialBitsWits/",
+           "https://twitter.com/BitsWits_/",
+           "https://www.linkedin.com/company/officialBitsWits",
+           "https://www.youtube.com/@officialBitsWits"
+         ]              
+        `}
+
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/", 
+          "@type": "Product", 
+          "name": "Artificial Intelligence Development Company",
+          "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fai.7f124f53.png&w=1080&q=75",
+          "description": "BitsWits welcomes you to the one-stop destination for innovative mobile applications development with artificial intelligence. Our skilled developers and designers provide forward-thinking solutions for all your AI development and integration requirements.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BitsWits"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "1174"
+          }                       
+        `}
+      </Script>
     </>
   );
 }

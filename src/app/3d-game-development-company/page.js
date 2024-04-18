@@ -1,6 +1,6 @@
 "use client"
-
 import React, { useState, useEffect } from "react";
+import Script from "next/script";
 //components
 import ServicesBanner from "../../components/ServicesBanner";
 import ServicesAdvantage from "../../components/ServicesAdvantage";
@@ -67,7 +67,6 @@ const mobileApplication = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -122,7 +121,6 @@ const mobileApplication = () => {
       ],
     },
   ];
-
   const [showFolds, setShowFolds] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -130,7 +128,6 @@ const mobileApplication = () => {
     }, 2000);
     return () => clearTimeout(timeout);
   }, []);
-
   return (
     <>
       <ServicesBanner
@@ -411,6 +408,96 @@ const mobileApplication = () => {
           <HomeLocation />
         </>
       }
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "3D Games Development Company",
+          "url": "https://www.bitswits.co/3d-game-development-company",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }                
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/3d-game-development-company",
+          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+          "sameAs": [
+            "https://www.facebook.com/officialBitsWits",
+            "https://twitter.com/BitsWits_/",
+            "https://www.youtube.com/@officialBitsWits",
+            "https://www.instagram.com/officialBitsWits/",
+            "https://www.linkedin.com/company/officialBitsWits"
+          ]                
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+         "@context": "https://schema.org",
+         "@type": "LocalBusiness",
+         "name": "3D Games Development Company",
+         "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbannerImage.6e414021.png&w=1920&q=75",
+         "url": "https://www.bitswits.co/3d-game-development-company",
+         "telephone": "+1 713 565 7656",
+         "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+           "addressLocality": "Houston",
+           "addressRegion": "TX",
+           "postalCode": "77056",
+           "addressCountry": "US"
+         },
+         "geo": {
+           "@type": "GeoCoordinates",
+           "latitude": 29.7370769,
+           "longitude": -95.46221829999999
+         },
+         "openingHoursSpecification": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+             "Monday",
+             "Tuesday",
+             "Wednesday",
+             "Thursday",
+             "Friday"
+           ],
+           "opens": "09:00",
+           "closes": "06:00"
+         },
+         "sameAs": [
+           "https://www.facebook.com/officialBitsWits",
+           "https://www.instagram.com/officialBitsWits/",
+           "https://twitter.com/BitsWits_/",
+           "https://www.linkedin.com/company/officialBitsWits",
+           "https://www.youtube.com/@officialBitsWits"
+         ]       
+        `}
+
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/", 
+          "@type": "Product", 
+          "name": "3D Games Development Company",
+          "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbannerImage.6e414021.png&w=1920&q=75",
+          "description": "We focus on creating on-demand 3D gameplay environments, utilizing cutting-edge technologies to bring a range of virtual worlds to life. We make it happen, whether it be an action-packed first-person shooter, a thrilling online multiplayer game, or a captivating puzzle game. The cornerstone of our services caters to realistic 3D character models, dynamic lighting and shadow effects, physics-based animations, realistic particle systems, and dynamic weather effects.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BitsWits"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "1174"
+          }                
+        `}
+      </Script>
     </>
   );
 };

@@ -30,33 +30,17 @@ const Technologieslpdubai = ({ content }) => {
                         </Col>
                         <Col xl={12} className='mb-5 d-block'>
                             <div className={styles.analpost}>
-                                <div className={activeTab1 == 'tab1' ? styles.active : styles.new1} onClick={() => fun1('tab1')} href="#">Mobile App</div>
-                                <div className={activeTab1 == 'tab2' ? styles.active : styles.new1} onClick={() => fun1('tab2')} href="#">Native App</div>
-                                <div className={activeTab1 == 'tab3' ? styles.active : styles.new1} onClick={() => fun1('tab3')} href="#">Hybrid App</div>
-                                <div className={activeTab1 == 'tab4' ? styles.active : styles.new1} onClick={() => fun1('tab4')} href="#">Product Strategy</div>
-                                <div className={activeTab1 == 'tab5' ? styles.active : styles.new1} onClick={() => fun1('tab5')} href="#">E-commerce App</div>
-                                <div className={activeTab1 == 'tab6' ? styles.active : styles.new1} onClick={() => fun1('tab6')} href="#">B2B App</div>
+                                {/* <div className={activeTab1 == 'tab1' ? styles.active : styles.new1} onClick={() => fun1('tab1')} href="#">Mobile App</div> */}
+                                <div className={activeTab1 == 'tab1' ? styles.active : styles.new1} onClick={() => fun1('tab1')} href="#">Native App</div>
+                                <div className={activeTab1 == 'tab2' ? styles.active : styles.new1} onClick={() => fun1('tab2')} href="#">Hybrid App</div>
+                                <div className={activeTab1 == 'tab3' ? styles.active : styles.new1} onClick={() => fun1('tab3')} href="#">Product Strategy</div>
+                                <div className={activeTab1 == 'tab4' ? styles.active : styles.new1} onClick={() => fun1('tab4')} href="#">E-commerce App</div>
+                                <div className={activeTab1 == 'tab5' ? styles.active : styles.new1} onClick={() => fun1('tab5')} href="#">B2B App</div>
                             </div>
                         </Col>
-                        <Col xl={12}>
-                            {activeTab1 == 'tab1' &&
-                                <div className={styles.newyork}>
-                                    <Row className={`gy-5 ${styles.colpont}`}>
-                                        <Col lg={6} className='mt-3'>
-                                            <h3 className={styles.stook}>Mobile App Development</h3>
-                                            <p className='fontsfregular'>
-                                                Our mobile app development services include both native and hybrid app development, which in turn guarantee a high-performance and user-friendly app across all platforms.
-                                            </p>
-                                            <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
-                                        </Col>
-                                        <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={564} height={522} quality={85} src={icon1} />
-                                        </Col>
-                                    </Row>
-                                </div>
-                            }
+                        <Col xl={12}> 
 
-                            {activeTab1 == 'tab2' &&
+                            {activeTab1 == 'tab1' &&
                                 <div className={styles.newyork}>
 
                                     <Row className={`gy-5 ${styles.colpont}`}>
@@ -74,7 +58,7 @@ const Technologieslpdubai = ({ content }) => {
                                 </div>
                             }
 
-                            {activeTab1 == 'tab3' &&
+                            {activeTab1 == 'tab2' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
@@ -92,11 +76,11 @@ const Technologieslpdubai = ({ content }) => {
                                 </div>
                             }
 
-                            {activeTab1 == 'tab4' &&
+                            {activeTab1 == 'tab3' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
-                                            <h3 className={styles.stook}>Product Strategy Development</h3>
+                                            <h3 className={styles.stook}>Product Strategy</h3>
                                             <p className='fontsfregular'>
                                                 The product strategy services offered by us assist you in deciding the goals of your app, the target audience as well as the key features of your app. Our team will work with you to agree on the best approach for your app, making sure that it helps achieve your business objectives and is appealing to your target audience.
                                             </p>
@@ -109,11 +93,11 @@ const Technologieslpdubai = ({ content }) => {
                                 </div>
                             }
 
-                            {activeTab1 == 'tab5' &&
+                            {activeTab1 == 'tab4' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
-                                            <h3 className={styles.stook}>E-Commerce App Development</h3>
+                                            <h3 className={styles.stook}>E-Commerce App </h3>
                                             <p className='fontsfregular'>
                                                 We excel in creating e-commerce applications that offer your customers a flawless online purchasing process. We go beyond doing the job that matters and deliver an e-commerce app with intelligent navigation, safe payment gateways, and every other feature that helps you increase sales and income.
                                             </p>
@@ -126,11 +110,11 @@ const Technologieslpdubai = ({ content }) => {
                                 </div>
                             }
 
-                            {activeTab1 == 'tab6' &&
+                            {activeTab1 == 'tab5' &&
                                 <div className={styles.newyork}>
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
-                                            <h3 className={styles.stook}>B2B App Development</h3>
+                                            <h3 className={styles.stook}>B2B App</h3>
                                             <p className='fontsfregular'>
                                                 Our B2B app development services are crafted to accommodate the business specifications of any company that strives to reduce manual work and amplify processing Be it a custom-made CRM or sales management app, we are proficient in developing sophisticated solutions for any type of business.
                                             </p>

@@ -63,8 +63,7 @@ export default function gamedevelopmentcompany() {
       setShowFolds(true);
     }, 2000);
     return () => clearTimeout(timeout);
-  }, []);
-
+  }, []); 
   //=====StoryLine Fold=====//
   const accordionData = [
     {
@@ -98,21 +97,18 @@ export default function gamedevelopmentcompany() {
     title: (<> App Development Company in UAE </>),
     para: "With years of experience empowering startups and well-established brands with advanced app development solutions, we have garnered attention from several credible platforms worldwide, including Zawya and Lovin Dubai in Dubai. Our recognition in the mobile app development industry has solidified us as an end-to-end mobile app development solution provider. Our team of highly talented individuals is ready to take your mobile app development project to the next level.",
     accordionData: accordionData
-  };
-
+  }; 
   // Banner Content
   const Banner = {
     title: "Mobile App Development Company UK",
     desc: "BitsWits stands out as a leading mobile app development company in UK due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in UK are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
     pageSlug: "Mobile App Development Company UK",
-  }
-
+  } 
   // award Content
   const Award = {
     title: "Awards & Recognitions",
     desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
-  }
-
+  } 
   // DubaiDevelopers Content
   const subContent = [
     {
@@ -211,7 +207,6 @@ export default function gamedevelopmentcompany() {
       <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Dubai are offering;</span>
     </>
   }
-
   // Bussiness Content
   const subBussContent = [
     {
@@ -263,7 +258,6 @@ export default function gamedevelopmentcompany() {
       In part of the quality of our services, we at BitsWits offer more than application development services; we provide strategic alliances that lead to business growth. Regardless of whether you’re looking to create a stunning website, develop a powerful mobile application, or aim to improve your online presence, our experts are there to help. Our track record of success and happy clients proves that we are true professionals. Opt for Us to be your app development partner and stay ahead in the competitive mobile industry.
     </>
   }
-
   // IOS content
   const iosdesc = [
     {
@@ -309,7 +303,6 @@ export default function gamedevelopmentcompany() {
     title: "BitsWits is More Than an Ordinary Mobile App Development Company Dubai ",
     desc: MobileApplicationContent
   }
-
   // conqured content
   const Conquered = {
     title: "Industries We’ve Conquered as an Eminent App Development Company Dubai ",
@@ -326,8 +319,7 @@ export default function gamedevelopmentcompany() {
     "Cost of App Development in Dubai for a Startup",
     "Cost of App Development in Dubai for Mid-Sized Businesses",
     "Cost of App Development in Dubai for Enterprises",
-  ];
-
+  ]; 
   const sections = [
     {
       title: "App Development Costs According to Business Size In Dubai ",
@@ -345,8 +337,7 @@ export default function gamedevelopmentcompany() {
       title: "Cost of App Development in Dubai for Enterprises",
       content: `<p class='fontsfregular'>In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>`
     }
-  ];
-
+  ]; 
   const HoustonContent = {
     menus: menus,
     sections: sections,

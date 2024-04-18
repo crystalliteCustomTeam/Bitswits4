@@ -38,7 +38,7 @@ const Faqdubai = (props) => {
                                             <p>{faq.answer}</p>
                                             <Link href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</Link>
                                         </div>
-                                        <Image className="img-fluid" src={faq.imggodd} alt='Bitswits' />
+                                        {/* <Image className="img-fluid" src={faq.imggodd} alt='Bitswits' /> */}
                                     </div>
                                 </div>
                             ))}

@@ -75,7 +75,7 @@ const NewDubaiAwards = ({ content }) => {
                                 </p>
                                 <div className={styles.btn}>
                                     <a href='javascript:;'>
-                                        Check Reviews
+                                        Check Testimonials
                                     </a>
                                 </div>
                             </div>

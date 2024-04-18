@@ -14,7 +14,7 @@ const Whowearenew = ({ content }) => {
             <section className={styles.counter}>
                 <Container fluid>
                     <Row className={styles.android}>
-                        <h3 className='center'>Who We've</h3>
+                        {/* <h3 className='center'>Who We've</h3> */}
                         <h2 className='center'>{title}</h2>
                         <p className='center'>
                             {desc}

@@ -121,7 +121,7 @@
 
 .timeLeft {
     float: left;
-    direction: rtl;
+    /* direction: rtl; */
 }
 
 .marker {
