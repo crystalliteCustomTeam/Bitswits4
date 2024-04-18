@@ -507,13 +507,13 @@ export default function Gameapplicationdevelopment() {
         {`
           "@context": "https://schema.org/",
           "@type": "WebSite",
-          "name": "Flutter Mobile Apps Development Company",
-          "url": "https://www.bitswits.co/flutter-mobile-development",
+          "name": "Game Application Development Company",
+          "url": "https://www.bitswits.co/game-application-development",
           "potentialAction": {
             "@type": "SearchAction",
             "target": "{search_term_string}",
             "query-input": "required name=search_term_string"
-          }                                                                                      
+          }                                                                                              
         `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
@@ -521,7 +521,7 @@ export default function Gameapplicationdevelopment() {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "BitsWits",
-          "url": "https://www.bitswits.co/flutter-mobile-development",
+          "url": "https://www.bitswits.co/game-application-development",
           "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
           "sameAs": [
             "https://www.facebook.com/officialBitsWits",
@@ -529,16 +529,16 @@ export default function Gameapplicationdevelopment() {
             "https://www.youtube.com/@officialBitsWits",
             "https://www.instagram.com/officialBitsWits/",
             "https://www.linkedin.com/company/officialBitsWits"
-          ]                                                                                
+          ]                                                                                        
         `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
          "@context": "https://schema.org",
          "@type": "LocalBusiness",
-         "name": "Flutter Mobile Apps Development Company",
-         "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
-         "url": "https://www.bitswits.co/flutter-mobile-development",
+         "name": "Game Application Development Company",
+         "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgameappbanner.c0534db1.png&w=1200&q=75",
+         "url": "https://www.bitswits.co/game-application-development",
          "telephone": "+1 713 565 7656",
          "address": {
            "@type": "PostalAddress",
@@ -571,16 +571,16 @@ export default function Gameapplicationdevelopment() {
            "https://twitter.com/BitsWits_/",
            "https://www.linkedin.com/company/officialBitsWits",
            "https://www.youtube.com/@officialBitsWits"
-         ]                                                               
+         ]                                                                       
         `}
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
           "@context": "https://schema.org/", 
           "@type": "Product", 
-          "name": "Flutter Mobile Apps Development Company",
-          "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
-          "description": "BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps.",
+          "name": "Game Application Development Company",
+          "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgameappbanner.c0534db1.png&w=1200&q=75",
+          "description": "Welcome to Bitswits, your gateway to exceptional gaming experiences! As a premier game development company, we specialize in turning imaginative concepts into stunning gaming experiences. Our team of mobile game developers is not just skilled; they're innovators dedicated to pushing the boundaries of what games can be. With our renowned game development services, we offer more than development; we offer a partnership focused on elevating your game to an art form. Choose Bitswits to bring your gaming vision to life and captivate players worldwide.",
           "brand": {
             "@type": "Brand",
             "name": "BitsWits"
@@ -589,7 +589,7 @@ export default function Gameapplicationdevelopment() {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
             "ratingCount": "1174"
-          }                                                                              
+          }                                                                                      
         `}
       </Script>
     </>

@@ -1,4 +1,5 @@
 "use client"
+import Script from "next/script";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 //components
@@ -234,6 +235,95 @@ export default function UiUxDesign() {
           <HomeLocation />
         </>
       }
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "UI & UX Design And Development Services",
+          "url": "https://www.bitswits.co/ui-&-ux-design-and-development-services",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }                          
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/ui-&-ux-design-and-development-services",
+          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+          "sameAs": [
+            "https://www.facebook.com/officialBitsWits",
+            "https://twitter.com/BitsWits_/",
+            "https://www.youtube.com/@officialBitsWits",
+            "https://www.instagram.com/officialBitsWits/",
+            "https://www.linkedin.com/company/officialBitsWits"
+          ]                      
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+         "@context": "https://schema.org",
+         "@type": "LocalBusiness",
+         "name": "UI & UX Design And Development Services",
+         "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-img.bdfaeb91.png&w=640&q=75",
+         "url": "https://www.bitswits.co/ui-&-ux-design-and-development-services",
+         "telephone": "+1 713 565 7656",
+         "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+           "addressLocality": "Houston",
+           "addressRegion": "TX",
+           "postalCode": "77056",
+           "addressCountry": "US"
+         },
+         "geo": {
+           "@type": "GeoCoordinates",
+           "latitude": 29.7370769,
+           "longitude": -95.46221829999999
+         },
+         "openingHoursSpecification": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+             "Monday",
+             "Tuesday",
+             "Wednesday",
+             "Thursday",
+             "Friday"
+           ],
+           "opens": "09:00",
+           "closes": "06:00"
+         },
+         "sameAs": [
+           "https://www.facebook.com/officialBitsWits",
+           "https://www.instagram.com/officialBitsWits/",
+           "https://twitter.com/BitsWits_/",
+           "https://www.linkedin.com/company/officialBitsWits",
+           "https://www.youtube.com/@officialBitsWits"
+         ]                                                                                                               
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          "@context": "https://schema.org/", 
+          "@type": "Product", 
+          "name": "UI & UX Design And Development Services",
+          "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-img.bdfaeb91.png&w=640&q=75",
+          "description": "The key to developing a successful app is marrying the functionality your users demand with an intuitive design and experience that make it as simple as possible to use. Chetu’s UI/UX experts will design the perfect web, desktop, or mobile app to meet your specific business requirements, industry needs, and product development goals. We design and develop innovative digital user experiences that solve complex business problems.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BitsWits"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "1174"
+          }        
+        `}
+      </Script>
     </>
   );
 }

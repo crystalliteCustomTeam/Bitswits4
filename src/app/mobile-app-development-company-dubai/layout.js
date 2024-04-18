@@ -16,7 +16,13 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: '/mobile-app-development-company-dubai' },
   //===== GEO Tags =====
-  other: {},
+  other: {
+    "DC.title": "Mobile App Development Company in Dubai",
+    "geo.region": "AE",
+    "geo.placename": "Dubai",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+  },
 }
 
 export default function RootLayout({ children }) {
