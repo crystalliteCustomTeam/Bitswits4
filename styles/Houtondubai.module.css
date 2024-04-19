@@ -2,6 +2,7 @@
   position: relative;
   margin-bottom: 70px;
 }
+
 /* 
 .sticky{
   position: sticky;
@@ -111,7 +112,8 @@
 }
 
 .understand p {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 .understand ul li {
@@ -240,6 +242,7 @@
   .understand h2 {
     font-size: 25px;
   }
+
   .houston select {
     font-size: 13px;
   }

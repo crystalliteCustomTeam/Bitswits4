@@ -18,7 +18,7 @@ const NewDubaiBussiness = ({ content }) => {
                             <h2>{title}</h2>
                             <p className={`${styles.secondPara} fontsfregular`}>
                                 {desc}
-                            </p> 
+                            </p>
                             {subContent.map((content, index) => (
                                 <div key={index}>
                                     <h3>{content.subTitle}</h3>

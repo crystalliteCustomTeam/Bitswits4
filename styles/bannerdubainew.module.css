@@ -1,6 +1,6 @@
-.DubaiBanner {
+/* .DubaiBanner {
   padding-top: 40px;
-}
+} */
 
 .newpound {
   margin-top: 40px;
@@ -19,8 +19,9 @@
 }
 
 .oppp p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 26px;
+  text-align: justify;
   padding-right: 0;
 }
 
@@ -628,8 +629,9 @@
   }
 
   .oppp p {
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
   }
 
   .appios {
@@ -694,11 +696,6 @@
     max-width: 1400px;
   }
 
-  .oppp p {
-    font-size: 20px;
-    line-height: 26px;
-  }
-
   .your {
     width: 80%;
   }
@@ -739,47 +736,47 @@
   }
 
   .newHomeBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newHoustonBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newDallasBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newNewYorkBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .neWashingtonBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newAustinBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newChicagoBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newMiamiBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newTorontoBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newUKBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 
   .newSaudiaBg {
-    height: 110dvh;
+    height: 100dvh;
   }
 }
 

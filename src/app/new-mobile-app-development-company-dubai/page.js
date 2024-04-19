@@ -112,7 +112,7 @@ export default function dubaidevelopmentcompany() {
   // ClientContent
   const ClientContent = {
     title: <>Why Our Clients <span>Love</span> BitsWits <br /> for App Development </>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate,<br /> our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.</>
+    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
   }
   //=====StoryLine Fold=====//
   const accordionData = [
@@ -167,7 +167,7 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$50,000</span> to  <span>$250,000+</span>.</>
+      para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$25,000</span> to  <span>$200,000+</span>.</>
     },
     {
       para: <>At BitsWits, a simple app development project starts with just <span>$50,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
@@ -199,14 +199,14 @@ export default function dubaidevelopmentcompany() {
     },
   ]
   const deliveredBlack = {
-    title: "How Much Money Can an App Make?",
+    title: <>How Much Money Can <br /> an App Make?</>,
     desc: descBlack,
   }
   // Technologies Content
   const technologies = {
     title: "Cutting-Edge Mobile App Development Services in Dubai ",
     desc: <>
-      <span>At BitsWits, we offer a wide range of mobile app development services for businesses located in Dubai and other UAE cities. Our team of highly skilled Dubai app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</span>
+      <p className="pt-0">At BitsWits, we offer a wide range of mobile app development services for businesses located in Dubai and other UAE cities. Our team of highly skilled Dubai app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</p>
       <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Dubai are offering;</span>
     </>
   }

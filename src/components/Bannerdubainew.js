@@ -4,9 +4,7 @@ import Image from 'next/image';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/bannerdubainew.module.css";
-//
-import BannerImage from "@/public/newdubai/aroow.png"
+import styles from "@/styles/bannerdubainew.module.css"; 
 
 const dubaiBackground = `${styles.newHomeBg}`;
 const houstonBackground = `${styles.newHoustonBg}`;
@@ -130,16 +128,16 @@ const Bannerdubai = ({ content }) => {
             ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : "bg-black"} 
              ${styles.DubaiBanner}`} >
                 <Container className={` ${styles.conform}`}>
-                    <Row className={`g-5 ${styles.applost}`}>
+                    <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
-                                <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
+                                {/* <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
                                     <h4 className='white fontsfregular'>Home</h4>
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='white fontsfregular'>Location</h4>
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='newfycolr fontsfregular'>{pageSlug}</h4>
-                                </div>
+                                </div> */}
                                 <h2 className='white fw700 mb-4'>
                                     {title}
                                 </h2>

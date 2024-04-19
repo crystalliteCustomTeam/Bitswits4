@@ -7,9 +7,9 @@
 
 .firstPara {
     color: #F32F53 !important;
-    font-size: 25px !important;
+    font-size: 17px !important;
     font-weight: bold !important;
-    line-height: 30px !important;
+    line-height: 26px !important;
     letter-spacing: 1px !important;
     margin-bottom: 0;
 }
@@ -28,9 +28,9 @@
 
 .bussinessSec .secondPara {
     color: white;
-    line-height: 35px;
-    font-size: 20px;
-    width: 768px;
+    line-height: 26px;
+    font-size: 17px;
+    width: 998px;
 }
 
 .bussinessSec h4 {
@@ -42,9 +42,9 @@
 }
 
 .bussinessSec h3 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
-    line-height: 55px;
+    line-height: 40px;
     margin-top: 30px;
     margin-bottom: 15px;
     color: white;
@@ -52,8 +52,8 @@
 
 .bussinessSec p {
     color: white;
-    line-height: 40px;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 26px;
     width: 788px;
 }
 

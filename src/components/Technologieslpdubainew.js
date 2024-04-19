@@ -4,8 +4,7 @@ import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Technologieslpdubainew.module.css'
 import Link from 'next/link'
-//
-import icon1 from '@/public/dubailp/technology/1.png'
+// 
 import icon2 from '@/public/dubailp/technology/2.png'
 import icon3 from '@/public/dubailp/technology/3.png'
 import icon4 from '@/public/dubailp/technology/4.png'

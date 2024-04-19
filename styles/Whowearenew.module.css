@@ -17,7 +17,7 @@
 
 .travel p {
   font-size: 17px;
-  line-height: 25px;
+  line-height: 26px;
   margin-top: 10px;
 }
 
@@ -103,7 +103,8 @@
 .android p {
   color: black;
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 26px;
   margin-bottom: 30px;
 }
 
