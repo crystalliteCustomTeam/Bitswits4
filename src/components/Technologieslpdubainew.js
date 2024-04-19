@@ -103,7 +103,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={253} height={522} quality={85} src={icon5} />
+                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits'  width={253} height={522} quality={85} src={icon5} />
                                         </Col>
                                     </Row>
                                 </div>
