@@ -83,6 +83,16 @@
     }
 }
 
+@media only screen and (max-width:1499px) {
+    .bussinessImage img {
+        width: 620px;
+    }
+
+    .bussinessImage {
+        right: -57px;
+    }
+}
+
 @media only screen and (max-width: 1599px) {
     .bussinessImage img {
         max-width: auto;
@@ -93,7 +103,7 @@
 
 @media only screen and (max-width: 1399px) {
     .bussinessImage img {
-        width: 605px;
+        width: 585px;
     }
 
     .bussinessImage {
@@ -106,7 +116,7 @@
     }
 }
 
-@media only screen and (max-width: 1280px) { 
+@media only screen and (max-width: 1280px) {
     .bussinessImage img {
         width: 525px;
     }

@@ -107,6 +107,10 @@
         margin-left: auto;
     }
 
+    .buildingImage {
+        right: -6%;
+    }
+
     .buildingImageTwo {
         position: unset;
     }
