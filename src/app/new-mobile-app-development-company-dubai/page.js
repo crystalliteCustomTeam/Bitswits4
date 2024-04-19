@@ -170,7 +170,7 @@ export default function dubaidevelopmentcompany() {
       para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$25,000</span> to  <span>$200,000+</span>.</>
     },
     {
-      para: <>At BitsWits, a simple app development project starts with just <span>$50,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
+      para: <>At BitsWits, a simple app development project starts with just <span>$25,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
     },
     {
       para: "However, we ensure that the product you acquire in the end from us is of the highest quality and revenue-producing. "

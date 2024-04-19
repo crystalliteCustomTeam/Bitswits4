@@ -3,34 +3,53 @@
   height: 100%;
 }
 
+/* .mainCard {
+  position: relative;
+} */
+
 .travel {
   background-color: #468FEB;
   height: 100%;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel p {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel2 p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel3 p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel2 {
@@ -39,10 +58,13 @@
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel3 {
@@ -51,10 +73,13 @@
   padding-left: 28px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel h3 {
@@ -111,6 +136,13 @@
 .ImageDiv {
   background: #F3F3F3;
   transition: all ease-in-out 0.4s;
+  position: relative !important;
+  z-index: -1 !important;
+}
+
+.ImageDiv img {
+  min-height: 373px;
+  max-height: 369px;
 }
 
 .ImageDiv:hover {
@@ -170,6 +202,11 @@
     line-height: 20px;
     margin-top: 0px;
   }
+
+  .ImageDiv img {
+    min-height: auto;
+    max-height: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -191,7 +228,7 @@
   .travel,
   .travel2,
   .travel3 {
-    height: auto;
+    height: 100%;
   }
 
   .ImageDiv img:hover {
