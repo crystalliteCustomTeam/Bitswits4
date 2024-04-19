@@ -42,14 +42,18 @@
   border: 2px solid #F3F3F3;
   border-radius: 15px;
   height: 100%;
+  min-height: 250px;
   padding: 20px 15px;
   gap: 10px;
   transition: all 1s ease-out;
   flex-direction: column;
   justify-content: center;
-
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
- 
+
 .copy {
   width: 91%;
   display: flex;

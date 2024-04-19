@@ -106,7 +106,7 @@ export default function dubaidevelopmentcompany() {
     desc: <>
       <span className="d-block mb-1">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
       <span className="d-block mb-1">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
-      Here is the process we follow for developing mobile apps for our clients.
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>
   }
   // ClientContent
@@ -330,7 +330,7 @@ export default function dubaidevelopmentcompany() {
       <h5 class="mb-2">Cost of App Development in Dubai for Enterprises</h5> 
       <p class='fontsfregular'> In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>  `
 
-    }, 
+    },
   ];
 
   const HoustonContent = {

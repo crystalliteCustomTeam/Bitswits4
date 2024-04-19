@@ -56,10 +56,10 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 70%;
+    height: 74%;
     width: 10px;
     background: black;
-    bottom: -60px;
+    bottom: -65px;
 }
 
 .timeTwo::after {
@@ -67,10 +67,10 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 31%;
+    height: 34%;
     width: 10px;
     background: black;
-    top: 131px;
+    top: 124px;
 }
 
 .timeThree::before {
@@ -78,10 +78,10 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 51%;
+    height: 30%;
     width: 10px;
     background: black;
-    top: -276px;
+    top: -172px;
 }
 
 .timeThree::after {
@@ -89,22 +89,22 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 50%;
+    height: 44%;
     width: 10px;
     background: black;
-    top: 25px;
+    top: 30px;
 }
 
 .spacing {
-    margin-top: -41px;
+    margin-top: -93px;
 }
 
 .spacingOne {
-    margin-top: 130px;
+    margin-top: 105px;
 }
 
 .spacingTwo {
-    margin-top: -440px;
+    margin-top: -265px;
 }
 
 .spacingThree {
@@ -121,7 +121,6 @@
 
 .timeLeft {
     float: left;
-    /* direction: rtl; */
 }
 
 .marker {
@@ -134,7 +133,7 @@
     position: absolute;
     left: 51.8%;
     transform: translateX(-50%);
-    top: 150px;
+    top: 123px;
     margin: 0 auto;
     z-index: 9999
 }
@@ -165,7 +164,7 @@
     position: absolute;
     right: 0;
     left: -48px;
-    top: 360px;
+    top: 313px;
     margin: 0 auto;
 }
 
@@ -180,7 +179,7 @@
     position: absolute;
     left: 51.8%;
     transform: translateX(-50%);
-    top: -36px;
+    top: -26px;
     margin: 0 auto;
 }
 
@@ -195,7 +194,7 @@
     position: absolute;
     right: 0;
     left: -48px;
-    top: 258px;
+    top: 245px;
     margin: 0 auto;
 }
 
@@ -309,7 +308,7 @@
     }
 
     .timeOne::after {
-        height: 72%;
+        height: 77%;
         bottom: -59px;
         left: 49.9%;
     }
@@ -320,23 +319,23 @@
     }
 
     .timeTwo::after {
-        height: 29%;
+        height: 33%;
     }
 
     .timeThree::after {
-        height: 47%;
+        height: 42%;
         top: 27px;
     }
 
     .timeThree::before {
-        height: 54%;
-        top: -296px;
+        height: 33%;
+        top: -196px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .timelineContent h2 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 40px;
     }
 
@@ -361,7 +360,7 @@
         width: 129px;
         height: 32px;
         left: 51.5%;
-        top: 126px;
+        top: 106px;
     }
 
     .numberOne,
@@ -371,11 +370,11 @@
 
     .numberTwo {
         left: -31px;
-        top: 272px;
+        top: 242px;
     }
 
     .numberOne {
-        top: 111px;
+        top: 57px;
     }
 
     .numberOne,
@@ -387,23 +386,27 @@
     }
 
     .timeOne::after {
-        height: 84%;
-        bottom: -103px;
+        height: 74%;
+        bottom: -50px;
     }
 
     .timeTwo::after {
-        height: 20%;
-        top: 148px;
+        height: 33%;
+        top: 93px;
     }
 
     .timeThree::before {
-        height: 47%;
-        top: -260px;
+        height: 22.5%;
+        top: -131px;
     }
 
     .timeThree::after {
-        height: 60%;
-        top: 4px;
+        height: 51%;
+        top: 12px;
+    }
+
+    .timeThree {
+        top: -25px;
     }
 
     .spacingOne {
@@ -411,11 +414,11 @@
     }
 
     .spacingTwo {
-        margin-top: -250px;
+        margin-top: -235px;
     }
 
     .paddingOne {
-        margin-top: -11px;
+        margin-top: -83px;
     }
 
     .paddingOne,
@@ -456,8 +459,8 @@
     }
 
     .timelineMain:before {
-        height: 4%;
-        top: 63px;
+        height: 5%;
+        top: -15px;
     }
 
     .paddingOne,
@@ -468,7 +471,7 @@
     }
 
     .marker {
-        top: 34%;
+        top: 16%;
     }
 
     .numberOne,
@@ -501,12 +504,11 @@
         flex-direction: column !important;
     }
 
-
     .timeOne::after,
     .timeTwo::after,
     .timeThree::before,
     .timeThree::after {
-        left: 17.5px;
+        left: 17px;
     }
 
     .timelineMain:before {
@@ -514,31 +516,31 @@
     }
 
     .timeOne::after {
-        bottom: -42%;
+        bottom: -60%;
         width: 4px;
-        height: 95%;
+        height: 125%;
     }
 
     .timeTwo::after {
-        height: 46%;
-        top: 21%;
+        height: 52%;
+        top: 23%;
         width: 4px;
     }
 
     .timeThree::after {
-        height: 55%;
-        top: -27%;
+        height: 40%;
+        top: -13%;
         width: 4px;
     }
 
     .timeThree::before {
-        height: 43%;
-        top: 34%;
+        height: 45%;
+        top: 33%;
         width: 4px;
     }
 
     .numberThree {
-        top: 29%;
+        top: 28%;
     }
 
     .marker,
@@ -550,7 +552,7 @@
     }
 
     .numberOne {
-        top: 15.5%;
+        top: 17.5%;
     }
 
     .numberTwoMobile {
@@ -564,7 +566,7 @@
         position: absolute;
         left: 48px;
         transform: translateX(-50%);
-        top: 68.2%;
+        top: 76.2%;
     }
 
     .numberFourMobile {
@@ -664,7 +666,7 @@
         padding: 50px 0 0;
     }
 
-    .timeline { 
+    .timeline {
         margin-bottom: 0px;
     }
 
@@ -704,7 +706,7 @@
 
     .timelineMain:before {
         height: 3%;
-        top: 39px;
+        top: 15px;
         left: 23px;
     }
 
@@ -716,29 +718,29 @@
     }
 
     .timeOne::after {
-        bottom: -29%;
-        height: 102%;
+        bottom: -37%;
+        height: 114%;
     }
 
     .timeTwo::after {
-        height: 42%;
-        top: 12%;
+        height: 51%;
+        top: 15%;
     }
 
     .timeThree::after {
-        height: 45%;
-        top: 26%;
+        height: 49%;
+        top: 24%;
     }
 
     .timeThree::before {
-        height: 76%;
-        top: -54%;
+        height: 46%;
+        top: -26%;
     }
 
     .marker {
         width: 119px;
         height: 22px;
-        top: 20%;
+        top: 14%;
     }
 
     .numberOne,
@@ -750,22 +752,28 @@
     }
 
     .numberOne {
-        top: 9.5%;
+        top: 12%;
     }
 
     .numberTwoMobile {
-        top: 56%;
+        top: 67%;
     }
 
     .numberThree {
-        top: 22.5%;
+        top: 21%;
     }
 
     .numberFourMobile {
-        top: 71.5%;
+        top: 74%;
     }
 
     .timelineMain {
         padding: 50px 0 0px;
+    }
+
+    .paddingOne,
+    .paddingFour,
+    .paddingFive {
+        margin-bottom: 20px;
     }
 }

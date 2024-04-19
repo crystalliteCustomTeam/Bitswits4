@@ -39,7 +39,7 @@ const DubaiTimeline = ({ content }) => {
                             <div className={`${styles.timelineContent} d-block d-lg-none`}>
                                 <p className={`${styles.redPara} fontsfregular`}>The Process </p>
                                 <h2>{title}</h2>
-                                <p className='fontsfregular'>
+                                <p className='fontsfregular '>
                                     {desc}
                                 </p>
                             </div>
