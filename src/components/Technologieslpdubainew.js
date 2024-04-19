@@ -5,18 +5,18 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Technologieslpdubainew.module.css'
 import Link from 'next/link'
 // 
-import icon2 from '@/public/dubailp/technology/2.png'
+import icon2 from '@/public/dubailp/technology/native.png'
 import icon3 from '@/public/dubailp/technology/3.png'
 import icon4 from '@/public/dubailp/technology/4.png'
 import icon5 from '@/public/dubailp/technology/5.png'
 import icon6 from '@/public/dubailp/technology/6.png'
 
-const Technologieslpdubai = ({ content }) => {
+const  Technologieslpdubai = ({ content }) => {
     const { title, desc } = content
     const [activeTab1, setActiveTab1] = useState('tab1');
     function fun1(tabs1) {
         setActiveTab1(tabs1);
-    }
+    } 
     return (
         <>
             <section className={styles.tech}>
