@@ -14,7 +14,7 @@ const NewDubaiBussiness = ({ content }) => {
                 <div className='container'>
                     <Row>
                         <Col lg={10}>
-                            <p className={`${styles.firstPara} fontsfregular`}>What Will</p>
+                            <h4 className={`${styles.firstPara} fontsfregular`}>What Will</h4>
                             <h2>{title}</h2>
                             <p className={`${styles.secondPara} fontsfregular`}>
                                 {desc}

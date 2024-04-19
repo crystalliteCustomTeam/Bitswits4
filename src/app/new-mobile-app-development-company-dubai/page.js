@@ -105,8 +105,10 @@ export default function dubaidevelopmentcompany() {
   const timeline = {
     title: "We Follow as a Trustable App Development Company in Dubai ",
     desc: <>
-      <span className="d-block mb-1">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
-      <span className="d-block mb-1">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
+      <br />
+      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <br />
       <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>
   }
@@ -171,14 +173,8 @@ export default function dubaidevelopmentcompany() {
       para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$25,000</span> to  <span>$200,000+</span>.</>
     },
     {
-      para: <>At BitsWits, a simple app development project starts with just <span>$25,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
-    },
-    {
-      para: "However, we ensure that the product you acquire in the end from us is of the highest quality and revenue-producing. "
-    },
-    {
-      para: "If you want to get an estimated cost for your app development project in Dubai, you can make use of our app development cost calculator. "
-    },
+      para: <>At BitsWits, a simple app development project starts with just <span>$25,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved. However, we ensure that the product you acquire in the end from us is of the highest quality and revenue-producing. If you want to get an estimated cost for your app development project in Dubai, you can make use of our app development cost calculator.</>
+    }
   ]
   const delivered = {
     title: "How Much Does it Cost to Make an App in Dubai ",
@@ -322,7 +318,7 @@ export default function dubaidevelopmentcompany() {
 
   const sections = [
     {
-      title: "App Development Costs According to Business Size In Dubai ",
+      title: <>App Development Costs According to Business Size In <span>Dubai</span></>,
       content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> 
       <h5 class="mb-2">Cost of App Development in Dubai for a Startup</h5>
       <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p> 

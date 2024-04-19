@@ -15,18 +15,18 @@ const DubaiDelivered = ({ content }) => {
     return (
         <>
             <section className={styles.DubaiDelivered}  >
-                <motion.div initial={{ y: -370, x: -350, opacity: 0 }} animate={{ y: -374, x: -35, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} whileInView={{ opacity: 1 }}>
+                <div>
                     <Image src={ParticleOne} alt='Bitswits' className={styles.particleOne} />
-                </motion.div>
-                <motion.div>
+                </div>
+                <div>
                     <Image src={ParticleThree} alt='Bitswits' className={styles.particleThree} />
-                </motion.div>
-                <motion.div>
+                </div>
+                <div>
                     <Image src={ParticleTwo} alt='Bitswits' className={styles.particleTwo} />
-                </motion.div>
-                <motion.div>
+                </div>
+                <div>
                     <Image src={ParticleFour} alt='Bitswits' className={styles.particleFour} />
-                </motion.div>
+                </div>
                 <div className='container'>
                     <Row>
                         <Col sm={12}>

@@ -82,6 +82,17 @@
 
 /* media Query start */
 
+
+@media only screen and (max-width: 1399px) {
+    .DubaiDelivered h2 {
+        font-size: 35px;
+        line-height: 45px;
+        max-width: 900px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 991px) {
 
     .particleOne {

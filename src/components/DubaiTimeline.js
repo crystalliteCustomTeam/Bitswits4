@@ -37,7 +37,7 @@ const DubaiTimeline = ({ content }) => {
                     <Row>
                         <Col lg={12}>
                             <div className={`${styles.timelineContent} d-block d-lg-none`}>
-                                <p className={`${styles.redPara} fontsfregular`}>The Process </p>
+                                <h4 className={`${styles.redPara} fontsfregular`}>The Process </h4>
                                 <h2>{title}</h2>
                                 <p className='fontsfregular '>
                                     {desc}
@@ -49,7 +49,7 @@ const DubaiTimeline = ({ content }) => {
                                 <div className={styles.timelineMain}>
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
-                                            <p className={`${styles.redPara} fontsfregular`}>The Process </p>
+                                            <h4 className={`${styles.redPara} fontsfregular`}>The Process </h4>
                                             <h2>{title}</h2>
                                             <p className='fontsfregular'>
                                                 {desc}

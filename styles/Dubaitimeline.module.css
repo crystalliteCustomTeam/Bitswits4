@@ -78,10 +78,10 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 30%;
+    height: 32.7%;
     width: 10px;
     background: black;
-    top: -172px;
+    top: -180px;
 }
 
 .timeThree::after {
@@ -89,14 +89,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 44%;
+    height: 39%;
     width: 10px;
     background: black;
-    top: 30px;
+    top: 44px;
 }
 
 .spacing {
-    margin-top: -93px;
+    margin-top: -134px;
 }
 
 .spacingOne {
@@ -179,7 +179,7 @@
     position: absolute;
     left: 51.8%;
     transform: translateX(-50%);
-    top: -26px;
+    top: -10px;
     margin: 0 auto;
 }
 
@@ -277,9 +277,9 @@
 }
 
 .timelineContent p {
-    font-size: 16px;
-    line-height: 25px;
-    color: black;
+    font-size: 17px;
+    line-height: 26px;
+    color: #3D3D3D;
     margin-bottom: 12px;
 }
 
@@ -287,10 +287,11 @@
     color: #3D3D3D !important;
 }
 
-.redPara {
-    color: #F32F53 !important;
-    font-size: 20px !important;
-    line-height: 22px !important;
+.timelineContent h4 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #F32F53;
 }
 
 .timelineContent img {
@@ -299,6 +300,16 @@
 
 /* Media Query Start */
 @media screen and (max-width: 1399px) {
+
+    .timelineContent h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .spacing {
+        margin-top: -153px;
+    }
+
     .marker {
         left: 52%;
     }
@@ -319,17 +330,17 @@
     }
 
     .timeTwo::after {
-        height: 33%;
+        height: 31%;
     }
 
     .timeThree::after {
-        height: 42%;
-        top: 27px;
+        height: 37%;
+        top: 44px;
     }
 
     .timeThree::before {
-        height: 33%;
-        top: -196px;
+        height: 40%;
+        top: -230px;
     }
 }
 
@@ -360,7 +371,7 @@
         width: 129px;
         height: 32px;
         left: 51.5%;
-        top: 106px;
+        top: 116px;
     }
 
     .numberOne,
@@ -396,13 +407,13 @@
     }
 
     .timeThree::before {
-        height: 22.5%;
+        height: 26%;
         top: -131px;
     }
 
     .timeThree::after {
-        height: 51%;
-        top: 12px;
+        height: 48%;
+        top: 26px;
     }
 
     .timeThree {
@@ -418,7 +429,7 @@
     }
 
     .paddingOne {
-        margin-top: -83px;
+        margin-top: -123px;
     }
 
     .paddingOne,
@@ -583,13 +594,16 @@
         top: 78.5%;
     }
 
-    .paddingOne,
     .paddingTwo,
     .paddingThree,
     .paddingFour,
     .paddingFive,
     .paddingSix {
         padding: 11px 12px 0 70px;
+    }
+
+    .paddingOne {
+        padding: 55px 12px 0 70px;
     }
 
 }
@@ -674,15 +688,6 @@
         margin: 0px auto 0px;
     }
 
-    .paddingOne,
-    .paddingTwo,
-    .paddingThree,
-    .paddingFour,
-    .paddingFive,
-    .paddingSix {
-        padding: 0px 12px 0 70px;
-    }
-
     .timelineContent h2 {
         font-size: 32px;
         line-height: 1.3;
@@ -718,12 +723,12 @@
     }
 
     .timeOne::after {
-        bottom: -37%;
-        height: 114%;
+        bottom: -35%;
+        height: 113%;
     }
 
     .timeTwo::after {
-        height: 51%;
+        height: 48%;
         top: 15%;
     }
 
@@ -733,8 +738,8 @@
     }
 
     .timeThree::before {
-        height: 46%;
-        top: -26%;
+        height: 49%;
+        top: -29%;
     }
 
     .marker {
@@ -756,7 +761,7 @@
     }
 
     .numberTwoMobile {
-        top: 67%;
+        top: 64%;
     }
 
     .numberThree {
@@ -764,7 +769,7 @@
     }
 
     .numberFourMobile {
-        top: 74%;
+        top: 73.3%;
     }
 
     .timelineMain {
