@@ -6,10 +6,10 @@ import styles from '@/styles/Technologieslpdubainew.module.css'
 import Link from 'next/link'
 // 
 import icon2 from '@/public/dubailp/technology/native.png'
-import icon3 from '@/public/dubailp/technology/3.png'
-import icon4 from '@/public/dubailp/technology/4.png'
-import icon5 from '@/public/dubailp/technology/5.png'
-import icon6 from '@/public/dubailp/technology/6.png'
+import icon3 from '@/public/dubailp/technology/native1.png'
+import icon4 from '@/public/dubailp/technology/native2.png'
+import icon5 from '@/public/dubailp/technology/native3.png'
+import icon6 from '@/public/dubailp/technology/native4.png'
 
 const  Technologieslpdubai = ({ content }) => {
     const { title, desc } = content
@@ -38,10 +38,8 @@ const  Technologieslpdubai = ({ content }) => {
                             </div>
                         </Col>
                         <Col xl={12}> 
-
                             {activeTab1 == 'tab1' &&
                                 <div className={styles.newyork}>
-
                                     <Row className={`gy-5 ${styles.colpont}`}>
                                         <Col lg={6} className='mt-3'>
                                             <h3 className={styles.stook}>Native App Development</h3>
@@ -51,7 +49,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={546} height={522} quality={85} src={icon2} />
+                                            <Image priority className='img-fluid mx-auto d-block' alt='Bitswits' quality={85} src={icon3} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -69,7 +67,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={394} height={522} quality={85} src={icon3} />
+                                            <Image priority className='img-fluid mx-auto d-block' alt='Bitswits'  quality={85} src={icon4} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -86,7 +84,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={871} height={522} quality={85} src={icon4} />
+                                            <Image priority className='img-fluid mx-auto d-block' alt='Bitswits' quality={85} src={icon6} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -103,7 +101,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits'  width={253} height={522} quality={85} src={icon5} />
+                                            <Image priority className='img-fluid mx-auto d-block' alt='Bitswits'   quality={85} src={icon5} />
                                         </Col>
                                     </Row>
                                 </div>
@@ -120,7 +118,7 @@ const  Technologieslpdubai = ({ content }) => {
                                             <Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                         </Col>
                                         <Col lg={5}>
-                                            <Image className='img-fluid mx-auto d-block' alt='Bitswits' width={757} height={522} quality={85} src={icon6} />
+                                            <Image priority className='img-fluid mx-auto d-block' alt='Bitswits' quality={85} src={icon6} />
                                         </Col>
                                     </Row>
                                 </div>
