@@ -436,91 +436,99 @@ export default function ReactNativeMobile() {
       }
       <Script id="websiteSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": " React Native Mobile App Development Company ",
-          "url": " https://www.bitswits.co/react-native-mobile-development ",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "{search_term_string}",
-            "query-input": "required name=search_term_string"
-          }          
+           {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": " React Native Mobile App Development Company ",
+            "url": " https://www.bitswits.co/react-native-mobile-development ",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+           }          
         `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "BitsWits",
-          "url": " https://www.bitswits.co/react-native-mobile-development ",
-          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-          "sameAs": [
-            "https://www.facebook.com/officialBitsWits",
-            "https://twitter.com/BitsWits_/",
-            "https://www.youtube.com/@officialBitsWits",
-            "https://www.instagram.com/officialBitsWits/",
-            "https://www.linkedin.com/company/officialBitsWits"
-          ]      
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BitsWits",
+              "url": " https://www.bitswits.co/react-native-mobile-development ",
+              "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+              "sameAs": [
+                "https://www.facebook.com/officialBitsWits",
+                "https://twitter.com/BitsWits_/",
+                "https://www.youtube.com/@officialBitsWits",
+                "https://www.instagram.com/officialBitsWits/",
+                "https://www.linkedin.com/company/officialBitsWits"
+              ] 
+            }     
         `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
-         "@context": "https://schema.org",
-         "@type": "LocalBusiness",
-         "name": " React Native Mobile App Development Company",
-         "image": "https://www.bitswits.co/_next/static/media/card1.fc7177be.png",
-         "url": " https://www.bitswits.co/react-native-mobile-development",
-         "telephone": "+1 713 565 7656",
-         "address": {
-           "@type": "PostalAddress",
-           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
-           "addressLocality": "Houston",
-           "addressRegion": "TX",
-           "postalCode": "77056",
-           "addressCountry": "US"
-         },
-         "geo": {
-           "@type": "GeoCoordinates",
-           "latitude": 29.7370769,
-           "longitude": -95.46221829999999
-         },
-         "openingHoursSpecification": {
-           "@type": "OpeningHoursSpecification",
-           "dayOfWeek": [
-             "Monday",
-             "Tuesday",
-             "Wednesday",
-             "Thursday",
-             "Friday"
-           ],
-           "opens": "09:00",
-           "closes": "06:00"
-         },
-         "sameAs": [
-           "https://www.facebook.com/officialBitsWits",
-           "https://www.instagram.com/officialBitsWits/",
-           "https://twitter.com/BitsWits_/",
-           "https://www.linkedin.com/company/officialBitsWits",
-           "https://www.youtube.com/@officialBitsWits"
-         ]                                                                                                 
+           {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": " React Native Mobile App Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/card1.fc7177be.png",
+            "url": " https://www.bitswits.co/react-native-mobile-development",
+            "telephone": "+1 713 565 7656",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7370769,
+              "longitude": -95.46221829999999
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "06:00"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://twitter.com/BitsWits_/",
+              "https://www.linkedin.com/company/officialBitsWits",
+              "https://www.youtube.com/@officialBitsWits"
+            ]
+           }                                                                                                 
         `}
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "React Native Mobile App Development Company",
-          "image": "https://www.bitswits.co/_next/static/media/card1.fc7177be.png",
-          "description": "With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility",
-          "brand": {
-            "@type": "Brand",
-            "name": "BitsWits"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "1174"
-          }     
+           {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "React Native Mobile App Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/card1.fc7177be.png",
+            "description": "With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            }
+           }     
         `}
       </Script>
     </>

@@ -259,84 +259,92 @@ export default function gamedevelopmentcompany() {
       }
       <Script id="websiteSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "Mobile App Development Company in Dubai",
-          "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "{search_term_string}",
-            "query-input": "required name=search_term_string"
-          }                                                                                                             
+           {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Mobile App Development Company in Dubai",
+            "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }  
+           }                                                                                                           
         `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "BitsWits",
-          "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
-          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-          "sameAs": [
-            "https://www.facebook.com/officialBitsWits",
-            "https://twitter.com/BitsWits_/",
-            "https://www.youtube.com/@officialBitsWits",
-            "https://www.instagram.com/officialBitsWits/",
-            "https://www.linkedin.com/company/officialBitsWits"
-          ]                                                                                                        
+           {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BitsWits",
+            "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+           }                                                                                                       
         `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
-         "@context": "https://schema.org",
-         "@type": "LocalBusiness",
-         "name": "BitsWits",
-         "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-         "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
-         "telephone": "+971 555 031266",
-         "address": {
-           "@type": "PostalAddress",
-           "streetAddress": "Office #101, 32 Street, Al Mujarrah, Sharjah",
-           "addressLocality": "Sharjah",
-           "addressCountry": "AE"
-         },
-         "openingHoursSpecification": {
-           "@type": "OpeningHoursSpecification",
-           "dayOfWeek": [
-             "Monday",
-             "Tuesday",
-             "Wednesday",
-             "Thursday",
-             "Friday"
-           ],
-           "opens": "09:00",
-           "closes": "06:00"
-         },
-         "sameAs": [
-           "https://www.facebook.com/officialBitsWits",
-           "https://twitter.com/BitsWits_/",
-           "https://www.instagram.com/officialBitsWits/",
-           "https://www.youtube.com/@officialBitsWits",
-           "https://www.linkedin.com/company/officialBitsWits"
-         ]                                                                                     
+           {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "BitsWits",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "url": "https://www.bitswits.co/mobile-app-development-company-dubai",
+            "telephone": "+971 555 031266",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Office #101, 32 Street, Al Mujarrah, Sharjah",
+              "addressLocality": "Sharjah",
+              "addressCountry": "AE"
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "06:00"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+           }                                                                                     
         `}
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "Mobile App Development Company in Dubai",
-          "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-          "description": "Are you looking for a Dubai-based app development company that truly understands the power of innovation and data-driven strategies? Look no further than BitsWits! Based in Dubai, we are a leading app development company that excels in designing growth-driven applications for both startups and established brands. We have a knack for transforming digital presences into strategic assets that pave the way for business success. Our dedicated team of developers is unwavering in their commitment to delivering top-notch, innovative apps. When achieving excellence in app development, BitsWits unquestionably stands out as the ultimate choice.",
-          "brand": {
-            "@type": "Brand",
-            "name": "BitsWits"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "1174"
-          }                                                                                                      
+           {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Mobile App Development Company in Dubai",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "description": "Are you looking for a Dubai-based app development company that truly understands the power of innovation and data-driven strategies? Look no further than BitsWits! Based in Dubai, we are a leading app development company that excels in designing growth-driven applications for both startups and established brands. We have a knack for transforming digital presences into strategic assets that pave the way for business success. Our dedicated team of developers is unwavering in their commitment to delivering top-notch, innovative apps. When achieving excellence in app development, BitsWits unquestionably stands out as the ultimate choice.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            }  
+           }                                                                                                    
         `}
       </Script>
     </>

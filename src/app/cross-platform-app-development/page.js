@@ -406,91 +406,99 @@ export default function gamedevelopmentcompany() {
       }
       <Script id="websiteSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "Cross Platform App Development Company",
-          "url": "https://www.bitswits.co/cross-platform-app-development",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "{search_term_string}",
-            "query-input": "required name=search_term_string"
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Cross Platform App Development Company",
+            "url": "https://www.bitswits.co/cross-platform-app-development",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
           }                                                              
         `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "BitsWits",
-          "url": "https://www.bitswits.co/cross-platform-app-development",
-          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-          "sameAs": [
-            "https://www.facebook.com/officialBitsWits",
-            "https://twitter.com/BitsWits_/",
-            "https://www.youtube.com/@officialBitsWits",
-            "https://www.instagram.com/officialBitsWits/",
-            "https://www.linkedin.com/company/officialBitsWits"
-          ]                                                        
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BitsWits",
+            "url": "https://www.bitswits.co/cross-platform-app-development",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]  
+          }                                                      
         `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
-         "@context": "https://schema.org",
-         "@type": "LocalBusiness",
-         "name": "Cross Platform App Development Company",
-         "image": "https://www.bitswits.co/_next/static/media/1.32be1789.png",
-         "url": "https://www.bitswits.co/cross-platform-app-development",
-         "telephone": "+1 713 565 7656",
-         "address": {
-           "@type": "PostalAddress",
-           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
-           "addressLocality": "Houston",
-           "addressRegion": "TX",
-           "postalCode": "77056",
-           "addressCountry": "US"
-         },
-         "geo": {
-           "@type": "GeoCoordinates",
-           "latitude": 29.7370769,
-           "longitude": -95.46221829999999
-         },
-         "openingHoursSpecification": {
-           "@type": "OpeningHoursSpecification",
-           "dayOfWeek": [
-             "Monday",
-             "Tuesday",
-             "Wednesday",
-             "Thursday",
-             "Friday"
-           ],
-           "opens": "09:00",
-           "closes": "06:00"
-         },
-         "sameAs": [
-           "https://www.facebook.com/officialBitsWits",
-           "https://www.instagram.com/officialBitsWits/",
-           "https://twitter.com/BitsWits_/",
-           "https://www.linkedin.com/company/officialBitsWits",
-           "https://www.youtube.com/@officialBitsWits"
-         ]                                          
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Cross Platform App Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/1.32be1789.png",
+            "url": "https://www.bitswits.co/cross-platform-app-development",
+            "telephone": "+1 713 565 7656",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7370769,
+              "longitude": -95.46221829999999
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "06:00"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://twitter.com/BitsWits_/",
+              "https://www.linkedin.com/company/officialBitsWits",
+              "https://www.youtube.com/@officialBitsWits"
+            ]
+          }                                          
         `}
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "Cross Platform App Development Company",
-          "image": "https://www.bitswits.co/_next/static/media/1.32be1789.png",
-          "description": "With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS!",
-          "brand": {
-            "@type": "Brand",
-            "name": "BitsWits"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "1174"
-          }                                                      
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Cross Platform App Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/1.32be1789.png",
+            "description": "With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS!",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            } 
+          }                                                     
         `}
       </Script>
     </>

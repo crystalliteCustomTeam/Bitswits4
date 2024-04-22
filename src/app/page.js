@@ -403,7 +403,8 @@ export default function Home() {
       <Script id="localBusinessSchema" type="application/ld+json">
         {
           `
-                "@context": "https://schema.org",
+            {
+              "@context": "https://schema.org",
                 "@type": "LocalBusiness",
                 "name": "App Development Company",
                 "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
@@ -441,13 +442,15 @@ export default function Home() {
                 "https://www.linkedin.com/company/officialBitsWits",
                 "https://www.youtube.com/@officialBitsWits"
                 ]
+            }
           `
         }
 
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-              "@context": "https://schema.org/", 
+           {
+            "@context": "https://schema.org/", 
               "@type": "Product", 
               "name": "App Development Company",
               "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
@@ -461,6 +464,7 @@ export default function Home() {
                 "ratingValue": "4.9",
                 "ratingCount": "1174"
               }
+           }
         `}
       </Script>
     </>

@@ -418,91 +418,99 @@ export default function HybridMobile() {
       }
       <Script id="websiteSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "Flutter Mobile Apps Development Company",
-          "url": "https://www.bitswits.co/flutter-mobile-development",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "{search_term_string}",
-            "query-input": "required name=search_term_string"
-          }                                                                                      
+           {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Flutter Mobile Apps Development Company",
+            "url": "https://www.bitswits.co/flutter-mobile-development",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            } 
+           }                                                                                     
         `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "BitsWits",
-          "url": "https://www.bitswits.co/flutter-mobile-development",
-          "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-          "sameAs": [
-            "https://www.facebook.com/officialBitsWits",
-            "https://twitter.com/BitsWits_/",
-            "https://www.youtube.com/@officialBitsWits",
-            "https://www.instagram.com/officialBitsWits/",
-            "https://www.linkedin.com/company/officialBitsWits"
-          ]                                                                                
+           {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BitsWits",
+            "url": "https://www.bitswits.co/flutter-mobile-development",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+           }                                                                                
         `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
-         "@context": "https://schema.org",
-         "@type": "LocalBusiness",
-         "name": "Flutter Mobile Apps Development Company",
-         "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
-         "url": "https://www.bitswits.co/flutter-mobile-development",
-         "telephone": "+1 713 565 7656",
-         "address": {
-           "@type": "PostalAddress",
-           "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
-           "addressLocality": "Houston",
-           "addressRegion": "TX",
-           "postalCode": "77056",
-           "addressCountry": "US"
-         },
-         "geo": {
-           "@type": "GeoCoordinates",
-           "latitude": 29.7370769,
-           "longitude": -95.46221829999999
-         },
-         "openingHoursSpecification": {
-           "@type": "OpeningHoursSpecification",
-           "dayOfWeek": [
-             "Monday",
-             "Tuesday",
-             "Wednesday",
-             "Thursday",
-             "Friday"
-           ],
-           "opens": "09:00",
-           "closes": "06:00"
-         },
-         "sameAs": [
-           "https://www.facebook.com/officialBitsWits",
-           "https://www.instagram.com/officialBitsWits/",
-           "https://twitter.com/BitsWits_/",
-           "https://www.linkedin.com/company/officialBitsWits",
-           "https://www.youtube.com/@officialBitsWits"
-         ]                                                               
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Flutter Mobile Apps Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
+            "url": "https://www.bitswits.co/flutter-mobile-development",
+            "telephone": "+1 713 565 7656",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7370769,
+              "longitude": -95.46221829999999
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "06:00"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://twitter.com/BitsWits_/",
+              "https://www.linkedin.com/company/officialBitsWits",
+              "https://www.youtube.com/@officialBitsWits"
+            ]
+          }                                                               
         `}
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "Flutter Mobile Apps Development Company",
-          "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
-          "description": "BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps.",
-          "brand": {
-            "@type": "Brand",
-            "name": "BitsWits"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "1174"
-          }                                                                              
+           {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Flutter Mobile Apps Development Company",
+            "image": "https://www.bitswits.co/_next/static/media/card3.e969d64c.png",
+            "description": "BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            } 
+           }                                                                             
         `}
       </Script>
     </>
