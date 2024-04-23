@@ -139,14 +139,13 @@ export default function gamedevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
-    title: "We Follow as a Trustable App Development Company in Dubai ",
+    title: "We Follow as a Trustable App Development Company in Chicago ",
     desc: <>
-      At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth. <br />
-      From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing.
-      With our team of experts committed to exploring the edges of what's doable in mobile apps, we are constantly pushing the boundaries of what's possible in the mobile app development industry.<br />
-      We use the latest technologies and trends to craft apps that are uniquely identifiable in a crowded marketplace. No matter whether you want to build a game-changing app or develop a strong digital presence, we have got the skills and resources to make it happen.<br />
-      We think the most important feature of an app is the experience it provides to its users. That's why we pay extra attention to that, making sure that whoever uses your application will be happy and satisfied with the app's design and functionality.<br />
-      Here is the process we follow for developing mobile apps for our clients.
+      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
+      <br />
+      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <br />
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>
   }
   // ClientContent
@@ -263,7 +262,6 @@ export default function gamedevelopmentcompany() {
       In part of the quality of our services, we at BitsWits offer more than application development services; we provide strategic alliances that lead to business growth. Regardless of whether you’re looking to create a stunning website, develop a powerful mobile application, or aim to improve your online presence, our experts are there to help. Our track record of success and happy clients proves that we are true professionals. Opt for Us to be your app development partner and stay ahead in the competitive mobile industry.
     </>
   }
-
   // IOS content
   const iosdesc = [
     {
@@ -309,7 +307,6 @@ export default function gamedevelopmentcompany() {
     title: "BitsWits is More Than an Ordinary Mobile App Development Company Dubai ",
     desc: MobileApplicationContent
   }
-
   // conqured content
   const Conquered = {
     title: "Industries We’ve Conquered as an Eminent App Development Company Dubai ",
