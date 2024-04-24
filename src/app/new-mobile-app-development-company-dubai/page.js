@@ -122,31 +122,37 @@ export default function dubaidevelopmentcompany() {
     {
       question: 'Premier Mobile App Development Company in UAE',
       answer: "Our world-class mobile app development company in the UAE is focused on creating innovative and user-oriented mobile applications. For our clients, we aim to attain excellence and quality, always surpassing their expectations by yielding top-notch results. Our team of experienced developers and designers come together and collaborate with you to clarify your vision and create bespoke solutions that will always meet your unique business needs.",
+      btn: "Develop Android Mobile Application",
       StoryLineImg: StoryLine1,
     },
     {
       question: 'Android App Development in Dubai',
       answer: "Our Android app development Dubai service is specifically structured to help you to develop interactive and irresistible apps for your target consumers. Definitely, Android is one of the largest markets considering 3.718 million android apps in the app stores . App Development Dubai processes use the best practices and the latest technology to guarantee you a high-quality performing Android app. We merge our knowledge with your vision from the start to the end of the process assuring you performance, excellence, high speed, and user experience.",
+      btn: "Android App Development",
       StoryLineImg: StoryLine2
     },
     {
-      question: 'iPhone App Development in Dubai',
+      question: 'IPhone App Development in Dubai',
       answer: "Another market that is equally impressive, as well as profitable, is the iOS market. App stores currently have 1.8 million apps available. With our iPhone app development services in Dubai, we can assist businesses in gaining access to this significant source of revenue. Our knowledgeable team is experienced in producing visually appealing, easy-to-use iPhone apps that will take your business to the next level and improve your target audience’s involvement. We can develop the iPhone app from scratch or improve an existing product.",
+      btn: "Iphone App Development",
       StoryLineImg: StoryLine3
     },
     {
       question: 'Flutter App Development in Dubai',
       answer: "The creation of cross-platform apps is being revolutionized by Flutter, and our Flutter app development services in Dubai are at the forefront of this breakthrough. Our team makes use of Flutter's features to develop attractive and efficient cross-platform applications that operate without any problems on both Android and iOS devices. We could offer users with high-performance apps that seem native in appearance thanks to Flutter technology.",
+      btn: "Flutter App Development",
       StoryLineImg: StoryLine4
     },
     {
       question: 'Game App Development in Dubai',
       answer: "Our game app development services in Dubai are designed to help you make the best use of the incredible opportunity that games have for capturing users' attention. Whether you want to make a simple game or a sophisticated multiplayer experience, our team is capable of fulfilling the idea you have. Our main goal is to develop engrossing and immersive gaming experiences that keep users coming back for more.",
+      btn: "Game App Development",
       StoryLineImg: StoryLine5
     },
     {
       question: 'Blockchain App Development in Dubai',
       answer: "Our expertise lies in developing decentralized experiences that provide security, dependability, and transparency. We are a top Blockchain app development company in Dubai. Blockchain technology allows us to produce one-of-a-kind products, facilitate safe transactions, and offer a degree of confidence that is unmatched by conventional apps. To ensure that your users have a smooth and satisfying experience, our blockchain app development services are customized to your game's unique requirements. ",
+      btn: "Blockchain App Development",
       StoryLineImg: StoryLine6
     },
   ];

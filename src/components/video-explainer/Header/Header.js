@@ -12,7 +12,7 @@ import { FaEnvelope } from 'react-icons/fa';
 const VideoHeader = () => {
     return (
         <>
-            <header className='pt-4'>
+            <header className={`pt-4 ${styles.header}`}>
                 <Container>
                     <div className='d-flex align-items-center justify-content-between'>
                         <div className='logo'>

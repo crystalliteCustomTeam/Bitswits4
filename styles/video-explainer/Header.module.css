@@ -35,12 +35,19 @@
 
 /* media Query Start */
 
+@media only screen and (max-width: 991px) {
+    .header {
+        position: relative;
+        z-index: 9999;
+    }
+}
+
 @media only screen and (max-width: 567px) {
     .logo {
         width: 80%;
     }
 
-    .btn { 
+    .btn {
         font-size: 13px !important;
     }
 }

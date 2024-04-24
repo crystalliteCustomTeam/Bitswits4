@@ -16,7 +16,7 @@ const Banner = () => {
                         <Col lg={7}>
                             <h1>EXPAND YOUR BRAND’S REACH WITH AN ENGAGING CUSTOM EXPLAINER VIDEO</h1>
                             <p>
-                                We are a leading video animation company in the USA that has helped <br className='d-lg-block d-none' />thousands of brands to broaden their product reach via fascinating<br className='d-lg-block d-none' /> explainer videos.
+                                We are a leading video animation company in the USA that has helped <br className='d-xl-block d-none' />thousands of brands to broaden their product reach via fascinating<br className='d-xl-block d-none' /> explainer videos.
                             </p>
                             <ul>
                                 <li className='d-flex align-items-center gap-x-2'>
@@ -74,6 +74,11 @@ const Banner = () => {
                                         <textarea name='message' type="text" placeholder='Message' required ></textarea>
                                     </div>
                                     <button>Get a free quote</button>
+                                </div>
+                                <div className={`form_partical ${styles.discountbg}`}>
+                                    <h6 className={`${styles.headingParticle}`}>Special Offer</h6>
+                                    <h4 className={`text-black`}>50%</h4>
+                                    <h5 className=''>Discount</h5>
                                 </div>
                             </form>
                         </Col>

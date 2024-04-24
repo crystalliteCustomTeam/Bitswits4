@@ -4,7 +4,7 @@ import Slider from 'react-slick'
 import styles from "@/styles/DubaiConquered.module.css"
 // Images
 import Slide1 from "/public/newdubai/conquered1.png"
-import Slide2 from "/public/newdubai/conquered2.png" 
+import Slide2 from "/public/newdubai/conquered2.png"
 import Slide5 from "/public/newdubai/conquered5.png"
 import Slide6 from "/public/newdubai/conquered6.png"
 import Slide7 from "/public/newdubai/conquered7.png"
@@ -12,6 +12,8 @@ import Slide8 from "/public/newdubai/conquered8.png"
 import Slide9 from "/public/newdubai/conquered9.png"
 import Slide10 from "/public/newdubai/conquered10.png"
 import Slide11 from "/public/newdubai/conquered11.png"
+import Slide12 from "/public/newdubai/conquered12.webp"
+import Slide13 from "/public/newdubai/conquered13.webp"
 
 const DubaiConquered = ({ content }) => {
     const { title, desc } = content
@@ -68,7 +70,7 @@ const DubaiConquered = ({ content }) => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide2} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <Image src={Slide12} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
                                     <h3>Automotive</h3>
                                 </div>
                                 <div className={styles.cardHover}>
@@ -82,7 +84,7 @@ const DubaiConquered = ({ content }) => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide10} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <Image src={Slide9} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
                                     <h3>Food & Beverage</h3>
                                 </div>
                                 <div className={styles.cardHover}>
@@ -138,7 +140,7 @@ const DubaiConquered = ({ content }) => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide10} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <Image src={Slide2} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
                                     <h3>Manufacture</h3>
                                 </div>
                                 <div className={styles.cardHover}>
@@ -152,7 +154,7 @@ const DubaiConquered = ({ content }) => {
                         <div className='px-2'>
                             <div className={styles.mainCardDiv}>
                                 <div className={styles.card}>
-                                    <Image src={Slide8} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
+                                    <Image src={Slide13} alt='Bitswits' width={287} height={384} className='mx-auto img-fluid' />
                                     <h3>Logistics</h3>
                                 </div>
                                 <div className={styles.cardHover}>

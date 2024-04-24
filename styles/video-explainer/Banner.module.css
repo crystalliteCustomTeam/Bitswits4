@@ -143,3 +143,133 @@
     box-shadow: 0 0 0 0 transparent;
     font-family: "poppins", sans-serif;
 }
+
+.discountbg {
+    position: absolute;
+    right: 12px;
+    top: -7px;
+}
+
+.headingParticle {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: -29px;
+    font-size: 13px;
+    transform: rotate(-16deg);
+    font-weight: 700;
+    right: -58px;
+    text-align: right;
+    text-transform: uppercase;
+    left: 0;
+    margin: auto;
+    font-family: "Montserrat";
+}
+
+.discountbg h4 {
+    margin: 0;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    top: -8px;
+    font-size: 30px;
+    font-weight: 700;
+    right: -32px;
+    transform: rotate(-18deg);
+    font-family: "Montserrat";
+}
+
+.discountbg h5 {
+    margin: 0;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    top: -13px;
+    font-size: 11px;
+    font-weight: 700;
+    right: -42px;
+    transform: rotate(-18deg);
+    font-family: "Montserrat";
+}
+
+.headingParticle::before {
+    background-image: url(../../public/videoexplainer/form-line-img.png);
+    content: '';
+    width: 135px;
+    height: 52px;
+    position: absolute;
+    top: -18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(9deg);
+    left: 0;
+    right: 0;
+}
+
+.discountbg::before {
+    background-image: url(../../public/videoexplainer/dis-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -51px;
+    top: -10px;
+    content: '';
+    width: 101px;
+    height: 83px;
+    z-index: 0;
+    animation: popup .5s infinite ease-in-out alternate;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1099px) {
+    .form {
+        margin: 0 0px 0 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .form {
+        margin: 55px 0px 0 0px;
+    }
+
+    .bannerSec {
+        padding: 140px 0 100px;
+    }
+
+    .form h3 strong {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .discountbg {
+        display: none;
+    }
+
+    .bannerSec h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .bannerSec p {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+}

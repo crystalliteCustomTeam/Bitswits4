@@ -77,7 +77,7 @@ const StoryLine = ({ content }) => {
                                                 <p className="fontsfregular">{item.answer}</p>
                                                 <div className={styles.btn}>
                                                     <Link href="javascript:;">
-                                                        Develop An Android Mobile Application
+                                                        {item.btn}
                                                     </Link>
                                                 </div>
                                             </>
