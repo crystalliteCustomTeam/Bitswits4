@@ -411,79 +411,77 @@ const mobileApplication = () => {
       <Script id="websiteSchema" type="application/ld+json">
         {`
                     {
-                        "@context": "https://schema.org/",
-                        "@type": "WebSite",
-                        "name": "3D Games Development Company",
-                        "url": "https://www.bitswits.co/3d-game-development-company",
-                        "potentialAction": {
-                            "@type": "SearchAction",
-                            "target": "{search_term_string}",
-                            "query-input": "required name=search_term_string"
-                        }
+                      "@context": "https://schema.org/",
+                      "@type": "WebSite",
+                      "name": "3D Games Development Company",
+                      "url": "https://www.bitswits.co/3d-game-development-company",
+                      "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "{search_term_string}",
+                        "query-input": "required name=search_term_string"
+                      }                    
                     }
                 `}
       </Script>
       <Script id="organizationSchema" type="application/ld+json">
         {`
                     {
-                        "@context": "https://schema.org",
-                        "@type": "Corporation",
-                        "name": "BitsWits",
-                        "url": "https://www.bitswits.co/3d-game-development-company",
-                        "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
-                        "sameAs": [
-                          "https://www.facebook.com/officialBitsWits",
-                          "https://twitter.com/BitsWits_/",
-                          "https://www.youtube.com/@officialBitsWits",
-                          "https://www.instagram.com/officialBitsWits/",
-                          "https://www.linkedin.com/company/officialBitsWits"
-                        ]                      
+                      "@context": "https://schema.org",
+                      "@type": "Organization",
+                      "name": "BitsWits",
+                      "url": "https://www.bitswits.co/3d-game-development-company",
+                      "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+                      "sameAs": [
+                        "https://www.facebook.com/officialBitsWits",
+                        "https://twitter.com/BitsWits_/",
+                        "https://www.youtube.com/@officialBitsWits",
+                        "https://www.instagram.com/officialBitsWits/",
+                        "https://www.linkedin.com/company/officialBitsWits"
+                      ]                                          
                     }
                 `}
       </Script>
       <Script id="localBusinessSchema" type="application/ld+json">
         {`
                     {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "3D Games Development Company",
-                        "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbannerImage.6e414021.png&w=1920&q=75",
-                        "@id": "",
-                        "url": "https://www.bitswits.co/3d-game-development-company",
-                        "telephone": ""+1 713 565 7656",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
-                            "addressLocality": "Houston",
-                            "addressRegion": "TX",
-                            "postalCode": "77056",
-                            "addressCountry": "US"
-                        },
-                        "geo": {
-                            "@type": "GeoCoordinates",
-                            "latitude": 29.7370769,
-                            "longitude": -95.46221829999999
-                        },
-                        "openingHoursSpecification": {
-                            "@type": "OpeningHoursSpecification",
-                            "dayOfWeek": [
-                                "Monday",
-                                "Tuesday",
-                                "Wednesday",
-                                "Thursday",
-                                "Friday",
-                                "Saturday"
-                            ],
-                            "opens": "09:00",
-                            "closes": "06:00"
-                        },
-                        "sameAs": [
-                          "https://www.facebook.com/officialBitsWits",
-                          "https://www.instagram.com/officialBitsWits/",
-                          "https://twitter.com/BitsWits_/",
-                          "https://www.linkedin.com/company/officialBitsWits",
-                          "https://www.youtube.com/@officialBitsWits"                      
-                        ]
+                      "@context": "https://schema.org",
+                      "@type": "LocalBusiness",
+                      "name": "3D Games Development Company",
+                      "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbannerImage.6e414021.png&w=1920&q=75",
+                      "url": "https://www.bitswits.co/3d-game-development-company",
+                      "telephone": "+1 713 565 7656",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100",
+                        "addressLocality": "Houston",
+                        "addressRegion": "TX",
+                        "postalCode": "77056",
+                        "addressCountry": "US"
+                      },
+                      "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 29.7370769,
+                        "longitude": -95.46221829999999
+                      },
+                      "openingHoursSpecification": {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                          "Monday",
+                          "Tuesday",
+                          "Wednesday",
+                          "Thursday",
+                          "Friday"
+                        ],
+                        "opens": "09:00",
+                        "closes": "06:00"
+                      },
+                      "sameAs": [
+                        "https://www.facebook.com/officialBitsWits",
+                        "https://www.instagram.com/officialBitsWits/",
+                        "https://twitter.com/BitsWits_/",
+                        "https://www.linkedin.com/company/officialBitsWits",
+                        "https://www.youtube.com/@officialBitsWits"
+                      ]                    
                     }
                 `}
       </Script>
