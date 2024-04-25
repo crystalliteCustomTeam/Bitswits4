@@ -154,6 +154,29 @@
   transition: all ease-in-out 0.4s;
 }
 
+@media only screen and (max-width: 1920px) {
+  .travel p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .travel2 p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .travel3 p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .travel {
     padding-left: 20px;
