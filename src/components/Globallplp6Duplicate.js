@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/Globallplp6dubai.module.css";
+import styles from "@/styles/Globallplp6dubaiDuplicate.module.css";
 //
 import bestglobal1 from '@/public/images/mobilelpfinal/global/1.png'
 import bestglobal2 from '@/public/images/mobilelpfinal/global/2.png'
@@ -17,7 +17,7 @@ import bestglobal11 from '@/public/images/mobilelpfinal/global/11.png'
 import bestgloba12 from '@/public/images/mobilelpfinal/global/12.png'
 
 
-const NewHomeGlobal = (props) => {
+const Globallplp6dubaiDuplicate = (props) => {
     return (
         <>
             <section className={`${styles.team} ${styles[props.bannerClass]}`} id="partners">
@@ -68,4 +68,4 @@ const NewHomeGlobal = (props) => {
     )
 }
 
-export default NewHomeGlobal
+export default Globallplp6dubaiDuplicate

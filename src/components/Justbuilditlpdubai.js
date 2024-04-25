@@ -32,7 +32,7 @@ const Justbuilditlpdubai = (props) => {
 
     return (
         <>
-            <section className={styles[props.slide]}>
+            <section className={`${styles[props.slide]} ${props.css}`}>
                 <Container>
                     <Row>
                         <Col xl={12}>

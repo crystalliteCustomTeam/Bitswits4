@@ -6,6 +6,7 @@ import Partner from "@/src/components/video-explainer/Partner/Partner";
 import DigitalBranding from "@/src/components/video-explainer/DigitalBranding/DigitalBranding";
 import Portfolio from "@/src/components/video-explainer/Portfolio/Portfolio";
 import SmallBanner from "@/src/components/video-explainer/SmallBanner/SmallBanner";
+import ExplainerType from "@/src/components/video-explainer/ExplainerType/ExplainerType";
 
 export default function page() {
   const [showFolds, setShowFolds] = useState(false);
@@ -22,6 +23,7 @@ export default function page() {
       <DigitalBranding />
       <Portfolio />
       <SmallBanner />
+      <ExplainerType />
     </>
   );
 }

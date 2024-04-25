@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/bannerdubainew.module.css"; 
+import styles from "@/styles/bannerdubainew.module.css";
 
 const dubaiBackground = `${styles.newHomeBg}`;
 const houstonBackground = `${styles.newHoustonBg}`;
@@ -115,18 +115,19 @@ const Bannerdubai = ({ content }) => {
     return (
         <>
             <section className={`
-            ${pathname === "/new-mobile-app-development-company-dubai" ? dubaiBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-dallas" ? dallasBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : "bg-black"}
-            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : "bg-black"} 
-             ${styles.DubaiBanner}`} >
+            ${pathname === "/new-mobile-app-development-company-dubai" ? dubaiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-dubai-duplicate" ? dubaiBackground : ""} 
+            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-dallas" ? dallasBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
+             ${styles.DubaiBanner} bg-black`} >
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
