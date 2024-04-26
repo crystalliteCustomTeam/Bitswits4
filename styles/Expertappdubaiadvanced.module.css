@@ -13,8 +13,8 @@
 }
 
 .expertapp p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 26px;
   padding-right: 10px;
 }
 
@@ -42,19 +42,24 @@
   border: 2px solid #F3F3F3;
   border-radius: 15px;
   height: 100%;
+  min-height: 300px;
   padding: 20px 15px;
   gap: 10px;
   transition: all 1s ease-out;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: start;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
- 
+
 .copy {
   width: 91%;
   display: flex;
   align-items: center;
   gap: 13px;
+  padding-bottom: 15px;
 }
 
 .connect {
@@ -128,6 +133,6 @@
 
 @media screen and (max-width: 567px) {
   .expertapp {
-    padding: 70px 0 90px;
+    padding: 50px 0 90px;
   }
 }

@@ -18,15 +18,16 @@
 }
 
 .bussinessEmpower p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 200;
-    line-height: 32px;
+    line-height: 26px;
     width: 1112px;
 }
 
 .btn {
     background: #F32F53;
-    width: 356px;
+    padding: 0 25px;
+    width: max-content;
     height: 45px;
     border-radius: 6px;
     display: flex;
@@ -53,9 +54,9 @@
 }
 
 .bussinessEmpower .tabsInfo p {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 200;
-    line-height: 24px;
+    line-height: 26px;
     width: 662px;
     padding-top: 14px;
 }
@@ -207,9 +208,8 @@
 }
 
 @media screen and (max-width: 567px) {
-
     .bussinessEmpower {
-        padding: 60px 0 60px;
+        padding: 50px 0 50px;
     }
 
     .bussinessEmpower h2 {

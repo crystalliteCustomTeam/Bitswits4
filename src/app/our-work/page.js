@@ -31,18 +31,14 @@ export default function OurWork() {
   return (
     <>
       <WorkBanner />
-      {showFolds &&
-        <>
-          <WorkBody />
-          <NewHomeGlobal />
-          <Capabilities />
-          <NewHomeSlider />
-          <Technologieswe />
-          <Homenextproject title="Brace yourself for an App-venture!" />
-          <Faqs />
-          <HomeLocation />
-        </>
-      }
+      <WorkBody />
+      <NewHomeGlobal />
+      <Capabilities />
+      <NewHomeSlider />
+      <Technologieswe />
+      <Homenextproject title="Brace yourself for an App-venture!" />
+      <Faqs />
+      <HomeLocation />
     </>
   );
 }

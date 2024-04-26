@@ -23,6 +23,7 @@ import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import Building from "/public/newhouston/builingImageFour.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -101,16 +102,15 @@ export default function gamedevelopmentcompany() {
 
   // Banner Content
   const Banner = {
-    title: "Leading Mobile App Development Company Dubai",
-    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dubai are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
-    pageSlug: "Mobile App Development Company Dubai",
+    title: "Mobile App Development Company Washington DC",
+    desc: "BitsWits stands out as a leading mobile app development company in Washington DC due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Washington DC are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
+    pageSlug: "Mobile App Development Company Washington DC",
   }
 
   // award Content
   const Award = {
     title: "Awards & Recognitions",
     desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
-
   }
 
   // DubaiDevelopers Content
@@ -125,9 +125,11 @@ export default function gamedevelopmentcompany() {
     }
   ]
   const Development = {
-    title: "Top-Notch App Development Company in Dubai",
+    title: "Washington DC App Developers",
     desc: "BitsWits stands out as a top-tier mobile app development company in Dubai, boasting a decade-long legacy of creating impactful, high-quality apps. Our tailored mobile apps help businesses make massive revenue over a short haul, showcasing our commitment to excellence and reflecting our dedication to delivering effective solutions.",
     subContent: subContent,
+    image: Building,
+    position: false,
   }
   // delivered content
   const DeliveredContent = {
@@ -137,25 +139,24 @@ export default function gamedevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
-    title: "We Follow as a Trustable App Development Company in Dubai ",
+    title: "We Follow as a Trustable App Development Company in Washington DC ",
     desc: <>
-      At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth. <br />
-      From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing.
-      With our team of experts committed to exploring the edges of what's doable in mobile apps, we are constantly pushing the boundaries of what's possible in the mobile app development industry.<br />
-      We use the latest technologies and trends to craft apps that are uniquely identifiable in a crowded marketplace. No matter whether you want to build a game-changing app or develop a strong digital presence, we have got the skills and resources to make it happen.<br />
-      We think the most important feature of an app is the experience it provides to its users. That's why we pay extra attention to that, making sure that whoever uses your application will be happy and satisfied with the app's design and functionality.<br />
-      Here is the process we follow for developing mobile apps for our clients.
+      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
+      <br />
+      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <br />
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>
   }
   // ClientContent
   const ClientContent = {
-    title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Dubai</>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
+    title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Washington DC</>,
+    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Washington DC. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
   }
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ projects<br /> for various audiences  from different sectors and industries.  Whether you are looking for a mobile e-Commerce platform solution or you need an enterprise mobility <br />application created, we have a history of building high-quality apps that exceed our customer’s expectations. We are making a name for ourselves in the competitive <br /> app development market through our unrivaled quality, commitment to meeting client expectations, and timely delivery. Explore our portfolio<br /> and see why we are a preferred choice by our clients.</>,
+    desc: <>We are one of the fastest-growing app development companies in Washington DC, and we can proudly say that we have successfully completed 100+ projects<br /> for various audiences  from different sectors and industries.  Whether you are looking for a mobile e-Commerce platform solution or you need an enterprise mobility <br />application created, we have a history of building high-quality apps that exceed our customer’s expectations. We are making a name for ourselves in the competitive <br /> app development market through our unrivaled quality, commitment to meeting client expectations, and timely delivery. Explore our portfolio<br /> and see why we are a preferred choice by our clients.</>,
     subtitleOne: "Social Media App - Soul Scribe ",
     subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
     subtitleTwo: "Transportation App - Ready App ",
@@ -166,7 +167,7 @@ export default function gamedevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$50,000</span> to  <span>$250,000+</span>.</>
+      para: <>Are you planning to invest in mobile app development in Washington DC? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$50,000</span> to  <span>$250,000+</span>.</>
     },
     {
       para: <>At BitsWits, a simple app development project starts with just <span>$50,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
@@ -175,11 +176,11 @@ export default function gamedevelopmentcompany() {
       para: "However, we ensure that the product you acquire in the end from us is of the highest quality and revenue-producing. "
     },
     {
-      para: "If you want to get an estimated cost for your app development project in Dubai, you can make use of our app development cost calculator. "
+      para: "If you want to get an estimated cost for your app development project in Washington DC, you can make use of our app development cost calculator. "
     },
   ]
   const delivered = {
-    title: "How Much Does it Cost to Make an App in Dubai ",
+    title: "How Much Does it Cost to Make an App in Washington DC ",
     desc: desc,
   }
   // Delivered
@@ -203,10 +204,10 @@ export default function gamedevelopmentcompany() {
   }
   // Technologies Content
   const technologies = {
-    title: "Cutting-Edge Mobile App Development Services in Dubai ",
+    title: "Cutting-Edge Mobile App Development Services in Washington DC ",
     desc: <>
-      <span>At BitsWits, we offer a wide range of mobile app development services for businesses located in Dubai and other UAE cities. Our team of highly skilled Dubai app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</span>
-      <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Dubai are offering;</span>
+      <span>At BitsWits, we offer a wide range of mobile app development services for businesses located in Washington DC and other UAE cities. Our team of highly skilled Washington DC app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</span>
+      <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Washington DC are offering;</span>
     </>
   }
 
@@ -245,7 +246,7 @@ export default function gamedevelopmentcompany() {
     },
     {
       desc: <>
-        Also, you can partner with our reputable mobile app development company in Dubai and get your app developed now for any technology (Native, Hybrid, and Cross-Platform).   </>
+        Also, you can partner with our reputable mobile app development company in Washington DC and get your app developed now for any technology (Native, Hybrid, and Cross-Platform).   </>
     },
   ]
   const compareContent = {
@@ -265,30 +266,30 @@ export default function gamedevelopmentcompany() {
   // IOS content
   const iosdesc = [
     {
-      desc: "BitsWits is all about reinventing the app development experience with iOS and all other technologies to outperform the competitive digital market. When it comes to iOS app development in Dubai, what makes us distinctive is our in-depth knowledge of the iOS platform and our ability to create custom digital apps that perfectly align with your company's goals. Our team of highly skilled iOS developers in Dubai promises that the products we provide are top-quality and sure to exceed your expectations."
+      desc: "BitsWits is all about reinventing the app development experience with iOS and all other technologies to outperform the competitive digital market. When it comes to iOS app development in Washington DC, what makes us distinctive is our in-depth knowledge of the iOS platform and our ability to create custom digital apps that perfectly align with your company's goals. Our team of highly skilled iOS developers in Washington DC promises that the products we provide are top-quality and sure to exceed your expectations."
     },
     {
-      desc: "We are cognizant of the peculiar challenges inherent in the online world of business and we leverage this awareness in providing you with bespoke iOS app development services that are tailor-made to meet your particular needs. From pre-development to launch, we are 100% involved with you in the app development journey, ensuring your app has the best capabilities that help it stand out in the competitive app market. Get in touch with any professional iOS app developer in Dubai from BitsWits today and experience the change right away."
+      desc: "We are cognizant of the peculiar challenges inherent in the online world of business and we leverage this awareness in providing you with bespoke iOS app development services that are tailor-made to meet your particular needs. From pre-development to launch, we are 100% involved with you in the app development journey, ensuring your app has the best capabilities that help it stand out in the competitive app market. Get in touch with any professional iOS app developer in Washington DC from BitsWits today and experience the change right away."
     }
   ]
   const IOSContent = {
-    title: "Ascend to Greatness with iOS App Development in Dubai ",
+    title: "Ascend to Greatness with iOS App Development in Washington DC ",
     desc: iosdesc
   }
   // IOS content
   const andrioddesc = [
     {
-      desc: "Speaking of Android app development in Dubai, there is no better app development business to refer to as Bitwsits here. Our top team of certified Android app developers in Dubai uses tech proficiency and creative thinking to produce superior mobile applications that are noticeable in the very competitive app market. What makes us unique is our dedication to creativity, user experience, and client convenience."
+      desc: "Speaking of Android app development in Washington DC, there is no better app development business to refer to as Bitwsits here. Our top team of certified Android app developers in Washington DC uses tech proficiency and creative thinking to produce superior mobile applications that are noticeable in the very competitive app market. What makes us unique is our dedication to creativity, user experience, and client convenience."
     },
     {
-      desc: "Having taken the position of a top Android app development company in Dubai, we have acquired an understanding of the specific difficulties and benefits of the Android platform. Whether you are developing a new Android application or looking to make your existing Android application better, we are here to help. Our strive for perfection, dedication to our clients, and prioritization of customer satisfaction are the cornerstones of our business."
+      desc: "Having taken the position of a top Android app development company in Washington DC, we have acquired an understanding of the specific difficulties and benefits of the Android platform. Whether you are developing a new Android application or looking to make your existing Android application better, we are here to help. Our strive for perfection, dedication to our clients, and prioritization of customer satisfaction are the cornerstones of our business."
     },
     {
       desc: "Let's choose BitsWits as your ideal iOS app development partner, and let us turn your app's ideas into reality!"
     },
   ]
   const andriodContent = {
-    title: "Take Your Business to Higher Levels by Android App Development in Dubai ",
+    title: "Take Your Business to Higher Levels by Android App Development in Washington DC ",
     desc: andrioddesc
   }
   // mobile Application content
@@ -304,99 +305,126 @@ export default function gamedevelopmentcompany() {
     },
   ]
   const MobileApplication = {
-    title: "BitsWits is More Than an Ordinary Mobile App Development Company Dubai ",
+    title: "BitsWits is More Than an Ordinary Mobile App Development Company Washington DC ",
     desc: MobileApplicationContent
   }
 
   // conqured content
   const Conquered = {
-    title: "Industries We’ve Conquered as an Eminent App Development Company Dubai ",
-    desc: <><span className="d-block">With a strong emphasis on innovation and excellence, BitsWits caters to a diverse range of sectors and industries. Our mobile app development company in Dubai is committed to transforming your raw ideas into incredible realities. Our app development methodology is combined with innovation and creativity. Plus, we use the latest technologies and tools to deliver exceptional results. </span>
+    title: "Industries We’ve Conquered as an Eminent App Development Company Washington DC ",
+    desc: <><span className="d-block">With a strong emphasis on innovation and excellence, BitsWits caters to a diverse range of sectors and industries. Our mobile app development company in Washington DC is committed to transforming your raw ideas into incredible realities. Our app development methodology is combined with innovation and creativity. Plus, we use the latest technologies and tools to deliver exceptional results. </span>
       <br />
       <span className="d-block">
         Explore how our expertise in mobile app development can revolutionize your industry and take your business forward in the competitive digital world.
       </span>
     </>
   }
+  // Houston Washington DC
+  const menus = [
+    "App Development Costs According to Business Size In Washington DC",
+    "Cost of App Development in Washington DC for a Startup",
+    "Cost of App Development in Washington DC for Mid-Sized Businesses",
+    "Cost of App Development in Washington DC for Enterprises",
+  ];
+
+  const sections = [
+    {
+      title: "App Development Costs According to Business Size In Washington DC ",
+      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Washington DC and will fit their budget and needs.</p> `
+    },
+    {
+      title: "Cost of App Development in Washington DC for a Startup",
+      content: `<p class='fontsfregular'>Often, start-ups in Washington DC find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Washington DC will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>`
+    },
+    {
+      title: "Cost of App Development in Washington DC for Mid-Sized Businesses",
+      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Washington DC means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Washington DC are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Washington DC at a competitive cost. Mid-sized businesses in Washington DC planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>`
+    },
+    {
+      title: "Cost of App Development in Washington DC for Enterprises",
+      content: `<p class='fontsfregular'>In Washington DC, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Washington DC. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Washington DC. And for the larger enterprises in Washington DC, app development might cost somewhere from $100,000 to $500,000.</p>`
+    }
+  ];
+
+  const HoustonContent = {
+    menus: menus,
+    sections: sections,
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
-      {showFolds &&
-        <>
-          <NewDubaiAwards content={Award} />
-          <DubiaDevelopers content={Development} />
-          <DubaiDelivered content={DeliveredContent} />
-          <DubaiTimeline content={timeline} />
-          <DubaiClients content={ClientContent} />
-          <StoryLine content={storyLine} />
-          <Whowearenew content={WhoWeAre} />
-          <Delivered content={delivered} />
-          <DeliveredBlack content={deliveredBlack} />
-          <Technologieslpdubainew content={technologies} />
-          <NewDubaiBussiness content={BussinessContent} />
-          <DubaiDevelopment content={compareContent} />
-          <DubaiDevelopmentUAE content={developmentUAE} />
-          <DubaiIOS content={IOSContent} />
-          <DubaiAndriod content={andriodContent} />
-          <DubaiMobileApplication content={MobileApplication} />
-          <DubaiConquered content={Conquered} />
-          <LpChoosedubaishipnewdubai
-            transform="transformlp"
-          />
-          <Expertappdubaiadvanced expertapp="expertapp" />
-          <Justbuilditlpdubai
-            title1="Just"
-            title="Build It."
-            para="Design, Develop, and Grow with BitsWits."
-            slide="slide1lp"
-          />
-          <Globallplp6dubai />
-          <Globalmap />
-          <Brand />
-          <Houtondubai />
-          <Faqdubai
-            faqsData={[
-              {
-                question:
-                  "How can I launch an app in the UAE?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question: "How much time is required to build a mobile application?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "How much does it cost to create an app in Dubai?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "What is a mobile app support service, and does Bitswits offer it?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
+      <NewDubaiAwards content={Award} />
+      <DubiaDevelopers content={Development} />
+      <DubaiDelivered content={DeliveredContent} />
+      <DubaiTimeline content={timeline} />
+      <DubaiClients content={ClientContent} />
+      <StoryLine content={storyLine} />
+      <Whowearenew content={WhoWeAre} />
+      <Delivered content={delivered} />
+      <DeliveredBlack content={deliveredBlack} />
+      <Technologieslpdubainew content={technologies} />
+      <NewDubaiBussiness content={BussinessContent} />
+      <DubaiDevelopment content={compareContent} />
+      <DubaiDevelopmentUAE content={developmentUAE} />
+      <DubaiIOS content={IOSContent} />
+      <DubaiAndriod content={andriodContent} />
+      <DubaiMobileApplication content={MobileApplication} />
+      <DubaiConquered content={Conquered} />
+      <LpChoosedubaishipnewdubai
+        transform="transformlp"
+      />
+      <Expertappdubaiadvanced expertapp="expertapp" />
+      <Justbuilditlpdubai
+        title1="Just"
+        title="Build It."
+        para="Design, Develop, and Grow with BitsWits."
+        slide="slide1lp"
+      />
+      <Globallplp6dubai />
+      <Globalmap />
+      <Brand />
+      <Houtondubai content={HoustonContent} />
+      <Faqdubai
+        faqsData={[
+          {
+            question:
+              "How can I launch an app in the UAE?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question: "How much time is required to build a mobile application?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question:
+              "How much does it cost to create an app in Dubai?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question:
+              "What is a mobile app support service, and does Bitswits offer it?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+        ]}
+      />
+      <Latestblog blogBox={blogBox} />
 
-            ]}
-          />
-          <Latestblog blogBox={blogBox} />
-        </>
-      }
     </>
   );
 }

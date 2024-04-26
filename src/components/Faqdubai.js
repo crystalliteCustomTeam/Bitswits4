@@ -22,7 +22,7 @@ const Faqdubai = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h4 className="font40 black f-700 center pb-3 pb-md-5">FAQs</h4>
+                            <h4 className="font40 black f-700 center pb-3 pb-md-5">FAQ’s (Frequently Asked Questions)</h4>
                             {props.faqsData.map((faq, index) => (
                                 <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-2 mb-md-4 mb-lg-0`}>
                                     <div>
@@ -38,7 +38,7 @@ const Faqdubai = (props) => {
                                             <p>{faq.answer}</p>
                                             <Link href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</Link>
                                         </div>
-                                        <Image className="img-fluid" src={faq.imggodd} alt='Bitswits' />
+                                        {/* <Image className="img-fluid" src={faq.imggodd} alt='Bitswits' /> */}
                                     </div>
                                 </div>
                             ))}

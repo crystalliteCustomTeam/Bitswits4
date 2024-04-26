@@ -16,7 +16,18 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: '/game-application-development' },
   //===== GEO Tags =====
-  other: {},
+  other: {
+    "DC.title": "Game Application Development Company",
+    "geo.region": "US-TX",
+    "geo.placename": "Houston",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+    //==========
+    "DC.title": "Game Application Development Company",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+  },
 }
 
 export default function RootLayout({ children }) {

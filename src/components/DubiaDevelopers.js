@@ -4,10 +4,9 @@ import { Row, Col } from 'react-bootstrap'
 import styles from "@/styles/DubaiDevelopers.module.css"
 
 // Images     
-import Building from "/public/newDubaiPagev1/builingImage.png"
 
 const DubiaDevelopers = ({ content }) => {
-    const { title, desc, subContent } = content
+    const { title, desc, subContent, image, position } = content
     return (
         <>
             <section className={styles.dubaiSec}>
@@ -29,10 +28,15 @@ const DubiaDevelopers = ({ content }) => {
                                 ))}
                             </div>
                         </Col>
-                        <Col lg={4}>
-                            <div className={styles.buildingImage}>
-                                <Image src={Building} width={752} height={742} alt='Bitswits' className='d-xl-block d-none' />
-                            </div>
+                        <Col lg={3}>
+                            {position ?
+                                <div className={styles.buildingImage}>
+                                    <Image src={image} width={752} height={742} alt='Bitswits' className='d-xl-block d-none' />
+                                </div> :
+                                <div className={styles.buildingImageTwo}>
+                                    <Image src={image} width={481} height={651} alt='Bitswits' className='d-xl-block d-none' />
+                                </div>
+                            }
                         </Col>
                     </Row>
                 </div>

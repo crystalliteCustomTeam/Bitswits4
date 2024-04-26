@@ -23,6 +23,7 @@ import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import Building from "/public/newhouston/builingImageSeven.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -98,18 +99,18 @@ export default function gamedevelopmentcompany() {
     para: "With years of experience empowering startups and well-established brands with advanced app development solutions, we have garnered attention from several credible platforms worldwide, including Zawya and Lovin Dubai in Dubai. Our recognition in the mobile app development industry has solidified us as an end-to-end mobile app development solution provider. Our team of highly talented individuals is ready to take your mobile app development project to the next level.",
     accordionData: accordionData
   };
+
   // Banner Content
   const Banner = {
-    title: "Leading Mobile App Development Company Dubai",
-    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dubai are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
-    pageSlug: "Mobile App Development Company Dubai",
+    title: "Mobile App Development Company Miami",
+    desc: "BitsWits stands out as a leading mobile app development company in Washington DC due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Washington DC are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
+    pageSlug: "Mobile App Development Company Miami",
   }
 
   // award Content
   const Award = {
     title: "Awards & Recognitions",
     desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
-
   }
 
   // DubaiDevelopers Content
@@ -124,9 +125,11 @@ export default function gamedevelopmentcompany() {
     }
   ]
   const Development = {
-    title: "Top-Notch App Development Company in Dubai",
+    title: "Miami App Developers",
     desc: "BitsWits stands out as a top-tier mobile app development company in Dubai, boasting a decade-long legacy of creating impactful, high-quality apps. Our tailored mobile apps help businesses make massive revenue over a short haul, showcasing our commitment to excellence and reflecting our dedication to delivering effective solutions.",
     subContent: subContent,
+    image: Building,
+    position: false,
   }
   // delivered content
   const DeliveredContent = {
@@ -136,19 +139,18 @@ export default function gamedevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
-    title: "We Follow as a Trustable App Development Company in Dubai ",
+    title: "We Follow as a Trustable App Development Company in Miami ",
     desc: <>
-      At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth. <br />
-      From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing.
-      With our team of experts committed to exploring the edges of what's doable in mobile apps, we are constantly pushing the boundaries of what's possible in the mobile app development industry.<br />
-      We use the latest technologies and trends to craft apps that are uniquely identifiable in a crowded marketplace. No matter whether you want to build a game-changing app or develop a strong digital presence, we have got the skills and resources to make it happen.<br />
-      We think the most important feature of an app is the experience it provides to its users. That's why we pay extra attention to that, making sure that whoever uses your application will be happy and satisfied with the app's design and functionality.<br />
-      Here is the process we follow for developing mobile apps for our clients.
+      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
+      <br />
+      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <br />
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
     </>
   }
   // ClientContent
   const ClientContent = {
-    title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Dubai</>,
+    title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Miami</>,
     desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
   }
   // Who We Are Content
@@ -317,85 +319,112 @@ export default function gamedevelopmentcompany() {
       </span>
     </>
   }
+  // Houston Dubai
+  const menus = [
+    "App Development Costs According to Business Size In Dubai",
+    "Cost of App Development in Dubai for a Startup",
+    "Cost of App Development in Dubai for Mid-Sized Businesses",
+    "Cost of App Development in Dubai for Enterprises",
+  ];
+
+  const sections = [
+    {
+      title: "App Development Costs According to Business Size In Dubai ",
+      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> `
+    },
+    {
+      title: "Cost of App Development in Dubai for a Startup",
+      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>`
+    },
+    {
+      title: "Cost of App Development in Dubai for Mid-Sized Businesses",
+      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>`
+    },
+    {
+      title: "Cost of App Development in Dubai for Enterprises",
+      content: `<p class='fontsfregular'>In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>`
+    }
+  ];
+
+  const HoustonContent = {
+    menus: menus,
+    sections: sections,
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
-      {showFolds &&
-        <>
-          <NewDubaiAwards content={Award} />
-          <DubiaDevelopers content={Development} />
-          <DubaiDelivered content={DeliveredContent} />
-          <DubaiTimeline content={timeline} />
-          <DubaiClients content={ClientContent} />
-          <StoryLine content={storyLine} />
-          <Whowearenew content={WhoWeAre} />
-          <Delivered content={delivered} />
-          <DeliveredBlack content={deliveredBlack} />
-          <Technologieslpdubainew content={technologies} />
-          <NewDubaiBussiness content={BussinessContent} />
-          <DubaiDevelopment content={compareContent} />
-          <DubaiDevelopmentUAE content={developmentUAE} />
-          <DubaiIOS content={IOSContent} />
-          <DubaiAndriod content={andriodContent} />
-          <DubaiMobileApplication content={MobileApplication} />
-          <DubaiConquered content={Conquered} />
-          <LpChoosedubaishipnewdubai
-            transform="transformlp"
-          />
-          <Expertappdubaiadvanced expertapp="expertapp" />
-          <Justbuilditlpdubai
-            title1="Just"
-            title="Build It."
-            para="Design, Develop, and Grow with BitsWits."
-            slide="slide1lp"
-          />
-          <Globallplp6dubai />
-          <Globalmap />
-          <Brand />
-          <Houtondubai />
-          <Faqdubai
-            faqsData={[
-              {
-                question:
-                  "How can I launch an app in the UAE?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question: "How much time is required to build a mobile application?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "How much does it cost to create an app in Dubai?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
-              {
-                question:
-                  "What is a mobile app support service, and does Bitswits offer it?",
-                answer: (
-                  <>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </>
-                ),
-              },
+      <NewDubaiAwards content={Award} />
+      <DubiaDevelopers content={Development} />
+      <DubaiDelivered content={DeliveredContent} />
+      <DubaiTimeline content={timeline} />
+      <DubaiClients content={ClientContent} />
+      <StoryLine content={storyLine} />
+      <Whowearenew content={WhoWeAre} />
+      <Delivered content={delivered} />
+      <DeliveredBlack content={deliveredBlack} />
+      <Technologieslpdubainew content={technologies} />
+      <NewDubaiBussiness content={BussinessContent} />
+      <DubaiDevelopment content={compareContent} />
+      <DubaiDevelopmentUAE content={developmentUAE} />
+      <DubaiIOS content={IOSContent} />
+      <DubaiAndriod content={andriodContent} />
+      <DubaiMobileApplication content={MobileApplication} />
+      <DubaiConquered content={Conquered} />
+      <LpChoosedubaishipnewdubai
+        transform="transformlp"
+      />
+      <Expertappdubaiadvanced expertapp="expertapp" />
+      <Justbuilditlpdubai
+        title1="Just"
+        title="Build It."
+        para="Design, Develop, and Grow with BitsWits."
+        slide="slide1lp"
+      />
+      <Globallplp6dubai />
+      <Globalmap />
+      <Brand />
+      <Houtondubai content={HoustonContent} />
+      <Faqdubai
+        faqsData={[
+          {
+            question:
+              "How can I launch an app in the UAE?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question: "How much time is required to build a mobile application?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question:
+              "How much does it cost to create an app in Dubai?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+          {
+            question:
+              "What is a mobile app support service, and does Bitswits offer it?",
+            answer: (
+              <>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </>
+            ),
+          },
+        ]}
+      />
+      <Latestblog blogBox={blogBox} />
 
-            ]}
-          />
-          <Latestblog blogBox={blogBox} />
-        </>
-      }
     </>
   );
 }

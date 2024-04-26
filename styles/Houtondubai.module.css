@@ -1,12 +1,8 @@
 .houston {
   position: relative;
-  margin-bottom: 70px;
+  padding: 80px 0;
+  margin-bottom: 80px;
 }
-/* 
-.sticky{
-  position: sticky;
-  top: 50px;
-} */
 
 .applicationlong {
   position: relative;
@@ -14,9 +10,12 @@
 }
 
 .understand h5 {
-  padding-top: 20px;
+  padding-top: 15px;
   font-family: "SF-Pro-Display";
-  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: white;
 }
 
 .applicationlong a {
@@ -36,15 +35,13 @@
   padding-left: 20px;
 }
 
-.posto {
+/* .posto {
   margin-top: 70px;
   margin-bottom: 70px;
-  height: 520px;
-  overflow: auto;
-}
+} */
 
 .houston {
-  background-color: #f3f3f3;
+  background-color: black;
 }
 
 .tone {
@@ -101,17 +98,21 @@
 }
 
 .understand h2 {
-  color: black;
-  font-size: 35px;
-  font-family: "SF-Pro-Display";
-  letter-spacing: 2px;
+  color: white;
+  font-size: 70px;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.understand h2 span {
+  color: #f32f53;
 }
 
 .understand p {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 26px;
+  color: white;
 }
 
 .understand ul li {
@@ -139,18 +140,6 @@
   margin-top: 9px;
   font-family: "SF-Pro-Display";
   letter-spacing: 2px;
-}
-
-.understand {
-  height: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  overflow: auto;
-  background-color: white;
-  border-radius: 15px;
-  margin-bottom: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .applicationlong::before {
@@ -210,17 +199,26 @@
 }
 
 @media screen and (max-width: 991px) {
+  .houston {
+    padding: 70px 0;
+  }
+
   .understand {
     height: auto;
     overflow: auto;
     padding: 30px;
   }
 
-  .posto {
+  .understand h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  /* .posto {
     margin-top: 20px;
     margin-bottom: 30px;
     height: 610px;
-  }
+  } */
 
   .houston select {
     width: 100%;
@@ -240,6 +238,7 @@
   .understand h2 {
     font-size: 25px;
   }
+
   .houston select {
     font-size: 13px;
   }
@@ -247,21 +246,28 @@
 
 @media screen and (max-width: 480px) {
   .houston {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 50px;
+    padding: 50px 0;
   }
 
   .understand {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    margin: 10px 12px;
+    padding: 0;
+  }
+
+  .understand {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0px;
   }
 
   .understand h2 {
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 45px;
+    font-size: 35px;
+  }
+
+  .understand h5 {
+    font-size: 22px;
+    line-height: 32px;
   }
 
   .applicationlong h3 {

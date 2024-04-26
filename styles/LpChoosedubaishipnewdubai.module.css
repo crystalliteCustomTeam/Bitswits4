@@ -12,7 +12,7 @@
 
 .walk p {
   margin: 25px 0 36px;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 26px;
   color: black;
   padding-right: 35px;
@@ -218,6 +218,6 @@
   }
 
   .transformlp {
-    padding: 70px 0;
+    padding: 50px 0;
   }
 }

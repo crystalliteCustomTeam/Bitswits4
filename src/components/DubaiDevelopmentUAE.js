@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'next/link';
+import React from 'react' 
 import Image from 'next/image';
 import Slider from 'react-slick'
 import { Container, Row, Col } from 'react-bootstrap'

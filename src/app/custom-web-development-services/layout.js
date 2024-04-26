@@ -16,7 +16,18 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: '/custom-web-development-services' },
   //===== GEO Tags =====
-  other: {},
+  other: {
+    "DC.title": "Custom Web Development Services",
+    "geo.region": "US-TX",
+    "geo.placename": "Houston",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+    //==========
+    "DC.title": "Custom Web Development Services",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+  },
 }
 
 export default function RootLayout({ children }) {

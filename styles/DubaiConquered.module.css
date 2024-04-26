@@ -12,7 +12,7 @@
 }
 
 .conqueredSec p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 26px;
   text-align: center;
   color: black;
@@ -107,7 +107,7 @@
 
 @media only screen and (max-width: 567px) {
   .conqueredSec {
-    padding: 60px 0 90px;
+    padding: 60px 0 60px;
   }
 
   .conqueredSec h2 {

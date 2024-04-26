@@ -18,6 +18,7 @@ import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
 import DubaiFooter from "../components/DubaiFooter";
+import VideoHeader from "../components/video-explainer/Header/Header";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -104,11 +105,12 @@ const ConditionalLayout = ({ children }) => {
                 pathname == "/mobile-app-development-company-lp2" ? <Headerlp /> :
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
-                            pathname == "/meet-our-team" ? null :
-                                <>
-                                    <Header />
-                                    <HeaderMbl />
-                                </>
+                            pathname == "/video-explainer-lp" ? <VideoHeader /> :
+                                pathname == "/meet-our-team" ? null :
+                                    <>
+                                        <Header />
+                                        <HeaderMbl />
+                                    </>
             }
             {mouse && <Cursor />}
             {superecommer ? '' : <Skicky />}

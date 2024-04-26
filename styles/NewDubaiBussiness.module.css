@@ -6,12 +6,10 @@
 }
 
 .firstPara {
-    color: #F32F53 !important;
     font-size: 25px !important;
     font-weight: bold !important;
     line-height: 30px !important;
-    letter-spacing: 1px !important;
-    margin-bottom: 0;
+    color: #F32F53 !important;
 }
 
 .bussinessSec h2 {
@@ -28,9 +26,9 @@
 
 .bussinessSec .secondPara {
     color: white;
-    line-height: 35px;
-    font-size: 20px;
-    width: 768px;
+    line-height: 26px;
+    font-size: 17px;
+    width: 998px;
 }
 
 .bussinessSec h4 {
@@ -42,18 +40,18 @@
 }
 
 .bussinessSec h3 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 55px;
+    line-height: 40px;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: white;
 }
 
 .bussinessSec p {
     color: white;
-    line-height: 40px;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 26px;
     width: 788px;
 }
 
@@ -73,16 +71,25 @@
 
 .bussinessImage {
     position: absolute;
-    right: 0;
+    right: -47px;
     bottom: 0;
 }
 
 /* Media Query Start */
 @media only screen and (max-width:1920px) {
     .bussinessImage img {
-        max-width: 650px;
-        min-width: 650px;
+        width: 650px;
         height: auto;
+    }
+}
+
+@media only screen and (max-width:1499px) {
+    .bussinessImage img {
+        width: 620px;
+    }
+
+    .bussinessImage {
+        right: -57px;
     }
 }
 
@@ -96,9 +103,11 @@
 
 @media only screen and (max-width: 1399px) {
     .bussinessImage img {
-        max-width: 450px;
-        min-width: 390px;
+        width: 585px;
+    }
 
+    .bussinessImage {
+        right: -143px;
     }
 
     .bussinessSec h2 {
@@ -109,7 +118,7 @@
 
 @media only screen and (max-width: 1280px) {
     .bussinessImage img {
-        max-width: 403px;
+        width: 525px;
     }
 }
 

@@ -5,12 +5,21 @@ import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/bannerdubainew.module.css";
-//
-import BannerImage from "@/public/newdubai/aroow.png"
 
-const backgroundClass = `${styles.newHomeBg}`;
+const dubaiBackground = `${styles.newHomeBg}`;
+const houstonBackground = `${styles.newHoustonBg}`;
+const dallasBackground = `${styles.newDallasBg}`;
+const newYorkBackground = `${styles.newNewYorkBg}`;
+const washingtonBackground = `${styles.newWashingtonBg}`;
+const austinBackground = `${styles.newAustinBg}`;
+const chicagoBackground = `${styles.newChicagoBg}`;
+const miamiBackground = `${styles.newMiamiBg}`;
+const torontoBackground = `${styles.newTorontoBg}`;
+const ukBackground = `${styles.newUKBg}`;
+const saudiaBackground = `${styles.newSaudiaBg}`;
 
 const Bannerdubai = ({ content }) => {
+    const pathname = usePathname();
     const { title, desc, pageSlug } = content;
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -105,18 +114,31 @@ const Bannerdubai = ({ content }) => {
 
     return (
         <>
-            <section className={`${backgroundClass} ${styles.DubaiBanner}`} >
+            <section className={`
+            ${pathname === "/new-mobile-app-development-company-dubai" ? dubaiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-dubai-duplicate" ? dubaiBackground : ""} 
+            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-dallas" ? dallasBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
+             ${styles.DubaiBanner} bg-black`} >
                 <Container className={` ${styles.conform}`}>
-                    <Row className={`g-5 ${styles.applost}`}>
+                    <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
-                                <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
+                                {/* <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
                                     <h4 className='white fontsfregular'>Home</h4>
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='white fontsfregular'>Location</h4>
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='newfycolr fontsfregular'>{pageSlug}</h4>
-                                </div>
+                                </div> */}
                                 <h2 className='white fw700 mb-4'>
                                     {title}
                                 </h2>
@@ -140,7 +162,7 @@ const Bannerdubai = ({ content }) => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
         </>
     )
 }

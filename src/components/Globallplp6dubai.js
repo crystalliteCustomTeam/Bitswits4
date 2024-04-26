@@ -18,7 +18,6 @@ import bestgloba12 from '@/public/images/mobilelpfinal/global/12.png'
 
 
 const NewHomeGlobal = (props) => {
-
     return (
         <>
             <section className={`${styles.team} ${styles[props.bannerClass]}`} id="partners">
@@ -27,7 +26,6 @@ const NewHomeGlobal = (props) => {
                         <Col xl={12} className={styles.renew}>
                             <h3 className='font30 fw800 center mb-0 mb-sm-1'>World-Renowned</h3>
                             <h2 className={`${styles.success} center `}>Brands Trust Us</h2>
-
                             <div className={styles.postpoint}>
                                 <div className={styles.loop}>
                                     <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />

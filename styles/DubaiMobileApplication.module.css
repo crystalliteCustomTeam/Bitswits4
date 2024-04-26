@@ -7,16 +7,16 @@
 }
 
 .mobileApplicationSec h2 {
-  font-size: 56px;
+  font-size: 48px;
   font-weight: bold;
-  line-height: 65px;
+  line-height: 55px;
   color: white;
   margin-bottom: 20px;
 }
 
 .mobileApplicationSec p {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 26px;
   margin-bottom: 23px;
   color: white;
 }
@@ -126,7 +126,7 @@
 
 @media only screen and (max-width: 567px) {
   .mobileApplicationSec {
-    padding: 70px 0;
+    padding: 50px 0;
   }
 
   .mobileApplicationSec h2 {

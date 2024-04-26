@@ -28,36 +28,33 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerlpfinal newHomeBgprops="newHomeBg" />
-      {showFolds &&
-        <>
-          <Awardsrecognition />
-          <Nothinglp2 Nothing="lp6final" />
-          <Innovate />
-          <Expertapplp6 expertapp="expertapp" />
-          <ProjectProcesslpfinal6 processclass="process1" />
-          <Transformideaslp6 transform="transform" />
-          <Technologieslp />
-          <Justbuilditlp
-            title={
-              <>
-                <h2 className={stylesjust.just}>Just Build It.</h2>
-              </>
-            }
-            para={
-              <>
-                <h3 className={stylesjust.develop}>
-                  Design, Develop, and Grow with BitsWits.
-                </h3>
-              </>
-            }
-            slide="slide2lp6"
-          />
-          <Globallplp6 />
-          <Formnewlp2lp6 />
-          <NewFaqslp />
-          <HomeLocationlp />
-        </>
-      }
+      <Awardsrecognition />
+      <Nothinglp2 Nothing="lp6final" />
+      <Innovate />
+      <Expertapplp6 expertapp="expertapp" />
+      <ProjectProcesslpfinal6 processclass="process1" />
+      <Transformideaslp6 transform="transform" />
+      <Technologieslp />
+      <Justbuilditlp
+        title={
+          <>
+            <h2 className={stylesjust.just}>Just Build It.</h2>
+          </>
+        }
+        para={
+          <>
+            <h3 className={stylesjust.develop}>
+              Design, Develop, and Grow with BitsWits.
+            </h3>
+          </>
+        }
+        slide="slide2lp6"
+      />
+      <Globallplp6 />
+      <Formnewlp2lp6 />
+      <NewFaqslp />
+      <HomeLocationlp />
+
     </>
   );
 }

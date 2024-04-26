@@ -3,34 +3,53 @@
   height: 100%;
 }
 
+/* .mainCard {
+  position: relative;
+} */
+
 .travel {
   background-color: #468FEB;
   height: 100%;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel2 p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel3 p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 26px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .travel2 {
@@ -39,10 +58,13 @@
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel3 {
@@ -51,10 +73,13 @@
   padding-left: 28px;
   padding-right: 30px;
   padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: start;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .travel h3 {
@@ -103,13 +128,21 @@
 .android p {
   color: black;
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 26px;
   margin-bottom: 30px;
 }
 
 .ImageDiv {
   background: #F3F3F3;
   transition: all ease-in-out 0.4s;
+  position: relative !important;
+  z-index: -1 !important;
+}
+
+.ImageDiv img {
+  min-height: 373px;
+  max-height: 369px;
 }
 
 .ImageDiv:hover {
@@ -119,6 +152,29 @@
 .ImageDiv img:hover {
   transform: translateY(20px);
   transition: all ease-in-out 0.4s;
+}
+
+@media only screen and (max-width: 1920px) {
+  .travel p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .travel2 p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .travel3 p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -169,6 +225,11 @@
     line-height: 20px;
     margin-top: 0px;
   }
+
+  .ImageDiv img {
+    min-height: auto;
+    max-height: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -184,20 +245,19 @@
 
 @media screen and (max-width: 480px) {
   .counter {
-    padding: 60px 0;
+    padding: 0px 0;
   }
 
   .travel,
   .travel2,
   .travel3 {
-    height: auto;
+    height: 100%;
   }
 
   .ImageDiv img:hover {
     transform: translateY(0px);
     transition: all ease-in-out 0.4s;
   }
-
 
   .travel h3 {
     font-size: 25px;

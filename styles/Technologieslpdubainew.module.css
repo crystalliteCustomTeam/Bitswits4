@@ -12,8 +12,8 @@
 }
 
 .tech p {
-  line-height: 33px;
-  font-size: 19px;
+  line-height: 26px;
+  font-size: 17px;
   padding-right: 30px;
   margin-bottom: 22px;
 }
@@ -84,10 +84,17 @@
   justify-content: space-between;
 }
 
+/* .colpont img {
+  max-height: 440px;
+  max-width: 440px;
+  object-fit: contain;
+} */
+
 .newyork p {
-  font-size: 19px;
+  font-size: 17px;
   color: black;
-  line-height: 29px;
+  line-height: 26px;
+  line-height: 25px;
   padding-right: 0px !important;
 }
 
@@ -214,9 +221,8 @@
 
 @media screen and (max-width: 480px) {
   .tech {
-    padding: 70px 0;
+    padding: 50px 0;
   }
-
 
   .active {
     padding: 5px 13px !important;

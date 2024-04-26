@@ -172,50 +172,47 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerlp2 newHomeBgprops="newHomeBg" />
-      {showFolds &&
+      <Formlp2 />
+      <Nothinglp2 Nothing="nothing1" />
+      {isSliderActive ? (
         <>
-          <Formlp2 />
-          <Nothinglp2 Nothing="nothing1" />
-          {isSliderActive ? (
-            <>
-              <NewMaintain
-                subtitle="Services"
-                title1new={
-                  <>
-                    Our Mobile App Development <br></br> Services And Solution
-                  </>
-                }
-              />
-            </>
-          ) : (
-            <ServicesMaintainmobile severcedata={severcedata} />
-          )}
-          <Wework wework="wework" />
-          <Startups startups="startups" />
-          <ProjectProcesslp processclass="process1" />
-          <Justbuilditlp
-            title={
+          <NewMaintain
+            subtitle="Services"
+            title1new={
               <>
-                <h2 className={stylesjust.just}>Just Build It.</h2>
+                Our Mobile App Development <br></br> Services And Solution
               </>
             }
-            para={
-              <>
-                <h3 className={stylesjust.develop}>
-                  Design, Develop, and Grow with BitsWits.
-                </h3>
-              </>
-            }
-            slide="slide2"
           />
-          <Technologieslp />
-          <Globallp />
-          <Transformideas transform="transform" />
-          <Formnewlp2 />
-          <NewFaqslp />
-          <HomeLocationlp />
         </>
-      }
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+      <Wework wework="wework" />
+      <Startups startups="startups" />
+      <ProjectProcesslp processclass="process1" />
+      <Justbuilditlp
+        title={
+          <>
+            <h2 className={stylesjust.just}>Just Build It.</h2>
+          </>
+        }
+        para={
+          <>
+            <h3 className={stylesjust.develop}>
+              Design, Develop, and Grow with BitsWits.
+            </h3>
+          </>
+        }
+        slide="slide2"
+      />
+      <Technologieslp />
+      <Globallp />
+      <Transformideas transform="transform" />
+      <Formnewlp2 />
+      <NewFaqslp />
+      <HomeLocationlp />
+
     </>
   );
 }

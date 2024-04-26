@@ -7,6 +7,7 @@
   border: 0;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 9%) 0px 10px 20px;
+  height: 100%;
 }
 
 .blogBtn {
@@ -29,7 +30,8 @@
 }
 
 .blogBox p {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 991px) {
