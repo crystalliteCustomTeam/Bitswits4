@@ -25,20 +25,17 @@ export default function Home() {
   return (
     <>
       <Appmaking />
-      {showFolds &&
-        <>
-          <Homeslider />
-          <ProjectProcesshome processclass="process" />
-          <Creative />
-          <Expertapphome expertapp="expertapp" />
-          <Thrthy />
-          <Everyone />
-          <Testimonailslider />
-          <Startaproject />
-          <Formnewlpnewhome />
-          <SupersaleStiky />
-        </>
-      }
+      <Homeslider />
+      <ProjectProcesshome processclass="process" />
+      <Creative />
+      <Expertapphome expertapp="expertapp" />
+      <Thrthy />
+      <Everyone />
+      <Testimonailslider />
+      <Startaproject />
+      <Formnewlpnewhome />
+      <SupersaleStiky />
+
     </>
   );
 }

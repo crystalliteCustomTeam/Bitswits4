@@ -152,48 +152,45 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <Banners />
-        {showFolds &&
-          <>
-            <Logoslide />
-            <LeftContent
-              title={title}
-              text={text}
-              subtext={subtext}
-              number="1-844-400-0025"
-              discuss="Hire Blockchain Developer"
-              image={typeofbooks}
-              whychooseclass="marketyourbook"
-            />
-            <Blockchain hireTile={hireTile} text={text} hireSubTile={hireSubTile} />
-            <Revolution
-              revTile1={revTile11}
-              revSubTile1={revSubTile}
-              revpara={revpara}
-            />
-            <NextGen
-              nextTtitle1={NextTtitle1}
-              nextsub={Nextsub}
-              nextPara={NextPara}
-              poster="true"
-              poster1=""
-            />
-            <Standing />
-            <NextGen
-              nextTtitle1={NextTtitle2}
-              nextPara={NextPara2}
-              poster1="true"
-              poster=""
-            />
-            <Expertise exTitle={exTitle} exPara={exPara} />
-            <Process />
-            <WhyChooseUs
-              whyTitle={whyTitle}
-              whySubTitle={whySubTitle}
-              whyPara={whyPara}
-            />
-            <Contact newBg="newBgSpc" />
-          </>
-        }
+        <Logoslide />
+        <LeftContent
+          title={title}
+          text={text}
+          subtext={subtext}
+          number="1-844-400-0025"
+          discuss="Hire Blockchain Developer"
+          image={typeofbooks}
+          whychooseclass="marketyourbook"
+        />
+        <Blockchain hireTile={hireTile} text={text} hireSubTile={hireSubTile} />
+        <Revolution
+          revTile1={revTile11}
+          revSubTile1={revSubTile}
+          revpara={revpara}
+        />
+        <NextGen
+          nextTtitle1={NextTtitle1}
+          nextsub={Nextsub}
+          nextPara={NextPara}
+          poster="true"
+          poster1=""
+        />
+        <Standing />
+        <NextGen
+          nextTtitle1={NextTtitle2}
+          nextPara={NextPara2}
+          poster1="true"
+          poster=""
+        />
+        <Expertise exTitle={exTitle} exPara={exPara} />
+        <Process />
+        <WhyChooseUs
+          whyTitle={whyTitle}
+          whySubTitle={whySubTitle}
+          whyPara={whyPara}
+        />
+        <Contact newBg="newBgSpc" />
+
       </main>
     </>
   );

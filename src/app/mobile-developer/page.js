@@ -45,20 +45,17 @@ export default function MobileDeveloper() {
         banImg={banImg}
         bannerClass="mbl"
       />
-      {showFolds &&
-        <>
-          <NewAddress />
-          <HireLogoSlider />
-          <NewHomeAbout addClass="mblHire" />
-          <HireServices />
-          <HireBenifitsMbl />
-          <HireTiming />
-          <Technologieswe />
-          <Homenextproject title="Brace yourself for an App-venture!" />
-          <Faqs />
-          <HomeLocation />
-        </>
-      }
+      <NewAddress />
+      <HireLogoSlider />
+      <NewHomeAbout addClass="mblHire" />
+      <HireServices />
+      <HireBenifitsMbl />
+      <HireTiming />
+      <Technologieswe />
+      <Homenextproject title="Brace yourself for an App-venture!" />
+      <Faqs />
+      <HomeLocation />
+
     </>
   );
 }

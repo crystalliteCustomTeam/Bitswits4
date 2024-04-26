@@ -1,5 +1,9 @@
 .ExplainerTypeSec {
-    padding: 50px 0;
+    padding: 70px 0;
+}
+
+.secGap {
+    gap: 30px 0;
 }
 
 .txt h2 {
@@ -24,7 +28,7 @@
     background-color: #fff;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, .1);
     padding: 25px 20px 35px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     height: 100%;
 }
 
@@ -32,11 +36,45 @@
     font-size: 25px;
     font-weight: 700;
     padding: 20px 0 10px;
-    height: 84px;
     font-family: "Montserrat";
 }
 
 .card p {
-    font-size: 17px;
+    font-size: 16px;
     font-family: "Montserrat";
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1399px) {
+    .card h3 {
+        font-size: 20px;
+        padding: 20px 0 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card h3 {
+        font-size: 16px;
+        padding: 20px 0 0px;
+    }
+
+    .card p {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .txt h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
 }

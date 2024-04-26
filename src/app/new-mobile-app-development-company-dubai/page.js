@@ -453,90 +453,87 @@ export default function dubaidevelopmentcompany() {
   return (
     <>
       <Bannerdubai content={Banner} />
-      {/* {showFolds && */}
-      <>
-        <NewDubaiAwards content={Award} />
-        <DubiaDevelopers content={Development} />
-        <DubaiDelivered content={DeliveredContent} />
-        <DubaiTimeline content={timeline} />
-        <DubaiClients content={ClientContent} />
-        <StoryLine content={storyLine} />
-        <Whowearenew content={WhoWeAre} />
-        <Delivered content={delivered} />
-        <DeliveredBlack content={deliveredBlack} />
-        <Technologieslpdubainew content={technologies} />
-        <NewDubaiBussiness content={BussinessContent} />
-        <DubaiDevelopment content={compareContent} />
-        <DubaiDevelopmentUAE content={developmentUAE} />
-        <DubaiIOS content={IOSContent} />
-        <DubaiAndriod content={andriodContent} />
-        <DubaiMobileApplication content={MobileApplication} />
-        <DubaiConquered content={Conquered} />
-        <LpChoosedubaishipnewdubai
-          transform="transformlp"
-        />
-        <Expertappdubaiadvanced expertapp="expertapp" />
-        <Justbuilditlpdubai
-          title1="Just"
-          title="Build It."
-          para="Design, Develop, and Grow with BitsWits."
-          slide="slide1lp"
-        />
-        <Globallplp6dubai />
-        <Globalmap />
-        <Brand />
-        <Houtondubai content={HoustonContent} />
-        <Faqdubai
-          faqsData={[
-            {
-              question:
-                "How can I ensure a successful app launch in the UAE?",
-              answer: (
-                <>
-                  To develop your app in UAE successfully, it is necessary to have a strategic implementation and work with a competent app development company. At BitsWits, we provide unparalleled mobile app development services that perfectly address your business needs. At our disposal are experienced and skilled professionals who guarantee that the work is done on schedule and to your satisfaction. Throughout our multi-faceted tech solutions and round-the-clock assistance, we expedite the app launch process.
-                </>
-              ),
-            },
-            {
-              question: "What factors influence the cost of creating an app in Dubai?",
-              answer: (
-                <>
-                  The price of building an app in Dubai varies based on multiple factors, such as app classification, functionality, abilities, tech stack, and your schedule and budget. At BitsWits, you’ll get affordable app development services, but this does not detriment quality. Contact our professionals now for a personalized quote for your app project in the UAE.
-                </>
-              ),
-            },
-            {
-              question:
-                "How long does it take to develop a mobile application in Dubai?",
-              answer: (
-                <>
-                  The time necessary for creating a mobile application in Dubai with BitWits is defined by factors such as features, design complexity and business requirements. On average, the app development process usually takes between 3 to 12 months. This is to ensure we give this process a proper timeframe and duration. Our team of well-trained personnel guarantees timely delivery while maintaining high-quality standards.
-                </>
-              ),
-            },
-            {
-              question:
-                "Why should I choose BitsWits for mobile app development services in Dubai?",
-              answer: (
-                <>
-                  Choosing BitsWits for your mobile app development needs in Dubai means partnering with a team that has over 10+ years of experience in the industry. We offer innovative solutions and stay updated with emerging technologies like AI/ML, AR/VR, Blockchain, Cloud, and Wearable technology. And much more.  Our app developers in Dubai ensure high productivity and efficiency, delivering top-notch mobile app development services and solutions.
-                </>
-              ),
-            },
-            {
-              question:
-                "Do you provide mobile app development support and maintenance services?",
-              answer: (
-                <>
-                  Our services include complete post-deployment support and maintenance, which ensures that your application runs at its maximum efficiency. Our support team will be there for you if you need to address any concerns or make any releases for your mobile app in Dubai.
-                </>
-              ),
-            },
-          ]}
-        />
-        <Latestblog blogBox={blogBox} />
-      </>
-      {/* } */}
+      <NewDubaiAwards content={Award} />
+      <DubiaDevelopers content={Development} />
+      <DubaiDelivered content={DeliveredContent} />
+      <DubaiTimeline content={timeline} />
+      <DubaiClients content={ClientContent} />
+      <StoryLine content={storyLine} />
+      <Whowearenew content={WhoWeAre} />
+      <Delivered content={delivered} />
+      <DeliveredBlack content={deliveredBlack} />
+      <Technologieslpdubainew content={technologies} />
+      <NewDubaiBussiness content={BussinessContent} />
+      <DubaiDevelopment content={compareContent} />
+      <DubaiDevelopmentUAE content={developmentUAE} />
+      <DubaiIOS content={IOSContent} />
+      <DubaiAndriod content={andriodContent} />
+      <DubaiMobileApplication content={MobileApplication} />
+      <DubaiConquered content={Conquered} />
+      <LpChoosedubaishipnewdubai
+        transform="transformlp"
+      />
+      <Expertappdubaiadvanced expertapp="expertapp" />
+      <Justbuilditlpdubai
+        title1="Just"
+        title="Build It."
+        para="Design, Develop, and Grow with BitsWits."
+        slide="slide1lp"
+      />
+      <Globallplp6dubai />
+      <Globalmap />
+      <Brand />
+      <Houtondubai content={HoustonContent} />
+      <Faqdubai
+        faqsData={[
+          {
+            question:
+              "How can I ensure a successful app launch in the UAE?",
+            answer: (
+              <>
+                To develop your app in UAE successfully, it is necessary to have a strategic implementation and work with a competent app development company. At BitsWits, we provide unparalleled mobile app development services that perfectly address your business needs. At our disposal are experienced and skilled professionals who guarantee that the work is done on schedule and to your satisfaction. Throughout our multi-faceted tech solutions and round-the-clock assistance, we expedite the app launch process.
+              </>
+            ),
+          },
+          {
+            question: "What factors influence the cost of creating an app in Dubai?",
+            answer: (
+              <>
+                The price of building an app in Dubai varies based on multiple factors, such as app classification, functionality, abilities, tech stack, and your schedule and budget. At BitsWits, you’ll get affordable app development services, but this does not detriment quality. Contact our professionals now for a personalized quote for your app project in the UAE.
+              </>
+            ),
+          },
+          {
+            question:
+              "How long does it take to develop a mobile application in Dubai?",
+            answer: (
+              <>
+                The time necessary for creating a mobile application in Dubai with BitWits is defined by factors such as features, design complexity and business requirements. On average, the app development process usually takes between 3 to 12 months. This is to ensure we give this process a proper timeframe and duration. Our team of well-trained personnel guarantees timely delivery while maintaining high-quality standards.
+              </>
+            ),
+          },
+          {
+            question:
+              "Why should I choose BitsWits for mobile app development services in Dubai?",
+            answer: (
+              <>
+                Choosing BitsWits for your mobile app development needs in Dubai means partnering with a team that has over 10+ years of experience in the industry. We offer innovative solutions and stay updated with emerging technologies like AI/ML, AR/VR, Blockchain, Cloud, and Wearable technology. And much more.  Our app developers in Dubai ensure high productivity and efficiency, delivering top-notch mobile app development services and solutions.
+              </>
+            ),
+          },
+          {
+            question:
+              "Do you provide mobile app development support and maintenance services?",
+            answer: (
+              <>
+                Our services include complete post-deployment support and maintenance, which ensures that your application runs at its maximum efficiency. Our support team will be there for you if you need to address any concerns or make any releases for your mobile app in Dubai.
+              </>
+            ),
+          },
+        ]}
+      />
+      <Latestblog blogBox={blogBox} />
+
     </>
   );
 } 

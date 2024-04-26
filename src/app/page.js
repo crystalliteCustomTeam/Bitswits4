@@ -175,198 +175,195 @@ export default function Home() {
   return (
     <>
       <NewIndexBanner />
-      {showFolds &&
-        <>
-          {/* AwardsFold Start */}
-          <section>
-            <div className={`${styles.awardsFold}`}>
-              <div className="container-fluid px-0">
-                <div className="row align-items-center">
-                  <div className="col-xl-5 col-lg-12 col-sm-12">
-                    <p
-                      className={`font-bold fontawards25 mb-0 ${styles.textWhite}`}
-                    >
-                      Endorsements on different Platforms
-                    </p>
-                    <h2
-                      className={`fontawards font-bold mb-3 mb-lg-0 ${styles.textPink}`}
-                    >
-                      Awards & <br />
-                      Recognition
-                    </h2>
-                  </div>
-                  {isSliderActive ? (
-                    <div className={`${styles.appdev} col-7`}>
-                      <div className="row">
-                        <div className={`${styles.mobileapps} col-3`}>
-                          <div>
-                            <Image
-                              quality={95}
-                              className={styles.newmob}
-                              src="/images/industry/1n.png"
-                              alt="bitswits"
-                              width={166}
-                              height={129}
-                            />
-                            <p className="white center pt-4 font16">
-                              Top Mobile Application <br />
-                              Developers
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-3">
-                          <div>
-                            <Image
-                              quality={95}
-                              className={styles.newmob}
-                              src="/images/industry/2n.png"
-                              alt="bitswits"
-                              width={120}
-                              height={130}
-                            />
-                            <p className="white center pt-4 font16">
-                              Top Mobile Application <br />
-                              Developers 2022
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-3">
-                          <div>
-                            <Image
-                              quality={95}
-                              className={styles.newmob}
-                              src="/images/industry/3n.png"
-                              alt="bitswits"
-                              width={148}
-                              height={130}
-                            />
-                            <p className="white center pt-4 font16">
-                              Top Application <br />
-                              Development Company
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-3">
-                          <div>
-                            <Image
-                              quality={95}
-                              className={styles.newmob}
-                              src="/images/industry/4n.png"
-                              alt="bitswits"
-                              width={130}
-                              height={129}
-                            />
-                            <p className="white center pt-4 font16">
-                              Top Mobile Application <br />
-                              Development Company
-                            </p>
-                          </div>
-                        </div>
+      {/* AwardsFold Start */}
+      <section>
+        <div className={`${styles.awardsFold}`}>
+          <div className="container-fluid px-0">
+            <div className="row align-items-center">
+              <div className="col-xl-5 col-lg-12 col-sm-12">
+                <p
+                  className={`font-bold fontawards25 mb-0 ${styles.textWhite}`}
+                >
+                  Endorsements on different Platforms
+                </p>
+                <h2
+                  className={`fontawards font-bold mb-3 mb-lg-0 ${styles.textPink}`}
+                >
+                  Awards & <br />
+                  Recognition
+                </h2>
+              </div>
+              {isSliderActive ? (
+                <div className={`${styles.appdev} col-7`}>
+                  <div className="row">
+                    <div className={`${styles.mobileapps} col-3`}>
+                      <div>
+                        <Image
+                          quality={95}
+                          className={styles.newmob}
+                          src="/images/industry/1n.png"
+                          alt="bitswits"
+                          width={166}
+                          height={129}
+                        />
+                        <p className="white center pt-4 font16">
+                          Top Mobile Application <br />
+                          Developers
+                        </p>
                       </div>
                     </div>
-                  ) : (
-                    <Slider
-                      {...awardslogo}
-                      className={` ${styles.startup1}  startposition mt-4`}
-                    >
-                      <div className={`${styles.mobileapps} col-3`}>
-                        <div>
-                          <Image
-                            className={styles.newmob}
-                            src="/images/industry/1n.png"
-                            alt="awards"
-                            width={166}
-                            height={129}
-                          />
-                          <p className="white center pt-4 font16">
-                            Top Mobile Application <br />
-                            Developers
-                          </p>
-                        </div>
+                    <div className="col-3">
+                      <div>
+                        <Image
+                          quality={95}
+                          className={styles.newmob}
+                          src="/images/industry/2n.png"
+                          alt="bitswits"
+                          width={120}
+                          height={130}
+                        />
+                        <p className="white center pt-4 font16">
+                          Top Mobile Application <br />
+                          Developers 2022
+                        </p>
                       </div>
-                      <div className="col-3">
-                        <div>
-                          <Image
-                            className={styles.newmob}
-                            src="/images/industry/2n.png"
-                            alt="awards"
-                            width={120}
-                            height={130}
-                          />
-                          <p className="white center pt-4 font16">
-                            Top Mobile Application <br />
-                            Developers 2022
-                          </p>
-                        </div>
+                    </div>
+                    <div className="col-3">
+                      <div>
+                        <Image
+                          quality={95}
+                          className={styles.newmob}
+                          src="/images/industry/3n.png"
+                          alt="bitswits"
+                          width={148}
+                          height={130}
+                        />
+                        <p className="white center pt-4 font16">
+                          Top Application <br />
+                          Development Company
+                        </p>
                       </div>
-                      <div className="col-3">
-                        <div>
-                          <Image
-                            className={styles.newmob}
-                            src="/images/industry/3n.png"
-                            alt="awards"
-                            width={148}
-                            height={130}
-                          />
-                          <p className="white center pt-4 font16">
-                            Top Application <br />
-                            Development Company
-                          </p>
-                        </div>
+                    </div>
+                    <div className="col-3">
+                      <div>
+                        <Image
+                          quality={95}
+                          className={styles.newmob}
+                          src="/images/industry/4n.png"
+                          alt="bitswits"
+                          width={130}
+                          height={129}
+                        />
+                        <p className="white center pt-4 font16">
+                          Top Mobile Application <br />
+                          Development Company
+                        </p>
                       </div>
-                      <div className="col-3">
-                        <div>
-                          <Image
-                            className={styles.newmob}
-                            src="/images/industry/4n.png"
-                            alt="awards"
-                            width={130}
-                            height={129}
-                          />
-                          <p className="white center pt-4 font16">
-                            Top Mobile Application <br />
-                            Development Company
-                          </p>
-                        </div>
-                      </div>
-                    </Slider>
-                  )}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <Slider
+                  {...awardslogo}
+                  className={` ${styles.startup1}  startposition mt-4`}
+                >
+                  <div className={`${styles.mobileapps} col-3`}>
+                    <div>
+                      <Image
+                        className={styles.newmob}
+                        src="/images/industry/1n.png"
+                        alt="awards"
+                        width={166}
+                        height={129}
+                      />
+                      <p className="white center pt-4 font16">
+                        Top Mobile Application <br />
+                        Developers
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div>
+                      <Image
+                        className={styles.newmob}
+                        src="/images/industry/2n.png"
+                        alt="awards"
+                        width={120}
+                        height={130}
+                      />
+                      <p className="white center pt-4 font16">
+                        Top Mobile Application <br />
+                        Developers 2022
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div>
+                      <Image
+                        className={styles.newmob}
+                        src="/images/industry/3n.png"
+                        alt="awards"
+                        width={148}
+                        height={130}
+                      />
+                      <p className="white center pt-4 font16">
+                        Top Application <br />
+                        Development Company
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div>
+                      <Image
+                        className={styles.newmob}
+                        src="/images/industry/4n.png"
+                        alt="awards"
+                        width={130}
+                        height={129}
+                      />
+                      <p className="white center pt-4 font16">
+                        Top Mobile Application <br />
+                        Development Company
+                      </p>
+                    </div>
+                  </div>
+                </Slider>
+              )}
             </div>
-          </section>
-          {/* AwardsFold End */}
-          <NewHomeWho />
-          <NewHomeWhat />
-          <Industry industry="industryclass" />
-          <WeworkLphome wework="weworkLpnewhomefy" />
-          <StartupsLp6 startups="startupshome" />
-          <Technologieswe />
-          <Nothing Nothing="nothingLphomefy" />
-          {isSliderActive ? (
-            <NewMaintain
-              title1={<> Delivering Excellence Daily </>}
-              title2={<> Trusted Development Company For Tech Solutions </>}
-              text={
-                <>
-                  We, at BitsWits, are dedicated to being innovative and making our
-                  clients happy.
-                  <br />
-                  We specialize in customizing services for digital business
-                  evolution and bring the following services to the table…
-                </>
-              }
-            />
-          ) : (
-            <ServicesMaintainmobile severcedata={severcedata} />
-          )}
-          <Globallplp6 />
-          <LpChoose transform="transform" />
-          <Formnewlp />
-          <Faqs />
-          <HomeLocation />
-        </>
-      }
+          </div>
+        </div>
+      </section>
+      {/* AwardsFold End */}
+      <NewHomeWho />
+      <NewHomeWhat />
+      <Industry industry="industryclass" />
+      <WeworkLphome wework="weworkLpnewhomefy" />
+      <StartupsLp6 startups="startupshome" />
+      <Technologieswe />
+      <Nothing Nothing="nothingLphomefy" />
+      {isSliderActive ? (
+        <NewMaintain
+          title1={<> Delivering Excellence Daily </>}
+          title2={<> Trusted Development Company For Tech Solutions </>}
+          text={
+            <>
+              We, at BitsWits, are dedicated to being innovative and making our
+              clients happy.
+              <br />
+              We specialize in customizing services for digital business
+              evolution and bring the following services to the table…
+            </>
+          }
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+      <Globallplp6 />
+      <LpChoose transform="transform" />
+      <Formnewlp />
+      <Faqs />
+      <HomeLocation />
+
       <Script id="websiteSchema" type="application/ld+json">
         {`
                     {

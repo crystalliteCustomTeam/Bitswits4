@@ -21,23 +21,19 @@ export default function Home() {
   return (
     <>
       <NewBannerabout />
-      {showFolds &&
-        <>
-          <AboutIntro />
-          <Nothing Nothing="nothingLphomefy" />
-          <AboutExpertapp expertapp="expertapp" />
-          <ProjectProcess
-            processclass="processLp6"
-            title="Explore Our iOS App Development Journey"
-            desc="We believe in efficiency without compromising quality. Our
+      <AboutIntro />
+      <Nothing Nothing="nothingLphomefy" />
+      <AboutExpertapp expertapp="expertapp" />
+      <ProjectProcess
+        processclass="processLp6"
+        title="Explore Our iOS App Development Journey"
+        desc="We believe in efficiency without compromising quality. Our
                 streamlined process for app development is <br /> designed to be
                 transparent and collaborative, ensuring your vision comes to life
                 exactly as you imagined."
-          />
-          <Homenextproject title="Brace yourself for an App-venture!" />
-          <HomeLocation />
-        </>
-      }
+      />
+      <Homenextproject title="Brace yourself for an App-venture!" />
+      <HomeLocation />
     </>
   );
 }
