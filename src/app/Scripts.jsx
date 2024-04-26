@@ -39,6 +39,23 @@ const Scripts = () => {
                 })(window,document,'script','dataLayer','GTM-TFH5JWNF');
             `;
             document.head.appendChild(googleTagManager);
+            //======== GATG ========//
+            const gtmScript = document.createElement("script");
+            gtmScript.id = "google-tag-manager";
+            gtmScript.src = "https://www.googletagmanager.com/gtag/js?id=AW-11114809734";
+            gtmScript.async = true;
+            gtmScript.defer = true;
+            document.head.appendChild(gtmScript);
+            //======== Google Tag Manager ========//
+            const gtmConfigScript = document.createElement("script");
+            gtmConfigScript.id = "google-tag-manager-one";
+            gtmConfigScript.text = `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-11114809734');
+            `;
+            document.head.appendChild(gtmConfigScript);
             //======== Google Analytics Code ========//
             const analyticScript = document.createElement("script");
             analyticScript.strategy = "lazyOnload"
