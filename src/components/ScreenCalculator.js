@@ -806,7 +806,7 @@ const ScreenCalculator = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.imgCol}>
-                                <div className={`${styles.imgBg} w-50 mx-auto`}>
+                                <div className={`${styles.imgBg} mx-auto`}>
                                     {renderImage()}
                                 </div>
                                 <div className={styles.para}>

@@ -430,6 +430,12 @@
 
 /* =============================== */
 
+.checkBoxs4 {
+  height: auto;
+  overflow-y: auto;
+  margin-top: 15px;
+}
+
 .checkBoxs4 .forCheckBox {
   display: none;
 }
@@ -502,12 +508,12 @@
 }
 
 .imgBg {
+  width: 50%;
   padding: 5px;
   background-color: #000;
   border-radius: 25px;
   box-shadow: rgba(211, 211, 211, 0.12) 0px 2px 4px 0px,
     rgba(211, 211, 211, 0.32) 0px 2px 16px 0px;
-  width: 281px;
   height: 438px;
   overflow: hidden;
 }
@@ -545,4 +551,25 @@
   text-align: center;
   font-weight: 300;
   margin-bottom: 0;
+}
+
+/* =============================== */
+
+@media screen and (max-width: 1440px) {
+  .bar::before {
+    left: 68%;
+    padding: 0 45px;
+  }
+
+  .imgBg {
+    width: 55%;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .imgBg {
+    width: 55%;
+    height: 370px;
+  }
 }
