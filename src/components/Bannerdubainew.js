@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link';  
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
@@ -132,13 +131,6 @@ const Bannerdubai = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
-                                {/* <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
-                                    <h4 className='white fontsfregular'>Home</h4>
-                                    <Image src={BannerImage} className='img-fluid' />
-                                    <h4 className='white fontsfregular'>Location</h4>
-                                    <Image src={BannerImage} className='img-fluid' />
-                                    <h4 className='newfycolr fontsfregular'>{pageSlug}</h4>
-                                </div> */}
                                 <h2 className='white fw700 mb-4'>
                                     {title}
                                 </h2>

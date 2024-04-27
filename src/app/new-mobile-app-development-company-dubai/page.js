@@ -74,7 +74,7 @@ export default function dubaidevelopmentcompany() {
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
+    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
 
   }
   // DubaiDevelopers Content
@@ -454,7 +454,7 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <DubiaDevelopers content={Development} />
+      {/* <DubiaDevelopers content={Development} /> */}
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
       <DubaiClients content={ClientContent} />

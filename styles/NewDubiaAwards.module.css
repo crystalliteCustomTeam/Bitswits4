@@ -12,9 +12,25 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 26px;
-  /* text-align: justify; */
   margin-bottom: 30px;
-  padding-right: 50px;
+  padding-right: 16px;
+  /* padding-right: 50px; */
+}
+
+.trustPilot {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.trustPilot span {
+  color: #7F7F7F;
+}
+
+.trustPilot .clientsPara {
+  font-size: 17px;
+  color: #7F7F7F;
+  margin-bottom: 0;
 }
 
 .btn a {
@@ -87,6 +103,7 @@
   line-height: 18px;
   text-align: center;
   opacity: 0.6;
+  padding-right: 0;
 }
 
 .imageDiv {
@@ -116,13 +133,17 @@
   }
 
   .awardSec p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 20px;
-    padding-right: 120px;
+    padding-right: 0px;
   }
 
   .sliderTxt p {
     font-size: 13px;
+  }
+
+  .trustPilot .clientsPara {
+    font-size: 10px;
   }
 }
 
@@ -158,6 +179,9 @@
     font-size: 16px;
     line-height: 20px;
     padding-right: 0;
+  }
+
+  .txt p {
     text-align: justify;
   }
 
@@ -177,6 +201,10 @@
 
   .awardsliderSec {
     padding-bottom: 55px;
+  }
+
+  .trustPilot p {
+    padding-right: 13px;
   }
 }
 
