@@ -8,6 +8,7 @@ import ClientOne from "/public/newDubaiPagev1/client1.png"
 import ClientTwo from "/public/newDubaiPagev1/client2.png"
 import ClientThree from "/public/newDubaiPagev1/client3.png"
 import Star from "/public/newDubaiPagev1/star.png"
+import ClientIcon from "/public/newdubai/client-icon.png"
 
 const DubaiClients = ({ content }) => {
     const { title, desc } = content
@@ -115,13 +116,20 @@ const DubaiClients = ({ content }) => {
                                                 <h6>Ryan Jaden</h6>
                                                 <span>ITRans.ai</span>
                                             </div>
-                                            <div className='d-flex align-items-center'>
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
                                             </div>
+
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
@@ -137,12 +145,18 @@ const DubaiClients = ({ content }) => {
                                                 <h6>Joseph</h6>
                                                 <span>CTO / Pronftdesign.com</span>
                                             </div>
-                                            <div className='d-flex align-items-center'>
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.cardBottom}>
@@ -159,12 +173,18 @@ const DubaiClients = ({ content }) => {
                                                 <h6>Daniel Gonzalez</h6>
                                                 <span>CTO/ Pronftdesign.com</span>
                                             </div>
-                                            <div className='d-flex align-items-center'>
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.cardBottom}>

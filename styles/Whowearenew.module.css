@@ -1,4 +1,4 @@
-.counter {
+.counterSec {
   padding: 40px 0 0;
   height: 100%;
 }
@@ -6,6 +6,10 @@
 /* .mainCard {
   position: relative;
 } */
+
+.txt img {
+  filter: brightness(100);
+}
 
 .travel {
   background-color: #468FEB;
@@ -88,6 +92,7 @@
   font-weight: bold;
   line-height: 48px;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .travel2 h3 {
@@ -96,6 +101,7 @@
   font-weight: bold;
   line-height: 48px;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .travel3 h3 {
@@ -104,6 +110,7 @@
   font-weight: bold;
   line-height: 48px;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .android h3 {
@@ -152,6 +159,43 @@
 .ImageDiv img:hover {
   transform: translateY(20px);
   transition: all ease-in-out 0.4s;
+}
+
+.counter {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 21px;
+}
+
+.counter h4 {
+  position: relative;
+}
+
+.counter h4 p {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.counter h4 span {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 3px;
+  right: 38px;
+}
+
+.counter span {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: white;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -227,8 +271,28 @@
   }
 
   .ImageDiv img {
-    min-height: auto;
+    min-height: 344px;
     max-height: auto;
+  }
+
+  .counter h4 {
+    margin-bottom: 0;
+  }
+
+  .counter h4 p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .counter h4 span {
+    font-size: 20px;
+    bottom: 0px;
+    right: 50px;
+  }
+
+  .counter span {
+    font-size: 13px;
+    line-height: 16px;
   }
 }
 
@@ -237,14 +301,32 @@
     display: none;
   }
 
+  .ImageDiv img {
+    width: 100%;
+  }
+
   .android h2 {
     line-height: 33px;
     padding-top: 0px;
   }
+
+  .counter span {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .counter {
+    padding-right: 0;
+  }
+
+  .counter h4 span {
+    right: 36px;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .counter {
+  .counterSec {
     padding: 0px 0;
   }
 

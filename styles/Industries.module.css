@@ -1,0 +1,199 @@
+.industriesSec {
+    padding: 80px 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.txt {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    z-index: 99999;
+}
+
+.txt h2 {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 90px;
+    color: white;
+    font-family: "SF-Pro-Display-Regular", sans-serif;
+}
+
+.sliderBackground {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sliderBackground::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #00000051;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.sliderBackground img {
+    width: 100%;
+    height: 100vh;
+    transition: opacity 0.5s ease;
+}
+
+.industriesSlider {
+    height: 100vh;
+    position: relative;
+    margin-top: -81px;
+    padding-top: 34%;
+}
+
+.sliderDiv {
+    position: relative;
+    /* background-color: black; */
+}
+
+/* .sliderDiv::after {
+    content: '';
+    position: absolute;
+    top: -34px;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    height: 100vh;
+} */
+
+.card {
+    transform: translateY(160px);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    transition: all 0.4s ease-in-out;
+}
+
+.card h3 {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 500;
+    color: white;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 26px;
+    color: white;
+    padding: 16px 110px 16px 0;
+    margin-bottom: 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.btn img {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 25px;
+    height: 23px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 1920px) {
+    .card {
+        transform: translateY(136px);
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .card {
+        transform: translateY(155px);
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .card {
+        transform: translateY(140px);
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+    }
+
+    .card p {
+        font-size: 17px;
+        line-height: 26px;
+        color: white;
+        padding: 16px 0px 16px 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        transform: translateY(100px);
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+    }
+
+    .card h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 18px;
+        color: white;
+        padding: 16px 0px 16px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .industriesSec {
+        height: 100%;
+    }
+
+    .sliderBackground img {
+        height: 100%;
+    }
+
+    .industriesSlider {
+        height: 100%;
+    }
+
+    .txt {
+        top: 43px;
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .txt h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .txt {
+        left: 50px;
+    }
+
+    .card {
+        transform: translateY(155px);
+    }
+}

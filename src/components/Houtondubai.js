@@ -71,7 +71,7 @@ const Processpro = ({ content }) => {
             <section className={styles.houston}>
                 <Container>
                     <Row className={styles.tone}>
-                        {/* <Col lg={5} className='p-0 text-center'>
+                        <Col lg={5} className='p-0 text-center'>
                             {isMobile ? (
                                 <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
                                     <option value={visibleSection}>{visibleSection}</option>
@@ -90,8 +90,8 @@ const Processpro = ({ content }) => {
                                     </ul>
                                 </nav>
                             )}
-                        </Col> */}
-                        <Col lg={12}>
+                        </Col>
+                        <Col lg={7}>
                             <div className={`${styles.posto} newscoolr`}>
                                 {sections.map((section, index) => (
                                     <Section {...{ section, refCallback }} key={index} />
