@@ -17,6 +17,7 @@ import SliderArrow from "media/newdubai/slider-btn-arrow.png"
 
 const Industries = () => {
     const [activeSlide, setActiveSlide] = useState(0);
+    const [isSliderHovered, setIsSliderHovered] = useState(false);
     const sliderContent = [
         {
             title: "Ecommerce",
@@ -46,6 +47,15 @@ const Industries = () => {
     ]
 
     const sliderImages = [SliderOne, SliderTwo, SliderThree, SliderFour, SliderSeven, SliderFive, SliderSix];
+
+    const handleMouseEnter = (index) => {
+        setActiveSlide(index);
+        setIsHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
 
     var industriesSlider = {
         arrows: true,
@@ -81,20 +91,20 @@ const Industries = () => {
                         <div className={styles.txt}>
                             <h2>Industries We Serve</h2>
                         </div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{ delay: 1 }}
-                            className={styles.sliderBackground}>
+                        <div
+                            className={styles.sliderBackground} 
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}>
                             {sliderImages[activeSlide] && (
                                 <Image src={sliderImages[activeSlide]} width={1532} height={842} alt='Bitswits' />
                             )}
-                        </motion.div>
+                        </div>
                         <Slider {...industriesSlider} className={`${styles.industriesSlider} industriesSlider`}>
                             {sliderContent.map((content, index) => (
                                 <div key={index}>
-                                    <div className={`px-3 ${styles.sliderDiv} sliderDiv`}>
+                                    <div className={`px-3 ${styles.sliderDiv} sliderDiv`}
+                                        onMouseEnter={() => handleMouseEnter(index)}
+                                        onMouseLeave={handleMouseLeave}>
                                         <div className={`card ${styles.card}`}>
                                             <h3>{content.title}</h3>
                                             <p>{content.desc}</p>

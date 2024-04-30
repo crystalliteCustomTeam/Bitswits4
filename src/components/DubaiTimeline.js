@@ -55,7 +55,9 @@ const DubaiTimeline = ({ content }) => {
                                                 {desc}
                                             </p>
                                         </div>
-                                        <div className={styles.marker}></div>
+                                        <div className={styles.marker}>
+                                            <span className={styles.dotted}></span>
+                                        </div>
                                         <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
                                             <Image src={TimelineOne} width={165} height={87} alt='Bitswits' />
                                             <h3 className=''>Idea Conceptualization and Research</h3>

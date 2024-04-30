@@ -1268,6 +1268,17 @@ a {
   position: relative;
 }
 
+.industriesSlider .sliderDiv:hover+.sliderBackground {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.industriesSlider .sliderBackground {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+
 .industriesSlider .slick-slide.slick-active.slick-current .sliderDiv::after {
   content: '';
   position: absolute;
@@ -4249,6 +4260,24 @@ button {
 
 .dubaiClientSlider .slick-prev:before {
   content: url(/newDubaiPagev1/sliderArrowLeft.png);
+}
+
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card {
+  background: #000;
+}
+
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card h6,
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card p,
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card p {
+  color: white;
+}
+
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card .icon {
+  filter: invert(1);
+}
+
+.dubaiClientSlider .slick-slide.slick-active.slick-center.slick-current .card span {
+  color: white;
 }
 
 /* new slider dots */

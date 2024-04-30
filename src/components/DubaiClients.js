@@ -18,7 +18,8 @@ const DubaiClients = ({ content }) => {
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: false,
+        centerMode: true,
+        centerPadding: '2px',
         variableWidth: false,
         adaptiveHeight: true,
         responsive: [
@@ -110,7 +111,7 @@ const DubaiClients = ({ content }) => {
                         <Col sm={12}>
                             <Slider {...dubaiClients} className='dubaiClientSlider pt-5 mt-3'>
                                 <div>
-                                    <div className={styles.card}>
+                                    <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
                                             <div className='name'>
                                                 <h6>Ryan Jaden</h6>
@@ -118,7 +119,7 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>
@@ -139,7 +140,7 @@ const DubaiClients = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className={styles.card}>
+                                    <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
                                             <div className='name'>
                                                 <h6>Joseph</h6>
@@ -147,7 +148,7 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>
@@ -167,7 +168,7 @@ const DubaiClients = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className={styles.card}>
+                                    <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
                                             <div className='name'>
                                                 <h6>Daniel Gonzalez</h6>
@@ -175,7 +176,92 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className={styles.cardBottom}>
+                                            <p className='fontsfregular'>
+                                                Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className={`card ${styles.card}`}>
+                                        <div className={`${styles.cardTop}`}>
+                                            <div className='name'>
+                                                <h6>Ryan Jaden</h6>
+                                                <span>ITRans.ai</span>
+                                            </div>
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div className={styles.cardBottom}>
+                                            <p className='fontsfregular'>
+                                                Bitswits delivered an efficient solution that significantly improved processing speed, productivity, and accuracy. Their proactive engagement, soliciting of feedback, and implementing improvements ensured a successful partnership. The team's versatility and adaptability were commendable.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className={`card ${styles.card}`}>
+                                        <div className={`${styles.cardTop}`}>
+                                            <div className='name'>
+                                                <h6>Joseph</h6>
+                                                <span>CTO / Pronftdesign.com</span>
+                                            </div>
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
+                                                    <p className='mb-0'>4.9. / 5.0</p>
+                                                </div>
+                                                <div className='d-flex align-items-center'>
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className={styles.cardBottom}>
+                                            <p className='fontsfregular'>
+                                                Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className={`card ${styles.card}`}>
+                                        <div className={`${styles.cardTop}`}>
+                                            <div className='name'>
+                                                <h6>Daniel Gonzalez</h6>
+                                                <span>CTO/ Pronftdesign.com</span>
+                                            </div>
+                                            <div>
+                                                <div className='d-flex align-items-center mb-1'>
+                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>

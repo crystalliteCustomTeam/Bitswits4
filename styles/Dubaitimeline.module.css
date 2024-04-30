@@ -1,3 +1,9 @@
+.dotted {
+    --pulseSize: 19px;
+    --blue: #F32F53;
+    --transparentBlue: #f32f5321;
+}
+
 /* time line start */
 
 .timeline h1 {
@@ -136,6 +142,35 @@
     top: 130px;
     margin: 0 auto;
     z-index: 9999
+}
+
+.dotted {
+    width: var(--pulseSize);
+    height: var(--pulseSize);
+    border-radius: 50%;
+    background: var(--blue);
+    box-shadow: 0 0 0 var(--blue);
+    animation: pulsing 2s infinite;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 77px;
+    top: 15px;
+}
+
+@keyframes pulsing {
+    from {
+        box-shadow: 0 0 0 0 var(--blue);
+    }
+
+    70% {
+        box-shadow: 0 0 0 var(--pulseSize) var(--transparentBlue);
+    }
+
+    to {
+        box-shadow: 0 0 0 0 var(--transparentBlue);
+    }
 }
 
 .numberOne {

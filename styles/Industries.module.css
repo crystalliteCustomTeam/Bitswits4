@@ -32,6 +32,10 @@
     z-index: -1;
 }
 
+.activeImage {
+    border: 2px solid red;
+}
+
 .sliderBackground::after {
     content: '';
     position: absolute;
@@ -61,6 +65,7 @@
     height: 100vh;
     transition: all 0.4s ease-in-out;
 }
+
 
 .sliderDiv::after {
     content: '';
@@ -134,7 +139,7 @@
 
 @media only screen and (max-width: 1920px) {
     .card {
-        transform: translateY(1048px);
+        transform: translateY(1016px);
     }
 
     .sliderDiv:hover .card {
