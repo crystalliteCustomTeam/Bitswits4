@@ -18,18 +18,31 @@
 }
 
 .brands {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
     margin-top: 50px;
 }
+.brands {
+    animation: brands 50s linear infinite;
+}
+.brands > div {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+@keyframes brands {
+    from {
+        transform: translateX(0);
+    }
 
-.brands img {
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}
+
+/* .brands img {
     max-width: 150px;
     min-width: 150px;
     object-fit: contain;
-}
+} */
 
 /* Media Query Start */
 @media only screen and (max-width: 991px) {

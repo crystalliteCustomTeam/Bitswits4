@@ -75,9 +75,14 @@ const StoryLine = ({ content }) => {
                                         {activeIndex === index && (
                                             <>
                                                 <p className="fontsfregular">{item.answer}</p>
-                                                <div className={styles.btn}>
+                                                <div className={` ${styles.btn}`}>
                                                     <Link href="javascript:;">
-                                                        {item.btn}
+                                                        <span>
+                                                            {item.btn}
+                                                        </span>
+                                                        <span>
+                                                            {item.btn}
+                                                        </span>
                                                     </Link>
                                                 </div>
                                             </>
@@ -90,7 +95,7 @@ const StoryLine = ({ content }) => {
                             {activeIndex !== null && (
                                 <figure className="relative">
                                     <Image priority className={`img-fluid mt-sm-0 mt-5 ${styles.storyLineImages}`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
-                                </figure> 
+                                </figure>
                             )}
                         </div>
                     </div>

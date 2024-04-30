@@ -7,15 +7,16 @@
 
 .txt {
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 130px;
     z-index: 99999;
 }
 
 .txt h2 {
-    font-size: 75px;
+    font-size: 100px;
+    letter-spacing: 4px;
     font-weight: 600;
-    line-height: 90px;
+    line-height: 95px;
     color: white;
     font-family: "SF-Pro-Display-Regular", sans-serif;
 }
@@ -44,7 +45,7 @@
 
 .sliderBackground img {
     width: 100%;
-    height: 100vh;
+    height: auto;
     transition: opacity 0.5s ease;
 }
 
@@ -52,32 +53,50 @@
     height: 100vh;
     position: relative;
     margin-top: -81px;
-    padding-top: 34%;
+    padding-top: 0%;
 }
 
 .sliderDiv {
     position: relative;
-    /* background-color: black; */
+    height: 100vh;
+    transition: all 0.4s ease-in-out;
 }
 
-/* .sliderDiv::after {
+.sliderDiv::after {
     content: '';
     position: absolute;
-    top: -34px;
+    top: 0;
+    left: 0;
+    width: 1px;
+    bottom: 0;
+    background: linear-gradient(180deg, #FFFFFF, #C8C8C8);
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.sliderDiv:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     bottom: 0;
-    background-color: black;
+    background: #000;
     height: 100vh;
-} */
+    opacity: 0.7;
+    transition: all 0.4s ease-in-out;
+}
 
 .card {
     transform: translateY(160px);
     transition: all 0.4s ease-in-out;
     position: relative;
+    background: transparent;
+    border: 0;
 }
 
-.card:hover {
-    transform: translateY(-2px);
+.sliderDiv:hover .card {
+    transform: translateY(480px);
     transition: all 0.4s ease-in-out;
 }
 
@@ -115,23 +134,41 @@
 
 @media only screen and (max-width: 1920px) {
     .card {
-        transform: translateY(136px);
+        transform: translateY(980px);
+    }
+
+    .sliderDiv:hover .card {
+        transform: translateY(700px);
+    }
+}
+
+@media only screen and (max-width: 1799px) {
+    .card {
+        transform: translateY(850px);
+    }
+
+    .sliderDiv:hover .card {
+        transform: translateY(650px);
     }
 }
 
 @media only screen and (max-width: 1599px) {
     .card {
-        transform: translateY(155px);
+        transform: translateY(695px);
+    }
+
+    .sliderDiv:hover .card {
+        transform: translateY(520px)
     }
 }
 
 @media only screen and (max-width: 1399px) {
     .card {
-        transform: translateY(140px);
+        transform: translateY(630px);
     }
 
-    .card:hover {
-        transform: translateY(-2px);
+    .sliderDiv:hover .card {
+        transform: translateY(490px);
     }
 
     .card p {
@@ -142,12 +179,27 @@
     }
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .card {
+        transform: translateY(547px);
+    }
+
+    .sliderDiv:hover .card {
+        transform: translateY(390px);
+    }
+
+    .sliderBackground img {
+        height: 100%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .card {
         transform: translateY(100px);
     }
 
-    .card:hover {
+    .sliderDiv:hover .card {
         transform: translateY(-2px);
     }
 
@@ -166,7 +218,12 @@
 
 @media only screen and (max-width: 991px) {
     .industriesSec {
-        height: 100%;
+        height: 55vh;
+    }
+
+    .txt h2 {
+        font-size: 75px;
+        line-height: 85px;
     }
 
     .sliderBackground img {
@@ -179,18 +236,26 @@
 
     .txt {
         top: 43px;
-        left: 80px;
+        left: 50px;
+    }
+
+    .card {
+        transform: translateY(520px);
+    }
+
+    .sliderDiv:hover .card {
+        transform: translateY(350px);
     }
 }
 
 @media only screen and (max-width: 567px) {
     .txt h2 {
-        font-size: 45px;
-        line-height: 50px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
     .txt {
-        left: 50px;
+        left: 30px;
     }
 
     .card {

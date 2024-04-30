@@ -36,7 +36,12 @@ const DubaiDelivered = ({ content }) => {
                             </p>
                             <div className={styles.btn}>
                                 <a href='javascript:;'>
-                                    {btntext}
+                                    <span>
+                                        {btntext}
+                                    </span>
+                                    <span>
+                                        {btntext}
+                                    </span>
                                 </a>
                             </div>
                         </Col>

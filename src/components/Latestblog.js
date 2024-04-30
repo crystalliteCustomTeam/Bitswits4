@@ -25,7 +25,10 @@ const Latestblog = (props) => {
                             </Col>
                         ))}
                         <Col lg={12}>
-                            <Link href="/blog" className={`${styles.blogBtn} mt-3 mt-lg-0`}>View All</Link>
+                            <Link href="/blog" className={`${styles.blogBtn} mt-3 mt-lg-0`}>
+                                <span>View All</span>
+                                <span>View All</span>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

@@ -63,6 +63,10 @@
     color: white;
 }
 
+.card:hover .icon {
+    filter: invert(1);
+}
+
 .card:hover .cardTop span {
     color: white;
 }

@@ -118,7 +118,7 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>
@@ -147,7 +147,7 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>
@@ -175,7 +175,7 @@ const DubaiClients = ({ content }) => {
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' width={19} height={22} />
+                                                    <Image src={ClientIcon} alt='Bitswits' className={styles.icon} width={19} height={22} />
                                                     <p className='mb-0'>4.9. / 5.0</p>
                                                 </div>
                                                 <div className='d-flex align-items-center'>

@@ -16,12 +16,11 @@ const NewDubaiAwards = ({ content }) => {
     var awardSlider = {
         arrows: true,
         dots: false,
-        speed: 1000,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
-        centerMode: false,
-        variableWidth: false,
-        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1000,
         responsive: [
             {
                 breakpoint: 991,
@@ -73,7 +72,7 @@ const NewDubaiAwards = ({ content }) => {
                             </div>
                         </Col>
                         <Col md={8}>
-                            <div className='d-xl-block d-none'>
+                            {/* <div className='d-xl-block d-none'>
                                 <Row className="align-items-center">
                                     <Col lg={3} className='p-3'>
                                         <div className={styles.sliderCards}>
@@ -121,10 +120,10 @@ const NewDubaiAwards = ({ content }) => {
                                         </div>
                                     </Col>
                                 </Row>
-                            </div>
-                            <div className='d-xl-none d-block mt-4 mt-md-0'>
+                            </div> */}
+                            <div className='mt-4 mt-md-0'>
                                 <Slider {...awardSlider}>
-                                    <div className='px-2'>
+                                    <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
                                                 <Image src={Slider1} alt="Bitswits" className='mx-auto' />
@@ -135,7 +134,7 @@ const NewDubaiAwards = ({ content }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='px-2'>
+                                    <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
                                                 <Image src={Slider2} alt="Bitswits" className='mx-auto' />
@@ -146,7 +145,7 @@ const NewDubaiAwards = ({ content }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='px-2'>
+                                    <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
                                                 <Image src={Slider3} alt="Bitswits" className='mx-auto' />
@@ -157,7 +156,7 @@ const NewDubaiAwards = ({ content }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='px-2'>
+                                    <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
                                                 <Image src={Slider4} alt="Bitswits" className='mx-auto' />
