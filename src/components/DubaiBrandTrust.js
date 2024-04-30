@@ -54,7 +54,7 @@ const DubaiBrandTrust = () => {
     return (
         <>
             <section className={styles.brandTrustSec}>
-                <div className='container'>
+                <div className={`${styles.overFlow} container`}>
                     <Row>
                         <Col lg={12}>
                             <div className={styles.txt}>

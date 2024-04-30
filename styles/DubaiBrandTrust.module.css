@@ -2,6 +2,10 @@
     padding: 0px 0 80px;
 }
 
+.overFlow {
+    overflow-x: hidden;
+}
+
 .txt p {
     font-size: 25px;
     font-weight: 600;
@@ -20,14 +24,17 @@
 .brands {
     margin-top: 50px;
 }
+
 .brands {
     animation: brands 50s linear infinite;
 }
-.brands > div {
+
+.brands>div {
     display: flex;
     gap: 30px;
     flex-wrap: nowrap;
 }
+
 @keyframes brands {
     from {
         transform: translateX(0);

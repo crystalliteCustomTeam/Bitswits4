@@ -22,12 +22,12 @@ const NewDubaiAwards = ({ content }) => {
     const { title, desc } = content;
     var awardSlider = {
         arrows: true,
-        dots: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 9000,
+        speed: 14000,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 991,
@@ -199,7 +199,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider3} alt="Bitswits" width={138} height={100} className='mx-auto' />
+                                                <Image src={Slider11} alt="Bitswits" width={138} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Web Excelllence</h6>
@@ -328,7 +328,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider3} alt="Bitswits" width={138} height={100} className='mx-auto' />
+                                                <Image src={Slider11} alt="Bitswits" width={138} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Web Excelllence</h6>
