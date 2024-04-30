@@ -2697,7 +2697,7 @@ input::-webkit-inner-spin-button {
   }
 
   .industriesSlider .slick-slide.slick-active.slick-current .card {
-    transform: translateY(700px);
+    transform: translateY(880px);
   }
 }
 

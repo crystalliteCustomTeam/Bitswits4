@@ -7,7 +7,8 @@ import { register } from 'swiper/element/bundle';
 import 'swiper/css';
 // Images
 import BrandOne from "media/newdubai/single-brands.png"
-import BrandTwo from "media/newdubai/trust-2.png"
+import BrandTwo from "media/newdubai/single-brands.png"
+// import BrandTwo from "media/newdubai/trust-2.png"
 import BrandThree from "media/newdubai/trust-3.png"
 import BrandFour from "media/newdubai/trust-4.png"
 import BrandFive from "media/newdubai/trust-5.png"
@@ -73,9 +74,9 @@ const DubaiBrandTrust = () => {
                             <div className={styles.brands}>
                                 <div>
                                     <Image src={BrandOne} alt='Bitswits' className='w-100 h-auto' />
+                                    <Image src={BrandTwo} alt='Bitswits' className='w-100 h-auto' />
                                     <Image src={BrandOne} alt='Bitswits' className='w-100 h-auto' />
-                                    <Image src={BrandOne} alt='Bitswits' className='w-100 h-auto' />
-                                    <Image src={BrandOne} alt='Bitswits' className='w-100 h-auto' />
+                                    <Image src={BrandTwo} alt='Bitswits' className='w-100 h-auto' />
                                 </div>
                                 {/* <Slider {...brandSlider} className='mt-4'>
                                     <div className='px-4'>
@@ -96,7 +97,7 @@ const DubaiBrandTrust = () => {
                                     <div className='px-4'>
                                         <Image src={BrandSix} alt='Bitswits' width={150} height={90} />
                                     </div>
-                                </Slider> */} 
+                                </Slider> */}
                             </div>
                         </Col>
                     </Row >

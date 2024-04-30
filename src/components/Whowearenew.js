@@ -73,7 +73,7 @@ const Whowearenew = ({ content }) => {
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                     <h3>{subtitleOne}</h3>
                                     <Link href="/social-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' width={30} height={23} />
+                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
                                     </Link>
                                 </div>
                                 <p className='white fontsfregular'>
@@ -109,7 +109,7 @@ const Whowearenew = ({ content }) => {
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                     <h3>{subtitleOne}</h3>
                                     <Link href="/hiring-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' width={30} height={23} />
+                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
                                     </Link>
                                 </div>
                                 <p className='white fontsfregular'>
@@ -145,7 +145,7 @@ const Whowearenew = ({ content }) => {
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                     <h3>{subtitleOne}</h3>
                                     <Link href="/automobile-repair-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' width={30} height={23} />
+                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
                                     </Link>
                                 </div>
                                 <p className='white fontsfregular'>

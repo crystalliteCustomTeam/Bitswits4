@@ -8,6 +8,13 @@ import Slider1 from "/public/newDubaiPagev1/award1.png"
 import Slider2 from "/public/newDubaiPagev1/award2.png"
 import Slider3 from "/public/newDubaiPagev1/award3.png"
 import Slider4 from "/public/newDubaiPagev1/award4.png"
+import Slider5 from "/public/newDubaiPagev1/award5.png"
+import Slider6 from "/public/newDubaiPagev1/award6.png"
+import Slider7 from "/public/newDubaiPagev1/award7.png"
+import Slider8 from "/public/newDubaiPagev1/award8.png"
+import Slider9 from "/public/newDubaiPagev1/award9.png"
+import Slider10 from "/public/newDubaiPagev1/award10.png"
+import Slider11 from "/public/newDubaiPagev1/award11.png"
 import ClientTwo from "/public/newDubaiPagev1/client2.png"
 import Star from "/public/newDubaiPagev1/star.png"
 
@@ -19,8 +26,8 @@ const NewDubaiAwards = ({ content }) => {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 1000,
+        autoplaySpeed: 0,
+        speed: 9000,
         responsive: [
             {
                 breakpoint: 991,
@@ -72,55 +79,6 @@ const NewDubaiAwards = ({ content }) => {
                             </div>
                         </Col>
                         <Col md={8}>
-                            {/* <div className='d-xl-block d-none'>
-                                <Row className="align-items-center">
-                                    <Col lg={3} className='p-3'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Horizon Award</h6>
-                                                <p className='mb-0 fontsfregular '>Gold Award Winner <br className="d-lg-block d-none" /> 2020</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={3} className='p-0'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider2} alt="Bitswits" className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Dot Comm</h6>
-                                                <p className='mb-0 fontsfregular'>Excellence in Web Creativity &  Digital Communication</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={3} className='p-3'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider3} alt="Bitswits" className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>INC. 5000</h6>
-                                                <p className='mb-0 fontsfregular'>America's Fastest Growing Companies</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={3} className='p-0'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider4} alt="Bitswits" className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Rank Watch</h6>
-                                                <p className='mb-0 fontsfregular'>Top Web Development
-                                                    Agencies 2023</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div> */}
                             <div className='mt-4 mt-md-0'>
                                 <Slider {...awardSlider}>
                                     <div className='px-2 px-lg-1'>
@@ -159,12 +117,225 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider4} alt="Bitswits" className='mx-auto' />
+                                                <Image src={Slider4} alt="Bitswits" width={67} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Rank Watch</h6>
                                                 <p className='mb-0 fontsfregular'>Top Web Development
                                                     Agencies 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Horizon Award</h6>
+                                                <p className='mb-0 fontsfregular '>Silver Awards Winner
+                                                    <br className="d-lg-block d-none" /> 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Clutch</h6>
+                                                <p className='mb-0 fontsfregular'>Top 1000 <br className="d-lg-block d-none" />
+                                                    Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Right firms</h6>
+                                                <p className='mb-0 fontsfregular'>Top Mobile App Development Company 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Top Developers</h6>
+                                                <p className='mb-0 fontsfregular '>Top Entertainment App
+                                                    Developers  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Expertise</h6>
+                                                <p className='mb-0 fontsfregular'>Best Mobile App <br className="d-lg-block d-none" />
+                                                    Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Top Rated</h6>
+                                                <p className='mb-0 fontsfregular'>Top App Development Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider3} alt="Bitswits" width={138} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Web Excelllence</h6>
+                                                <p className='mb-0 fontsfregular'>
+                                                    Web Excellence <br className="d-lg-block d-none" />
+                                                    Awards
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Horizon Award</h6>
+                                                <p className='mb-0 fontsfregular '>Gold Award Winner <br className="d-lg-block d-none" /> 2020</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider2} alt="Bitswits" className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Dot Comm</h6>
+                                                <p className='mb-0 fontsfregular'>Excellence in Web Creativity &  Digital Communication</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider3} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>INC. 5000</h6>
+                                                <p className='mb-0 fontsfregular'>America's Fastest Growing Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider4} alt="Bitswits" width={67} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Rank Watch</h6>
+                                                <p className='mb-0 fontsfregular'>Top Web Development
+                                                    Agencies 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Horizon Award</h6>
+                                                <p className='mb-0 fontsfregular '>Silver Awards Winner
+                                                    <br className="d-lg-block d-none" /> 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Clutch</h6>
+                                                <p className='mb-0 fontsfregular'>Top 1000 <br className="d-lg-block d-none" />
+                                                    Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Right firms</h6>
+                                                <p className='mb-0 fontsfregular'>Top Mobile App Development Company 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Top Developers</h6>
+                                                <p className='mb-0 fontsfregular '>Top Entertainment App
+                                                    Developers  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Expertise</h6>
+                                                <p className='mb-0 fontsfregular'>Best Mobile App <br className="d-lg-block d-none" />
+                                                    Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Top Rated</h6>
+                                                <p className='mb-0 fontsfregular'>Top App Development Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='px-2 px-lg-1'>
+                                        <div className={styles.sliderCards}>
+                                            <div className={styles.imageDiv}>
+                                                <Image src={Slider3} alt="Bitswits" width={138} height={100} className='mx-auto' />
+                                            </div>
+                                            <div className={styles.sliderTxt}>
+                                                <h6>Web Excelllence</h6>
+                                                <p className='mb-0 fontsfregular'>
+                                                    Web Excellence <br className="d-lg-block d-none" />
+                                                    Awards
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
