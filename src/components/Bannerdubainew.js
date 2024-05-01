@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
@@ -54,6 +53,7 @@ const Bannerdubai = ({ content }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+        gtag('event', 'conversion', { 'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp' });
         var currentdate = new Date().toLocaleString() + ''
         const data = {
             name: e.target.first.value,
@@ -132,20 +132,16 @@ const Bannerdubai = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
-                                {/* <div className={`d-flex align-items-center gap-3 ${styles.newpound}`}>
-                                    <h4 className='white fontsfregular'>Home</h4>
-                                    <Image src={BannerImage} className='img-fluid' />
-                                    <h4 className='white fontsfregular'>Location</h4>
-                                    <Image src={BannerImage} className='img-fluid' />
-                                    <h4 className='newfycolr fontsfregular'>{pageSlug}</h4>
-                                </div> */}
                                 <h2 className='white fw700 mb-4'>
                                     {title}
                                 </h2>
                                 <p className='font16 white fw500 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Build Your Dream App!</Link>
+                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>
+                                    <span>Let’s Build Your Dream App!</span>
+                                    <span>Let’s Build Your Dream App!</span>
+                                </Link>
                             </div>
                         </Col>
                         <Col xl={5}>
@@ -157,7 +153,11 @@ const Bannerdubai = ({ content }) => {
                                 <textarea placeholder='Description' name='comment' className='form-control mt-3'></textarea>
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
-                                <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
+                                {/* <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input> */}
+                                <button className={styles.value} type='submit'>
+                                    <span>Submit</span>
+                                    <span>Submit</span>
+                                </button>
                             </form>
                         </Col>
                     </Row>

@@ -23,7 +23,14 @@ const Delivered = ({ content }) => {
                                     </p>
                                 </div>
                             ))}
-                            <Link href="javascript:$zopim.livechat.window.show();">Calculate Your App Cost Now!</Link>
+                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn}>
+                                <span>
+                                    Calculate Your App Cost Now!
+                                </span>
+                                <span>
+                                    Calculate Your App Cost Now!
+                                </span>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

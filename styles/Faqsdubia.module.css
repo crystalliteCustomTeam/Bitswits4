@@ -55,7 +55,7 @@
 }
 
 .mostimg {
-  border: 2px solid #F32F53 !important;
+  border: 2px solid #000 !important;
   border-top: unset !important;
   border-bottom-right-radius: 20px !important;
   border-bottom-left-radius: 20px !important;

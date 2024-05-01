@@ -39,6 +39,8 @@ import DubaiAndriod from "@/src/components/DubaiAndriod";
 import DubaiMobileApplication from "@/src/components/DubaiMobileApplication";
 import DubaiConquered from "@/src/components/DubaiConquered";
 import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 
 export default function dubaidevelopmentcompany() {
   const blogBox = [
@@ -74,7 +76,7 @@ export default function dubaidevelopmentcompany() {
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
+    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
 
   }
   // DubaiDevelopers Content
@@ -315,164 +317,169 @@ export default function dubaidevelopmentcompany() {
     </>
   }
   // Houston Dubai
+  // const menus = [
+  //   "App Development Costs According to Business Size In Dubai ",
+  //   // "Cost of App Development in Dubai for a Startup",
+  //   // "Cost of App Development in Dubai for Mid-Sized Businesses",
+  //   // "Cost of App Development in Dubai for Enterprises",
+  // ];
+
+  // const sections = [
+  //   {
+  //     title: <>App Development Costs According To Business Size In <span>Dubai</span></>,
+  //     content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> 
+  //     <h5 class="mb-2">Cost of App Development in Dubai for a Startup</h5>
+  //     <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p> 
+  //     <h5 class="mb-2">Cost of App Development in Dubai for Mid-Sized Businesses</h5> 
+  //     <p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> 
+  //     <h5 class="mb-2">Cost of App Development in Dubai for Enterprises</h5> 
+  //     <p class='fontsfregular'> In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>  `
+
+  //   },
+  // ];
+
   const menus = [
     "App Development Costs According to Business Size In Dubai ",
-    // "Cost of App Development in Dubai for a Startup",
-    // "Cost of App Development in Dubai for Mid-Sized Businesses",
-    // "Cost of App Development in Dubai for Enterprises",
+    "Cost of App Development in Dubai for a Startup",
+    "Cost of App Development in Dubai for Mid-Sized Businesses",
+    "Cost Of App Development In Houston For Enterprises",
+    "Cost Of App Development In Houston For Individuals",
+    "Mobile App Development Costs For B2B Clients",
+    "Mobile App Development Costs For B2C Customers",
+    "Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities",
+    "Unlocking Houston’s Digital Potential – Trango Tech’s Footprint"
   ];
 
   const sections = [
     {
-      title: <>App Development Costs According To Business Size In <span>Dubai</span></>,
-      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> 
-      <h5 class="mb-2">Cost of App Development in Dubai for a Startup</h5>
-      <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p> 
-      <h5 class="mb-2">Cost of App Development in Dubai for Mid-Sized Businesses</h5> 
-      <p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> 
-      <h5 class="mb-2">Cost of App Development in Dubai for Enterprises</h5> 
-      <p class='fontsfregular'> In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>  `
-
+      title: "App Development Costs According to Business Size In Dubai ",
+      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p>
+      <p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p>
+      <p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p>
+      <p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p>
+         `
     },
+    {
+      title: "Cost of App Development in Dubai for a Startup",
+      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>  `
+    },
+    {
+      title: "Cost of App Development in Dubai for Mid-Sized Businesses",
+      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> `
+    },
+    {
+      title: "Cost Of App Development In Houston For Enterprises",
+      content: `<p class='fontsfregular'>Creating an app for a Fortune 500 or enterprise-level company entails a more substantial financial commitment compared to other brick-and-mortar businesses. </p>
+        <p class='fontsfregular'>The intricacy of these apps, along with the integration required with existing enterprise systems, contributes to higher expenses and extended development timelines. </p>
+        <p class='fontsfregular'>The cost of developing an enterprise-level app can range from $500,000 to $1 million. </p>
+        <p class='fontsfregular'>This cost range depends on factors such as the complexity of the app and the specific features needed. </p>
+        <p class='fontsfregular'>This estimate encompasses all phases, from design and development to testing, deployment, and ongoing maintenance. </p>
+        <p class='fontsfregular'>To ensure the success of such a significant investment, it’s crucial to collaborate with an experienced Houston app development team that comprehends enterprise-level systems. </p>
+        <p class='fontsfregular'>They can offer a detailed estimate tailored to your business’s unique requirements. </p>
+        <p class='fontsfregular'>Although enterprise apps demand a substantial financial commitment, the benefits they bring would be tremendous. </p>
+        <p class='fontsfregular'>In short, you can acquire increased efficiency, streamlined workflows, and enhanced customer engagement. </p>`
+    },
+    {
+      title: "Cost Of App Development In Houston For Individuals",
+      content: `<p class='fontsfregular'>For individuals seeking app development in Houston, the expenses can significantly vary based on the app’s complexity and desired features. </p>
+        <p class='fontsfregular'>On average, the cost of developing a simple app can range from $10,000 to $50,000. </p>
+        <p class='fontsfregular'>In contrast, more complex mobile apps with advanced functionalities might incur costs exceeding $150,000 or more. </p>
+        <p class='fontsfregular'>Several factors impact app development costs for individuals, including the platforms the app will be built for, the level of customization required, design intricacy, and the specific functionalities. </p>
+        <p class='fontsfregular'>Partnering with an experienced Houston app development company is paramount to achieving your vision within your budget. </p>
+        <p class='fontsfregular'>They can provide a tailored estimate, guide you through the development process, and ensure your app aligns with your goals and financial plan. </p>
+        <p class='fontsfregular'>Whether you’re an enterprise or an individual, investing in a skilled mobile app development company Houston can help you bring your app idea to life effectively.  </p>`
+    },
+    {
+      title: "Mobile App Development Costs For B2B Clients",
+      content: `<p class='fontsfregular'>Unravelling the cost of developing apps for B2B clients in Houston is influenced by multiple factors. For an illustration, </p>
+        <p class='fontsfregular'>The complexity of the app, the demanded features, platform compatibility, and customization levels collectively contribute to the financial investment. </p>
+        <p class='fontsfregular'>On average, the cost to create a B2B app can fluctuate between $50,000 and $250,000, potentially exceeding these estimates. </p>
+        <p class='fontsfregular'>This cost estimate encompasses the entire app journey, from design and development to rigorous testing, seamless deployment, and continual maintenance. </p>
+        <p class='fontsfregular'>Unlike B2C apps, B2B applications necessitate heightened personalization and integration with existing systems. </p>
+        <p class='fontsfregular'>The design must be meticulously crafted to cater to end-users distinct business requisites. </p>
+        <p class='fontsfregular'>Collaborating with skilled mobile app developers in Houston is pivotal, ensuring precise cost estimates and a seamless app development process. </p>
+        <p class='fontsfregular'>Investing in a thoughtfully designed and functionally rich B2B app yields significant benefits, thus, delivering an impressive return on investment. </p>
+        <p class='fontsfregular'>This enhancement in efficiency and streamlined workflows substantially contributes to elevated business operations. </p>`
+    },
+    {
+      title: "Mobile App Development Costs For B2C Customers",
+      content: `<p class='fontsfregular'> The price for mobile apps for B2C businesses varies based on parameters such as app complexity, features, functionalities, chosen platforms, and the proficiency of the development team. </p>
+        <p class='fontsfregular'> Broadly speaking, creating a basic app with fundamental functionalities can cost anywhere from $15,000 to $50,000. </p>
+        <p class='fontsfregular'> Conversely, crafting a more intricate app enriched with advanced attributes might necessitate an investment ranging from $50,000 to $500,000, or even more. </p>
+        <p class='fontsfregular'> Several factors that influence the development costs include </p>
+        <p class='fontsfregular'> App Platform: Costs differ based on whether the app targets iOS, Android, or both platforms. </p>
+        <p class='fontsfregular'> App Design: A well-crafted design along with impressive UI/UX influence the overall cost. </p>
+        <p class='fontsfregular'> App Features: Incorporating advanced elements like AI integration, payment gateways, and social media linkage can elevate app expenses. </p>
+        <p class='fontsfregular'> App Development Team: The proficiency and geographical location of the development team influence expenditure, with teams from higher-cost regions potentially escalating costs. </p>
+        <p class='fontsfregular'> Maintenance and Updates: Regular maintenance and updates are integral, safeguarding the app’s performance. </p>
+        <p class='fontsfregular'> It’s imperative to recognize that these factors more or less influence B2C app development expenses. </p>
+        <p class='fontsfregular'> Actual costs hinge on individual project nuances and specific requisites. </p>
+        <p class='fontsfregular'> Collaborating with a seasoned mobile app development company in Houston is pivotal to determine cost estimates. </p>`
+    },
+    {
+      title: "Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities",
+      content: `<p class='fontsfregular'>Houston’s dynamic growth paints a vivid picture of a city rapidly establishing its presence in the technology realm. </p>
+        <p class='fontsfregular'>The tech landscape here is a mosaic of industries spanning healthcare, energy, aerospace, and software development. </p>
+        <p class='fontsfregular'>According to insights from the Houston Technology Center, the city proudly hosts over 4,000 tech companies, housing an impressive workforce of approximately 225,000 tech professionals. </p>
+        <p class='fontsfregular'>Houston’s healthcare domain contributes significantly to its tech tapestry. </p>
+        <p class='fontsfregular'>Renowned healthcare entities like the Texas Medical Center and MD Anderson Cancer Center are deeply invested in technological advancements. </p>
+        <p class='fontsfregular'>The energy sector is equally pivotal, with giants like BP, ConocoPhillips, and Shell embracing technologies like artificial intelligence and machine learning to streamline operations and amplify efficiency. </p>
+        <p class='fontsfregular'>In recent years, Houston’s entrepreneurial spirit has sparked a vibrant startup culture. </p>
+        <p class='fontsfregular'>This ecosystem thrives thanks to Houston’s diverse populace, offering a rich pool of talent and potential clientele. </p>
+        <p class='fontsfregular'>Capital infusion into Houston’s tech ventures has been noteworthy, with startups securing over $300 million in venture capital in 2023, as reported by Pitchbook. </p>
+        <p class='fontsfregular'>Organizations such as the Greater Houston Partnership and the Houston Angel Network bolster the tech scene with resources and guidance, empowering entrepreneurs and established players alike. </p>
+        <p class='fontsfregular'>In short, Houston’s tech landscape is an evolving masterpiece, a canvas of diversity and growth. </p>`
+    },
+    {
+      title: "Unlocking Houston’s Digital Potential – Trango Tech’s Footprint",
+      content: `<h5>Exploring the Vibrant Tapestry of Houston </h5>
+        <p class='fontsfregular'>When Houston enters the conversation, it’s often linked to its oil and gas prowess. Yet, the city’s vibrant tapestry is woven with diverse industries. </p>
+        <h5>Ranked #4 in Fortune 500 headquarters, Houston boasts more than just energy giants. </h5>
+        <p class='fontsfregular'>Companies like Sysco and Waste Management call this city home, demonstrating its prowess across various sectors. </p>
+        <h5>Houston’s Ecosystem of Opportunity </h5>
+        <p class='fontsfregular'>This vibrant city isn’t just about big names; it’s a thriving ecosystem teeming with potential for startups, entrepreneurs, and local businesses. </p>
+        <p class='fontsfregular'>As pioneers in app development in Houston, Trango Tech have recognized this dynamic backdrop, thereby, catalyzing local businesses onto the global stage. </p>
+        <h5>A Digital Odyssey with Landry’s Inc.</h5>
+        <p class='fontsfregular'>Landry’s Inc., is an emblematic force in dining, hospitality, and entertainment. Born in the heart of Houston in 1980, Landry’s has scripted a digital saga. </p>
+        <img src="/newdubai/newcom.png" class='img-fluid' />
+        <p class='fontsfregular'>The Landry’s Select Club app has redefined convenience for patrons, offering a seamless experience to locate venues, peruse menus, and make secure reservations. </p>
+        <p class='fontsfregular'>This is the fusion of digital accessibility and value infusion, a paradigm reshaping the culinary landscape. </p>
+        <h5>2nd.MD – A Healthcare Revolution  </h5>
+        <p class='fontsfregular'>Beyond gastronomy, Houston’s app development narrative extends to healthcare through 2nd.MD. </p>
+        <p class='fontsfregular'>This healthcare trailblazer’s mobile app has redefined medical consultations by connecting users with specialized doctors. </p>
+        <p class='fontsfregular'>The profound impact of technology on lives is palpable, and 2nd.MD stands as a testament to how digital innovation can be a game-changer. </p>`
+    }
   ];
 
   const HoustonContent = {
     menus: menus,
     sections: sections,
   }
-  // const menus = [
-  //   "App Development Costs According to Business Size In Dubai ",
-  //   "Cost of App Development in Dubai for a Startup",
-  //   "Cost of App Development in Dubai for Mid-Sized Businesses",
-  //   "Cost Of App Development In Houston For Enterprises",
-  //   "Cost Of App Development In Houston For Individuals",
-  //   "Mobile App Development Costs For B2B Clients",
-  //   "Mobile App Development Costs For B2C Customers",
-  //   "Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities",
-  //   "Unlocking Houston’s Digital Potential – Trango Tech’s Footprint"
-  // ];
-
-  // const sections = [
-  //   {
-  //     title: "App Development Costs According to Business Size In Dubai ",
-  //     content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p>
-  //        `
-  //   },
-  //   {
-  //     title: "Cost of App Development in Dubai for a Startup",
-  //     content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>  `
-  //   },
-  //   {
-  //     title: "Cost of App Development in Dubai for Mid-Sized Businesses",
-  //     content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> `
-  //   },
-  //   {
-  //     title: "Cost Of App Development In Houston For Enterprises",
-  //     content: `<p class='fontsfregular'>Creating an app for a Fortune 500 or enterprise-level company entails a more substantial financial commitment compared to other brick-and-mortar businesses. </p>
-  //       <p class='fontsfregular'>The intricacy of these apps, along with the integration required with existing enterprise systems, contributes to higher expenses and extended development timelines. </p>
-  //       <p class='fontsfregular'>The cost of developing an enterprise-level app can range from $500,000 to $1 million. </p>
-  //       <p class='fontsfregular'>This cost range depends on factors such as the complexity of the app and the specific features needed. </p>
-  //       <p class='fontsfregular'>This estimate encompasses all phases, from design and development to testing, deployment, and ongoing maintenance. </p>
-  //       <p class='fontsfregular'>To ensure the success of such a significant investment, it’s crucial to collaborate with an experienced Houston app development team that comprehends enterprise-level systems. </p>
-  //       <p class='fontsfregular'>They can offer a detailed estimate tailored to your business’s unique requirements. </p>
-  //       <p class='fontsfregular'>Although enterprise apps demand a substantial financial commitment, the benefits they bring would be tremendous. </p>
-  //       <p class='fontsfregular'>In short, you can acquire increased efficiency, streamlined workflows, and enhanced customer engagement. </p>`
-  //   },
-  //   {
-  //     title: "Cost Of App Development In Houston For Individuals",
-  //     content: `<p class='fontsfregular'>For individuals seeking app development in Houston, the expenses can significantly vary based on the app’s complexity and desired features. </p>
-  //       <p class='fontsfregular'>On average, the cost of developing a simple app can range from $10,000 to $50,000. </p>
-  //       <p class='fontsfregular'>In contrast, more complex mobile apps with advanced functionalities might incur costs exceeding $150,000 or more. </p>
-  //       <p class='fontsfregular'>Several factors impact app development costs for individuals, including the platforms the app will be built for, the level of customization required, design intricacy, and the specific functionalities. </p>
-  //       <p class='fontsfregular'>Partnering with an experienced Houston app development company is paramount to achieving your vision within your budget. </p>
-  //       <p class='fontsfregular'>They can provide a tailored estimate, guide you through the development process, and ensure your app aligns with your goals and financial plan. </p>
-  //       <p class='fontsfregular'>Whether you’re an enterprise or an individual, investing in a skilled mobile app development company Houston can help you bring your app idea to life effectively.  </p>`
-  //   },
-  //   {
-  //     title: "Mobile App Development Costs For B2B Clients",
-  //     content: `<p class='fontsfregular'>Unravelling the cost of developing apps for B2B clients in Houston is influenced by multiple factors. For an illustration, </p>
-  //       <p class='fontsfregular'>The complexity of the app, the demanded features, platform compatibility, and customization levels collectively contribute to the financial investment. </p>
-  //       <p class='fontsfregular'>On average, the cost to create a B2B app can fluctuate between $50,000 and $250,000, potentially exceeding these estimates. </p>
-  //       <p class='fontsfregular'>This cost estimate encompasses the entire app journey, from design and development to rigorous testing, seamless deployment, and continual maintenance. </p>
-  //       <p class='fontsfregular'>Unlike B2C apps, B2B applications necessitate heightened personalization and integration with existing systems. </p>
-  //       <p class='fontsfregular'>The design must be meticulously crafted to cater to end-users distinct business requisites. </p>
-  //       <p class='fontsfregular'>Collaborating with skilled mobile app developers in Houston is pivotal, ensuring precise cost estimates and a seamless app development process. </p>
-  //       <p class='fontsfregular'>Investing in a thoughtfully designed and functionally rich B2B app yields significant benefits, thus, delivering an impressive return on investment. </p>
-  //       <p class='fontsfregular'>This enhancement in efficiency and streamlined workflows substantially contributes to elevated business operations. </p>`
-  //   },
-  //   {
-  //     title: "Mobile App Development Costs For B2C Customers",
-  //     content: `<p class='fontsfregular'> The price for mobile apps for B2C businesses varies based on parameters such as app complexity, features, functionalities, chosen platforms, and the proficiency of the development team. </p>
-  //       <p class='fontsfregular'> Broadly speaking, creating a basic app with fundamental functionalities can cost anywhere from $15,000 to $50,000. </p>
-  //       <p class='fontsfregular'> Conversely, crafting a more intricate app enriched with advanced attributes might necessitate an investment ranging from $50,000 to $500,000, or even more. </p>
-  //       <p class='fontsfregular'> Several factors that influence the development costs include </p>
-  //       <p class='fontsfregular'> App Platform: Costs differ based on whether the app targets iOS, Android, or both platforms. </p>
-  //       <p class='fontsfregular'> App Design: A well-crafted design along with impressive UI/UX influence the overall cost. </p>
-  //       <p class='fontsfregular'> App Features: Incorporating advanced elements like AI integration, payment gateways, and social media linkage can elevate app expenses. </p>
-  //       <p class='fontsfregular'> App Development Team: The proficiency and geographical location of the development team influence expenditure, with teams from higher-cost regions potentially escalating costs. </p>
-  //       <p class='fontsfregular'> Maintenance and Updates: Regular maintenance and updates are integral, safeguarding the app’s performance. </p>
-  //       <p class='fontsfregular'> It’s imperative to recognize that these factors more or less influence B2C app development expenses. </p>
-  //       <p class='fontsfregular'> Actual costs hinge on individual project nuances and specific requisites. </p>
-  //       <p class='fontsfregular'> Collaborating with a seasoned mobile app development company in Houston is pivotal to determine cost estimates. </p>`
-  //   },
-  //   {
-  //     title: "Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities",
-  //     content: `<p class='fontsfregular'>Houston’s dynamic growth paints a vivid picture of a city rapidly establishing its presence in the technology realm. </p>
-  //       <p class='fontsfregular'>The tech landscape here is a mosaic of industries spanning healthcare, energy, aerospace, and software development. </p>
-  //       <p class='fontsfregular'>According to insights from the Houston Technology Center, the city proudly hosts over 4,000 tech companies, housing an impressive workforce of approximately 225,000 tech professionals. </p>
-  //       <p class='fontsfregular'>Houston’s healthcare domain contributes significantly to its tech tapestry. </p>
-  //       <p class='fontsfregular'>Renowned healthcare entities like the Texas Medical Center and MD Anderson Cancer Center are deeply invested in technological advancements. </p>
-  //       <p class='fontsfregular'>The energy sector is equally pivotal, with giants like BP, ConocoPhillips, and Shell embracing technologies like artificial intelligence and machine learning to streamline operations and amplify efficiency. </p>
-  //       <p class='fontsfregular'>In recent years, Houston’s entrepreneurial spirit has sparked a vibrant startup culture. </p>
-  //       <p class='fontsfregular'>This ecosystem thrives thanks to Houston’s diverse populace, offering a rich pool of talent and potential clientele. </p>
-  //       <p class='fontsfregular'>Capital infusion into Houston’s tech ventures has been noteworthy, with startups securing over $300 million in venture capital in 2023, as reported by Pitchbook. </p>
-  //       <p class='fontsfregular'>Organizations such as the Greater Houston Partnership and the Houston Angel Network bolster the tech scene with resources and guidance, empowering entrepreneurs and established players alike. </p>
-  //       <p class='fontsfregular'>In short, Houston’s tech landscape is an evolving masterpiece, a canvas of diversity and growth. </p>`
-  //   },
-  //   {
-  //     title: "Unlocking Houston’s Digital Potential – Trango Tech’s Footprint",
-  //     content: `<h5>Exploring the Vibrant Tapestry of Houston </h5>
-  //       <p class='fontsfregular'>When Houston enters the conversation, it’s often linked to its oil and gas prowess. Yet, the city’s vibrant tapestry is woven with diverse industries. </p>
-  //       <h5>Ranked #4 in Fortune 500 headquarters, Houston boasts more than just energy giants. </h5>
-  //       <p class='fontsfregular'>Companies like Sysco and Waste Management call this city home, demonstrating its prowess across various sectors. </p>
-  //       <h5>Houston’s Ecosystem of Opportunity </h5>
-  //       <p class='fontsfregular'>This vibrant city isn’t just about big names; it’s a thriving ecosystem teeming with potential for startups, entrepreneurs, and local businesses. </p>
-  //       <p class='fontsfregular'>As pioneers in app development in Houston, Trango Tech have recognized this dynamic backdrop, thereby, catalyzing local businesses onto the global stage. </p>
-  //       <h5>A Digital Odyssey with Landry’s Inc.</h5>
-  //       <p class='fontsfregular'>Landry’s Inc., is an emblematic force in dining, hospitality, and entertainment. Born in the heart of Houston in 1980, Landry’s has scripted a digital saga. </p>
-  //       <img src="/newdubai/newcom.png" class='img-fluid' />
-  //       <p class='fontsfregular'>The Landry’s Select Club app has redefined convenience for patrons, offering a seamless experience to locate venues, peruse menus, and make secure reservations. </p>
-  //       <p class='fontsfregular'>This is the fusion of digital accessibility and value infusion, a paradigm reshaping the culinary landscape. </p>
-  //       <h5>2nd.MD – A Healthcare Revolution  </h5>
-  //       <p class='fontsfregular'>Beyond gastronomy, Houston’s app development narrative extends to healthcare through 2nd.MD. </p>
-  //       <p class='fontsfregular'>This healthcare trailblazer’s mobile app has redefined medical consultations by connecting users with specialized doctors. </p>
-  //       <p class='fontsfregular'>The profound impact of technology on lives is palpable, and 2nd.MD stands as a testament to how digital innovation can be a game-changer. </p>`
-  //   }
-  // ];
-
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <DubiaDevelopers content={Development} />
+      <StoryLine content={storyLine} />
+      <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
       <DubaiClients content={ClientContent} />
-      <StoryLine content={storyLine} />
-      <Whowearenew content={WhoWeAre} />
       <Delivered content={delivered} />
-      <DeliveredBlack content={deliveredBlack} />
+      <Industries />
+      <Houtondubai content={HoustonContent} />
+      <DubaiBrandTrust />
+      {/* <DeliveredBlack content={deliveredBlack} /> */}
       <Technologieslpdubainew content={technologies} />
-      <NewDubaiBussiness content={BussinessContent} />
-      <DubaiDevelopment content={compareContent} />
+      {/* <NewDubaiBussiness content={BussinessContent} /> */}
+      {/* <DubaiDevelopment content={compareContent} /> */}
       <DubaiDevelopmentUAE content={developmentUAE} />
-      <DubaiIOS content={IOSContent} />
-      <DubaiAndriod content={andriodContent} />
-      <DubaiMobileApplication content={MobileApplication} />
-      <DubaiConquered content={Conquered} />
-      <LpChoosedubaishipnewdubai
+      {/* <DubaiIOS content={IOSContent} /> */}
+      {/* <DubaiAndriod content={andriodContent} /> */}
+      {/* <DubaiMobileApplication content={MobileApplication} /> */}
+      {/* <DubaiConquered content={Conquered} /> */}
+      {/* <LpChoosedubaishipnewdubai
         transform="transformlp"
-      />
+      /> */}
       <Expertappdubaiadvanced expertapp="expertapp" />
       <Justbuilditlpdubai
         title1="Just"
@@ -480,10 +487,9 @@ export default function dubaidevelopmentcompany() {
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
       />
-      <Globallplp6dubai />
+      {/* <Globallplp6dubai /> */}
       <Globalmap />
       <Brand />
-      <Houtondubai content={HoustonContent} />
       <Faqdubai
         faqsData={[
           {
@@ -533,7 +539,6 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-
     </>
   );
 } 

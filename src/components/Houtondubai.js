@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/Houtondubai.module.css";
+import Link from "next/link";
 
 const Section = ({ section, refCallback }) => {
     const { title, content } = section;
@@ -71,7 +72,7 @@ const Processpro = ({ content }) => {
             <section className={styles.houston}>
                 <Container>
                     <Row className={styles.tone}>
-                        {/* <Col lg={5} className='p-0 text-center'>
+                        <Col lg={5} className='p-0 text-center'>
                             {isMobile ? (
                                 <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
                                     <option value={visibleSection}>{visibleSection}</option>
@@ -80,18 +81,26 @@ const Processpro = ({ content }) => {
                                     ))}
                                 </select>
                             ) : (
-                                <nav className={`${styles.applicationlong} newfinfler`}>
-                                    <ul className="position-sticky top-0">
-                                        {menus.map((menu, index) => (
-                                            <li key={index} className={visibleSection === menu ? styles.active : ""}>
-                                                <a href={`#${menu}`}>{menu}</a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </nav>
+                                <>
+                                    <nav className={`${styles.applicationlong} newfinfler`}>
+                                        <ul className="position-sticky top-0">
+                                            {menus.map((menu, index) => (
+                                                <li key={index} className={visibleSection === menu ? styles.active : ""}>
+                                                    <a href={`#${menu}`}>{menu}</a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </nav>
+                                    <div className={styles.btn}>
+                                        <Link href="javascript:;">
+                                            <span>Book A Consultation Now!</span>
+                                            <span>Book A Consultation Now!</span>
+                                        </Link>
+                                    </div>
+                                </>
                             )}
-                        </Col> */}
-                        <Col lg={12}>
+                        </Col>
+                        <Col lg={7}>
                             <div className={`${styles.posto} newscoolr`}>
                                 {sections.map((section, index) => (
                                     <Section {...{ section, refCallback }} key={index} />

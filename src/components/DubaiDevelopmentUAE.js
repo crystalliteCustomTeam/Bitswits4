@@ -109,9 +109,9 @@ const DubaiDevelopmentUAE = ({content}) => {
                             <h2>
                                {title}
                             </h2>
-                            <p className='fontsfregular mb-4'>
+                            {/* <p className='fontsfregular mb-4'>
                                 {desc}
-                            </p> 
+                            </p>  */}
                         </Col>
                     </Row>
                 </div>

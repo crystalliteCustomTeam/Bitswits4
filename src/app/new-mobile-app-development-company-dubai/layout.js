@@ -16,6 +16,20 @@ export const metadata = {
   alternates: { canonical: '/new-mobile-app-development-company-dubai' },
   //===== GEO Tags =====
   other: {},
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({ children }) {

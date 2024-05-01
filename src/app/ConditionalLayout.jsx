@@ -19,6 +19,7 @@ import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
 import DubaiFooter from "../components/DubaiFooter";
 import VideoHeader from "../components/video-explainer/Header/Header";
+import VideoFooter from "../components/video-explainer/Footer/Footer";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -120,8 +121,9 @@ const ConditionalLayout = ({ children }) => {
                     pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
                             pathname == "/new-mobile-app-development-company-dubai-v1" ? <DubaiFooter /> :
-                                pathname == "/meet-our-team" ? null :
-                                    <Footer />
+                                pathname == "/video-explainer-lp" ? <VideoFooter /> :
+                                    pathname == "/meet-our-team" ? null :
+                                        <Footer />
             }
         </>
     )

@@ -1,3 +1,4 @@
+
 "use client"
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
@@ -23,9 +24,9 @@ export default function ThankYou() {
       {pageLoaded &&
         <>
           {/* <!-- Event snippet for Website lead conversion page --> */}
-          <Script>
+          {/* <Script>
             {`gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`}
-          </Script>
+          </Script> */}
         </>
       }
 
