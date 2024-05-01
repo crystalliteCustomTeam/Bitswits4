@@ -7,7 +7,7 @@ import { register } from 'swiper/element/bundle';
 import 'swiper/css';
 // Images
 import BrandOne from "media/newdubai/single-brands.png"
-import BrandTwo from "media/newdubai/single-brands.png"
+import BrandTwo from "media/newdubai/single-brands1.png"
 // import BrandTwo from "media/newdubai/trust-2.png"
 import BrandThree from "media/newdubai/trust-3.png"
 import BrandFour from "media/newdubai/trust-4.png"
