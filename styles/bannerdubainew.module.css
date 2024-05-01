@@ -12,7 +12,7 @@
   margin-bottom: 0;
 }
 
-.oppp h2 {
+.oppp h1 {
   font-size: 50px;
   padding-right: 75px;
   line-height: 60px;
@@ -22,6 +22,7 @@
   font-size: 17px;
   line-height: 26px;
   padding-right: 40px;
+  font-weight: 300;
 }
 
 .newHomeBg {
@@ -615,11 +616,12 @@
 
 .your h3 {
   font-size: 29px;
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 40px;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .your input {
@@ -756,7 +758,7 @@
 /* =========================================== */
 
 @media screen and (min-width: 1700px) {
-  .conform h2 {
+  .conform h1 {
     font-size: 50px;
   }
 
@@ -826,7 +828,7 @@
 }
 
 @media screen and (max-width: 1799px) {
-  .conform h2 {
+  .conform h1 {
     font-size: 50px;
   }
 }
@@ -1085,6 +1087,11 @@
   .comple5 p {
     color: white;
     font-size: 16px;
+  }
+
+  .oppp h1 {
+    font-size: 40px;
+    line-height: 45px;
   }
 
   .postimg {

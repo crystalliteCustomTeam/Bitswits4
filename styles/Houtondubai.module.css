@@ -1,6 +1,6 @@
 .houston {
   position: relative;
-  padding: 80px 0;
+  padding: 100px 0;
   margin-bottom: 80px;
 }
 
@@ -36,8 +36,8 @@
 }
 
 .posto {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   height: 500px;
   overflow: scroll;
   background-color: white;
@@ -65,7 +65,7 @@
 .application h2 {
   font-size: 30px;
   color: black;
-  font-weight: bold;
+  font-weight: 500;
   color: #f32f53;
   font-family: "SF-Pro-Display";
   letter-spacing: 2px;
@@ -105,7 +105,7 @@
 .understand h2 {
   color: black;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 44px;
   margin-bottom: 20px;
 }
@@ -320,6 +320,7 @@
 @media screen and (max-width: 480px) {
   .houston {
     padding: 50px 0;
+    margin-bottom: 50px;
   }
 
   .understand {

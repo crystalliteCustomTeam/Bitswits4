@@ -293,8 +293,8 @@
 }
 
 .timelineContent h2 {
-    font-size: 46px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 500;
     line-height: 56px;
     margin-bottom: 18px;
     color: black;
@@ -314,17 +314,19 @@
 .timelineContent p {
     font-size: 17px;
     line-height: 26px;
-    color: #3D3D3D;
+    /* color: #3D3D3D; */
+    color: #000;
     margin-bottom: 12px;
 }
 
 .timelineContent .timePara {
-    color: #3D3D3D !important;
+    /* color: #3D3D3D !important; */
+    color: #000 !important;
 }
 
 .timelineContent h4 {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 30px;
     color: #F32F53;
 }
@@ -494,7 +496,7 @@
 @media screen and (max-width: 991px) {
 
     .timelineSec {
-        padding: 50px 0;
+        padding: 50px 0 0;
     }
 
     .paddingTwo {
@@ -509,8 +511,8 @@
     }
 
     .timelineContent h2 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
     .timelineMain:before {

@@ -6,7 +6,7 @@
 .counter h2 {
     font-size: 70px;
     line-height: 80px;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
     letter-spacing: 2px;
     text-align: center;
@@ -22,7 +22,7 @@
 
 .counter p span {
     color: #f32f53;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .counter a {
@@ -35,7 +35,7 @@
     justify-content: center;
     color: white;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 18px;

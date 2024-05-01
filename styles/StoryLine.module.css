@@ -1,17 +1,18 @@
 .bussinessEmpower {
-    padding: 20px 0 40px;
+    padding: 20px 0 70px;
 }
 
 .bussinessEmpower h4 {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 30px;
     color: #F32F53;
+    margin-bottom: 0;
 }
 
 .bussinessEmpower h2 {
     font-size: 55px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 65px;
     color: black;
     margin-bottom: 15px;
@@ -19,9 +20,10 @@
 
 .bussinessEmpower p {
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 26px;
     width: 1112px;
+    color: black;
 }
 
 .btn {
@@ -95,7 +97,7 @@
 
 .bussinessEmpower .tabsInfo p {
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 26px;
     width: 662px;
     padding-top: 14px;
@@ -124,7 +126,7 @@
 .isActive h5 {
     color: black;
     opacity: 1;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .isActiveArrow {
@@ -209,10 +211,8 @@
     }
 
     .bussinessEmpower h2 {
-        font-size: 35px;
-        font-weight: bold;
-        line-height: 45px;
-        color: black;
+        font-size: 35px; 
+        line-height: 45px; 
         margin-bottom: 5px;
     }
 
@@ -325,6 +325,6 @@
 
     .btn {
         margin-top: 20px;
-        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 }

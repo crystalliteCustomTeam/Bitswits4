@@ -10,7 +10,7 @@
 .DubaiDelivered h2 {
     font-size: 45px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 54px;
     color: white;
     margin-bottom: 20px;
@@ -21,6 +21,7 @@
     line-height: 30px;
     text-align: center;
     color: white;
+    font-weight: 300;
 }
 
 .btn {
@@ -158,6 +159,11 @@
 
     .DubaiDelivered {
         height: auto;
+    }
+
+    .DubaiDelivered h2 {
+        font-size: 35px;
+        line-height: 45px;
     }
 }
 

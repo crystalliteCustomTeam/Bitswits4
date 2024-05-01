@@ -96,7 +96,7 @@
     position: relative;
 }
 
-.card { 
+.card {
     transition: all 0.4s ease-in-out;
     /* position: relative; */
     position: absolute;
@@ -105,7 +105,7 @@
     border: 0;
 }
 
-.sliderDiv:hover .card { 
+.sliderDiv:hover .card {
     bottom: 50px;
     transition: all 0.4s ease-in-out;
 }
@@ -169,6 +169,11 @@
 
 @media only screen and (max-width: 1280px) {
 
+    .txt h2 {
+        font-size: 70px;
+        line-height: 85px;
+    }
+
     .sliderBackground img {
         height: 100%;
     }
@@ -221,6 +226,22 @@
 }
 
 @media only screen and (max-width: 567px) {
+    .industriesSec {
+        height: 100vh;
+    }
+
+    .sliderDiv::after {
+        height: 100vh;
+    }
+
+    .sliderDiv {
+        height: 100vh;
+    }
+
+    .card p {
+        padding: 16px 5px 16px 0;
+    }
+
     .txt h2 {
         font-size: 35px;
         line-height: 45px;
