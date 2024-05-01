@@ -861,6 +861,10 @@ a {
   display: none;
 }
 
+.features::-webkit-scrollbar {
+  display: none;
+}
+
 /*====================== faqsblogs ======================*/
 
 .faqsblog .accordion-item {

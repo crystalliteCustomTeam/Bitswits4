@@ -85,14 +85,19 @@
   font-weight: 600;
   color: #f22f53;
   margin-bottom: 10px;
+  margin-top: 45px;
   letter-spacing: 1px;
+}
+
+.checkCol h3:first-child {
+  margin-top: 0;
 }
 
 .checkCol p {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .checkCol h5 {
@@ -104,18 +109,17 @@
 }
 
 .checkBoxs {
-  height: 345px;
+  height: 475px;
   overflow-y: scroll;
-  margin-top: 15px;
 }
 
 .checkBox:first-child {
   margin-top: 0;
 }
 
-.checkBox:last-child {
+/* .checkBox:last-child {
   margin-bottom: 20px;
-}
+} */
 
 .checkboxInput {
   display: none;
@@ -174,7 +178,7 @@
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 0;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .checkBox input[type="checkbox"]:checked + .checkboxLabel h4,
@@ -272,7 +276,7 @@
 
 .checkBoxs2 .checkBox .cost {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #f22f53;
   text-align: right;
   max-width: 100%;
@@ -285,6 +289,58 @@
 .checkBox.checked .cost {
   color: #fff;
 }
+
+.checkBoxs2 .forCheckBox2 .checkBox {
+  width: 100%;
+}
+
+.checkBoxs2 .forCheckBox2 .checkBox .checkboxLabel {
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.checkBoxs2 .forCheckBox2 .checkBox .checkboxLabel h6 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.forCheckBox2 .listBox2 {
+  padding-left: 25px;
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 0;
+}
+
+.forCheckBox2 .listBox2 li {
+  width: 50%;
+  font-size: 15px;
+  font-weight: 300;
+  list-style-type: disc;
+}
+
+.forCheckBox2 .listBox2 li span {
+  color: #f22f53;
+}
+
+.checkBox input[type="checkbox"]:checked + .checkboxLabel h6,
+.checkBox input[type="checkbox"]:checked + .checkboxLabel .listBox2 li span {
+  color: #fff;
+}
+
+.checkBoxs2 .forCheckBox3 .checkBox {
+  width: 100%;
+}
+
+.checkBoxs2 .forCheckBox3 .checkBox .checkboxLabel {
+  height: auto;
+}
+
+.checkBoxs2 .forCheckBox3 .checkboxLabel::before {
+  right: 2%;
+  top: 35%;
+}
+
 
 /* =============================== */
 
@@ -337,7 +393,7 @@
 
 .checkBoxs3 .checkBox .cost {
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
   color: #f22f53;
   text-align: right;
   max-width: 100%;
@@ -517,8 +573,8 @@
 /* =============================== */
 
 .selected {
-  height: 100vh;
-  padding: 20px 0;
+  height: 92vh;
+  padding: 20px 5px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -539,6 +595,8 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  height: 100vh;
+  overflow: auto;
 }
 
 .features p {

@@ -156,15 +156,33 @@ const labels = {
     email: 'Email',
     social: 'Social (Facebook, Twitter, ...etc)',
     single: 'Single Sign On (SSO)',
+    info: 'User Profile Info',
+    segment: 'Segment Users',
+    activity: 'User Activity',
+    push: 'Send Push Notifications',
+    newsletters: 'Subscription to Newsletters',
+    allow: 'Allow Users to Chat',
     camera: 'Camera',
     fences: 'Geo-Fences',
     bluetooth: 'Bluetooth',
+    gyroscope: 'Gyroscope',
+    accelerometer: 'Accelerometer',
+    public: 'Public API’s',
+    systems: 'Backend Systems',
     cost: 'Up-front Cost',
     purchases: 'In-App Purchases',
     free: 'Free',
     enterprise: 'Enterprise',
     business: 'Business',
     growth: 'Growth',
+    minimal: 'Minimal Infrastructure',
+    medium: 'Medium Infrastructure',
+    large: 'Large Infrastructure',
+    aMaintenance: 'Andriod Maintenance',
+    iMaintenance: 'iOS Maintenance',
+    sMaintenance: 'Server Maintenance',
+    eSupport: 'Direct Email',
+    cSupport: 'Direct Call',
     premium: 'Premium Setup',
     signature: 'Signature Setup'
 };
@@ -194,16 +212,14 @@ const CalculatorScreen = () => {
         }
     };
     // =========== Checked Image ===============
-    const renderImage = () => {
-        if (checkedItems.length === 0) {
-            return null;
-        }
-
-        const firstCheckedItem = checkedItems[0];
-        const imageSource = imageMap[firstCheckedItem];
-
-        return <Image src={imageSource} alt="BitsWits" className='img-fluid' />;
-    };
+    // const renderImage = () => {
+    //     if (checkedItems.length === 0) {
+    //         return null;
+    //     }
+    //     const firstCheckedItem = checkedItems[0];
+    //     const imageSource = imageMap[firstCheckedItem];
+    //     return <Image src={imageSource} alt="BitsWits" className='img-fluid' />;
+    // };
 
     return (
         <>
@@ -265,9 +281,9 @@ const CalculatorScreen = () => {
                                 <form className={styles.progressContrnt}>
                                     {/* ========== Step 1 ========== */}
                                     <div className={currentStep === 0 ? 'd-block' : 'd-none'}>
-                                        <h3>What type of app are you building?</h3>
-                                        <p>Apple iOS is a better choice to reach to a more engaged user base. Android has a broader reach, however, particularly in emerging markets, like Asia and Africa.</p>
                                         <div className={`${styles.checkBoxs} screen`}>
+                                            <h3>What type of app are you building?</h3>
+                                            <p>Apple iOS is a better choice to reach to a more engaged user base. Android has a broader reach, however, particularly in emerging markets, like Asia and Africa.</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -310,9 +326,9 @@ const CalculatorScreen = () => {
                                     </div>
                                     {/* ========== Step 2 ========== */}
                                     <div className={currentStep === 1 ? 'd-block' : 'd-none'}>
-                                        <h3>What features would you like your app to have?</h3>
-                                        <p>Filter by functionality type.</p>
                                         <div className={`${styles.checkBoxs} screen`}>
+                                            <h3>What features would you like your app to have?</h3>
+                                            <p>Filter by functionality type.</p>
                                             <div className={styles.forCheckBox}>
                                                 <h5>Content</h5>
                                                 <div className={`${styles.checkBox}`}>
@@ -641,9 +657,9 @@ const CalculatorScreen = () => {
                                     </div>
                                     {/* ========== Step 3 ========== */}
                                     <div className={currentStep === 2 ? 'd-block' : 'd-none'}>
-                                        <h3>How do people login?</h3>
-                                        <p>An email login is generally best to start with unless your app will have tight integration with services like Facebook or Twitter, in which case social login is better.</p>
                                         <div className={`${styles.checkBoxs} screen`}>
+                                            <h3>How do people login?</h3>
+                                            <p>An email login is generally best to start with unless your app will have tight integration with services like Facebook or Twitter, in which case social login is better.</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -682,13 +698,95 @@ const CalculatorScreen = () => {
                                                     </label>
                                                 </div>
                                             </div>
+
+                                            <h3>What information would you like to know about your users?</h3>
+                                            <p>These are the data points you want to keep track of you users to better engage them.</p>
+                                            <div className={styles.forCheckBox}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="info"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="info" className={styles.checkboxLabel}>
+                                                        <h4>User Profile Info</h4>
+                                                        <p>Find out details about the users in your applications (e.g. image, name, email, bio...etc)</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="segment"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="segment" className={styles.checkboxLabel}>
+                                                        <h4>Segment Users</h4>
+                                                        <p>Segment users into categories in order to have a better picture of your user base (e.g. Admins, VIP's, Employees).</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="activity"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="activity" className={styles.checkboxLabel}>
+                                                        <h4>User Activity</h4>
+                                                        <p>See what each user is doing and how they are using the app (Downloaded, Opened the app, Viewed Content, ...etc).</p>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <h3>How would you like to engage your users?</h3>
+                                            <p>These features allow you to communicate with your users or to facilitate user to user communication.</p>
+                                            <div className={styles.forCheckBox}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="push"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="push" className={styles.checkboxLabel}>
+                                                        <h4>Send Push Notifications</h4>
+                                                        <p>Alert users with push notifications to let them know about new updates.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="newsletters"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="newsletters" className={styles.checkboxLabel}>
+                                                        <h4>Subscription to Newsletters</h4>
+                                                        <p>Allow users to subscribe to newsletters that will keep them up to date with everything new that’s going on in the app (e.g Deals, Articles, News, Updates...etc).</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="allow"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="allow" className={styles.checkboxLabel}>
+                                                        <h4>Allow Users to Chat</h4>
+                                                        <p>Chat would allow users to send real-time messages to each other.</p>
+                                                    </label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     {/* ========== Step 4 ========== */}
                                     <div className={currentStep === 3 ? 'd-block' : 'd-none'}>
-                                        <h3>What device features will your app need to integrate with?</h3>
-                                        <p>These are sensors on the device you can integrate with.</p>
                                         <div className={`${styles.checkBoxs} screen`}>
+                                            <h3>What device features will your app need to integrate with?</h3>
+                                            <p>These are sensors on the device you can integrate with.</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -726,14 +824,67 @@ const CalculatorScreen = () => {
                                                         <p>You can use Bluetooth to communicate and transfer data between devices.</p>
                                                     </label>
                                                 </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="gyroscope"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="gyroscope" className={styles.checkboxLabel}>
+                                                        <h4>Gyroscope</h4>
+                                                        <p>A gyroscope is a device that uses Earth’s gravity to help determine orientation.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="accelerometer"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="accelerometer" className={styles.checkboxLabel}>
+                                                        <h4>Accelerometer</h4>
+                                                        <p>An accelerometer is a compact device designed to measure non-gravitational acceleration.</p>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <h3>Will your app need to Integrate with other systems?</h3>
+                                            <p>Connecting your app to your backend system or other third party systems.</p>
+                                            <div className={styles.forCheckBox}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="public"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="public" className={styles.checkboxLabel}>
+                                                        <h4>Public API's</h4>
+                                                        <p>Integrate with third party API’s to send or retrieve data.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="systems"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="systems" className={styles.checkboxLabel}>
+                                                        <h4>Backend Systems</h4>
+                                                        <p>Have your app communicate with your backend systems (e.g servers, databases)</p>
+                                                    </label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     {/* ========== Step 5 ========== */}
                                     <div className={currentStep === 4 ? 'd-block' : 'd-none'}>
-                                        <h3>Will your app generate revenue?</h3>
-                                        <p>Charging users for your app upfront is cheaper than building in-app purchases, but in-app purchase can produce higher returns if/when you have an engaged user base.</p>
                                         <div className={`${styles.checkBoxs} screen`}>
+                                            <h3>Will your app generate revenue?</h3>
+                                            <p>Charging users for your app upfront is cheaper than building in-app purchases, but in-app purchase can produce higher returns if/when you have an engaged user base.</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -776,9 +927,9 @@ const CalculatorScreen = () => {
                                     </div>
                                     {/* ========== Step 6 ========== */}
                                     <div className={currentStep === 5 ? 'd-block' : 'd-none'}>
-                                        <h3>Host and develop your app with BuildFire</h3>
-                                        <p>When you build your app with BuildFire, all of the infrastructure is taken care of for you and your app can easily scale to millions of users. You also don’t need to worry about any ongoing maintenance or support costs because it’s all included in your subscription!</p>
                                         <div className={`${styles.checkBoxs} ${styles.checkBoxs2} screen`}>
+                                            <h3>Option 1: Host and develop your app with BuildFire</h3>
+                                            <p>When you build your app with BuildFire, all of the infrastructure is taken care of for you and your app can easily scale to millions of users. You also don’t need to worry about any ongoing maintenance or support costs because it’s all included in your subscription!</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -796,7 +947,7 @@ const CalculatorScreen = () => {
                                                         <div className={styles.costBox1}>
                                                             <p className={styles.cost}>
                                                                 <sup>$</sup>
-                                                                000
+                                                                499
                                                                 <sub> /mo</sub>
                                                             </p>
                                                             <p>Per month billed quarterly.</p>
@@ -819,7 +970,7 @@ const CalculatorScreen = () => {
                                                         <div className={styles.costBox1}>
                                                             <p className={styles.cost}>
                                                                 <sup>$</sup>
-                                                                000
+                                                                349
                                                                 <sub> /mo</sub>
                                                             </p>
                                                             <p>Per month billed quarterly.</p>
@@ -842,7 +993,7 @@ const CalculatorScreen = () => {
                                                         <div className={styles.costBox1}>
                                                             <p className={styles.cost}>
                                                                 <sup>$</sup>
-                                                                000
+                                                                189
                                                                 <sub> /mo</sub>
                                                             </p>
                                                             <p>Per month billed quarterly.</p>
@@ -850,13 +1001,154 @@ const CalculatorScreen = () => {
                                                     </label>
                                                 </div>
                                             </div>
+
+                                            <h3>Option 2: Host and maintain all your own infrastructure</h3>
+                                            <p>When you build your app without an app development platform like BuildFire, you are required to host and maintain all of your own infrastructure to keep your app running. Unless your app is completely static, you will need a backend. We’ve broken down the most common components every app will need for their backend.</p>
+                                            <div className={`${styles.forCheckBox} ${styles.forCheckBox2}`}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="minimal"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="minimal" className={styles.checkboxLabel}>
+                                                        <h6>Minimal Infrastructure | 0 - 10.000 users $500/mo</h6>
+                                                        <ul className={styles.listBox2}>
+                                                            <li>Database - <span>$100/mo</span></li>
+                                                            <li>Servers - <span>$100/mo</span></li>
+                                                            <li>File Server - <span>$50/mo</span></li>
+                                                            <li>Push Notification Server - <span>$20/mo</span></li>
+                                                            <li>Image Server - <span>$50/mo</span></li>
+                                                            <li>Analytics Server - <span>$20/mo</span></li>
+                                                            <li>Firewalls - <span>$50/mo</span></li>
+                                                            <li>Content Delivery Network - <span>$50/mo</span></li>
+                                                            <li>Load Balancer - <span>$50/mo</span></li>
+                                                        </ul>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="medium"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="medium" className={styles.checkboxLabel}>
+                                                        <h6>Medium Infrastructure | 10.000 - 100.000 users $1000/mo</h6>
+                                                        <ul className={styles.listBox2}>
+                                                            <li>Database - <span>$2000/mo</span></li>
+                                                            <li>Servers - <span>$1000/mo</span></li>
+                                                            <li>File Server - <span>$300/mo</span></li>
+                                                            <li>Push Notification Server - <span>$300/mo</span></li>
+                                                            <li>Image Server - <span>$300/mo</span></li>
+                                                            <li>Analytics Server - <span>$300/mo</span></li>
+                                                            <li>Firewalls - <span>$300/mo</span></li>
+                                                            <li>Content Delivery Network - <span>$300/mo</span></li>
+                                                            <li>Load Balancer - <span>$300/mo</span></li>
+                                                        </ul>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="large"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="large" className={styles.checkboxLabel}>
+                                                        <h6>Large Infrastructure | 100.000 - 1.000.000 users $2000/mo</h6>
+                                                        <ul className={styles.listBox2}>
+                                                            <li>Database - <span>$5000/mo</span></li>
+                                                            <li>Servers - <span>$3000/mo</span></li>
+                                                            <li>File Server - <span>$1000/mo</span></li>
+                                                            <li>Push Notification Server - <span>$2000/mo</span></li>
+                                                            <li>Image Server - <span>$1000/mo</span></li>
+                                                            <li>Analytics Server - <span>$2000/mo</span></li>
+                                                            <li>Firewalls - <span>$1000/mo</span></li>
+                                                            <li>Content Delivery Network - <span>$1000/mo</span></li>
+                                                            <li>Load Balancer - <span>$1000/mo</span></li>
+                                                        </ul>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <h3>What kind of maintenance do you need on an ongoing basis?</h3>
+                                            <p>With constant changes to iOS and Android you will need to make sure your app stays up to date and compatible. Industry averages to maintain an application are around 20-40% of the upfront cost each year.</p>
+                                            <div className={`${styles.forCheckBox} ${styles.forCheckBox3}`}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="aMaintenance"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="aMaintenance" className={styles.checkboxLabel}>
+                                                        <h4>Andriod Maintenance</h4>
+                                                        <p>Keep your Android App up to date with the latest updates and make enhancements to your app.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="iMaintenance"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="iMaintenance" className={styles.checkboxLabel}>
+                                                        <h4>iOS Maintenance</h4>
+                                                        <p>Keep your iOS App up to date with the latest updates and make enhancements to your app.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="sMaintenance"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="sMaintenance" className={styles.checkboxLabel}>
+                                                        <h4>Server Maintenance</h4>
+                                                        <p>If your app requires a server, you will need to monitor uptime and maintain redundancy.</p>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <h3>What support will you need on an ongoing basis?</h3>
+                                            <p>Chances are you’re not the one building and maintaining your app. You’re going to have an engineering team or freelancer maintaining your app. These are typically the support options available.</p>
+                                            <div className={`${styles.forCheckBox} ${styles.forCheckBox3}`}>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="eSupport"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="eSupport" className={styles.checkboxLabel}>
+                                                        <h4>Direct Email</h4>
+                                                        <p>Email support 24/7.</p>
+                                                    </label>
+                                                </div>
+                                                <div className={`${styles.checkBox}`}>
+                                                    <input
+                                                        type="checkbox"
+                                                        id="cSupport"
+                                                        className={styles.checkboxInput}
+                                                        onChange={handleCheckboxChange}
+                                                    />
+                                                    <label htmlFor="cSupport" className={styles.checkboxLabel}>
+                                                        <h4>Direct Call</h4>
+                                                        <p>Call support 24/7.</p>
+                                                    </label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     {/* ========== Step 7 ========== */}
                                     <div className={currentStep === 6 ? 'd-block' : 'd-none'}>
-                                        <h3>Setup & Design Packages</h3>
-                                        <p>Hire a top-notch team of designers and app strategists to build your app for you on top of the BuildFire platform.</p>
                                         <div className={`${styles.checkBoxs} ${styles.checkBoxs3} screen`}>
+                                            <h3>Setup & Design Packages</h3>
+                                            <p>Hire a top-notch team of designers and app strategists to build your app for you on top of the BuildFire platform.</p>
                                             <div className={styles.forCheckBox}>
                                                 <div className={`${styles.checkBox}`}>
                                                     <input
@@ -872,7 +1164,7 @@ const CalculatorScreen = () => {
                                                         <div className={styles.costBox2}>
                                                             <p className={styles.cost}>
                                                                 <sup>$</sup>
-                                                                000
+                                                                4,500
                                                             </p>
                                                             <p>starting at</p>
                                                         </div>
@@ -950,7 +1242,7 @@ const CalculatorScreen = () => {
                                                                     </div>
                                                                     <ul>
                                                                         <li>Customizations to existing features</li>
-                                                                        <li>Access to premium plugins worth $000</li>
+                                                                        <li>Access to premium plugins worth $5,000</li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -971,7 +1263,7 @@ const CalculatorScreen = () => {
                                                         <div className={styles.costBox2}>
                                                             <p className={styles.cost}>
                                                                 <sup>$</sup>
-                                                                000
+                                                                7,500
                                                             </p>
                                                             <p>starting at</p>
                                                         </div>
@@ -1049,7 +1341,7 @@ const CalculatorScreen = () => {
                                                                     </div>
                                                                     <ul>
                                                                         <li>Customizations to existing features</li>
-                                                                        <li>Access to premium plugins worth $000</li>
+                                                                        <li>Access to premium plugins worth $5,000</li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -1084,7 +1376,8 @@ const CalculatorScreen = () => {
                         <Col lg={4}>
                             <div className={styles.imgCol}>
                                 <div className={`${styles.imgBg} mx-auto`}>
-                                    {renderImage()}
+                                    {/* {renderImage()} */}
+                                    <Image src={screen12} alt="BitsWits" className='img-fluid' />
                                 </div>
                                 <div className={styles.para}>
                                     <p>Disclaimer: This is a tool to estimate app cost if you were to develop your app with an outside agency. Typically BuildFire prices are a fraction of the cost of an outside agency because our app development platform significantly reduces the amount of time and effort to build an app.</p>
@@ -1094,7 +1387,7 @@ const CalculatorScreen = () => {
                         <Col lg={1} className='p-0'>
                             <div className={styles.selected}>
                                 <h4>Selected Features:</h4>
-                                <div className={styles.features}>
+                                <div className={`${styles.features} features`}>
                                     {checkedItems.map((item, index) => (
                                         <React.Fragment key={index}>
                                             <p>{labels[item]},</p>
