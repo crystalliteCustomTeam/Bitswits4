@@ -132,10 +132,10 @@ const Bannerdubai = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col xl={7}>
                             <div className={styles.oppp}>
-                                <h2 className='white fw700 mb-4'>
+                                <h1 className='white fw500 mb-4'>
                                     {title}
-                                </h2>
-                                <p className='font16 white fw500 mt-3 mb-lg-4 fontsfregular'>
+                                </h1>
+                                <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
                                 <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>
@@ -146,7 +146,7 @@ const Bannerdubai = ({ content }) => {
                         </Col>
                         <Col xl={5}>
                             <form className={styles.your} onSubmit={handleSubmit}>
-                                <h3 className='mb-4 white fw700'>Book a Free Consultation</h3>
+                                <h3 className='mb-4 white fw500'>Book a Free Consultation</h3>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>

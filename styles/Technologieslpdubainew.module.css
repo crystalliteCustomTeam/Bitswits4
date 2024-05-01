@@ -326,4 +326,8 @@
     line-height: 24px;
     text-align: justify;
   }
+
+  .colpont img {
+    margin-top: 25px;
+  }
 }

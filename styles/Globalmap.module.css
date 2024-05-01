@@ -1,6 +1,6 @@
 .mapGlobal {
   background-color: #f3f3f3;
-  margin: 80px 0 100px;
+  margin: 0px 0 100px;
   position: relative;
   height: 67vh;
 }
@@ -20,17 +20,18 @@
 
 .newtimg h3 {
   color: #f32f53;
-  font-size: 40px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 .newtimg .address {
   color: black;
   font-size: 25px;
   font-family: "SF-Pro-Display";
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
+  font-weight: 300;
 }
 
 .timr {
@@ -110,6 +111,18 @@
 @media screen and (max-width: 1400px) {
   .map {
     height: 440px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .newtimg h3 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .newtimg .address {
+    font-size: 21px;
+    padding-top: 3px;
   }
 }
 

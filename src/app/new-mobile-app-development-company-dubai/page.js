@@ -117,7 +117,7 @@ export default function dubaidevelopmentcompany() {
   // ClientContent
   const ClientContent = {
     title: <>Why Our Clients <span>Love</span> BitsWits <br /> for App Development </>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
+    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br className="d-xl-block d-none"/> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
   }
   //=====StoryLine Fold=====//
   const accordionData = [
@@ -167,7 +167,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ <br /> projects  for various audiences from different sectors and industries. </>,
+    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ <br className="d-xxl-block d-none"/> projects  for various audiences from different sectors and industries. </>,
     subtitleOne: "Soul Scribe ",
     subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
     subtitleTwo: "Ready App",
@@ -469,10 +469,10 @@ export default function dubaidevelopmentcompany() {
       <Houtondubai content={HoustonContent} />
       <DubaiBrandTrust />
       {/* <DeliveredBlack content={deliveredBlack} /> */}
-      <Technologieslpdubainew content={technologies} />
+      {/* <Technologieslpdubainew content={technologies} /> */}
       {/* <NewDubaiBussiness content={BussinessContent} /> */}
       {/* <DubaiDevelopment content={compareContent} /> */}
-      <DubaiDevelopmentUAE content={developmentUAE} />
+      {/* <DubaiDevelopmentUAE content={developmentUAE} /> */}
       {/* <DubaiIOS content={IOSContent} /> */}
       {/* <DubaiAndriod content={andriodContent} /> */}
       {/* <DubaiMobileApplication content={MobileApplication} /> */}

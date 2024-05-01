@@ -87,7 +87,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <Image alt='BitsWits' src={banImg2} className='img-fluid' />
                                     <h3 className=' black fw700'>Big Data</h3>
                                 </div>
-                                <p className='fw400 m-0'>Big Data technology monitors large data sources and provides strategic directions in real-time. Our top expert mobile app developers in Dubai gear their work towards Big Data technology which will lead to your customers taking notice and staying put. </p>
+                                <p className='m-0'>Big Data technology monitors large data sources and provides strategic directions in real-time. Our top expert mobile app developers in Dubai gear their work towards Big Data technology which will lead to your customers taking notice and staying put. </p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -97,7 +97,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <h3 className=' black fw700'>Internet of Things (IoT)</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>IoT technology provides an effective way of collecting, accessing, automating, and many other necessary functions in real-time. Incorporating the latest technologies and market trends, our team from the app developers Dubai are the ones that actually build applications. </p>
+                                <p className='m-0'>IoT technology provides an effective way of collecting, accessing, automating, and many other necessary functions in real-time. Incorporating the latest technologies and market trends, our team from the app developers Dubai are the ones that actually build applications. </p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -107,7 +107,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <h3 className=' black fw700'>Blockchain</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Blockchain technology provides a safe and transparent environment for transactions. We are always in contact with our clients in order to deliver them indigenious digital products, which are based on Blockchain technology.</p>
+                                <p className='m-0'>Blockchain technology provides a safe and transparent environment for transactions. We are always in contact with our clients in order to deliver them indigenious digital products, which are based on Blockchain technology.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -116,7 +116,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <Image alt='BitsWits' src={banImg6} className='img-fluid' />
                                     <h3 className=' black fw700'>AR/VR</h3>
                                 </div>
-                                <p className='fw400 m-0'>Through our high-end AR/VR app development services, take your business to new heights. We are all about making a difference by pushing the innovation within the virtual reality realm and creating a deep impact that connects, holds, and captive the users. </p>
+                                <p className='m-0'>Through our high-end AR/VR app development services, take your business to new heights. We are all about making a difference by pushing the innovation within the virtual reality realm and creating a deep impact that connects, holds, and captive the users. </p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -126,7 +126,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <h3 className=' black fw700'>AI/ML</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Experience the power of the future through our AI/ML apps. We used the most modern AI/ML technologies and developed very smart apps that constantly adjust and modify users' preferences.</p>
+                                <p className='m-0'>Experience the power of the future through our AI/ML apps. We used the most modern AI/ML technologies and developed very smart apps that constantly adjust and modify users' preferences.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -136,7 +136,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <h3 className=' black fw700'>Cloud Computing</h3>
 
                                 </div>
-                                <p className='fw400 m-0'>Experience the next level of business growth with our cloud computing solutions. With scalable and secure cloud services, you can conveniently store, manage, and analyze your data by trusting our expert app development company Dubai. </p>
+                                <p className='m-0'>Experience the next level of business growth with our cloud computing solutions. With scalable and secure cloud services, you can conveniently store, manage, and analyze your data by trusting our expert app development company Dubai. </p>
                             </div>
                         </Col>
 
@@ -155,7 +155,7 @@ export default function Expertappdubaiadvanced(props) {
                                             <Image alt='BitsWits' src={app.imageSrc} className='img-fluid mb-3' />
                                             <h3 className=' black fw700'>{app.title}</h3>
                                         </div>
-                                        <p className='fw400 m-0'>{app.description}</p>
+                                        <p className='m-0'>{app.description}</p>
                                     </div>
                                 </Col>
                             ))}

@@ -4,13 +4,13 @@
 
 .awardsHeading {
   font-size: 52px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 13px;
 }
 
 .awardSec p {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 26px;
   margin-bottom: 30px;
   padding-right: 16px;
@@ -115,6 +115,16 @@
 
 /* Media Query Start */
 
+@media only screen and (max-width: 1399px) {
+  .sliderTxt p {
+    font-size: 12px;
+  }
+
+  .sliderCards {
+    padding: 25px 10px;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .sliderCards {
     min-height: 280px;
@@ -124,6 +134,13 @@
   .imageDiv {
     min-height: 130px;
     max-height: 130px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .awardsHeading {
+    font-size: 45px;
+    line-height: 50px;
   }
 }
 

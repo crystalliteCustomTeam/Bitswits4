@@ -1,6 +1,6 @@
 .ourBlogs {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
 }
 
 .blogBox {
@@ -13,10 +13,10 @@
 .blogBtn {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   color: #fff;
   margin: 20px auto 0;
-  padding: 0 60px;  
+  padding: 0 60px;
   font-size: 18px;
 }
 
@@ -77,12 +77,13 @@
 .blogBox p {
   font-size: 17px;
   line-height: 26px;
+  color: black;
 }
 
 @media screen and (max-width: 991px) {
   .ourBlogs {
     padding-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 
   .blogBox h4 {

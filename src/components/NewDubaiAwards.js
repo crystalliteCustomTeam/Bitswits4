@@ -30,6 +30,12 @@ const NewDubaiAwards = ({ content }) => {
         cssEase: "linear",
         responsive: [
             {
+                breakpoint: 1099,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 2,

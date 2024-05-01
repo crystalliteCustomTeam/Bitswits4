@@ -22,7 +22,7 @@ const Faqdubai = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h4 className="font40 black f-700 center pb-3 pb-md-5">FAQ’s (Frequently Asked Questions)</h4>
+                            <h2 className="black f-500 center pb-3 pb-md-4 pb-xxl-5">FAQ’s (Frequently Asked Questions)</h2>
                             {props.faqsData.map((faq, index) => (
                                 <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-2 mb-md-4 mb-lg-0`}>
                                     <div>
