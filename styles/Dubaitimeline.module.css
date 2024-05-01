@@ -480,6 +480,15 @@
     .numberFour {
         left: -31px;
     }
+
+    .dotted {
+        left: 44px;
+        top: 10px;
+    }
+
+    .dotted {
+        --pulseSize: 11px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -734,6 +743,14 @@
         text-align: justify;
     }
 
+    .paddingTwo,
+    .paddingThree,
+    .paddingFour,
+    .paddingFive,
+    .paddingSix {
+        padding: 0px 12px 0 70px;
+    }
+
     .paddingTwo {
         padding: 0;
     }
@@ -815,5 +832,14 @@
     .paddingFour,
     .paddingFive {
         margin-bottom: 20px;
+    }
+
+    .dotted {
+        --pulseSize: 8px;
+    }
+
+    .dotted {
+        left: 45px;
+        top: 7px;
     }
 }

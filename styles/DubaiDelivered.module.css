@@ -30,8 +30,8 @@
     justify-content: center;
 }
 
-.btn a {   
-    color: white; 
+.btn a {
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,5 +187,9 @@
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 0;
+    }
+
+    .btn {
+        padding-top: 30px;
     }
 }

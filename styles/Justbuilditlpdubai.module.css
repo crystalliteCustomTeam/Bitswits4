@@ -260,4 +260,18 @@
     font-size: 16px;
     line-height: 26px;
   }
+
+  .pont {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about {
+    align-items: start;
+  }
+
+  .about1 {
+    align-items: end;
+  }
 }

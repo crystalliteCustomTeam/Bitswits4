@@ -142,6 +142,7 @@
     width: 40%;
     height: 40%;
     transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
 }
 
 .isActiveArrow img {
@@ -158,6 +159,31 @@
     background-color: red;
     box-shadow: 0 3px 10px #87929d;
     border-radius: 50px;
+}
+
+.nonActiveArrow img {
+    transform: rotate(0deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.nonActiveArrow:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: #000000ad;
+}
+
+.nonActiveArrow:hover img {
+    transition: all 0.4s ease-in-out;
+    transform: rotate(181deg);
+}
+
+.isActiveArrow:hover {
+    background-color: red;
+    transition: all 0.4s ease-in-out;
+}
+
+.isActiveArrow:hover img {
+    transform: rotate(0deg);
+    transition: all 0.4s ease-in-out;
 }
 
 /* media Query Start */
@@ -294,5 +320,11 @@
         font-size: 16px;
         line-height: 24px;
         text-align: justify;
+    }
+
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }
