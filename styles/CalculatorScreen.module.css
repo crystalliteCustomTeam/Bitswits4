@@ -37,7 +37,7 @@
   display: none;
 }
 
-.bar.active::before {
+.bar.done::before {
   border-bottom: 2px dotted #f22f53;
 }
 
@@ -53,16 +53,20 @@
   justify-content: center;
 }
 
-.bar.active span {
+.bar.done span {
   background-color: #f22f53;
   border: #f22f53;
+}
+
+.bar.active span {
+  border-color: #f22f53;
 }
 
 .bar span .check {
   display: none;
 }
 
-.bar.active .check {
+.bar.done .check {
   width: 60%;
   display: block;
 }
@@ -105,26 +109,6 @@
   margin-top: 15px;
 }
 
-.checkBoxs .imgBox,
-.checkBoxs .costBox1,
-.checkBoxs .costBox2,
-.checkBoxs .costBox3,
-.checkBoxs .fromBox {
-  display: none;
-}
-
-.checkBox {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #fff;
-  margin: 15px 0;
-  padding: 25px 20px;
-  border-left: 4px solid #f22f53;
-  cursor: pointer;
-}
-
 .checkBox:first-child {
   margin-top: 0;
 }
@@ -133,46 +117,49 @@
   margin-bottom: 20px;
 }
 
-.checkBox.checked {
-  background-color: #f22f53;
-}
-
 .checkboxInput {
   display: none;
 }
 
 .checkboxLabel {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
   width: 100%;
-  gap: 15px;
+  background-color: #fff;
+  margin: 15px 0;
+  padding: 25px 20px;
+  border-left: 4px solid #f22f53;
+  cursor: pointer;
 }
 
-.checkboxCustom {
-  width: 25px;
-  height: 25px;
-  border: 2px solid #d2d2d2;
-}
-
-.checkboxContent {
-  flex: 1;
-}
-
-.checkboxCustom.checked {
-  border: 2px solid #fff;
-}
-
-.checkboxCustom.checked::after {
+.checkboxLabel::before {
   content: "\2713";
   font-size: 16px;
   color: white;
   display: block;
   text-align: center;
   line-height: 20px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #d2d2d2;
+  position: absolute;
+  right: 2%;
+  top: 35%;
 }
 
-.checkboxCustom.checked + .checkBox {
+.checkBox input[type="checkbox"]:checked + .checkboxLabel::before {
   background-color: #f22f53;
+  border: 2px solid #fff;
+}
+
+.checkBox input[type="checkbox"]:checked + .checkboxLabel {
+  background-color: #f22f53;
+}
+
+.checkboxContent {
+  flex: 1;
 }
 
 .checkBox h4 {
@@ -187,10 +174,11 @@
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 0;
+  max-width: 80%;
 }
 
-.checkBox.checked h4,
-.checkBox.checked p {
+.checkBox input[type="checkbox"]:checked + .checkboxLabel h4,
+.checkBox input[type="checkbox"]:checked + .checkboxLabel p {
   color: #fff;
 }
 
@@ -239,6 +227,10 @@
 
 .checkBoxs2 .checkBox {
   width: 48%;
+}
+
+.checkBoxs2 .checkboxLabel {
+  width: 100%;
   height: 280px;
   display: flex;
   align-items: flex-start;
@@ -249,7 +241,6 @@
 }
 
 .checkBoxs2 .costBox1 {
-  display: block;
   width: 100%;
 }
 
@@ -258,17 +249,13 @@
   width: 10%;
 }
 
-.checkBoxs2 .checkboxLabel {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  height: 100%;
+.checkBoxs2 .imgBox3 {
+  width: 8%;
 }
 
-.checkBoxs2 .checkboxCustom {
-  position: absolute;
+.checkBoxs2 .checkboxLabel::before {
   right: 5%;
+  top: 8%;
 }
 
 .checkBoxs2 .checkBox h4 {
@@ -284,7 +271,7 @@
 }
 
 .checkBoxs2 .checkBox .cost {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   color: #f22f53;
   text-align: right;
@@ -318,7 +305,6 @@
 }
 
 .checkBoxs3 .imgBox {
-  display: block;
   width: 12%;
 }
 
@@ -330,9 +316,9 @@
   height: 100%;
 }
 
-.checkBoxs3 .checkboxCustom {
-  position: absolute;
+.checkBoxs3 .checkboxLabel::before {
   right: 5%;
+  top: 3%;
 }
 
 .checkBoxs3 .checkBox h4 {
@@ -380,10 +366,6 @@
   position: unset;
 }
 
-.checkBox.checked .costBox2 p {
-  color: #fff;
-}
-
 /* ============ */
 
 .checkBoxs3 .costBox3 {
@@ -392,7 +374,7 @@
   width: 100%;
 }
 
-.checkBoxs3 .costBox4 {
+.costBox4 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -411,21 +393,34 @@
   width: 8%;
 }
 
-.checkBoxs3 .costBox3 h5 {
+.checkBoxs3 .headBox .imgMock {
+  width: 12%;
+}
+
+.checkBoxs3 .costBox4 h5 {
   font-size: 18px;
   font-weight: 500;
   color: #000;
   margin-bottom: 0;
 }
 
-.checkBoxs3 .costBox3 ul {
+.checkBoxs3 .costBox4 ul {
   margin-top: 20px;
   padding-left: 20px;
 }
 
-.checkBoxs3 .costBox3 ul li {
+.checkBoxs3 .costBox4 ul li {
   list-style-type: disc;
   margin: 5px 0;
+}
+
+.checkBox input[type="checkbox"]:checked + .checkboxLabel h5,
+.checkBox input[type="checkbox"]:checked + .checkboxLabel ul li {
+  color: #fff;
+}
+
+.checkBox input[type="checkbox"]:checked + .checkboxLabel .headBox img {
+  filter: invert(1);
 }
 
 /* =============================== */
@@ -492,6 +487,7 @@
   gap: 50px;
   height: 100%;
   width: 90%;
+  margin: 0 auto;
 }
 
 .para {
@@ -514,7 +510,7 @@
   border-radius: 25px;
   box-shadow: rgba(211, 211, 211, 0.12) 0px 2px 4px 0px,
     rgba(211, 211, 211, 0.32) 0px 2px 16px 0px;
-  height: 438px;
+  /* height: 438px; */
   overflow: hidden;
 }
 
@@ -561,15 +557,15 @@
     padding: 0 45px;
   }
 
-  .imgBg {
+  /* .imgBg {
     width: 55%;
     height: 420px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1299px) {
-  .imgBg {
+  /* .imgBg {
     width: 55%;
     height: 370px;
-  }
+  } */
 }

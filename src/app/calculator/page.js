@@ -1,10 +1,10 @@
 //Components
-import ScreenCalculator from "@/src/components/ScreenCalculator";
+import CalculatorScreen from "@/src/components/CalculatorScreen";
 
 export default function Page() {
   return (
     <>
-      <ScreenCalculator />
+      <CalculatorScreen />
     </>
   );
 }
