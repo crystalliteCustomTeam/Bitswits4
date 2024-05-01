@@ -494,23 +494,23 @@ export default function gamedevelopmentcompany() {
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`
-                    {
-                      "@context": "https://schema.org/", 
-                      "@type": "Product", 
-                      "name": “2D Game Development Company",
-                      "image": “https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbann.35180669.png&w=1920&q=75",
-                      "description": From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your imagination and keep your prospects hooked for hours on end.,
-                      "brand": {
-                        "@type": "Brand",
-                        "name": "BitsWits"
-                      },
-                      "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": "4.9",
-                        "ratingCount": "1174"
-                      }                    
-                    }
-                `}
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "2D Game Development Company",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbann.35180669.png&w=1920&q=75",
+            "description": "From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your imagination and keep your prospects hooked for hours on end.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            }
+          }
+        `}
       </Script>
     </>
   );
