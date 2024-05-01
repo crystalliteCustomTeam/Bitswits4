@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Row, Col } from "react-bootstrap";
-import styles from "@/styles/CalculatoScreens.module.css";
+import styles from "@/styles/CalculatoScreen.module.css";
 
 const CalcuForm = () => {
 
