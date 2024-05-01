@@ -105,15 +105,17 @@
 
 .bussinessEmpower .storyLineImages {
     object-fit: contain;
-    max-height: 600px;
+    max-height: 590px;
 }
 
 .isActive {
     border-bottom: 1px solid #F32F53;
+    padding-bottom: 10px;
 }
 
 .nonActive {
     border-bottom: 1px solid #707070;
+    padding-bottom: 10px;
     width: 660px;
 }
 
@@ -201,6 +203,10 @@
         line-height: 32px;
         width: 895px;
     }
+
+    .storyLineImages {
+        max-width: 435px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -211,8 +217,8 @@
     }
 
     .bussinessEmpower h2 {
-        font-size: 35px; 
-        line-height: 45px; 
+        font-size: 35px;
+        line-height: 45px;
         margin-bottom: 5px;
     }
 
@@ -238,6 +244,10 @@
 
     .bussinessEmpower h5 {
         font-size: 20px;
+    }
+
+    .storyLineImages {
+        max-width: 410px;
     }
 }
 
@@ -270,6 +280,10 @@
     .nonActiveArrow {
         width: 24px;
         height: 24px;
+    }
+
+    .storyLineImages {
+        max-width: 330px;
     }
 }
 

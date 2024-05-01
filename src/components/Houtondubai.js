@@ -82,20 +82,22 @@ const Processpro = ({ content }) => {
                                 </select>
                             ) : (
                                 <>
-                                    <nav className={`${styles.applicationlong} newfinfler`}>
-                                        <ul className="position-sticky top-0">
-                                            {menus.map((menu, index) => (
-                                                <li key={index} className={visibleSection === menu ? styles.active : ""}>
-                                                    <a href={`#${menu}`}>{menu}</a>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </nav>
-                                    <div className={styles.btn}>
-                                        <Link href="javascript:;">
-                                            <span>Book A Consultation Now!</span>
-                                            <span>Book A Consultation Now!</span>
-                                        </Link>
+                                    <div className={styles.headings}>
+                                        <nav className={`${styles.applicationlong} newfinfler`}>
+                                            <ul className="position-sticky top-0">
+                                                {menus.map((menu, index) => (
+                                                    <li key={index} className={visibleSection === menu ? styles.active : ""}>
+                                                        <a href={`#${menu}`}>{menu}</a>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </nav>
+                                        <div className={styles.btn}>
+                                            <Link href="javascript:;">
+                                                <span>Book A Consultation Now!</span>
+                                                <span>Book A Consultation Now!</span>
+                                            </Link>
+                                        </div>
                                     </div>
                                 </>
                             )}

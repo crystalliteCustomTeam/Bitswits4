@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/bannerdubainew.module.css";
+// images 
+import badgeClient from "media/newdubai/badgesClient.png"
+import Star from "media/newDubaiPagev1/star.png"
+import Clutch from "media/newDubaiPagev1/clutch.png"
 
 const dubaiBackground = `${styles.newHomeBg}`;
 const houstonBackground = `${styles.newHoustonBg}`;
@@ -142,6 +147,29 @@ const Bannerdubai = ({ content }) => {
                                     <span>Let’s Build Your Dream App!</span>
                                     <span>Let’s Build Your Dream App!</span>
                                 </Link>
+                            </div>
+                            <div className={styles.badge}>
+                                <div className={`d-flex align-items-center ${styles.clientRviews}`}>
+                                    <div>
+                                        <Image src={badgeClient} alt='Bitswits' width={183} height={80} />
+                                    </div>
+                                    <div>
+                                        <div className={styles.reviews}>
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                        </div>
+                                        <p className='mb-0'>
+                                            <strong>4.8 out of 5</strong> (review rating)
+                                            Over 1,200+ reviews
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <Image src={Clutch} alt='Bitswits' width={129} height={60} />
+                                </div>
                             </div>
                         </Col>
                         <Col xl={5}>

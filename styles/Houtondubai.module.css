@@ -1,12 +1,16 @@
 .houston {
   position: relative;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   margin-bottom: 80px;
 }
 
 .applicationlong {
   position: relative;
   padding: 10px 0;
+}
+
+.headings {
+  padding: 100px 0;
 }
 
 .understand h5 {
@@ -38,10 +42,10 @@
 .posto {
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 500px;
+  height: 654px;
   overflow: scroll;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 0px;
   padding: 50px;
 }
 
@@ -194,6 +198,10 @@
   height: 100%;
   border-radius: 15px;
   background-color: #f32f53;
+}
+
+.active a {
+  color: #f32f53 !important;
 }
 
 .btn {

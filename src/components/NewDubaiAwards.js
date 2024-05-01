@@ -90,17 +90,6 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Horizon Award</h6>
-                                                <p className='mb-0 fontsfregular '>Gold Award Winner <br className="d-lg-block d-none" /> 2020</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='px-2 px-lg-1'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
                                                 <Image src={Slider2} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
@@ -123,12 +112,11 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider4} alt="Bitswits" width={67} height={100} className='mx-auto' />
+                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
-                                                <h6>Rank Watch</h6>
-                                                <p className='mb-0 fontsfregular'>Top Web Development
-                                                    Agencies 2023</p>
+                                                <h6>Horizon Award</h6>
+                                                <p className='mb-0 fontsfregular '>Gold Award Winner <br className="d-lg-block d-none" /> 2020</p>
                                             </div>
                                         </div>
                                     </div>
@@ -199,20 +187,6 @@ const NewDubaiAwards = ({ content }) => {
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Rated</h6>
                                                 <p className='mb-0 fontsfregular'>Top App Development Companies</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='px-2 px-lg-1'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider11} alt="Bitswits" width={138} height={100} className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Web Excelllence</h6>
-                                                <p className='mb-0 fontsfregular'>
-                                                    Web Excellence <br className="d-lg-block d-none" />
-                                                    Awards
-                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -252,18 +226,6 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider4} alt="Bitswits" width={67} height={100} className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Rank Watch</h6>
-                                                <p className='mb-0 fontsfregular'>Top Web Development
-                                                    Agencies 2023</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='px-2 px-lg-1'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
                                                 <Image src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
@@ -328,20 +290,6 @@ const NewDubaiAwards = ({ content }) => {
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Rated</h6>
                                                 <p className='mb-0 fontsfregular'>Top App Development Companies</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='px-2 px-lg-1'>
-                                        <div className={styles.sliderCards}>
-                                            <div className={styles.imageDiv}>
-                                                <Image src={Slider11} alt="Bitswits" width={138} height={100} className='mx-auto' />
-                                            </div>
-                                            <div className={styles.sliderTxt}>
-                                                <h6>Web Excelllence</h6>
-                                                <p className='mb-0 fontsfregular'>
-                                                    Web Excellence <br className="d-lg-block d-none" />
-                                                    Awards
-                                                </p>
                                             </div>
                                         </div>
                                     </div>

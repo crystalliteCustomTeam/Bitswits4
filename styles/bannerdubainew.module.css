@@ -187,7 +187,7 @@
   justify-content: center;
   color: white;
   border-radius: 4px;
-  font-weight: bold;
+  font-weight: 300;
   letter-spacing: 1px;
   margin-top: 20px;
   position: relative;
@@ -755,6 +755,34 @@
   border: 1px solid #707070;
 }
 
+.badge {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  width: 590px;
+}
+
+.clientRviews {
+  width: 500px;
+}
+
+.badge p {
+  font-size: 14px;
+  color: white;
+  line-height: 23px;
+  width: 208px;
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
 /* =========================================== */
 
 @media screen and (min-width: 1700px) {
@@ -1298,6 +1326,20 @@
   .oppp p {
     padding-right: 0;
   }
+
+  .badge {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .clientRviews {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1318,7 +1360,7 @@
     flex-wrap: wrap;
   }
 
-  .conform h2 {
+  .conform h1 {
     font-size: 32px;
     line-height: 1.3;
     padding-right: 0;
@@ -1357,4 +1399,6 @@
     width: 100%;
     height: 45px;
   }
+
+
 }
