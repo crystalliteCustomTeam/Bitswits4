@@ -72,7 +72,7 @@ const Processpro = ({ content }) => {
             <section className={styles.houston}>
                 <Container>
                     <Row className={styles.tone}>
-                        <Col lg={5} className='p-0 text-center'>
+                        <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
                             {isMobile ? (
                                 <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
                                     <option value={visibleSection}>{visibleSection}</option>
@@ -84,7 +84,7 @@ const Processpro = ({ content }) => {
                                 <>
                                     <div className={styles.headings}>
                                         <nav className={`${styles.applicationlong} newfinfler`}>
-                                            <ul className="position-sticky top-0">
+                                            <ul>
                                                 {menus.map((menu, index) => (
                                                     <li key={index} className={visibleSection === menu ? styles.active : ""}>
                                                         <a href={`#${menu}`}>{menu}</a>
@@ -93,9 +93,8 @@ const Processpro = ({ content }) => {
                                             </ul>
                                         </nav>
                                         <div className={styles.btn}>
-                                            <Link href="javascript:;">
-                                                <span>Book A Consultation Now!</span>
-                                                <span>Book A Consultation Now!</span>
+                                            <Link href="javascript:;" className="pink">
+                                                Book A Consultation Now!
                                             </Link>
                                         </div>
                                     </div>

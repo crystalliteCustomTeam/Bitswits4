@@ -5,6 +5,9 @@ import Slider from 'react-slick';
 import { Col, Row } from 'react-bootstrap';
 import styles from '@/styles/Industries.module.css';
 // Images
+import realState from "media/newdubai/real-state.jpg"
+import gaming from "media/newdubai/gaming-industries.jpg"
+import information from "media/newdubai/information-technology.jpg"
 import SliderOne from 'media/newdubai/slider-bg-5.webp';
 import SliderTwo from 'media/newdubai/slider-bg-6.jpg';
 import SliderThree from 'media/newdubai/slider-bg-7.jpg';
@@ -20,6 +23,21 @@ const Industries = () => {
     const [backgroundImage, setBackgroundImage] = useState(null);
 
     const sliderContent = [
+        {
+            title: 'Real State',
+            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            href: '#',
+        },
+        {
+            title: 'Gaming',
+            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            href: '#',
+        },
+        {
+            title: 'Information Technology',
+            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            href: '#',
+        },
         {
             title: 'Ecommerce',
             desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
@@ -47,7 +65,7 @@ const Industries = () => {
         },
     ];
 
-    const sliderImages = [SliderOne, SliderTwo, SliderThree, SliderFour, SliderSeven, SliderFive, SliderSix];
+    const sliderImages = [realState, gaming, information, SliderOne, SliderTwo, SliderThree, SliderFour, SliderSeven, SliderFive, SliderSix];
 
     useEffect(() => {
         setBackgroundImage(sliderImages[activeSlide]);
@@ -108,7 +126,7 @@ const Industries = () => {
                             {sliderContent.map((content, index) => (
                                 <div key={index} className={styles.mainDiv}>
                                     <div
-                                        className={`px-3 ${styles.sliderDiv} sliderDiv`}
+                                        className={`px-3 ${styles.sliderDiv}`}
                                         onMouseEnter={() => handleMouseEnter(index)}
                                         onMouseLeave={handleMouseLeave}>
                                         <div className={`card ${styles.card}`}>

@@ -15,13 +15,8 @@ const Globalmap = () => {
                 <h3>Meet Our Experts <br></br>
                   One-on-One</h3>
                 <Link className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
-                <Link className={styles.timr} href="javascript:$zopim.livechat.window.show();">
-                  <span>
-                    Let's Chat
-                  </span>
-                  <span>
-                    Let's Chat
-                  </span>
+                <Link className={`pink ${styles.timr}`} href="javascript:$zopim.livechat.window.show();">
+                  Let's Chat
                 </Link>
                 <p className="black mb-0">Call us at <Link className={styles.num} href="tel:+971551659060">+971 551 659060</Link> </p>
               </div>

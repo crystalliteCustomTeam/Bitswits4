@@ -181,7 +181,7 @@
 .deliver {
   width: 300px;
   height: 50px;
-  /* background-color: #f32f53; */
+  background-color: #f32f53;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +195,7 @@
   perspective: 300px;
 }
 
-.deliver span {
+/* .deliver span {
   background-color: #f32f53;
   border-radius: 4px;
   display: block;
@@ -243,7 +243,7 @@
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
-}
+} */
 
 .postimg img {
   transition: all 1s ease-out;
@@ -689,59 +689,12 @@
 }
 
 .value {
-  border: 0;
-  background: 0;
-}
-
-.value span {
+  border: 0; 
   background-color: #f32f53;
-  border-radius: 4px;
-  display: block;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 300px;
   height: 45px;
-  margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.value span:nth-child(1) {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.value span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.value:hover span:nth-child(1) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-
-.value:hover span:nth-child(2) {
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-}
+  border-radius: 5px;
+} 
 
 .your textarea:focus {
   background-color: unset;

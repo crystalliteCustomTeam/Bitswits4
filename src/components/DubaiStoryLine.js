@@ -76,13 +76,8 @@ const StoryLine = ({ content }) => {
                                             <>
                                                 <p className="fontsfregular">{item.answer}</p>
                                                 <div className={` ${styles.btn}`}>
-                                                    <Link href="javascript:;">
-                                                        <span>
-                                                            {item.btn}
-                                                        </span>
-                                                        <span>
-                                                            {item.btn}
-                                                        </span>
+                                                    <Link href="javascript:;" className="pink"> 
+                                                            {item.btn} 
                                                     </Link>
                                                 </div>
                                             </>

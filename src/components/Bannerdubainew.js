@@ -143,9 +143,8 @@ const Bannerdubai = ({ content }) => {
                                 <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>
-                                    <span>Let’s Build Your Dream App!</span>
-                                    <span>Let’s Build Your Dream App!</span>
+                                <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
+                                    Let’s Build Your Dream App!
                                 </Link>
                             </div>
                             <div className={styles.badge}>
@@ -182,9 +181,8 @@ const Bannerdubai = ({ content }) => {
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                 {/* <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input> */}
-                                <button className={styles.value} type='submit'>
-                                    <span>Submit</span>
-                                    <span>Submit</span>
+                                <button className={`pink ${styles.value}`} type='submit'>
+                                    Submit
                                 </button>
                             </form>
                         </Col>

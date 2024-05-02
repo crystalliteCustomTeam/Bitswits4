@@ -132,9 +132,8 @@ const Brand = (props) => {
                       <textarea placeholder="Write message here..." className={styles.message} name='comment' rows="4" cols="50" />
                     </div>
                     <div className={styles.chill}>
-                      <button type='submit'>
-                        <span>Submit</span>
-                        <span>Submit</span>
+                      <button type='submit' className='pink'>
+                        Submit
                       </button>
                       {/* <input type="submit" placeholder="Submit" value={score} /> */}
                     </div>
