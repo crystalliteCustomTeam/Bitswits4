@@ -471,8 +471,7 @@ export default function dubaidevelopmentcompany() {
       <Delivered content={delivered} />
       <Industries />
       <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust />
-      <Houtondubai content={HoustonContent} />
+      <DubaiBrandTrust /> 
       {/* <DeliveredBlack content={deliveredBlack} /> */}
       {/* <Technologieslpdubainew content={technologies} /> */}
       {/* <NewDubaiBussiness content={BussinessContent} /> */}
