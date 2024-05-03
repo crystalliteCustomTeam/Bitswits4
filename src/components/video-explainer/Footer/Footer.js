@@ -135,7 +135,7 @@ const VideoFooter = () => {
 
                 let bodyContent = JSON.stringify({
                     IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-                    Brand: "Infinity Animation",
+                    Brand: "Bitswits",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,
