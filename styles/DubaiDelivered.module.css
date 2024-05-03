@@ -207,7 +207,7 @@
     .txt {
         position: inherit;
         width: 100%;
-        transform: inherit !important;
+        transform: inherit !important   ;
     }
 }
 
