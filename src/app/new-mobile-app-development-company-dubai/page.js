@@ -4,15 +4,20 @@ import React, { useEffect, useState } from "react";
 import Bannerdubai from "../../components/Bannerdubainew";
 import Whowearenew from "../../components/Whowearenew";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Globallplp6dubai from "../../components/Globallplp6dubai";
-import Faqdubai from "../../components/Faqdubai";
-import Technologieslpdubainew from "../../components/Technologieslpdubainew";
-import LpChoosedubaishipnewdubai from "../../components/LpChoosedubaishipnewdubai";
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"; 
+import Faqdubai from "../../components/Faqdubai"; 
 import Globalmap from "../../components/Globalmap";
 import Brand from "../../components/Brand";
 import Latestblog from "../../components/Latestblog";
 import Houtondubai from "../../components/Houtondubai";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards"; 
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import StoryLine from "@/src/components/DubaiStoryLine";  
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 //Images 
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
@@ -24,23 +29,6 @@ import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
 import Building from "/public/newDubaiPagev1/builingImage.png";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import DubiaDevelopers from "@/src/components/DubiaDevelopers";
-import DubaiDelivered from "@/src/components/DubaiDelivered";
-import DubaiTimeline from "@/src/components/DubaiTimeline";
-import DubaiClients from "@/src/components/DubaiClients";
-import StoryLine from "@/src/components/DubaiStoryLine";
-import DeliveredBlack from "@/src/components/DeliveredBlack";
-import NewDubaiBussiness from "@/src/components/NewDubaiBussiness";
-import DubaiDevelopment from "@/src/components/DubaiDevelopment";
-import DubaiDevelopmentUAE from "@/src/components/DubaiDevelopmentUAE";
-import DubaiIOS from "@/src/components/DubaiIOS";
-import DubaiAndriod from "@/src/components/DubaiAndriod";
-import DubaiMobileApplication from "@/src/components/DubaiMobileApplication";
-import DubaiConquered from "@/src/components/DubaiConquered";
-import Delivered from "@/src/components/Delivered";
-import Industries from "@/src/components/Industries";
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 
 export default function dubaidevelopmentcompany() {
   const blogBox = [
@@ -471,27 +459,14 @@ export default function dubaidevelopmentcompany() {
       <Delivered content={delivered} />
       <Industries />
       <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust /> 
-      {/* <DeliveredBlack content={deliveredBlack} /> */}
-      {/* <Technologieslpdubainew content={technologies} /> */}
-      {/* <NewDubaiBussiness content={BussinessContent} /> */}
-      {/* <DubaiDevelopment content={compareContent} /> */}
-      {/* <DubaiDevelopmentUAE content={developmentUAE} /> */}
-      {/* <DubaiIOS content={IOSContent} /> */}
-      {/* <DubaiAndriod content={andriodContent} /> */}
-      {/* <DubaiMobileApplication content={MobileApplication} /> */}
-      {/* <DubaiConquered content={Conquered} /> */}
-      {/* <LpChoosedubaishipnewdubai
-        transform="transformlp"
-      /> */}
+      <DubaiBrandTrust />  
       <Expertappdubaiadvanced expertapp="expertapp" />
       <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
-      />
-      {/* <Globallplp6dubai /> */}
+      /> 
       <Brand />
       <Faqdubai
         faqsData={[

@@ -17,10 +17,10 @@ const Section = ({ section, refCallback }) => {
 };
 
 const Processpro = ({ content }) => {
-    const { menus, sections } = content
+    const { menus, sections } = content;
     const [isMobile, setIsMobile] = useState(false);
-    const [selectedSection, setSelectedSection] = useState(null);
-    const [visibleSection, setVisibleSection] = useState(menus[1]);
+    const [selectedSection, setSelectedSection] = useState(menus[0]); // Initialize selectedSection to the first menu item
+    const [visibleSection, setVisibleSection] = useState(menus[0]); // Initialize visibleSection to the first menu item
     const sectionsRef = useRef([]);
 
     useEffect(() => {
@@ -66,53 +66,51 @@ const Processpro = ({ content }) => {
     const handleOnChangeSelect = (e) => {
         setSelectedSection(e.target.value);
         setVisibleSection(e.target.value);
-    }
-    return (
-        <>
-            <section className={styles.houston}>
-                <Container>
-                    <Row className={styles.tone}>
-                        <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
-                            {isMobile ? (
-                                <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
-                                    <option value={visibleSection}>{visibleSection}</option>
-                                    {menus.map((menu, index) => (
-                                        <option key={index} value={menu}>{menu}</option>
-                                    ))}
-                                </select>
-                            ) : (
-                                <>
-                                    <div className={styles.headings}>
-                                        <nav className={`${styles.applicationlong} newfinfler`}>
-                                            <ul>
-                                                {menus.map((menu, index) => (
-                                                    <li key={index} className={visibleSection === menu ? styles.active : ""}>
-                                                        <a href={`#${menu}`}>{menu}</a>
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </nav>
-                                        <div className={styles.btn}>
-                                            <Link href="javascript:;" className="pink">
-                                                Book A Consultation Now!
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </>
-                            )}
-                        </Col>
-                        <Col lg={7}>
-                            <div className={`${styles.posto} newscoolr`}>
-                                {sections.map((section, index) => (
-                                    <Section {...{ section, refCallback }} key={index} />
-                                ))}
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-        </>
-    )
-}
+    };
 
-export default Processpro
+    return (
+        <section className={styles.houston}>
+            <Container>
+                <Row className={styles.tone}>
+                    <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
+                        {isMobile ? (
+                            <select onChange={handleOnChangeSelect} value={selectedSection}>
+                                {menus.map((menu, index) => (
+                                    <option key={index} value={menu}>{menu}</option>
+                                ))}
+                            </select>
+                        ) : (
+                            <>
+                                <div className={styles.headings}>
+                                    <nav className={`${styles.applicationlong} newfinfler`}>
+                                        <ul>
+                                            {menus.map((menu, index) => (
+                                                <li key={index} className={visibleSection === menu ? styles.active : ""}>
+                                                    <a href={`#${menu}`} onClick={() => setSelectedSection(menu)}>{menu}</a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </nav>
+                                    <div className={styles.btn}>
+                                        <Link href="javascript:;" className="pink">
+                                            Book A Consultation Now!
+                                        </Link>
+                                    </div>
+                                </div>
+                            </>
+                        )}
+                    </Col>
+                    <Col lg={7}>
+                        <div className={`${styles.posto} newscoolr`}>
+                            {sections.map((section, index) => (
+                                <Section {...{ section, refCallback }} key={index} />
+                            ))}
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+    );
+};
+
+export default Processpro;
