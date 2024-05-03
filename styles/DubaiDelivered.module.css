@@ -119,10 +119,10 @@
 
 @media only screen and (max-width: 1399px) {
     .DubaiDelivered h2 {
-        font-size: 35px;
+        font-size: 40px;
         line-height: 45px;
         max-width: 900px;
-        margin: 0 auto;
+        margin: 0 auto 15px;
         display: block;
     }
 
@@ -159,7 +159,7 @@
     .secImageFour {
         height: 80%;
         max-width: 300px;
-        min-width: 278px; 
+        min-width: 278px;
     }
 }
 
@@ -207,7 +207,7 @@
     .txt {
         position: inherit;
         width: 100%;
-        transform: inherit !important   ;
+        transform: inherit !important;
     }
 }
 

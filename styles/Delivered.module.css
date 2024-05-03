@@ -55,12 +55,12 @@
 
 /* Media Query Start */
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1399px) {
   .counter h2 {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 40px;
+    line-height: 45px;
   }
-}
+} 
 
 @media screen and (max-width: 1024px) {
   .counter h2 {

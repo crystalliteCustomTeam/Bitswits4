@@ -12,8 +12,8 @@ const Globalmap = () => {
           <Row className="align-items-center">
             <Col lg={6} className="p-0">
               <div className={styles.newtimg}>
-                <h3>Meet Our Experts <br></br>
-                  One-on-One</h3>
+                <h2>Meet Our Experts <br></br>
+                  One-on-One</h2>
                 <Link className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
                 <Link className={`pink ${styles.timr}`} href="javascript:$zopim.livechat.window.show();">
                   Let's Chat

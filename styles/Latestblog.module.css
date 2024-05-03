@@ -34,6 +34,8 @@
   color: black;
 }
 
+/* Media Query Start */ 
+
 @media screen and (max-width: 991px) {
   .ourBlogs {
     padding-top: 0;

@@ -84,7 +84,7 @@
   font-family: "SF-Pro-Display";
 }
 
-.level h3 {
+.level h2 {
   font-family: "SF-Pro-Display";
   font-size: 55px;
   font-weight: 500;
@@ -93,7 +93,7 @@
   padding-bottom: 15px;
 }
 
-.level h3 span {
+.level h2 span {
   color: #f32f53;
 }
 
@@ -124,6 +124,11 @@
     padding-top: 35px;
     padding-bottom: 35px;
   }
+
+  .level h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -135,11 +140,6 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     margin-bottom: 1%;
-  }
-
-  .level h3 {
-    font-size: 45px;
-    line-height: 55px;
   }
 }
 
@@ -161,14 +161,14 @@
     padding: 25px;
   }
 
-  .level h3 {
+  .level h2 {
     font-size: 35px;
     line-height: 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .level h3 {
+  .level h2 {
     font-size: 30px;
   }
 }
@@ -201,7 +201,7 @@
     width: 100%;
   }
 
-  .level h3 {
+  .level h2 {
     font-size: 32px;
     line-height: 1.3;
     text-align: center;

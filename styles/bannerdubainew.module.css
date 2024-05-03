@@ -689,12 +689,12 @@
 }
 
 .value {
-  border: 0; 
+  border: 0;
   background-color: #f32f53;
   width: 300px;
   height: 45px;
   border-radius: 5px;
-} 
+}
 
 .your textarea:focus {
   background-color: unset;
@@ -764,35 +764,35 @@
 
 @media screen and (max-width: 1999px) {
   .newHomeBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newHoustonBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newDallasBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newNewYorkBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .neWashingtonBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newAustinBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newChicagoBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newMiamiBg {
-    height: 93dvh;
+    height: 85dvh;
   }
 
   .newTorontoBg {
@@ -906,6 +906,12 @@
 @media screen and (max-width: 1499px) {
   .your {
     width: 90%;
+  }
+
+  .oppp h1 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-right: 0px;
   }
 }
 

@@ -59,9 +59,9 @@ const NewDubaiAwards = ({ content }) => {
                         <Col md={4}>
                             <div>
                                 <div className={styles.txt}>
-                                    <h3 className={styles.awardsHeading}>
+                                    <h2 className={styles.awardsHeading}>
                                         {title}
-                                    </h3>
+                                    </h2>
                                     <p className='fontsfregular'>
                                         {desc}
                                     </p>

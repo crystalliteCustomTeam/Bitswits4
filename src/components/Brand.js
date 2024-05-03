@@ -116,8 +116,8 @@ const Brand = (props) => {
             </Col>
             <Col lg={8}>
               <div className={styles.level}>
-                <h3> <span>Let’s Level Up</span> Your <br></br>
-                  Brand, Together</h3>
+                <h2> <span>Let’s Level Up</span> Your <br></br>
+                  Brand, Together</h2>
                 <form className={styles.your} onSubmit={handleSubmit}>
                   <div>
                     <div className={styles.chill}>

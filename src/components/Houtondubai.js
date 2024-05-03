@@ -20,7 +20,7 @@ const Processpro = ({ content }) => {
     const { menus, sections } = content
     const [isMobile, setIsMobile] = useState(false);
     const [selectedSection, setSelectedSection] = useState(null);
-    const [visibleSection, setVisibleSection] = useState(menus[0]);
+    const [visibleSection, setVisibleSection] = useState(menus[1]);
     const sectionsRef = useRef([]);
 
     useEffect(() => {

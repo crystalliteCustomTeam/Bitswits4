@@ -163,6 +163,11 @@
     .storyLineImages {
         max-width: 435px;
     }
+
+    .bussinessEmpower h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {

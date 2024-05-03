@@ -222,6 +222,17 @@
 
 /* ==================================== */
 
+@media only screen and (max-width:1399px) {
+  .understand h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .posto {
+    padding: 50px 20px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .application h2 {
     font-size: 30px;
