@@ -5,6 +5,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .DubaiDelivered h2 {
@@ -33,64 +34,18 @@
 
 .btn a {
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 2px;
-    padding-top: 20px;
-}
-
-.btn span {
     background-color: #f32f53;
     border-radius: 4px;
     display: block;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 320px;
     height: 50px;
-    margin: 0;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
 }
 
-.btn span:nth-child(1) {
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-}
-
-.btn span:nth-child(2) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-}
-
-.btn:hover span:nth-child(1) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-}
-
-.btn:hover span:nth-child(2) {
-    color: transparent;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-}
-
-.particleOne {
+/* .particleOne {
     position: absolute;
     top: 0;
     left: -2%;
@@ -124,18 +79,101 @@
     max-width: 450px;
     max-height: 286px;
     object-fit: contain;
+} */
+
+.txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) !important;
+    width: 62%;
 }
 
 /* media Query start */
 
+@media only screen and (max-width: 1920px) {
+    .secImage {
+        height: 60%;
+    }
+
+    .secImageThree {
+        position: absolute;
+        left: 130%;
+    }
+
+    .secImageFour {
+        position: absolute;
+        left: 110%;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .secImageThree {
+        position: inherit;
+    }
+
+    .secImageFour {
+        position: inherit;
+    }
+}
 
 @media only screen and (max-width: 1399px) {
     .DubaiDelivered h2 {
-        font-size: 35px;
+        font-size: 40px;
         line-height: 45px;
         max-width: 900px;
-        margin: 0 auto;
+        margin: 0 auto 15px;
         display: block;
+    }
+
+    .secImageTwo {
+        height: 55%;
+    }
+
+    .secImageThree {
+        height: 60%;
+        margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .secImage {
+        height: 55%;
+        max-width: 300px;
+        min-width: 308px;
+        margin-top: -30px;
+    }
+
+    .secImageTwo {
+        max-width: 458px;
+        min-width: 446px;
+    }
+
+    .secImageThree {
+        height: 80%;
+        max-width: 300px;
+        min-width: 278px;
+        margin-top: -82px;
+    }
+
+    .secImageFour {
+        height: 80%;
+        max-width: 300px;
+        min-width: 278px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .secImage {
+        height: 55%;
+        max-width: 250px;
+        min-width: 255px;
+    }
+
+    .secImageTwo {
+        max-width: 376px;
+        min-width: 321px;
+        margin-top: 4px;
     }
 }
 
@@ -164,6 +202,12 @@
     .DubaiDelivered h2 {
         font-size: 35px;
         line-height: 45px;
+    }
+
+    .txt {
+        position: inherit;
+        width: 100%;
+        transform: inherit !important;
     }
 }
 

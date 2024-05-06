@@ -123,6 +123,12 @@
   .sliderCards {
     padding: 25px 10px;
   }
+
+  .awardsHeading {
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 240px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {

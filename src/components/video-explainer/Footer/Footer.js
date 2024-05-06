@@ -135,7 +135,7 @@ const VideoFooter = () => {
 
                 let bodyContent = JSON.stringify({
                     IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-                    Brand: "Infinity Animation",
+                    Brand: "Bitswits",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,
@@ -156,7 +156,7 @@ const VideoFooter = () => {
         <>
             <section className={styles.footerSec}>
                 <div className='container'>
-                    <Row className='gap-4 gap-lg-0'>
+                    <Row>
                         <Col lg={6}>
                             <div className={styles.txt}>
                                 <h2>Get in Touch Now!</h2>
@@ -208,23 +208,23 @@ const VideoFooter = () => {
                         <Col lg={6}>
                             <div className={styles.address_detail}>
                                 <ul>
-                                    <li className='py-[10px]'>
-                                        <Link href="tel:833-666-6689" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                    <li>
+                                        <Link href="tel:833-666-6689">
                                             <FaPhoneAlt className={styles.footerIcons} /> 833-666-6689
                                         </Link>
                                     </li>
-                                    <li className='py-[10px]'>
-                                        <Link href="mailto:queries@infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                    <li>
+                                        <Link href="mailto:queries@infinityanimations.com">
                                             <FaEnvelope className={styles.footerIcons} /> queries@infinityanimations.com
                                         </Link>
                                     </li>
-                                    <li className='py-[10px]'>
-                                        <Link href="https://infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                    <li>
+                                        <Link href="https://infinityanimations.com">
                                             <FaGlobeAsia className={styles.footerIcons} /> www.infinityanimations.com
                                         </Link>
                                     </li>
                                 </ul>
-                                <Image src={Payment} alt='Payment-Methods' className='w-5/12 lg:w-full my-3 object-contain' />
+                                <Image src={Payment} alt='Payment-Methods' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -232,11 +232,11 @@ const VideoFooter = () => {
             </section>
             <div className={styles.copyright}>
                 <div className={`${styles.copyRightCon} container`}>
-                    <p className='text-[14px] pb-[12px] text-[#333] montserrat text-center'>© 2024 - <p className='text-[14px] lg:text-[16px] text-white poppins text-center inline'> - All Rights Reserved By<Link href="https://mini-investments.net/">Mini Investments</Link></p> <Link target="_blank" className="no-underline" href="https://mini-investments.net/">Mini Investments</Link></p>
-                    <div className="top-icon absolute right-0 top-[-40px]">
-                        <Link href="#" className='bg-[#18d689] w-[80px] h-[80px] text-center text-white font-[500] uppercase rounded-[60%] align-middle border-[5px] border-white absolute right-0 lg:flex flex-col justify-center items-center md:block hidden'>
+                    <p className=''>© 2024 - All Rights Reserved By Bitswits</p>
+                    <div className={`${styles.topArrow}`}>
+                        <Link href="#" className={styles.topIcon}>
                             <Image src={UpArrow} alt='upArrow' className='mx-auto' />
-                            <p className='text-[14px] text-center poppins'>Top</p>
+                            <p>Top</p>
                         </Link>
                     </div>
 

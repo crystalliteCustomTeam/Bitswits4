@@ -17,12 +17,9 @@ const DubaiClients = ({ content }) => {
         dots: false,
         autoplay: true,
         autoplaySpeed: 3000,
-        speed: 3000,
-        cssEase: "linear",
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: '2px',
+        centerMode: false,
         variableWidth: false,
         adaptiveHeight: true,
         responsive: [

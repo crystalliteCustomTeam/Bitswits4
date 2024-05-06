@@ -8,6 +8,18 @@
       rgba(243, 47, 92, 0.5) 100%);
 }
 
+.pink {
+  --pulseSize: 10px;
+  --blue: #F32F53;
+  --transparentBlue: #f32f5321;
+}
+
+.blueShade {
+  --pulseSize: 10px;
+  --blue: #4a78ef;
+  --transparentBlue: #4a79ef1c;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
@@ -95,11 +107,16 @@
   font-family: "SF-Pro-Display";
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 
 img,
@@ -1272,7 +1289,7 @@ a {
   position: relative;
 }
 
-.industriesSlider .sliderDiv:hover+.sliderBackground {
+/* .industriesSlider .sliderDiv:hover+.sliderBackground {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
@@ -1294,11 +1311,11 @@ a {
   height: 100vh;
   opacity: 0.7;
   transition: all 0.4s ease-in-out;
-}
+} */
 
-.industriesSlider .slick-slide.slick-active.slick-current .card {
+/* .industriesSlider .slick-slide.slick-active.slick-current .card {
   bottom: 50px;
-}
+} */
 
 .industriesSlider .slick-prev {
   left: 25px;
@@ -2710,10 +2727,6 @@ input::-webkit-inner-spin-button {
   .clintSlider .slick-list .slick-track .slick-slide.slick-active::after {
     top: -2px;
   }
-
-  .industriesSlider .slick-slide.slick-active.slick-current .card {
-    bottom: 50px;
-  }
 }
 
 @media screen and (max-width: 1799px) {
@@ -2749,15 +2762,6 @@ input::-webkit-inner-spin-button {
     margin: 8% auto 0;
   }
 
-  .industriesSlider .slick-slide.slick-active.slick-current .card {
-    bottom: 50px;
-  }
-}
-
-@media only screen and (max-width: 1599px) {
-  .industriesSlider .slick-slide.slick-active.slick-current .card {
-    bottom: 50px;
-  }
 }
 
 @media screen and (min-width: 1900px) {
@@ -3419,12 +3423,12 @@ input::-webkit-inner-spin-button {
   padding: 0;
 }
 
-body,
+/* body,
 html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
+} */
 
 a {
   text-decoration: none !important;
@@ -4286,6 +4290,48 @@ button {
 
 .dubaiSliders .slick-dots li button:before {
   font-size: 12px;
+}
+
+/* Buttons Animation  */
+
+.pink {
+  animation: pulsing 2s infinite;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@keyframes pulsing {
+  from {
+    box-shadow: 0 0 0 0 var(--blue);
+  }
+
+  70% {
+    box-shadow: 0 0 0 var(--pulseSize) var(--transparentBlue);
+  }
+
+  to {
+    box-shadow: 0 0 0 0 var(--transparentBlue);
+  }
+}
+
+.blueShade {
+  animation: pulsingTwo 2s infinite;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@keyframes pulsingTwo {
+  from {
+    box-shadow: 0 0 0 0 var(--blue);
+  }
+
+  70% {
+    box-shadow: 0 0 0 var(--pulseSize) var(--transparentBlue);
+  }
+
+  to {
+    box-shadow: 0 0 0 0 var(--transparentBlue);
+  }
 }
 
 /*====================== Media Queries ======================*/

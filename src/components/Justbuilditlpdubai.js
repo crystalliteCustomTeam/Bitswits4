@@ -39,13 +39,11 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <Link className={styles.about1} href="tel:8335006007">
-                                    <span>Call Now</span>
-                                    <span>Call Now</span>
+                                <Link className={`blueShade ${styles.about1}`} href="tel:8335006007">
+                                    Call Now
                                 </Link>
-                                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">
-                                    <span>Live Chat</span>
-                                    <span>Live Chat</span>
+                                <Link className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
+                                    Live Chat
                                 </Link>
                             </div>
                         </Col>

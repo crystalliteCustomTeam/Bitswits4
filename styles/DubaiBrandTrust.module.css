@@ -46,14 +46,12 @@
     }
 }
 
-
-
 /* Media Query Start */
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1366px) {
     .txt h2 {
-        font-size: 45px;
-        line-height: 55px;
+        font-size: 40px;
+        line-height: 45px;
     }
 }
 
@@ -75,8 +73,8 @@
     }
 
     .brands img {
-        max-height: 128px;
-        min-height: 56px;
+        max-height: 120px;
+        min-height: 39px;
         min-width: 600px;
     }
 }

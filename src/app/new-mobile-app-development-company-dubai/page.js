@@ -4,15 +4,20 @@ import React, { useEffect, useState } from "react";
 import Bannerdubai from "../../components/Bannerdubainew";
 import Whowearenew from "../../components/Whowearenew";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Globallplp6dubai from "../../components/Globallplp6dubai";
-import Faqdubai from "../../components/Faqdubai";
-import Technologieslpdubainew from "../../components/Technologieslpdubainew";
-import LpChoosedubaishipnewdubai from "../../components/LpChoosedubaishipnewdubai";
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"; 
+import Faqdubai from "../../components/Faqdubai"; 
 import Globalmap from "../../components/Globalmap";
 import Brand from "../../components/Brand";
 import Latestblog from "../../components/Latestblog";
 import Houtondubai from "../../components/Houtondubai";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards"; 
+import DubaiDelivered from "@/src/components/DubaiDelivered";
+import DubaiTimeline from "@/src/components/DubaiTimeline";
+import DubaiClients from "@/src/components/DubaiClients";
+import StoryLine from "@/src/components/DubaiStoryLine";  
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 //Images 
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
@@ -24,23 +29,6 @@ import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
 import Building from "/public/newDubaiPagev1/builingImage.png";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import DubiaDevelopers from "@/src/components/DubiaDevelopers";
-import DubaiDelivered from "@/src/components/DubaiDelivered";
-import DubaiTimeline from "@/src/components/DubaiTimeline";
-import DubaiClients from "@/src/components/DubaiClients";
-import StoryLine from "@/src/components/DubaiStoryLine";
-import DeliveredBlack from "@/src/components/DeliveredBlack";
-import NewDubaiBussiness from "@/src/components/NewDubaiBussiness";
-import DubaiDevelopment from "@/src/components/DubaiDevelopment";
-import DubaiDevelopmentUAE from "@/src/components/DubaiDevelopmentUAE";
-import DubaiIOS from "@/src/components/DubaiIOS";
-import DubaiAndriod from "@/src/components/DubaiAndriod";
-import DubaiMobileApplication from "@/src/components/DubaiMobileApplication";
-import DubaiConquered from "@/src/components/DubaiConquered";
-import Delivered from "@/src/components/Delivered";
-import Industries from "@/src/components/Industries";
-import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 
 export default function dubaidevelopmentcompany() {
   const blogBox = [
@@ -117,7 +105,7 @@ export default function dubaidevelopmentcompany() {
   // ClientContent
   const ClientContent = {
     title: <>Why Our Clients <span>Love</span> BitsWits <br /> for App Development </>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br className="d-xl-block d-none"/> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
+    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br className="d-xl-block d-none" /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
   }
   //=====StoryLine Fold=====//
   const accordionData = [
@@ -167,7 +155,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ <br className="d-xxl-block d-none"/> projects  for various audiences from different sectors and industries. </>,
+    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ <br className="d-xl-block d-none" /> projects  for various audiences from different sectors and industries. </>,
     subtitleOne: "Soul Scribe ",
     subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
     subtitleTwo: "Ready App",
@@ -361,11 +349,15 @@ export default function dubaidevelopmentcompany() {
     },
     {
       title: "Cost of App Development in Dubai for a Startup",
-      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>  `
+      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>
+      <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>
+      <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>  `
     },
     {
       title: "Cost of App Development in Dubai for Mid-Sized Businesses",
-      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> `
+      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>
+      <p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>
+      <p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses in Dubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> `
     },
     {
       title: "Cost Of App Development In Houston For Enterprises",
@@ -467,28 +459,14 @@ export default function dubaidevelopmentcompany() {
       <Delivered content={delivered} />
       <Industries />
       <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust />
-      {/* <DeliveredBlack content={deliveredBlack} /> */}
-      {/* <Technologieslpdubainew content={technologies} /> */}
-      {/* <NewDubaiBussiness content={BussinessContent} /> */}
-      {/* <DubaiDevelopment content={compareContent} /> */}
-      {/* <DubaiDevelopmentUAE content={developmentUAE} /> */}
-      {/* <DubaiIOS content={IOSContent} /> */}
-      {/* <DubaiAndriod content={andriodContent} /> */}
-      {/* <DubaiMobileApplication content={MobileApplication} /> */}
-      {/* <DubaiConquered content={Conquered} /> */}
-      {/* <LpChoosedubaishipnewdubai
-        transform="transformlp"
-      /> */}
+      <DubaiBrandTrust />  
       <Expertappdubaiadvanced expertapp="expertapp" />
       <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
-      />
-      {/* <Globallplp6dubai /> */}
-      <Globalmap />
+      /> 
       <Brand />
       <Faqdubai
         faqsData={[
@@ -539,6 +517,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
+      <Globalmap />
     </>
   );
 } 

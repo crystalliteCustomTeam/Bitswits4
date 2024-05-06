@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/bannerdubainew.module.css";
+// images 
+import badgeClient from "media/newdubai/badgesClient.png"
+import Star from "media/newDubaiPagev1/star.png"
+import Clutch from "media/newDubaiPagev1/clutch.png"
 
 const dubaiBackground = `${styles.newHomeBg}`;
 const houstonBackground = `${styles.newHoustonBg}`;
@@ -138,10 +143,32 @@ const Bannerdubai = ({ content }) => {
                                 <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>
-                                    <span>Let’s Build Your Dream App!</span>
-                                    <span>Let’s Build Your Dream App!</span>
+                                <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
+                                    Let’s Build Your Dream App!
                                 </Link>
+                            </div>
+                            <div className={styles.badge}>
+                                <div className={`d-flex align-items-center ${styles.clientRviews}`}>
+                                    <div>
+                                        <Image src={badgeClient} alt='Bitswits' width={183} height={80} />
+                                    </div>
+                                    <div>
+                                        <div className={styles.reviews}>
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                        </div>
+                                        <p className='mb-0'>
+                                            <strong>4.8 out of 5</strong> (review rating)
+                                            Over 1,200+ reviews
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <Image src={Clutch} alt='Bitswits' width={129} height={60} />
+                                </div>
                             </div>
                         </Col>
                         <Col xl={5}>
@@ -154,9 +181,8 @@ const Bannerdubai = ({ content }) => {
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                 {/* <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input> */}
-                                <button className={styles.value} type='submit'>
-                                    <span>Submit</span>
-                                    <span>Submit</span>
+                                <button className={`pink ${styles.value}`} type='submit'>
+                                    Submit
                                 </button>
                             </form>
                         </Col>

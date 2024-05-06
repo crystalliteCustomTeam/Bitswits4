@@ -18,56 +18,10 @@
   margin: 20px auto 0;
   padding: 0 60px;
   font-size: 18px;
-}
-
-.blogBtn span {
-  background-color: #f32f53;
-  border-radius: 4px;
-  display: block;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 205px;
   height: 50px;
-  margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.blogBtn span:nth-child(1) {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.blogBtn span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.blogBtn:hover span:nth-child(1) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-
-.blogBtn:hover span:nth-child(2) {
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
+  background-color: #F32F53;
+  border-radius: 4px;
 }
 
 .blogBox h4 {
@@ -79,6 +33,8 @@
   line-height: 26px;
   color: black;
 }
+
+/* Media Query Start */ 
 
 @media screen and (max-width: 991px) {
   .ourBlogs {

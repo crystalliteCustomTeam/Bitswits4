@@ -137,11 +137,17 @@
 
 /* =================Media Queries=================== */
 @media screen and (min-width: 1400px) {
-
   .mostimg p {
     max-width: 1100px;
     font-size: 17px;
     line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .faqs h2 {
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 
@@ -162,11 +168,6 @@
   .mostimg a {
 
     margin-bottom: auto;
-  }
-
-  .faqs h2 {
-    font-size: 45px;
-    line-height: 55px;
   }
 }
 

@@ -242,6 +242,22 @@
   }
 }
 
+@media only screen and (max-width: 1399px) {
+  .android h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .travel h3,
+  .travel2 h3,
+  .travel3 h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+
+}
+
 @media screen and (max-width: 1024px) {
   .travel {
     padding-left: 20px;

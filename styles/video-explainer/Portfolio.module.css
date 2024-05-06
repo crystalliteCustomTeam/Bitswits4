@@ -57,8 +57,8 @@
     height: 262px;
     width: 100%;
     left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(147px);
+    top: 0;
+    transform: translateX(-50%) translateY(395px);
     background: rgba(255, 0, 0, 0.422);
     border-radius: 10px;
     display: flex;
@@ -69,7 +69,7 @@
 }
 
 .overlayMain:hover .overlay {
-    transform: translateY(-116px) translateX(-50%);
+    transform: translateY(30px) translateX(-50%);
     transition: all 0.4s ease-in-out;
 }
 
@@ -130,11 +130,11 @@
     }
 
     .overlay {
-        height: 181px;
+        height: 93%;
     }
 
     .overlayMain:hover .overlay {
-        transform: translateY(-76px) translateX(-50%);
+        transform: translateY(30px) translateX(-50%);
     }
 }
 
@@ -154,7 +154,7 @@
     }
 
     .overlayMain:hover .overlay {
-        transform: translateY(-105px) translateX(-50%);
+        transform: translateY(0px) translateX(-50%);
     }
 
     .tabItems {

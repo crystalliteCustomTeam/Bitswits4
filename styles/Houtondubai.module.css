@@ -1,12 +1,16 @@
 .houston {
   position: relative;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   margin-bottom: 80px;
 }
 
 .applicationlong {
   position: relative;
   padding: 10px 0;
+}
+
+.headings {
+  padding: 100px 0;
 }
 
 .understand h5 {
@@ -38,11 +42,14 @@
 .posto {
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 500px;
-  overflow: scroll;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 0px;
   padding: 50px;
+}
+
+.stickyTop {
+  position: sticky;
+  top: 0;
 }
 
 .houston {
@@ -50,7 +57,7 @@
 }
 
 .tone {
-  align-items: center;
+  align-items: self-start;
 }
 
 .application {
@@ -196,65 +203,35 @@
   background-color: #f32f53;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  margin-top: 28px;
+.active a {
+  color: #f32f53 !important;
 }
 
-.btn span {
+.btn a {
   background-color: #f32f53;
   color: white;
   border-radius: 4px;
-  display: block;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 300px;
   height: 50px;
   margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.btn span:nth-child(1) {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.btn span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.btn:hover span:nth-child(1) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-
-.btn:hover span:nth-child(2) {
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
 }
 
 /* ==================================== */
+
+@media only screen and (max-width:1399px) {
+  .understand h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .posto {
+    padding: 50px 20px;
+  }
+}
 
 @media screen and (max-width: 1280px) {
   .application h2 {
@@ -290,7 +267,6 @@
   .posto {
     margin-top: 20px;
     margin-bottom: 30px;
-    height: 610px;
   }
 
   .houston select {
