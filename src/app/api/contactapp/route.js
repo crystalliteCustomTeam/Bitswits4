@@ -11,7 +11,7 @@ export default async function POST(req, res) {
             secure: true,
             auth: {
                 user: 'signups@bitswits.co',
-                pass: "&2=Kmd=*D>m=4gJ&"
+                pass: "&4=Kmd=*D>m=7gJ&"
             }
         })
 
