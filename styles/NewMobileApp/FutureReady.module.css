@@ -1,0 +1,59 @@
+.futureSec {
+    padding: 80px 0;
+    height: 100%;
+    position: relative;
+    background: #fff;
+    z-index: 99;
+}
+
+.futureSec h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: black;
+}
+
+.futureSec h2 span {
+    color: #F32F53;
+}
+
+.futureSec p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 30px;
+    padding-right: 16px;
+    color: black;
+    width: 95%;
+}
+
+.card {
+    position: relative;
+    background: #000;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cardTop {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: white;
+}

@@ -20,6 +20,8 @@ import MetaData from "../components/MetaData";
 import DubaiFooter from "../components/DubaiFooter";
 import VideoHeader from "../components/video-explainer/Header/Header";
 import VideoFooter from "../components/video-explainer/Footer/Footer";
+import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
+import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -107,11 +109,15 @@ const ConditionalLayout = ({ children }) => {
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
                             pathname == "/video-explainer-lp" ? <VideoHeader /> :
-                                pathname == "/meet-our-team" ? null :
-                                    <>
-                                        <Header />
-                                        <HeaderMbl />
-                                    </>
+                                pathname == "/mobile-app-development-landing-page-v3" ? <>
+                                    <NewMobileHeader />
+                                    <NewHeaderMbl />
+                                </> :
+                                    pathname == "/meet-our-team" ? null :
+                                        <>
+                                            <Header />
+                                            <HeaderMbl />
+                                        </>
             }
             {mouse && <Cursor />}
             {superecommer ? '' : <Skicky />}

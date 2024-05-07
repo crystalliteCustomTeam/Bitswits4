@@ -5,8 +5,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  position: relative;
+  position: sticky;
   z-index: 9999;
+  top: 0;
   border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
   border-width: 1px;
   border-style: solid;
@@ -18,6 +19,7 @@
 .neuport {
   margin-top: 30%;
 }
+
 .header.trans {
   background-color: transparent;
 }
@@ -140,9 +142,11 @@
   0% {
     transform: scaleY(0);
   }
+
   80% {
     transform: scaleY(1.1);
   }
+
   100% {
     transform: scaleY(1);
   }
@@ -419,9 +423,11 @@
 .megaMenu2 .listBody ul {
   height: 375px;
 }
+
 .header {
   display: none;
 }
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1600px) {
@@ -440,6 +446,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+
   .megaMenu1,
   .megaMenu2,
   .megaMenu3 {
@@ -483,6 +490,7 @@
   .header {
     display: flex;
   }
+
   .navBar {
     position: unset;
   }

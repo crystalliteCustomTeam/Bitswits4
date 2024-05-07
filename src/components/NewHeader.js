@@ -1150,7 +1150,6 @@ const HeaderNewDesign = () => {
                         </div>
                       </div>
 
-
                       <div className={`${activeTab2 == "tab4" ? styles.active2 : ""
                         }`}
                         onClick={() => fun2("tab4")}
