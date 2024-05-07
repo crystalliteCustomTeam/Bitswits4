@@ -1,253 +1,252 @@
 .industriesSec {
-    padding: 80px 0;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+  padding: 80px 0;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .txt {
-    position: absolute;
-    top: 100px;
-    left: 130px;
-    z-index: 99999;
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  z-index: 99999;
 }
 
 .txt h2 {
-    font-size: 100px;
-    letter-spacing: 4px;
-    font-weight: 600;
-    line-height: 95px;
-    color: white;
-    font-family: "SF-Pro-Display-Regular", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  line-height: 95px;
+  color: white;
+  font-family: "SF-Pro-Display-Regular", sans-serif;
 }
 
 .sliderBackground {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .activeImage {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 .sliderBackground::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #00000051;
-    left: 0;
-    top: 0;
-    z-index: 3;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #00000051;
+  left: 0;
+  top: 0;
+  z-index: 3;
 }
 
 .sliderBackground img {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.5s ease;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
 }
 
 .industriesSlider {
-    height: 100vh;
-    position: relative;
-    margin-top: -81px;
-    padding-top: 0%;
+  height: 100vh;
+  position: relative;
+  margin-top: -81px;
+  padding-top: 0%;
 }
 
 .sliderDiv {
-    position: relative;
-    height: 100vh;
-    transition: all 0.4s ease-in-out;
+  position: relative;
+  height: 100vh;
+  transition: all 0.4s ease-in-out;
 }
 
-
 .sliderDiv::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1px;
-    bottom: 0;
-    background: linear-gradient(180deg, #FFFFFF, #C8C8C8);
-    height: 100vh;
-    opacity: 0.7;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  bottom: 0;
+  background: linear-gradient(180deg, #ffffff, #c8c8c8);
+  height: 100vh;
+  opacity: 0.7;
 }
 
 .sliderDiv:hover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    bottom: 0;
-    background: #000;
-    height: 100vh;
-    opacity: 0.7;
-    transition: all 0.4s ease-in-out;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background: #000;
+  height: 100vh;
+  opacity: 0.7;
+  transition: all 0.4s ease-in-out;
 }
 
 .mainDiv {
-    position: relative;
+  position: relative;
 }
 
 .card {
-    transition: all 0.4s ease-in-out;
-    /* position: relative; */
-    position: absolute;
-    bottom: -116px;
-    background: transparent;
-    border: 0;
+  transition: all 0.4s ease-in-out;
+  /* position: relative; */
+  position: absolute;
+  bottom: -116px;
+  background: transparent;
+  border: 0;
+  height: 180px;
 }
 
 .sliderDiv:hover .card {
-    bottom: 50px;
-    transition: all 0.4s ease-in-out;
+  bottom: 50px;
+  transition: all 0.4s ease-in-out;
 }
 
 .card h3 {
-    font-size: 30px;
-    line-height: 26px;
-    font-weight: 500;
-    color: white;
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 500;
+  color: white;
 }
 
 .card p {
-    font-size: 17px;
-    line-height: 26px;
-    color: white;
-    padding: 16px 110px 16px 0;
-    margin-bottom: 0;
+  font-size: 17px;
+  line-height: 26px;
+  color: white;
+  padding: 16px 110px 16px 0;
+  margin-bottom: 0;
 }
 
 .btn {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .btn img {
-    margin-top: 4px;
-    margin-left: 10px;
-    width: 25px;
-    height: 23px;
-    object-fit: contain;
+  margin-top: 4px;
+  margin-left: 10px;
+  width: 25px;
+  height: 23px;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 1920px) {
-    .card {
-        bottom: -116px;
-    }
+  .card {
+    bottom: -116px;
+  }
 }
 
 @media only screen and (max-width: 1599px) {
-    .card {
-        bottom: -143px;
-    }
+  .card {
+    bottom: -143px;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
-    .card {
-        bottom: -128px;
-    }
+  .card {
+    bottom: -128px;
+  }
 
-    .card p {
-        font-size: 17px;
-        line-height: 26px;
-        color: white;
-        padding: 16px 0px 16px 0;
-    }
+  .card p {
+    font-size: 17px;
+    line-height: 26px;
+    color: white;
+    padding: 16px 0px 16px 0;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
+  .txt h2 {
+    font-size: 70px;
+    line-height: 85px;
+  }
 
-    .txt h2 {
-        font-size: 70px;
-        line-height: 85px;
-    }
-
-    .sliderBackground img {
-        height: 100%;
-    }
+  .sliderBackground img {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    .card {
-        bottom: -99px;
-    }
+  .card {
+    bottom: -99px;
+  }
 
-    .card h3 {
-        font-size: 20px;
-        line-height: 20px;
-    }
+  .card h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
-    .card p {
-        font-size: 14px;
-        line-height: 18px;
-        color: white;
-        padding: 16px 0px 16px 0;
-    }
+  .card p {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    padding: 16px 0px 16px 0;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .industriesSec {
-        height: 55vh;
-    }
+  .industriesSec {
+    height: 55vh;
+  }
 
-    .txt h2 {
-        font-size: 75px;
-        line-height: 85px;
-    }
+  .txt h2 {
+    font-size: 75px;
+    line-height: 85px;
+  }
 
-    .sliderBackground img {
-        height: 100%;
-    }
+  .sliderBackground img {
+    height: 100%;
+  }
 
-    .industriesSlider {
-        height: 100%;
-    }
+  .industriesSlider {
+    height: 100%;
+  }
 
-    .sliderDiv {
-        height: 55vh;
-    }
+  .sliderDiv {
+    height: 55vh;
+  }
 
-    .txt {
-        top: 43px;
-        left: 50px;
-    }
+  .txt {
+    top: 43px;
+    left: 50px;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    .industriesSec {
-        height: 100vh;
-    }
+  .industriesSec {
+    height: 100vh;
+  }
 
-    .sliderDiv::after {
-        height: 100vh;
-    }
+  .sliderDiv::after {
+    height: 100vh;
+  }
 
-    .sliderDiv {
-        height: 100vh;
-    }
+  .sliderDiv {
+    height: 100vh;
+  }
 
-    .card p {
-        padding: 16px 5px 16px 0;
-    }
+  .card p {
+    padding: 16px 5px 16px 0;
+  }
 
-    .txt h2 {
-        font-size: 35px;
-        line-height: 45px;
-    }
+  .txt h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
 
-    .txt {
-        left: 30px;
-    }
+  .txt {
+    left: 30px;
+  }
 }

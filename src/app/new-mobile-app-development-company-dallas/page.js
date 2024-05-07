@@ -1,45 +1,259 @@
 "use client"
-import React, { useEffect, useState } from "react";
+import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import Whowearenew from "../../components/Whowearenew";
-import Delivered from "../../components/Delivered";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
 import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
-import Globallplp6dubai from "../../components/Globallplp6dubai";
 import Faqdubai from "../../components/Faqdubai";
-import Technologieslpdubainew from "../../components/Technologieslpdubainew";
-import LpChoosedubaishipnewdubai from "../../components/LpChoosedubaishipnewdubai";
 import Globalmap from "../../components/Globalmap";
 import Brand from "../../components/Brand";
 import Latestblog from "../../components/Latestblog";
 import Houtondubai from "../../components/Houtondubai";
-//Images 
-import blog1 from "/public/newdubai/blog1.png";
-import blog2 from "/public/newdubai/blog2.png";
-import blog3 from "/public/newdubai/blog3.png";
-import StoryLine1 from "/public/newDubaiPagev1/storyLine1.png";
-import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
-import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
-import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
-import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
-import Building from "/public/newhouston/builingImageTwo.png";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import DubiaDevelopers from "@/src/components/DubiaDevelopers";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClients from "@/src/components/DubaiClients";
 import StoryLine from "@/src/components/DubaiStoryLine";
-import DeliveredBlack from "@/src/components/DeliveredBlack";
-import NewDubaiBussiness from "@/src/components/NewDubaiBussiness";
-import DubaiDevelopment from "@/src/components/DubaiDevelopment";
-import DubaiDevelopmentUAE from "@/src/components/DubaiDevelopmentUAE";
-import DubaiIOS from "@/src/components/DubaiIOS";
-import DubaiAndriod from "@/src/components/DubaiAndriod";
-import DubaiMobileApplication from "@/src/components/DubaiMobileApplication";
-import DubaiConquered from "@/src/components/DubaiConquered";
+import Delivered from "@/src/components/Delivered";
+import Industries from "@/src/components/Industries";
+import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
+//Images 
+import blog1 from "/public/newdubai/blog1.png";
+import blog2 from "/public/newdubai/blog2.png";
+import blog3 from "/public/newdubai/blog3.png";
+import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
+import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
+import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
+import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
+import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
+//
+import banImg1 from '@/public/dubailp/services/1.png'
+import banImg2 from '@/public/dubailp/services/2.png'
+import banImg3 from '@/public/dubailp/services/3.png'
+import banImg4 from '@/public/dubailp/services/4.png'
+import banImg5 from '@/public/dubailp/services/5.png'
+import banImg6 from '@/public/dubailp/services/6.png'
 
-export default function gamedevelopmentcompany() {
+export default function dubaidevelopmentcompany() {
+  // Banner Content
+  const Banner = {
+    title: "A Bespoke Mobile App Development Company in Dallas",
+    desc: <>With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance.
+      <span className="d-block my-3">Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and drive long-term success.</span>
+      <span className="d-block">Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!</span>
+    </>
+  }
+  // award Content
+  const Award = {
+    title: "Awards & Recognitions",
+    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
+
+  }
+  //=====StoryLine Fold=====//
+  const accordionData = [
+    {
+      question: 'Android App Development in Dallas',
+      answer: "For Android app development services Dallas, our team specializes in creating high-performing, user-friendly apps. We utilize tools like Java and Kotlin to build scalable architectures that meet your needs. We ensure data security and quality with tech stacks like Mocha and Gatling, providing periodic review reports for verification.",
+      btn: "Android App Development",
+      StoryLineImg: StoryLine2
+    },
+    {
+      question: 'IPhone App Development in Dallas',
+      answer: "Our team focuses on transforming ideas into fully functional digital products. With expertise in programming and advanced software development, we design prototypes, refine layouts, and ensure seamless functionality. Benefit from our iOS app development services Dallas including graphic design, app security, IoT wearables, and augmented reality features.",
+      btn: "Iphone App Development",
+      StoryLineImg: StoryLine3
+    },
+    {
+      question: 'Flutter App Development in Dallas',
+      answer: "We develop Flutter apps with high responsiveness and full functionality. With Flutter's capabilities, we optimize native performance and deliver a superior cross-platform experience. As a top-tier mobile app design company Dallas, our expertise lies in creating efficient, feature-rich apps that meet your specific requirements. Connect with us today to discover how our Flutter app development services can drive success for your business.",
+      btn: "Flutter App Development",
+      StoryLineImg: StoryLine4
+    },
+    {
+      question: 'Game App Development in Dallas',
+      answer: "Our game app developers use the latest tech stacks to create captivating experiences that continuously engage users, enticing them to return for more. With expertise in Unity, Unreal Engine, and Cocos2d-x engines, we develop games with 2D/3D graphics, physics engines, and AI. Focused on user retention, performance optimization, and smooth gameplay, our game app development services ensure your game stands out in the competitive market.",
+      btn: "Game App Development",
+      StoryLineImg: StoryLine5
+    },
+    {
+      question: 'Blockchain App Development in Dallas',
+      answer: "We offer consulting, smart contracts development, and auditing in our blockchain app development services. The solutions that we provide include public and private blockchain applications, cryptocurrency and wallet development, cryptocurrency exchange development, and NFT development. Benefit from streamlined operations, enhanced security, and potential revenue growth with our comprehensive solutions.",
+      btn: "Blockchain App Development",
+      StoryLineImg: StoryLine6
+    },
+  ];
+  const storyLine = {
+    subtitle: (<> Continuous </>),
+    title: (<> Google Certified Mobile App Development Services </>),
+    para: <> As a leading mobile app developer in Dallas, we aim at generating innovative apps for Android and iOS platforms. Make us your trusted mobile app development company in Dallas to get the highest-grade mobile applications, optimum service quality, and customer satisfaction.
+      <span className="d-block mt-2">Here are the mobile app development services in Dallas that we offer:</span> </>,
+    accordionData: accordionData
+  };
+  // Who We Are Content
+  const WhoWeAre = {
+    title: "Our Award-Winning Portfolio",
+    desc: <> We've been the trusted app development partner in Dallas for a variety of clients, providing customized mobile solutions to meet their <br /> specific requirements and drive their business success.
+      <span className="d-block mt-2">Here is a showcase featuring some of the remarkable projects we've undertaken:</span>
+    </>,
+    subtitleOne: "Soul Scribe ",
+    subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
+    subtitleTwo: "Ready App",
+    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having an user-friendly interface along with features like secure messaging, personal meetings and real-time updates. Our platform solve issues such as data security, algorithm revisions, and user interface design among others in order to have a scalable and mutually beneficial solution. ",
+    subtitleThree: "Greasy Monkey ",
+    subDescThree: "Grease Monkey is a comprehensive automotive innovation system which provides everything ranging from car repairs to oil checkup. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations and also client ratings for your vehicles. The app takes the convenience to a different level altogether.. With Grease Monkey, car owners can do regular maintenance for their cars in an easy way by just a few taps on their smartphones."
+  }
+  // delivered content
+  const DeliveredContent = {
+    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    desc: "Ready to See Yours Become a Reality?",
+    btntext: "Book Your Free Consultation Now!"
+  }
+  // timeline Content
+  const timeline = {
+    title: "Our Agile Process for Mobile App Development in Dallas",
+    desc: <> Our agile process for mobile app development is straightforward and effective. We start with intensive research and strategy to define the core problem statement and align it with client goals. This guides our digital strategy, ensuring continued success post-launch. </>,
+    heading1: "Research and Strategy",
+    para1: "In the research and strategy phase for app development Dallas, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our concepting, prototyping, and user testing process. Guided by strategy workshops with the client, we develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development.",
+    heading2: "UI and UX",
+    para2: "In the UI and UX phase, our expert designers collaborate closely with clients to create visually appealing and intuitive interfaces. Through wireframing and prototyping, we ensure smooth navigation and user interactions, enhancing overall user experience and satisfaction.",
+    heading3: "Development",
+    para3: "In the development phase, our mobile app developers in Dallas follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth app launch and submission process.",
+    heading4: "Deployment",
+    para4: "In the deployment phase, our team focuses on launching the app successfully to the market. We conduct thorough compatibility testing across various devices and platforms, ensuring a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
+    heading5: "Scale",
+    para5: "In the scale phase, we prioritize achieving the client's goals by focusing on app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Dallas mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue.",
+  }
+  // ClientContent
+  const ClientContent = {
+    title: <>Why Choose BitsWits as Your <span>Trusted</span> Mobile App <br /> Development Company in Dallas </>,
+    desc: <>We are dedicated to providing the highest quality mobile app development services and solutions in Dallas. As we demonstrate, our track <br className="d-xl-block d-none" /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.
+      <span className="d-block mt-2 text-black fw-300">Here are the top reasons to partner with us for your app development needs:</span>
+    </>
+  }
+  // Delivered
+  const desc = [
+    {
+      para: <>The cost for app developers in Dallas varies according to complexity of an app, its platform and the number of features.</>
+    },
+    {
+      para: <>Here’s how much an app development company in Dallas can charge you for completing your project:</>,
+    },
+    {
+      list: <><b>Simple apps</b> (flashlight or a calculator app) with basic functionality can cost you around <b>$10,000 to $40,000 and more.</b></>,
+    },
+    {
+      list: <><b>More complex apps</b> (e-commerce or social media apps) can cost you around <b>$30,000 to $500,000 and more.</b></>,
+    },
+    {
+      list: <><b>High-end apps</b> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <b>$500,000 or more.</b></>,
+    },
+  ]
+  const delivered = {
+    title: "How Much Does It Cost to Develop a Mobile Phone App in Dallas?",
+    desc: desc,
+    cta: "Calculate Your App Cost!"
+  }
+  // Houston content
+  const menus = [
+    "How much does it cost to hire someone to build a mobile app?",
+    "Is it worth hiring a mobile app development company?",
+    "Are mobile apps still profitable?",
+    "What type of app makes the most money?",
+    "What is the failure rate of apps?",
+    "How long does it take to develop mobile app?",
+    "How many downloads does an app need to be successful?",
+  ];
+  const sections = [
+    {
+      title: "How much does it cost to hire someone to build a mobile app?",
+      content: `<p class='fontsfregular'><b>The average rate charged by mobile app developers is around $25 to $40 per hour</b>, according to Clutch. Moreover, the cost to fully complete and launch most mobile app development projects falls between <b>$10,000 and $49,000</b>.</p>
+      <p class='fontsfregular'>However, the total cost of building a mobile app can vary significantly depending on various factors such as the <b>complexity of the app</b>, the <b>number of features required</b>, the <b>platform(s) it will be developed for</b> (iOS, Android, or both), the <b>location of the development team</b>, and any additional services needed (such as design, testing, or ongoing maintenance). </p>
+      <p class='fontsfregular'>Additionally, custom app development may incur higher costs compared to using pre-built templates or platforms.</p>
+      <p class='fontsfregular'>Therefore, it's essential to discuss your specific requirements with potential app development companies to get accurate cost estimates aligned with your project needs.</p>
+         `
+    },
+    {
+      title: "Is it worth hiring a mobile app development company?",
+      content: `<p class='fontsfregular'><b>Absolutely!</b> Hiring a professional app development company is more efficient and time-saving than attempting to develop an app independently or with a less experienced team.</p>
+      <p class='fontsfregular'>Professional app development companies bring <b>expertise</b>, <b>experience</b>, and <b>a dedicated team</b> to the table, ensuring high-quality results and timely delivery. They have the necessary <b>resources</b> and <b>tools</b> to tackle complex development challenges efficiently.</p>
+      <p class='fontsfregular'>Additionally, working with a reputable company provides access to a diverse skill set, including <b>design</b>, <b>development</b>, <b>testing</b>, and <b>project management</b>.</p> 
+      <p class='fontsfregular'>This comprehensive approach <b>reduces the risk of errors</b> and ensures that the final product meets industry standards and user expectations, ultimately maximizing the app's chances of success in the market.</p>
+      `
+    },
+    {
+      title: "Are mobile apps still profitable?",
+      content: `<p class='fontsfregular'><b>Yes, the mobile app industry is still a profitable market in 2024</b>. However, developers need to create top-notch applications that fulfill users' needs in order to achieve success.</p>
+      <p class='fontsfregular'>While the mobile app market remains profitable, success depends on several factors. Competition is fierce, with millions of apps vying for user attention.</p>
+      <p class='fontsfregular'>Developers must stay updated on <b>industry trends</b>, <b>user preferences</b>, and <b>technological advancements</b> to create innovative and valuable apps.</p>
+      <p class='fontsfregular'>Additionally, <b>effective marketing strategies</b> and <b>monetization</b> methods are essential for generating revenue.</p>
+      <p class='fontsfregular'>Despite challenges, successful apps continue to generate significant profits through <b>in-app purchases</b>, <b>subscriptions</b>, <b>advertising</b>, and other revenue streams.</p>
+      <p class='fontsfregular'>With the right approach, mobile apps can indeed be highly profitable ventures.</p>
+      `
+    },
+    {
+      title: "What type of app makes the most money?",
+      content: `<p class='fontsfregular'>Here are some of the most profitable app categories:</p>
+        <p class='fontsfregular'>1. Dating apps</p>
+        <p class='fontsfregular'>2. Health and Fitness Apps</p>
+        <p class='fontsfregular'>3. Gaming and Gambling Apps</p>
+        <p class='fontsfregular'>4. Music and Entertainment Apps</p>
+        <p class='fontsfregular'>5. Social Media Apps</p>
+        <p class='fontsfregular'>While profitability can vary within each category, certain types of apps tend to generate higher revenue due to their popularity and monetization potential.</p>
+        <p class='fontsfregular'><b>Dating apps</b> capitalize on <b>subscription models</b> and <b>in-app purchases</b> for premium features.</p>
+        <p class='fontsfregular'><b>Health and fitness apps</b> often offer <b>subscription-based services</b> or <b>in-app purchases</b> for personalized coaching and premium content.</p>
+        <p class='fontsfregular'><b>Gaming and gambling apps</b> generate revenue through <b>in-app purchases</b>, <b>ads</b>, and <b>in-game purchases</b>.</p>
+        <p class='fontsfregular'><b>Music and entertainment apps</b> often offer <b>subscription-based services</b> or <b>ad-supported models</b>.</p>
+        <p class='fontsfregular'><b>Social media apps</b> monetize through <b>advertising</b> and <b>in-app purchases</b> for virtual goods or premium features.</p>
+      `
+    },
+    {
+      title: "What is the failure rate of apps?",
+      content: `<p class='fontsfregular'><b>The failure rate of consumer apps is 99.5%</b>. This failure often stems from various factors including <b>poorly researched market and audience</b>, <b>lack of originality</b>, <b>choosing platforms unwisely</b>, <b>poor user experience</b>, <b>improper testing</b>, and <b>poorly executed mobile app launch</b>.</p>
+        <p class='fontsfregular'>However, you can avoid these pitfalls by partnering up with a premium mobile app development company like <b>BitsWits</b>.</p>
+        <p class='fontsfregular'>Our team conducts thorough market research, ensuring a deep understanding of your target audience.</p>
+        <p class='fontsfregular'>We prioritize innovation and originality in app concepts, carefully selecting platforms for maximum reach.</p>
+        <p class='fontsfregular'>With thorough testing and a well-executed launch strategy, we prepare your app for success, reducing the risk of failure in the competitive market.</p>`
+    },
+    {
+      title: "How long does it take to develop mobile app?",
+      content: `<p class='fontsfregular'><b>On average, it takes 4 to 7 months to develop a mobile app</b>. However, the time required for app development heavily relies on factors such as <b>project's complexity</b>, <b>the number of features</b>, and <b>the expertise of software developers</b>.</p>
+        <p class='fontsfregular mb-4'>Here are the approximate development times according to app complexity:</p>
+        <table class="table table-bordered mb-4">
+          <tr>
+              <th><b>Complexity of the App</b></th>
+              <th><b>Time Required for Development</b></th>
+          </tr>
+          <tr>
+            <td>Simple apps</td>
+            <td>Two to four months</td>
+          </tr>
+          <tr>
+              <td>Medium complexity app</td>
+              <td>Four to seven months</td>
+          </tr>
+          <tr>
+            <td>Complex and large-scale app</td>
+            <td>Seven to twelve + months</td>
+          </tr>
+        </table>
+        <p class='fontsfregular'>Factors such as <b>project scope changes</b>, <b>integration with third-party services</b>, and the <b>availability of resources</b> can also impact development timelines.</p>
+        <p class='fontsfregular'>Communication and collaboration between the development team and the client are crucial to ensuring timely delivery and meeting project milestones throughout the app development process.</p>`
+    },
+    {
+      title: "How many downloads does an app need to be successful?",
+      content: `<p class='fontsfregular'><b>A mobile app needs to exceed 1000 downloads on Google Play Store to be successful</b>. As per the statistics, <b>68% of apps launched on Google Play never reach 1000 downloads</b>.</p>
+        <p class='fontsfregular'>However, with the assistance of BitsWits, you can improve your app's visibility and increase its chances of success.</p>
+        <p class='fontsfregular'>While exceeding 1000 downloads on the Google Play Store is a common benchmark for app success, true success extends beyond download numbers.</p>
+        <p class='fontsfregular'>Factors such as <b>user engagement</b>, <b>retention</b>, and <b>monetization</b> are equally important indicators of app success.</p>
+        <p class='fontsfregular'>With BitsWits' expertise in app development and marketing, we can enhance your app's visibility, attract more users, and optimize user experience, increasing its chances of long-term success in the competitive app market.</p>`
+    },
+  ];
+  const HoustonContent = {
+    menus: menus,
+    sections: sections,
+  }
+  // Blogs Content
   const blogBox = [
     {
       img: blog1,
@@ -57,375 +271,114 @@ export default function gamedevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-  const [showFolds, setShowFolds] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
 
-  //=====StoryLine Fold=====//
-  const accordionData = [
-    {
-      question: 'Android App Development In Dubai',
-      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
-      StoryLineImg: StoryLine1,
-    },
-    {
-      question: 'Iphone App Development In Dubai',
-      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
-      StoryLineImg: StoryLine2
-    },
-    {
-      question: 'Flutter App Development In Dubai',
-      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
-      StoryLineImg: StoryLine3
-    },
-    {
-      question: 'Game App Development In Dubai',
-      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
-      StoryLineImg: StoryLine4
-    },
-    {
-      question: 'Blockchain Game Development In Dubai',
-      answer: "Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.",
-      StoryLineImg: StoryLine5
-    },
-  ];
-  const storyLine = {
-    subtitle: (<> Business Empowering </>),
-    title: (<> App Development Company in UAE </>),
-    para: "With years of experience empowering startups and well-established brands with advanced app development solutions, we have garnered attention from several credible platforms worldwide, including Zawya and Lovin Dubai in Dubai. Our recognition in the mobile app development industry has solidified us as an end-to-end mobile app development solution provider. Our team of highly talented individuals is ready to take your mobile app development project to the next level.",
-    accordionData: accordionData
-  };
-
-  // Banner Content
-  const Banner = {
-    title: "Mobile App Development Company Dallas",
-    desc: "BitsWits stands out as a leading mobile app development company in Dallas due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dallas are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
-    pageSlug: "Mobile App Development Company Dallas",
-  }
-
-  // award Content
-  const Award = {
-    title: "Awards & Recognitions",
-    desc: "Our bespoke solutions have earned us global recognition, including prestigious accolades and awards. As an eminent app development company in Dubai, we are committed to delivering scalable solutions that meet our clients’ goals. Here are some of our award-winning achievements, which highlight our dedication to excellence, and we’re proud of them. ",
-
-  }
-
-  // DubaiDevelopers Content
-  const subContent = [
-    {
-      subTitle: "Global Collaboration",
-      subDesc: "Our proficient team of top app developers in Dubai seamlessly collaborates with our global partners, ensuring round-the-clock support 24/7 across different time zones. Regardless of your app needs, whether you plan to opt for native iOS or want to invest in Android app development or any other cross-platform technology, we are here to deliver exquisite yet revenue-generating mobile apps. Our apps are equipped with the newest innovations and cutting-edge technologies, thus ensuring maximum return on your investment."
-    },
-    {
-      subTitle: "Exemplary Product Quality",
-      subDesc: "We are equipped with a veteran team of mobile app developers in Dubai having 12+ years of experience working in the industry. We pay attention to agile methodology and we utilize growth-driven strategies, which help us deliver exceptional digital products. Each product we craft is based on your target audience's needs and other market insights, ensuring that the app you’ll get in the end an app not only has an award-winning status but also aligns with your business objectives seamlessly."
-    }
-  ]
-  const Development = {
-    title: "Dallas App Developers",
-    desc: "BitsWits stands out as a top-tier mobile app development company in Dubai, boasting a decade-long legacy of creating impactful, high-quality apps. Our tailored mobile apps help businesses make massive revenue over a short haul, showcasing our commitment to excellence and reflecting our dedication to delivering effective solutions.",
-    subContent: subContent,
-    image: Building,
-    position: false,
-  }
-  // delivered content
-  const DeliveredContent = {
-    title: <>We Have Successfully Delivered 100+ Exquisite Mobile Applications Across the Globe</>,
-    desc: "Got an App Idea? Let’s Connect to Transform Your App Idea to Life",
-    btntext: "Book a Free Consultation Today!"
-  }
-  // timeline Content
-  const timeline = {
-    title: "We Follow as a Trustable App Development Company in Dallas ",
-    desc: <>
-      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
-      <br />
-      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
-      <br />
-      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
-    </>
-  }
-  // ClientContent
-  const ClientContent = {
-    title: <>Why Our Clients <span>Choose Us</span> for Mobile App Development in Dubai</>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. <br /> As we demonstrate, our track record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding<br /> quality expectations.Our clients trust us because of our consistent ability to surpass their expectations and deliver outstanding products every time.<br /> We don’t provide apps. In fact, we deliver products that speak volumes.</>
-  }
-  // Who We Are Content
-  const WhoWeAre = {
-    title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 100+ projects<br /> for various audiences  from different sectors and industries.  Whether you are looking for a mobile e-Commerce platform solution or you need an enterprise mobility <br />application created, we have a history of building high-quality apps that exceed our customer’s expectations. We are making a name for ourselves in the competitive <br /> app development market through our unrivaled quality, commitment to meeting client expectations, and timely delivery. Explore our portfolio<br /> and see why we are a preferred choice by our clients.</>,
-    subtitleOne: "Social Media App - Soul Scribe ",
-    subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
-    subtitleTwo: "Transportation App - Ready App ",
-    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having an user-friendly interface along with features like secure messaging, personal meetings and real-time updates. Our platform solve issues such as data security, algorithm revisions, and user interface design among others in order to have a scalable and mutually beneficial solution. With Ready App, recruiters can easily link with drivers, consequently resulting to a streamlined hiring process and effective communication channels.",
-    subtitleThree: "Automobile App - Greasy Monkey ",
-    subDescThree: "Grease Monkey is a comprehensive automotive innovation system which provides everything ranging from car repairs to oil checkup. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations and also client ratings for your vehicles. The app takes the convenience to a different level altogether. One simply needs to choose the required vehicle, select the required service, choose the date and time and make payment which can all be done within the app. With Grease Monkey, car owners can do regular maintenance for their cars in an easy way by just a few taps on their smartphones."
-  }
-  // Delivered
-  const desc = [
-    {
-      para: <>Are you planning to invest in mobile app development in Dubai? Depending on the app’s complexity and functionality, the cost typically ranges between <span>$50,000</span> to  <span>$250,000+</span>.</>
-    },
-    {
-      para: <>At BitsWits, a simple app development project starts with just <span>$50,000</span>, and it varies depending on your specific app needs. However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
-    },
-    {
-      para: "However, we ensure that the product you acquire in the end from us is of the highest quality and revenue-producing. "
-    },
-    {
-      para: "If you want to get an estimated cost for your app development project in Dubai, you can make use of our app development cost calculator. "
-    },
-  ]
-  const delivered = {
-    title: "How Much Does it Cost to Make an App in Dubai ",
-    desc: desc,
-  }
-  // Delivered
-  const descBlack = [
-    {
-      para: <>In today's digital age, mobile apps have become a lucrative avenue for businesses to generate substantial revenue. </>
-    },
-    {
-      para: <>According to recent statistics, global mobile app revenue is projected to reach <span>$935 </span>, billion by 2024, showcasing the immense potential of the app market. </>
-    },
-    {
-      para: <>Currently, there are more than <span>5.1</span> million apps on the Apple App Store and Google Play combined. This growth is driven by the increasing adoption of smartphones and the growing demand for mobile services across various industries. </>
-    },
-    {
-      para: <>Moreover, another research found which indicates that the top 200 apps on the app stores earn approximately <span>$82,500</span> per day and the lowest 800 apps on Play stores make an average of <span>$3,500</span>. Hence, as a business owner you should invest in this lucrative market if you haven’t already yet and earn considerable revenue over time.</>
-    },
-  ]
-  const deliveredBlack = {
-    title: "How Much Money Can an App Make?",
-    desc: descBlack,
-  }
-  // Technologies Content
-  const technologies = {
-    title: "Cutting-Edge Mobile App Development Services in Dubai ",
-    desc: <>
-      <span>At BitsWits, we offer a wide range of mobile app development services for businesses located in Dubai and other UAE cities. Our team of highly skilled Dubai app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</span>
-      <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Dubai are offering;</span>
-    </>
-  }
-
-  // Bussiness Content
-  const subBussContent = [
-    {
-      subTitle: "Enhanced Customer Engagement",
-      subdesc: "Establishing an efficient mobile app enables two-way communications between you and your customers on a one-on-one basis, resulting in increased customer loyalty."
-    },
-    {
-      subTitle: "Increased Brand Visibility",
-      subdesc: "Mobile apps serve as a communication gateway of your brand making customers access to your products really swift, as well as give a chance to communicate with them."
-    },
-    {
-      subTitle: "Improved Customer Loyalty",
-      subdesc: "By providing users with a remarkable mobile experience that is easy and comfortable to use, you can build consumer trust and ultimately, you can expect increased sales and revenue. "
-    }
-  ]
-  const BussinessContent = {
-    title: <>Revolutionize Your Business with Mobile App Design in <span>UAE</span></>,
-    desc: <>
-      <span className="d-block">In UAE mobile app design can be your company’s game changer, enabling you to create a dynamic environment where you are able to build a loyal customer base, a relationship that is crucial for long-term growth. Through a well-made mobile application, you can reinforce your brand image, broaden the consumer base, and build customer loyalty. </span>
-      <span className="d-block">Our professional team specializes in creating appealing and easy-to-use apps that carry the essence of your brand identity and brand values. Besides grasping the special features and regulations in the UAE market, we spend time developing an individualized strategy, which is the foundation of your app marketing that makes it shine among others.</span>
-    </>,
-    subContent: subBussContent
-  }
-  // compareDesc content
-  const compareDesc = [
-    {
-      desc: <>
-        Undeniably, both iOS and Android Platforms have large user bases and dedicated target audiences. When we talk about the popularity of the following platforms, more than <span>2.87</span> million apps are available on the Play Store, and <span>1.96</span> million apps are accessible on the App Store. </>
-    },
-    {
-      desc: <>
-        In total, there are approximately <span>5.1</span> million apps are available in app stores. Quite astonishing, right? Hence, you should invest in any one of the remarkable technologies depending on your app needs and requirements.  </>
-    },
-    {
-      desc: <>
-        Also, you can partner with our reputable mobile app development company in Dubai and get your app developed now for any technology (Native, Hybrid, and Cross-Platform).   </>
-    },
-  ]
-  const compareContent = {
-    title: "iOS App Development Vs Android App Development ",
-    desc: compareDesc
-  }
-  // Development UAE
-  const developmentUAE = {
-    title: <>BitsWits - Your Trusted App Development Partner in the <span>UAE</span></>,
-    desc: <>
-      As a top app development company in the UAE, BitsWits is distinguished by its dedication to creating outstanding digital products that are customized to the distinct requirements of every client. What makes us unique is our concentration on creativity, products’ excellence, and clients’ fulfillment. Our team of experienced developers and designers carefully examine the objectives of clients and develop personalized app solutions with impressive results. <br /> <br />
-
-      In part of the quality of our services, we at BitsWits offer more than application development services; we provide strategic alliances that lead to business growth. Regardless of whether you’re looking to create a stunning website, develop a powerful mobile application, or aim to improve your online presence, our experts are there to help. Our track record of success and happy clients proves that we are true professionals. Opt for Us to be your app development partner and stay ahead in the competitive mobile industry.
-    </>
-  }
-
-  // IOS content
-  const iosdesc = [
-    {
-      desc: "BitsWits is all about reinventing the app development experience with iOS and all other technologies to outperform the competitive digital market. When it comes to iOS app development in Dubai, what makes us distinctive is our in-depth knowledge of the iOS platform and our ability to create custom digital apps that perfectly align with your company's goals. Our team of highly skilled iOS developers in Dubai promises that the products we provide are top-quality and sure to exceed your expectations."
-    },
-    {
-      desc: "We are cognizant of the peculiar challenges inherent in the online world of business and we leverage this awareness in providing you with bespoke iOS app development services that are tailor-made to meet your particular needs. From pre-development to launch, we are 100% involved with you in the app development journey, ensuring your app has the best capabilities that help it stand out in the competitive app market. Get in touch with any professional iOS app developer in Dubai from BitsWits today and experience the change right away."
-    }
-  ]
-  const IOSContent = {
-    title: "Ascend to Greatness with iOS App Development in Dubai ",
-    desc: iosdesc
-  }
-  // IOS content
-  const andrioddesc = [
-    {
-      desc: "Speaking of Android app development in Dubai, there is no better app development business to refer to as Bitwsits here. Our top team of certified Android app developers in Dubai uses tech proficiency and creative thinking to produce superior mobile applications that are noticeable in the very competitive app market. What makes us unique is our dedication to creativity, user experience, and client convenience."
-    },
-    {
-      desc: "Having taken the position of a top Android app development company in Dubai, we have acquired an understanding of the specific difficulties and benefits of the Android platform. Whether you are developing a new Android application or looking to make your existing Android application better, we are here to help. Our strive for perfection, dedication to our clients, and prioritization of customer satisfaction are the cornerstones of our business."
-    },
-    {
-      desc: "Let's choose BitsWits as your ideal iOS app development partner, and let us turn your app's ideas into reality!"
-    },
-  ]
-  const andriodContent = {
-    title: "Take Your Business to Higher Levels by Android App Development in Dubai ",
-    desc: andrioddesc
-  }
-  // mobile Application content
-  const MobileApplicationContent = [
-    {
-      desc: "At BitsWits, we not only deal with mobile app development but we also offer services beyond that. We're your strategic partner and we are deeply committed to making your vision a reality. Our expertise lies in ingenuity by combining it with perseverance and precision. We don't just create apps; we develop digital experiences that endures. "
-    },
-    {
-      desc: "We precisely design our approach to guarantee that your app runs without any serious glitches and is well-matched with your organization's goals. Considering that each project is unique, we take into account your particular goals and challenges to understand them closely. "
-    },
-    {
-      desc: "From ideation to implementation, we ensure that your app is designed intricately and every aspect is executed perfectly. Through our expertise and dedication, we are able to not only meet the idea goals but exceed the expectations with our exceptional digital experiences that take your business to the top.  "
-    },
-  ]
-  const MobileApplication = {
-    title: "BitsWits is More Than an Ordinary Mobile App Development Company Dubai ",
-    desc: MobileApplicationContent
-  }
-
-  // conqured content
-  const Conquered = {
-    title: "Industries We’ve Conquered as an Eminent App Development Company Dubai ",
-    desc: <><span className="d-block">With a strong emphasis on innovation and excellence, BitsWits caters to a diverse range of sectors and industries. Our mobile app development company in Dubai is committed to transforming your raw ideas into incredible realities. Our app development methodology is combined with innovation and creativity. Plus, we use the latest technologies and tools to deliver exceptional results. </span>
-      <br />
-      <span className="d-block">
-        Explore how our expertise in mobile app development can revolutionize your industry and take your business forward in the competitive digital world.
-      </span>
-    </>
-  }
-  // Houston Dubai
-  const menus = [
-    "App Development Costs According to Business Size In Dubai",
-    "Cost of App Development in Dubai for a Startup",
-    "Cost of App Development in Dubai for Mid-Sized Businesses",
-    "Cost of App Development in Dubai for Enterprises",
-  ];
-
-  const sections = [
-    {
-      title: "App Development Costs According to Business Size In Dubai ",
-      content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> `
-    },
-    {
-      title: "Cost of App Development in Dubai for a Startup",
-      content: `<p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p>`
-    },
-    {
-      title: "Cost of App Development in Dubai for Mid-Sized Businesses",
-      content: `<p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p>`
-    },
-    {
-      title: "Cost of App Development in Dubai for Enterprises",
-      content: `<p class='fontsfregular'>In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>`
-    }
-  ];
-
-  const HoustonContent = {
-    menus: menus,
-    sections: sections,
-  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <DubiaDevelopers content={Development} />
+      <StoryLine content={storyLine} />
+      <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
       <DubaiClients content={ClientContent} />
-      <StoryLine content={storyLine} />
-      <Whowearenew content={WhoWeAre} />
       <Delivered content={delivered} />
-      <DeliveredBlack content={deliveredBlack} />
-      <Technologieslpdubainew content={technologies} />
-      <NewDubaiBussiness content={BussinessContent} />
-      <DubaiDevelopment content={compareContent} />
-      <DubaiDevelopmentUAE content={developmentUAE} />
-      <DubaiIOS content={IOSContent} />
-      <DubaiAndriod content={andriodContent} />
-      <DubaiMobileApplication content={MobileApplication} />
-      <DubaiConquered content={Conquered} />
-      <LpChoosedubaishipnewdubai
-        transform="transformlp"
+      <Industries />
+      <Houtondubai content={HoustonContent} />
+      <DubaiBrandTrust />
+      <Expertappdubaiadvanced expertapp="expertapp"
+        title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
+        appData={
+          [
+            {
+              title: 'Big Data',
+              description: 'Big data plays a crucial role in app development by providing developers with access to a wealth of information and insights. At BitsWits, we specialize in integrating big data analytics to extract invaluable insights, ensuring informed decision-making for business growth and app success.',
+              imageSrc: banImg2,
+            },
+            {
+              title: 'Internet of Things (IoT)',
+              description: 'Integrate IoT technology into your app development process to streamline operations across devices. BitsWits offers customized solutions for real-time data collection and analysis, boosting efficiency and productivity.',
+              imageSrc: banImg3,
+            },
+            {
+              title: 'Blockchain',
+              description: (<> Transform your application with secure and transparent blockchain solutions. BitsWits provides expertise-driven development to ensure trust and integrity in decentralized networks, empowering your app's functionality and security. </>),
+              imageSrc: banImg1,
+            },
+            {
+              title: 'AR/VR',
+              description: 'Partner up with BitsWits to enhance user experiences with immersive AR/VR solutions customized for app development. We offer captivating interactions and simulations to engage users and enhance the success of your app in the market.',
+              imageSrc: banImg6,
+            },
+            {
+              title: 'AI/ML',
+              description: (<> Optimize app performance with AI and machine learning solutions. BitsWits maximizes algorithm potential for process automation, personalized experiences, and trend prediction, driving innovation in your app development projects. </>),
+              imageSrc: banImg4,
+            },
+            {
+              title: 'Cloud Computing',
+              description: (<> Enhance your app development infrastructure with scalable cloud solutions. BitsWits offers expert guidance and support to optimize data storage, access, and collaboration, empowering your app development process with flexibility and growth. </>),
+              imageSrc: banImg5,
+            },
+          ]
+        }
       />
-      <Expertappdubaiadvanced expertapp="expertapp" />
       <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
       />
-      <Globallplp6dubai />
-      <Globalmap />
       <Brand />
-      <Houtondubai content={HoustonContent} />
       <Faqdubai
         faqsData={[
           {
             question:
-              "How can I launch an app in the UAE?",
+              "What platforms do you specialize in for app development?",
             answer: (
               <>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                We focus on app development for diverse platforms that include <b>iOS</b> (iPhone and iPad), <b>Android</b>, <b>web apps</b> (mobile and desktop), and <b>cross-platform apps</b> using <b>Flutter</b> and <b>React Native</b> frameworks.
               </>
             ),
           },
           {
-            question: "How much time is required to build a mobile application?",
+            question: "How do you ensure the security of mobile applications?",
             answer: (
               <>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-              </>
-            ),
-          },
-          {
-            question:
-              "How much does it cost to create an app in Dubai?",
-            answer: (
-              <>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>.
               </>
             ),
           },
           {
             question:
-              "What is a mobile app support service, and does Bitswits offer it?",
+              "Do you offer ongoing support and maintenance after the app launch?",
             answer: (
               <>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <b>Yes</b>, we offer ongoing support and maintenance services after the app launch to ensure its smooth operation, address any issues, and implement updates as needed.
+              </>
+            ),
+          },
+          {
+            question:
+              "What is your approach to user experience design in app development?",
+            answer: (
+              <>
+                As a top-grade mobile app design company in Dallas, our approach to user experience design focuses on <b>understanding user needs</b>, <b>conducting research</b>, <b>creating intuitive interfaces</b>, and <b>iterative testing</b> for optimal usability and satisfaction
+              </>
+            ),
+          },
+          {
+            question:
+              "Can you integrate third-party services or APIs into the app?",
+            answer: (
+              <>
+                <b>Yes</b>, we can integrate third-party services or APIs into the app to extend its functionality and provide additional features as per your requirements and preferences.
               </>
             ),
           },
         ]}
       />
       <Latestblog blogBox={blogBox} />
-
+      <Globalmap />
     </>
   );
-}
+} 

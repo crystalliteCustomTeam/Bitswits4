@@ -25,42 +25,42 @@ const Industries = () => {
     const sliderContent = [
         {
             title: 'Real State',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'We specialize in real estate, offering customized solutions for property development and sales.',
             href: '#',
         },
         {
             title: 'Gaming',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'We develop gaming solutions, integrating cutting-edge technology for immersive player experiences.',
             href: '#',
         },
         {
             title: 'Information Technology',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'We offer Information Technology solutions with AI integration for enhanced business functionality.',
             href: '#',
         },
         {
             title: 'Ecommerce',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'Ecommerce solutions engineered with advanced platforms for smooth online shopping experiences.',
             href: '#',
         },
         {
             title: 'Health Care',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'We innovate healthcare solutions, utilizing state-of-the-art technology for enhanced patient care.',
             href: '#',
         },
         {
             title: 'Automotive',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'Automotive solutions integrating advanced technology for optimized vehicle performance and efficiency.',
             href: '#',
         },
         {
             title: 'Manufacture',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'Manufacturing solutions with advanced processes for efficient production and quality control.',
             href: '#',
         },
         {
             title: 'Logistic',
-            desc: 'Revamp your online presence with BitsWits ecommerce app development services and solutions.',
+            desc: 'Logistics solutions optimized with advanced tracking systems for efficient supply chain management.',
             href: '#',
         },
     ];

@@ -7,7 +7,7 @@ import styles from "@/styles/Delivered.module.css";
 import SecImage from "/public/newdubai/deliveredIcon.png"
 
 const Delivered = ({ content }) => {
-    const { title, desc } = content
+    const { title, desc, cta } = content
     return (
         <>
             <section className={styles.counter}>
@@ -21,10 +21,13 @@ const Delivered = ({ content }) => {
                                     <p className='fontsfregular'>
                                         {item.para}
                                     </p>
+                                    <ul className="p-0 m-0">
+                                        <li className='text-center'>{item.list}</li>
+                                    </ul>
                                 </div>
                             ))}
                             <Link href="javascript:$zopim.livechat.window.show();" className={`pink ${styles.btn}`}>
-                                Calculate Your App Cost Now!
+                                {cta}
                             </Link>
                         </Col>
                     </Row>

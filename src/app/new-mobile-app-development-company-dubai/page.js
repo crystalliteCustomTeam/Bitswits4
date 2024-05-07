@@ -1,20 +1,20 @@
 "use client"
-import React, { useEffect, useState } from "react";
+import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import Whowearenew from "../../components/Whowearenew";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
-import Justbuilditlpdubai from "../../components/Justbuilditlpdubai"; 
-import Faqdubai from "../../components/Faqdubai"; 
+import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
+import Faqdubai from "../../components/Faqdubai";
 import Globalmap from "../../components/Globalmap";
 import Brand from "../../components/Brand";
 import Latestblog from "../../components/Latestblog";
 import Houtondubai from "../../components/Houtondubai";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"; 
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClients from "@/src/components/DubaiClients";
-import StoryLine from "@/src/components/DubaiStoryLine";  
+import StoryLine from "@/src/components/DubaiStoryLine";
 import Delivered from "@/src/components/Delivered";
 import Industries from "@/src/components/Industries";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
@@ -28,84 +28,24 @@ import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
 import StoryLine4 from "/public/newDubaiPagev1/storyLine4.png";
 import StoryLine5 from "/public/newDubaiPagev1/storyLine5.png";
 import StoryLine6 from "/public/newDubaiPagev1/storyLine6.png";
-import Building from "/public/newDubaiPagev1/builingImage.png";
+import banImg1 from '@/public/dubailp/services/1.png'
+import banImg2 from '@/public/dubailp/services/2.png'
+import banImg3 from '@/public/dubailp/services/3.png'
+import banImg4 from '@/public/dubailp/services/4.png'
+import banImg5 from '@/public/dubailp/services/5.png'
+import banImg6 from '@/public/dubailp/services/6.png'
 
 export default function dubaidevelopmentcompany() {
-  const blogBox = [
-    {
-      img: blog1,
-      title: 'Leading Grocery Delivery Apps Making Waves In Saudi Arabia',
-      content: 'Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...'
-    },
-    {
-      img: blog2,
-      title: 'Detail Overview For Online Shopping App In Saudi Arabia',
-      content: 'Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...'
-    },
-    {
-      img: blog3,
-      title: 'How To Develop An Android App: A Complete Guide',
-      content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
-    },
-  ];
-  const [showFolds, setShowFolds] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
     desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dubai are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
-    pageSlug: "Mobile App Development Company Dubai",
   }
   // award Content
   const Award = {
     title: "Awards & Recognitions",
     desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" /> garnered acknowledgment by different platforms.</>,
 
-  }
-  // DubaiDevelopers Content
-  const subContent = [
-    {
-      subTitle: "Global Collaboration",
-      subDesc: "Our proficient team of top app developers in Dubai seamlessly collaborates with our global partners, ensuring round-the-clock support 24/7 across different time zones. Regardless of your app needs, whether you plan to opt for native iOS or want to invest in Android app development or any other cross-platform technology, we are here to deliver exquisite yet revenue-generating mobile apps. Our apps are equipped with the newest innovations and cutting-edge technologies, thus ensuring maximum return on your investment."
-    },
-    {
-      subTitle: "Exemplary Product Quality",
-      subDesc: "We are equipped with a veteran team of mobile app developers in Dubai having 12+ years of experience working in the industry. We pay attention to agile methodology and we utilize growth-driven strategies, which help us deliver exceptional digital products. Each product we craft is based on your target audience's needs and other market insights, ensuring that the app you’ll get in the end an app not only has an award-winning status but also aligns with your business objectives seamlessly."
-    }
-  ]
-  const Development = {
-    title: "Top-Notch App Development Company in Dubai",
-    desc: "BitsWits stands out as a top-tier mobile app development company in Dubai, boasting a decade-long legacy of creating impactful, high-quality apps. Our tailored mobile apps help businesses make massive revenue over a short haul, showcasing our commitment to excellence and reflecting our dedication to delivering effective solutions.",
-    subContent: subContent,
-    image: Building,
-    position: true,
-  }
-  // delivered content
-  const DeliveredContent = {
-    title: <>We Have Successfully Delivered 100+ Exquisite Mobile Applications Across the Globe</>,
-    desc: "Got an App Idea? Let’s Connect to Transform Your App Idea to Life",
-    btntext: "Book a Free Consultation Today!"
-  }
-  // timeline Content
-  const timeline = {
-    title: "We Follow as a Trustable App Development Company in Dubai ",
-    desc: <>
-      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
-      <br />
-      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
-      <br />
-      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
-    </>
-  }
-  // ClientContent
-  const ClientContent = {
-    title: <>Why Our Clients <span>Love</span> BitsWits <br /> for App Development </>,
-    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br className="d-xl-block d-none" /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
   }
   //=====StoryLine Fold=====//
   const accordionData = [
@@ -163,6 +103,38 @@ export default function dubaidevelopmentcompany() {
     subtitleThree: "Greasy Monkey ",
     subDescThree: "Grease Monkey is a comprehensive automotive innovation system which provides everything ranging from car repairs to oil checkup. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations and also client ratings for your vehicles. The app takes the convenience to a different level altogether.. With Grease Monkey, car owners can do regular maintenance for their cars in an easy way by just a few taps on their smartphones."
   }
+  // delivered content
+  const DeliveredContent = {
+    title: <>We Have Successfully Delivered 100+ Exquisite Mobile Applications Across the Globe</>,
+    desc: "Got an App Idea? Let’s Connect to Transform Your App Idea to Life",
+    btntext: "Book a Free Consultation Today!"
+  }
+  // timeline Content
+  const timeline = {
+    title: "We Follow as a Trustable App Development Company in Dubai ",
+    desc: <>
+      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world. We combine the latest technology and artistic creativity to craft apps that engage users and promote business growth.</span>
+      <br />
+      <span className="d-block">From concept to product launch, we pay attention to every minute detail to make sure that what we develop is not only functional but also aesthetically appealing and income-producing. </span>
+      <br />
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
+    </>,
+    heading1: "Idea Conceptualization and Research",
+    para1: "At BitsWits, we make your idea work through the most comprehensive research and creativeness in the first stage. We will make it align with your business plans and market trends so that it will be both viable and marketable. Our collaborative workstyle ensures that your application idea is creative, market-prepared, and resonates with the requirements of your targeted audience.",
+    heading2: "Programming And Development",
+    para2: "At BitsWits, we follow an agile methodology that enables us to adapt to ever-changing market requirements and deliver your app quickly and hassle-free. We prioritize key features and functionality first, which will ensure your app is completed on time and within your budget constraints. Plus, we perform continuous testing on your app to maintain its quality and reliability, thus ensuring a smooth and efficient development process.",
+    heading3: "User-Centric Design (UX/UI)",
+    para3: "Our mobile Google-certified app developers in Dubai focus on creating visually appealing and interactive interfaces that improve user experience. Our experts collect insights into user behavior and preferences and then make the design accordingly so that your app not only functions smoothly but also delivers user-friendliness and engagement. Through wireframing and prototyping, we iterate on design concepts in order to optimize usability and create a seamless user experience.",
+    heading4: "Final Touches and Polish",
+    para4: "Prior to the launch, we add features like animations, transitions and special effects in order to make your app more user-friendly and interesting. Through a comprehensive testing mechanism, we eliminate any bugs or issues your application is faced with, hence, your users will have an easy and smooth time when using your application. Our focus is to produce an app that is highly customizable and meets your expectations, leaving a satisfactory impression.",
+    heading5: "Brand Integration",
+    para5: "Your brand identity becomes part of your app, and we strive to maintain a seamless and memorable user experience. Our designers blend your logos, color schemes, and brand guidelines into the app's design to solidify your unique brand identity. By paying closer attention to each detail that we create, we develop a powerful brand presentation that forges a deep bond between your brand and your audience.",
+  }
+  // ClientContent
+  const ClientContent = {
+    title: <>Why Our Clients <span>Love</span> BitsWits <br /> for App Development </>,
+    desc: <>At BitsWits, we are dedicated to providing the highest quality mobile app development services and solutions in Dubai. As we demonstrate, our track<br className="d-xl-block d-none" /> record is unmatched, with a 95% success rate of meeting deadlines, staying within budgets, and exceeding quality expectations.</>
+  }
   // Delivered
   const desc = [
     {
@@ -173,159 +145,11 @@ export default function dubaidevelopmentcompany() {
     }
   ]
   const delivered = {
-    title: "How Much Does it Cost to Make an App in Dubai ",
+    title: "How Much Does it Cost to Make an App in Dubai",
     desc: desc,
+    cta: "Calculate Your App Cost Now!"
   }
-  // Delivered
-  const descBlack = [
-    {
-      para: <>In today's digital age, mobile apps have become a lucrative avenue for businesses to generate substantial revenue. </>
-    },
-    {
-      para: <>According to recent statistics, global mobile app revenue is projected to reach <span>$935 </span>, billion by 2024, showcasing the immense potential of the app market. </>
-    },
-    {
-      para: <>Currently, there are more than <span>5.1</span> million apps on the Apple App Store and Google Play combined. This growth is driven by the increasing adoption of smartphones and the growing demand for mobile services across various industries. </>
-    },
-    {
-      para: <>Moreover, another research found which indicates that the top 200 apps on the app stores earn approximately <span>$82,500</span> per day and the lowest 800 apps on Play stores make an average of <span>$3,500</span>. Hence, as a business owner you should invest in this lucrative market if you haven’t already yet and earn considerable revenue over time.</>
-    },
-  ]
-  const deliveredBlack = {
-    title: <>How Much Money Can <br /> an App Make?</>,
-    desc: descBlack,
-  }
-  // Technologies Content
-  const technologies = {
-    title: "Cutting-Edge Mobile App Development Services in Dubai ",
-    desc: <>
-      <p className="pt-0">At BitsWits, we offer a wide range of mobile app development services for businesses located in Dubai and other UAE cities. Our team of highly skilled Dubai app developers and designers is dedicated to producing technologically innovative yet interactive mobile applications that deliver engagement and drive growth.</p>
-      <span>Currently, we have a large client base who is satisfied with the services we are offering because we are helping businesses and entrepreneurs from different backgrounds to design and develop world-class mobile based applications. Speaking of empowerment, here are some additional services our app developers in Dubai are offering;</span>
-    </>
-  }
-  // Bussiness Content
-  const subBussContent = [
-    {
-      subTitle: "Enhanced Customer Engagement",
-      subdesc: "Establishing an efficient mobile app enables two-way communications between you and your customers on a one-on-one basis, resulting in increased customer loyalty."
-    },
-    {
-      subTitle: "Increased Brand Visibility",
-      subdesc: "Mobile apps serve as a communication gateway of your brand making customers access to your products really swift, as well as give a chance to communicate with them."
-    },
-    {
-      subTitle: "Improved Customer Loyalty",
-      subdesc: "By providing users with a remarkable mobile experience that is easy and comfortable to use, you can build consumer trust and ultimately, you can expect increased sales and revenue. "
-    }
-  ]
-  const BussinessContent = {
-    title: <>Revolutionize Your Business with Mobile App Design in <span>UAE</span></>,
-    desc: <>
-      <span className="d-block">Our professional team specializes in creating appealing and easy-to-use apps that carry the essence of your brand identity and brand values. Besides grasping the special features and regulations in the UAE market, we spend time developing an individualized strategy, which is the foundation of your app marketing that makes it shine among others.</span>
-    </>,
-    subContent: subBussContent
-  }
-  // compareDesc content
-  const compareDesc = [
-    {
-      desc: <>
-        Undeniably, both iOS and Android Platforms have large user bases and dedicated target audiences. When we talk about the popularity of the following platforms, more than <span>2.87</span> million apps are available on the Play Store, and <span>1.96</span> million apps are accessible on the App Store. </>
-    },
-    {
-      desc: <>
-        In total, there are approximately <span>5.1</span> million apps are available in app stores. Quite astonishing, right? Hence, you should invest in any one of the remarkable technologies depending on your app needs and requirements.  </>
-    },
-    {
-      desc: <>
-        Also, you can partner with our reputable mobile app development company in Dubai and get your app developed now for any technology (Native, Hybrid, and Cross-Platform).   </>
-    },
-  ]
-  const compareContent = {
-    title: "iOS App Development Vs Android App Development ",
-    desc: compareDesc
-  }
-  // Development UAE
-  const developmentUAE = {
-    title: <>BitsWits - Your Trusted App Development Partner in the <span>UAE</span></>,
-    desc: <>
-      As a top app development company in the UAE, BitsWits is distinguished by its dedication to creating outstanding digital products that are customized to the distinct requirements of every client. What makes us unique is our concentration on creativity, products’ excellence, and clients’ fulfillment. Our team of experienced developers and designers carefully examine the objectives of clients and develop personalized app solutions with impressive results. <br /> <br />
-
-      In part of the quality of our services, we at BitsWits offer more than application development services; we provide strategic alliances that lead to business growth. Regardless of whether you’re looking to create a stunning website, develop a powerful mobile application, or aim to improve your online presence, our experts are there to help. Our track record of success and happy clients proves that we are true professionals. Opt for Us to be your app development partner and stay ahead in the competitive mobile industry.
-    </>
-  }
-  // IOS content
-  const iosdesc = [
-    {
-      desc: "BitsWits is all about reinventing the app development experience with iOS and all other technologies to outperform the competitive digital market. When it comes to iOS app development in Dubai, what makes us distinctive is our in-depth knowledge of the iOS platform and our ability to create custom digital apps that perfectly align with your company's goals. Our team of highly skilled iOS developers in Dubai promises that the products we provide are top-quality and sure to exceed your expectations."
-    },
-    {
-      desc: "From pre-development to launch, we are 100% involved with you in the app development journey, ensuring your app has the best capabilities that help it stand out in the competitive app market. Get in touch with any professional iOS app developer in Dubai from BitsWits today and experience the change right away."
-    }
-  ]
-  const IOSContent = {
-    title: "Ascend to Greatness with iOS App Development in Dubai ",
-    desc: iosdesc
-  }
-  // IOS content
-  const andrioddesc = [
-    {
-      desc: "Speaking of Android app development in Dubai, there is no better app development business to refer to as Bitwsits here. Our top team of certified Android app developers in Dubai uses tech proficiency and creative thinking to produce superior mobile applications that are noticeable in the very competitive app market. What makes us unique is our dedication to creativity, user experience, and client convenience."
-    },
-    {
-      desc: "Having taken the position of a top Android app development company in Dubai, we have acquired an understanding of the specific difficulties and benefits of the Android platform. Whether you are developing a new Android application or looking to make your existing Android application better, we are here to help. Our strive for perfection, dedication to our clients, and prioritization of customer satisfaction are the cornerstones of our business."
-    },
-    {
-      desc: "Let's choose BitsWits as your ideal iOS app development partner, and let us turn your app's ideas into reality!"
-    },
-  ]
-  const andriodContent = {
-    title: "Sky-Rocket Your Business with Android App Development in Dubai ",
-    desc: andrioddesc
-  }
-  // mobile Application content
-  const MobileApplicationContent = [
-    {
-      desc: "At BitsWits, we not only deal with mobile app development but we also offer services beyond that. We're your strategic partner and we are deeply committed to making your vision a reality. Our expertise lies in ingenuity by combining it with perseverance and precision. We don't just create apps; we develop digital experiences that endures. "
-    },
-    {
-      desc: "We precisely design our approach to guarantee that your app runs without any serious glitches and is well-matched with your organization's goals. Considering that each project is unique, we take into account your particular goals and challenges to understand them closely. "
-    },
-    {
-      desc: "From ideation to implementation, we ensure that your app is designed intricately and every aspect is executed perfectly. Through our expertise and dedication, we are able to not only meet the idea goals but exceed the expectations with our exceptional digital experiences that take your business to the top.  "
-    },
-  ]
-  const MobileApplication = {
-    title: "BitsWits is More Than an Ordinary Mobile App Development Company Dubai ",
-    desc: MobileApplicationContent
-  }
-  // conqured content
-  const Conquered = {
-    title: <>Industries We’ve Conquered as an App <br /> Development Company </>,
-    desc: <><span className="d-block">Explore how our expertise in mobile app development can revolutionize your industry and take your business forward in the <br /> competitive digital world. </span>
-    </>
-  }
-  // Houston Dubai
-  // const menus = [
-  //   "App Development Costs According to Business Size In Dubai ",
-  //   // "Cost of App Development in Dubai for a Startup",
-  //   // "Cost of App Development in Dubai for Mid-Sized Businesses",
-  //   // "Cost of App Development in Dubai for Enterprises",
-  // ];
-
-  // const sections = [
-  //   {
-  //     title: <>App Development Costs According To Business Size In <span>Dubai</span></>,
-  //     content: `<p class='fontsfregular'>At BitsWits, we know that the price of making an app depends on your business size and its required features. Our services are tailor made for startups to large enterprises in Dubai and will fit their budget and needs.</p> 
-  //     <h5 class="mb-2">Cost of App Development in Dubai for a Startup</h5>
-  //     <p class='fontsfregular'>Often, start-ups in Dubai find the cost of app development to be one of the very main components that determines the success or failure of their products. We, at BitsWits, are aware of the exigence which a start-up has to face; which is why we provide competitively priced solutions which will fit in with your budget. We will work together with you to ensure we put together a quality app that satisfies your needs and at the same time fits within your budget. Through the transparent pricing and flexible payment structures we offered, small to medium-size startups have the chance to afford a quality app development. Typically, the cost of building a simple app for a startup from scratch in Dubai will take between $10,000 and $30,000. This cost includes planning, design, development, testing, and implementation.</p> 
-  //     <h5 class="mb-2">Cost of App Development in Dubai for Mid-Sized Businesses</h5> 
-  //     <p class='fontsfregular'>Developing apps for small and medium-sized businesses in Dubai means to have applications that will be able to keep up with the giant competitors without exceeding the set budget. Our cost-effective and time-efficient mid-sized business app development services in Dubai are purposefully created to help growing start-ups to succeed in business. Along with that, we eliminate the obstacles standing in their way to success. We work in close alignment with you to understand your business needs and tailor-make an app that fits right on budget and gives the perfect solution to your requirements. Through our professional staff and quick development process we can provide enterprise apps to local mid-sized companies in Dubai at a competitive cost. Mid-sized businesses inDubai planning to develop an app can envisage budgets ranging from$30,000 to $100,000.</p> 
-  //     <h5 class="mb-2">Cost of App Development in Dubai for Enterprises</h5> 
-  //     <p class='fontsfregular'> In Dubai, the enterprises require applications of the topnotch characteristics and layouts with the advanced functionalities and features. Over at BitsWits, we focus on the creation of enterprise apps that are features-rich and cost friendly for businesses located in the city of Dubai. Our team of developers will work in close alliance with you to facilitate the process of development of the app that your business is in need of. Our efficient development process back up with transparent pricing feature, allow us to deliver professional-grade apps at reasonable price in Dubai. And for the larger enterprises in Dubai, app development might cost somewhere from $100,000 to $500,000.</p>  `
-
-  //   },
-  // ];
-
+  // Houston Content
   const menus = [
     "App Development Costs According to Business Size In Dubai ",
     "Cost of App Development in Dubai for a Startup",
@@ -337,7 +161,6 @@ export default function dubaidevelopmentcompany() {
     "Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities",
     "Unlocking Houston’s Digital Potential – Trango Tech’s Footprint"
   ];
-
   const sections = [
     {
       title: "App Development Costs According to Business Size In Dubai ",
@@ -442,11 +265,29 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>The profound impact of technology on lives is palpable, and 2nd.MD stands as a testament to how digital innovation can be a game-changer. </p>`
     }
   ];
-
   const HoustonContent = {
     menus: menus,
     sections: sections,
   }
+  // Blogs Content
+  const blogBox = [
+    {
+      img: blog1,
+      title: 'Leading Grocery Delivery Apps Making Waves In Saudi Arabia',
+      content: 'Remember Carrying Heavy Bags Of Groceries Under The Sizzling Saudi Sun? Those Days Are Fast Disappearing Into A Memory As The Expedient Rise Of...'
+    },
+    {
+      img: blog2,
+      title: 'Detail Overview For Online Shopping App In Saudi Arabia',
+      content: 'Online Shopping Apps Have Become A Keystone Of Today’s Retail Business, Transforming The Shopping Experience With Unprecedented Ease And A Wide...'
+    },
+    {
+      img: blog3,
+      title: 'How To Develop An Android App: A Complete Guide',
+      content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
+    },
+  ];
+
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -459,14 +300,50 @@ export default function dubaidevelopmentcompany() {
       <Delivered content={delivered} />
       <Industries />
       <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust />  
-      <Expertappdubaiadvanced expertapp="expertapp" />
+      <DubaiBrandTrust />
+      <Expertappdubaiadvanced expertapp="expertapp"
+        title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
+        appData={
+          [
+            {
+              title: 'Big Data',
+              description: 'Big Data technology monitors large data sources and provides strategic directions in real-time. Our top expert mobile app developers in Dubai gear their work towards Big Data technology which will lead to your customers taking notice and staying put.',
+              imageSrc: banImg2,
+            },
+            {
+              title: 'Internet of Things (IoT)',
+              description: 'IoT technology provides an effective way of collecting, accessing, automating, and many other necessary functions in real-time. Incorporating the latest technologies and market trends, our team from the app developers Dubai are the ones that actually build applications.',
+              imageSrc: banImg3,
+            },
+            {
+              title: 'Blockchain',
+              description: 'Blockchain technology provides a safe and transparent environment for transactions. We are always in contact with our clients in order to deliver them indigenious digital products, which are based on Blockchain technology.',
+              imageSrc: banImg1,
+            },
+            {
+              title: 'AR/VR',
+              description: 'Through our high-end AR/VR app development services, take your business to new heights. We are all about making a difference by pushing the innovation within the virtual reality realm and creating a deep impact that connects, holds, and captive the users. ',
+              imageSrc: banImg6,
+            },
+            {
+              title: 'AI/ML',
+              description: (<> Experience the power of the future through our AI/ML apps. We used the most modern AI/ML technologies and developed very smart apps that constantly adjust and modify users' preferences. </>),
+              imageSrc: banImg4,
+            },
+            {
+              title: 'Cloud Computing',
+              description: (<> Experience the next level of business growth with our cloud computing solutions. With scalable and secure cloud services, you can conveniently store, manage, and analyze your data by trusting our expert app development company Dubai.  </>),
+              imageSrc: banImg5,
+            },
+          ]
+        }
+      />
       <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
-      /> 
+      />
       <Brand />
       <Faqdubai
         faqsData={[
