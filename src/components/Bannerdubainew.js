@@ -143,9 +143,9 @@ const Bannerdubai = ({ content }) => {
                                 <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
+                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
                                     Let’s Build Your Dream App!
-                                </Link>
+                                </a>
                             </div>
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
@@ -188,7 +188,7 @@ const Bannerdubai = ({ content }) => {
                         </Col>
                     </Row>
                 </Container>
-            </section >
+            </section>
         </>
     )
 }

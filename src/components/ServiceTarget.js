@@ -24,10 +24,10 @@ const ServiceTarget = (props) => {
                             <div className={styles.desigh}>
                                 <h3>{props.heading1}</h3>
                                 <p>{props.content1}</p>
-                                <Link href="javascript:$zopim.livechat.window.show();">
+                                <a href="javascript:$zopim.livechat.window.show();">
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
-                                </Link>
+                                </a>
                             </div>
                         </Col>
                         <Col xl={6}></Col>
@@ -36,20 +36,20 @@ const ServiceTarget = (props) => {
                             <div className={styles.desigh}>
                                 <h3>{props.heading2}</h3>
                                 <p>{props.content2}</p>
-                                <Link href="javascript:$zopim.livechat.window.show();">
+                                <a href="javascript:$zopim.livechat.window.show();">
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
-                                </Link>
+                                </a>
                             </div>
                         </Col>
                         <Col xl={6} className='mt-4 mt-lg-0'>
                             <div className={styles.desigh}>
                                 <h3>{props.heading3}</h3>
                                 <p>{props.content3}</p>
-                                <Link href="javascript:$zopim.livechat.window.show();">
+                                <a href="javascript:$zopim.livechat.window.show();">
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />
-                                </Link>
+                                </a>
                             </div>
                         </Col>
                         <Col xl={6}></Col>

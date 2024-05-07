@@ -22,9 +22,9 @@ const LpChoosedubai = (props) => {
               <p>
                 In addition to leveraging the art of collectivism, our experience of working with multiple industries plays an imperative role in enabling us to craft high-performing applications. With our work being backed by multiple awards and appreciation, you'll always have peace of mind that your mobile application is in the hands of professional app developers in Dubai. Moreover, we've won a lot of awards over the years, but here are the ones that we're proud of:
               </p>
-              <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+              <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
                 Let’s Get Started
-              </Link>
+              </a>
             </Col>
             <Col lg={6}>
               <Image className="img-fluid" src={layoff} />

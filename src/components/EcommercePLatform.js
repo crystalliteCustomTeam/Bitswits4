@@ -63,12 +63,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className={`${styles.expendCard} ${styles.magento}`}>
@@ -80,12 +80,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className={`${styles.expendCard} ${styles.WooCommerce}`}>
@@ -97,12 +97,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className={`${styles.expendCard} ${styles.OpenCart}`}>
@@ -114,12 +114,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className={`${styles.expendCard} ${styles.XCart}`}>
@@ -131,12 +131,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className={`${styles.expendCard} ${styles.BigCommerce}`}>
@@ -148,12 +148,12 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                             <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                                <Link href="tel:8335006007" className={styles.btn1}>
+                                                <a href="tel:8335006007" className={styles.btn1}>
                                                     Call Now: +1 833 500 6007
-                                                </Link>
-                                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                                </a>
+                                                <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                     Start Live Chat
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                   
@@ -169,12 +169,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={`${styles.expendCard} ${styles.magento}`}>
@@ -186,12 +186,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={`${styles.expendCard} ${styles.WooCommerce}`}>
@@ -203,12 +203,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={`${styles.expendCard} ${styles.OpenCart}`}>
@@ -220,12 +220,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={`${styles.expendCard} ${styles.XCart}`}>
@@ -237,12 +237,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={`${styles.expendCard} ${styles.BigCommerce}`}>
@@ -254,12 +254,12 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <Link href="tel:8335006007" className={styles.btn1}>
+                                            <a href="tel:8335006007" className={styles.btn1}>
                                                 Call Now: +1 833 500 6007
-                                            </Link>
-                                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
+                                            </a>
+                                            <a href="javascript:$zopim.livechat.window.show();" className={styles.btn1}>
                                                 Start Live Chat
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

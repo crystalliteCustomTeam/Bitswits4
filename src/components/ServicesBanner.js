@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ServicesBanner.module.css";
@@ -26,13 +25,13 @@ const ServiceBanner = (props) => {
                 {props.text}
               </p>
               <div className={styles.pont}>
-                <Link className={styles.book} href="tel:8335006007">
+                <a className={styles.book} href="tel:8335006007">
                   BOOK A CALL
-                </Link>
+                </a>
 
-                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">
+                <a className={styles.about} href="javascript:$zopim.livechat.window.show();">
                   LET'S CONNECT
-                </Link>
+                </a>
               </div>
               <div className={`${styles.banImg}`}>
                 {props.BannerImage ? (

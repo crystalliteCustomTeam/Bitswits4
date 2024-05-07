@@ -143,22 +143,22 @@ const EcommerceFooter = () => {
                                     <Link href="/contact-us" className='font12 lightgrey'>Contact Us</Link>
                                 </li>
                                 <li className='mb-2'>
-                                    <Link href="mailto:info@BitsWits.co" className='font12 lightgrey'>
+                                    <a href="mailto:info@BitsWits.co" className='font12 lightgrey'>
                                         <Image src={Envelop} alt='Envelope' />
                                         <span className='font12 lightgrey ms-2'>Contact Email</span>
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className='mb-2'>
-                                    <Link href="tel:3123795987" className='font12 lightgrey'>
+                                    <a href="tel:3123795987" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 312 379 5987</span>
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link href="tel:8335006007" className='font12 lightgrey'>
+                                    <a href="tel:8335006007" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 833 500 6007</span>
-                                    </Link>
+                                    </a>
                                 </li>
                             </ul>
                         </Col>
@@ -168,10 +168,10 @@ const EcommerceFooter = () => {
                             <p className={`mb-0 font15   font-bold ${styles.borderRight}`}>Official Channels</p>
 
                             <div className='d-flex align-items-center gap-2'>
-                                <Link href='https://www.linkedin.com/company/officialBitsWits'><Image alt='Icons' src={LinkedIn} /> </Link>
-                                <Link href='https://twitter.com/BitsWits_/'><Image alt='Icons' src={Twitter} /> </Link>
-                                <Link href='https://www.youtube.com/@officialBitsWits'><Image alt='Icons' src={Youtube} /> </Link>
-                                <Link href='https://www.instagram.com/officialBitsWits/'><Image alt='Icons' src={Instagram} /> </Link>
+                                <a href='https://www.linkedin.com/company/officialBitsWits'><Image alt='Icons' src={LinkedIn} /> </a>
+                                <a href='https://twitter.com/BitsWits_/'><Image alt='Icons' src={Twitter} /> </a>
+                                <a href='https://www.youtube.com/@officialBitsWits'><Image alt='Icons' src={Youtube} /> </a>
+                                <a href='https://www.instagram.com/officialBitsWits/'><Image alt='Icons' src={Instagram} /> </a>
                                 <Link href='#'><Image alt='Icons' src={Pinterest} /> </Link>
                             </div>
 

@@ -11,12 +11,12 @@ const cta = (props) => {
         <>
             <div className='mt-4 d-md-flex justify-content-left align-content-left mobile-center'>
                 <span className='pe-3 text-sm-center'>
-                    <Link className='btn btn-primary marginb' href="javascript:$zopim.livechat.window.show();">{props.discuss}</Link>
+                    <a className='btn btn-primary marginb' href="javascript:$zopim.livechat.window.show();">{props.discuss}</a>
                 </span>
                 <span className='line'></span>
                 <span  className='px-3 pt-sm-2 text-sm-center'>
                     <Image quality={75} src={phone} alt='logo' width={20} /> 
-                    <Link className={styles.asnumber} href="tel:3123795987"> {props.number}</Link>
+                    <a className={styles.asnumber} href="tel:3123795987"> {props.number}</a>
                 </span> 
             </div>
         </>

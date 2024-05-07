@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from '../../styles/Dedicatedweb.module.css'
@@ -34,7 +33,7 @@ const Dedicated = () => {
                                     <Image quality={75} alt='BitsWits' src={right2} className="img-fluid" />
                                     <Image quality={75} alt='BitsWits' src={right3} className="img-fluid" />
                                 </div>
-                                <Link className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</Link>
+                                <a className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -46,7 +45,7 @@ const Dedicated = () => {
                                     <Image quality={75} alt='BitsWits' src={right5} className="img-fluid" />
                                     <Image quality={75} alt='BitsWits' src={right6} className="img-fluid" />
                                 </div>
-                                <Link className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</Link>
+                                <a className={styles.get} href='javascript:$zopim.livechat.window.show();'>LET'S CONNECT</a>
                             </div>
                         </Col>
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Expertapp.module.css";
@@ -144,7 +143,7 @@ export default function Expertapp(props) {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.offer}>
-                                <Link className={styles.connect} href='javascript:$zopim.livechat.window.show();'>Your App, Our Expertise -  Let's Connect </Link>
+                                <a className={styles.connect} href='javascript:$zopim.livechat.window.show();'>Your App, Our Expertise -  Let's Connect </a>
                             </div>
                         </Col>
                     </Row>

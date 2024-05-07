@@ -55,10 +55,10 @@ const Partnercross = () => {
 
                                 <Image quality={75} alt='BitsWits' src={hybird} className='img-fluid mt-2 mb-5' />
 
-                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
+                                <a href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
                                     <span className="f-poppins f-600 f-capitalize">LET'S CONNECT</span>
 
-                                </Link>
+                                </a>
 
                             </div>
                         </Col>
@@ -78,10 +78,10 @@ const Partnercross = () => {
                                 </ul>
 
                                 <Image quality={75} alt='BitsWits' src={native} className='img-fluid mt-2 mb-5' />
-                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
+                                <a href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
                                     <span className="f-poppins f-600 f-capitalize">LET'S CONNECT</span>
 
-                                </Link>
+                                </a>
 
                             </div>
                         </Col>
@@ -104,10 +104,10 @@ const Partnercross = () => {
                                 <li className="f-14 white f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
                             </ul>
 
-                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
+                            <a href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
                                 <span className="f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
-                            </Link>
+                            </a>
 
                         </div>
                         <div className={styles.leftpadding}>
@@ -123,10 +123,10 @@ const Partnercross = () => {
                                 <li className="f-14 white f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
                                 <li className="f-14 white f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
                             </ul>
-                            <Link href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
+                            <a href="javascript:$zopim.livechat.window.show();" className={styles.arrowBtn}>
                                 <span className="f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
-                            </Link>
+                            </a>
 
                         </div>
                     </Slider>

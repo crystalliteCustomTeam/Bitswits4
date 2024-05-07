@@ -1,10 +1,7 @@
 
-import Link from 'next/link'
-import axios from "axios";
-import Router from 'next/router'
-import styles from '@/styles/Bitswitspopup.module.css'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
+import styles from '@/styles/Bitswitspopup.module.css'
 import { usePathname } from "next/navigation"
 
 
@@ -124,8 +121,8 @@ const Freequote = (props) => {
         {props.show ?
 
           <div className='mt-4'>
-            <Link className={styles.freediscuss} href="javascript:$zopim.livechat.window.show();">LET'S DISCUSS</Link>
-            <Link className={styles.freehomenumer} href="tel:(213) 289 3888">(213) 289 3888</Link>
+            <a className={styles.freediscuss} href="javascript:$zopim.livechat.window.show();">LET'S DISCUSS</a>
+            <a className={styles.freehomenumer} href="tel:(213) 289 3888">(213) 289 3888</a>
           </div>
 
           : ''}

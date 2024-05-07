@@ -518,9 +518,9 @@ const HeaderMbl = () => {
                                             <BsFillEnvelopeFill size={20} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf text-lowercase' href="mailto:info@bitswits.co" onClick={handleMenu}>
+                                            <a className='font15 font-medium white fontf text-lowercase' href="mailto:info@bitswits.co" onClick={handleMenu}>
                                                 info@bitswits.co
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={styles.fill}>
@@ -528,9 +528,9 @@ const HeaderMbl = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:3123795987" onClick={handleMenu}>
+                                            <a className='font15 font-medium white fontf' href="tel:3123795987" onClick={handleMenu}>
                                                 +1 312 379 5987
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={styles.fill}>
@@ -538,9 +538,9 @@ const HeaderMbl = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
+                                            <a className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
                                                 +1 833 500 6007
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

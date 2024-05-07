@@ -115,24 +115,24 @@ const Footernewdesign = () => {
                 <p className={styles.more}>To learn more about our service offerings and industry expertise or to have a Consulting professional contact you directly, please fill out the form below or submit an email & contact number.</p>
                 <ul className="contacts my-links">
                   <li className="mb-1 color-s">
-                    <Link href="mailto:info@BitsWits.co">
+                    <a href="mailto:info@BitsWits.co">
                       <Image alt="BitsWits" className='img-fluid'
                         src={mail}
 
                         loading="lazy"
                       />
                       <span className={styles.email}>Contact Email</span>
-                    </Link>
+                    </a>
                   </li>
                   <li className="font-bold color-s">
-                    <Link href="tel:3123795987">
+                    <a href="tel:3123795987">
                       <Image alt="BitsWits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
                       />
                       <span className={styles.number}>+1 312 379 5987</span>
-                    </Link>
+                    </a>
                   </li>
 
                 </ul>
@@ -148,29 +148,29 @@ const Footernewdesign = () => {
                 <ul className={styles.socials}>
                   <li className={styles.colorp}>Official Channels |</li>
                   <li>
-                    <Link href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
                       <Image width="22" height="22" alt="BitsWits" className="img-fluid" src={icon1} loading="lazy" />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="ttps://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                    <a href="ttps://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
                       <Image width="21" height="21" alt="BitsWits" className="img-fluid" src={icon2} loading="lazy" />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
                       <Image width="21" height="21" alt="BitsWits" className="img-fluid" src={icon3} loading="lazy" />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="hhttps://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
+                    <a href="hhttps://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
                       <Image width="21" height="21" alt="BitsWits" className="img-fluid" src={icon4} loading="lazy" />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
                       <Image width="21" height="21" alt="BitsWits" className="img-fluid" src={icon5} loading="lazy" />
-                    </Link>
+                    </a>
                   </li>
                 </ul>
 

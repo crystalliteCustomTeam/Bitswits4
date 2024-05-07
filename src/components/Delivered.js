@@ -26,9 +26,9 @@ const Delivered = ({ content }) => {
                                     </ul>
                                 </div>
                             ))}
-                            <Link href="javascript:$zopim.livechat.window.show();" className={`pink ${styles.btn}`}>
+                            <a href="javascript:$zopim.livechat.window.show();" className={`pink ${styles.btn}`}>
                                 {cta}
-                            </Link>
+                            </a>
                         </Col>
                     </Row>
                 </Container>

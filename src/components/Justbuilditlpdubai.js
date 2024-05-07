@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Justbuilditlpdubai.module.css'
@@ -39,12 +38,12 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <Link className={`blueShade ${styles.about1}`} href="tel:8335006007">
+                                <a className={`blueShade ${styles.about1}`} href="tel:8335006007">
                                     Call Now
-                                </Link>
-                                <Link className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
+                                </a>
+                                <a className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
                                     Live Chat
-                                </Link>
+                                </a>
                             </div>
                         </Col>
                     </Row>

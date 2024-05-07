@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/LpChoose.module.css";
@@ -154,9 +153,9 @@ const LpChoose = (props) => {
                 Every app we develop undergoes thorough quality checks to ensure{" "}
                 <span>IT'S NOT JUST GOOD, BUT GREAT</span>.
               </p>
-              <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+              <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
                 Choose Expertise, Choose Bitswits – Let's Get Started
-              </Link>
+              </a>
             </Col>
             <Col lg={6} className="d-none d-lg-block">
               <div className={styles.cart}>

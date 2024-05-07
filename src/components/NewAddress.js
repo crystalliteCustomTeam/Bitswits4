@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Iosbanner.module.css";
@@ -140,10 +139,10 @@ const NewAddress = (props) => {
                                         <h4 className='font28 grdiant2 font-bold'>Ready For Success?</h4>
                                         <h5 className='font20 font-bold text-white'>Schedule a complimentary strategy session now with our experienced product strategists.</h5>
                                         <div className={styles.menu}>
-                                            <Link className={`${styles.book} ${styles.book2}`} href="javascript:$zopim.livechat.window.show();">
+                                            <a className={`${styles.book} ${styles.book2}`} href="javascript:$zopim.livechat.window.show();">
                                                 Avail My Free Session.
                                                 <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </Col>
@@ -161,9 +160,9 @@ const NewAddress = (props) => {
                                                 </div>
                                                 <div className={styles.subInner}>
                                                     <p className='font12 font-bold fontf mb-0'>USA</p>
-                                                    <Link href="tel:8335006007" className='font12 font-regular fontf white texdocration'>
+                                                    <a href="tel:8335006007" className='font12 font-regular fontf white texdocration'>
                                                         +1 833 500 6007
-                                                    </Link>
+                                                    </a>
                                                 </div>
                                             </Col>
                                             <Col lg={12} sm={6} className={`${styles.locInner} col-6`}>
@@ -172,9 +171,9 @@ const NewAddress = (props) => {
                                                 </div>
                                                 <div className={styles.subInner}>
                                                     <p className='font12 font-bold fontf mb-0'>Middle East</p>
-                                                    <Link href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
+                                                    <a href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
                                                         +97 155 503 1266
-                                                    </Link>
+                                                    </a>
                                                 </div>
                                             </Col>
                                             <Col lg={12} className={`${styles.locInner} col-6`}>
@@ -183,9 +182,9 @@ const NewAddress = (props) => {
                                                 </div>
                                                 <div className={styles.subInner}>
                                                     <p className='font12 font-bold fontf mb-0'>Asia</p>
-                                                    <Link href="tel:+923468280101" className='font12 font-regular fontf white texdocration'>
+                                                    <a href="tel:+923468280101" className='font12 font-regular fontf white texdocration'>
                                                         +92 346 828 0101
-                                                    </Link>
+                                                    </a>
                                                 </div>
                                             </Col>
                                         </Row>

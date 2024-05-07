@@ -1,48 +1,48 @@
 .DubaiDelivered {
-    padding: 80px 0;
-    background: #000;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  padding: 80px 0;
+  background: #000;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
 .DubaiDelivered h2 {
-    font-size: 45px;
-    text-align: center;
-    font-weight: 500;
-    line-height: 54px;
-    color: white;
-    margin-bottom: 20px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 54px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .DubaiDelivered p {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: white;
-    font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
 }
 
 .btn {
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn a {
-    color: white;
-    letter-spacing: 2px;
-    background-color: #f32f53;
-    border-radius: 4px;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 320px;
-    height: 50px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: #f32f53;
+  border-radius: 4px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 50px;
 }
 
 /* .particleOne {
@@ -82,164 +82,176 @@
 } */
 
 .txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%) !important;
-    width: 62%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) !important;
+  width: 62%;
+}
+
+.secImage,
+.secImageTwo,
+.secImageThree,
+.secImageFour {
+  height: auto;
 }
 
 /* media Query start */
 
 @media only screen and (max-width: 1920px) {
-    .secImage {
-        height: 60%;
-    }
+  .secImageThree {
+    position: absolute;
+    left: 130%;
+  }
 
-    .secImageThree {
-        position: absolute;
-        left: 130%;
-    }
-
-    .secImageFour {
-        position: absolute;
-        left: 110%;
-    }
+  .secImageFour {
+    position: absolute;
+    left: 110%;
+  }
 }
 
 @media only screen and (max-width: 1599px) {
-    .secImageThree {
-        position: inherit;
-    }
+  .secImageThree {
+    position: inherit;
+  }
 
-    .secImageFour {
-        position: inherit;
-    }
+  .secImageFour {
+    position: inherit;
+  }
+
+  .txt h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
-    .DubaiDelivered h2 {
-        font-size: 40px;
-        line-height: 45px;
-        max-width: 900px;
-        margin: 0 auto 15px;
-        display: block;
-    }
+  .DubaiDelivered h2 {
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 900px;
+    margin: 0 auto 15px;
+    display: block;
+  }
 
-    .secImageTwo {
+  /* .secImageTwo {
         height: 55%;
-    }
+    } */
 
-    .secImageThree {
-        height: 60%;
-        margin-left: -60px;
-    }
+  .secImageThree {
+    /* height: 60%; */
+    margin-left: -60px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
-    .secImage {
-        height: 55%;
-        max-width: 300px;
-        min-width: 308px;
-        margin-top: -30px;
-    }
+  .secImage {
+    /* height: 55%; */
+    max-width: 300px;
+    min-width: 308px;
+    margin-top: -30px;
+  }
 
-    .secImageTwo {
-        max-width: 458px;
-        min-width: 446px;
-    }
+  .secImageTwo {
+    max-width: 458px;
+    min-width: 446px;
+  }
 
-    .secImageThree {
-        height: 80%;
-        max-width: 300px;
-        min-width: 278px;
-        margin-top: -82px;
-    }
+  .secImageThree {
+    /* height: 80%; */
+    max-width: 300px;
+    min-width: 278px;
+    margin-top: -82px;
+  }
 
-    .secImageFour {
-        height: 80%;
-        max-width: 300px;
-        min-width: 278px;
-    }
+  .secImageFour {
+    /* height: 80%; */
+    max-width: 300px;
+    min-width: 278px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    .secImage {
-        height: 55%;
-        max-width: 250px;
-        min-width: 255px;
-    }
+  .secImage {
+    /* height: 55%; */
+    max-width: 250px;
+    min-width: 255px;
+  }
 
-    .secImageTwo {
-        max-width: 376px;
-        min-width: 321px;
-        margin-top: 4px;
-    }
+  .secImageTwo {
+    max-width: 376px;
+    min-width: 321px;
+    margin-top: 4px;
+  }
+
+  .txt h2 {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
+  .particleOne {
+    display: none;
+  }
 
-    .particleOne {
-        display: none;
-    }
+  .particleThree {
+    display: none;
+  }
 
-    .particleThree {
-        display: none;
-    }
+  .particleTwo {
+    display: none;
+  }
 
-    .particleTwo {
-        display: none;
-    }
+  .particleFour {
+    display: none;
+  }
 
-    .particleFour {
-        display: none;
-    }
+  .DubaiDelivered {
+    height: auto;
+  }
 
-    .DubaiDelivered {
-        height: auto;
-    }
+  .DubaiDelivered h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
 
-    .DubaiDelivered h2 {
-        font-size: 35px;
-        line-height: 45px;
-    }
-
-    .txt {
-        position: inherit;
-        width: 100%;
-        transform: inherit !important;
-    }
+  .txt {
+    position: inherit;
+    width: 100%;
+    transform: inherit !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .DubaiDelivered h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
+  .DubaiDelivered h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
-    .DubaiDelivered p {
-        font-size: 16px;
-        line-height: 20px;
-    }
+  .DubaiDelivered p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    .DubaiDelivered {
-        padding: 50px 0;
-    }
+  .DubaiDelivered {
+    padding: 50px 0;
+  }
 
-    .DubaiDelivered h2 {
-        font-size: 32px;
-        line-height: 1.3;
-    }
+  .DubaiDelivered h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
 
-    .DubaiDelivered p {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 0;
-    }
+  .DubaiDelivered p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
 
-    .btn {
-        padding-top: 30px;
-    }
+  .btn {
+    padding-top: 30px;
+  }
 }

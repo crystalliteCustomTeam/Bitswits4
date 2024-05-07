@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/HireBenifitsMbl.module.css";
@@ -134,8 +133,8 @@ const HireBenifitsMbl = () => {
                                 <h2>Benefits</h2>
                                 <p>To Hire Mobile Application Developers</p>
                                 <div className={styles.btns}>
-                                    <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
-                                    <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
+                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                    <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</a>
                                 </div>
                             </div>
                         </Col>
@@ -172,8 +171,8 @@ const HireBenifitsMbl = () => {
                                 <h2>Benefits</h2>
                                 <p>To Hire Mobile Application Developers</p>
                                 <div className={styles.btns}>
-                                    <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
-                                    <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
+                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                    <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</a>
                                 </div>
                             </div>
                         </Col>

@@ -150,34 +150,34 @@ const Footerlp = () => {
                                 </ul>
                                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                                     <li className="mb-2">
-                                        <Link href="mailto:info@BitsWits.co">
+                                        <a href="mailto:info@BitsWits.co">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={mail}
 
                                                 loading="lazy"
                                             />
                                             <span className="email f-uppercase">Contact Email</span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className="fw-bold">
-                                        <Link href="tel:3123795987">
+                                        <a href="tel:3123795987">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={call}
 
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 312 379 5987</span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className="fw-bold">
-                                        <Link href="tel:8335006007">
+                                        <a href="tel:8335006007">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={call}
 
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 833 500 6007</span>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </Col>
@@ -190,49 +190,49 @@ const Footerlp = () => {
                             <Col md={4} lg={3} className="mt-md-0 mt-4">
                                 <ul className={`${styles.socials} mb-0 p-0`}>
                                     <li>
-                                        <Link href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={fb}
 
                                                 loading="lazy"
                                             />
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={inta}
 
                                                 loading="lazy"
                                             />
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={tweet}
 
                                                 loading="lazy"
                                             />
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="https://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={linkedin}
 
                                                 loading="lazy"
                                             />
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={youtube}
 
                                                 loading="lazy"
                                             />
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </Col>

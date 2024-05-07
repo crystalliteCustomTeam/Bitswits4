@@ -109,7 +109,7 @@ const DubaiDelivered = ({ content }) => {
                                     {desc}
                                 </p>
                                 <div className={styles.btn}>
-                                    <a href='javascript:;' className='pink'>
+                                    <a href='javascript:$zopim.livechat.window.show();' className='pink'>
                                         {btntext}
                                     </a>
                                 </div>

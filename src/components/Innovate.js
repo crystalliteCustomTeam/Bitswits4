@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Innovate.module.css'
@@ -93,7 +92,7 @@ const Innovate = () => {
                                 <h3 className={styles.build}>We Get It and We've Got Solutions</h3>
                             </div>
                             <div>
-                                <Link className={styles.expert} href='javascript:$zopim.livechat.window.show();'>Talk To An Expert</Link>
+                                <a className={styles.expert} href='javascript:$zopim.livechat.window.show();'>Talk To An Expert</a>
                             </div>
 
                         </Col>

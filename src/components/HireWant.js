@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/HireWant.module.css'
@@ -77,10 +76,10 @@ const HireWant = (props) => {
                                                     <p>Monthly</p>
                                                 </div>
                                             </div>
-                                            <Link href="javascript:$zopim.livechat.window.show();">
+                                            <a href="javascript:$zopim.livechat.window.show();">
                                                 <span>Hire Now</span>
                                                 <Image src={arrow} alt="BitsWits" className={`img-fluid`} />
-                                            </Link>
+                                            </a>
                                         </div>
                                     </Col>
                                 ))}
@@ -107,10 +106,10 @@ const HireWant = (props) => {
                                                         <p>Monthly</p>
                                                     </div>
                                                 </div>
-                                                <Link href="javascript:$zopim.livechat.window.show();">
+                                                <a href="javascript:$zopim.livechat.window.show();">
                                                     <span>Hire Now</span>
                                                     <Image src={arrow} alt="BitsWits" className="img-fluid" />
-                                                </Link>
+                                                </a>
                                             </div>
                                         </Col>
                                     ))}
