@@ -82,7 +82,7 @@ const Processpro = ({ content }) => {
                         ) : (
                             <>
                                 <div className={styles.headings}>
-                                    <nav className={`${styles.applicationlong} newfinfler`}>
+                                    <nav className={`${styles.applicationlong}`}>
                                         <ul>
                                             {menus.map((menu, index) => (
                                                 <li key={index} className={visibleSection === menu ? styles.active : ""}>
