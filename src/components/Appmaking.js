@@ -80,7 +80,7 @@ const Appmaking = () => {
         <>
             <section className={styles.appmaking} id='technofair'>
                 <Container>
-                    <Row className={`${styles.platform} gx-5 gy-3`}>
+                    <Row className={`${styles.platform} w-100 gx-5 gy-3`}>
                         <Col xl={10}>
                             <h2 className="white f-20 f-700 center">TECHNOLOGIES</h2>
                             <h3 className="white f-40 f-700 center">Best App Making Technologies</h3>
@@ -88,7 +88,6 @@ const Appmaking = () => {
                         </Col>
                         {isSliderActive ?
                             <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
-
                                 <div className={styles.native} data-scroll data-scroll-speed="0.4">
                                     <div className={styles.noroow}>
                                         <Image alt='BitsWits' src={logo1} className='img-fluid' />
@@ -111,7 +110,6 @@ const Appmaking = () => {
                                     <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
 
                                 </div>
-
                                 <div className={styles.native2} data-scroll data-scroll-speed="0.4">
                                     <div className={`${styles.noroow2} ${styles.noroow1}`}>
                                         <Image alt='BitsWits' src={logo5} className='img-fluid' />
@@ -133,7 +131,6 @@ const Appmaking = () => {
                                         <Link href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
                                     </div>
                                 </div>
-
                             </Slider>
                             :
                             <>
@@ -186,8 +183,6 @@ const Appmaking = () => {
                                 </Col>
                             </>
                         }
-
-
                     </Row>
 
                 </Container>

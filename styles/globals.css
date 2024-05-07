@@ -4073,6 +4073,27 @@ button {
   right: -100px;
 }
 
+.clintSlider1 .slick-dots li button {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.clintSlider1 .slick-dots li button:before {
+  opacity: 0;
+}
+
+.clintSlider1 .slick-dots li.slick-active button:before {
+  opacity: 0;
+}
+
+.clintSlider1 .slick-dots li.slick-active button {
+  background: #f32f53;
+}
+
+.clintSlider1 .slick-dots {
+  bottom: -55px;
+}
+
 .react-tel-input .flag-dropdown {
   position: absolute;
   top: 1px;

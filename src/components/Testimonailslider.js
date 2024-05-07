@@ -21,7 +21,16 @@ export default function Testimonailslider() {
         centerMode: false,
         variableWidth: false,
         nextArrow: <Image src={right} alt='BitsWits' className='img-fluid' />,
-        prevArrow: <Image src={left} alt='BitsWits' className='img-fluid' />
+        prevArrow: <Image src={left} alt='BitsWits' className='img-fluid' />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
     };
 
     return (
