@@ -9,9 +9,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const SmartContract = (props) => {
-
-
-
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
         const handleResize = () => {
@@ -55,7 +52,7 @@ const SmartContract = (props) => {
         <>
             <section className={`${styles[props.assignClass]}`}>
                 <Container>
-                    <Row className="gx-2 gy-5">
+                    <Row className="gx-2 gy-5 w-100">
                         <Col lg={12}>
                             {props.title ?
                                 props.title

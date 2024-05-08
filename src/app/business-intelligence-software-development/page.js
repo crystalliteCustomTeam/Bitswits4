@@ -547,7 +547,6 @@ export default function mobileApplication() {
         ]}
       />
       <HomeLocation />
-
       <Script id="websiteSchema" type="application/ld+json">
         {`
           {

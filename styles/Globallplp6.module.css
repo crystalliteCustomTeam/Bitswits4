@@ -4,6 +4,7 @@
   padding-bottom: 80px;
   padding-top: 80px;
 }
+
 .loop,
 .pont {
   display: flex;
@@ -39,15 +40,22 @@
   .pipe img {
     width: 29%;
   }
+
+  .loop,
+  .pont {
+    gap: 25px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .loop img {
     width: 10%;
   }
+
   .pont img {
     width: 10%;
   }
+
   .team {
     padding-bottom: 50px;
   }
@@ -61,6 +69,7 @@
   .loop img {
     width: auto;
   }
+
   .pont img {
     width: auto;
   }
@@ -103,10 +112,12 @@
     font-size: 30px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .newclassglobe {
     padding-top: 50px;
   }
+
   .team {
     text-align: center;
   }

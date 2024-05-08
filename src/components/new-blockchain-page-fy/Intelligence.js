@@ -45,12 +45,12 @@ const Intelligence = (props) => {
         slidesToScroll: 1,
         adaptiveHeight: true
     }
-    
+
     return (
         <>
             <section className={`${styles[props.assignClass]}`}>
                 <Container>
-                    <Row className="gx-5">
+                    <Row className="gx-5 w-100">
                         <Col lg={12}>
                             <h2 className="font_30 fontsfheavy newfycolr">Custom Blockchain Applications</h2>
                             <h2 className="newchoose letterspace_1 font-bold white">We Build Custom Blockchain Applications</h2>
@@ -125,7 +125,7 @@ const Intelligence = (props) => {
                                         <h3 className="font_20 newfycolr font-bold pb-2">Cut Intermediary Costs</h3>
                                         <p className={`${styles.create} font_15 fontsfregular linehight_1 white`}>We develop public and private blockchains for applications to exchange data records, status updates, payments, and other transaction information without added financial restraints.</p>
                                     </div>
-                                </div> 
+                                </div>
                             </Col>
                         }
                         <Col lg={5}>

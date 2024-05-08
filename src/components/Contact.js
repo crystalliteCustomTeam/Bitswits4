@@ -27,7 +27,7 @@ const Contact = (props) => {
     const [score, setScore] = useState('Time to Book The Call');
 
 
-   const router = usePathname();
+    const router = usePathname();
     const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
@@ -57,7 +57,7 @@ const Contact = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-    
+
 
 
         fetch('api/contactapp/route', {
@@ -126,7 +126,7 @@ const Contact = (props) => {
                                     </Col>
                                 </Row>
                                 {/* ========================= */}
-                                <Row className='g-5 mt-0 mt-sm-3 d-flex d-lg-none'>
+                                <Row className='g-5 mt-0 mt-sm-3 d-flex d-lg-none w-100'>
                                     <Col md={6} className='mt-2 mt-sm-4 col-6'>
                                         <Image quality={75} src={img1} className='img-fluid w-75 m-auto d-block' alt='BitsWits' />
                                     </Col>
