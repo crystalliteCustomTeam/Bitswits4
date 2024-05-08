@@ -45,7 +45,7 @@ const Provideservices = (props) => {
     <>
       <section className={`${styles[props.assignClass]}`}>
         <Container>
-          <Row className="gx-5 align-items-center">
+          <Row className="gx-5 align-items-center w-100">
             <Col lg={12}>
               {props.title ? props.title : ""}
               {props.bigtitle ? props.bigtitle : ""}

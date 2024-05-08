@@ -49,7 +49,7 @@ const Nftservices = (props) => {
         <>
             <section className={`${styles[props.assignClass]}`}>
                 <Container>
-                    <Row className="gx-5 gy-4">
+                    <Row className="gx-5 gy-4 w-100">
                         <Col lg={12}>
                             <h3 className="font_30 fontsfheavy newfycolr">NFT Marketplace Development</h3>
                             <h2 className="newchoose letterspace_1 font-bold white">Custom NFT Marketplace Development</h2>
