@@ -26,17 +26,17 @@ const SmallBanner = () => {
                                     </Link>
                                 </div>
                                 <div className='btnTwo'>
-                                    <Link href="javascript:;" className={styles.btnTwo}>
+                                    <a href="javascript:$zopim.livechat.window.show();" className={styles.btnTwo}>
                                         Live Chat
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className='number'>
-                                    <Link href="tel:;" className={styles.number}>
+                                    <a href="tel:833-666-6684" className={styles.number}>
                                         <span>
                                             <Image src={flagIcon} alt='Bitswits' className='me-2' />
                                         </span>
                                         +1-833-666-6684
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className={`${styles.partical} animation lg:block hidden`}>

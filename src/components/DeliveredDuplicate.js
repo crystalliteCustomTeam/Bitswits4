@@ -23,7 +23,7 @@ const DeliveredDuplicate = ({ content }) => {
                                     </p>
                                 </div>
                             ))}
-                            <Link href="javascript:$zopim.livechat.window.show();">Calculate Your App Cost Now!</Link>
+                            <a href="javascript:$zopim.livechat.window.show();">Calculate Your App Cost Now!</a>
                         </Col>
                     </Row>
                 </Container>

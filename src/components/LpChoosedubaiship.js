@@ -34,9 +34,9 @@ const LpChoosedubaiship = (props) => {
                 To Grow With Us</h3>
 
               <div className="mt-4">
-                <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+                <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
                   Join Us on the Journey to Growth in Dubai!
-                </Link>
+                </a>
               </div>
             </Col>
             <Col lg={6} className={styles.work}>

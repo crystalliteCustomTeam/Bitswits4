@@ -8,12 +8,12 @@ import style from '../styles/Footer.module.css';
 //
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaBehance, FaDribbble, FaPinterestP, FaWhatsapp } from "react-icons/fa6";
 //
-import FooterLogo from "/public/images/logo.svg';
-import email from "/public/images/email.png';
-import usa from "/public/images/usa.png';
-import uae from "/public/images/uae.png';
-import pakistan from "/public/images/pakistan.png';
-import whatsapp from "/public/images/whatsapp.png';
+import FooterLogo from "/public/images/logo.svg";
+import email from "/public/images/email.png";
+import usa from "/public/images/usa.png";
+import uae from "/public/images/uae.png";
+import pakistan from "/public/images/pakistan.png";
+import whatsapp from "/public/images/whatsapp.png";
 
 
 const Footer = () => {
@@ -27,21 +27,21 @@ const Footer = () => {
                             <ul>
                                 <li className={style.IconText}>
                                     <Image quality={75} src={email} alt="Blockchain" className="img-fluid" />
-                                    <span><Link className="d-block mb-1" href="mailto:"> CONTACT EMAIL</Link> </span>
+                                    <span><a className="d-block mb-1" href="mailto:info@BitsWits.co"> CONTACT EMAIL</a> </span>
                                 </li>
                                 <li className={style.IconText}>
                                     <Image quality={75} src={usa} alt="Blockchain" className="img-fluid" />
-                                    <p><Link className="d-block mb-1" href="tel:3123795987"> +1 833 500 6007</Link>
-                                        <Link className="d-block" href="tel:3123795987">+1 312 379 5987</Link>
+                                    <p><a className="d-block mb-1" href="tel:3123795987"> +1 833 500 6007</a>
+                                        <a className="d-block" href="tel:3123795987">+1 312 379 5987</a>
                                     </p>
                                 </li>
                                 <li className={style.IconText}>
                                     <Image quality={75} src={uae} alt="Blockchain" className="img-fluid" />
-                                    <p><Link href="tel:3123795987"> +97 155 503 1266</Link></p>
+                                    <p><a href="tel:3123795987"> +97 155 503 1266</a></p>
                                 </li>
                                 <li className={style.IconText}>
                                     <Image quality={75} src={pakistan} alt="Blockchain" className="img-fluid" />
-                                    <p><Link href="tel:923468280101"> +92 346 828 0101</Link></p>
+                                    <p><a href="tel:923468280101"> +92 346 828 0101</a></p>
                                 </li>
                             </ul>
 

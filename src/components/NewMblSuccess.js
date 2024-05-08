@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewMblSuccess.module.css"; 
@@ -29,7 +28,7 @@ const Newsuccess = (props) => {
                                         <span className='f-60 font-bold newfycolr mb-0'>{step.number}</span>
                                         <span className='font30 font-bold white mb-0'>{step.title}</span>
                                         <span className='font16 white'>{step.text}</span>
-                                        <Link href={step.link} className={styles.sucssBtn}>{step.buttonText}</Link>
+                                        <a href={step.link} className={styles.sucssBtn}>{step.buttonText}</a>
                                     </div>
                                 ))}
                                 <Image quality={75} src={team1} alt='BitsWits' className={`${styles.befImg} img-fluid`} />
@@ -43,7 +42,7 @@ const Newsuccess = (props) => {
                                         <span className='f-60 font-bold newfycolr mb-0'>{step.number}</span>
                                         <span className='font30 font-bold white mb-0'>{step.title}</span>
                                         <span className='font16 white'>{step.text}</span>
-                                        <Link href={step.link} className={styles.sucssBtn}>{step.buttonText}</Link>
+                                        <a href={step.link} className={styles.sucssBtn}>{step.buttonText}</a>
                                     </div>
                                 ))}
                                 <Image quality={75} src={team1} alt='BitsWits' className={`${styles.befImg} img-fluid`} />

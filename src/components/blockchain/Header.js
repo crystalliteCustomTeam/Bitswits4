@@ -375,9 +375,9 @@ function Header() {
                   <Nav className="">
                     <Link href="/contact/" className="btn btn-primary me-3">Hire Blockchain Developer </Link>
                     <span className="line"></span>
-                    <Link href="tel:1-844-400-0025" className="ms-3"> <span>
+                    <a href="tel:1-844-400-0025" className="ms-3"> <span>
                       <Image quality={75} src="../images/phone.svg" alt='logo' width={20} /></span><span className="text-white"> 1-844-400-0025</span>
-                    </Link>
+                    </a>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

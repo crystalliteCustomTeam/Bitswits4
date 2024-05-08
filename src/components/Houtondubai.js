@@ -92,7 +92,7 @@ const Processpro = ({ content }) => {
                                         </ul>
                                     </nav>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;" className="pink">
+                                        <Link href="javascript:$zopim.livechat.window.show();" className="pink">
                                             Book A Consultation Now!
                                         </Link>
                                     </div>

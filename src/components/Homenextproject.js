@@ -59,7 +59,7 @@ const Homenextproject = (props) => {
                   <h3 className='newchoose'>{props.title}</h3>
                 </div>
                 <div>
-                  <Link href='tel:(833) 500-6007'>LET'S CONNECT</Link>
+                  <a href='tel:(833) 500-6007'>LET'S CONNECT</a>
                 </div>
               </div>
             </Col>

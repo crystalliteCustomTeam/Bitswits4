@@ -107,7 +107,7 @@ const Appmaking = () => {
                                         <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                     </ul>
 
-                                    <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
+                                    <a href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</a>
 
                                 </div>
                                 <div className={styles.native2} data-scroll data-scroll-speed="0.4">
@@ -128,7 +128,7 @@ const Appmaking = () => {
                                         <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                     </ul>
                                     <div>
-                                        <Link href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                        <a href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</a>
                                     </div>
                                 </div>
                             </Slider>
@@ -154,7 +154,7 @@ const Appmaking = () => {
                                             <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                         </ul>
 
-                                        <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
+                                        <a href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</a>
 
                                     </div>
                                 </Col>
@@ -177,7 +177,7 @@ const Appmaking = () => {
                                             <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                         </ul>
                                         <div>
-                                            <Link href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                            <a href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</a>
                                         </div>
                                     </div>
                                 </Col>

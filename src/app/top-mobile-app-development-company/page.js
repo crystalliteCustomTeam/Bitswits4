@@ -1,7 +1,6 @@
 "use client"
 import Script from "next/script";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 // css
 import styles from "@/styles/bannerlp.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
@@ -51,10 +50,10 @@ export default function gamedevelopmentcompany() {
         btn2={
           <>
             <div className={styles.pont}>
-              <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">
+              <a className={styles.about} href="javascript:$zopim.livechat.window.show();">
                 Transform Your App Idea Into A Success Story - Today Is The Day
                 To Start!
-              </Link>
+              </a>
             </div>
           </>
         }

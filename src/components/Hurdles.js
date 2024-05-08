@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Hurdles.module.css";
@@ -71,7 +70,7 @@ const Hurdles = () => {
 
 
                                 <h3 className='white font40 f-700'>We Get It and We've Got Solutions</h3>
-                                <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>Talk To An Expert</Link>
+                                <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>Talk To An Expert</a>
                             </div>
                         </Col>
                     </Row>

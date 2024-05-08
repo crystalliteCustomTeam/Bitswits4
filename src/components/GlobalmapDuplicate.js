@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/GlobalmapDuplicate.module.css";
 
@@ -14,9 +13,9 @@ const GlobalmapDuplicate = () => {
                             <div className={styles.newtimg}>
                                 <h3>Meet Our Experts <br></br>
                                     One-on-One</h3>
-                                <Link className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
-                                <Link className={styles.timr} href="javascript:$zopim.livechat.window.show();">Let's Chat</Link>
-                                <p className="black mb-0">Call us at <Link className={styles.num} href="tel:+971551659060">+971 551 659060</Link> </p>
+                                <a className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
+                                <a className={styles.timr} href="javascript:$zopim.livechat.window.show();">Let's Chat</a>
+                                <p className="black mb-0">Call us at <a className={styles.num} href="tel:+971551659060">+971 551 659060</a> </p>
                             </div>
                         </Col>
                         <Col lg={6} className="p-0">

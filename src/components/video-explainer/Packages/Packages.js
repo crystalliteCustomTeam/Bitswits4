@@ -52,9 +52,9 @@ const Packages = () => {
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
                                     <div className={styles.cardBtns}>
-                                        <a href="tel:833-666-6689">
+                                        <a href="tel:833 500 6007">
                                             speak with us
-                                            <span>833-666-6689</span>
+                                            <span>833 500 6007</span>
                                         </a>
                                         <a href="javascript:$zopim.livechat.window.show();">
                                             Want to Discuss
@@ -65,9 +65,9 @@ const Packages = () => {
                                         <Link href="javascript:;" className={styles.getStarted}>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -104,9 +104,9 @@ const Packages = () => {
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
                                     <div className={styles.cardBtns}>
-                                        <a href="tel:833-666-6689">
+                                        <a href="tel:833 500 6007">
                                             speak with us
-                                            <span>833-666-6689</span>
+                                            <span>833 500 6007</span>
                                         </a>
                                         <a href="javascript:$zopim.livechat.window.show();">
                                             Want to Discuss
@@ -117,9 +117,9 @@ const Packages = () => {
                                         <Link href="javascript:;" className={styles.getStarted}>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -156,9 +156,9 @@ const Packages = () => {
                                 </div>
                                 <div className={`${styles.card_bottom}`}>
                                     <div className={styles.cardBtns}>
-                                        <a href="tel:833-666-6689">
+                                        <a href="tel:833 500 6007">
                                             speak with us
-                                            <span>833-666-6689</span>
+                                            <span>833 500 6007</span>
                                         </a>
                                         <a href="javascript:$zopim.livechat.window.show();">
                                             Want to Discuss
@@ -169,9 +169,9 @@ const Packages = () => {
                                         <Link href="javascript:;" className={styles.getStarted}>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
+                                        <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
                                             Live Chat
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

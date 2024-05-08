@@ -36,7 +36,7 @@ const Faqdubai = (props) => {
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
                                             <p>{faq.answer}</p>
-                                            <Link href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</Link>
+                                            <a href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</a>
                                         </div>
                                         {/* <Image className="img-fluid" src={faq.imggodd} alt='Bitswits' /> */}
                                     </div>

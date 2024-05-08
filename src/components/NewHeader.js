@@ -1032,13 +1032,13 @@ const HeaderNewDesign = () => {
                     <Col lg={4} className={`${styles.newset}`}>
                       <div className={styles.lptow}>
                         <div className={styles.newbits}>
-                          <Link href="javascript:$zopim.livechat.window.show();">
+                          <a href="javascript:$zopim.livechat.window.show();">
                             <Image
                               alt="bitswits"
                               src={discount}
                               className="img-fluid"
                             />
-                          </Link>
+                          </a>
                         </div>
                         <div className={styles.proper}>
                           <h4>Development Excellence with Bitswits</h4>
@@ -1051,7 +1051,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            <Link href="tel:8335006007">
+                            <a href="tel:8335006007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1059,10 +1059,10 @@ const HeaderNewDesign = () => {
                                 loading="lazy"
                               />
                               <span className="number">BOOK A CALL</span>
-                            </Link>
+                            </a>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="mailto:info@BitsWits.co" className={styles.saleEmail}>
+                            <a href="mailto:info@BitsWits.co" className={styles.saleEmail}>
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1072,10 +1072,10 @@ const HeaderNewDesign = () => {
                               <span className="email f-uppercase">
                                 Contact Email
                               </span>
-                            </Link>
+                            </a>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="javascript:$zopim.livechat.window.show();">
+                            <a href="javascript:$zopim.livechat.window.show();">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1085,7 +1085,7 @@ const HeaderNewDesign = () => {
                               <span className="email f-uppercase">
                                 Lets Chat
                               </span>
-                            </Link>
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -1492,13 +1492,13 @@ const HeaderNewDesign = () => {
                     <Col lg={4} className={`${styles.newset}`}>
                       <div className={`${styles.lptow} ${styles.lptow2}`}>
                         <div className={styles.newbits}>
-                          <Link href="javascript:$zopim.livechat.window.show();">
+                          <a href="javascript:$zopim.livechat.window.show();">
                             <Image
                               alt="bitswits"
                               src={discount}
                               className="img-fluid"
                             />
-                          </Link>
+                          </a>
                         </div>
                         <div className={styles.proper}>
                           <h4>Crafting Success with Bitswits</h4>
@@ -1511,7 +1511,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            <Link href="tel:8335006007">
+                            <a href="tel:8335006007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1519,10 +1519,10 @@ const HeaderNewDesign = () => {
                                 loading="lazy"
                               />
                               <span className="number">BOOK A CALL</span>
-                            </Link>
+                            </a>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="mailto:info@BitsWits.co" className={styles.saleEmail}>
+                            <a href="mailto:info@BitsWits.co" className={styles.saleEmail}>
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1532,10 +1532,10 @@ const HeaderNewDesign = () => {
                               <span className="email f-uppercase">
                                 Contact Email
                               </span>
-                            </Link>
+                            </a>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="javascript:$zopim.livechat.window.show();">
+                            <a href="javascript:$zopim.livechat.window.show();">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1545,7 +1545,7 @@ const HeaderNewDesign = () => {
                               <span className="email f-uppercase">
                                 Lets Chat
                               </span>
-                            </Link>
+                            </a>
                           </p>
                         </div>
                       </div>

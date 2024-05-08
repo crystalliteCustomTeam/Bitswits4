@@ -127,14 +127,14 @@ const ContactBox = () => {
                                                     <p className="font13 font-medium white mb-1 text-center">
                                                         8 The Green STE 300, Dover DE 19901.
                                                     </p>
-                                                    <Link className='font14 white text-center mb-3' href='tel:8335006007'>+1 833 500 6007</Link>
+                                                    <a className='font14 white text-center mb-3' href='tel:8335006007'>+1 833 500 6007</a>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={delaware} alt='Location' className='img-fluid mb-4' />
                                                     </div>
 
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">HOUSTON</h3>
-                                                    <Link className='font13 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
-                                                    <Link className='font14 white text-center mb-3' href='tel:+17135657656'>+1 713 565 7656</Link>
+                                                    <a className='font13 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</a>
+                                                    <a className='font14 white text-center mb-3' href='tel:+17135657656'>+1 713 565 7656</a>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={houston} alt='Location' className='img-fluid' />
                                                     </div>
@@ -146,8 +146,8 @@ const ContactBox = () => {
                                                 <div className={styles.locTxt}>
                                                     <h2 className="font30 font-bold white mb-3 text-center">Middle East</h2>
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">SHARJAH</h3>
-                                                    <Link className='font15 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
-                                                    <Link className='font14 white text-center' href='tel:+971555031266'>+971 555 031266</Link>
+                                                    <a className='font15 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
+                                                    <a className='font14 white text-center' href='tel:+971555031266'>+971 555 031266</a>
                                                 </div>
                                                 <div className={styles.locImg}>
                                                     <Image src={Sharjah} alt='Location' className='img-fluid mt-4' />
@@ -168,8 +168,8 @@ const ContactBox = () => {
                                                     </div>
 
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">PAKISTAN</h3>
-                                                    <Link className='font13 font-medium white text-center mb-1' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
-                                                    <Link className='font14 white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
+                                                    <a className='font13 font-medium white text-center mb-1' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</a>
+                                                    <a className='font14 white text-center' href='tel:+923468280101'>+92 346 828 0101</a>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={pakistan} alt='Location' className='img-fluid' />
                                                     </div>

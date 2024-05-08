@@ -209,19 +209,19 @@ const VideoFooter = () => {
                             <div className={styles.address_detail}>
                                 <ul>
                                     <li>
-                                        <Link href="tel:833-666-6689">
-                                            <FaPhoneAlt className={styles.footerIcons} /> 833-666-6689
-                                        </Link>
+                                        <a href="tel:833 500 6007">
+                                            <FaPhoneAlt className={styles.footerIcons} /> 833 500 6007
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="mailto:queries@infinityanimations.com">
-                                            <FaEnvelope className={styles.footerIcons} /> queries@infinityanimations.com
-                                        </Link>
+                                        <a href="mailto:info@BitsWits.co">
+                                            <FaEnvelope className={styles.footerIcons} /> info@BitsWits.co
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="https://infinityanimations.com">
-                                            <FaGlobeAsia className={styles.footerIcons} /> www.infinityanimations.com
-                                        </Link>
+                                        <a href="https://bitswits.co">
+                                            <FaGlobeAsia className={styles.footerIcons} /> www.bitswits.co
+                                        </a>
                                     </li>
                                 </ul>
                                 <Image src={Payment} alt='Payment-Methods' className='img-fluid' />

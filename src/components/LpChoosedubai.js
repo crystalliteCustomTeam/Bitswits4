@@ -45,9 +45,9 @@ const LpChoosedubai = (props) => {
                 While we've garnered numerous awards over the years, here are the ones that make us particularly proud:
               </p>
 
-              <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+              <a href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
                 Let’s Get Started
-              </Link>
+              </a>
             </Col>
             <Col lg={6}>
               <Image className="img-fluid" src={layoff} />

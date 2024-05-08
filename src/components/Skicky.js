@@ -134,7 +134,7 @@ const Skicky = () => {
                         <span className="icon">
                             <Image width="30" height="30" alt="bitswits" className="img-fluid" src={tel} loading="lazy" />
                             <div className="txtBody">
-                                <Link href="javascript:$zopim.livechat.window.show();">Chat Now</Link>
+                                <a href="javascript:$zopim.livechat.window.show();">Chat Now</a>
                             </div>
                         </span>
                     </div>
@@ -142,7 +142,7 @@ const Skicky = () => {
                         <span className="icon">
                             <Image width="30" height="30" alt="bitswits" className="img-fluid" src={call} loading="lazy" />
                             <div className="txtBody">
-                                <Link href="tel:3123795987">1 - 312 379 5987</Link>
+                                <a href="tel:3123795987">1 - 312 379 5987</a>
                             </div>
                         </span>
                     </div>

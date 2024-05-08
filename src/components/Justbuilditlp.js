@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
@@ -41,8 +40,8 @@ const Justbuildit = (props) => {
                             {props.para}
 
                             <div className={styles.pont}>
-                                <Link className={styles.about1} href="tel:8335006007">Book A Call</Link>
-                                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
+                                <a className={styles.about1} href="tel:8335006007">Book A Call</a>
+                                <a className={styles.about} href="javascript:$zopim.livechat.window.show();">Live Chat</a>
                             </div>
                         </Col>
                     </Row>

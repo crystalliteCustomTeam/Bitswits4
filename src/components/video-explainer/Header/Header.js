@@ -20,22 +20,22 @@ const VideoHeader = () => {
                         </div>
                         <div className={`d-flex align-items-center gap-lg-4`}>
                             <div>
-                                <Link href="mailto:info@BitsWits.co" className={`${styles.btn} d-lg-flex align-items-center d-none`}>
+                                <a href="mailto:info@BitsWits.co" className={`${styles.btn} d-lg-flex align-items-center d-none`}>
                                     <FaEnvelope className='me-2 d-lg-block d-none' />
                                     info@BitsWits.co
-                                </Link>
+                                </a>
                             </div>
                             <div>
-                                <Link href="tel:+1 312 379 5987" className={`${styles.btn} d-flex align-items-center`}>
+                                <a href="tel:+1 312 379 5987" className={`${styles.btn} d-flex align-items-center`}>
                                     <Image src={flagIcon} alt='US Flag' className='me-2 d-sm-block d-none   ' />
                                     +1 312 379 5987
-                                </Link>
+                                </a>
                             </div>
                             <div>
-                                <Link href="javascript:;" className={`${styles.btn} d-lg-flex align-items-center d-none`}>
+                                <a href="javascript:$zopim.livechat.window.show();" className={`${styles.btn} d-lg-flex align-items-center d-none`}>
                                     <Image src={chatIcon} lt='Chat Icon' className={`me-2 ${styles.chatIcon}`} />
                                     Live Chat
-                                </Link>
+                                </a>
                             </div>
                             <div>
                                 <Link href="javascript:;" className={`${styles.popupBtn} d-lg-flex align-items-center d-none`}>Get Started</Link>

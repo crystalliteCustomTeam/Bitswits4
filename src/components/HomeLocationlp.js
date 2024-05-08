@@ -48,24 +48,24 @@ const HomeLocationlp = () => {
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
                                                             8 The Green STE 300, Dover DE 19901.
                                                         </p>
-                                                        <Link className="f-16 f-500 white"
+                                                        <a className="f-16 f-500 white"
                                                             href="tel:8335006007">
                                                             +1 833 500 6007
-                                                        </Link><br />
-                                                        <Link className="f-16 f-500 white"
+                                                        </a><br />
+                                                        <a className="f-16 f-500 white"
                                                             href="tel:3123795987">
                                                             +1 312 379 5987
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                     <div className={`${styles.detail}`}>
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             HOUSTON
                                                         </p>
-                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
-                                                        <Link className="f-16 f-500 white"
+                                                        <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</a>
+                                                        <a className="f-16 f-500 white"
                                                             href="tel:+17135657656">
                                                             +1 713 565 7656
-                                                        </Link><br />
+                                                        </a><br />
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.loctnDetls} ${styles.two}`}>
@@ -76,15 +76,15 @@ const HomeLocationlp = () => {
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             Sharjah
                                                         </p>
-                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
-                                                        <Link className="f-16 f-500 white"
+                                                        <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
+                                                        <a className="f-16 f-500 white"
                                                             href="tel:+971555031266">
                                                             +971 555 031266
-                                                        </Link> <br />
-                                                        <Link className="f-16 f-500 white"
+                                                        </a> <br />
+                                                        <a className="f-16 f-500 white"
                                                             href="tel:+971551659060">
                                                             +971 551 659060
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -110,10 +110,10 @@ const HomeLocationlp = () => {
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             Karachi
                                                         </p>
-                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
-                                                        <Link className="f-16 f-500 white" href="tel:923468280101">
+                                                        <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</a>
+                                                        <a className="f-16 f-500 white" href="tel:923468280101">
                                                             +92 346 828 0101
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -134,25 +134,25 @@ const HomeLocationlp = () => {
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
                                                                 8 The Green STE 300, Dover DE 19901.
                                                             </p>
-                                                            <Link className="f-16 f-500 white"
+                                                            <a className="f-16 f-500 white"
                                                                 href="tel:8335006007">
                                                                 +1 833 500 6007
-                                                            </Link><br />
-                                                            <Link className="f-16 f-500 white"
+                                                            </a><br />
+                                                            <a className="f-16 f-500 white"
                                                                 href="tel:3123795987">
                                                                 +1 312 379 5987
-                                                            </Link>
+                                                            </a>
                                                         </div>
 
                                                         <div className={`${styles.detail}`}>
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                                 HOUSTON
                                                             </p>
-                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
-                                                            <Link className="f-16 f-500 white"
+                                                            <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</a>
+                                                            <a className="f-16 f-500 white"
                                                                 href="tel:+17135657656">
                                                                 +1 713 565 7656
-                                                            </Link>
+                                                            </a>
                                                         </div>
                                                     </div>
 
@@ -178,11 +178,11 @@ const HomeLocationlp = () => {
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                                 Sharjah
                                                             </p>
-                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
-                                                            <Link className="f-16 f-500 white"
+                                                            <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
+                                                            <a className="f-16 f-500 white"
                                                                 href="tel:+971555031266">
                                                                 +97 155 503 1266
-                                                            </Link>
+                                                            </a>
                                                         </div>
                                                     </div>
 
@@ -194,10 +194,10 @@ const HomeLocationlp = () => {
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                                 Karachi
                                                             </p>
-                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
-                                                            <Link className="f-16 f-500 white" href="tel:923468280101">
+                                                            <a className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</a>
+                                                            <a className="f-16 f-500 white" href="tel:923468280101">
                                                                 +92 346 828 0101
-                                                            </Link>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </Slider>

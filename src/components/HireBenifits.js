@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import Image from 'next/image'
-import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/HireBenifits.module.css'
 //
@@ -58,8 +57,8 @@ const HireBenifits = (props) => {
                                                 <p key={index}>{para}</p>
                                             ))}
                                             <div className={styles.btns}>
-                                                <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
-                                                <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
+                                                <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                                <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</a>
                                             </div>
                                         </div>
                                     ))}
@@ -86,8 +85,8 @@ const HireBenifits = (props) => {
                                                     <p key={index}>{para}</p>
                                                 ))}
                                                 <div className={styles.btns}>
-                                                    <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
-                                                    <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
+                                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                                    <a className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</a>
                                                 </div>
                                             </div>
                                         ))}

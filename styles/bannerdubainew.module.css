@@ -27,7 +27,7 @@
 
 .newHomeBg {
   background: #000;
-  background-image: url(../public/newdubai/banner.webp);
+  background-image: url(../public/newhouston/dubai.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -37,7 +37,7 @@
 
 .newHoustonBg {
   background: #000;
-  background-image: url(../public/newhouston/banner-bg.png);
+  background-image: url(../public/newhouston/houston.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -47,7 +47,7 @@
 
 .newDallasBg {
   background: #000;
-  background-image: url(../public/newhouston/dallas-bg.png);
+  background-image: url(../public/newhouston/dallas.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -57,7 +57,7 @@
 
 .newNewYorkBg {
   background: #000;
-  background-image: url(../public/newhouston/newyork-bg.png);
+  background-image: url(../public/newhouston/newyork.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -67,7 +67,7 @@
 
 .newWashingtonBg {
   background: #000;
-  background-image: url(../public/newhouston/washington-bg.png);
+  background-image: url(../public/newhouston/washington.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -77,7 +77,7 @@
 
 .newAustinBg {
   background: #000;
-  background-image: url(../public/newhouston/austin-bg.png);
+  background-image: url(../public/newhouston/austin.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -87,7 +87,7 @@
 
 .newChicagoBg {
   background: #000;
-  background-image: url(../public/newhouston/chicago-bg.png);
+  background-image: url(../public/newhouston/chicago.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -97,7 +97,7 @@
 
 .newMiamiBg {
   background: #000;
-  background-image: url(../public/newhouston/miami-bg.png);
+  background-image: url(../public/newhouston/miami.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -107,7 +107,7 @@
 
 .newTorontoBg {
   background: #000;
-  background-image: url(../public/newhouston/toronto-bg.png);
+  background-image: url(../public/newhouston/toronto.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -117,7 +117,7 @@
 
 .newUKBg {
   background: #000;
-  background-image: url(../public/newhouston/uk-bg.png);
+  background-image: url(../public/newhouston/uk.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
@@ -127,7 +127,7 @@
 
 .newSaudiaBg {
   background: #000;
-  background-image: url(../public/newhouston/saudia-bg.png);
+  background-image: url(../public/newhouston/saudi.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
