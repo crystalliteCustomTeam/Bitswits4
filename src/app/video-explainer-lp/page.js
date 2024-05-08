@@ -12,7 +12,6 @@ import Static from "@/src/components/video-explainer/Static/Static";
 import Work from "@/src/components/video-explainer/Work/Work";
 import Faqs from "@/src/components/video-explainer/Faqs/Faqs";
 import Client from "@/src/components/video-explainer/Client/Client";
-import Footer from "@/src/components/video-explainer/Footer/Footer";
 
 export default function page() {
   const [showFolds, setShowFolds] = useState(false);
@@ -69,7 +68,7 @@ export default function page() {
       <Work />
       <Faqs content={faqs} />
       <SmallBanner />
-      <Client /> 
+      <Client />
     </>
   );
 }
