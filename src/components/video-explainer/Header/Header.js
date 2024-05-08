@@ -15,8 +15,8 @@ const VideoHeader = () => {
             <header className={`pt-4 ${styles.header}`}>
                 <Container>
                     <div className='d-flex align-items-center justify-content-between'>
-                        <div className='logo'>
-                            <Image src={logo} alt='Bitswits' width={180} height={50} className={styles.logo} />
+                        <div className={styles.logo}>
+                            <Image src={logo} alt='Bitswits' className={`img-fluid`} />
                         </div>
                         <div className={`d-flex align-items-center gap-lg-4`}>
                             <div>
@@ -26,9 +26,9 @@ const VideoHeader = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="tel:+1 312 379 5987" className={`${styles.btn} d-flex align-items-center`}>
+                                <a href="tel:8335006007" className={`${styles.btn} d-flex align-items-center`}>
                                     <Image src={flagIcon} alt='US Flag' className='me-2 d-sm-block d-none   ' />
-                                    +1 312 379 5987
+                                    +1 833 500 6007
                                 </a>
                             </div>
                             <div>

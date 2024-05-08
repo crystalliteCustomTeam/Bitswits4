@@ -74,6 +74,11 @@
     font-family: "Poppins";
 }
 
+.address_detail {
+    width: 50%;
+    margin: auto;
+}
+
 .address_detail ul {
     padding-left: 0;
 }
@@ -83,7 +88,7 @@
 }
 
 .address_detail ul li a {
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     display: flex;
     align-items: center;

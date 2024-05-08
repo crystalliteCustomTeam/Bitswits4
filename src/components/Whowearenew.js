@@ -82,21 +82,21 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">50</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">500K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">100</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">100K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>MAU</span>
                                     </div>
-                                    <div>
+                                    <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">80</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">300</p><span>%</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>ROI</span>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ const Whowearenew = ({ content }) => {
                             </div>
                             <div className={styles.travel2}>
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
-                                    <h3>{subtitleOne}</h3>
+                                    <h3>{subtitleTwo}</h3>
                                     <Link href="/hiring-app-development-case-study">
                                         <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
                                     </Link>
@@ -118,21 +118,21 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">50</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">300K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">100</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">50K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>MAU</span>
                                     </div>
-                                    <div>
+                                    <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">80</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">250</p><span>%</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>ROI</span>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const Whowearenew = ({ content }) => {
                             </div>
                             <div className={styles.travel3}>
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
-                                    <h3>{subtitleOne}</h3>
+                                    <h3>{subtitleThree}</h3>
                                     <Link href="/automobile-repair-app-development-case-study">
                                         <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
                                     </Link>
@@ -154,21 +154,21 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">50</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">200K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">100</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">70K</p><span>+</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>MAU</span>
                                     </div>
-                                    <div>
+                                    <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">80</p>
+                                            <p className='mb-0 d-inline counter' data-speed="4000">400</p><span>%</span>
                                         </h4>
-                                        <span>Clients Served</span>
+                                        <span>ROI</span>
                                     </div>
                                 </div>
                             </div>
