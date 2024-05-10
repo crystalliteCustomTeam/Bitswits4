@@ -19,7 +19,6 @@ import dubai from "@/public/images/mobilelpfinal/dubai.png"
 
 const Bannerlpfinal = (props) => {
 
-
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -29,11 +28,7 @@ const Bannerlpfinal = (props) => {
     useEffect(() => {
         getIPData()
     }, [])
-
-
     const [score, setScore] = useState('ENQUIRE NOW');
-
-
    const router = usePathname();
     const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
@@ -114,7 +109,7 @@ const Bannerlpfinal = (props) => {
 
             <section className={styles[props.newHomeBgprops]} >
 
-                <Container className={` ${styles.conform1}`}>
+                <Container className={` ${styles.conform1} overflow-hidden`}>
 
                     <Row className={`${styles.alignpost} gx-5`}>
                         <Col xl={7}>

@@ -15,8 +15,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Innovate = () => {
-
-
     const awardslogo = {
         dots: false,
         arrows: false,
@@ -24,8 +22,6 @@ const Innovate = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
     };
-
-
     useEffect(() => {
 
         const handleResize = () => {
@@ -43,15 +39,11 @@ const Innovate = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-
     const [isSliderActive, setIsSliderActive] = useState(true);
-
-
     return (
         <>
 
-            <section className={styles.innovate}>
-
+            <section className={`overflow-hidden ${styles.innovate}`}>
                 <Container>
                     <Row>
                         <Col lg={12}>

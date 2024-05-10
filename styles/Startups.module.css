@@ -3,6 +3,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .startupshome {
   background-color: black;
   padding-top: 80px;
@@ -38,6 +39,7 @@
   .startups {
     padding: 0 0 80px;
   }
+
   .startupshome {
     padding-bottom: 50px;
     padding-top: 0;
@@ -54,6 +56,10 @@
   .startups p {
     margin-right: unset;
     text-align: justify;
+  }
+
+  .book {
+    font-size: 11px;
   }
 }
 

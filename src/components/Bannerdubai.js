@@ -37,7 +37,7 @@ const Bannerdubai = (props) => {
             setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
         }
     };
-   const router = usePathname();
+    const router = usePathname();
     const currentRoute = router;
 
     const [pagenewurl, setPagenewurl] = useState('');
@@ -48,7 +48,7 @@ const Bannerdubai = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});
+        gtag('event', 'conversion', { 'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp' });
         var currentdate = new Date().toLocaleString() + ''
 
         const data = {
@@ -66,7 +66,7 @@ const Bannerdubai = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-    
+
 
         fetch('api/emailapidubai/route', {
             method: 'POST',
@@ -113,9 +113,9 @@ const Bannerdubai = (props) => {
     return (
         <>
 
-            <section className={styles[props.newHomeBgprops]} >
+            <section className={`${styles[props.newHomeBgprops]} overflow-hidden`} >
                 <Container className={` ${styles.conform}`}>
-                    <Row className={`g-5 ${styles.applost}`}>
+                    <Row className={`g-5 ${styles.applost} w-100 mx-auto`}>
                         <Col xl={6}>
                             <div className={styles.oppp}>
                                 <h1 className='f-60 white fw700 mb-4'>Leading Mobile App Development Company in Dubai</h1>

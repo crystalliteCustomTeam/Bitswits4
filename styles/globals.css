@@ -599,6 +599,10 @@ div {
   background-color: black;
 }
 
+.bgGrdiant {
+  background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+}
+
 .grdiant {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
@@ -4093,6 +4097,65 @@ button {
 .clintSlider1 .slick-dots {
   bottom: -55px;
 }
+
+/* Future Sec Slider Start */
+
+.futureSlider .slick-dots {
+  bottom: -30px;
+}
+
+.futureSlider .slick-dots li button:before {
+  opacity: 1;
+}
+
+.futureSlider .slick-dots li.slick-active button:before {
+  color: #f32f53;
+}
+
+/* Future Sec Slider End */
+
+/* Apps Slider Start */
+
+
+.appsSlider .slick-prev:before {
+  content: url(../public/newmobileapp/slider-arrow.png);
+}
+
+.appsSlider .slick-next:before {
+  content: url(../public/newmobileapp/slider-arrow.png);
+}
+
+.appsSlider .slick-prev {
+  right: 17px;
+  left: inherit;
+  background: rgb(255 255 255 / 15%);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  z-index: 9999;
+  top: 43px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.appsSlider .slick-next,
+.appsSlider .slick-prev {
+  width: 26px;
+  height: 60px;
+}
+
+.appsSlider .slick-next {
+  right: 17px;
+  background: rgb(255 255 255 / 15%);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  z-index: 9999;
+  transform: rotate(180deg);
+  top: 72px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* Apps Slider End */
 
 .react-tel-input .flag-dropdown {
   position: absolute;

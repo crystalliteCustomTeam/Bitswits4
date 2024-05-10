@@ -26,10 +26,8 @@ const NewHomeAbout = (props) => {
     return (
         <>
 
-            <section className={`${styles.newHomeBg} ${styles[props.addClass]}`}>
-
+            <section className={`${styles.newHomeBg} ${styles[props.addClass]} overflow-hidden`}>
                 <Container>
-
                     <Row>
                         <Col lg={12} className={styles.hover1}>
                             <h3 className='text-white f-40 font-bold text-center'>{props.title}</h3>

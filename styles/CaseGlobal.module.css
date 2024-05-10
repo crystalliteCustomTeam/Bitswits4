@@ -3,10 +3,11 @@
   position: relative;
   padding: 80px 0;
 }
+
 .loop,
 .pont {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -48,9 +49,11 @@
   .loop img {
     width: 10%;
   }
+
   .pont img {
     width: 10%;
   }
+
   .team {
     padding-bottom: 50px;
   }
@@ -64,6 +67,7 @@
   .loop img {
     width: auto;
   }
+
   .pont img {
     width: auto;
   }
@@ -106,6 +110,7 @@
     font-size: 35px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .team {
     text-align: center;

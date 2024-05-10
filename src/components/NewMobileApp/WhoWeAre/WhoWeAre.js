@@ -55,7 +55,7 @@ const Whowearenew = ({ content }) => {
     const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
     return (
         <>
-            <section ref={sectionRef} className={styles.counterSec}>
+            <section ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
                 <Container fluid className='px-0'>
                     <Row className={styles.android}>
                         <h2 className='center'>{title}</h2>

@@ -1,0 +1,170 @@
+.appSec {
+    padding: 80px 0;
+    height: 100%;
+    position: relative;
+    background: #fff;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.appSec h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    color: black;
+    text-align: center;
+}
+
+.appSec h2 span {
+    color: #F32F53;
+}
+
+.appSec .txt p {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.appSec .card {
+    padding: 35px 17px;
+    background-image: url(../../public/newmobileapp/journey-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .card:hover {
+    background: #000;
+} */
+
+.appSec .card p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: black;
+    opacity: 0.9;
+    padding: 0 30px;
+}
+
+.smallBanner {
+    background: #fff;
+    z-index: 99;
+    position: relative;
+    padding: 80px 0 150px;
+}
+
+.bannerWrapper {
+    background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+    padding: 50px 35px;
+    border-radius: 22px;
+}
+
+.smallBanner h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    color: white;
+}
+
+.smallBanner h2 span {
+    position: relative;
+}
+
+.smallBanner h2 span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: #b00110ce;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    transform: rotate(8deg);
+}
+
+.btn a {
+    width: 245px;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0 5px 12px #00000075;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 6px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.secImage {
+    position: absolute;
+    top: -30px;
+    width: 43%;
+}
+
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+    .secImage {
+        width: 34%;
+        top: -18px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .secImage {
+        width: 42%;
+        top: -18px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .secImage {
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .secImage {
+        width: 49%;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .secImage {
+        top: 102px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .appSec {
+        padding: 50px 0;
+    }
+
+    .smallBanner {
+        padding: 0px 0px 50px;
+    }
+
+    .appSec h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .smallBanner h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .bannerWrapper {
+        padding: 26px 16px;
+    }
+}

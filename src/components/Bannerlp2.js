@@ -19,7 +19,7 @@ const Bannerlp2 = (props) => {
 
                 <Container className={` ${styles.conform}`}>
 
-                    <Row className='gx-5'>
+                    <Row className='gx-5 w-100'>
                         <Col xl={6}>
                             <div className={styles.oppp}>
                                 <h2 className='f-60 white fw700'>Top <br></br>

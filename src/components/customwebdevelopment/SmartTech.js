@@ -71,7 +71,7 @@ const SmartTech = (props) => {
         <>
             <section className={`${styles[props.assignClass]}`}>
                 <Container>
-                    <Row className="gx-5 gy-4 w-100">
+                    <Row className="gx-5 gy-4 w-100 mx-auto">
                         <Col lg={12}>
                             {props.title ?
                                 props.title

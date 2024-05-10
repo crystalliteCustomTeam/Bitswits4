@@ -24,13 +24,13 @@ const Contact = (props) => {
         getIPData()
     }, [])
     const [score, setScore] = useState('Time to Book The Call');
-   const router = usePathname();
+    const router = usePathname();
     const currentRoute = router;
-     const [pagenewurl, setPagenewurl] = useState('');
-      useEffect(() => {
+    const [pagenewurl, setPagenewurl] = useState('');
+    useEffect(() => {
         const pagenewurl = window.location.href;
         setPagenewurl(pagenewurl);
-      }, []);
+    }, []);
 
     const handleSubmit = async (e) => {
 
@@ -54,7 +54,7 @@ const Contact = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-    
+
 
 
         fetch('api/contactapp/route', {
@@ -104,7 +104,7 @@ const Contact = (props) => {
 
     return (
         <>
-            <section className={` ${styles[props.newBg]} ${styles.contact}`}>
+            <section className={` ${styles[props.newBg]} ${styles.contact} overflow-hidden`}>
                 <Container>
                     <Row className='justify-content-between'>
                         <Col lg={4}>

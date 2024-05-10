@@ -1,0 +1,173 @@
+.JournyForm {
+  padding: 0 0 80px;
+  position: relative;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.JournyForm .content {
+  position: relative;
+  height: 100%;
+}
+
+.JournyForm .content h3 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 90px;
+}
+
+.JournyForm .content h3 span {
+  color: #f32f53;
+}
+
+.experts {
+  background: linear-gradient(
+    180deg,
+    rgba(74, 120, 239, 1) 0%,
+    rgba(243, 47, 194, 1) 50%,
+    rgba(243, 47, 83, 1) 100%
+  );
+  padding: 60px 25px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: 0%;
+  right: -14%;
+}
+
+.experts h5 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.experts p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.experts p span {
+  font-size: 30px;
+}
+
+.JournyForm form {
+  border: 2px solid #f32f53;
+  width: 80%;
+  margin: 0 auto;
+  padding: 35px 25px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+
+.JournyForm form h4 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.JournyForm form h3 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.JournyForm form input {
+  height: 45px;
+  border: 1px solid #253c7870;
+  background-color: #d9d9d930;
+  font-size: 15px;
+  color: #000;
+}
+
+.JournyForm form textarea {
+  height: 100px;
+  border: 1px solid #253c7870;
+  background-color: #d9d9d930;
+  font-size: 15px;
+  color: #000;
+  resize: none;
+}
+
+.JournyForm form input:focus,
+.JournyForm form textarea:focus {
+  border: 1px solid #253c7870;
+  background-color: #d9d9d930;
+  color: #000;
+}
+
+.vehicle1 {
+  height: unset !important;
+  border: inherit !important;
+  background-color: unset !important;
+  border-radius: unset !important;
+  color: white;
+  backdrop-filter: unset !important;
+  padding-right: unset !important;
+  margin-top: 0% !important;
+}
+
+.value {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.value {
+  border: 0;
+  background-color: #000000;
+  width: 127px;
+  height: 45px;
+  border-radius: 6px;
+  box-shadow: 0 5px 12px #00000075;
+}
+
+@media screen and (max-width: 1499px) {
+  .JournyForm .content h3 {
+    margin-left: 80px;
+  }
+
+  .experts {
+    right: -14.5%;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .JournyForm .content h3 {
+    margin-left: 70px;
+  }
+
+  .experts {
+    right: -15.5%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .JournyForm .content h3 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .experts {
+    position: unset;
+    border-radius: 20px;
+    margin: 40px 0;
+  }
+
+  .JournyForm form {
+    border-bottom-left-radius: 20px;
+    width: 100%;
+  }
+}

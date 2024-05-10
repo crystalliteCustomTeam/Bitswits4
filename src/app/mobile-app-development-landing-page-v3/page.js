@@ -5,6 +5,13 @@ import Bannerdubai from '@/src/components/NewMobileApp/Banner/Banner'
 import NewAward from '@/src/components/NewMobileApp/NewAward/NewAward';
 import Whowearenew from '@/src/components/NewMobileApp/WhoWeAre/WhoWeAre';
 import FutureReady from '@/src/components/NewMobileApp/FutureReady/FutureReady';
+import AppsLived from '@/src/components/NewMobileApp/AppsLived/AppsLived';
+import AppsJourney from '@/src/components/NewMobileApp/AppsJourney/AppsJourney';
+import Conviced from '@/src/components/NewMobileApp/Conviced/Conviced';
+import NewHouston from '@/src/components/NewMobileApp/NewHouston/NewHouston';
+import LogoSlider from '@/src/components/NewMobileApp/LogoSlider/LogoSlider';
+import JournyForm from '@/src/components/NewMobileApp/JourneyForm/JournyForm';
+import Location from '@/src/components/NewMobileApp/Location/Location';
 
 const page = () => {
   // Banner Content
@@ -31,12 +38,72 @@ const page = () => {
     subtitleThree: "Greasy Monkey ",
     subDescThree: "Grease Monkey is a comprehensive automotive innovation system which provides everything ranging from car repairs to oil checkup. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations and also client ratings for your vehicles. The app takes the convenience to a different level altogether.. With Grease Monkey, car owners can do regular maintenance for their cars in an easy way by just a few taps on their smartphones."
   }
+  // Houston Content
+  const menus = [
+    "Initial Brief ",
+    "The Concept Of The App",
+    "UX… The Be-All & End-All",
+    "Visual Style",
+    "Programming",
+    "Bug Searching",
+    "Releasing The App",
+  ];
+  const sections = [
+    {
+      num: "01",
+      title: "First Of All, Let’s Get To Know Each Other",
+      content: `<p class='fontsfregular'>Ideally around the same table. To discuss what you actually need, why you’d like to achieve it, what the weak spots of your business are, and what we can do to help. We’re experts at asking the right questions, so it’s likely we’ll come across things that had never occurred to you before.</p>
+         `
+    },
+    {
+      num: "02",
+      title: "The Concept Of The App",
+      content: `<p class='fontsfregular'>Ideally around the same table. To discuss what you actually need, why you’d like to achieve it, what the weak spots of your business are, and what we can do to help. We’re experts at asking the right questions, so it’s likely we’ll come across things that had never occurred to you before.</p>`
+    },
+    {
+      num: "03",
+      title: "UX… The Be-All & End-All",
+      content: `<p class='fontsfregular'>Ideally around the same table. To discuss what you actually need, why you’d like to achieve it, what the weak spots of your business are, and what we can do to help. We’re experts at asking the right questions, so it’s likely we’ll come across things that had never occurred to you before.</p>`
+    },
+    {
+      num: "04",
+      title: "Visual Style",
+      content: `<p class='fontsfregular'>Creating an app for a Fortune 500 or enterprise-level company entails a more substantial financial commitment compared to other brick-and-mortar businesses. </p>`
+    },
+    {
+      num: "05",
+      title: "Programming",
+      content: `<p class='fontsfregular'>For individuals seeking app development in Houston, the expenses can significantly vary based on the app’s complexity and desired features. </p>`
+    },
+    {
+      num: "06",
+      title: "Bug Searching",
+      content: `<p class='fontsfregular'>Unravelling the cost of developing apps for B2B clients in Houston is influenced by multiple factors. For an illustration, </p>`
+    },
+    {
+      num: "07",
+      title: "Releasing The App",
+      content: `<p class='fontsfregular'>Unravelling the cost of developing apps for B2B clients in Houston is influenced by multiple factors. For an illustration, </p>`
+    }
+  ];
+  const HoustonContent = {
+    menus: menus,
+    sections: sections,
+  }
+
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewAward content={Award} />
       <Whowearenew content={WhoWeAre} />
       <FutureReady />
+      <AppsLived />
+      <AppsJourney />
+      <Conviced />
+      <NewHouston content={HoustonContent} />
+      <LogoSlider />
+      <JournyForm />
+      {/* <Location /> */}
     </>
   )
 }

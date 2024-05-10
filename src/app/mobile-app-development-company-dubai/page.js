@@ -59,7 +59,6 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerdubai newHomeBgprops="newHomeBg" />
-
       <People People="people" />
       <HomeBannerSliderlp />
       <LpForm

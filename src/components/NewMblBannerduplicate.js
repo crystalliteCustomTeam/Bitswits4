@@ -11,13 +11,9 @@ import HomeBannerSlider from './HomeBannerSlider';
 
 
 const NewHomeBanner = () => {
-
-
-    
-
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} overflow-hidden`}>
                 <Container>
                     <Row>
                         <Col xl={12}>

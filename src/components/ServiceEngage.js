@@ -41,7 +41,7 @@ const ServiceEngage = (props) => {
     <>
       <section
         className={`${styles.engage} ${styles.paddingTop} ${styles[props.addClass]
-          }`}
+          } overflow-hidden`}
       >
         <Container>
           <Row className={styles.forget}>

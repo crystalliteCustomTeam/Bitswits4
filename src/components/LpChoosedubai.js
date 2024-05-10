@@ -28,7 +28,7 @@ const LpChoosedubai = (props) => {
     <>
       <section className={`${styles[props.transform]} ${props.marginTop}`}>
         <Container>
-          <Row className="align-items-center gy-lg-5 gy-4 gx-5">
+          <Row className="align-items-center gy-lg-5 gy-4 gx-5 w-100">
             <Col lg={6} className={styles.walk}>
               <h3 className="white newchoose font-bold f-700">The Apex of Disruptive Mobile App Solutions by a Mobile App Development Company in Dubai</h3>
 

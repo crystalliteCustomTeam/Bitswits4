@@ -1,0 +1,49 @@
+.locationSec {
+    padding: 50px 0;
+    background: #F3F3F3;
+    position: relative;
+    z-index: 99;
+}
+
+.locationSec h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.locationSec h2 span {
+    color: #F32F53;
+}
+
+.number {
+    padding-top: 40px;
+}
+
+.locations h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.locations p {
+    font-size: 14px;
+    line-height: 37px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.locations .address {
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    padding-right: 140px;
+}
+
+.number a {
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+}

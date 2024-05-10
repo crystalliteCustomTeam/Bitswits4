@@ -21,7 +21,7 @@ const Technologieslpdubai = () => {
 
     return (
         <>
-            <section className={styles.tech}>
+            <section className={`${styles.tech} overflow-hidden`}>
                 <Container>
                     <Row>
                         <Col xl={12} className={styles.york}>
@@ -152,7 +152,7 @@ const Technologieslpdubai = () => {
                             }
                         </Col>
                     </Row>
-                </Container> 
+                </Container>
             </section>
 
 

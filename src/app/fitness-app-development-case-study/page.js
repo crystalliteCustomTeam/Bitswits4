@@ -252,7 +252,6 @@ export default function FitNow() {
       <Nothing Nothing="nothingCase" />
       <Technologieswe />
       <HomeLocation />
-
     </>
   )
 }
