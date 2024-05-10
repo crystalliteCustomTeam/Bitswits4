@@ -23,17 +23,17 @@
 }
 
 .txt::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -5px;
   top: 0;
   height: 100%;
   width: 2px;
-  background: linear-gradient(#4A78EF, #F32FC2, #F32F53);
+  background: linear-gradient(#4a78ef, #f32fc2, #f32f53);
 }
 
 .awardsHeading span {
-  color: #F32F53;
+  color: #f32f53;
 }
 
 .awardSec p {

@@ -11,6 +11,7 @@ import Conviced from '@/src/components/NewMobileApp/Conviced/Conviced';
 import NewHouston from '@/src/components/NewMobileApp/NewHouston/NewHouston';
 import LogoSlider from '@/src/components/NewMobileApp/LogoSlider/LogoSlider';
 import JournyForm from '@/src/components/NewMobileApp/JourneyForm/JournyForm';
+import Faqs from '@/src/components/NewMobileApp/Faqs/Faqs';
 import Location from '@/src/components/NewMobileApp/Location/Location';
 
 const page = () => {
@@ -103,7 +104,27 @@ const page = () => {
       <NewHouston content={HoustonContent} />
       <LogoSlider />
       <JournyForm />
-      {/* <Location /> */}
+      <Faqs
+        faqsData={[
+          {
+            question: "How can I launch an app in the UAE?",
+            answer: "We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years."
+          },
+          {
+            question: "How much time is required to build a mobile application?",
+            answer: "We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years."
+          },
+          {
+            question: "How much does it cost to create an app in Dubai?",
+            answer: "We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years."
+          },
+          {
+            question: "What is a mobile app support service, and does BitsWits offer it?",
+            answer: "We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years."
+          },
+        ]}
+      />
+      <Location />
     </>
   )
 }

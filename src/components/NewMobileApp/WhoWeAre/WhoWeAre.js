@@ -127,8 +127,12 @@ const Whowearenew = ({ content }) => {
                             <Col lg={5} className='p-0'>
                                 <div className={styles.intransition}>
                                     <h6>What We Did For Our Clients</h6>
-                                    <h3>Intransition <br />
-                                        At A Glance</h3>
+                                    <h3>Intransition <br /> At A Glance</h3>
+                                    <div className={`${styles.btn}`}>
+                                        <a href="javascript:;">
+                                            Free Consultation
+                                        </a>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>

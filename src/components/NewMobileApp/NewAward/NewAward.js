@@ -67,9 +67,9 @@ const NewAward = ({ content }) => {
                                         {desc}
                                     </p>
                                     <div className={`${styles.btn} mt-5 mt-md-0`}>
-                                        <Link href="javascript:;">
+                                        <a href="javascript:;">
                                             Free Consultation
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

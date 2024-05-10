@@ -7,7 +7,7 @@
 }
 
 .counterBack {
-  background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+  background: linear-gradient(to right, #4a78ef, #f32fc2, #f32f53);
 }
 
 .counterdigit {
@@ -106,11 +106,11 @@
 }
 
 .android p span {
-  color: #F32F53;
+  color: #f32f53;
 }
 
 .ImageDiv {
-  background: #F3F3F3;
+  background: #f3f3f3;
   transition: all ease-in-out 0.4s;
   position: relative !important;
   z-index: -1 !important;
@@ -122,13 +122,13 @@
 }
 
 .ImageDiv:hover {
-  background: #E4E4E4;
+  background: #e4e4e4;
 }
 
-.ImageDiv img:hover {
+/* .ImageDiv img:hover {
   transform: translateY(20px);
   transition: all ease-in-out 0.4s;
-}
+} */
 
 .counter {
   display: flex;
@@ -181,6 +181,22 @@
   right: 26px;
   top: 42px;
   transition: all 0.4s ease-in-out;
+}
+
+.btn a {
+  background-color: black;
+  box-shadow: 0 5px 12px #00000075;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 6px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  position: relative;
+  perspective: 300px;
+  width: 210px;
+  height: 45px;
 }
 
 @media only screen and (max-width: 1399px) {

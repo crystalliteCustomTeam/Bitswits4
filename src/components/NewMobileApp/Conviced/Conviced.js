@@ -52,7 +52,7 @@ const Conviced = () => {
                                     <p>Hear From Our Clients Who Made Headlines</p>
                                 </div>
                                 <div className="clutch">
-                                    <Image src={Clutch} alt='Bitswits' width={217} height={50} className='img-fluid mx-auto d-block mt-4' />
+                                    <Image src={Clutch} alt='Bitswits' className='img-fluid d-block mt-4 w-25 ms-auto' />
                                     <div className={styles.btn}>
                                         <Link href="javascript:;" className='gap-4'>
                                             See All

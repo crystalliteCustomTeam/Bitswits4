@@ -1,49 +1,100 @@
 .locationSec {
-    padding: 50px 0;
-    background: #F3F3F3;
-    position: relative;
-    z-index: 99;
+  padding: 50px 0;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
 }
 
 .locationSec h2 {
-    font-size: 40px;
-    line-height: 53px;
-    font-weight: bold;
-    margin-bottom: 17px;
-    color: black;
-    margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  color: black;
+  letter-spacing: 1px;
 }
 
 .locationSec h2 span {
-    color: #F32F53;
+  color: #f32f53;
 }
 
 .number {
-    padding-top: 40px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 0px;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  position: relative;
+}
+
+.locations::before {
+  content: url(../../public/newmobileapp/hLine.png);
+  position: absolute;
+  top: 15%;
+  left: -5%;
+}
+
+.locate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 208px;
+}
+
+.locate::before {
+  content: url(../../public/newmobileapp/vLine.png);
+  position: absolute;
+  top: 0%;
+  left: -22%;
+}
+
+.locate:first-child::before {
+  display: none;
 }
 
 .locations h3 {
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 35px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
 }
 
 .locations p {
-    font-size: 14px;
-    line-height: 37px;
-    color: black;
-    margin-bottom: 0;
+  font-size: 14px;
+  line-height: 37px;
+  color: black;
+  margin-bottom: 0;
 }
 
 .locations .address {
-    font-size: 12px;
-    line-height: 16px;
-    color: black;
-    padding-right: 140px;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
 }
 
 .number a {
-    font-size: 12px;
-    line-height: 16px;
-    color: black;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+}
+
+@media screen and (max-width: 1299px) {
+  .number a {
+    font-size: 10px;
+  }
+
+  .locate {
+    height: 185px;
+  }
 }

@@ -9,6 +9,7 @@ import badgeClient from "media/newdubai/badgesClient.png"
 import Star from "media/newDubaiPagev1/star.png"
 import Clutch from "media/newmobileapp/clutch-black.png"
 import Partner from "media/newmobileapp/partner.png"
+import formImg from 'media/newmobileapp/formImg.png'
 
 const Banner = ({ content }) => {
     const { title, desc, pageSlug } = content;
@@ -160,6 +161,7 @@ const Banner = ({ content }) => {
                                     <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                     <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                     <button className={`pink ${styles.value} mt-4 mt-sm-0`} type='submit'>
+                                        <Image src={formImg} className='img-fluid' alt='BitsWits' />
                                         Submit
                                     </button>
                                 </div>
@@ -167,7 +169,7 @@ const Banner = ({ content }) => {
                         </Col>
                     </Row>
                 </Container>
-            </section >
+            </section>
         </>
     )
 }
