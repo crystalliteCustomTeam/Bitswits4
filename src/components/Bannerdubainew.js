@@ -120,18 +120,17 @@ const Bannerdubai = ({ content }) => {
     return (
         <>
             <section className={`
-            ${pathname === "/new-mobile-app-development-company-dubai" ? dubaiBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-dubai-duplicate" ? dubaiBackground : ""} 
-            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-dallas" ? dallasBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
             ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : ""}
             ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : ""}
+            ${pathname === "/mobile-app-development-company-dallas" ? dallasBackground : ""}
+            ${pathname === "/mobile-app-development-company-dubai" ? dubaiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : ""}
             ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
+            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
             ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}
             ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
+            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
              ${styles.DubaiBanner} bg-black`} >
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center`}>

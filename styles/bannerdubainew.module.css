@@ -602,6 +602,7 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   animation: rotate 10s linear infinite;
+  z-index: -1;
 }
 
 @keyframes rotate {

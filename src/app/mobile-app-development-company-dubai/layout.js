@@ -1,27 +1,34 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Mobile App Development Company Dubai | BitsWits",
-  description: "Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.",
+  title: "Mobile App Development Company in Dubai - BitsWits",
+  description: "Partner with BitsWits, your reliable mobile app development company in Dubai, for exceptional app development services perfectly suited to your needs.",
   //===== OG Tags =====
   openGraph: {
-    title: 'Mobile App Development Company Dubai | BitsWits',
-    description: 'Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.',
+    title: 'Mobile App Development Company in Dubai - BitsWits',
+    description: 'Partner with BitsWits, your reliable mobile app development company in Dubai, for exceptional app development services perfectly suited to your needs.',
     url: '/mobile-app-development-company-dubai',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
-    images: "/public/images/icons/footerlogo.png",
   },
   //===== Canonical =====
   alternates: { canonical: '/mobile-app-development-company-dubai' },
   //===== GEO Tags =====
-  other: {
-    "DC.title": "Mobile App Development Company in Dubai",
-    "geo.region": "AE",
-    "geo.placename": "Dubai",
-    "geo.position": "39.78373;-100.445882",
-    "ICBM": "39.78373, -100.445882",
+  other: {},
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 }
 

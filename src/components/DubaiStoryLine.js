@@ -9,7 +9,7 @@ import arrow from "/public/newDubaiPagev1/arrow.png";
 import styles from "@/styles/StoryLine.module.css"
 
 const StoryLine = ({ content }) => {
-    const { subtitle, title, para, accordionData } = content;
+    const { subtitle, title, para, subPara, accordionData } = content;
     // Accordions
     const [activeIndex, setActiveIndex] = useState(0);
     const handleClick = (index) => {
@@ -40,15 +40,18 @@ const StoryLine = ({ content }) => {
             <section className={`w-full d-flex align-items-center justify-content-start py-6 md:py-12 lg:py-16 ${styles.bussinessEmpower}`}>
                 <div className="container">
                     <div>
-                        <div className=''>
+                        <div className='mb-3 mb-xl-5 '>
                             <h4>
                                 {subtitle}
                             </h4>
                             <h2>
                                 {title}
                             </h2>
-                            <p className="mb-3 mb-xl-5 fontsfregular">
+                            <p className="fontsfregular">
                                 {para}
+                            </p>
+                            <p className="fontsfregular">
+                                {subPara}
                             </p>
                         </div>
                     </div>

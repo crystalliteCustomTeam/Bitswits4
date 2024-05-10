@@ -113,9 +113,10 @@ const DubaiClients = ({ content }) => {
                                 <div>
                                     <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Ryan Jaden</h6>
-                                                <span>ITRans.ai</span>
+                                            <div className='name d-flex flex-column'>
+                                                <h6>Emily Chen</h6>
+                                                <span>Chief Technology Officer</span>
+                                                <span>HealthTech Solutions</span>
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
@@ -134,7 +135,7 @@ const DubaiClients = ({ content }) => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
-                                                Bitswits delivered an efficient solution that significantly improved processing speed, productivity, and accuracy. Their proactive engagement, soliciting of feedback, and implementing improvements ensured a successful partnership. The team's versatility and adaptability were commendable.
+                                                BitsWits transformed our app vision into reality seamlessly. Their expertise and professionalism exceeded our expectations. Highly recommend their services for anyone seeking top-notch app development.
                                             </p>
                                         </div>
                                     </div>
@@ -142,9 +143,10 @@ const DubaiClients = ({ content }) => {
                                 <div>
                                     <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Joseph</h6>
-                                                <span>CTO / Pronftdesign.com</span>
+                                            <div className='name d-flex flex-column'>
+                                                <h6>John Smith</h6>
+                                                <span>CEO</span>
+                                                <span>Tech Innovations Inc.</span>
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
@@ -162,7 +164,7 @@ const DubaiClients = ({ content }) => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
-                                                Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.
+                                                Working with BitsWits was a game-changer for our business. Their commitment to excellence and innovative approach ensured a successful app launch. We couldn't be happier with the results!
                                             </p>
                                         </div>
                                     </div>
@@ -170,9 +172,10 @@ const DubaiClients = ({ content }) => {
                                 <div>
                                     <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Daniel Gonzalez</h6>
-                                                <span>CTO/ Pronftdesign.com</span>
+                                            <div className='name d-flex flex-column'>
+                                                <h6>Sarah Johnson</h6>
+                                                <span>Marketing Director</span>
+                                                <span>E-Commerce Solutions Co.</span>
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
@@ -190,7 +193,7 @@ const DubaiClients = ({ content }) => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
-                                                Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.
+                                                BitsWits truly understands their clients' needs. Their tailored approach and attention to detail resulted in an app that surpassed our expectations. Highly recommend their services for anyone looking for top-tier app development.
                                             </p>
                                         </div>
                                     </div>
@@ -198,9 +201,10 @@ const DubaiClients = ({ content }) => {
                                 <div>
                                     <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Ryan Jaden</h6>
-                                                <span>ITRans.ai</span>
+                                            <div className='name d-flex flex-column'>
+                                                <h6>Michael Thompson</h6>
+                                                <span>COO</span>
+                                                <span>FinanceTech Innovations</span>
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
@@ -219,7 +223,7 @@ const DubaiClients = ({ content }) => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
-                                                Bitswits delivered an efficient solution that significantly improved processing speed, productivity, and accuracy. Their proactive engagement, soliciting of feedback, and implementing improvements ensured a successful partnership. The team's versatility and adaptability were commendable.
+                                                BitsWits' dedication to quality and efficiency is unmatched. Their expertise in app development helped us achieve our goals and elevate our brand. We're thrilled with the results and highly recommend their services.
                                             </p>
                                         </div>
                                     </div>
@@ -227,9 +231,10 @@ const DubaiClients = ({ content }) => {
                                 <div>
                                     <div className={`card ${styles.card}`}>
                                         <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Joseph</h6>
-                                                <span>CTO / Pronftdesign.com</span>
+                                            <div className='name d-flex flex-column'>
+                                                <h6>Jessica Lee</h6>
+                                                <span>Founder & CEO</span>
+                                                <span>TravelTech Ventures</span>
                                             </div>
                                             <div>
                                                 <div className='d-flex align-items-center mb-1'>
@@ -247,35 +252,7 @@ const DubaiClients = ({ content }) => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <p className='fontsfregular'>
-                                                Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className={`card ${styles.card}`}>
-                                        <div className={`${styles.cardTop}`}>
-                                            <div className='name'>
-                                                <h6>Daniel Gonzalez</h6>
-                                                <span>CTO/ Pronftdesign.com</span>
-                                            </div>
-                                            <div>
-                                                <div className='d-flex align-items-center mb-1'>
-                                                    <Image src={ClientIcon} alt='Bitswits' className={`icon ${styles.icon}`} width={19} height={22} />
-                                                    <p className='mb-0'>4.9. / 5.0</p>
-                                                </div>
-                                                <div className='d-flex align-items-center'>
-                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
-                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
-                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
-                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
-                                                    <Image src={Star} alt='Bitswits' width={18} height={18} />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <p className='fontsfregular'>
-                                                Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.
+                                                Choosing BitsWits was the best decision for our app development project. Their professionalism and technical prowess ensured a seamless journey from concept to launch. We're extremely satisfied with the outcome!
                                             </p>
                                         </div>
                                     </div>

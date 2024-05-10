@@ -44,7 +44,7 @@ const Client = () => {
                                     <span className={styles.quoteLeft}>
                                         <FaQuoteLeft />
                                     </span>
-                                    <p>From start to finish, the process was incredibly easy. It was a pleasure to work with the Infinity Animations squad. </p>
+                                    <p>From start to finish, the process was incredibly easy. It was a pleasure to work with the BitsWits squad. </p>
 
                                     <div className={styles.cardBottom}>
                                         <div className="img">
@@ -124,7 +124,7 @@ const Client = () => {
                                     <span className={styles.quoteLeft}>
                                         <FaQuoteLeft />
                                     </span>
-                                    <p>From start to finish, the process was incredibly easy. It was a pleasure to work with the Infinity Animations squad. </p>
+                                    <p>From start to finish, the process was incredibly easy. It was a pleasure to work with the BitsWits squad. </p>
 
                                     <div className={styles.cardBottom}>
                                         <div className="img">

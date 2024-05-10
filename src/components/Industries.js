@@ -25,42 +25,58 @@ const Industries = () => {
     const sliderContent = [
         {
             title: 'Real State',
-            desc: 'We specialize in real estate, offering customized solutions for property development and sales.',
+            desc: 'We ensure property listings, virtual tours, and essential features for real estate.',
             href: '#',
         },
         {
-            title: 'Gaming',
-            desc: 'We develop gaming solutions, integrating cutting-edge technology for immersive player experiences.',
+            title: 'Sports',
+            desc: 'Our sports solutions meet evolving needs with fan engagement, performance tracking, and management systems.',
             href: '#',
         },
         {
-            title: 'Information Technology',
-            desc: 'We offer Information Technology solutions with AI integration for enhanced business functionality.',
+            title: 'Enterprise Mobility Solutions',
+            desc: 'Our enterprise mobility solutions offer better productivity, process optimization, and more efficient workflows.',
             href: '#',
         },
         {
-            title: 'Ecommerce',
-            desc: 'Ecommerce solutions engineered with advanced platforms for smooth online shopping experiences.',
+            title: 'E-commerce',
+            desc: 'We optimize e-commerce for better UX, streamlined workflow, and increased revenue.',
             href: '#',
         },
         {
-            title: 'Health Care',
-            desc: 'We innovate healthcare solutions, utilizing state-of-the-art technology for enhanced patient care.',
+            title: 'Healthcare & Medical',
+            desc: 'We enhance patient care, expedite procedural work, and adhere to regulatory standards.',
             href: '#',
         },
         {
             title: 'Automotive',
-            desc: 'Automotive solutions integrating advanced technology for optimized vehicle performance and efficiency.',
+            desc: 'We create automotive apps enhancing UX, efficiency, and driving business growth.',
             href: '#',
         },
         {
             title: 'Manufacture',
-            desc: 'Manufacturing solutions with advanced processes for efficient production and quality control.',
+            desc: 'We offer adaptive solutions, enhancing productivity and efficiency through process automation.',
+            href: '#',
+        },
+
+        {
+            title: 'Logistics',
+            desc: 'Our logistics solutions precisely suit your needs, optimizing efficiency and customer service.',
             href: '#',
         },
         {
-            title: 'Logistic',
-            desc: 'Logistics solutions optimized with advanced tracking systems for efficient supply chain management.',
+            title: 'Food & Beverage',
+            desc: 'We innovate food delivery, restaurant management, keeping businesses competitive and thriving',
+            href: '#',
+        },
+        {
+            title: 'E-learning',
+            desc: 'Our e-learning solutions replace traditional education, delivering robustness and stimulating growth.',
+            href: '#',
+        },
+        {
+            title: 'Agriculture',
+            desc: 'In agriculture, we deploy cutting-edge tech to enhance farm operations, monitoring, and yield optimization.',
             href: '#',
         },
     ];
@@ -112,7 +128,7 @@ const Industries = () => {
                 <Row>
                     <Col lg={12}>
                         <div className={styles.txt}>
-                            <h2>Industries We Serve</h2>
+                            <h2>Industries We’ve Conquered</h2>
                         </div>
                         <div
                             className={styles.sliderBackground}

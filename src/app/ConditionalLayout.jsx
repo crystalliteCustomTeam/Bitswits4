@@ -1,27 +1,27 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
+import { Analytics } from '@vercel/analytics/react';
 //
 import Header from "../components/NewHeader";
 import HeaderMbl from "../components/HeaderMbl";
 import Headerlp from "../components/Headerlp";
 import Headerlphome from "../components/Headerlphome";
+import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
+import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
+import VideoHeader from "../components/video-explainer/Header/Header";
 import EcommerceBanner from "../components/EcommerceBanner";
 import Footer from "../components/Footer";
 import Footernewlp from "../components/Footernewlp";
 import Footernewdesign from "../components/Footernewdesign";
+import VideoFooter from "../components/video-explainer/Footer/Footer";
 import EcommerceFooter from "../components/EcommerceFooter";
+//
 import Cursor from "../components/Cursor";
 import Skicky from "../components/Skicky";
-import { Analytics } from '@vercel/analytics/react';
 import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
-import DubaiFooter from "../components/DubaiFooter";
-import VideoHeader from "../components/video-explainer/Header/Header";
-import VideoFooter from "../components/video-explainer/Footer/Footer";
-import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
-import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -79,8 +79,7 @@ const ConditionalLayout = ({ children }) => {
         pathname == "/top-mobile-app-development-company" ||
         pathname == "/mobile-app-development-services" ||
         pathname == "/create-a-mobile-app" ||
-        pathname == "/top-mobile-app-developers" ||
-        pathname == "/mobile-app-development-company-dubai";
+        pathname == "/top-mobile-app-developers";
     // =======================================
     const superecommer =
         pathname == "/top-mobile-app-developers" ||
@@ -126,7 +125,6 @@ const ConditionalLayout = ({ children }) => {
                 pathname == "/mobile-app-development-company-lp2" ? <Footernewlp /> :
                     pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
-                            pathname == "/new-mobile-app-development-company-dubai-v1" ? <DubaiFooter /> :
                                 pathname == "/video-explainer-lp" ? <VideoFooter /> :
                                     pathname == "/meet-our-team" ? null :
                                         <Footer />

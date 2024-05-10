@@ -219,7 +219,7 @@ const VideoFooter = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://bitswits.co">
+                                        <a href="https://www.bitswits.co/">
                                             <FaGlobeAsia className={styles.footerIcons} /> www.bitswits.co
                                         </a>
                                     </li>

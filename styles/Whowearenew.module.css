@@ -12,7 +12,7 @@
 }
 
 .travel {
-  background-color: #468FEB;
+  background-color: #468feb;
   height: 100%;
   padding-left: 30px;
   padding-right: 30px;
@@ -60,7 +60,7 @@
 }
 
 .travel2 {
-  background-color: #4C0251;
+  background-color: #4c0251;
   height: 100%;
   padding-left: 30px;
   padding-right: 30px;
@@ -117,7 +117,7 @@
 }
 
 .android h3 {
-  color: #F32F53;
+  color: #f32f53;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 1px;
@@ -146,7 +146,7 @@
 }
 
 .ImageDiv {
-  background: #F3F3F3;
+  background: #f3f3f3;
   transition: all ease-in-out 0.4s;
   position: relative !important;
   z-index: -1 !important;
@@ -158,7 +158,7 @@
 }
 
 .ImageDiv:hover {
-  background: #E4E4E4;
+  background: #e4e4e4;
 }
 
 .ImageDiv img:hover {
@@ -192,8 +192,13 @@
   font-weight: 400;
   color: white;
   position: absolute;
+  bottom: 5px;
+  right: -20px;
+}
+
+.counter .lastCount h4 span {
   bottom: 3px;
-  right: 38px;
+  right: -28px;
 }
 
 .counter span {
@@ -254,8 +259,6 @@
     font-size: 35px;
     line-height: 40px;
   }
-
-
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from "react";
+import React from "react";
 //components 
 import Banner from "@/src/components/video-explainer/Banner/Banner";
 import Partner from "@/src/components/video-explainer/Partner/Partner";
@@ -12,16 +12,8 @@ import Static from "@/src/components/video-explainer/Static/Static";
 import Work from "@/src/components/video-explainer/Work/Work";
 import Faqs from "@/src/components/video-explainer/Faqs/Faqs";
 import Client from "@/src/components/video-explainer/Client/Client";
-import Footer from "@/src/components/video-explainer/Footer/Footer";
 
 export default function page() {
-  const [showFolds, setShowFolds] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
   //===== FAQS =====//
   const lists = [
     {
@@ -41,15 +33,15 @@ export default function page() {
       lists: lists,
     },
     {
-      question: 'What Is The Infinity Animations Pro’s Video Delivery Timeframe?',
+      question: 'What Is The BitsWits Pro’s Video Delivery Timeframe?',
       answer: "Step into a realm of immersive storytelling with our cutting-edge 3D animations. Elevate your visual narratives, whether for product showcases, virtual tours, or cinematic experiences.",
     },
     {
-      question: 'What Kind Of Videos Infinity Animations Pro Provides With Tech Video Production Services?',
+      question: 'What Kind Of Videos BitsWits Pro Provides With Tech Video Production Services?',
       answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
     },
     {
-      question: 'What Kind Of Videos Infinity Animations Pro Provides With Tech Video Production Services?',
+      question: 'What Kind Of Videos BitsWits Pro Provides With Tech Video Production Services?',
       answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
     }
   ];
@@ -69,7 +61,7 @@ export default function page() {
       <Work />
       <Faqs content={faqs} />
       <SmallBanner />
-      <Client /> 
+      <Client />
     </>
   );
 }
