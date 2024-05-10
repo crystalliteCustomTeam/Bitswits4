@@ -52,7 +52,7 @@ const Whowearenew = ({ content }) => {
         });
     };
 
-    const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
+    const { title, desc, para, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
     return (
         <>
             <section ref={sectionRef} className={styles.counterSec}>
@@ -60,9 +60,8 @@ const Whowearenew = ({ content }) => {
                     <Row className={styles.android}>
                         {/* <h3 className='center'>Who We've</h3> */}
                         <h2 className='center'>{title}</h2>
-                        <p className='center'>
-                            {desc}
-                        </p>
+                        <p className='center p-0 mb-2'>{desc}</p>
+                        <p className='center'>{para}</p>
                     </Row>
                     <Row className='align-items-center'>
                         <Col md={4} className='p-0'>

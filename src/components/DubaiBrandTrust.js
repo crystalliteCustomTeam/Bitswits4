@@ -100,9 +100,9 @@ const DubaiBrandTrust = () => {
                                 </Slider> */}
                             </div>
                         </Col>
-                    </Row >
-                </div >
-            </section >
+                    </Row>
+                </div>
+            </section>
         </>
     )
 }

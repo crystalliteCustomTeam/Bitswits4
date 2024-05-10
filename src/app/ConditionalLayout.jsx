@@ -79,8 +79,7 @@ const ConditionalLayout = ({ children }) => {
         pathname == "/top-mobile-app-development-company" ||
         pathname == "/mobile-app-development-services" ||
         pathname == "/create-a-mobile-app" ||
-        pathname == "/top-mobile-app-developers" ||
-        pathname == "/mobile-app-development-company-dubai";
+        pathname == "/top-mobile-app-developers";
     // =======================================
     const superecommer =
         pathname == "/top-mobile-app-developers" ||
