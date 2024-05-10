@@ -3,7 +3,7 @@
   z-index: 99;
 }
 
-.heading h3 img {
+.heading h3 svg {
   position: absolute;
   right: 1%;
   margin-top: 0.5%;
@@ -66,7 +66,7 @@
 }
 
 .mostimg {
-  border: 2px solid #000 !important;
+  border: 2px solid #F32F53 !important;
   border-top: unset !important;
   border-bottom-right-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
@@ -232,7 +232,7 @@
     padding-bottom: 8px !important;
   }
 
-  .heading h3 img {
+  .heading h3 svg {
     position: absolute;
     right: 3%;
     top: 50%;

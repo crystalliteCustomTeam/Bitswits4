@@ -1,10 +1,13 @@
 "use client"
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import styles from "@/styles/NewMobileApp/NewHouston.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { Col, Row } from "react-bootstrap";
+import styles from "@/styles/NewMobileApp/NewHouston.module.css";
+//
 import BtnArrow from "media/newmobileapp/right-arrow.png"
+import appLong from "media/newmobileapp/appLong.png"
+
 const Section = ({ section, refCallback }) => {
     const { num, title, content } = section;
     return (
@@ -24,11 +27,12 @@ const Section = ({ section, refCallback }) => {
     );
 };
 const NewHouston = ({ content }) => {
-    const { menus, sections } = content
+    const { menus, sections } = content;
     const [isMobile, setIsMobile] = useState(false);
-    const [selectedSection, setSelectedSection] = useState(null);
-    const [visibleSection, setVisibleSection] = useState(menus[0]);
+    const [selectedSection, setSelectedSection] = useState(menus[0]); 
+    const [visibleSection, setVisibleSection] = useState(menus[0]); 
     const sectionsRef = useRef([]);
+    
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -87,7 +91,7 @@ const NewHouston = ({ content }) => {
                 </Row>
                 <div className="container">
                     <Row className={styles.tone}>
-                        <Col lg={5} className='p-0 text-center d-flex flex-column justify-content-center' style={{ height: `400px` }}>
+                        <Col lg={5} className='p-0 text-center d-flex flex-column justify-content-center'>
                             {isMobile ? (
                                 <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
                                     <option value={visibleSection}>{visibleSection}</option>
@@ -97,6 +101,7 @@ const NewHouston = ({ content }) => {
                                 </select>
                             ) : (
                                 <nav className={`${styles.applicationlong}`}>
+                                    <Image src={appLong} alt="Bitswits" className="img-fluid" />
                                     <ul className="position-sticky top-0">
                                         {menus.map((menu, index) => (
                                             <li key={index} className={`d-flex ${visibleSection === menu ? styles.active : ""}`}>

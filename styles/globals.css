@@ -965,6 +965,10 @@ a {
   display: none;
 }
 
+.ppcFaqs .newfoldpost{
+  border: 2px solid #F32F53;
+}
+
 /*===========================*/
 
 .faqsLp .accordion-button {
