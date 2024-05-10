@@ -336,7 +336,7 @@ export default function dubaidevelopmentcompany() {
               "Which is the world no 1 app?",
             answer: (
               <>
-                TikTok was the most popular app worldwide by downloads in 2022, maintaining its title for the fourth consecutive year. 
+                TikTok was the most popular app worldwide by downloads in 2022, maintaining its title for the fourth consecutive year.
                 <br />
                 According to Business of Apps, the video platform achieved 672 million downloads in 2022, while also doubling its annual revenue to $9.4 billion.
               </>
@@ -364,7 +364,7 @@ export default function dubaidevelopmentcompany() {
               "How long does it take to develop a mobile application in Dubai?",
             answer: (
               <>
-               The time necessary for creating a mobile application in Dubai with BitWits is defined by factors such as features, design complexity, and business requirements. On average, the app development process usually takes between 3 to 12 months. This is to ensure we give this process a proper time frame and duration. Our team of well-trained personnel guarantees timely delivery while maintaining high-quality standards.
+                The time necessary for creating a mobile application in Dubai with BitWits is defined by factors such as features, design complexity, and business requirements. On average, the app development process usually takes between 3 to 12 months. This is to ensure we give this process a proper time frame and duration. Our team of well-trained personnel guarantees timely delivery while maintaining high-quality standards.
               </>
             ),
           },
@@ -373,7 +373,7 @@ export default function dubaidevelopmentcompany() {
               "Why should I choose BitsWits for mobile app development services in Dubai?",
             answer: (
               <>
-                Choosing BitsWits for your mobile app development needs in Dubai means partnering with a team that has over 10+ years of experience in the industry. We offer innovative solutions and stay updated with emerging technologies like AI/ML, AR/VR, Blockchain, Cloud, and Wearable technology. And much more.  Our app developers in Dubai ensure high productivity and efficiency, delivering top-notch mobile app development services and solutions. 
+                Choosing BitsWits for your mobile app development needs in Dubai means partnering with a team that has over 10+ years of experience in the industry. We offer innovative solutions and stay updated with emerging technologies like AI/ML, AR/VR, Blockchain, Cloud, and Wearable technology. And much more.  Our app developers in Dubai ensure high productivity and efficiency, delivering top-notch mobile app development services and solutions.
               </>
             ),
           },
@@ -382,7 +382,7 @@ export default function dubaidevelopmentcompany() {
               "Do you provide mobile app development support and maintenance services?",
             answer: (
               <>
-               Our services include complete post-deployment support and maintenance, which ensures that your application runs at its maximum efficiency. Our support team will be there for you if you need to address any concerns or make any releases for your mobile app in Dubai.
+                Our services include complete post-deployment support and maintenance, which ensures that your application runs at its maximum efficiency. Our support team will be there for you if you need to address any concerns or make any releases for your mobile app in Dubai.
               </>
             ),
           },
@@ -391,6 +391,5 @@ export default function dubaidevelopmentcompany() {
       <Latestblog blogBox={blogBox} />
       <Globalmap />
     </>
-  );
   );
 } 
