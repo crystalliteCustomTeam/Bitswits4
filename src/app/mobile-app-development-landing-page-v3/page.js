@@ -9,6 +9,7 @@ import AppsLived from '@/src/components/NewMobileApp/AppsLived/AppsLived';
 import AppsJourney from '@/src/components/NewMobileApp/AppsJourney/AppsJourney';
 import Conviced from '@/src/components/NewMobileApp/Conviced/Conviced';
 import NewHouston from '@/src/components/NewMobileApp/NewHouston/NewHouston';
+import Deliver from '@/src/components/NewMobileApp/Deliver/Deliver';
 import LogoSlider from '@/src/components/NewMobileApp/LogoSlider/LogoSlider';
 import JournyForm from '@/src/components/NewMobileApp/JourneyForm/JournyForm';
 import Faqs from '@/src/components/NewMobileApp/Faqs/Faqs';
@@ -102,6 +103,7 @@ const page = () => {
       <AppsJourney />
       <Conviced />
       <NewHouston content={HoustonContent} />
+      <Deliver />
       <LogoSlider />
       <JournyForm />
       <Faqs

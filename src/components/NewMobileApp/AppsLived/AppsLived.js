@@ -12,6 +12,10 @@ import makeus from "/public/newmobileapp/makeus.png"
 import roi from "/public/newmobileapp/roi.png"
 import clutch from "media/newDubaiPagev1/clutch.png"
 import slider1 from "media/newmobileapp/slider-1.png"
+import slider2 from "media/newmobileapp/slider-2.png"
+import slider3 from "media/newmobileapp/slider-3.png"
+import slider4 from "media/newmobileapp/slider-4.png"
+import slider5 from "media/newmobileapp/slider-5.png"
 
 
 const AppsLived = () => {
@@ -131,24 +135,68 @@ const AppsLived = () => {
                 number: 10
             },
         ],
+        [
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 30
+            },
+            {
+                icon: "/newmobileapp/download.png",
+                title: "Downloads",
+                number: 20
+            },
+            {
+                icon: "/newmobileapp/roi.png",
+                title: "ROI",
+                number: 10
+            },
+        ],
+        [
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 30
+            },
+            {
+                icon: "/newmobileapp/download.png",
+                title: "Downloads",
+                number: 20
+            },
+            {
+                icon: "/newmobileapp/roi.png",
+                title: "ROI",
+                number: 10
+            },
+        ],
     ];
 
     const SliderContent = [
         {
             image: slider1,
-            title: "App Project Name",
+            title: "Route Rover",
             desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
         },
         {
-            image: slider1,
-            title: "App Project Name Two",
-            desc: "A wallet analytics and search engine platform on blockchain.Bitswits' development of the Prey project."
+            image: slider2,
+            title: "Route Rover",
+            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
         },
         {
-            image: slider1,
-            title: "App Project Name Three",
-            desc: "A wallet analytics and search engine platform on blockchain.Bitswits' development of the Prey project."
+            image: slider3,
+            title: "Route Rover",
+            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
         },
+        {
+            image: slider4,
+            title: "Route Rover",
+            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+        },
+        {
+            image: slider5,
+            title: "Route Rover",
+            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+        }
     ]
     return (
         <>
@@ -206,7 +254,7 @@ const AppsLived = () => {
                                 {SliderContent.map((content, index) => (
                                     <div key={index} className={styles.slider}>
                                         <div className={styles.sliderImage}>
-                                            <Image src={content.image} alt='Bitswits' className='w-100' />
+                                            <Image src={content.image} alt='Bitswits' className='img-fluid' />
                                         </div>
                                         <div className={styles.sliderTxt}>
                                             <div className="txt">
