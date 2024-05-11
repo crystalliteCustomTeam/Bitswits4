@@ -198,7 +198,7 @@ const NewAward = ({ content }) => {
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Rated</h6>
-                                                <p className='mb-0 fontsfregular'>Top App Development Companies</p>
+                                                <p className='mb-0 fontsfregular'>Top App Development <br className="d-lg-block d-none" /> Companies</p>
                                             </div>
                                         </div>
                                     </div>
