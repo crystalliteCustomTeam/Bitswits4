@@ -21,35 +21,35 @@ const AppsJourney = () => {
 
                     </Row>
                     <Row>
-                        <Col lg={2}></Col>
-                        <Col lg={4}>
+                        <Col xl={2}></Col>
+                        <Col lg={6} xl={4}>
                             <div className={styles.card}>
                                 <p>Confused About Choosing The
                                     Right Technology For Your App?</p>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={6} xl={4}>
                             <div className={styles.card}>
                                 <p>Need Assistance In Crafting A
                                     User-Centric Design For Your
                                     App Idea?</p>
                             </div>
                         </Col>
-                        <Col lg={2}></Col>
-                        <Col lg={4}>
+                        <Col xl={2}></Col>
+                        <Col lg={6} xl={4}>
                             <div className={styles.card}>
                                 <p>Worried About Overblown
                                     Costs In App Development?</p>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={6} xl={4}>
                             <div className={styles.card}>
                                 <p>Struggling to Turn Your App
                                     Idea into Reality?</p>
                             </div>
                         </Col>
-                        <Col lg={4}>
-                            <div className={styles.card}>
+                        <Col lg={12} xl={4}>
+                            <div className={`${styles.cardFive} ${styles.card}`}>
                                 <p>Worried About The Security And Privacy Of Your App?</p>
                             </div>
                         </Col>

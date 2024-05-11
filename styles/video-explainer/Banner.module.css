@@ -272,4 +272,9 @@
     .btn {
         padding: 10px 15px;
     }
+
+    .bannerSec .value {
+        justify-content: center;
+        gap: 10px;
+    }
 }

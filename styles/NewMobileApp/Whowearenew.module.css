@@ -8,6 +8,8 @@
 
 .counterBack {
   background: linear-gradient(to right, #4a78ef, #f32fc2, #f32f53);
+  position: relative;
+  z-index: 99999;
 }
 
 .counterdigit {
@@ -110,8 +112,6 @@
 }
 
 .ImageDiv {
-  background: #f3f3f3;
-  transition: all ease-in-out 0.4s;
   position: relative !important;
   z-index: -1 !important;
 }
@@ -121,9 +121,9 @@
   max-height: 369px;
 }
 
-.ImageDiv:hover {
+/* .ImageDiv:hover {
   background: #e4e4e4;
-}
+} */
 
 /* .ImageDiv img:hover {
   transform: translateY(20px);

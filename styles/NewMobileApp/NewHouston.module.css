@@ -24,6 +24,13 @@
   width: 5%;
 }
 
+.understand {
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .understand h5 {
   padding-top: 15px;
   font-family: "SF-Pro-Display";
@@ -63,17 +70,19 @@
 }
 
 .posto {
-  /* margin-top: 20px; */
-  height: 400px;
-  overflow: scroll;
   background-color: white;
   border-radius: 20px;
   padding: 50px;
 }
 
 .tone {
-  align-items: center;
+  align-items: start;
   margin: 0;
+}
+
+.menuCols {
+  position: sticky;
+  top: 135px;
 }
 
 .application {
@@ -279,8 +288,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
-}
+@media only screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 991px) {
   .houston {

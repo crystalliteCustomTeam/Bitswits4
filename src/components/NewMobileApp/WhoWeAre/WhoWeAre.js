@@ -1,15 +1,59 @@
 import React, { useEffect, useRef } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from "framer-motion";
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/NewMobileApp/Whowearenew.module.css";
 //
-import ban1 from "@/public/newdubai/ban1.png"
-import ban2 from "@/public/newdubai/ban2.png"
-import ban3 from "@/public/newdubai/ban3.png"
+import ban1 from "media/newdubai/ban4.png"
+import ban2 from "media/newdubai/ban2.png"
+import ban3 from "media/newdubai/ban5.png"
 import ArrowImage from "media/newdubai/slider-btn-arrow.png"
 
 const Whowearenew = ({ content }) => {
+    const variantOne = {
+        initial: {
+            y: 200,
+            opacity: 0,
+        },
+        animate: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 1,
+                staggerChild: 0.1,
+            }
+        },
+    };
+    const variantTwo = {
+        initial: {
+            y: 260,
+            opacity: 0,
+        },
+        animate: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 2,
+                staggerChild: 0.1,
+            }
+        },
+    };
+    const variantThree = {
+        initial: {
+            y: 300,
+            opacity: 0,
+        },
+        animate: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 3,
+                staggerChild: 0.1,
+            }
+        },
+    };
+
     const sectionRef = useRef(null);
 
     useEffect(() => {
@@ -65,19 +109,19 @@ const Whowearenew = ({ content }) => {
                     </Row>
                     <Row className='align-items-center w-100'>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
+                            <motion.div className={`${styles.ImageDiv}`} variants={variantOne} initial="initial" whileInView="animate">
                                 <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block`} />
-                            </div>
+                            </motion.div>
                         </Col>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
+                            <motion.div className={`${styles.ImageDiv}`} variants={variantTwo} initial="initial" whileInView="animate">
                                 <Image src={ban2} width={368} height={374} className={`img-fluid mx-auto d-block`} />
-                            </div>
+                            </motion.div>
                         </Col>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
+                            <motion.div className={`${styles.ImageDiv}`} variants={variantThree} initial="initial" whileInView="animate">
                                 <Image src={ban3} width={368} height={374} className={`img-fluid mx-auto d-block`} />
-                            </div>
+                            </motion.div>
                         </Col>
 
                     </Row>

@@ -402,11 +402,9 @@
 }
 
 .notice {
-  background: linear-gradient(
-    90deg,
-    rgba(243, 47, 92, 1) 0%,
-    rgba(74, 120, 239, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(243, 47, 92, 1) 0%,
+      rgba(74, 120, 239, 1) 100%);
   width: 100%;
   height: 50px;
   display: block;
@@ -822,6 +820,7 @@
 }
 
 @media screen and (max-width: 991px) {
+
   .comple1 p,
   .comple5 p {
     color: white;
@@ -1053,6 +1052,8 @@
 
   .your .value {
     width: 100%;
+    justify-content: center;
+    gap: 10px;
   }
 
   .postimg img {
