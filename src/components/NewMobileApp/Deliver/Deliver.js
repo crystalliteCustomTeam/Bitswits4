@@ -42,6 +42,13 @@ const Deliver = () => {
                                 </div>
                             </div>
                         </Col>
+                        <Col lg={12}>
+                            <div className={`${styles.btns}`}>
+                                <a href="javascript:;">
+                                    Let’s Discuss Your Project
+                                </a>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </section>

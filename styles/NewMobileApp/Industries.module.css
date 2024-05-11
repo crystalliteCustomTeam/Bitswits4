@@ -120,3 +120,37 @@
   height: 20px;
   object-fit: contain;
 }
+
+.btns a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 20px;
+  width: max-content;
+  height: 45px;
+  border-radius: 6px;
+  background: black;
+  box-shadow: 0 5px 12px #00000075;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.4s;
+  margin: 60px auto 0;
+}
+
+@media screen and (max-width: 1499px) {
+  .head h5 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+    .head h5 {
+      font-size: 14px;
+    }
+
+    .content h3 {
+        font-size: 13px;
+      }
+  }

@@ -59,7 +59,7 @@ const Industries = () => {
                                     <div className={`${styles.head} head`}>
                                         <h5>Education</h5>
                                     </div>
-                                     <div className={`${styles.content} content`}>
+                                    <div className={`${styles.content} content`}>
                                         <h3>Education</h3>
                                         <p>Be it taxi, travel, or Education, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
                                         <Link href="#" className={styles.btn}>
@@ -75,7 +75,7 @@ const Industries = () => {
                                     <div className={`${styles.head} head`}>
                                         <h5>Logistics</h5>
                                     </div>
-                                     <div className={`${styles.content} content`}>
+                                    <div className={`${styles.content} content`}>
                                         <h3>Logistics</h3>
                                         <p>Be it taxi, travel, or Logistics, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
                                         <Link href="#" className={styles.btn}>
@@ -91,7 +91,7 @@ const Industries = () => {
                                     <div className={`${styles.head} head`}>
                                         <h5>Insurance</h5>
                                     </div>
-                                     <div className={`${styles.content} content`}>
+                                    <div className={`${styles.content} content`}>
                                         <h3>Insurance</h3>
                                         <p>Be it taxi, travel, or Insurance, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
                                         <Link href="#" className={styles.btn}>
@@ -107,7 +107,7 @@ const Industries = () => {
                                     <div className={`${styles.head} head`}>
                                         <h5>Engineering Construction <br /> & Operations</h5>
                                     </div>
-                                     <div className={`${styles.content} content`}>
+                                    <div className={`${styles.content} content`}>
                                         <h3>Engineering Construction & Operations</h3>
                                         <p>Be it taxi, travel, or Engineering Construction & Operations, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
                                         <Link href="#" className={styles.btn}>
@@ -119,13 +119,13 @@ const Industries = () => {
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
-                                    <Image src={slide3} alt='BitsWits' className='img-fluid' />
+                                    <Image src={slide4} alt='BitsWits' className='img-fluid' />
                                     <div className={`${styles.head} head`}>
-                                        <h5>Health Care</h5>
+                                        <h5>Insurance</h5>
                                     </div>
-                                     <div className={`${styles.content} content`}>
-                                        <h3>Health Care</h3>
-                                        <p>Be it taxi, travel, or Health Care, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                    <div className={`${styles.content} content`}>
+                                        <h3>Insurance</h3>
+                                        <p>Be it taxi, travel, or Insurance, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -135,6 +135,14 @@ const Industries = () => {
                                     </div>
                                 </div>
                             </Slider>
+                        </Col>
+
+                        <Col lg={12}>
+                            <div className={`${styles.btns}`}>
+                                <a href="javascript:;">
+                                    Let’s Discuss Your Project
+                                </a>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
