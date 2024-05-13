@@ -23,7 +23,7 @@ import Star from "/public/newDubaiPagev1/star.png"
 const NewDubaiAwards = ({ content }) => {
     const { title, desc } = content;
     var awardSlider = {
-        arrows: true,
+        arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,

@@ -145,6 +145,9 @@ const Industries = () => {
                                         className={`px-3 ${styles.sliderDiv}`}
                                         onMouseEnter={() => handleMouseEnter(index)}
                                         onMouseLeave={handleMouseLeave}>
+                                        <div className={styles.cardHeading}>
+                                            <h3>{content.title}</h3>
+                                        </div>
                                         <div className={`card ${styles.card}`}>
                                             <h3>{content.title}</h3>
                                             <p>{content.desc}</p>

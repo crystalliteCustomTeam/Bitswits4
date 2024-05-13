@@ -99,18 +99,30 @@
   transition: all 0.4s ease-in-out;
   /* position: relative; */
   position: absolute;
-  bottom: -116px;
+  bottom: 0;
   background: transparent;
   border: 0;
   height: 180px;
+  transform: translateY(180px);
+}
+
+.cardHeading {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.sliderDiv:hover .cardHeading {
+  display: none;
 }
 
 .sliderDiv:hover .card {
-  bottom: 50px;
+  transform: translateY(-20px);
   transition: all 0.4s ease-in-out;
 }
 
-.card h3 {
+.sliderDiv h3 {
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
@@ -143,27 +155,28 @@
 }
 
 @media only screen and (max-width: 1920px) {
-  .card {
+  /* .card {
     bottom: -116px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1599px) {
-  .card {
-    bottom: -143px;
+  .sliderDiv:hover .card {
+    transform: translateY(-75px);
   }
 }
 
 @media only screen and (max-width: 1399px) {
-  .card {
-    bottom: -128px;
+  .txt h2 {
+    font-size: 70px;
+    line-height: 80px;
   }
 
   .card p {
     font-size: 17px;
     line-height: 26px;
     color: white;
-    padding: 16px 0px 16px 0;
+    padding: 16px 6px 16px 0;
   }
 }
 
@@ -176,14 +189,26 @@
   .sliderBackground img {
     height: 100%;
   }
+
+  .txt {
+    left: 70px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-  .card {
-    bottom: -99px;
+  .industriesSec {
+    height: 55vh;
   }
 
-  .card h3 {
+  .sliderDiv::after {
+    height: 55vh;
+  }
+
+  .sliderDiv {
+    height: 55vh;
+  }
+
+  .sliderDiv h3 {
     font-size: 20px;
     line-height: 20px;
   }
@@ -226,15 +251,15 @@
 
 @media only screen and (max-width: 567px) {
   .industriesSec {
-    height: 100vh;
+    height: 55vh;
   }
 
   .sliderDiv::after {
-    height: 100vh;
+    height: 55vh;
   }
 
   .sliderDiv {
-    height: 100vh;
+    height: 55vh;
   }
 
   .card p {
@@ -248,5 +273,9 @@
 
   .txt {
     left: 30px;
+  }
+
+  .sliderDiv:hover .card {
+    transform: translateY(10px);
   }
 }

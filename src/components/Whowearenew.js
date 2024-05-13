@@ -39,11 +39,12 @@ const Whowearenew = ({ content }) => {
 
         counterElements.forEach((item) => {
             let counterInnerText = parseInt(item.textContent);
-            let count = 1;
-            let speed = parseInt(item.dataset.speed) / counterInnerText;
+            let startingPoint = Math.floor(counterInnerText * 0.6); // Set the starting point to 60% of the original value
+            let count = startingPoint; // Initialize count with the starting point
+            let speed = parseInt(item.dataset.speed) / (counterInnerText - startingPoint);
             const stop = setInterval(() => {
                 item.textContent = count++;
-                if (counterInnerText < count) {
+                if (count > counterInnerText) { // Adjust the condition for stopping the counter
                     clearInterval(stop);
                 }
             }, speed);
@@ -81,19 +82,19 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">500K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">500K</p><span>+</span>
                                         </h4>
                                         <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">100K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">100K</p><span>+</span>
                                         </h4>
                                         <span>MAU</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">300</p><span>%</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">300</p><span>%</span>
                                         </h4>
                                         <span>ROI</span>
                                     </div>
@@ -117,19 +118,19 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">300K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">300K</p><span>+</span>
                                         </h4>
                                         <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">50K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">50K</p><span>+</span>
                                         </h4>
                                         <span>MAU</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">250</p><span>%</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">250</p><span>%</span>
                                         </h4>
                                         <span>ROI</span>
                                     </div>
@@ -153,19 +154,19 @@ const Whowearenew = ({ content }) => {
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">200K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">200K</p><span>+</span>
                                         </h4>
                                         <span>Installs</span>
                                     </div>
                                     <div>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">70K</p><span>+</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">70K</p><span>+</span>
                                         </h4>
                                         <span>MAU</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="4000">400</p><span>%</span>
+                                            <p className='mb-0 d-inline counter' data-speed="5">400</p><span>%</span>
                                         </h4>
                                         <span>ROI</span>
                                     </div>

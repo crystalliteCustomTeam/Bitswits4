@@ -997,67 +997,67 @@
 @media screen and (max-width: 1099px) {
   .newHomeBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newHoustonBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newDallasBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newNewYorkBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .neWashingtonBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newAustinBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newChicagoBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newMiamiBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newTorontoBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newUKBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .newSaudiaBg {
     height: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
@@ -1066,6 +1066,30 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .oppp {
+    text-align: center;
+  }
+
+  .deliver {
+    width: 100%;
+  }
+
+  .badge {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .clientRviews {
+    width: 100%;
+    justify-content: start;
+    gap: 180px;
+  }
+
+  .your .value {
+    width: 100%;
+    margin: 4% auto 4%;
   }
 }
 

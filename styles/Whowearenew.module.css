@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: start;
   position: relative !important;
-  z-index: 999999 !important;
+  z-index: 99 !important;
 }
 
 .travel p {
@@ -174,10 +174,6 @@
   padding-right: 21px;
 }
 
-.counter h4 {
-  position: relative;
-}
-
 .counter h4 p {
   font-size: 28px;
   font-weight: 500;
@@ -191,14 +187,7 @@
   line-height: 30px;
   font-weight: 400;
   color: white;
-  position: absolute;
-  bottom: 5px;
-  right: -20px;
-}
-
-.counter .lastCount h4 span {
-  bottom: 3px;
-  right: -28px;
+  margin-left: 9px;
 }
 
 .counter span {
@@ -247,6 +236,21 @@
   }
 }
 
+@media only screen and (max-width: 1600px) {
+  .travel {
+    height: 350px;
+  }
+
+  .travel2 {
+    height: 348px;
+  }
+
+  .ImageDiv img {
+    min-height: 366px;
+    max-height: 369px;
+  }
+}
+
 @media only screen and (max-width: 1399px) {
   .android h2 {
     font-size: 40px;
@@ -258,6 +262,21 @@
   .travel3 h3 {
     font-size: 35px;
     line-height: 40px;
+  }
+
+  .ImageDiv img {
+    min-height: 276px;
+    max-height: 279px;
+  }
+
+  .travel {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .travel {
+    height: 365px;
   }
 }
 
@@ -378,6 +397,11 @@
     height: 100%;
   }
 
+  .arrowImage {
+    right: 20px;
+    top: 33px;
+  }
+
   .ImageDiv img:hover {
     transform: translateY(0px);
     transition: all ease-in-out 0.4s;
@@ -412,5 +436,19 @@
   .android p {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .counter {
+    justify-content: space-around;
+  }
+
+  .counter h4 span {
+    right: inherit;
+    left: 45px;
+  }
+
+  .lastCount h4 span {
+    bottom: -3px !important;
+    right: -28px !important;
   }
 }

@@ -79,8 +79,8 @@ const StoryLine = ({ content }) => {
                                             <>
                                                 <p className="fontsfregular">{item.answer}</p>
                                                 <div className={` ${styles.btn}`}>
-                                                    <Link href="javascript:$zopim.livechat.window.show();" className="pink"> 
-                                                            {item.btn} 
+                                                    <Link href="javascript:$zopim.livechat.window.show();" className="pink">
+                                                        {item.btn}
                                                     </Link>
                                                 </div>
                                             </>
@@ -91,7 +91,7 @@ const StoryLine = ({ content }) => {
                         </div>
                         <div>
                             {activeIndex !== null && (
-                                <figure className="relative">
+                                <figure className="relative d-md-block d-none">
                                     <Image priority className={`img-fluid mt-sm-0 mt-5 ${styles.storyLineImages}`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
                                 </figure>
                             )}
