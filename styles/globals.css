@@ -138,6 +138,11 @@ div {
   z-index: 3;
 }
 
+b,
+strong {
+  font-weight: bold;
+}
+
 /*====================== fontfamily ======================*/
 
 .fontfam {

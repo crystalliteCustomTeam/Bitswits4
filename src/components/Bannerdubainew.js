@@ -120,12 +120,12 @@ const Bannerdubai = ({ content }) => {
     return (
         <>
             <section className={`
-            ${pathname === "/new-mobile-app-development-company-austin" ? austinBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-chicago" ? chicagoBackground : ""}
+            ${pathname === "/app-development-austin" ? austinBackground : ""}
+            ${pathname === "/app-development-chicago" ? chicagoBackground : ""}
             ${pathname === "/mobile-app-development-company-dallas" ? dallasBackground : ""}
             ${pathname === "/mobile-app-development-company-dubai" ? dubaiBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-houston" ? houstonBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-miami" ? miamiBackground : ""}
+            ${pathname === "/app-development-houston" ? houstonBackground : ""}
+            ${pathname === "/mobile-app-development-company-miami" ? miamiBackground : ""}
             ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
             ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
             ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}

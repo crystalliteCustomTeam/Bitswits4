@@ -1,7 +1,7 @@
 .heading h3 img {
   position: absolute;
   right: 1%;
-  margin-top: .5%;
+  margin-top: 0.5%;
 }
 
 .faqs {
@@ -48,13 +48,11 @@
   padding-bottom: 10px;
   border-radius: 10px;
   -webkit-mask:
-    /*4*/
-    linear-gradient(#fff 0 0) padding-box,
+    /*4*/ linear-gradient(#fff 0 0) padding-box,
     linear-gradient(#fff 0 0);
   padding-top: 17px !important;
   padding-bottom: 12px !important;
   position: relative;
-
 }
 
 .mostimg {
@@ -96,7 +94,6 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .mostimg {
@@ -128,7 +125,6 @@
   padding-left: 50px;
   padding-right: 50px;
   font-size: 14px;
-
 }
 
 .comfort p {
@@ -152,7 +148,6 @@
 }
 
 @media screen and (max-width: 1280px) {
-
   .comfort p {
     padding-right: unset;
   }
@@ -166,15 +161,12 @@
   }
 
   .mostimg a {
-
     margin-bottom: auto;
   }
 }
 
 @media screen and (max-width: 991px) {
-
   .mostimg a {
-
     font-size: 13px;
   }
 
@@ -209,7 +201,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .faqs h4 {
     font-size: 35px;
     line-height: 1.2;

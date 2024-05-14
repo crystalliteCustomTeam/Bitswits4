@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Mobile App Development Company in Houston | BitsWits",
+  title: "Mobile App Development Company in Houston - BitsWits",
   description: "BitsWits is a leading mobile app development company in Houston offering innovative solutions customized to your business needs for unparalleled success!",
   //===== OG Tags =====
   openGraph: {
-    title: 'Mobile App Development Company in Houston | BitsWits',
+    title: 'Mobile App Development Company in Houston - BitsWits',
     description: 'BitsWits is a leading mobile app development company in Houston offering innovative solutions customized to your business needs for unparalleled success!',
-    url: '/new-mobile-app-development-company-houston',
+    url: '/app-development-houston',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/new-mobile-app-development-company-houston' },
+  alternates: { canonical: '/app-development-houston' },
   //===== No-Index =====
   robots: {
     index: false,

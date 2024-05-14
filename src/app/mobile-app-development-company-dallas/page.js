@@ -161,7 +161,7 @@ export default function dubaidevelopmentcompany() {
   const sections = [
     {
       title: "How much does it cost to hire someone to build a mobile app?",
-      content: `<p class='fontsfregular'><b>The average hourly rate charged by a mobile app developer is approximately <b>$25 to $40</b>, according to Clutch. The price of a fully-fledged and ready-to-use app typically ranges between a reliable estimate of <b>$10,000 and $49,000</b>.</p>
+      content: `<p class='fontsfregular'>The average hourly rate charged by a mobile app developer is approximately <b>$25 to $40</b>, according to Clutch. The price of a fully-fledged and ready-to-use app typically ranges between a reliable estimate of <b>$10,000 and $49,000</b>.</p>
       <p class='fontsfregular'>The total amount spent will however, very much depend on some other factors like whether you want a single feature app or a complex one, the platforms on which you want the app to run (iOS, Android, or both), where exactly the development team is located, and if you have to add additional costs for like services such as design, testing, and maintenance.</p>
       <p class='fontsfregular'>Apart from that, custom app development will have higher costs compared to the use of pre-built templates or platforms.</p>
       <p class='fontsfregular'>Therefore, it is so important to discuss the details of your requirements with potential app development companies to get an estimate of the exact cost that corresponds to all the features you have in your project.</p>
