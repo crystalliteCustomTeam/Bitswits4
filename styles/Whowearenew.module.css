@@ -270,13 +270,17 @@
   }
 
   .travel {
-    height: 340px;
+    height: 347px;
+  }
+
+  .travel3 {
+    height: 348px;
   }
 }
 
 @media only screen and (max-width: 1280px) {
   .travel {
-    height: 365px;
+    height: 348px;
   }
 }
 

@@ -171,6 +171,12 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .mostimg a {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 991px) {
 
   .mostimg a {

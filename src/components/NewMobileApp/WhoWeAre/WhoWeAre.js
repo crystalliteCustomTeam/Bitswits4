@@ -126,8 +126,8 @@ const Whowearenew = ({ content }) => {
 
                     </Row>
                     <div className={styles.counterBack}>
-                        <Row className={styles.counterRow}>
-                            <Col lg={7} className='p-0'>
+                        <Row className={`align-items-center ${styles.counterRow}`}>
+                            <Col lg={6} className='p-0'>
                                 <Row className={styles.counterdigit}>
                                     <Col md={4} className={`col-6 ${styles.borderOne}`}>
                                         <h5>
@@ -168,7 +168,7 @@ const Whowearenew = ({ content }) => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col lg={5} className='p-0'>
+                            <Col lg={6} className='p-0'>
                                 <div className={styles.intransition}>
                                     <h6>What We Did For Our Clients</h6>
                                     <h3>Intransition <br /> At A Glance</h3>

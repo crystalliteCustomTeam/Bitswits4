@@ -1,6 +1,6 @@
 .bannerSec {
   padding-top: 40px;
-  height: 300vh;
+  height: 100vh;
   background-image: url(../../public/newmobileapp/banner-bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -34,14 +34,16 @@
 .oppp h1 {
   font-size: 60px;
   line-height: 80px;
-  padding-right: 25px;
+  padding-right: 0;
+  letter-spacing: 2px;
 }
 
 .quickly p {
   line-height: 26px !important;
   font-size: 20px !important;
   color: #f32f53 !important;
-  font-weight: bold !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px;
 }
 
 .oppp p {
@@ -56,15 +58,8 @@
 }
 
 .applost {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
+  padding: 60px 0 100px;
   margin: 0 auto;
-  width: 90%;
-  z-index: 2;
 }
 
 .comple {
@@ -123,56 +118,6 @@
   -webkit-perspective: 300px;
   perspective: 300px;
 }
-
-/* .deliver span {
-  background-color: #f32f53;
-  border-radius: 4px;
-  display: block;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 50px;
-  margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.deliver span:nth-child(1) {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.deliver span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.deliver:hover span:nth-child(1) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-
-.deliver:hover span:nth-child(2) {
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-} */
 
 .postimg img {
   transition: all 1s ease-out;
@@ -544,7 +489,7 @@
 
 .your h3 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   letter-spacing: 1px;
   line-height: 33px;
@@ -572,6 +517,7 @@
   line-height: 20px;
   padding-top: 10px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .your input {
@@ -602,7 +548,7 @@
 }
 
 .your input::placeholder {
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   font-weight: 200;
   font-family: "SF-Pro-Display-Regular", sans-serif;
@@ -620,7 +566,7 @@
 }
 
 .your textarea::placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   font-weight: 200;
   font-family: "SF-Pro-Display-Regular", sans-serif;
@@ -632,11 +578,12 @@
   color: white;
   font-size: 16px;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 300;
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 11px;
 }
 
 .value {
@@ -674,8 +621,8 @@
 .badge p {
   font-size: 14px;
   color: black;
-  line-height: 23px;
-  width: 208px;
+  line-height: 19px;
+  width: 185px;
   margin-top: 10px;
   margin-bottom: 0 !important;
   text-align: center;
