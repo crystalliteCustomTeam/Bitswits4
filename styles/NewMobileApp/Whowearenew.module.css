@@ -35,36 +35,46 @@
 .borderOne {
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+  padding-top: 20px;
 }
 
 .borderTwo {
   border-bottom: 2px solid white;
+  padding-top: 20px;
 }
 
 .borderThree {
   border-left: 2px solid white;
   border-bottom: 2px solid white;
+  padding-top: 20px;
 }
 
 .borderFour {
   border-right: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.paddingFive {
+  padding-bottom: 20px;
 }
 
 .borderSix {
   border-left: 2px solid white;
+  padding-bottom: 20px;
 }
 
 .intransition {
   background-image: url(../../public/newmobileapp/counter-bg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 99%;
+  background-size: contain;
   margin-right: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100%;
+  padding: 60px 0px;
 }
 
 .intransition h6 {
@@ -98,11 +108,12 @@
 .android p {
   color: black;
   padding-bottom: 20px;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 35px;
+  letter-spacing: 0.2px;
   font-weight: 300;
   margin-bottom: 30px;
-  font-weight: lighter;
+  font-weight: 100;
   max-width: 1050px;
   margin: 0 auto 22px;
 }
@@ -114,21 +125,14 @@
 .ImageDiv {
   position: relative !important;
   z-index: -1 !important;
+  width: 88%;
+  margin: auto;
+
 }
 
 .ImageDiv img {
-  min-height: 373px;
-  max-height: 369px;
+  width: 100%;
 }
-
-/* .ImageDiv:hover {
-  background: #e4e4e4;
-} */
-
-/* .ImageDiv img:hover {
-  transform: translateY(20px);
-  transition: all ease-in-out 0.4s;
-} */
 
 .counter {
   display: flex;

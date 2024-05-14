@@ -290,6 +290,12 @@
   .houston select {
     font-size: 13px;
   }
+
+  .stickyTop {
+    position: sticky;
+    top: 40px;
+    z-index: 9999999;
+  }
 }
 
 @media screen and (max-width: 480px) {

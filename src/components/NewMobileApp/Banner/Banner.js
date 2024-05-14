@@ -111,10 +111,10 @@ const Banner = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col lg={7} xl={6} className='p-0'>
                             <div className={styles.quickly}>
-                                <p className='mb-0'>Quickly – Efficiently – Effortlessly</p>
+                                <p>Quickly – Efficiently – Effortlessly</p>
                             </div>
                             <div className={styles.oppp}>
-                                <h1 className='text-black fw600 mb-4'>
+                                <h1 className='text-black fw600 mb-3'>
                                     {title}
                                 </h1>
                                 <p className='font16 text-black fw300 mt-3 mb-lg-4 fontsfregular'>

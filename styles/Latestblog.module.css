@@ -34,7 +34,7 @@
   color: black;
 }
 
-/* Media Query Start */ 
+/* Media Query Start */
 
 @media screen and (max-width: 991px) {
   .ourBlogs {
@@ -78,5 +78,6 @@
     line-height: 24px;
     text-align: justify;
     height: auto;
+    overflow-y: hidden;
   }
 }

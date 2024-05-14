@@ -31,6 +31,8 @@ const NewAward = ({ content }) => {
         autoplaySpeed: 0,
         speed: 14000,
         cssEase: "linear",
+        centerMode: true,
+        centerPadding: '20px',
         responsive: [
             {
                 breakpoint: 1099,
@@ -76,7 +78,7 @@ const NewAward = ({ content }) => {
                         </Col>
                         <Col md={7}>
                             <div className='mt-4 mt-md-0'>
-                                <Slider {...awardSlider}>
+                                <Slider {...awardSlider} className={styles.awardSlider}>
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>

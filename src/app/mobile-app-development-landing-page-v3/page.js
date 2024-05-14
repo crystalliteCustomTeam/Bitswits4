@@ -95,7 +95,7 @@ const page = () => {
   }
 
   return (
-    <>
+    <>  
       <Bannerdubai content={Banner} />
       <NewAward content={Award} />
       <Whowearenew content={WhoWeAre} />

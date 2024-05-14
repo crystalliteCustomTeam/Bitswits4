@@ -36,7 +36,7 @@ const Faqdubai = (props) => {
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
                                             <p>{faq.answer}</p>
-                                            <a href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</a>
+                                            <a href="javascript:$zopim.livechat.window.show();">Get Started</a>
                                         </div>
                                     </div>
                                 </div>
