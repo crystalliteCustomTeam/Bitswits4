@@ -147,13 +147,13 @@ export default function dubaidevelopmentcompany() {
   }
   // Houston Content
   const menus = [
-    "Do apps make a lot of money?",
+    "What do you need to know when developing an app for your business?",
     "Do app owners earn money?",
     "How much is an app with 10 million downloads worth?",
   ];
   const sections = [
     {
-      title: "Do apps make a lot of money?",
+      title: "What do you need to know when developing an app for your business?",
       content: `<p class='fontsfregular'><b>It depends</b>. Although some free apps generate millions in annual revenue, this is often an exception rather than the rule. Nevertheless, <b>thousands of free apps still earn thousands of dollars in monthly revenue</b>.
       </p>
       <p class='fontsfregular'>The revenue potential of apps varies greatly depending on factors such as the <b>app's niche</b>, <b>target audience</b>, <b>monetization strategy</b>, and <b>market competition</b>.</p>
