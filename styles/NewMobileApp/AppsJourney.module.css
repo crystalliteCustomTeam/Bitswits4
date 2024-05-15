@@ -293,7 +293,7 @@
     }
 
     .appSec .card {
-        padding: 20px 17px;
+        padding: 33px 17px;
     }
 
     .active {
@@ -301,11 +301,11 @@
     }
 
     .card:hover {
-        padding: 25px 17px;
+        padding: 35px 17px;
     }
 
     .appSec .card p {
-        margin: 0 30px 22px;
+        margin: 0 30px 12px;
         font-size: 16px;
         padding-right: 0px;
     }
@@ -313,5 +313,9 @@
 
     .appSec .card:hover p {
         margin: 0 45px 0px;
+    }
+
+    .btn a {
+        margin: 20px auto 0;
     }
 }

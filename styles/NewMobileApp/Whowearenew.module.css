@@ -441,4 +441,8 @@
   .intransition h3 {
     margin-bottom: 15px;
   }
+
+  .btn {
+    margin: 6px 0 12px;
+  }
 }

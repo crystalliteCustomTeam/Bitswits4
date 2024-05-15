@@ -107,6 +107,10 @@
     padding: 50px 0 0;
   }
 
+  .card {
+    width: 95%;
+  }
+
   .cardContainer {
     flex-direction: column;
   }
@@ -117,6 +121,6 @@
   }
 
   .btns a {
-    margin: 34px auto 0;
+    margin: 60px auto 0;
   }
 }

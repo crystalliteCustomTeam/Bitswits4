@@ -134,7 +134,7 @@ const Bannerdubai = ({ content }) => {
              ${styles.DubaiBanner} bg-black`} >
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>
-                        <Col xl={7}>
+                        <Col xl={7} className='px-0'>
                             <div className={styles.oppp}>
                                 <h1 className='white fw500 mb-4'>
                                     {title}
@@ -170,7 +170,7 @@ const Bannerdubai = ({ content }) => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={5}>
+                        <Col xl={5} className='px-0'>
                             <form className={styles.your} onSubmit={handleSubmit}>
                                 <h3 className='mb-4 white fw500'>Book a Free Consultation</h3>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>

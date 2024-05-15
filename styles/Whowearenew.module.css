@@ -365,7 +365,7 @@
   }
 
   .ImageDiv img {
-    width: 100%;
+    width: auto;
   }
 
   .android h2 {
@@ -376,7 +376,7 @@
   }
 
   .counter span {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 17px;
   }
 
