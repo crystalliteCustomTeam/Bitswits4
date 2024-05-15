@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import styles from "@/styles/NewMobileApp/AppsJourney.module.css"
 import Link from 'next/link'
@@ -6,7 +6,41 @@ import Image from 'next/image'
 
 import BannerImage from "media/newmobileapp/smal_banner.png"
 
+const cardsContent = [
+    "Confused About Choosing The Right Technology For Your App?",
+    "Need Assistance In Crafting A User-Centric Design For Your App Idea?",
+    "Worried About Overblown Costs In App Development?",
+    "Struggling to Turn Your App Idea into Reality?",
+    "Worried About The Security And Privacy Of Your App?"
+];
+
+const Card = ({ content, isActive }) => {
+    return (
+        <div className={`${styles.card} ${isActive ? styles.active : ''}`}>
+            <p>{content}</p>
+        </div>
+    );
+};
+
+const CardContainer = ({ content, isActive }) => {
+    return (
+        <Link href="javascript:;">
+            <Card content={content} isActive={isActive} />
+        </Link>
+    );
+};
+
 const AppsJourney = () => {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setActiveIndex(prevIndex => (prevIndex + 1) % cardsContent.length);
+        }, 2000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <>
             <section className={styles.appSec}>
@@ -18,41 +52,64 @@ const AppsJourney = () => {
                                 <h2>Your App's Journey To Excellence <span>Starts Now!</span></h2>
                             </div>
                         </Col>
-
                     </Row>
                     <Row>
+                        {/* <Col xl={2}></Col>
+                        <Col lg={6} xl={4}>
+                            <Link href="javascript:;">
+                                <div className={styles.card}>
+                                    <p>Confused About Choosing The
+                                        Right Technology For Your App?</p>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col lg={6} xl={4}>
+                            <Link href="javascript:;">
+                                <div className={styles.card}>
+                                    <p>Need Assistance In Crafting A
+                                        User-Centric Design For Your
+                                        App Idea?</p>
+                                </div>
+                            </Link>
+                        </Col>
                         <Col xl={2}></Col>
                         <Col lg={6} xl={4}>
-                            <div className={styles.card}>
-                                <p>Confused About Choosing The
-                                    Right Technology For Your App?</p>
-                            </div>
+                            <Link href="javascript:;">
+                                <div className={styles.card}>
+                                    <p>Worried About Overblown
+                                        Costs In App Development?</p>
+                                </div>
+                            </Link>
                         </Col>
                         <Col lg={6} xl={4}>
-                            <div className={styles.card}>
-                                <p>Need Assistance In Crafting A
-                                    User-Centric Design For Your
-                                    App Idea?</p>
-                            </div>
-                        </Col>
-                        <Col xl={2}></Col>
-                        <Col lg={6} xl={4}>
-                            <div className={styles.card}>
-                                <p>Worried About Overblown
-                                    Costs In App Development?</p>
-                            </div>
-                        </Col>
-                        <Col lg={6} xl={4}>
-                            <div className={styles.card}>
-                                <p>Struggling to Turn Your App
-                                    Idea into Reality?</p>
-                            </div>
+                            <Link href="javascript:;">
+                                <div className={styles.card}>
+                                    <p>Struggling to Turn Your App
+                                        Idea into Reality?</p>
+                                </div>
+                            </Link>
                         </Col>
                         <Col lg={12} xl={4}>
-                            <div className={`${styles.cardFive} ${styles.card}`}>
-                                <p>Worried About The Security And Privacy Of Your App?</p>
+                            <Link href="javascript:;">
+                                <div className={`${styles.cardFive} ${styles.card}`}>
+                                    <p>Worried About The Security And Privacy Of Your App?</p>
+                                </div>
+                            </Link>
+                        </Col> */}
+                    </Row>
+                    <Row className='justify-content-center'>
+                        {cardsContent.slice(0, 2).map((content, index) => (
+                            <div key={index} className="col-lg-6 col-xl-4">
+                                <CardContainer content={content} isActive={index === activeIndex} />
                             </div>
-                        </Col>
+                        ))}
+                    </Row>
+                    <Row className='justify-content-center'>
+                        {cardsContent.slice(2).map((content, index) => (
+                            <div key={index} className="col-lg-6 col-xl-4">
+                                <CardContainer content={content} isActive={(index + 2) === activeIndex} />
+                            </div>
+                        ))}
                     </Row>
                 </div>
             </section>

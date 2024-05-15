@@ -18,18 +18,20 @@
 
 .counterdigit h5 {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 50px;
   color: white;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .counterdigit p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 21px;
   color: white;
   font-weight: 300;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .borderOne {
@@ -83,14 +85,17 @@
   line-height: 28px;
   color: white;
   text-align: center;
+  letter-spacing: 1.1px;
+  margin-bottom: 10px;
 }
 
 .intransition h3 {
   font-size: 55px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 75px;
   color: white;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .txt img {
@@ -199,14 +204,56 @@
   letter-spacing: 1px;
   position: relative;
   perspective: 300px;
-  width: 210px;
+  width: 245px;
   height: 45px;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+  .intransition h3 {
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 20px;
+  }
+
+  .android p {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    max-width: 1165px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .intransition {
+    padding: 29px 0px;
+  }
+
+  .intransition h6 {
+    margin-bottom: 0px;
+  }
+
+  .intransition h3 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .counterdigit {
+    padding: 0px 60px 0px 75px;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
   .android h2 {
     font-size: 40px;
     line-height: 45px;
+  }
+
+  .android p {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 1040px;
   }
 }
 
@@ -217,7 +264,7 @@
   }
 
   .counterdigit {
-    padding: 50px 80px 40px 35px;
+    padding: 0px 45px 0px 35px;
   }
 }
 
@@ -347,11 +394,11 @@
   .android p {
     font-size: 16px;
     line-height: 24px;
-    padding-right: 0px;
+    padding: 0px 10px;
   }
 
   .counterdigit {
-    padding: 13px 9px 40px 35px;
+    padding: 13px 9px 40px 13px;
   }
 
   .intransition h3 {
@@ -383,5 +430,13 @@
 
   .intransition {
     margin-right: 0;
+  }
+
+  .intransition h6 {
+    font-size: 15px;
+  }
+
+  .intransition h3 {
+    margin-bottom: 15px;
   }
 }

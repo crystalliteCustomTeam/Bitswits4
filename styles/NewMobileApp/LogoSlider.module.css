@@ -55,3 +55,20 @@
   justify-content: center;
   transition: all ease-in-out 0.4s;
 }
+
+.sliderImage {
+  width: 200px;
+  height: 60px;
+}
+
+.sliderImage img {
+  width: auto;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+  .sliderImage {
+    padding: 0 20px;
+  }
+}

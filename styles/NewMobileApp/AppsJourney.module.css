@@ -49,6 +49,21 @@
     animation: shake 0.5s ease infinite;
 }
 
+.active {
+    background-image: url(../../public/newmobileapp/journey-bg2.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    transition: all 0.4s ease-in-out;
+    padding: 50px 17px !important;
+    animation: shake 0.5s ease infinite;
+}
+
+.active p {
+    color: white !important;
+    margin: 0 30px 0px !important;
+}
+
 @keyframes shake {
     0% {
         transform: rotate(0deg);

@@ -102,7 +102,7 @@
 }
 
 .sliderCards {
-  background: #f3f3f3;
+  background: #FBFBFB;
   border-radius: 20px;
   padding: 25px 16px;
 }
@@ -135,6 +135,16 @@
 
 /* Media Query Start */
 
+@media only screen and (max-width: 1920px) {
+  .txt::after {
+    right: 30px;
+  }
+
+  .awardSlider {
+    padding-left: 7px;
+  }
+}
+
 @media only screen and (max-width: 1399px) {
   .sliderTxt p {
     font-size: 12px;
@@ -145,8 +155,12 @@
   }
 
   .awardsHeading {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .txt::after {
+    right: -12px;
   }
 }
 
@@ -208,6 +222,11 @@
 }
 
 @media only screen and (max-width: 576px) {
+
+  .btn {
+    margin-bottom: 25px;
+  }
+
   .pageReviews p {
     font-size: 22px !important;
   }

@@ -83,11 +83,12 @@ const Whowearenew = ({ content }) => {
 
         counterElements.forEach((item) => {
             let counterInnerText = parseInt(item.textContent);
-            let count = 1;
-            let speed = parseInt(item.dataset.speed) / counterInnerText;
+            let startingPoint = Math.floor(counterInnerText * 0.9);
+            let count = startingPoint;
+            let speed = parseInt(item.dataset.speed) / (counterInnerText - startingPoint);
             const stop = setInterval(() => {
                 item.textContent = count++;
-                if (counterInnerText < count) {
+                if (count > counterInnerText) {
                     clearInterval(stop);
                 }
             }, speed);
@@ -101,7 +102,7 @@ const Whowearenew = ({ content }) => {
         <>
             <section ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
                 <Container fluid className='px-0'>
-                    <Row className={styles.android}>
+                    <Row className={`${styles.android} mx-auto`}>
                         <h2 className='center'>{title}</h2>
                         <p className='center'>
                             {desc}
@@ -126,7 +127,7 @@ const Whowearenew = ({ content }) => {
 
                     </Row>
                     <div className={styles.counterBack}>
-                        <Row className={`align-items-center ${styles.counterRow}`}>
+                        <Row className={`align-items-center ${styles.counterRow} mx-auto`}>
                             <Col lg={6} className='p-0'>
                                 <Row className={styles.counterdigit}>
                                     <Col md={4} className={`col-6 ${styles.borderOne}`}>
@@ -174,7 +175,7 @@ const Whowearenew = ({ content }) => {
                                     <h3>Intransition <br /> At A Glance</h3>
                                     <div className={`${styles.btn}`}>
                                         <a href="javascript:;">
-                                            Free Consultation
+                                            Let’s Discuss Your Project
                                         </a>
                                     </div>
                                 </div>

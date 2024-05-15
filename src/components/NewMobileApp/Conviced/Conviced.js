@@ -15,10 +15,13 @@ const Conviced = () => {
     var convicedSlider = {
         arrows: false,
         dots: false,
-        autoplay: true,
-        autoplaySpeed: 3000,
         slidesToShow: 4,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        pauseOnHover: true,
+        cssEase: 'linear',
         responsive: [
             {
                 breakpoint: 1024,
@@ -65,21 +68,23 @@ const Conviced = () => {
                         <Col lg={12}>
                             <Slider {...convicedSlider}>
                                 <div className='px-2'>
-                                    <div className={`${styles.cardNegative} ${styles.card}`}>
-                                        <div className="cardTop">
-                                            <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. <span className={styles.blue}>Their comprehensive work</span>, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
-                                                <div className="txt">
-                                                    <h3>Jordan</h3>
-                                                    <h6>Tech Startup Founder</h6>
-                                                </div>
+                                    <div className={`${styles.cardNegative}`}>
+                                        <div className={`${styles.card}`}>
+                                            <div className="cardTop">
+                                                <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. <span className={styles.blue}>Their comprehensive work</span>, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
                                             </div>
-                                            <div className="review d-flex align-items-center gap-2">
-                                                <p className='mb-0'>4.9/5.0</p>
-                                                <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                            <div className={styles.cardBottom}>
+                                                <div className="client d-flex align-items-center gap-1 gap-xxl-3">
+                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    <div className="txt">
+                                                        <h3>Jordan</h3>
+                                                        <h6>Tech Startup Founder</h6>
+                                                    </div>
+                                                </div>
+                                                <div className="review d-flex align-items-center gap-2">
+                                                    <p className='mb-0'>4.9/5.0</p>
+                                                    <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -105,21 +110,23 @@ const Conviced = () => {
                                     </div>
                                 </div>
                                 <div className='px-2'>
-                                    <div className={`${styles.cardNegative} ${styles.card}`}>
-                                        <div className="cardTop">
-                                            <p>Bitswits' development of the ProEYE project, a <span className={styles.green}>wallet analytics and search</span> engine platform on blockchain, was exceptional. <span className={styles.green}>Their comprehensive work,</span> from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
-                                                <div className="txt">
-                                                    <h3>Jordan</h3>
-                                                    <h6>Tech Startup Founder</h6>
-                                                </div>
+                                    <div className={`${styles.cardNegative}`}>
+                                        <div className={` ${styles.card}`}>
+                                            <div className="cardTop">
+                                                <p>Bitswits' development of the ProEYE project, a <span className={styles.green}>wallet analytics and search</span> engine platform on blockchain, was exceptional. <span className={styles.green}>Their comprehensive work,</span> from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
                                             </div>
-                                            <div className="review d-flex align-items-center gap-2">
-                                                <p className='mb-0'>4.9/5.0</p>
-                                                <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                            <div className={styles.cardBottom}>
+                                                <div className="client d-flex align-items-center gap-1 gap-xxl-3">
+                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    <div className="txt">
+                                                        <h3>Jordan</h3>
+                                                        <h6>Tech Startup Founder</h6>
+                                                    </div>
+                                                </div>
+                                                <div className="review d-flex align-items-center gap-2">
+                                                    <p className='mb-0'>4.9/5.0</p>
+                                                    <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -145,21 +152,23 @@ const Conviced = () => {
                                     </div>
                                 </div>
                                 <div className='px-2'>
-                                    <div className={`${styles.cardNegative} ${styles.card}`}>
-                                        <div className="cardTop">
-                                            <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. <span className={styles.blue}>Their comprehensive work</span>, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
-                                                <div className="txt">
-                                                    <h3>Jordan</h3>
-                                                    <h6>Tech Startup Founder</h6>
-                                                </div>
+                                    <div className={`${styles.cardNegative}`}>
+                                        <div className={`${styles.card}`}>
+                                            <div className="cardTop">
+                                                <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. <span className={styles.blue}>Their comprehensive work</span>, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
                                             </div>
-                                            <div className="review d-flex align-items-center gap-2">
-                                                <p className='mb-0'>4.9/5.0</p>
-                                                <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                            <div className={styles.cardBottom}>
+                                                <div className="client d-flex align-items-center gap-1 gap-xxl-3">
+                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    <div className="txt">
+                                                        <h3>Jordan</h3>
+                                                        <h6>Tech Startup Founder</h6>
+                                                    </div>
+                                                </div>
+                                                <div className="review d-flex align-items-center gap-2">
+                                                    <p className='mb-0'>4.9/5.0</p>
+                                                    <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -185,21 +194,23 @@ const Conviced = () => {
                                     </div>
                                 </div>
                                 <div className='px-2'>
-                                    <div className={`${styles.cardNegative} ${styles.card}`}>
-                                        <div className="cardTop">
-                                            <p>Bitswits' development of the ProEYE project, a <span className={styles.green}>wallet analytics and search</span> engine platform on blockchain, was exceptional. <span className={styles.green}>Their comprehensive work,</span> from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
-                                        </div>
-                                        <div className={styles.cardBottom}>
-                                            <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
-                                                <div className="txt">
-                                                    <h3>Jordan</h3>
-                                                    <h6>Tech Startup Founder</h6>
-                                                </div>
+                                    <div className={`${styles.cardNegative}`}>
+                                        <div className={`${styles.card}`}>
+                                            <div className="cardTop">
+                                                <p>Bitswits' development of the ProEYE project, a <span className={styles.green}>wallet analytics and search</span> engine platform on blockchain, was exceptional. <span className={styles.green}>Their comprehensive work,</span> from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
                                             </div>
-                                            <div className="review d-flex align-items-center gap-2">
-                                                <p className='mb-0'>4.9/5.0</p>
-                                                <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                            <div className={styles.cardBottom}>
+                                                <div className="client d-flex align-items-center gap-1 gap-xxl-3">
+                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    <div className="txt">
+                                                        <h3>Jordan</h3>
+                                                        <h6>Tech Startup Founder</h6>
+                                                    </div>
+                                                </div>
+                                                <div className="review d-flex align-items-center gap-2">
+                                                    <p className='mb-0'>4.9/5.0</p>
+                                                    <Image src={ClientImage} alt='Bitswits' width={21} height={24} />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
