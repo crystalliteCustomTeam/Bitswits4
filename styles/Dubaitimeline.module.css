@@ -335,8 +335,29 @@
   object-fit: contain;
 }
 
-/* Media Query Start */
-@media screen and (max-width: 1399px) {
+/* ============Miami============ */
+
+.miami .timelineMain:before {
+  top: -20px;
+}
+
+.miami .timeTwo::after {
+  height: 32%;
+  top: 125px;
+}
+
+.miami .timeThree::before {
+  height: 36%;
+  top: -205px;
+}
+
+.miami .timeThree::after {
+  height: 37%;
+}
+
+/* ============Media Query Start============ */
+
+@media screen and (max-width: 1499px) {
   .timelineContent h2 {
     font-size: 40px;
     line-height: 50px;
@@ -350,37 +371,47 @@
     left: 52%;
   }
 
-  .timelineMain:before {
-    top: -33px;
-  }
-
-  .timeOne::after {
-    height: 77%;
-    bottom: -59px;
-    left: 49.9%;
-  }
-
   .numberOne,
   .numberThree {
     left: 52%;
   }
 
-  .timeTwo::after {
-    height: 31%;
+  /* ============Miami============ */
+
+  .miami .marker {
+    top: 110px;
   }
 
-  .timeThree::after {
-    height: 37%;
-    top: 44px;
+  .miami .timelineMain:before {
+    height: 9%;
+    top: -15px;
   }
 
-  .timeThree::before {
-    height: 40%;
-    top: -230px;
+  .miami .timeOne::after {
+    height: 81%;
+    bottom: -63px;
+  }
+
+  .miami .timeTwo::after {
+    height: 29%;
+  }
+
+  .miami .timeThree::before {
+    height: 41%;
+    top: -255px;
+  }
+
+  .miami .numberThree {
+    top: -20px;
+  }
+
+  .miami .timeThree::after {
+    height: 36%;
+    top: 36px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1099px) {
   .timelineContent h2 {
     font-size: 35px;
     line-height: 40px;
@@ -399,29 +430,10 @@
     padding-bottom: 6px;
   }
 
-  .timelineMain:before {
-    top: 0;
-  }
-
   .marker {
     width: 129px;
     height: 32px;
     left: 51.5%;
-    top: 116px;
-  }
-
-  .numberOne,
-  .numberThree {
-    left: 51.6%;
-  }
-
-  .numberTwo {
-    left: -31px;
-    top: 242px;
-  }
-
-  .numberOne {
-    top: 57px;
   }
 
   .numberOne,
@@ -432,28 +444,22 @@
     height: 32px;
   }
 
-  .timeOne::after {
-    height: 74%;
-    bottom: -50px;
+  .numberOne,
+  .numberThree {
+    left: 51.6%;
   }
 
-  .timeTwo::after {
-    height: 33%;
-    top: 93px;
+  .numberOne {
+    top: 57px;
   }
 
-  .timeThree::before {
-    height: 26%;
-    top: -131px;
+  .numberTwo {
+    left: -31px;
+    top: 242px;
   }
 
-  .timeThree::after {
-    height: 48%;
-    top: 26px;
-  }
-
-  .timeThree {
-    top: -25px;
+  .numberFour {
+    left: -31px;
   }
 
   .spacingOne {
@@ -478,10 +484,6 @@
     object-fit: contain;
   }
 
-  .numberFour {
-    left: -31px;
-  }
-
   .dotted {
     left: 44px;
     top: 10px;
@@ -490,11 +492,75 @@
   .dotted {
     --pulseSize: 11px;
   }
+
+  .timeOne::after,
+  .timeTwo::after,
+  .timeThree::before,
+  .timeThree::after {
+    left: 50%;
+    width: 8px;
+  }
+
+  /* ============Miami============ */
+
+  .miami .marker {
+    top: 96px;
+  }
+
+  .miami .timelineMain:before {
+    top: 12px;
+  }
+
+  .miami .timeOne::after {
+    height: 80%;
+    bottom: -54px;
+  }
+
+  .miami .numberOne {
+    top: 58px;
+  }
+
+  .miami .timeTwo::after {
+    height: 35%;
+    top: 94px;
+  }
+
+  .miami .numberTwo {
+    top: 257px;
+  }
+
+  .miami .timeThree::before {
+    height: 31%;
+    top: -160px;
+  }
+
+  .miami .numberThree {
+    top: -9px;
+  }
+
+  .miami .timeThree::after {
+    height: 48%;
+    top: 28px;
+  }
+
+  .miami .numberFour {
+    top: 257px;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .timelineSec {
     padding: 50px 0 0;
+  }
+
+  .timelineContent img {
+    max-width: 90px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .timelineContent h3 {
+    padding-top: 0;
   }
 
   .paddingTwo {
@@ -513,25 +579,11 @@
     line-height: 45px;
   }
 
-  .timelineMain:before {
-    height: 5%;
-    top: -15px;
-  }
-
   .paddingOne,
   .paddingFour,
   .paddingFive {
     padding: 0px 0px 0 0px;
     margin-bottom: 50px;
-  }
-
-  .marker {
-    top: 16%;
-  }
-
-  .numberOne,
-  .numberThree {
-    left: 52%;
   }
 
   .timelineMain {
@@ -543,6 +595,7 @@
   .spacingThree,
   .spacingFour {
     margin-top: 0px;
+    margin-bottom: 0;
   }
 
   .timeLeft {
@@ -564,38 +617,7 @@
   .timeThree::before,
   .timeThree::after {
     left: 17px;
-  }
-
-  .timelineMain:before {
-    left: 18px;
-  }
-
-  .timeOne::after {
-    bottom: -60%;
     width: 4px;
-    height: 125%;
-  }
-
-  .timeTwo::after {
-    height: 52%;
-    top: 23%;
-    width: 4px;
-  }
-
-  .timeThree::after {
-    height: 40%;
-    top: -13%;
-    width: 4px;
-  }
-
-  .timeThree::before {
-    height: 45%;
-    top: 33%;
-    width: 4px;
-  }
-
-  .numberThree {
-    top: 28%;
   }
 
   .marker,
@@ -604,10 +626,6 @@
   .numberThree,
   .numberFour {
     left: 32px;
-  }
-
-  .numberOne {
-    top: 17.5%;
   }
 
   .numberTwoMobile {
@@ -619,9 +637,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    left: 48px;
+    left: 46px;
     transform: translateX(-50%);
-    top: 76.2%;
   }
 
   .numberFourMobile {
@@ -633,9 +650,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    left: 48px;
+    left: 46px;
     transform: translateX(-50%);
-    top: 78.5%;
   }
 
   .paddingTwo,
@@ -648,63 +664,85 @@
 
   .paddingOne {
     padding: 55px 12px 0 70px;
+    margin-bottom: 0;
+  }
+
+  .dotted {
+    --pulseSize: 10px;
+    left: 46px;
+    top: 9px;
+  }
+
+  /* ============Miami============ */
+
+  .timelineMain {
+    margin-top: 25px;
+  }
+
+  .timeline {
+    margin-bottom: 0;
+  }
+
+  .miami .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .miami .timelineMain:before {
+    height: 5%;
+    top: -12px;
+    left: 18px;
+  }
+
+  .miami .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .miami .numberOne {
+    top: 77px;
+  }
+
+  .miami .timeTwo::after {
+    height: 46%;
+    top: 113px;
+  }
+
+  .miami .numberTwoMobile {
+    top: 71%;
+  }
+
+  .miami .timeThree::before {
+    height: 46%;
+    top: -102px;
+  }
+
+  .miami .numberThree {
+    top: 125px;
+  }
+
+  .miami .timeThree::after {
+    height: 38%;
+    top: 160px;
+  }
+
+  .miami .numberFourMobile {
+    top: 71.5%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .timelineSec {
     padding: 80px 0 0;
-  }
-
-  .timelineMain:before {
-    left: 17px;
-    width: 20px;
-    top: 56px;
-  }
-
-  .marker {
-    top: 37%;
-  }
-
-  .timeOne::after {
-    bottom: -50%;
-    height: 98%;
-  }
-
-  .numberOne {
-    top: 15.4%;
-  }
-
-  .numberTwoMobile {
-    top: 63.6%;
-  }
-
-  .numberFourMobile {
-    top: 76.5%;
   }
 
   .paddingOne,
   .paddingFour,
   .paddingFive {
     margin-bottom: 0;
-  }
-
-  .timeThree::before {
-    height: 41%;
-  }
-
-  .timeThree::after {
-    height: 63%;
-    top: -35%;
-  }
-
-  .timeTwo::after {
-    height: 40%;
-  }
-
-  .timeline {
-    width: 100%;
-    margin-bottom: 30px;
   }
 
   .timelineRight {
@@ -715,19 +753,46 @@
     float: none;
     direction: ltr;
   }
+
+  /* ============Miami============ */
+
+  .miami .timelineMain:before {
+    top: -22px;
+  }
+
+  .miami .timeOne::after {
+    height: 127%;
+  }
+
+  .miami .numberOne {
+    top: 77px;
+  }
+
+  .miami .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .miami .numberTwoMobile {
+    top: 68%;
+  }
+
+  .miami .timeThree::before {
+    top: -138px;
+  }
+
+  .miami .timeThree::after {
+    height: 39%;
+  }
+
+  .miami .numberFourMobile {
+    top: 68.5%;
+  }
 }
 
 @media screen and (max-width: 567px) {
   .timelineSec {
     padding: 50px 0 0;
-  }
-
-  .timeline {
-    margin-bottom: 0px;
-  }
-
-  .timelineMain {
-    margin: 0px auto 0px;
   }
 
   .timelineContent h2 {
@@ -739,18 +804,6 @@
     font-size: 14px;
     line-height: 24px;
     text-align: justify;
-  }
-
-  .paddingTwo,
-  .paddingThree,
-  .paddingFour,
-  .paddingFive,
-  .paddingSix {
-    padding: 0px 12px 0 70px;
-  }
-
-  .paddingTwo {
-    padding: 0;
   }
 
   .cardBg {
@@ -765,79 +818,101 @@
     left: 23px;
   }
 
-  .timeOne::after,
-  .timeTwo::after,
-  .timeThree::after,
-  .timeThree::before {
-    left: 21.5px;
+  /* ============Miami============ */
+
+  .miami .timelineMain:before {
+    top: -48px;
   }
 
-  .timeOne::after {
-    bottom: -35%;
-    height: 113%;
+  .miami .timeOne::after {
+    height: 116%;
   }
 
-  .timeTwo::after {
-    height: 48%;
-    top: 15%;
-  }
-
-  .timeThree::after {
+  .miami .timeTwo::after {
     height: 49%;
-    top: 24%;
   }
 
-  .timeThree::before {
-    height: 49%;
-    top: -29%;
-  }
-
-  .marker {
-    width: 119px;
-    height: 22px;
-    top: 14%;
-  }
-
-  .numberOne,
-  .numberThree,
-  .numberTwoMobile,
-  .numberFourMobile {
-    width: 119px;
-    height: 22px;
-  }
-
-  .numberOne {
-    top: 12%;
-  }
-
-  .numberTwoMobile {
+  .miami .numberTwoMobile {
     top: 64%;
   }
 
-  .numberThree {
-    top: 21%;
+  .miami .timeThree::before {
+    top: -247px;
+    height: 49%;
   }
 
-  .numberFourMobile {
-    top: 73.3%;
+  .miami .timeThree::after {
+    height: 43.8%;
   }
 
-  .timelineMain {
-    padding: 50px 0 0px;
+  .miami .numberFourMobile {
+    top: 65.5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* ============Miami============ */
+
+  .miami .timeThree::before {
+    height: 47.5%;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  /* ============Miami============ */
+
+  .miami .timelineMain:before {
+    top: -55px;
   }
 
-  .paddingOne,
-  .paddingFour,
-  .paddingFive {
-    margin-bottom: 20px;
+  .miami .timeOne::after {
+    height: 114%;
   }
 
-  .dotted {
-    --pulseSize: 8px;
+  .miami .timeTwo::after {
+    height: 50%;
   }
 
-  .dotted {
-    left: 45px;
-    top: 7px;
+  .miami .timeThree::before {
+    top: -273px;
+    height: 48%;
+  }
+
+  .miami .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  /* ============Miami============ */
+
+  .miami .timelineMain:before {
+    top: -58px;
+  }
+
+  .miami .timeOne::after {
+    height: 114%;
+  }
+
+  .miami .timeTwo::after {
+    height: 49%;
+  }
+
+  .miami .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .miami .timeThree::before {
+    top: -295px;
+    height: 49%;
+  }
+
+  .miami .timeThree::after {
+    height: 44%;
+  }
+
+  .miami .numberFourMobile {
+    top: 63.6%;
   }
 }

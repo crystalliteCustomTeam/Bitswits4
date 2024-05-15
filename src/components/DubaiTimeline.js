@@ -11,11 +11,11 @@ import TimelineFour from "/public/newDubaiPagev1/timeline4.png"
 import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 
 const DubaiTimeline = ({ content }) => {
-    const { title, desc, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, } = content
+    const { title, desc, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, classSec } = content
 
     return (
         <>
-            <section className={styles.timelineSec}>
+            <section className={`${styles.timelineSec} ${styles[classSec]}`}>
                 <div className='container'>
                     <Row>
                         <Col lg={12}>
