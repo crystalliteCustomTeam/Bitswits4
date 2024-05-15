@@ -69,13 +69,13 @@ const LogoSlider = (props) => {
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
         ]
@@ -110,7 +110,7 @@ const LogoSlider = (props) => {
     return (
         <>
             <section className={`d-none d-md-block ${styles.sliderSec}`}>
-                <Row className={`m-0 py-5 px-0 justify-content-center`} >
+                <Row className={`m-0 py-lg-5 px-0 justify-content-center`} >
                     <Col md={12} className=' text-center d-flex flex-column align-items-center '>
                         <h2>
                             <span> Yes. </span> We Cover Your Tech Stack.

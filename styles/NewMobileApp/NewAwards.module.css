@@ -184,6 +184,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .awardSec {
+    padding: 0px 0 50px;
+  }
+
   .awardsHeading {
     font-size: 32px;
   }
@@ -225,6 +229,10 @@
 
   .btn {
     margin-bottom: 25px;
+  }
+
+  .txt::after {
+    display: none;
   }
 
   .pageReviews p {

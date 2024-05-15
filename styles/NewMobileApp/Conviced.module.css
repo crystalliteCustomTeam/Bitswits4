@@ -109,6 +109,10 @@
     font-weight: 500;
 }
 
+.clutch {
+    width: 25%;
+}
+
 /* Media Query Start */
 
 @media only screen and (max-width: 1280px) {
@@ -128,9 +132,31 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .convicedSec {
+        padding: 50px 0;
+    }
+
+    .btnImage {
+        width: 50%;
+    }
+
+    .clutch {
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 567px) {
     .convicedSec {
         padding: 50px 0;
+    }
+
+    .txt {
+        text-align: center;
+    }
+
+    .clutch {
+        margin: 0 auto 10px;
     }
 
     .convicedSec h2 {
@@ -150,6 +176,10 @@
     .btn a {
         width: 100%;
         margin: 20px 0;
+    }
+
+    .btnImage {
+        width: 100%;
     }
 }
 

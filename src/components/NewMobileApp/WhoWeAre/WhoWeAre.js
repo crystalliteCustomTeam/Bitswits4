@@ -20,7 +20,7 @@ const Whowearenew = ({ content }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 1,
+                duration: 0.3,
                 staggerChild: 0.1,
             }
         },
@@ -34,7 +34,7 @@ const Whowearenew = ({ content }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 2,
+                duration: 0.5,
                 staggerChild: 0.1,
             }
         },
@@ -48,7 +48,7 @@ const Whowearenew = ({ content }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 3,
+                duration: 0.7,
                 staggerChild: 0.1,
             }
         },

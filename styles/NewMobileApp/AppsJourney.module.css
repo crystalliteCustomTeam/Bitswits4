@@ -229,8 +229,34 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .appSec {
+        padding: 50px 0;
+    }
+
+    .smallBanner {
+        padding: 50px 0 50px;
+    }
+
+    .appSec h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .appSec .card p {
+        font-size: 22px;
+        padding-right: 136px;
+    }
+
     .appSec .card {
-        padding: 95px 17px;
+        padding: 75px 17px;
+    }
+
+    .active {
+        padding: 105px 60px !important;
+    }
+
+    .active p {
+        color: white !important;
     }
 
     .card:hover {
@@ -244,7 +270,7 @@
 
 @media only screen and (max-width: 567px) {
     .appSec {
-        padding: 50px 0;
+        padding: 0px 0 50px;
     }
 
     .smallBanner {
@@ -252,6 +278,7 @@
     }
 
     .appSec h2 {
+        width: 100%;
         font-size: 32px;
         line-height: 1.2;
     }
@@ -269,13 +296,20 @@
         padding: 20px 17px;
     }
 
+    .active {
+        padding: 35px 20px !important;
+    }
+
     .card:hover {
-        padding: 20px 17px;
+        padding: 25px 17px;
     }
 
     .appSec .card p {
         margin: 0 30px 22px;
+        font-size: 16px;
+        padding-right: 0px;
     }
+
 
     .appSec .card:hover p {
         margin: 0 45px 0px;

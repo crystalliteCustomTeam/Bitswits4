@@ -18,8 +18,7 @@ const FutureReady = () => {
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        speed: 6000,
-        cssEase: "linear",
+        speed: 200,
     };
     return (
         <>

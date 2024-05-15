@@ -17,7 +17,7 @@ const Industries = () => {
 
     var indusSlider = {
         arrows: false,
-        dots: true,
+        dots: false,
         centerMode: true,
         centerPadding: "0px",
         autoplay: true,
@@ -26,11 +26,29 @@ const Industries = () => {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1499,
+                breakpoint: 1024,
                 settings: {
-                    dots: true
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
                 }
             },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "20px",
+                    slidesToScroll: 1
+                }
+            }
         ]
     };
 

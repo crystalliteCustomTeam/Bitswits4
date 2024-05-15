@@ -358,7 +358,9 @@
 
   .intransition {
     background-image: none;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-right: 0;
   }
 
   .counterRow {
