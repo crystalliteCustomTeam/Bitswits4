@@ -106,6 +106,7 @@ export default function dubaidevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
+    classSec: "",
     title: <> Our Agile Process for <br /> Mobile App Development <br /> in Dubai </>,
     desc: <>
       <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world.</span>
