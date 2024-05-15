@@ -58,9 +58,9 @@
 }
 
 .menusHeading {
-  font-size: 20px !important;
+  font-size: 30px !important;
   font-weight: bold !important;
-  line-height: 16px !important;
+  line-height: 40px !important;
   padding-bottom: 0 !important;
   letter-spacing: 1px !important;
   color: black !important;
@@ -219,9 +219,9 @@
 
 .applicationlong ul li span {
   font-family: "SF-Pro-Display";
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 14px;
+  line-height: 27px;
   color: black;
   text-align: left;
   display: block;
@@ -260,6 +260,10 @@
 @media only screen and (max-width: 1920px) {
   .txt {
     margin-left: 285px;
+  }
+
+  .applicationlong img {
+    height: 530px;
   }
 }
 

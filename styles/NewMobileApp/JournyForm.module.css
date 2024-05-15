@@ -11,8 +11,8 @@
 }
 
 .JournyForm .content h3 {
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 40px;
+  line-height: 55px;
   color: #000;
   font-weight: 600;
   letter-spacing: 1px;
@@ -24,12 +24,10 @@
 }
 
 .experts {
-  background: linear-gradient(
-    180deg,
-    rgba(74, 120, 239, 1) 0%,
-    rgba(243, 47, 194, 1) 50%,
-    rgba(243, 47, 83, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(74, 120, 239, 1) 0%,
+      rgba(243, 47, 194, 1) 50%,
+      rgba(243, 47, 83, 1) 100%);
   padding: 60px 25px;
   width: 100%;
   border-top-left-radius: 20px;
@@ -40,57 +38,57 @@
 }
 
 .experts h5 {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
+  margin-bottom: 8px;
 }
 
-.experts p {
-  font-size: 24px;
+.experts h4 {
+  font-size: 45px;
+  line-height: 65px;
   color: #fff;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin-bottom: 0;
-}
-
-.experts p span {
-  font-size: 30px;
 }
 
 .JournyForm form {
   border: 2px solid #f32f53;
   width: 80%;
   margin: 0 auto;
-  padding: 35px 25px;
+  padding: 40px 25px 35px;
   border-radius: 20px;
   border-bottom-left-radius: 0;
 }
 
 .JournyForm form h4 {
-  font-size: 24px;
+  font-size: 28px;
+  margin-bottom: 6px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .JournyForm form h3 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .JournyForm form input {
-  height: 45px;
-  border: 1px solid #253c7870;
-  background-color: #d9d9d930;
+  height: 50px;
+  border: 1px solid #253C78;
+  background-color: transparent;
   font-size: 15px;
   color: #000;
+  margin-bottom: 26px;
 }
 
 .JournyForm form textarea {
   height: 100px;
-  border: 1px solid #253c7870;
-  background-color: #d9d9d930;
+  border: 1px solid #253C78;
+  background-color: transparent;
   font-size: 15px;
   color: #000;
   resize: none;
@@ -122,7 +120,8 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 11px;
 }
 
 .value {
@@ -134,13 +133,59 @@
   box-shadow: 0 5px 12px #00000075;
 }
 
+/* Media Query Start */
+@media only screen and (max-width: 1920px) {
+  .JournyForm .content h3 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+}
+
 @media screen and (max-width: 1499px) {
   .JournyForm .content h3 {
     margin-left: 80px;
   }
 
+  .JournyForm .content h3 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .JournyForm form {
+    width: 79%;
+  }
+
   .experts {
     right: -14.5%;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .experts h4 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .JournyForm form {
+    padding: 40px 17px 35px;
+  }
+
+  .JournyForm .content h3 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .JournyForm form h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .JournyForm form h3 {
+    font-size: 50px;
+  }
+
+  .JournyForm form input {
+    margin-bottom: 15px;
   }
 }
 

@@ -29,7 +29,7 @@ const JournyForm = () => {
                                 <h3><span>Start</span> Your <span>Mobile App</span> <br /> Development <br /> Journey with Us?</h3>
                                 <div className={styles.experts}>
                                     <h5>30 Minutes Strategy Session</h5>
-                                    <p>Get Your <span>Free 30 Minute</span> <br /> Strategy Session With An <br /> Experienced <span>App Experts</span> <br /> Valued At <span>$300</span></p>
+                                    <h4>Get Your <span>Free 30 Minute</span> <br /> Strategy Session With An <br /> Experienced <span>App Experts</span> <br /> Valued At <span>$300</span></h4>
                                 </div>
                             </div>
                         </Col>
@@ -45,7 +45,7 @@ const JournyForm = () => {
                                 <textarea placeholder='Comment' name='comment' className='form-control mt-3'></textarea>
                                 <div className='d-flex justify-content-between mt-5'>
                                     <div className='d-flex align-items-center gap-1'>
-                                        <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
+                                        <input className={`mb-0 ${styles.vehicle1}`} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                         <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                     </div>
                                     <button className={`${styles.value}`} type='submit'>

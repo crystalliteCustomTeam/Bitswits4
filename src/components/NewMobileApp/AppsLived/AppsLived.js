@@ -72,7 +72,7 @@ const AppsLived = () => {
     var appsSlider = {
         arrows: true,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -252,20 +252,22 @@ const AppsLived = () => {
                         <Col lg={7} className='px-1'>
                             <Slider {...appsSlider} className='appsSlider'>
                                 {SliderContent.map((content, index) => (
-                                    <div key={index} className={styles.slider}>
-                                        <div className={styles.sliderImage}>
-                                            <Image src={content.image} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                        <div className={styles.sliderTxt}>
-                                            <div className="txt">
-                                                <h2>{content.title}</h2>
-                                                <p>{content.desc}</p>
+                                    <div className=''>
+                                        <div key={index} className={styles.slider}>
+                                            <div className={styles.sliderImage}>
+                                                <Image src={content.image} alt='Bitswits' className='img-fluid' />
                                             </div>
-                                            <div className={styles.sliderBtn}>
-                                                <Link href="javascript:;" className='d-flex align-items-center gap-4'>
-                                                    Request a Proposal
-                                                    <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
-                                                </Link>
+                                            <div className={styles.sliderTxt}>
+                                                <div className="txt">
+                                                    <h2>{content.title}</h2>
+                                                    <p>{content.desc}</p>
+                                                </div>
+                                                <div className={styles.sliderBtn}>
+                                                    <Link href="javascript:;" className='d-flex align-items-center gap-4'>
+                                                        Request a Proposal
+                                                        <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
+                                                    </Link>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

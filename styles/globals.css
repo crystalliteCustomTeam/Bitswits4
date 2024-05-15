@@ -4113,7 +4113,7 @@ button {
 /* Future Sec Slider Start */
 
 .futureSlider .slick-dots {
-  bottom: -30px;
+  bottom: -50px;
 }
 
 .futureSlider .slick-dots li button:before {
@@ -4134,6 +4134,13 @@ button {
 
 .appsSlider .slick-next:before {
   content: url(../public/newmobileapp/slider-arrow.png);
+}
+
+.appsSlider .slick-prev:hover,
+.appsSlider .slick-prev:focus,
+.appsSlider .slick-next:hover,
+.appsSlider .slick-next:focus {
+  background: rgb(255 255 255 / 15%);
 }
 
 .appsSlider .slick-prev {
@@ -4432,6 +4439,10 @@ button {
 /* ============================ */
 .indusSlider .slick-list {
   overflow: visible;
+}
+
+.indusSlider .slick-dots {
+  bottom: -44%;
 }
 
 .indusSlider .slick-track {

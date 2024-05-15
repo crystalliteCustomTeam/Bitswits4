@@ -107,7 +107,7 @@ const NewHouston = ({ content }) => {
                                 <nav className={`${styles.applicationlong}`}>
                                     <Image src={appLong} alt="Bitswits" className="img-fluid" />
                                     <ul className="position-sticky top-0">
-                                        {menus.map((menu, index) => ( 
+                                        {menus.map((menu, index) => (
                                             <li key={index} className={`d-flex ${visibleSection === `0${index + 1}` ? styles.active : ""}`}>
                                                 <a href={`#0${index + 1}`} onClick={() => setSelectedSection(index + 1)} className="d-flex align-items-center">
                                                     <span className={`pe-4`}>0{index + 1}</span>

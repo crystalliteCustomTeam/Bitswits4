@@ -4,7 +4,7 @@
     position: relative;
     background: #F3F3F3;
     z-index: 99;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .convicedSec h2 {
@@ -79,7 +79,7 @@
 }
 
 .cardNegative {
-    margin-top: 65px;
+    padding-top: 35px;
 }
 
 .cardBottom {

@@ -135,7 +135,7 @@ const FutureReady = () => {
                     </div>
                     <div className='d-md-none d-block'>
                         <Slider {...FutureSlider} className='futureSlider'>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.iosCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>IOS Application Development</h3>
@@ -151,7 +151,7 @@ const FutureReady = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.andriodCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>Android Application Development</h3>
@@ -167,7 +167,7 @@ const FutureReady = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.nativeCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>React NativeApp Development</h3>
@@ -183,7 +183,7 @@ const FutureReady = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.flutterCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>Flutter App Development</h3>
@@ -199,7 +199,7 @@ const FutureReady = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.crossCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>Cross Platform App Development</h3>
@@ -215,7 +215,7 @@ const FutureReady = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='px-2'>
                                 <div className={`${styles.webdevelopmentCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
                                         <h3>Web App Development</h3>

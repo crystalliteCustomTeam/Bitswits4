@@ -7,6 +7,9 @@
   background-size: cover;
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bannerSec::after {
@@ -637,6 +640,16 @@
 
 /* =========================================== */
 
+@media only screen and (max-width: 1920px) {
+  .your p {
+    font-size: 17px;
+  }
+
+  .your {
+    width: 70%;
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .conform h1 {
     font-size: 50px;
@@ -716,7 +729,21 @@
   }
 }
 
-@media screen and (max-width: 1299px) {
+@media only screen and (max-width: 1399px) {
+  .your p {
+    font-size: 14px;
+  }
+
+  .your {
+    width: 80%;
+  }
+
+  .clientRviews {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .your h3 {
     font-size: 22px;
     line-height: 32px;
@@ -767,6 +794,10 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .bannerSec::after {
+    z-index: -1;
+  }
 
   .comple1 p,
   .comple5 p {

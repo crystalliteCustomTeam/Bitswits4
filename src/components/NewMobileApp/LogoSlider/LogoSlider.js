@@ -10,15 +10,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // images
-import leftImg1 from 'media/newmobileapp/sqlite-logo/firebase.png'
-import leftImg2 from 'media/newmobileapp/sqlite-logo/java-logo.png'
-import leftImg3 from 'media/newmobileapp/sqlite-logo/flutter-logo.png'
-import leftImg4 from 'media/newmobileapp/sqlite-logo/html-logo.png'
-import leftImg5 from 'media/newmobileapp/sqlite-logo/dot-net-logo.png'
-import leftImg6 from 'media/newmobileapp/sqlite-logo/c-sharp-logo.png'
-import leftImg7 from 'media/newmobileapp/sqlite-logo/css-logo.png'
-import leftImg8 from 'media/newmobileapp/sqlite-logo/google-cloud-sql.png'
-import leftImg9 from 'media/newmobileapp/sqlite-logo/android_studio-full.png'
+import leftImg1 from 'media/newmobileapp/sqlite-logo/leftImg1.png'
+import leftImg2 from 'media/newmobileapp/sqlite-logo/leftImg2.png'
+import leftImg3 from 'media/newmobileapp/sqlite-logo/leftImg3.png'
+import leftImg4 from 'media/newmobileapp/sqlite-logo/leftImg4.png'
+import leftImg5 from 'media/newmobileapp/sqlite-logo/leftImg5.png'
+import leftImg6 from 'media/newmobileapp/sqlite-logo/leftImg6.png'
+import leftImg7 from 'media/newmobileapp/sqlite-logo/leftImg7.png'
+import leftImg8 from 'media/newmobileapp/sqlite-logo/leftImg8.png'
+// import leftImg9 from 'media/newmobileapp/sqlite-logo/leftImg9.png'
 import rightImg1 from 'media/newmobileapp/sqlite-logo/ionic.png'
 import rightImg2 from 'media/newmobileapp/sqlite-logo/node-logo.png'
 import rightImg3 from 'media/newmobileapp/sqlite-logo/php-logo.png'
@@ -32,7 +32,7 @@ import btnArrow from "media/newmobileapp/right-arrow.png"
 
 const LogoSlider = (props) => {
     const tabLeft = [
-        { image: leftImg1, index: 0 },
+        { image: rightImg8, index: 0 },
         { image: leftImg2, index: 1 },
         { image: leftImg3, index: 2 },
         { image: leftImg4, index: 3 },
@@ -40,7 +40,7 @@ const LogoSlider = (props) => {
         { image: leftImg6, index: 5 },
         { image: leftImg7, index: 6 },
         { image: leftImg8, index: 7 },
-        { image: leftImg9, index: 8 },
+        // { image: leftImg9, index: 8 },
     ];
     const tabRight = [
         { image: rightImg1, index: 0 },
@@ -50,7 +50,7 @@ const LogoSlider = (props) => {
         { image: rightImg5, index: 4 },
         { image: rightImg6, index: 5 },
         { image: rightImg7, index: 6 },
-        { image: rightImg8, index: 7 },
+        { image: leftImg1, index: 7 },
         { image: rightImg9, index: 8 },
     ];
     const router = usePathname();
@@ -63,7 +63,7 @@ const LogoSlider = (props) => {
         speed: 10000,
         pauseOnHover: false,
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 6,
         slidesToScroll: 1,
         responsive: [
             {
@@ -89,7 +89,7 @@ const LogoSlider = (props) => {
         speed: 10000,
         pauseOnHover: false,
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         rtl: true,
         responsive: [
@@ -123,8 +123,8 @@ const LogoSlider = (props) => {
                         <Col md={11}>
                             <Slider {...leftSlider} className='mb-3'>
                                 {tabLeft.map((item, index) => (
-                                    <div className='d-flex justify-content-center '>
-                                        <Image alt="BitsWits" src={item.image} className="img-fluid" style={{ maxWidth: '22vw' }} />
+                                    <div className={`${styles.sliderImage} d-flex justify-content-center `}>
+                                        <Image alt="BitsWits" src={item.image} className="img-fluid" />
                                     </div>
                                 ))}
                             </Slider>
@@ -132,8 +132,8 @@ const LogoSlider = (props) => {
                         <Col md={11}>
                             <Slider {...rightSlider} className='mt-5'>
                                 {tabRight.map((item, index) => (
-                                    <div className='d-flex justify-content-center '>
-                                        <Image alt="BitsWits" src={item.image} className="img-fluid" style={{ maxWidth: '22vw' }} />
+                                    <div className={`${styles.sliderImage} d-flex justify-content-center `}>
+                                        <Image alt="BitsWits" src={item.image} className="img-fluid" />
                                     </div>
                                 ))}
                             </Slider>

@@ -17,13 +17,21 @@ const Industries = () => {
 
     var indusSlider = {
         arrows: false,
-        dots: false,
+        dots: true,
         centerMode: true,
         centerPadding: "0px",
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         slidesToShow: 5,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1499,
+                settings: {
+                    dots: true
+                }
+            },
+        ]
     };
 
     return (
