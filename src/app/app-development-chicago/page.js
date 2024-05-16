@@ -159,6 +159,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "Chicago App Development Sizes According to Business Size",
       content: `<p class='fontsfregular'>Developing an app isn’t solely about coding or design—it’s a comprehensive endeavor that encompasses understanding the financial dynamics, especially when it comes to the development scene in Chicago.
       </p>
@@ -173,6 +174,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>You can feel confident that we will never cease trying to provide our valued customers with excellent service and quality.</p>`
     },
     {
+      num: "02",
       title: "Cost of Mobile App Development in Chicago for a Startup",
       content: `<p class='fontsfregular'>Understanding the investment required for app development in Chicago involves considering several key factors. These include:</p>
       <ul>
@@ -189,6 +191,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Collaborating with a reputable app development company in Chicago, such as BitsWits, ensures both affordability and a balance between quality and cost-effectiveness.</p>`
     },
     {
+      num: "03",
       title: "Cost of Mobile App Development in Chicago for Mid-Sized Businesses",
       content: `<p class='fontsfregular'>Starting the process of developing a mobile app for your mid-sized company in Chicago entails considering several aspects that influence your final cost.</p>
       <p class='fontsfregular'>Each factor—including the complexity of your app's features, the platforms it will run on, and the degree of customization required—influences the amount of money needed.</p>
@@ -196,6 +199,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>It's important to understand the potential returns a well-designed app may offer your company when carefully implemented, even though the initial expenditure may seem high.</p> `
     },
     {
+      num: "04",
       title: "Cost of Mobile App Development in Chicago for Enterprises",
       content: `<p class='fontsfregular'>Creating an app for a large corporation requires a larger expense than for a smaller company.</p>
         <p class='fontsfregular'>The complexity and requirement for a smooth integration with current systems add to the development timelines and increased costs.</h5>
@@ -204,6 +208,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Working with a skilled app development company in Chicago that is conversant with enterprise systems is important for maximizing the return on this investment.</p>`
     },
     {
+      num: "05",
       title: "Cost of Mobile App Development in Chicago for Individuals",
       content: `<p class='fontsfregular'>It's important for those starting their app development experience in Chicago to get to know the economic situation. The complexity and features you want might greatly impact the costs.</p>
       <p class='fontsfregular'>Typically, the cost of developing a basic app may be between $10,000 and $50,000. But if your idea calls for a more complex and feature-rich application, budget more than $150,000.</p>
@@ -211,12 +216,14 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>We at BitsWits understand that every project is different. Because of this, working with our knowledgeable team guarantees not just a customized cost estimate but also direction throughout the development process. Our goal is to make your vision and your budget work together.</p>`
     },
     {
+      num: "06",
       title: "Mobile App Development Costs for B2B Clients",
       content: `<p class='fontsfregular'>Comprehending the complex variables influencing mobile app development charges for business-to-business clients is vital. At BitsWits, we guarantee a smooth development process by offering clear cost estimates that are customized to your requirements.</p>
         <p class='fontsfregular'>Usually between $50,000 and $250,000, our skilled staff handles every step of the development process, from concept to implementation and upkeep. Our specialty is creating customized, feature-rich applications that work flawlessly with current systems to boost your company's productivity and expansion.</p>
         <p class='fontsfregular'>With BitsWits, you can get modern mobile solutions that yield visible outcomes. Let's go on this adventure together.</p>`
     },
     {
+      num: "07",
       title: "Mobile App Development Costs for B2C Clients",
       content: `<p class='fontsfregular'>Building a mobile app targeted at B2C clients includes different considerations that affect the entire investment. At BitsWits, we look into the subtleties of app development costs to bring clarity and transparency.</p>
       <p class='fontsfregular'>Our staff works through the complexities, from feature complexity to platform selection, to provide solutions that are specifically designed to meet your company's demands.</p>

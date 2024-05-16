@@ -166,6 +166,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "How much does Playstore pay for 1000 downloads?",
       content: `<p class='fontsfregular'>Google pays nothing for app downloads.</p>
             <p class='fontsfregular'>Even with over 1 million downloads on the Play Store, you won't make any money solely from downloads.</p>
@@ -178,6 +179,7 @@ export default function dubaidevelopmentcompany() {
             <p class='fontsfregular'>This includes offering valuable content, providing excellent user experience, and regularly updating your app to meet evolving user needs. By focusing on both monetization strategies and user satisfaction, you can effectively generate revenue and ensure long-term success for your app.</p>`
     },
     {
+      num: "02",
       title: "Which apps don't work in Dubai?",
       content: `<p class='fontsfregular'>Dubai has blocked VoIP (Voice over Internet Protocol) services like <b>WhatsApp</b>, <b>Skype</b>, <b>Viber</b>, and <b>Facetime</b> due to regulations and the desire to control telecommunications within their borders.</p>
       <p class='fontsfregular'>In addition to VoIP services, certain social media and messaging apps may also face restrictions in Dubai. Apps like <b>Telegram</b>, <b>Discord</b>, and <b>Signal</b> have experienced intermittent blocks or limitations in functionality.</p>
@@ -188,6 +190,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Users should stay informed about any updates or changes to regulations that may affect their ability to use certain apps or services.</p>`
     },
     {
+      num: "03",
       title: "Why apps are banned in UAE?",
       content: `<p class='fontsfregular'>Apps are banned in UAE because the state wants people to use local phone companies instead of these cheaper internet calls.</p>
       <p class='fontsfregular'>Additionally, the UAE government imposes bans on certain apps to maintain control over telecommunications and ensure compliance with local regulations.</p>
@@ -195,6 +198,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Furthermore, these bans may also serve security and censorship purposes, enabling authorities to mitigate potential risks associated with unregulated internet-based communication platforms.</p> `
     },
     {
+      num: "04",
       title: "How to choose a reputable mobile app development company in Dubai?",
       content: `<p class='fontsfregular'>When searching for a premier mobile app development firm in Dubai, it's crucial to assess various essential characteristics to guarantee your app's success.</p>
         <p class='fontsfregular'>Several vital factors to consider when selecting an app development company in Dubai include:</p>
@@ -214,6 +218,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Ultimately, verifying these traits is crucial for finding a dependable app development partner, as it directly influences the performance of your application.</p>`
     },
     {
+      num: "05",
       title: "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
       content: `<p class='fontsfregular'>The selection of a framework significantly impacts the performance of mobile app development. </p>
       <p class='fontsfregular'>At BitsWits, we excel in utilizing cutting-edge frameworks to develop innovative and top-quality mobile apps. Below are some of the leading frameworks we employ:</p>
@@ -235,12 +240,14 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Sencha Touch is a platform comprising various reusable controls and UI components, facilitating the creation of high-performance apps using HTML5 and JavaScript, suitable for deployment across multiple devices.</p>`
     },
     {
+      num: "06",
       title: "What methodologies and processes does your mobile app development company in Dubai employ?",
       content: `<p class='fontsfregular'>At our mobile app development company in Dubai, we follow a rigorous yet flexible approach to ensure project success and client satisfaction. Our methodologies and processes are built around clear communication, thorough planning, and agile development practices.</p>
         <p class='fontsfregular'>We begin by conducting detailed consultations with our clients to understand their requirements, goals, and vision for the app. This allows us to define clear project objectives and develop a comprehensive project plan tailored to their needs. Throughout the development process, we prioritize transparency and collaboration, keeping our clients informed and involved at every stage.</p>
         <p class='fontsfregular'>We utilize agile methodologies, allowing for iterative development and frequent feedback loops. This enables us to adapt to changing requirements and preferences, ensuring that the final product meets our client's expectations. Additionally, we place a strong emphasis on quality assurance and testing to deliver robust, reliable, and user-friendly mobile apps that exceed our clients' expectations.</p>`
     },
     {
+      num: "07",
       title: "How does BitsWits stay updated with the latest trends and advancements in mobile app development?",
       content: `<p class='fontsfregular'>At BitsWits, we prioritize remaining ahead of the latest trends and advancements in mobile app development to ensure we utilize cutting-edge technologies.</p>
       <p class='fontsfregular'>Our approach involves actively engaging in industry events such as conferences, workshops, and seminars, where we gain valuable insights into emerging technologies and best practices.</p>

@@ -161,6 +161,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "How much does it cost to hire someone to build a mobile app?",
       content: `<p class='fontsfregular'>The average hourly rate charged by a mobile app developer is approximately <b>$25 to $40</b>, according to Clutch. The price of a fully-fledged and ready-to-use app typically ranges between a reliable estimate of <b>$10,000 and $49,000</b>.</p>
       <p class='fontsfregular'>The total amount spent will however, very much depend on some other factors like whether you want a single feature app or a complex one, the platforms on which you want the app to run (iOS, Android, or both), where exactly the development team is located, and if you have to add additional costs for like services such as design, testing, and maintenance.</p>
@@ -169,6 +170,7 @@ export default function dubaidevelopmentcompany() {
       `
     },
     {
+      num: "02",
       title: "Is it worth hiring a mobile app development company?",
       content: `<p class='fontsfregular'><b>Absolutely!</b> Hiring a professional app development agency will save you time and effort instead of making a lone effort or with a startup team.</p>
       <p class='fontsfregular'>These app development companies employ specialist knowledge, competence, and a full-fledged team, which ensures high-quality results and timeliness of delivery. They have the necessary resources and tools that allow them to solve complicated development problems in an orderly way.</p>
@@ -178,6 +180,7 @@ export default function dubaidevelopmentcompany() {
       `
     },
     {
+      num: "03",
       title: "Are mobile apps still profitable?",
       content: `<p class='fontsfregular'>Yes, the mobile app industry is still a profitable market in 2024. However, developers need to create top-notch applications that fulfill users' needs in order to achieve success.</p>
       <p class='fontsfregular'>While the mobile app market remains profitable, success depends on several factors. Competition is fierce, with millions of apps vying for user attention.</p>
@@ -188,6 +191,7 @@ export default function dubaidevelopmentcompany() {
       `
     },
     {
+      num: "04",
       title: "What type of app makes the most money?",
       content: `<p class='fontsfregular'>Here are some of the most profitable app categories:</p>
         <p class='fontsfregular'>1. Dating apps</p>
@@ -204,6 +208,7 @@ export default function dubaidevelopmentcompany() {
       `
     },
     {
+      num: "05",
       title: "What is the failure rate of apps?",
       content: `<p class='fontsfregular'>The failure rate of consumer apps is <b>99.5%</b>. This failure often stems from various factors including poorly researched market and audience, lack of originality, choosing platforms unwisely, poor user experience, improper testing, and poorly executed mobile app launch.</p>
       <p class='fontsfregular'>However, you can avoid these pitfalls by partnering up with a premium mobile app development company like <b>BitsWits</b>.</p>
@@ -214,6 +219,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>With our comprehensive approach, we mitigate the risk of app failure and set your project on the path to success in the competitive mobile app market.</p>`
     },
     {
+      num: "06",
       title: "How long does it take to develop a mobile app?",
       content: `<p class='fontsfregular'>On average, it takes <b>4 to 7 months</b> to develop a mobile app. However, the time required for app development heavily relies on factors such as the project's complexity, the number of features, and the expertise of software developers.</p>
         <p class='fontsfregular mb-4'>Here are the approximate development times according to app complexity:</p>
@@ -239,6 +245,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Communication and collaboration between the development team and the client are crucial to ensuring timely delivery and meeting project milestones throughout the app development process.</p>`
     },
     {
+      num: "07",
       title: "How many downloads does an app need to be successful?",
       content: `<p class='fontsfregular'>A mobile app needs to exceed <b>1000</b> downloads on Google Play Store to be successful. As per the statistics, <b>68%</b> of apps launched on Google Play never reach 1000 downloads.</p>
       <p class='fontsfregular'>However, with the assistance of BitsWits, you can improve your app's visibility and increase its chances of success.</p>
@@ -247,6 +254,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>With BitsWits' expertise in app development and marketing, we can enhance your app's visibility, attract more users, and optimize user experience, increasing its chances of long-term success in the competitive app market.</p>`
     },
     {
+      num: "08",
       title: "Essential Certifications and Skills Required for App Developers in Dallas",
       content: `<p class='fontsfregular'>As a mobile app developer in Dallas, continuous acquisition of professional certifications and skills is essential to stay ahead in the competitive landscape. Below are key certifications and skills to prioritize.</p>
       <h5>Certified Mobile Application Development (CMAD)</h5>

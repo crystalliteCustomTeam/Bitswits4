@@ -1,26 +1,26 @@
 "use client"
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import Image from "next/image";
+import { Col, Row } from "react-bootstrap";
 import styles from "@/styles/Houtondubai.module.css";
-import Link from "next/link";
 
 const Section = ({ section, refCallback }) => {
-    const { title, content } = section;
+    const { num, title, content } = section;
     return (
-        <section id={title} ref={refCallback} className={`${styles.understand}`}>
-            <div className="content">
+        <section id={num} ref={refCallback} className={`${styles.understand}`}>
+            <div>
+                <h4 className={styles.number}>{num}</h4>
                 <h2>{title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
             </div>
         </section>
     );
 };
-
-const Processpro = ({ content }) => {
+const NewHouston = ({ content }) => {
     const { menus, sections } = content;
     const [isMobile, setIsMobile] = useState(false);
-    const [selectedSection, setSelectedSection] = useState(menus[0]); // Initialize selectedSection to the first menu item
-    const [visibleSection, setVisibleSection] = useState(menus[0]); // Initialize visibleSection to the first menu item
+    const [selectedSection, setSelectedSection] = useState(menus[0]);
+    const [visibleSection, setVisibleSection] = useState(menus[0]);
     const sectionsRef = useRef([]);
 
     useEffect(() => {
@@ -67,50 +67,54 @@ const Processpro = ({ content }) => {
         setSelectedSection(e.target.value);
         setVisibleSection(e.target.value);
     };
-
     return (
-        <section className={styles.houston}>
-            <Container>
-                <Row className={styles.tone}>
-                    <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
-                        {isMobile ? (
-                            <select onChange={handleOnChangeSelect} value={selectedSection}>
-                                {menus.map((menu, index) => (
-                                    <option key={index} value={menu}>{menu}</option>
-                                ))}
-                            </select>
-                        ) : (
-                            <>
-                                <div className={styles.headings}>
-                                    <nav className={`${styles.applicationlong}`}>
-                                        <ul>
-                                            {menus.map((menu, index) => (
-                                                <li key={index} className={visibleSection === menu ? styles.active : ""}>
-                                                    <a href={`#${menu}`} onClick={() => setSelectedSection(menu)}>{menu}</a>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </nav>
-                                    <div className={styles.btn}>
-                                        <Link href="javascript:$zopim.livechat.window.show();" className="pink">
-                                            Book A Consultation Now!
-                                        </Link>
+        <>
+            <section className={`d-none d-lg-block ${styles.houston}`}>
+                <div className="container">
+                    <Row className={styles.tone}>
+                        <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
+                            {isMobile ? (
+                                <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
+                                    <option value={visibleSection}>{visibleSection}</option>
+                                    {menus.map((menu, index) => (
+                                        <option key={index} value={menu}>{menu}</option>
+                                    ))}
+                                </select>
+                            ) : (
+                                <>
+                                    <div className={styles.headings}>
+                                        <nav className={`${styles.applicationlong}`}>
+                                            <ul className="position-sticky top-0">
+                                                {menus.map((menu, index) => (
+                                                    <li key={index} className={`d-flex ${visibleSection === `0${index + 1}` ? styles.active : ""}`}>
+                                                        <a href={`#0${index + 1}`} onClick={() => setSelectedSection(index + 1)} className="d-flex align-items-center">
+                                                            <span className={`pe-4 d-none`}>0{index + 1}</span>
+                                                            <span className={styles.menusHeading}>{menu}</span>
+                                                        </a>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </nav>
+                                        <div className={styles.btn}>
+                                            <a href="javascript:$zopim.livechat.window.show();" className="pink">
+                                                Book A Consultation Now!
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </>
-                        )}
-                    </Col>
-                    <Col lg={7}>
-                        <div className={`${styles.posto} newscoolr`}>
-                            {sections.map((section, index) => (
-                                <Section {...{ section, refCallback }} key={index} />
-                            ))}
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
-    );
-};
-
-export default Processpro;
+                                </>
+                            )}
+                        </Col>
+                        <Col lg={7}>
+                            <div className={`${styles.posto} newscoolr`}>
+                                {sections.map((section, index) => (
+                                    <Section {...{ section, refCallback }} key={index} />
+                                ))}
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </section>
+        </>
+    )
+}
+export default NewHouston

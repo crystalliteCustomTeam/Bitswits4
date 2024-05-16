@@ -53,50 +53,6 @@ const AppsJourney = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row>
-                        {/* <Col xl={2}></Col>
-                        <Col lg={6} xl={4}>
-                            <Link href="javascript:;">
-                                <div className={styles.card}>
-                                    <p>Confused About Choosing The
-                                        Right Technology For Your App?</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col lg={6} xl={4}>
-                            <Link href="javascript:;">
-                                <div className={styles.card}>
-                                    <p>Need Assistance In Crafting A
-                                        User-Centric Design For Your
-                                        App Idea?</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col xl={2}></Col>
-                        <Col lg={6} xl={4}>
-                            <Link href="javascript:;">
-                                <div className={styles.card}>
-                                    <p>Worried About Overblown
-                                        Costs In App Development?</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col lg={6} xl={4}>
-                            <Link href="javascript:;">
-                                <div className={styles.card}>
-                                    <p>Struggling to Turn Your App
-                                        Idea into Reality?</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col lg={12} xl={4}>
-                            <Link href="javascript:;">
-                                <div className={`${styles.cardFive} ${styles.card}`}>
-                                    <p>Worried About The Security And Privacy Of Your App?</p>
-                                </div>
-                            </Link>
-                        </Col> */}
-                    </Row>
                     <Row className='justify-content-center'>
                         {cardsContent.slice(0, 2).map((content, index) => (
                             <div key={index} className="col-lg-6 col-xl-4">

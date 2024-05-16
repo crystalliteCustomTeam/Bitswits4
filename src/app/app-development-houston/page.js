@@ -161,6 +161,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "Do apps make a lot of money?",
       content: `<p class='fontsfregular'><b>It depends</b>. Although some free apps generate millions in annual revenue, this is often an exception rather than the rule. Nevertheless, <b>thousands of free apps still earn thousands of dollars in monthly revenue</b>.
       </p>
@@ -170,6 +171,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Ultimately, success in the app industry requires a combination of innovation, strategic planning, and a deep understanding of user preferences and market trends.</p>`
     },
     {
+      num: "02",
       title: "Do app owners earn money?",
       content: `<p class='fontsfregular'><b>Yes, app owners can earn money</b>. There are many effective ways to earn money from free apps.</p>
       <p class='fontsfregular'><b>Ads are the easiest and most common ways free apps make money</b>. If you've installed a free app, you've likely come across various advertisements.</p>
@@ -180,6 +182,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>With the right approach, app owners can indeed earn significant profits from their apps.</p>`
     },
     {
+      num: "03",
       title: "How much is an app with 10 million downloads worth?",
       content: `<p class='fontsfregular'>If an app boasts <b>10 million downloads</b>, typically around <b>30% remain active</b>, totaling <b>3 million active users</b>.</p>
       <p class='fontsfregular'>Taking a worst-case scenario, if the app incorporates ads, it could potentially earn <b>$3000 daily</b>, indicating a value of <b>$1 million</b>.</p>

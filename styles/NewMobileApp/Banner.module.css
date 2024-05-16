@@ -1,5 +1,5 @@
 .bannerSec {
-  padding-top: 40px;
+  padding: 90px 0;
   height: 100vh;
   background-image: url(../../public/newmobileapp/banner-bg.png);
   background-position: center;
@@ -41,13 +41,28 @@
   letter-spacing: 2px;
 }
 
-.quickly p {
+.quickly {
+  --steps: 35;
   line-height: 26px !important;
   font-size: 20px !important;
   color: #f32f53 !important;
   font-weight: 500 !important;
   margin-bottom: 10px;
+  width: 100%;
+  /* animation: typing 4s steps(var(--steps)) forwards, caret 1s infinite; */
 }
+
+/* @keyframes typing {
+  to {
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+} */
 
 .oppp p {
   font-size: 17px;
@@ -598,16 +613,11 @@
   box-shadow: 0 5px 12px #00000075;
 }
 
-.your textarea:focus {
-  background-color: unset;
-  color: white;
-  border: 1px solid #707070;
-}
-
+.your textarea:focus,
 .your input:focus {
-  background-color: unset;
-  color: white;
+  background-color: white;
   border: 1px solid #4a78ef;
+  color: black;
 }
 
 .badge {
@@ -730,6 +740,11 @@
 }
 
 @media only screen and (max-width: 1399px) {
+
+  .applost {
+    padding: 190px 0;
+  }
+
   .your p {
     font-size: 14px;
   }
@@ -744,6 +759,16 @@
 }
 
 @media screen and (max-width: 1280px) {
+
+  .bannerSec {
+    height: 100%;
+    padding: 90px 0;
+  }
+
+  .applost {
+    padding: 0px 0;
+  }
+
   .your h3 {
     font-size: 22px;
     line-height: 32px;
