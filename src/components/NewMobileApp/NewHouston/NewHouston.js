@@ -29,8 +29,8 @@ const Section = ({ section, refCallback }) => {
 const NewHouston = ({ content }) => {
     const { menus, sections } = content;
     const [isMobile, setIsMobile] = useState(false);
-    const [selectedSection, setSelectedSection] = useState(menus[0]); // Initialize selectedSection to the first menu item
-    const [visibleSection, setVisibleSection] = useState(menus[0]); // Initialize visibleSection to the first menu item
+    const [selectedSection, setSelectedSection] = useState(menus[0]); 
+    const [visibleSection, setVisibleSection] = useState(menus[0]);  
     const sectionsRef = useRef([]);
 
     useEffect(() => {

@@ -121,22 +121,6 @@
     color: white;
 }
 
-.smallBanner h2 span {
-    position: relative;
-}
-
-.smallBanner h2 span::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    background: #b00110ce;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    transform: rotate(8deg);
-}
-
 .btn a {
     width: 245px;
     height: 50px;

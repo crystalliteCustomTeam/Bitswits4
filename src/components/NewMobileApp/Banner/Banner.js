@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
+import { motion } from "framer-motion"
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/NewMobileApp/Banner.module.css"
@@ -104,14 +105,29 @@ const Banner = ({ content }) => {
         }
     }
 
+    const text = "Quickly – Efficiently – Effortlessly"
+
+    const defaultAnimation = {
+        hidden: {
+            opacity: 0
+        },
+        visible: {
+            opacity: 1
+        }
+    }
+
     return (
         <>
             <section className={`${styles.bannerSec}`} >
                 <Container>
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col lg={7} xl={6} className='p-0 my-0'>
-                            <div className={styles.quickly}>
-                                <p>Quickly – Efficiently – Effortlessly</p>
+                            <div>
+                                <motion.p initial="hidden" animate="visible" className={styles.quickly} aria-hidden>
+                                    {text.split("").map((char) => (
+                                        <motion.span variants={defaultAnimation}>{char}</motion.span>
+                                    ))}
+                                </motion.p>
                             </div>
                             <div className={styles.oppp}>
                                 <h1 className='text-black fw600 mb-3'>

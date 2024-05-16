@@ -164,6 +164,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "How much does it cost to build a mobile application in Austin?",
       content: `<p class='fontsfregular'>In most cases, there is no 'definitive cost' stated anywhere that can help to figure out how much it might cost to have an app developed in Austin. There are a number of variables that will influence the pricing of an app. For instance;</p>
       <ul>
@@ -178,6 +179,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Our experienced team then devises a customized development plan tailored to your budget and goals. With a focus on transparency and value, we ensure that every dollar spent translates into tangible results, driving your app's success in the competitive market.</p>`
     },
     {
+      num: "02",
       title: "How to hire an app development company in Austin?",
       content: `<p class='fontsfregular'>With so many elite app development companies in Austin, it has become quite crucial to find the right app development company in Austin. Here are some tips to help you stand out.</p>
       <p class='fontsfregular'>The first and most important thing is to have a clear idea in your mind what you’re looking for in order to hunt for the ideal firm.</p>
@@ -188,6 +190,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Evaluate their communication style and project management approach to ensure a smooth and collaborative development process.</p>`
     },
     {
+      num: "03",
       title: "How long does it take to build a mobile app in Austin?",
       content: `<p class='fontsfregular'>In general, a simple app with normal UI/UX design, and basic functionalities can take anywhere <b>1-3 months</b>. On the flip side, a complex app with high-end technicalities and functionalities could be completed in <b>3-6 months</b> or so, based on your app needs.</p>
       <p class='fontsfregular'>By considering BitsWits for your mobile app development in Austin, you can expect fast delivery without compromising on quality and other essential app parameters.</p>
@@ -198,6 +201,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Our commitment to excellence and dedication to client satisfaction make us the ideal choice for your mobile app development needs.</p> `
     },
     {
+      num: "04",
       title: "How to choose a reputable mobile app development company in Austin?",
       content: `<p class='fontsfregular'>When looking for a top-tier mobile app development company in Austin, it’s important to consider several key traits to ensure the success of your app.</p>
         <p class='fontsfregular'>Some of the key parameters you should see while hiring an app development company in Austin includes;</p>
@@ -219,6 +223,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Overall, when you’re on the lookout for a reliable app development company in Austin, ensure to check whether they possess all these traits or not. Eventually, it will impact the overall performance of your application.</p>`
     },
     {
+      num: "05",
       title: "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
       content: `<p class='fontsfregular'>When it comes to the development of mobile apps, the framework you choose has a great significance on the overall performance of your application.</p>
       <p class='fontsfregular'>At BitsWits, we pride ourselves on our ability to leverage the latest yet most effective frameworks to create innovative and high-quality mobile apps.</p>
@@ -241,6 +246,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Sencha Touch is a platform that contains numerous reusable controls and other UI components, allowing you to create high-performing apps based on HTML5 and JavaScript for deployment on multiple devices.</p>`
     },
     {
+      num: "06",
       title: "Why choose app developers from BitsWits in Austin?",
       content: `<p class='fontsfregular'>At BitsWits, we realize that technical skills are not the only requirement when it comes to mobile app development in Austin.</p>
         <p class='fontsfregular'>It takes a great comprehension of what are your underlying business goals, who is your intended audience as well as what is trending in the mainstream markets.</p>
@@ -253,6 +259,7 @@ export default function dubaidevelopmentcompany() {
         <p class='fontsfregular'>Let's transform your mobile app vision into reality together, leveraging cutting-edge technologies for maximum impact.</p>`
     },
     {
+      num: "07",
       title: "Essential Certifications and Skills Required for App Developers in Austin",
       content: `<p class='fontsfregular'>Being a mobile app developer in Austin, you have to keep on acquiring professional certifications and skills in order to be on the top of the competition.</p>
       <p class='fontsfregular'>Here are some of the must-have certifications and skills you have to learn as a mobile app developer in Austin.</p>

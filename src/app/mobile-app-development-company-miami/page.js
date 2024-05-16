@@ -159,6 +159,7 @@ export default function dubaidevelopmentcompany() {
   ];
   const sections = [
     {
+      num: "01",
       title: "What do you need to know when developing an app for your business?",
       content: `<p class='fontsfregular'>Developing a mobile app requires careful consideration of several critical factors to ensure its success in the competitive market. Here are some of the most important considerations to keep in mind:</p>
       <h5>Identifying Your Target Audience:</h5>
@@ -176,6 +177,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>By carefully considering these factors, developers can create a mobile app that not only meets the initial expectations but also adapts to user needs over time, ensuring longevity and success in the app markets.</p>`
     },
     {
+      num: "02",
       title: "How can you make an app successful in 2024?",
       content: `<h5>Top Strategies to Make Your App Successful</h5>
       <p class='fontsfregular'><b>Know your audience:</b> Understand your target users of the application. Design application functionalities for the audience—what they need and want.</p>
@@ -189,6 +191,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Integrate these strategies into your development and marketing; thereby, increasing the potential for your app to succeed in the competitive market.</p>`
     },
     {
+      num: "03",
       title: "How long does it take to develop a mobile app in Miami?",
       content: `<h5>Typically, the development time for a mobile app can range from three to nine months.</h5>
       <p class='fontsfregular'>It consists of a sequence of several stages. We could break the stages down as shown:</p>
@@ -203,6 +206,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>Any mobile app development company in Miami should include planning, design, development, testing, and deploying. In a general perspective, the time taken can vary from a few months, for simple applications, to several months for complex ones.</p>`
     },
     {
+      num: "04",
       title: "How much does it cost to hire a developer to build a mobile app?",
       content: `<p class='fontsfregular'><b>Hourly Rates:</b> Miami-based developers may charge $25 to $49 on an hourly basis.
       Total development costs :</p>
@@ -216,6 +220,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'><b>Maintenance and Updates:</b> The application will need regular maintenance and updating, which means an ongoing cost.</p>`
     },
     {
+      num: "05",
       title: "Which type of mobile app is most profitable in Miami?",
       content: `<p class='fontsfregular'>Currently, the most profitable types of mobile apps in Miami are those focusing on <b>tourism</b>, <b>real estate</b>, <b>music</b>, and <b>local services</b>. These categories of applications yield the highest returns when developed for Miami.</p>
       <p class='fontsfregular'><b>Tourism Apps -</b> Miami’s tourism is known to be vibrant with millions of visitors coming every year. In such a case, apps offering travel guides can make a lot of money here. Miami-Dade County reported that during last year alone, tourism brought about 6% of the country’s GDP which was estimated at 186.3 billion dollars.</p>
@@ -224,6 +229,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'>It's important to note that these are general trends and there may be other types of mobile apps that can also be profitable in Miami.</p>`
     },
     {
+      num: "06",
       title: "What are the three types of mobile applications?",
       content: `<p class='fontsfregular'>Mobile applications can be categorized into three types based on the technology used to develop them:</p>
       <p class='fontsfregular'><b>Native Apps:</b> This kind of application is platform-bound, for example, to iOS or Android, programmed with platform-native languages like Swift in iOS and Kotlin for Android. They have the best performance and user experience but are quite expensive to develop.</p>
@@ -231,6 +237,7 @@ export default function dubaidevelopmentcompany() {
       <p class='fontsfregular'><b>Web Apps:</b> Simply put, it refers to the website designs themselves meant to function like mobile applications. Accessible through the web browser, they do not have to be downloaded from app stores. They are cheaper, and easier to develop than a full native mobile app but generally lack full functionality and efficiency when compared to the native applications.</p>`
     },
     {
+      num: "07",
       title: "Does developing your own app make money?",
       content: `<p class='fontsfregular'><b>Yes, creating your own app can make you money.</b> It is indeed profitable, as users themselves can make money in various ways. Advertising is one of the methods where users can make money with impressions, clicks, or installs. Besides, it provides in-app purchases whereby a user can buy extra features, content, or virtual items within the app.</p>
       <p class='fontsfregular'>It even places the viability of all applications in terms of their financial success against a host of criteria that includes the reach in the market, the user base, and how effectively the best way to maximize revenues.</p>
@@ -238,6 +245,7 @@ export default function dubaidevelopmentcompany() {
       Overall, creating your own app can be a profitable venture, but it requires careful consideration of various factors and effective monetization strategies.</p>`
     },
     {
+      num: "08",
       title: "How many Mobile app developers do you need to build an app?",
       content: `<p class='fontsfregular'>To determine the number of developers needed, you can use a formula. Calculate the total number of hours needed for the project, including development, testing, and revisions. Divide this by the number of hours each developer can work per week to get the total number of weeks needed. Finally, divide the total number of weeks by the number of weeks each developer can work on the project to determine the total number of developers needed.</p>
       <p class='fontsfregular'>When determining the number of developers needed for your app, consider the scope, complexity, and timeline of the project. Simple apps may require one or two developers, while more complex projects may need a larger team. Assess the skills of your current team to determine if additional expertise is required.</p>
