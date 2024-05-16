@@ -143,4 +143,8 @@
     line-height: 26px;
     padding-top: 0;
   }
+
+  .mapGlobal img {
+    height: auto;
+  }
 }
