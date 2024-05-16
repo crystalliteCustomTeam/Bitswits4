@@ -335,6 +335,44 @@
   object-fit: contain;
 }
 
+/* ============Dallas============ */
+
+.dallas .marker {
+  top: 154px;
+}
+
+.dallas .timelineMain:before {
+  top: 50px;
+  height: 8.2%;
+}
+
+.dallas .timeOne::after {
+  height: 75%;
+}
+
+.dallas .timeTwo::after {
+  height: 33%;
+  top: 126px;
+}
+
+.dallas .numberTwo {
+  top: 320px;
+}
+
+.dallas .timeThree::before {
+  height: 33.7%;
+  top: -197px;
+}
+
+.dallas .timeThree::after {
+  height: 38%;
+  top: 45px;
+}
+
+.dallas .numberFour {
+  top: 253px;
+}
+
 /* ============Miami============ */
 
 .miami .timelineMain:before {
@@ -353,6 +391,44 @@
 
 .miami .timeThree::after {
   height: 37%;
+}
+
+/* ============Austin============ */
+
+.austin .marker {
+  top: 140px;
+}
+
+.austin .timelineMain:before {
+  top: 42px;
+  height: 8%;
+}
+
+.austin .timeOne::after {
+  height: 75%;
+}
+
+.austin .timeTwo::after {
+  height: 33%;
+  top: 126px;
+}
+
+.austin .numberTwo {
+  top: 320px;
+}
+
+.austin .timeThree::before {
+  height: 33.7%;
+  top: -197px;
+}
+
+.austin .timeThree::after {
+  height: 38%;
+  top: 45px;
+}
+
+.austin .numberFour {
+  top: 253px;
 }
 
 /* ============Media Query Start============ */
@@ -374,6 +450,99 @@
   .numberOne,
   .numberThree {
     left: 52%;
+  }
+
+  .timeOne::after,
+  .timeTwo::after,
+  .timeThree::before,
+  .timeThree::after {
+    left: 50%;
+    width: 8px;
+  }
+
+  /* ============Dubai============ */
+
+  .dubai .marker {
+    top: 125px;
+  }
+
+  .dubai .timelineMain:before {
+    height: 9%;
+    top: 10px;
+  }
+
+  .dubai .timeOne::after {
+    height: 76%;
+    bottom: -50px;
+  }
+
+  .dubai .numberOne {
+    top: 55px;
+  }
+
+  .dubai .timeTwo::after {
+    height: 35%;
+    top: 109px;
+  }
+
+  .dubai .timeThree::before {
+    height: 36%;
+    top: -204px;
+  }
+
+  .dubai .numberThree {
+    top: -8px;
+  }
+
+  .dubai .timeThree::after {
+    height: 38%;
+    top: 47px;
+  }
+
+  .dubai .numberFour {
+    top: 254px;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .marker {
+    top: 138px;
+  }
+
+  .dallas .timelineMain:before {
+    top: 45px;
+    height: 7.2%;
+  }
+
+  .dallas .timeOne::after {
+    height: 79%;
+  }
+
+  .dallas .timeTwo::after {
+    height: 30%;
+    top: 125px;
+  }
+
+  .dallas .numberTwo {
+    top: 320px;
+  }
+
+  .dallas .timeThree::before {
+    height: 39%;
+    top: -248px;
+  }
+
+  .dallas .numberThree {
+    top: -22px;
+  }
+
+  .dallas .timeThree::after {
+    height: 38%;
+    top: 34px;
+  }
+
+  .dallas .numberFour {
+    top: 253px;
   }
 
   /* ============Miami============ */
@@ -408,6 +577,48 @@
   .miami .timeThree::after {
     height: 36%;
     top: 36px;
+  }
+
+  /* ============Austin============ */
+
+  .austin .marker {
+    top: 138px;
+  }
+
+  .austin .timelineMain:before {
+    top: 45px;
+    height: 7.2%;
+  }
+
+  .austin .timeOne::after {
+    height: 79%;
+  }
+
+  .austin .timeTwo::after {
+    height: 30%;
+    top: 125px;
+  }
+
+  .austin .numberTwo {
+    top: 320px;
+  }
+
+  .austin .timeThree::before {
+    height: 39%;
+    top: -248px;
+  }
+
+  .austin .numberThree {
+    top: -22px;
+  }
+
+  .austin .timeThree::after {
+    height: 38%;
+    top: 34px;
+  }
+
+  .austin .numberFour {
+    top: 253px;
   }
 }
 
@@ -501,6 +712,99 @@
     width: 8px;
   }
 
+  /* ============Dubai============ */
+
+  .dubai .marker {
+    top: 115px;
+  }
+
+  .dubai .timelineMain:before {
+    top: 36px;
+  }
+
+  .dubai .timeOne::after {
+    height: 75%;
+    bottom: -47px;
+  }
+
+  .dubai .numberOne {
+    top: 50px;
+  }
+
+  .dubai .timeTwo::after {
+    height: 40.8%;
+    top: 85px;
+  }
+
+  .dubai .numberTwo {
+    top: 258px;
+  }
+
+  .dubai .timeThree::before {
+    height: 26%;
+    top: -122px;
+  }
+
+  .dubai .numberThree {
+    top: 0px;
+  }
+
+  .dubai .timeThree::after {
+    height: 48%;
+    top: 36px;
+  }
+
+  .dubai .numberFour {
+    top: 258px;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .marker {
+    top: 115px;
+  }
+
+  .dallas .timelineMain:before {
+    top: 42px;
+    height: 8%;
+  }
+
+  .dallas .timeOne::after {
+    height: 77%;
+    bottom: -53px;
+  }
+
+  .dallas .numberOne {
+    top: 58px;
+  }
+
+  .dallas .timeTwo::after {
+    height: 35%;
+    top: 95px;
+  }
+
+  .dallas .numberTwo {
+    top: 258px;
+  }
+
+  .dallas .timeThree::before {
+    height: 30%;
+    top: -156px;
+  }
+
+  .dallas .numberThree {
+    top: -8px;
+  }
+
+  .dallas .timeThree::after {
+    height: 48%;
+    top: 28px;
+  }
+
+  .dallas .numberFour {
+    top: 258px;
+  }
+
   /* ============Miami============ */
 
   .miami .marker {
@@ -545,6 +849,53 @@
 
   .miami .numberFour {
     top: 257px;
+  }
+
+  /* ============Austin============ */
+
+  .austin .marker {
+    top: 115px;
+  }
+
+  .austin .timelineMain:before {
+    top: 42px;
+    height: 8%;
+  }
+
+  .austin .timeOne::after {
+    height: 77%;
+    bottom: -53px;
+  }
+
+  .austin .numberOne {
+    top: 58px;
+  }
+
+  .austin .timeTwo::after {
+    height: 35%;
+    top: 95px;
+  }
+
+  .austin .numberTwo {
+    top: 258px;
+  }
+
+  .austin .timeThree::before {
+    height: 30%;
+    top: -156px;
+  }
+
+  .austin .numberThree {
+    top: -8px;
+  }
+
+  .austin .timeThree::after {
+    height: 48%;
+    top: 28px;
+  }
+
+  .austin .numberFour {
+    top: 258px;
   }
 }
 
@@ -673,8 +1024,6 @@
     top: 9px;
   }
 
-  /* ============Miami============ */
-
   .timelineMain {
     margin-top: 25px;
   }
@@ -682,6 +1031,112 @@
   .timeline {
     margin-bottom: 0;
   }
+
+  /* ============Dubai============ */
+
+  .dubai .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .dubai .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .dubai .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .dubai .numberOne {
+    top: 77px;
+  }
+
+  .dubai .timeTwo::after {
+    height: 48%;
+    top: 113px;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 74%;
+  }
+
+  .dubai .timeThree::before {
+    height: 44%;
+    top: -83px;
+  }
+
+  .dubai .numberThree {
+    top: 125px;
+  }
+
+  .dubai .timeThree::after {
+    height: 39%;
+    top: 161px;
+  }
+
+  .dubai .numberFourMobile {
+    top: 74.5%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .dallas .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .dallas .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .dallas .numberOne {
+    top: 77px;
+  }
+
+  .dallas .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 71%;
+  }
+
+  .dallas .timeThree::before {
+    height: 46%;
+    top: -102px;
+  }
+
+  .dallas .numberThree {
+    top: 125px;
+  }
+
+  .dallas .timeThree::after {
+    height: 37%;
+    top: 162px;
+  }
+
+  .dallas .numberFourMobile {
+    top: 71.5%;
+  }
+
+  /* ============Miami============ */
 
   .miami .marker {
     top: 0px;
@@ -732,6 +1187,58 @@
   .miami .numberFourMobile {
     top: 71.5%;
   }
+
+  /* ============Austin============ */
+
+  .austin .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .austin .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .austin .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .austin .numberOne {
+    top: 77px;
+  }
+
+  .austin .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .austin .numberTwoMobile {
+    top: 71%;
+  }
+
+  .austin .timeThree::before {
+    height: 46%;
+    top: -102px;
+  }
+
+  .austin .numberThree {
+    top: 125px;
+  }
+
+  .austin .timeThree::after {
+    height: 37%;
+    top: 162px;
+  }
+
+  .austin .numberFourMobile {
+    top: 71.5%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -752,6 +1259,78 @@
   .timeLeft {
     float: none;
     direction: ltr;
+  }
+
+  /* ============Dubai============ */
+
+  .dubai .timelineMain:before {
+    top: -30px;
+  }
+
+  .dubai .timeOne::after {
+    height: 130%;
+  }
+
+  .dubai .numberOne {
+    top: 77px;
+  }
+
+  .dubai .timeTwo::after {
+    height: 50%;
+    top: 113px;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 73%;
+  }
+
+  .dubai .timeThree::before {
+    top: -103px;
+    height: 43%;
+  }
+
+  .dubai .timeThree::after {
+    height: 42%;
+  }
+
+  .dubai .numberFourMobile {
+    top: 73.5%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timelineMain:before {
+    top: -35px;
+  }
+
+  .dallas .timeOne::after {
+    height: 126%;
+  }
+
+  .dallas .numberOne {
+    top: 77px;
+  }
+
+  .dallas .timeTwo::after {
+    height: 46%;
+    top: 115px;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 68%;
+  }
+
+  .dallas .timeThree::before {
+    top: -140px;
+    height: 46%;
+  }
+
+  .dallas .timeThree::after {
+    height: 38.8%;
+  }
+
+  .dallas .numberFourMobile {
+    top: 68.5%;
   }
 
   /* ============Miami============ */
@@ -788,6 +1367,42 @@
   .miami .numberFourMobile {
     top: 68.5%;
   }
+
+  /* ============Austin============ */
+
+  .austin .timelineMain:before {
+    top: -35px;
+  }
+
+  .austin .timeOne::after {
+    height: 126%;
+  }
+
+  .austin .numberOne {
+    top: 77px;
+  }
+
+  .austin .timeTwo::after {
+    height: 46%;
+    top: 115px;
+  }
+
+  .austin .numberTwoMobile {
+    top: 68%;
+  }
+
+  .austin .timeThree::before {
+    top: -140px;
+    height: 46%;
+  }
+
+  .austin .timeThree::after {
+    height: 38.8%;
+  }
+
+  .austin .numberFourMobile {
+    top: 68.5%;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -816,6 +1431,68 @@
     height: 3%;
     top: 15px;
     left: 23px;
+  }
+
+  /* ============Dubai============ */
+
+  .dubai .timelineMain:before {
+    top: -60px;
+  }
+
+  .dubai .timeOne::after {
+    height: 117%;
+  }
+
+  .dubai .timeTwo::after {
+    height: 50.5%;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 67%;
+  }
+
+  .dubai .timeThree::before {
+    top: -200px;
+    height: 44%;
+  }
+
+  .dubai .timeThree::after {
+    height: 44.8%;
+  }
+
+  .dubai .numberFourMobile {
+    top: 67.5%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timelineMain:before {
+    top: -68px;
+  }
+
+  .dallas .timeOne::after {
+    height: 116%;
+  }
+
+  .dallas .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 64%;
+  }
+
+  .dallas .timeThree::before {
+    top: -245px;
+    height: 48%;
+  }
+
+  .dallas .timeThree::after {
+    height: 43%;
+  }
+
+  .dallas .numberFourMobile {
+    top: 65.5%;
   }
 
   /* ============Miami============ */
@@ -848,17 +1525,165 @@
   .miami .numberFourMobile {
     top: 65.5%;
   }
+
+  /* ============Austin============ */
+
+  .austin .timelineMain:before {
+    top: -68px;
+  }
+
+  .austin .timeOne::after {
+    height: 116%;
+  }
+
+  .austin .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .austin .numberTwoMobile {
+    top: 64%;
+  }
+
+  .austin .timeThree::before {
+    top: -245px;
+    height: 48%;
+  }
+
+  .austin .timeThree::after {
+    height: 43%;
+  }
+
+  .austin .numberFourMobile {
+    top: 65.5%;
+  }
 }
 
 @media screen and (max-width: 425px) {
+  /* ============Dubai============ */
+
+  .dubai .timeTwo::after {
+    height: 49%;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 65%;
+  }
+
+  .dubai .timeThree::before {
+    top: -222px;
+    height: 47%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .dallas .timeThree::before {
+    top: -245px;
+    height: 47%;
+  }
+
+  .dallas .timeThree::after {
+    height: 45%;
+  }
+
+  .dallas .numberFourMobile {
+    top: 66.5%;
+  }
+
   /* ============Miami============ */
 
   .miami .timeThree::before {
     height: 47.5%;
   }
+
+  /* ============Austin============ */
+
+  .austin .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .austin .timeThree::before {
+    top: -245px;
+    height: 47%;
+  }
+
+  .austin .timeThree::after {
+    height: 45%;
+  }
+
+  .austin .numberFourMobile {
+    top: 66.5%;
+  }
 }
 
 @media screen and (max-width: 395px) {
+  /* ============Dubai============ */
+
+  .dubai .timelineMain:before {
+    top: -65px;
+  }
+
+  .dubai .timeOne::after {
+    height: 116%;
+  }
+
+  .dubai .timeTwo::after {
+    height: 50.5%;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 66%;
+  }
+
+  .dubai .timeThree::before {
+    top: -223px;
+    height: 45.5%;
+  }
+
+  .dubai .timeThree::after {
+    height: 46%;
+    top: 163px;
+  }
+
+  .dubai .numberFourMobile {
+    top: 68.5%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timelineMain:before {
+    top: -78px;
+  }
+
+  .dallas .timeOne::after {
+    height: 114%;
+  }
+
+  .dallas .timeTwo::after {
+    height: 50%;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .dallas .timeThree::before {
+    top: -269px;
+    height: 47%;
+  }
+
+  .dallas .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .dallas .numberFourMobile {
+    top: 65.5%;
+  }
+
   /* ============Miami============ */
 
   .miami .timelineMain:before {
@@ -882,9 +1707,104 @@
     height: 45%;
     top: 163px;
   }
+
+  /* ============Austin============ */
+
+  .austin .timelineMain:before {
+    top: -78px;
+  }
+
+  .austin .timeOne::after {
+    height: 114%;
+  }
+
+  .austin .timeTwo::after {
+    height: 50%;
+  }
+
+  .austin .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .austin .timeThree::before {
+    top: -269px;
+    height: 47%;
+  }
+
+  .austin .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .austin .numberFourMobile {
+    top: 65.5%;
+  }
 }
 
 @media screen and (max-width: 379px) {
+  /* ============Dubai============ */
+
+  .dubai .timelineMain:before {
+    top: -69px;
+  }
+
+  .dubai .timeOne::after {
+    height: 116%;
+  }
+
+  .dubai .timeTwo::after {
+    height: 49%;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 64%;
+  }
+
+  .dubai .timeThree::before {
+    top: -245px;
+    height: 47%;
+  }
+
+  .dubai .timeThree::after {
+    height: 48%;
+  }
+
+  .dubai .numberFourMobile {
+    top: 69.6%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timelineMain:before {
+    top: -82px;
+  }
+
+  .dallas .timeOne::after {
+    height: 114%;
+  }
+
+  .dallas .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .dallas .timeThree::before {
+    top: -295px;
+    height: 49%;
+  }
+
+  .dallas .timeThree::after {
+    height: 43%;
+    top: 166px;
+  }
+
+  .dallas .numberFourMobile {
+    top: 63.5%;
+  }
+
   /* ============Miami============ */
 
   .miami .timelineMain:before {
@@ -914,5 +1834,135 @@
 
   .miami .numberFourMobile {
     top: 63.6%;
+  }
+
+  /* ============Austin============ */
+
+  .austin .timelineMain:before {
+    top: -82px;
+  }
+
+  .austin .timeOne::after {
+    height: 114%;
+  }
+
+  .austin .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .austin .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .austin .timeThree::before {
+    top: -295px;
+    height: 49%;
+  }
+
+  .austin .timeThree::after {
+    height: 43%;
+    top: 166px;
+  }
+
+  .austin .numberFourMobile {
+    top: 63.5%;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  /* ============Dubai============ */
+
+  .dubai .timelineMain:before {
+    top: -75px;
+  }
+
+  .dubai .timeOne::after {
+    height: 114%;
+  }
+
+  .dubai .timeTwo::after {
+    height: 51.5%;
+  }
+
+  .dubai .numberTwoMobile {
+    top: 66%;
+  }
+
+  .dubai .timeThree::before {
+    height: 44%;
+  }
+
+  .dubai .timeThree::after {
+    height: 48%;
+  }
+
+  .dubai .numberFourMobile {
+    top: 68.6%;
+  }
+
+  /* ============Dallas============ */
+
+  .dallas .timelineMain:before {
+    top: -90px;
+  }
+
+  .dallas .timeOne::after {
+    height: 112.5%;
+  }
+
+  .dallas .numberTwoMobile {
+    top: 62%;
+  }
+
+  .dallas .timeThree::before {
+    top: -318px;
+  }
+
+  .dallas .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Miami============ */
+
+  .miami .timelineMain:before {
+    top: -67px;
+  }
+
+  .miami .timeOne::after {
+    height: 112.5%;
+  }
+
+  .miami .numberTwoMobile {
+    top: 62%;
+  }
+
+  .miami .timeThree::before {
+    top: -318px;
+  }
+
+  .miami .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Austin============ */
+
+  .austin .timelineMain:before {
+    top: -90px;
+  }
+
+  .austin .timeOne::after {
+    height: 112.5%;
+  }
+
+  .austin .numberTwoMobile {
+    top: 62%;
+  }
+
+  .austin .timeThree::before {
+    top: -318px;
+  }
+
+  .austin .numberFourMobile {
+    top: 63%;
   }
 }

@@ -106,6 +106,7 @@ export default function dubaidevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
+    classSec: "austin",
     title: <> Our Agile Process for <br /> Mobile App Development <br /> in Austin </>,
     desc: <>
       <span className="d-block">As an esteemed mobile app development company in Austin, we are aware of all the complexities and challenges that could arise during mobile app development. We are not a traditional app development company in Austin that charges massively and delivers conventional products. Instead, our customized apps speak volumes.</span>

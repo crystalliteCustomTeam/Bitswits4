@@ -106,6 +106,7 @@ export default function dubaidevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
+    classSec: "dallas",
     title: <> Our Agile Process for <br /> Mobile App Development <br /> in Dallas </>,
     desc: <>
       <span className="d-block">Our agile process for mobile app development is straightforward and effective. We start with intensive research and strategy to define the core problem statement and align it with client goals. This guides our digital strategy, ensuring continued success post-launch.</span>
