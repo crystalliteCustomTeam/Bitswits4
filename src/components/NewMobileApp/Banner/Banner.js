@@ -109,7 +109,7 @@ const Banner = ({ content }) => {
             <section className={`${styles.bannerSec}`} >
                 <Container>
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
-                        <Col lg={7} xl={6} className='p-0'>
+                        <Col lg={7} xl={6} className='p-0 my-0'>
                             <div className={styles.quickly}>
                                 <p>Quickly – Efficiently – Effortlessly</p>
                             </div>

@@ -250,7 +250,7 @@ const AppsLived = () => {
                             </div>
                         </Col>
                         <Col lg={7} className='px-1'>
-                            <Slider {...appsSlider} className='appsSlider'>
+                            <Slider {...appsSlider} className={`${styles.appsSlider} appsSlider`}>
                                 {SliderContent.map((content, index) => (
                                     <div className=''>
                                         <div key={index} className={styles.slider}>

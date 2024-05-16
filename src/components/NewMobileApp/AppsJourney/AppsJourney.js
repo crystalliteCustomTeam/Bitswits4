@@ -10,7 +10,7 @@ const cardsContent = [
     "Confused About Choosing The Right Technology For Your App?",
     "Need Assistance In Crafting A User-Centric Design For Your App Idea?",
     "Worried About Overblown Costs In App Development?",
-    "Struggling to Turn Your App Idea into Reality?",
+    <>Struggling to Turn Your App Idea into <br className='d-block d-md-none' /> Reality?</>,
     "Worried About The Security And Privacy Of Your App?"
 ];
 
@@ -36,7 +36,7 @@ const AppsJourney = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex(prevIndex => (prevIndex + 1) % cardsContent.length);
-        }, 2000);
+        }, 11000);
 
         return () => clearInterval(interval);
     }, []);

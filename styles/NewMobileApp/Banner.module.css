@@ -775,7 +775,7 @@
   .badge {
     width: 672px;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
   }
 
   .oppp p {
@@ -797,6 +797,10 @@
 
   .bannerSec::after {
     z-index: -1;
+  }
+
+  .applost {
+    padding: 0;
   }
 
   .comple1 p,
@@ -994,6 +998,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .bannerSec {
+    padding-bottom: 0;
+  }
+
   .newpound {
     margin-top: 50px;
     margin-bottom: 20px;

@@ -26,7 +26,7 @@ const JournyForm = () => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.content}>
-                                <h3><span>Start</span> Your <span>Mobile App</span> <br /> Development <br /> Journey with Us?</h3>
+                                <h2><span>Start</span> Your <span>Mobile App</span> <br /> Development <br /> Journey with Us?</h2>
                                 <div className={styles.experts}>
                                     <h5>30 Minutes Strategy Session</h5>
                                     <h4>Get Your <span>Free 30 Minute</span> <br /> Strategy Session With An <br /> Experienced <span>App Experts</span> <br /> Valued At <span>$300</span></h4>
@@ -43,7 +43,7 @@ const JournyForm = () => {
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>
                                 <textarea placeholder='Comment' name='comment' className='form-control mt-3'></textarea>
-                                <div className='d-flex justify-content-between mt-5'>
+                                <div className={`d-flex justify-content-between mt-3 mt-md-5 ${styles.formBottom}`}>
                                     <div className='d-flex align-items-center gap-1'>
                                         <input className={`mb-0 ${styles.vehicle1}`} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                         <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>

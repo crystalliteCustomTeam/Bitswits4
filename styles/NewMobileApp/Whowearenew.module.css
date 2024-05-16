@@ -358,7 +358,9 @@
 
   .intransition {
     background-image: none;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-right: 0;
   }
 
   .counterRow {
@@ -438,5 +440,9 @@
 
   .intransition h3 {
     margin-bottom: 15px;
+  }
+
+  .btn {
+    margin: 6px 0 12px;
   }
 }

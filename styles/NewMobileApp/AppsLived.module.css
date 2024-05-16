@@ -191,6 +191,22 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .appStyles {
+        padding: 50px 0 0;
+    }
+
+    .featured {
+        height: 100%;
+    }
+
+    .appsSlider {
+        margin-top: 20px;
+    }
+
+    .btn a {
+        margin-top: 20px;
+    }
+
     .counterMain {
         width: 100%;
         justify-content: space-between;
@@ -204,6 +220,7 @@
 
     .sliderImage {
         position: relative;
+        margin-top: 8px;
     }
 
     .sliderImage::after {
@@ -227,14 +244,18 @@
     .appStyles p {
         font-size: 16px;
         line-height: 24px;
-        padding-right: 0px;
+        padding-right: 10px;
         width: 100%;
     }
 
     .sliderTxt {
         flex-direction: column;
-        bottom: 29px;
+        bottom: 65px;
         left: 15px;
         align-items: start;
+    }
+
+    .sliderBtn {
+        display: none;
     }
 }

@@ -11,7 +11,7 @@ const Location = () => {
                 <div className="container">
                     <Row>
                         <Col lg={12}>
-                            <h2 className='mb-5'>
+                            <h2 className='mb-4 mb-md-5'>
                                 <span>Areas</span> We Serve
                             </h2>
                         </Col>

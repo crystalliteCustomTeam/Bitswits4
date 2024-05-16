@@ -54,8 +54,8 @@ const Conviced = () => {
                                     <h2>Still Not <span>Convinced?</span></h2>
                                     <p>Hear From Our Clients Who Made Headlines</p>
                                 </div>
-                                <div className="clutch">
-                                    <Image src={Clutch} alt='Bitswits' className='img-fluid d-block mt-4 w-25 ms-auto' />
+                                <div className={`${styles.btnImage} clutch`}>
+                                    <Image src={Clutch} alt='Bitswits' className={`img-fluid d-block mt-4 ms-md-auto ${styles.clutch}`} />
                                     <div className={styles.btn}>
                                         <Link href="javascript:;" className='gap-4'>
                                             See All
