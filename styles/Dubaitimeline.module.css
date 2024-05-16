@@ -431,6 +431,82 @@
   top: 253px;
 }
 
+/* ============Chicago============ */
+
+.chicago .marker {
+  top: 140px;
+}
+
+.chicago .timelineMain:before {
+  top: 42px;
+  height: 8%;
+}
+
+.chicago .timeOne::after {
+  height: 75%;
+}
+
+.chicago .timeTwo::after {
+  height: 33%;
+  top: 126px;
+}
+
+.chicago .numberTwo {
+  top: 320px;
+}
+
+.chicago .timeThree::before {
+  height: 33.7%;
+  top: -197px;
+}
+
+.chicago .timeThree::after {
+  height: 38%;
+  top: 45px;
+}
+
+.chicago .numberFour {
+  top: 253px;
+}
+
+/* ============Houston============ */
+
+.houston .marker {
+  top: 117px;
+}
+
+.houston .timelineMain:before {
+  top: 26px;
+  height: 8%;
+}
+
+.houston .timeOne::after {
+  height: 78%;
+}
+
+.houston .timeTwo::after {
+  height: 33%;
+  top: 126px;
+}
+
+.houston .numberTwo {
+  top: 320px;
+}
+
+.houston .timeThree::before {
+  height: 33.7%;
+  top: -197px;
+}
+
+.houston .timeThree::after {
+  height: 38%;
+  top: 45px;
+}
+
+.houston .numberFour {
+  top: 253px;
+}
+
 /* ============Media Query Start============ */
 
 @media screen and (max-width: 1499px) {
@@ -618,6 +694,90 @@
   }
 
   .austin .numberFour {
+    top: 253px;
+  }
+
+  /* ============Chicago============ */
+
+  .chicago .marker {
+    top: 138px;
+  }
+
+  .chicago .timelineMain:before {
+    top: 45px;
+    height: 7.2%;
+  }
+
+  .chicago .timeOne::after {
+    height: 79%;
+  }
+
+  .chicago .timeTwo::after {
+    height: 30%;
+    top: 125px;
+  }
+
+  .chicago .numberTwo {
+    top: 320px;
+  }
+
+  .chicago .timeThree::before {
+    height: 39%;
+    top: -248px;
+  }
+
+  .chicago .numberThree {
+    top: -22px;
+  }
+
+  .chicago .timeThree::after {
+    height: 38%;
+    top: 34px;
+  }
+
+  .chicago .numberFour {
+    top: 253px;
+  }
+
+  /* ============Houston============ */
+
+  .houston .marker {
+    top: 98px;
+  }
+
+  .houston .timelineMain:before {
+    height: 9%;
+    top: -22px;
+  }
+
+  .houston .timeOne::after {
+    height: 83%;
+  }
+
+  .houston .timeTwo::after {
+    height: 30%;
+    top: 125px;
+  }
+
+  .houston .numberTwo {
+    top: 320px;
+  }
+
+  .houston .timeThree::before {
+    height: 39%;
+    top: -248px;
+  }
+
+  .houston .numberThree {
+    top: -22px;
+  }
+
+  .houston .timeThree::after {
+    height: 38%;
+    top: 34px;
+  }
+
+  .houston .numberFour {
     top: 253px;
   }
 }
@@ -895,6 +1055,100 @@
   }
 
   .austin .numberFour {
+    top: 258px;
+  }
+
+  /* ============Chicago============ */
+
+  .chicago .marker {
+    top: 105px;
+  }
+
+  .chicago .timelineMain:before {
+    top: 35px;
+    height: 8%;
+  }
+
+  .chicago .timeOne::after {
+    height: 77%;
+    bottom: -53px;
+  }
+
+  .chicago .numberOne {
+    top: 58px;
+  }
+
+  .chicago .timeTwo::after {
+    height: 35%;
+    top: 95px;
+  }
+
+  .chicago .numberTwo {
+    top: 258px;
+  }
+
+  .chicago .timeThree::before {
+    height: 30%;
+    top: -156px;
+  }
+
+  .chicago .numberThree {
+    top: -8px;
+  }
+
+  .chicago .timeThree::after {
+    height: 48%;
+    top: 28px;
+  }
+
+  .chicago .numberFour {
+    top: 258px;
+  }
+
+  /* ============Houston============ */
+
+  .houston .marker {
+    top: 98px;
+  }
+
+  .houston .timelineMain:before {
+    top: 30px;
+    height: 8%;
+  }
+
+  .houston .timeOne::after {
+    height: 79%;
+    bottom: -53px;
+  }
+
+  .houston .numberOne {
+    top: 58px;
+  }
+
+  .houston .timeTwo::after {
+    height: 35%;
+    top: 95px;
+  }
+
+  .houston .numberTwo {
+    top: 258px;
+  }
+
+  .houston .timeThree::before {
+    height: 30%;
+    top: -156px;
+  }
+
+  .houston .numberThree {
+    top: -8px;
+  }
+
+  .houston .timeThree::after {
+    height: 48%;
+    top: 28px;
+  }
+
+  .houston .numberFour {
     top: 258px;
   }
 }
@@ -1239,6 +1493,110 @@
   .austin .numberFourMobile {
     top: 71.5%;
   }
+
+  /* ============Chicago============ */
+
+  .chicago .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .chicago .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .chicago .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .chicago .numberOne {
+    top: 77px;
+  }
+
+  .chicago .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 71%;
+  }
+
+  .chicago .timeThree::before {
+    height: 46%;
+    top: -102px;
+  }
+
+  .chicago .numberThree {
+    top: 125px;
+  }
+
+  .chicago .timeThree::after {
+    height: 37%;
+    top: 162px;
+  }
+
+  .chicago .numberFourMobile {
+    top: 71.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .houston .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .houston .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .houston .numberOne {
+    top: 77px;
+  }
+
+  .houston .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .houston .numberTwoMobile {
+    top: 71%;
+  }
+
+  .houston .timeThree::before {
+    height: 46%;
+    top: -102px;
+  }
+
+  .houston .numberThree {
+    top: 125px;
+  }
+
+  .houston .timeThree::after {
+    height: 37%;
+    top: 162px;
+  }
+
+  .houston .numberFourMobile {
+    top: 71.5%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1403,6 +1761,78 @@
   .austin .numberFourMobile {
     top: 68.5%;
   }
+
+  /* ============Chicago============ */
+
+  .chicago .timelineMain:before {
+    top: -35px;
+  }
+
+  .chicago .timeOne::after {
+    height: 126%;
+  }
+
+  .chicago .numberOne {
+    top: 77px;
+  }
+
+  .chicago .timeTwo::after {
+    height: 46%;
+    top: 115px;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 68%;
+  }
+
+  .chicago .timeThree::before {
+    top: -140px;
+    height: 46%;
+  }
+
+  .chicago .timeThree::after {
+    height: 38.8%;
+  }
+
+  .chicago .numberFourMobile {
+    top: 68.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timelineMain:before {
+    top: -35px;
+  }
+
+  .houston .timeOne::after {
+    height: 126%;
+  }
+
+  .houston .numberOne {
+    top: 77px;
+  }
+
+  .houston .timeTwo::after {
+    height: 46%;
+    top: 115px;
+  }
+
+  .houston .numberTwoMobile {
+    top: 68%;
+  }
+
+  .houston .timeThree::before {
+    top: -140px;
+    height: 46%;
+  }
+
+  .houston .timeThree::after {
+    height: 38.8%;
+  }
+
+  .houston .numberFourMobile {
+    top: 68.5%;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -1556,6 +1986,68 @@
   .austin .numberFourMobile {
     top: 65.5%;
   }
+
+  /* ============Chicago============ */
+
+  .chicago .timelineMain:before {
+    top: -68px;
+  }
+
+  .chicago .timeOne::after {
+    height: 116%;
+  }
+
+  .chicago .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 64%;
+  }
+
+  .chicago .timeThree::before {
+    top: -245px;
+    height: 48%;
+  }
+
+  .chicago .timeThree::after {
+    height: 43%;
+  }
+
+  .chicago .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timelineMain:before {
+    top: -68px;
+  }
+
+  .houston .timeOne::after {
+    height: 116%;
+  }
+
+  .houston .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .houston .numberTwoMobile {
+    top: 64%;
+  }
+
+  .houston .timeThree::before {
+    top: -245px;
+    height: 48%;
+  }
+
+  .houston .timeThree::after {
+    height: 43%;
+  }
+
+  .houston .numberFourMobile {
+    top: 65.5%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -1615,6 +2107,44 @@
   }
 
   .austin .numberFourMobile {
+    top: 66.5%;
+  }
+
+  /* ============Chicago============ */
+
+  .chicago .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .chicago .timeThree::before {
+    top: -245px;
+    height: 47%;
+  }
+
+  .chicago .timeThree::after {
+    height: 45%;
+  }
+
+  .chicago .numberFourMobile {
+    top: 66.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .houston .timeThree::before {
+    top: -245px;
+    height: 47%;
+  }
+
+  .houston .timeThree::after {
+    height: 45%;
+  }
+
+  .houston .numberFourMobile {
     top: 66.5%;
   }
 }
@@ -1737,6 +2267,70 @@
   }
 
   .austin .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Chicago============ */
+
+  .chicago .timelineMain:before {
+    top: -78px;
+  }
+
+  .chicago .timeOne::after {
+    height: 114%;
+  }
+
+  .chicago .timeTwo::after {
+    height: 50%;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .chicago .timeThree::before {
+    top: -269px;
+    height: 47%;
+  }
+
+  .chicago .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .chicago .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timelineMain:before {
+    top: -78px;
+  }
+
+  .houston .timeOne::after {
+    height: 114%;
+  }
+
+  .houston .timeTwo::after {
+    height: 50%;
+  }
+
+  .houston .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .houston .timeThree::before {
+    top: -269px;
+    height: 47%;
+  }
+
+  .houston .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .houston .numberFourMobile {
     top: 65.5%;
   }
 }
@@ -1867,6 +2461,70 @@
   .austin .numberFourMobile {
     top: 63.5%;
   }
+
+  /* ============Chicaho============ */
+
+  .chicago .timelineMain:before {
+    top: -82px;
+  }
+
+  .chicago .timeOne::after {
+    height: 114%;
+  }
+
+  .chicago .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .chicago .timeThree::before {
+    top: -295px;
+    height: 49%;
+  }
+
+  .chicago .timeThree::after {
+    height: 43%;
+    top: 166px;
+  }
+
+  .chicago .numberFourMobile {
+    top: 63.5%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timelineMain:before {
+    top: -82px;
+  }
+
+  .houston .timeOne::after {
+    height: 114%;
+  }
+
+  .houston .timeTwo::after {
+    height: 48.5%;
+  }
+
+  .houston .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .houston .timeThree::before {
+    top: -295px;
+    height: 49%;
+  }
+
+  .houston .timeThree::after {
+    height: 43%;
+    top: 166px;
+  }
+
+  .houston .numberFourMobile {
+    top: 63.5%;
+  }
 }
 
 @media screen and (max-width: 369px) {
@@ -1963,6 +2621,50 @@
   }
 
   .austin .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Chicago============ */
+
+  .chicago .timelineMain:before {
+    top: -90px;
+  }
+
+  .chicago .timeOne::after {
+    height: 112.5%;
+  }
+
+  .chicago .numberTwoMobile {
+    top: 62%;
+  }
+
+  .chicago .timeThree::before {
+    top: -318px;
+  }
+
+  .chicago .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Houston============ */
+
+  .houston .timelineMain:before {
+    top: -90px;
+  }
+
+  .houston .timeOne::after {
+    height: 112.5%;
+  }
+
+  .houston .numberTwoMobile {
+    top: 62%;
+  }
+
+  .houston .timeThree::before {
+    top: -318px;
+  }
+
+  .houston .numberFourMobile {
     top: 63%;
   }
 }

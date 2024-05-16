@@ -104,6 +104,7 @@ export default function dubaidevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
+    classSec: "chicago",
     title: <> Our Agile Process for <br /> Mobile App Development <br /> in Chicago </>,
     desc: <>
       <span className="d-block">We are a strategic digital transformation agency dedicated to ensuring the successful marketing of your product and implementing a growth strategy to ensure its continued success for decades.</span>

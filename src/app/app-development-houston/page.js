@@ -107,6 +107,7 @@ export default function dubaidevelopmentcompany() {
   }
   // timeline Content
   const timeline = {
+    classSec: "houston",
     title: <> Our Agile Process for <br /> Mobile App Development <br /> in Houston </>,
     desc: <>
       <span className="d-block">At BitsWits, we don't create typical apps. Instead, our aim is to build astonishing mobile apps that generate massive streams of income and assist you in staying ahead of the competition.</span>
