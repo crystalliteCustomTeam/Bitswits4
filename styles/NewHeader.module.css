@@ -8,7 +8,7 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  z-index: 9999;
+  z-index: 99999999;
   position: relative;
 }
 
@@ -806,6 +806,7 @@
 .imgpost a.myLink {
   color: #000000;
 }
+
 .myLink {
   color: #000000;
 }

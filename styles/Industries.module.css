@@ -251,31 +251,40 @@
 
 @media only screen and (max-width: 567px) {
   .industriesSec {
-    height: 55vh;
+    height: 35vh;
   }
 
   .sliderDiv::after {
-    height: 55vh;
+    height: 100%;
   }
 
   .sliderDiv {
-    height: 55vh;
+    height: 35vh;
+  }
+
+  .sliderDiv h3 {
+    margin-bottom: 0;
   }
 
   .card p {
-    padding: 16px 5px 16px 0;
+    padding: 10px 5px 10px 0;
   }
 
   .txt h2 {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 35px;
   }
 
   .txt {
-    left: 30px;
+    left: 15px;
+    top: 17px;
   }
 
   .sliderDiv:hover .card {
-    transform: translateY(10px);
+    transform: translateY(55px);
+  }
+
+  .sliderBackground img {
+    height: 100%;
   }
 }

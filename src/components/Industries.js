@@ -33,11 +33,11 @@ const Industries = () => {
             desc: 'Our sports solutions meet evolving needs with fan engagement, performance tracking, and management systems.',
             href: '#',
         },
-        {
-            title: 'Enterprise Mobility Solutions',
-            desc: 'Our enterprise mobility solutions offer better productivity, process optimization, and more efficient workflows.',
-            href: '#',
-        },
+        // {
+        //     title: 'Enterprise Mobility Solutions',
+        //     desc: 'Our enterprise mobility solutions offer better productivity, process optimization, and more efficient workflows.',
+        //     href: '#',
+        // },
         {
             title: 'E-commerce',
             desc: 'We optimize e-commerce for better UX, streamlined workflow, and increased revenue.',
@@ -81,7 +81,7 @@ const Industries = () => {
         },
     ];
 
-    const sliderImages = [realState, gaming, information, SliderOne, SliderTwo, SliderThree, SliderFour, SliderSeven, SliderFive, SliderSix];
+    const sliderImages = [realState, gaming, SliderOne, SliderTwo, SliderThree, SliderFour, SliderSeven, SliderFive, SliderSix];
 
     useEffect(() => {
         setBackgroundImage(sliderImages[activeSlide]);
@@ -117,6 +117,7 @@ const Industries = () => {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 },
             },
         ],
@@ -140,12 +141,12 @@ const Industries = () => {
                         </div>
                         <Slider {...industriesSlider} className={`${styles.industriesSlider} industriesSlider`}>
                             {sliderContent.map((content, index) => (
-                                <div key={index} className={styles.mainDiv}>
+                                <div key={index} className={`${styles.mainDiv} mainDiv`}>
                                     <div
                                         className={`px-3 ${styles.sliderDiv}`}
                                         onMouseEnter={() => handleMouseEnter(index)}
                                         onMouseLeave={handleMouseLeave}>
-                                        <div className={styles.cardHeading}>
+                                        <div className={`${styles.cardHeading} cardHeading`}>
                                             <h3>{content.title}</h3>
                                         </div>
                                         <div className={`card ${styles.card}`}>

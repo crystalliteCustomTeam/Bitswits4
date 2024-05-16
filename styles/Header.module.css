@@ -6,7 +6,7 @@
   justify-content: space-between;
   background-color: black;
   position: sticky;
-  z-index: 9999;
+  z-index: 9999999;
   top: 0;
   border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
   border-width: 1px;
