@@ -20,7 +20,7 @@ const Whowearenew = ({ content }) => {
                 }
             });
         }, {
-            threshold: 0.5 // Change this value according to your preference
+            threshold: 0.5
         });
 
         if (sectionRef.current) {
@@ -39,12 +39,12 @@ const Whowearenew = ({ content }) => {
 
         counterElements.forEach((item) => {
             let counterInnerText = parseInt(item.textContent);
-            let startingPoint = Math.floor(counterInnerText * 0.6); // Set the starting point to 60% of the original value
-            let count = startingPoint; // Initialize count with the starting point
+            let startingPoint = Math.floor(counterInnerText * 0.6);
+            let count = startingPoint;
             let speed = parseInt(item.dataset.speed) / (counterInnerText - startingPoint);
             const stop = setInterval(() => {
                 item.textContent = count++;
-                if (count > counterInnerText) { // Adjust the condition for stopping the counter
+                if (count > counterInnerText) {
                     clearInterval(stop);
                 }
             }, speed);
@@ -66,8 +66,10 @@ const Whowearenew = ({ content }) => {
                     </Row>
                     <Row className='align-items-center'>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
-                                <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                            <div className={styles.caseBox}>
+                                <div className={`${styles.ImageDiv}`}>
+                                    <Image src={ban1} className={`img-fluid mx-auto d-block`} />
+                                </div>
                             </div>
                             <div className={styles.travel}>
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
@@ -102,8 +104,10 @@ const Whowearenew = ({ content }) => {
                             </div>
                         </Col>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
-                                <Image src={ban2} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                            <div className={styles.caseBox}>
+                                <div className={`${styles.ImageDiv}`}>
+                                    <Image src={ban2} className={`img-fluid mx-auto d-block`} />
+                                </div>
                             </div>
                             <div className={styles.travel2}>
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
@@ -138,8 +142,10 @@ const Whowearenew = ({ content }) => {
                             </div>
                         </Col>
                         <Col md={4} className='p-0'>
-                            <div className={`${styles.ImageDiv}`}>
-                                <Image src={ban3} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                            <div className={styles.caseBox}>
+                                <div className={`${styles.ImageDiv}`}>
+                                    <Image src={ban3} className={`img-fluid mx-auto d-block`} />
+                                </div>
                             </div>
                             <div className={styles.travel3}>
                                 <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
