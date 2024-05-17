@@ -91,11 +91,11 @@ export default function dubaidevelopmentcompany() {
     title: "Our Award-Winning Portfolio",
     desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 200+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
     para: "Here is a showcase of some of our remarkable projects:",
-    subtitleOne: "Soul Scribe",
+    subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
-    subtitleTwo: "The Ready App",
+    subtitleTwo: <>The <br className="d-none d-md-block d-lg-none" /> Ready App</>,
     subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
-    subtitleThree: "Grease Monkey",
+    subtitleThree: <>Grease <br className="d-none d-md-block d-lg-none" /> Monkey</>,
     subDescThree: "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles."
   }
   // delivered content

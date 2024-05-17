@@ -59,7 +59,6 @@ const Whowearenew = ({ content }) => {
             <section ref={sectionRef} className={styles.counterSec}>
                 <Container fluid>
                     <Row className={styles.android}>
-                        {/* <h3 className='center'>Who We've</h3> */}
                         <h2 className='center'>{title}</h2>
                         <p className='center p-0 mb-2'>{desc}</p>
                         <p className='center'>{para}</p>
@@ -71,16 +70,18 @@ const Whowearenew = ({ content }) => {
                                     <Image src={ban1} className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
-                            <div className={styles.travel}>
-                                <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
-                                    <h3>{subtitleOne}</h3>
-                                    <Link href="/social-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
-                                    </Link>
+                            <div className={`${styles.travelBox} ${styles.travel}`}>
+                                <div>
+                                    <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
+                                        <h3>{subtitleOne}</h3>
+                                        <Link href="/social-app-development-case-study">
+                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                        </Link>
+                                    </div>
+                                    <p className='white fontsfregular'>
+                                        {subDescOne}
+                                    </p>
                                 </div>
-                                <p className='white fontsfregular'>
-                                    {subDescOne}
-                                </p>
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
@@ -109,16 +110,18 @@ const Whowearenew = ({ content }) => {
                                     <Image src={ban2} className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
-                            <div className={styles.travel2}>
-                                <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
-                                    <h3>{subtitleTwo}</h3>
-                                    <Link href="/hiring-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
-                                    </Link>
+                            <div className={`${styles.travelBox} ${styles.travel2}`}>
+                                <div>
+                                    <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
+                                        <h3>{subtitleTwo}</h3>
+                                        <Link href="/hiring-app-development-case-study">
+                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                        </Link>
+                                    </div>
+                                    <p className='white fontsfregular'>
+                                        {subDescTwo}
+                                    </p>
                                 </div>
-                                <p className='white fontsfregular'>
-                                    {subDescTwo}
-                                </p>
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
@@ -147,16 +150,18 @@ const Whowearenew = ({ content }) => {
                                     <Image src={ban3} className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
-                            <div className={styles.travel3}>
-                                <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
-                                    <h3>{subtitleThree}</h3>
-                                    <Link href="/automobile-repair-app-development-case-study">
-                                        <Image src={ArrowImage} alt='Bitswits' className={styles.arrowImage} width={30} height={23} />
-                                    </Link>
+                            <div className={`${styles.travelBox} ${styles.travel3}`}>
+                                <div>
+                                    <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
+                                        <h3>{subtitleThree}</h3>
+                                        <Link href="/automobile-repair-app-development-case-study">
+                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                        </Link>
+                                    </div>
+                                    <p className='white fontsfregular'>
+                                        {subDescThree}
+                                    </p>
                                 </div>
-                                <p className='white fontsfregular'>
-                                    {subDescThree}
-                                </p>
                                 <div className={styles.counter}>
                                     <div>
                                         <h4>
