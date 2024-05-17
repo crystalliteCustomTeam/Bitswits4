@@ -157,7 +157,7 @@ const Whowearenew = ({ content }) => {
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFive}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">24/7</span><span></span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">24</span><span>/7</span>
                                         </h5>
                                         <p className='mb-0'>Post Launch<br /> Support</p>
                                     </Col>
