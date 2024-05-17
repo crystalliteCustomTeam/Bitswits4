@@ -178,7 +178,7 @@ const NewHouston = ({ content }) => {
                                     {menus.map((tab, index) => (
                                         <li key={index}
                                             className={`d-flex ${activeTab === index ? styles.active : ''}`}
-                                            onClick={() => handleTabClick(index)}>
+                                            onMouseEnter={() => handleTabClick(index)}>
                                             <span className={`pe-4`}>0{index + 1}</span>
                                             <span className={styles.menusHeading}>{tab.label}</span>
                                         </li>
