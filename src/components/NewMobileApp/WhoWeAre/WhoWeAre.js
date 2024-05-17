@@ -8,7 +8,6 @@ import styles from "@/styles/NewMobileApp/Whowearenew.module.css";
 import ban1 from "media/newdubai/ban4.png"
 import ban2 from "media/newdubai/ban2.png"
 import ban3 from "media/newdubai/ban5.png"
-import ArrowImage from "media/newdubai/slider-btn-arrow.png"
 
 const Whowearenew = ({ content }) => {
     const variantOne = {
@@ -108,20 +107,20 @@ const Whowearenew = ({ content }) => {
                             {desc}
                         </p>
                     </Row>
-                    <Row className='align-items-center w-100'>
+                    <Row className='align-items-center w-100 mt-4'>
                         <Col md={4} className='p-0'>
                             <motion.div className={`${styles.ImageDiv}`} variants={variantOne} initial="initial" whileInView="animate">
-                                <Image src={ban1} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                                <Image src={ban1} className={`img-fluid mx-auto d-block`} />
                             </motion.div>
                         </Col>
                         <Col md={4} className='p-0'>
                             <motion.div className={`${styles.ImageDiv}`} variants={variantTwo} initial="initial" whileInView="animate">
-                                <Image src={ban2} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                                <Image src={ban2} className={`img-fluid mx-auto d-block`} />
                             </motion.div>
                         </Col>
                         <Col md={4} className='p-0'>
                             <motion.div className={`${styles.ImageDiv}`} variants={variantThree} initial="initial" whileInView="animate">
-                                <Image src={ban3} width={368} height={374} className={`img-fluid mx-auto d-block`} />
+                                <Image src={ban3} className={`img-fluid mx-auto d-block`} />
                             </motion.div>
                         </Col>
 

@@ -135,10 +135,6 @@
 
 }
 
-.ImageDiv img {
-  width: 100%;
-}
-
 .counter {
   display: flex;
   align-items: end;
