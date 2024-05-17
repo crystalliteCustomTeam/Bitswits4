@@ -24,7 +24,7 @@ const Industries = () => {
 
     const sliderContent = [
         {
-            title: 'Real State',
+            title: 'Real Estate',
             desc: 'We ensure property listings, virtual tours, and essential features for real estate.',
             href: '#',
         },
@@ -33,11 +33,6 @@ const Industries = () => {
             desc: 'Our sports solutions meet evolving needs with fan engagement, performance tracking, and management systems.',
             href: '#',
         },
-        // {
-        //     title: 'Enterprise Mobility Solutions',
-        //     desc: 'Our enterprise mobility solutions offer better productivity, process optimization, and more efficient workflows.',
-        //     href: '#',
-        // },
         {
             title: 'E-commerce',
             desc: 'We optimize e-commerce for better UX, streamlined workflow, and increased revenue.',
@@ -58,7 +53,6 @@ const Industries = () => {
             desc: 'We offer adaptive solutions, enhancing productivity and efficiency through process automation.',
             href: '#',
         },
-
         {
             title: 'Logistics',
             desc: 'Our logistics solutions precisely suit your needs, optimizing efficiency and customer service.',

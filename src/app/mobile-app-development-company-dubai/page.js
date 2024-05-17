@@ -340,17 +340,6 @@ export default function dubaidevelopmentcompany() {
       <Faqdubai
         faqsData={[
           {
-            question:
-              "Which is the world no 1 app?",
-            answer: (
-              <>
-                TikTok was the most popular app worldwide by downloads in 2022, maintaining its title for the fourth consecutive year.
-                <br />
-                According to Business of Apps, the video platform achieved 672 million downloads in 2022, while also doubling its annual revenue to $9.4 billion.
-              </>
-            ),
-          },
-          {
             question: "How can I ensure a successful app launch in the UAE?",
             answer: (
               <>

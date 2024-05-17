@@ -93,7 +93,7 @@ const Whowearenew = ({ content }) => {
                                         <h4>
                                             <p className='mb-0 d-inline counter' data-speed="5">100K</p><span>+</span>
                                         </h4>
-                                        <span>MAU</span>
+                                        <span>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>
@@ -133,7 +133,7 @@ const Whowearenew = ({ content }) => {
                                         <h4>
                                             <p className='mb-0 d-inline counter' data-speed="5">50K</p><span>+</span>
                                         </h4>
-                                        <span>MAU</span>
+                                        <span>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>
@@ -173,7 +173,7 @@ const Whowearenew = ({ content }) => {
                                         <h4>
                                             <p className='mb-0 d-inline counter' data-speed="5">70K</p><span>+</span>
                                         </h4>
-                                        <span>MAU</span>
+                                        <span>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
                                         <h4>

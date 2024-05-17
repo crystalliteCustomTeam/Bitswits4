@@ -9,7 +9,6 @@
 
 .travel {
   background-color: #468feb;
-  height: 350px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
@@ -26,10 +25,6 @@
   line-height: 26px;
   font-weight: 300;
   margin-top: 10px;
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .travel2 p {
@@ -37,10 +32,6 @@
   line-height: 26px;
   font-weight: 300;
   margin-top: 10px;
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .travel3 p {
@@ -48,15 +39,10 @@
   line-height: 26px;
   font-weight: 300;
   margin-top: 10px;
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .travel2 {
   background-color: #4c0251;
-  height: 350px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
@@ -70,7 +56,6 @@
 
 .travel3 {
   background-color: #243140;
-  height: 350px;
   padding-left: 28px;
   padding-right: 30px;
   padding-top: 30px;
@@ -207,6 +192,10 @@
   transition: all 0.4s ease-in-out;
 }
 
+.travelBox p {
+  height: 165px;
+}
+
 @media only screen and (min-width: 1599px) {
   .travelBox p {
     font-size: 17px;
@@ -214,34 +203,16 @@
     letter-spacing: 1px;
   }
 
-  .travelBox {
-    height: 380px;
+  .travelBox p {
+    height: 185px;
   }
 }
 
-@media only screen and (max-width: 1920px) {
-  .travel p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .travel2 p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .travel3 p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+@media only screen and (max-width: 1299px) {
+  .travelBox p {
+    height: 200px;
   }
 }
-
 @media only screen and (max-width: 1399px) {
   .android h2 {
     font-size: 40px;
@@ -258,7 +229,6 @@
 
 @media screen and (max-width: 1099px) {
   .travelBox {
-    height: 275px;
     padding-bottom: 20px;
   }
 
@@ -290,6 +260,10 @@
   .travel3 h3 {
     font-size: 30px;
     line-height: 33px;
+  }
+
+  .travelBox p {
+    height: 150px;
   }
 
   .travel p {
@@ -372,24 +346,28 @@
     line-height: 29px;
   }
 
-  .travel p {
-    -webkit-line-clamp: 4;
-  }
-
-  .travel2 p {
-    -webkit-line-clamp: 4;
-  }
-
-  .travel3 p {
-    -webkit-line-clamp: 4;
-  }
-
   .travelBox a {
     top: 62px;
   }
 
   .travelBox:hover a {
     top: 62px;
+  }
+
+  .travelBox p {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .travelBox p {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travelBox p {
+    height: 75px;
   }
 }
 
