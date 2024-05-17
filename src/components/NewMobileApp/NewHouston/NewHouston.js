@@ -184,7 +184,7 @@ const NewHouston = ({ content }) => {
                                         </li>
                                     ))}
                                 </ul>
-                                <select onChange={(e) => setActiveTab(parseInt(e.target.value))}>
+                                <select className="d-lg-none d-block" onChange={(e) => setActiveTab(parseInt(e.target.value))}>
                                     {menus.map((tab, index) => (
                                         <option key={index} value={index} label={tab.label}>{tab.label}</option>
                                     ))}
