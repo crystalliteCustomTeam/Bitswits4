@@ -1,6 +1,5 @@
 "use client"
 import { useCallback, useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
 import styles from "@/styles/Houtondubai.module.css";
 
@@ -17,11 +16,12 @@ const Section = ({ section, refCallback }) => {
     );
 };
 const NewHouston = ({ content }) => {
+    const sectionsRef = useRef([]);
     const { menus, sections } = content;
     const [isMobile, setIsMobile] = useState(false);
-    const [selectedSection, setSelectedSection] = useState(menus[0]);
     const [visibleSection, setVisibleSection] = useState(menus[0]);
-    const sectionsRef = useRef([]);
+    const [selectedSection, setSelectedSection] = useState(menus[0]);
+    const [selectedOption, setSelectedOption] = useState("");
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
@@ -63,28 +63,40 @@ const NewHouston = ({ content }) => {
         }
     }, [selectedSection]);
 
-    const handleOnChangeSelect = (e) => {
-        setSelectedSection(e.target.value);
-        setVisibleSection(e.target.value);
+
+    const handleChange = (event) => {
+        const index = event.target.value;
+        setSelectedOption(index);
+        setSelectedSection(index);
+        document.getElementById(`0${index}`).scrollIntoView({ behavior: "smooth" });
     };
+
     return (
         <>
-            <section className={`d-none d-lg-block ${styles.houston}`}>
+            <section className={`${styles.houston}`}>
                 <div className="container">
                     <Row className={styles.tone}>
                         <Col lg={5} className={`p-0 text-center ${styles.stickyTop}`}>
                             {isMobile ? (
-                                <select onChange={handleOnChangeSelect} value={selectedSection && visibleSection}>
-                                    <option value={visibleSection}>{visibleSection}</option>
+                                <select
+                                    value={selectedOption}
+                                    onChange={handleChange}
+                                >
                                     {menus.map((menu, index) => (
-                                        <option key={index} value={menu}>{menu}</option>
+                                        <option
+                                            key={index}
+                                            value={index + 1}
+                                            className={`d-flex ${visibleSection === `0${index + 1}` ? styles.active : ""}`}
+                                        >
+                                            {`${menu}`}
+                                        </option>
                                     ))}
                                 </select>
                             ) : (
                                 <>
                                     <div className={styles.headings}>
                                         <nav className={`${styles.applicationlong}`}>
-                                            <ul className="position-sticky top-0">
+                                            <ul>
                                                 {menus.map((menu, index) => (
                                                     <li key={index} className={`d-flex ${visibleSection === `0${index + 1}` ? styles.active : ""}`}>
                                                         <a href={`#0${index + 1}`} onClick={() => setSelectedSection(index + 1)} className="d-flex align-items-center">
