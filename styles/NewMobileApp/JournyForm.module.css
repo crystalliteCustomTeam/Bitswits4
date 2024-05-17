@@ -127,17 +127,18 @@
 .value {
   border: 0;
   background-color: #000000;
-  width: 127px;
+  width: max-content;
   height: 45px;
   border-radius: 6px;
   box-shadow: 0 5px 12px #00000075;
+  padding: 0 18px;
 }
 
 /* Media Query Start */
 @media only screen and (max-width: 1920px) {
   .JournyForm .content h2 {
     font-size: 55px;
-    line-height: 60px;
+    line-height: 67px;
   }
 }
 

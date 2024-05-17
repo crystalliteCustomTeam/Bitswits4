@@ -82,7 +82,7 @@ const Whowearenew = ({ content }) => {
 
         counterElements.forEach((item) => {
             let counterInnerText = parseInt(item.textContent);
-            let startingPoint = Math.floor(counterInnerText * 0.9);
+            let startingPoint = Math.floor(counterInnerText * 0.998);
             let count = startingPoint;
             let speed = parseInt(item.dataset.speed) / (counterInnerText - startingPoint);
             const stop = setInterval(() => {
@@ -99,14 +99,16 @@ const Whowearenew = ({ content }) => {
     const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
     return (
         <>
-            <section ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
-                <Container fluid className='px-0'>
+            <section id='casestudies' ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
+                <Container>
                     <Row className={`${styles.android} mx-auto`}>
                         <h2 className='center'>{title}</h2>
                         <p className='center'>
                             {desc}
                         </p>
                     </Row>
+                </Container>
+                <Container fluid className='px-0'>
                     <Row className='align-items-center w-100 mt-4'>
                         <Col md={4} className='p-0'>
                             <motion.div className={`${styles.ImageDiv}`} variants={variantOne} initial="initial" whileInView="animate">
@@ -131,50 +133,49 @@ const Whowearenew = ({ content }) => {
                                 <Row className={styles.counterdigit}>
                                     <Col md={4} className={`col-6 ${styles.borderOne}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">1998</span><span>+</span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">93</span><span>%</span>
                                         </h5>
-                                        <p>Founded</p>
+                                        <p>Satisfied Customers</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderTwo}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">3000</span><span>+</span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">90000</span><span>+</span>
                                         </h5>
-                                        <p>Engineers</p>
+                                        <p>Development Hours</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderThree}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">800</span><span>+</span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">2500</span><span>+</span>
                                         </h5>
-                                        <p>Clients Served</p>
+                                        <p>App Launched</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFour}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">5</span><span>+</span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">100</span><span>+</span>
                                         </h5>
-                                        <p className='mb-0'>R&D Labs</p>
+                                        <p className='mb-0'>Countries Served</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFive}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">50</span><span>+</span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">24/7</span><span></span>
                                         </h5>
-                                        <p className='mb-0'>Client's Of<br /> 5+ Years</p>
+                                        <p className='mb-0'>Post Launch<br /> Support</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderSix}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">40</span><span></span>
+                                            <span className='mb-0 d-inline counter' data-speed="4000">167</span><span>%</span>
                                         </h5>
-                                        <p className='mb-0'>Countries On Our <br />
-                                            Global Delivery Map</p>
+                                        <p className='mb-0'>Average ROI <br /> Return</p>
                                     </Col>
                                 </Row>
                             </Col>
                             <Col lg={6} className='p-0'>
                                 <div className={styles.intransition}>
-                                    <h6>What We Did For Our Clients</h6>
-                                    <h3>Intransition <br /> At A Glance</h3>
+                                    <h6>Our Value Additions for Clients</h6>
+                                    <h3>Progress By <br /> Numbers</h3>
                                     <div className={`${styles.btn}`}>
                                         <a href="javascript:;">
-                                            Let’s Discuss Your Project
+                                            Time to Execute
                                         </a>
                                     </div>
                                 </div>

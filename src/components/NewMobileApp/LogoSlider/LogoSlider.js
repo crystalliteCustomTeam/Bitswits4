@@ -113,11 +113,12 @@ const LogoSlider = (props) => {
                 <Row className={`m-0 py-lg-5 px-0 justify-content-center`} >
                     <Col md={12} className=' text-center d-flex flex-column align-items-center '>
                         <h2>
-                            <span> Yes. </span> We Cover Your Tech Stack.
+                            Your <span>  Tech Stack </span> is Our Burden
                         </h2>
                         <p>
-                            Our <span>4,000+</span> team has expertise in almost every <br />
-                            programming language.
+                            Our
+                            <span> teams </span> hold expertise in a multitude of
+                            programming aspects
                         </p>
                         <br />
                         <Col md={11}>

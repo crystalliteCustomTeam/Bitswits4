@@ -26,18 +26,20 @@ const JournyForm = () => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.content}>
-                                <h2><span>Start</span> Your <span>Mobile App</span> <br /> Development <br /> Journey with Us?</h2>
+                                <h2>
+                                    <span>Triumph</span> with the Best App  <span>Making</span> Services</h2>
                                 <div className={styles.experts}>
-                                    <h5>30 Minutes Strategy Session</h5>
-                                    <h4>Get Your <span>Free 30 Minute</span> <br /> Strategy Session With An <br /> Experienced <span>App Experts</span> <br /> Valued At <span>$300</span></h4>
+                                    <h5>30 Minute Breakdown</h5>
+                                    <h4>Free half-hour strategy session worth $300 With Our Experienced App Experts</h4>
                                 </div>
                             </div>
                         </Col>
                         <Col lg={6}>
                             <form>
                                 <div className='mb-4'>
-                                    <h4>Have a Project To Discuss?</h4>
-                                    <h3 className='grdiant'>We're Ready!</h3>
+                                    <h4>Have an Idea to Execute?
+                                    </h4>
+                                    <h3 className='grdiant'>We’re Listening</h3>
                                 </div>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
@@ -50,7 +52,7 @@ const JournyForm = () => {
                                     </div>
                                     <button className={`${styles.value}`} type='submit'>
                                         <Image src={formImg} className='img-fluid' alt='BitsWits' />
-                                        Submit
+                                        Let’s Do This
                                     </button>
                                 </div>
                             </form>

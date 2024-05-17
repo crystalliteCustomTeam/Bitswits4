@@ -13,17 +13,17 @@ const CardComponent = ({ activeIndex, setActiveIndex }) => {
         {
             title: 'Clear Communication',
             content:
-                'We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.',
+                'We have a transparent policy where we keep a direct and open line of communication. Trust and integrity are paramount for maximum ROI generation.',
         },
         {
             title: 'Customer-Centric Approach',
             content:
-                'We prioritize our client\'s success, understand your unique needs, and deliver tailored solutions that drive your business growth.',
+                'We empower you in all aspects of the process, thereby reinforcing the adage, ‘The customer is always right.’',
         },
         {
             title: 'Innovation and Excellence',
             content:
-                'We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends.',
+                'We pride ourselves on being industry-leading pioneers. Our software development services are second to none.',
         },
     ];
 
@@ -77,7 +77,7 @@ const Deliver = () => {
             <Container>
                 <Row>
                     <Col lg={12}>
-                        <h2>How <span>Bitswits</span> Helps You Deliver <br /> The Best Results</h2>
+                        <h2>How  <span>Bitswits</span>  Guarantees Excellence</h2>
                     </Col>
                     <Col lg={12}>
                         <div className={`d-none d-md-block ${styles.mainDeliver}`}>
@@ -92,7 +92,7 @@ const Deliver = () => {
                                         <Image src={icon3} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h3>Clear Communication</h3>
-                                    <p>We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.</p>
+                                    <p>We have a transparent policy where we keep a direct and open line of communication. Trust and integrity are paramount for maximum ROI generation.</p>
                                 </div>
                             </div>
                             <div>
@@ -101,7 +101,7 @@ const Deliver = () => {
                                         <Image src={icon2} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h3>Customer-Centric Approach</h3>
-                                    <p>We prioritize our client\'s success, understand your unique needs, and deliver tailored solutions that drive your business growth.</p>
+                                    <p>We empower you in all aspects of the process, thereby reinforcing the adage, ‘The customer is always right.’</p>
                                 </div>
                             </div>
                             <div>
@@ -110,7 +110,7 @@ const Deliver = () => {
                                         <Image src={icon3} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h3>Innovation and Excellence</h3>
-                                    <p>We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends.</p>
+                                    <p>We pride ourselves on being industry-leading pioneers. Our software development services are second to none.</p>
                                 </div>
                             </div>
                         </Slider>

@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Mobile App Development Landing Page V3 | BitsWits",
-  description: "Mobile App Development Landing Page V3",
+  title: "Affordable Top Mobile App Development Services",
+  description: " We provide app development services to help you emerge as the market leader with tailored mobile apps that accelerate ROI for your business. ",
   //===== OG Tags =====
   openGraph: {
-    title: 'Mobile App Development Landing Page V3 | BitsWits',
-    description: 'Mobile App Development Landing Page V3',
-    url: '/mobile-app-development-landing-page-v3',
+    title: 'Affordable Top Mobile App Development Services',
+    description: ' We provide app development services to help you emerge as the market leader with tailored mobile apps that accelerate ROI for your business. ',
+    url: '/top-mobile-app-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/mobile-app-development-landing-page-v3' },
+  alternates: { canonical: '/top-mobile-app-development-services' },
   //===== No-Index =====
   robots: {
     index: false,

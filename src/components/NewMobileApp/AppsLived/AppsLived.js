@@ -7,9 +7,6 @@ import Link from 'next/link'
 
 // Images 
 import rightArrow from "media/newmobileapp/right-arrow.png"
-import downloads from "/public/newmobileapp/download.png"
-import makeus from "/public/newmobileapp/makeus.png"
-import roi from "/public/newmobileapp/roi.png"
 import clutch from "media/newDubaiPagev1/clutch.png"
 import slider1 from "media/newmobileapp/slider-1.png"
 import slider2 from "media/newmobileapp/slider-2.png"
@@ -55,12 +52,20 @@ const AppsLived = () => {
                 item.textContent = count++;
                 if (counterInnerText < count) {
                     clearInterval(stop);
-                    if (counterInnerText === 20) {
-                        item.textContent += "+";
-                    } else if (counterInnerText === 30) {
-                        item.textContent += "K";
-                    } else if (counterInnerText === 10) {
+                    if (counterInnerText === 1) {
+                        item.textContent += "M";
+                    } else if (counterInnerText === 124) {
                         item.textContent += "%";
+                    } else if (counterInnerText === 138) {
+                        item.textContent += "%";
+                    } else if (counterInnerText === 167) {
+                        item.textContent += "%";
+                    } else if (counterInnerText === 112) {
+                        item.textContent += "%";
+                    } else if (counterInnerText === 127) {
+                        item.textContent += "%";
+                    } else {
+                        item.textContent += "K";
                     }
                 }
             }, speed);
@@ -87,86 +92,103 @@ const AppsLived = () => {
             {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 20
+                number: 1
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 30
+                number: 250
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 10
+                number: 124
             },
         ],
         [
             {
-                icon: "/newmobileapp/roi.png",
-                title: "ROI",
-                number: 10
-            },
-            {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 20
+                number: 1
+            },
+            {
+                icon: "/newmobileapp/roi.png",
+                title: "ROI",
+                number: 138
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 30
+                number: 470
             },
 
         ],
         [
             {
-                icon: "/newmobileapp/makeus.png",
-                title: "MAUs",
-                number: 30
-            },
-            {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 20
+                number: 1
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 10
+                number: 167
+            },
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 500
             },
         ],
         [
             {
-                icon: "/newmobileapp/makeus.png",
-                title: "MAUs",
-                number: 30
-            },
-            {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 20
+                number: 1
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 10
+                number: 112
+            },
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 300
             },
         ],
         [
             {
-                icon: "/newmobileapp/makeus.png",
-                title: "MAUs",
-                number: 30
-            },
-            {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 20
+                number: 1
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 10
+                number: 127
+            },
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 280
+            },
+        ],
+        [
+            {
+                icon: "/newmobileapp/download.png",
+                title: "Downloads",
+                number: 1
+            },
+            {
+                icon: "/newmobileapp/roi.png",
+                title: "ROI",
+                number: 127
+            },
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: 280
             },
         ],
     ];
@@ -174,28 +196,33 @@ const AppsLived = () => {
     const SliderContent = [
         {
             image: slider1,
-            title: "Route Rover",
-            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+            title: "Prized Offerings That Made A Splash",
+            desc: "We aim to provide the best value for money through quality provisions. ROI’s that far exceed expectations."
         },
         {
             image: slider2,
-            title: "Route Rover",
-            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+            title: "The Practice Pen",
+            desc: "Participate in bull-riding challenges and win prizes. Let’s see who can pen the best!"
         },
         {
             image: slider3,
-            title: "Route Rover",
-            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+            title: "Soul Scribe",
+            desc: "A social networking digital diary to share with friends and family and rejoice memories."
         },
         {
             image: slider4,
-            title: "Route Rover",
-            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+            title: "Crave Cuisine",
+            desc: "Select from local eateries, place your order, and savor quality dishes brought straight to you."
         },
         {
             image: slider5,
             title: "Route Rover",
-            desc: "Bitswits' development of the Prey project, a wallet analytics and search engine platform on blockchain."
+            desc: "Secure and easy to track school bus booking app to keep an eye on your kids"
+        },
+        {
+            image: slider1,
+            title: "Fit Now",
+            desc: "Select your workout, set your goals, and work under the direction of renowned fitness experts. "
         }
     ]
     return (
@@ -205,8 +232,8 @@ const AppsLived = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles}>
-                                <h2>Apps That Lived To <span>Tell</span> The <span>Tale!</span></h2>
-                                <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
+                                <h2>Our Apps that <span>Left</span> an <span>Indelible</span> Mark!</h2>
+                                <p>BitsWits has launched some of the leading mobile applications on Google Play Store and Apple App Store. Our iOS app development services and Android app development services have geared businesses to take the market by storm. Our work is a testimony to the quality of our full-cycle development processes. </p>
                             </div>
                         </Col>
                         <Col lg={5} className='px-1'>
@@ -222,7 +249,7 @@ const AppsLived = () => {
 
                                     <div className={styles.blackBtn}>
                                         <Link href="javascript:;" className='d-flex align-items-center gap-4'>
-                                            Request a Proposal
+                                            Featured Apps
                                             <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                         </Link>
                                     </div>
@@ -237,7 +264,8 @@ const AppsLived = () => {
                                                     <h4>{data.title}</h4>
                                                     <h5>
                                                         <span className='mb-0 d-inline counter' data-speed="1000">
-                                                            {data.number}</span>
+                                                            {data.number}
+                                                        </span>
                                                     </h5>
                                                 </div>
                                             ))}
@@ -264,7 +292,7 @@ const AppsLived = () => {
                                                 </div>
                                                 <div className={styles.sliderBtn}>
                                                     <Link href="javascript:;" className='d-flex align-items-center gap-4'>
-                                                        Request a Proposal
+                                                        Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                                     </Link>
                                                 </div>

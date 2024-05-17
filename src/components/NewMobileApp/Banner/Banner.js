@@ -105,7 +105,7 @@ const Banner = ({ content }) => {
         }
     }
 
-    const text = "Quickly – Efficiently – Effortlessly"
+    const text = "Timely – Trusted – Trailblazing"
 
     const defaultAnimation = {
         hidden: {
@@ -149,7 +149,7 @@ const Banner = ({ content }) => {
                             </div>
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
-                                    <div>
+                                    <div className={styles.clients}>
                                         <Image src={badgeClient} alt='Bitswits' width={183} height={80} />
                                     </div>
                                     <div>
@@ -166,26 +166,30 @@ const Banner = ({ content }) => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className='d-flex align-items-center justify-content-between gap-2 gap-xxl-5'>
-                                    <Image src={Clutch} alt='Bitswits' width={127} height={60} />
-                                    <Image src={Partner} alt='Bitswits' width={127} height={56} />
+                                <div className='d-flex align-items-center justify-content-between gap-4 gap-xxl-5'>
+                                    <div className={styles.partnersImage}>
+                                        <Image src={Clutch} alt='Bitswits' width={127} height={60} />
+                                    </div>
+                                    <div className={styles.partnersImage}>
+                                        <Image src={Partner} alt='Bitswits' width={127} height={56} />
+                                    </div>
                                 </div>
                             </div>
                         </Col>
                         <Col lg={5} xl={6} className='p-0'>
                             <form className={styles.your} onSubmit={handleSubmit}>
-                                <h3>Share Your Requirements</h3>
-                                <p className='text-white text-center'>To help our experts understand your business objectives and create your customized plan.</p>
+                                <h3>Let’s Discuss <br /> Your App Idea In Detail</h3>
+                                <p className='text-white text-center'>Our experts help you in the best way possible. Get customized plans!</p>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-3'></textarea>
                                 <div className='d-sm-flex align-items-center mt-4'>
                                     <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
-                                    <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
+                                    <label className='form-check-label' htmlFor='flexCheckDefault'>Sign Non-Disclosure Agreement </label>
                                     <button className={`pink ${styles.value} mt-4 mt-sm-0`} type='submit'>
                                         <Image src={formImg} className='img-fluid' alt='BitsWits' />
-                                        Submit
+                                        Sign Me Up
                                     </button>
                                 </div>
                             </form>

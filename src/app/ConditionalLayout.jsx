@@ -108,7 +108,7 @@ const ConditionalLayout = ({ children }) => {
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
                             pathname == "/video-explainer-lp" ? <VideoHeader /> :
-                                pathname == "/mobile-app-development-landing-page-v3" ? <>
+                                pathname == "/top-mobile-app-development-services" ? <>
                                     <NewMobileHeader />
                                     <NewHeaderMbl />
                                 </> :

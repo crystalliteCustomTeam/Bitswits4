@@ -54,12 +54,12 @@ const Industries = () => {
 
     return (
         <>
-            <section className={styles.industries}>
+            <section id='industries' className={styles.industries}>
                 <Container fluid>
                     <Row>
                         <Col lg={12}>
-                            <h2><span>Industries</span>  We’ve Conquered</h2>
-                            <p>BitsWits offers a diverse reach by providing industry-specificsolutions for every client. We work with clients who aim to <br /> improve customer quality oflife while simplifying the daily duties of their employees.</p>
+                            <h2><span>Industries </span> We Dominate</h2>
+                            <p>Rule your industry with our app development services, crafting cutting-edge solutions that set<br /> market standards. We lead the way!</p>
                         </Col>
 
                         <Col lg={12}>
@@ -67,11 +67,12 @@ const Industries = () => {
                                 <div className={`${styles.indusSlide} indusSlide`}>
                                     <Image src={slide1} alt='BitsWits' className='img-fluid' />
                                     <div className={`${styles.head} head`}>
-                                        <h5>Health Care</h5>
+                                        <h5>Healthcare</h5>
                                     </div>
                                     <div className={`${styles.content} content`}>
-                                        <h3>Health Care</h3>
-                                        <p>Be it taxi, travel, or Health Care, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <h3>Healthcare</h3>
+                                        <p>Our mobile app development services specialize in providing innovative healthcare solutions. As a US-based healthcare app development company, patient-centered treatment is our first priority.
+                                        </p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -87,7 +88,8 @@ const Industries = () => {
                                     </div>
                                     <div className={`${styles.content} content`}>
                                         <h3>Education</h3>
-                                        <p>Be it taxi, travel, or Education, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <p>Mobile application development services transform education through digital classrooms and personalized learning. As the best app making services money can buy, we guarantee excellence.
+                                        </p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -103,7 +105,7 @@ const Industries = () => {
                                     </div>
                                     <div className={`${styles.content} content`}>
                                         <h3>Logistics</h3>
-                                        <p>Be it taxi, travel, or Logistics, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <p>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -119,7 +121,8 @@ const Industries = () => {
                                     </div>
                                     <div className={`${styles.content} content`}>
                                         <h3>Insurance</h3>
-                                        <p>Be it taxi, travel, or Insurance, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <p>Our mobile application development service innovates in insurance, digital insurance platforms, and claims automation. Our app development agency leads with success.
+                                        </p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -135,7 +138,7 @@ const Industries = () => {
                                     </div>
                                     <div className={`${styles.content} content`}>
                                         <h3>Engineering Construction & Operations</h3>
-                                        <p>Be it taxi, travel, or Engineering Construction & Operations, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <p>Our mobile application development services pioneer sustainable infrastructure solutions. We are at the forefront of the industry. Trusted globally, we integrate and automate with precision.</p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>
@@ -151,7 +154,8 @@ const Industries = () => {
                                     </div>
                                     <div className={`${styles.content} content`}>
                                         <h3>Insurance</h3>
-                                        <p>Be it taxi, travel, or Insurance, we offer tech solutions for all kinds of businesses. From efficient route planning to real-time tracking,</p>
+                                        <p>Our mobile application development service innovates in insurance, digital insurance platforms, and claims automation. Our app development agency leads with success.
+                                        </p>
                                         <Link href="#" className={styles.btn}>
                                             Learn More
                                             <span>

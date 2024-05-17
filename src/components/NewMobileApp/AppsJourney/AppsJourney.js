@@ -7,25 +7,16 @@ import Image from 'next/image'
 import BannerImage from "media/newmobileapp/smal_banner.png"
 
 const cardsContent = [
-    "Confused About Choosing The Right Technology For Your App?",
-    "Need Assistance In Crafting A User-Centric Design For Your App Idea?",
-    "Worried About Overblown Costs In App Development?",
-    <>Struggling to Turn Your App Idea into <br className='d-block d-md-none' /> Reality?</>,
-    "Worried About The Security And Privacy Of Your App?"
+    "Unclear requirements leading to scope creep?",
+    "Budget underestimation results in financial strain?",
+    "Communication gaps cause delays and misunderstandings?",
+    "nadequate testing leads to buggy applications?",
+    "Missed deadlines harming business opportunities and client satisfaction?"
 ];
 
 const Card = ({ content, isActive }) => {
     return (
         <div className={`${isActive ? styles.cardTwo : styles.card}`}>
-            <p>{content}</p>
-        </div>
-    );
-};
-
-
-const CardActive = ({ content, isActive }) => {
-    return (
-        <div className={`${styles.cardTwo} ${isActive ? styles.cardTwo : ''}`}>
             <p>{content}</p>
         </div>
     );
@@ -59,8 +50,8 @@ const AppsJourney = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles.txt}>
-                                <p>Innovate Today, Lead Tomorrow</p>
-                                <h2>Your App's Journey To Excellence <span>Starts Now!</span></h2>
+                                <p>Problems of Yesterday</p>
+                                <h2>Time To Mobilize Your <span>App Idea</span></h2>
                             </div>
                         </Col>
                     </Row>
@@ -87,15 +78,11 @@ const AppsJourney = () => {
                         <Row>
                             <Col lg={5}>
                                 <h2>
-                                    <span>
-                                        No Risks
-                                    </span> With An MVP!
-                                    Launch Your IDEA To See
-                                    How They Like It!
+                                    Explore New Horizons – Let Our App Experts Take Control!
                                 </h2>
                                 <div className={styles.btn}>
                                     <Link href="javascript:;">
-                                        Let’s Do This!
+                                        Make A Move!
                                     </Link>
                                 </div>
                             </Col>

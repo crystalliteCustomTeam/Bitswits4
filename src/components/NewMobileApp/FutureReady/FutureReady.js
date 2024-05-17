@@ -22,13 +22,13 @@ const FutureReady = () => {
     };
     return (
         <>
-            <section className={styles.futureSec}>
+            <section id='services' className={styles.futureSec}>
                 <div className="container">
                     <Row>
                         <Col lg={12}>
                             <div className="txt">
-                                <h2>Future-Ready Solutions For <span>ROI-Driven Results!</span></h2>
-                                <p>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
+                                <h2>ROI-Driven Results - <span>Flawless Execution!</span></h2>
+                                <p>Our mobile application development services specialize in creating strong, scalable mobile solutions, including iPhone app development services and Android app development services, tailored to enhance business operations and user engagement. BitsWits ensures seamless experiences across the board, with results that are guaranteed to surpass expectations.</p>
                             </div>
                         </Col>
                     </Row>
@@ -42,11 +42,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design.We bring your iOS app ideas to life by using our comprehensive
+                                            We provide iOS app development services that epitomize smooth performance and innovative design, setting new standards in mobile user experiences and enabling an influx of ROI for your business.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -58,27 +58,27 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We take Android app development to the next level by following a comprehensive approach, from ideation to launch. We take Android app development to the next level by following a
+                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
                             <Col md={6} lg={4} className='p-2'>
                                 <div className={`${styles.nativeCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
-                                        <h3>React NativeApp Development</h3>
+                                        <h3>React Native App Development</h3>
                                         <Image src={native} width={32} height={30} alt='Bitswits' />
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs.
+                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -90,11 +90,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.
+                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -106,11 +106,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We prioritize creating seamless user experiences in cross-platform app development. We prioritize creating seamless user experiences in cross-platform app development.
+                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -122,11 +122,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies.We offer end-to-end web app development company.
+                                            We offer compelling, user-focused web app development services that leverage our deep understanding of mobile and progressive web app development. Our market-leading innovations set the standard and guarantee excellent ROI.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -142,11 +142,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design.We bring your iOS app ideas to life by using our comprehensive
+                                            We provide iOS app development services that epitomize smooth performance and innovative design, setting new standards in mobile user experiences and enabling an influx of ROI for your business.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
@@ -158,27 +158,27 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We take Android app development to the next level by following a comprehensive approach, from ideation to launch. We take Android app development to the next level by following a
+                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className='px-2'>
                                 <div className={`${styles.nativeCard} ${styles.card}`}>
                                     <div className={styles.cardTop}>
-                                        <h3>React NativeApp Development</h3>
+                                        <h3>React Native App Development</h3>
                                         <Image src={native} width={32} height={30} alt='Bitswits' />
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs.
+                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
@@ -190,11 +190,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.
+                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
@@ -206,11 +206,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We prioritize creating seamless user experiences in cross-platform app development. We prioritize creating seamless user experiences in cross-platform app development.
+                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native. 
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
@@ -222,11 +222,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies.We offer end-to-end web app development company.
+                                            We offer compelling, user-focused web app development services that leverage our deep understanding of mobile and progressive web app development. Our market-leading innovations set the standard and guarantee excellent ROI.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">Let’s Do This!</Link>
+                                        <Link href="javascript:;">Build My App</Link>
                                     </div>
                                 </div>
                             </div>
