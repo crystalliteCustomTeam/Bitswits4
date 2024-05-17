@@ -109,10 +109,12 @@ const Banner = ({ content }) => {
 
     const defaultAnimation = {
         hidden: {
-            opacity: 0
+            opacity: 0,
+            y: 2,
         },
         visible: {
-            opacity: 1
+            opacity: 1,
+            y: 0
         }
     }
 
@@ -123,7 +125,12 @@ const Banner = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col lg={7} xl={6} className='p-0 my-0'>
                             <div>
-                                <motion.p initial="hidden" animate="visible" className={styles.quickly} aria-hidden>
+                                <motion.p
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    transition={{ staggerChildren: 0.1 }}
+                                    className={styles.quickly}
+                                    aria-hidden>
                                     {text.split("").map((char) => (
                                         <motion.span variants={defaultAnimation}>{char}</motion.span>
                                     ))}

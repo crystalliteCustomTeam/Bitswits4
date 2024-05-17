@@ -49,20 +49,11 @@
   font-weight: 500 !important;
   margin-bottom: 10px;
   width: 100%;
-  /* animation: typing 4s steps(var(--steps)) forwards, caret 1s infinite; */
 }
 
-/* @keyframes typing {
-  to {
-    width: 0;
-  }
+.quickly span {
+  display: inline-block;
 }
-
-@keyframes caret {
-  50% {
-    border-right-color: transparent;
-  }
-} */
 
 .oppp p {
   font-size: 17px;

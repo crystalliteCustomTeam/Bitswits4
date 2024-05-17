@@ -29,6 +29,10 @@
     margin-bottom: 0;
 }
 
+.cardsMain {
+    position: relative;
+}
+
 .appSec .card {
     padding: 33px 17px;
     background-image: url(../../public/newmobileapp/journey-bg.png);
@@ -37,31 +41,22 @@
     background-size: contain;
     margin-top: 30px;
     transition: all 0.4s ease-in-out;
+    opacity: 1;
 }
 
-.card:hover {
+.cardTwo {
     background-image: url(../../public/newmobileapp/journey-bg2.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 108% 250%;
     transition: all 0.4s ease-in-out;
     padding: 50px 17px;
     animation: shake 0.5s ease infinite;
-}
-
-.active {
-    background-image: url(../../public/newmobileapp/journey-bg2.png) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    transition: all 0.4s ease-in-out;
-    padding: 50px 17px !important;
-    animation: shake 0.5s ease infinite;
-}
-
-.active p {
-    color: white !important;
-    margin: 0 30px 0px !important;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
 }
 
 @keyframes shake {
@@ -86,8 +81,12 @@
     }
 }
 
-.appSec .card:hover p {
+.appSec .cardTwo p {
     color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    opacity: 0.9;
     margin: 0 30px 0px;
 }
 
@@ -173,8 +172,12 @@
         padding: 21px 17px;
     }
 
-    .card:hover {
-        padding: 40px 17px;
+    .cardTwo {
+        padding: 40px 22px;
+    }
+
+    .appSec .cardTwo p {
+        margin: 0;
     }
 }
 
@@ -194,15 +197,11 @@
         padding: 40px 17px;
     }
 
-    .card:hover {
-        padding: 55px 17px;
-    }
-
     .appSec .card p {
         margin: 0 58px 22px;
     }
 
-    .appSec .card:hover p {
+    .appSec .cardTwo p {
         margin: 0 70px 0px;
     }
 
@@ -235,16 +234,9 @@
         padding: 75px 17px;
     }
 
-    .active {
-        padding: 105px 60px !important;
-    }
-
-    .active p {
-        color: white !important;
-    }
-
-    .card:hover {
-        padding: 105px 17px;
+    .cardTwo {
+        padding: 90px 60px;
+        position: inherit;
     }
 
     .appSec .cardFive {
@@ -280,12 +272,8 @@
         padding: 33px 17px;
     }
 
-    .active {
+    .cardTwo {
         padding: 35px 20px !important;
-    }
-
-    .card:hover {
-        padding: 35px 17px;
     }
 
     .appSec .card p {
@@ -295,8 +283,8 @@
     }
 
 
-    .appSec .card:hover p {
-        margin: 0 45px 0px;
+    .appSec .cardTwo p {
+        margin: 0 22px 0px;
     }
 
     .btn a {
