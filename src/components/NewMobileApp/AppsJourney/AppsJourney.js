@@ -16,7 +16,16 @@ const cardsContent = [
 
 const Card = ({ content, isActive }) => {
     return (
-        <div className={`${styles.card} ${isActive ? styles.active : ''}`}>
+        <div className={`${isActive ? styles.cardTwo : styles.card}`}>
+            <p>{content}</p>
+        </div>
+    );
+};
+
+
+const CardActive = ({ content, isActive }) => {
+    return (
+        <div className={`${styles.cardTwo} ${isActive ? styles.cardTwo : ''}`}>
             <p>{content}</p>
         </div>
     );
@@ -24,9 +33,11 @@ const Card = ({ content, isActive }) => {
 
 const CardContainer = ({ content, isActive }) => {
     return (
-        <Link href="javascript:;">
-            <Card content={content} isActive={isActive} />
-        </Link>
+        <div className={styles.cardsMain}>
+            <Link href="javascript:;">
+                <Card content={content} isActive={isActive} />
+            </Link>
+        </div>
     );
 };
 
@@ -36,7 +47,7 @@ const AppsJourney = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex(prevIndex => (prevIndex + 1) % cardsContent.length);
-        }, 11000);
+        }, 2000);
 
         return () => clearInterval(interval);
     }, []);
