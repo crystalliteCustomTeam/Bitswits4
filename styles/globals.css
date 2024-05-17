@@ -2922,6 +2922,11 @@ input::-webkit-inner-spin-button {
     width: 120px;
     height: 5px;
   }
+
+  .industriesSlider .slick-prev,
+  .industriesSlider .slick-next {
+    top: 40%;
+  }
 }
 
 /*=========================*/
@@ -3313,7 +3318,7 @@ input::-webkit-inner-spin-button {
   }
 
   .industriesSlider .slick-slide.slick-active.slick-current .card {
-    transform: translateY(55px);
+    transform: translateY(-10px);
   }
 
   .industriesSlider .slick-slide.slick-active.slick-current .mainDiv {
@@ -4621,6 +4626,22 @@ button {
   .font40 {
     font-size: 30px;
   }
+
+  .dubaiClientSlider .slick-next {
+    right: -20px;
+  }
+
+  .dubaiClientSlider .slick-prev {
+    top: inherit;
+    bottom: -50px;
+    left: 40%;
+  }
+
+  .dubaiClientSlider .slick-next {
+    right: 40%;
+    top: inherit;
+    bottom: -50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4805,21 +4826,6 @@ button {
 }
 
 @media screen and (max-width: 567px) {
-  .dubaiClientSlider .slick-next {
-    right: -20px;
-  }
-
-  .dubaiClientSlider .slick-prev {
-    top: inherit;
-    bottom: -50px;
-    left: 40%;
-  }
-
-  .dubaiClientSlider .slick-next {
-    right: 40%;
-    top: inherit;
-    bottom: -50px;
-  }
 
   .appsSlider .slick-next {
     top: 195px;
