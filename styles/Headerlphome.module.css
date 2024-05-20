@@ -255,13 +255,21 @@
     background-color: #0000002e;
     margin-bottom: 6%;
   }
+
+  .newtown h2 {
+    text-align: center;
+  }
+
+  .bannerhome {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .toasNotification{
+  .toasNotification {
     display: none;
   }
-  
+
   .newpond {
     position: fixed;
     margin: 0;
@@ -269,10 +277,18 @@
     left: 0;
     display: none;
   }
+
+  .xolpost h1 {
+    font-size: 32px;
+  }
+
+  .xolpost h4 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .foldp{
+  .foldp {
     min-width: 50%;
     margin: 0 auto;
     display: block;
