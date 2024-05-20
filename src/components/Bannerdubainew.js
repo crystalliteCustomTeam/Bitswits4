@@ -138,8 +138,8 @@ const Bannerdubai = ({ content }) => {
                                 <h1 className='white fw500 mb-4'>
                                     {title}
                                 </h1>
-                                <p className='white mt-3 mb-lg-4'>
-                                    {desc}  
+                                <p className=''>
+                                    {desc}
                                 </p>
                                 <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver}`}>
                                     Let’s Build Your Dream App!
@@ -148,15 +148,15 @@ const Bannerdubai = ({ content }) => {
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
                                     <div>
-                                        <Image priority src={badgeClient} alt='Bitswits' width={183} height={80} />
+                                        <Image loading='lazy' src={badgeClient} alt='Bitswits' width={183} height={80} />
                                     </div>
                                     <div>
                                         <div className={styles.reviews}>
-                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image loading='lazy' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image loading='lazy' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image loading='lazy' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image loading='lazy' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image loading='lazy' src={Star} alt='Bitswits' width={25} height={22} />
                                         </div>
                                         <p className='mb-0'>
                                             <strong>4.8 out of 5</strong> (review rating)
@@ -165,7 +165,7 @@ const Bannerdubai = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <Image priority src={Clutch} alt='Bitswits' width={129} height={60} />
+                                    <Image loading='lazy' src={Clutch} alt='Bitswits' width={129} height={60} />
                                 </div>
                             </div>
                         </Col>
