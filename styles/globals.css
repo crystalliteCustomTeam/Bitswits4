@@ -4473,7 +4473,7 @@ button {
   gap: 25px;
 }
 
-.indusSlider .slick-slide.slick-active.slick-center.slick-current {
+/* .indusSlider .slick-slide.slick-active.slick-center.slick-current {
   transform: scale(1.05);
 }
 
@@ -4497,7 +4497,7 @@ button {
   z-index: 4;
   background: #000;
   border-radius: 15px;
-}
+} */
 
 /*====================== Media Queries ======================*/
 
