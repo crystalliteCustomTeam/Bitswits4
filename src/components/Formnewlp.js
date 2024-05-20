@@ -25,7 +25,6 @@ const Formnewlp = () => {
       }, []);
     const handleSubmit = async (e) => {
         e.preventDefault()
-        gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});
         var currentdate = new Date().toLocaleString() + ''
         const data = {
             name: e.target.first.value,
