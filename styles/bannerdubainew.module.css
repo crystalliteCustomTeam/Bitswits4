@@ -1178,6 +1178,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .newHomeBg {
+    background: #000;
+    background-image: inherit;
+  }
 
   .comple1 {
     display: flex;
