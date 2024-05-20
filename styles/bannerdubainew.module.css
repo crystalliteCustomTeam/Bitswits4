@@ -1377,11 +1377,11 @@
   }
 
   .oppp p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
     text-align: justify;
     margin-top: 10px !important;
-    margin-bottom: 45px !important;
+    margin-bottom: 30px !important;
     padding-right: 0;
   }
 
@@ -1390,5 +1390,8 @@
     height: 45px;
   }
 
+  .badge {
+    display: none;
+  }
 
 }
