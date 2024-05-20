@@ -58,7 +58,7 @@ const Conviced = () => {
                                 <div className={`${styles.btnImage} clutch`}>
                                     <Image src={Clutch} alt='Bitswits' className={`img-fluid d-block mt-4 ms-md-auto ${styles.clutch}`} />
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;" className='gap-4'>
+                                        <Link href='tel:1 833 500 6007' className='gap-4'>
                                             Free Consultation
                                             <Image src={Arrow} alt='Bitswits' width={24} height={15} />
                                         </Link>

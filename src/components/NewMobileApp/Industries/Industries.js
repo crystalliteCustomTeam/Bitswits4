@@ -169,7 +169,7 @@ const Industries = () => {
 
                         <Col lg={12}>
                             <div className={`${styles.btns}`}>
-                                <a href="javascript:;">
+                                <a href="#form">
                                     Let’s Discuss Your Project
                                 </a>
                             </div>

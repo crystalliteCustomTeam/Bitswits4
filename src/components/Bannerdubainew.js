@@ -149,15 +149,15 @@ const Bannerdubai = ({ content }) => {
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
                                     <div>
-                                        <Image src={badgeClient} alt='Bitswits' width={183} height={80} />
+                                        <Image priority src={badgeClient} alt='Bitswits' width={183} height={80} />
                                     </div>
                                     <div>
                                         <div className={styles.reviews}>
-                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority src={Star} alt='Bitswits' width={25} height={22} />
                                         </div>
                                         <p className='mb-0'>
                                             <strong>4.8 out of 5</strong> (review rating)
@@ -166,7 +166,7 @@ const Bannerdubai = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <Image src={Clutch} alt='Bitswits' width={129} height={60} />
+                                    <Image priority src={Clutch} alt='Bitswits' width={129} height={60} />
                                 </div>
                             </div>
                         </Col>
