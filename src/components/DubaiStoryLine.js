@@ -66,11 +66,11 @@ const StoryLine = ({ content }) => {
                                             <span>
                                                 {activeIndex === index ?
                                                     <div className={styles.nonActiveArrow}>
-                                                        <Image src={arrow} priority width={10} height={10} className="w-[40%]" alt="bitswits" />
+                                                        <Image src={arrow} loading="lazy" width={10} height={10} className="w-[40%]" alt="bitswits" />
                                                     </div>
                                                     :
                                                     <div className={styles.isActiveArrow}>
-                                                        <Image src={arrow} priority width={10} height={10} className="w-[40%] rotate-180 invert" alt="bitswits" />
+                                                        <Image src={arrow} loading="lazy" width={10} height={10} className="w-[40%] rotate-180 invert" alt="bitswits" />
                                                     </div>
                                                 }
                                             </span>
@@ -92,7 +92,7 @@ const StoryLine = ({ content }) => {
                         <div>
                             {activeIndex !== null && (
                                 <figure className="relative d-md-block d-none">
-                                    <Image priority className={`img-fluid mt-sm-0 mt-5 ${styles.storyLineImages}`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
+                                    <Image loading="lazy" className={`img-fluid mt-sm-0 mt-5 ${styles.storyLineImages}`} src={accordionData[activeIndex].StoryLineImg} alt="bitswits" />
                                 </figure>
                             )}
                         </div>
