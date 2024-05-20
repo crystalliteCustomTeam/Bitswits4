@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Whowearenew.module.css";
 //
-import ban1 from "@/public/newdubai/ban1.png"
+import ban1 from "@/public/newdubai/ban1.webp"
 import ban2 from "@/public/newdubai/ban2.png"
 import ban3 from "@/public/newdubai/ban3.png"
 import ArrowImage from "media/newdubai/slider-btn-arrow.png"
