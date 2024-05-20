@@ -118,27 +118,27 @@ const Bannerlpfinal = (props) => {
                                     <a href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>LIVE CHAT</a>
                                 </div>
                             </div>
-                            <div className={styles.comple}>
-                                <Image loading='lazy' quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
+                            <div className={`${styles.comple} d-none d-lg-flex`}>
+                                <Image loading='lazy' quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid d-none d-lg-block w-25`} />
 
                                 <div className={styles.comple1}>
-                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star} className='img-fluid' />
+                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star} className='img-fluid d-none d-lg-block' />
                                     <p className='mb-0'> <span className='fw700'>4.9 out of 5</span> <span className={styles.rating}>(review rating) <br></br>
                                         Over 1,200+ reviews
                                         Over 1,200+ reviews</span> </p>
                                 </div>
-                                <Image loading='lazy' quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
+                                <Image loading='lazy' quality={95} alt='BitsWits' src={clutch} className='img-fluid d-none d-lg-block' />
                             </div>
-                            <div className={styles.posty}>
+                            <div className={`${styles.posty} d-none d-lg-flex`}>
                                 <div className={styles.comple3}>
-                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star2} className='img-fluid' />
+                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star2} className='img-fluid d-none d-lg-block' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>US TOP 3 BEST RATED</p>
                                         <p className='mb-0 fw700'>App & Software Development Company</p>
                                     </div>
                                 </div>
                                 <div className={styles.comple3}>
-                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star1} className='img-fluid' />
+                                    <Image loading='lazy' quality={95} alt='BitsWits' src={star1} className='img-fluid d-none d-lg-block' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>HIGH PERFORMER</p>
                                         <p className='mb-0 fw700'>Top App Development Company</p>
@@ -161,20 +161,20 @@ const Bannerlpfinal = (props) => {
                                     </p>
                                     <input type='submit' name='submit' className={styles.value} placeholder="Submit" value={score}></input>
                                 </div>
-                                <div className={styles.office}>
+                                <div className="d-none d-lg-block">
                                     <h4 className='font20 white fw800 center mt-2'>OUR OFFICES</h4>
                                 </div>
-                                <div className={styles.ouroff}>
+                                <div className={`${styles.ouroff} d-none d-lg-flex`}>
                                     <span>
-                                        <Image loading='lazy' quality={95} alt='BitsWits' src={usa} className='img-fluid' />
+                                        <Image loading='lazy' quality={95} alt='BitsWits' src={usa} className='img-fluid d-none d-lg-block' />
                                         <p>USA</p>
                                     </span>
                                     <span>
-                                        <Image loading='lazy' quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
+                                        <Image loading='lazy' quality={95} alt='BitsWits' src={dubai} className='img-fluid d-none d-lg-block' />
                                         <p>MIDDLE EAST</p>
                                     </span>
                                     <span>
-                                        <Image loading='lazy' quality={95} alt='BitsWits' src={asia} className='img-fluid' />
+                                        <Image loading='lazy' quality={95} alt='BitsWits' src={asia} className='img-fluid d-none d-lg-block' />
                                         <p>ASIA</p>
                                     </span>
                                 </div>
