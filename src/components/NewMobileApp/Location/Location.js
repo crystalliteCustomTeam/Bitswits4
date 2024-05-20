@@ -18,65 +18,65 @@ const Location = () => {
                         <Col lg={12}>
                             <div className={styles.locations}>
                                 <div className={styles.locate}>
-                                    <h3>Sharjah</h3>
-                                    <p>Address</p>
-                                    <span className={styles.address}>Office #101, 32 Street, Al <br className='d-none d-lg-block' /> Mujarrah, Sharjah</span>
-                                    <div className={styles.number}>
-                                        <FaPhoneAlt className='me-2' size={12} />
-                                        <Link href="tel:;">
-                                            +971 555 031266
-                                        </Link>
-                                        <span className='mx-2'>|</span>
-                                        <Link href="tel:;">
-                                            +971 551 659060
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className={styles.locate}>
-                                    <h3>DELAWARE</h3>
-                                    <p>Address</p>
-                                    <span className={styles.address}>8 The Green STE 300, <br className='d-none d-lg-block' /> Dover DE 19901</span>
-                                    <div className={styles.number}>
-                                        <FaPhoneAlt className='me-2' size={12} />
-                                        <Link href="tel:;">
-                                            + 1 833 500 6007
-                                        </Link>
-                                        <span className='mx-2'>|</span>
-                                        <Link href="tel:;">
-                                            + 1 312 379 5987
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className={styles.locate}>
                                     <h3>HOUSTON</h3>
                                     <p>Address</p>
-                                    <span className={styles.address}>Williams Tower, 41St Floor <br className='d-none d-lg-block' /> 2800 Post Oak Blvd, Suite 4100 Houston, <br className='d-none d-lg-block' /> TX 77056</span>
+                                    <span className={styles.address}>2800 Post Oak Blvd STE 4100, <br className='d-none d-lg-block'/> Houston, TX 77056, United States 6</span>
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <Link href="tel:;">
-                                            + 1 713 565 7656
+                                            (833) 500-6007
                                         </Link>
                                     </div>
                                 </div>
                                 <div className={styles.locate}>
-                                    <h3>KARACHI</h3>
+                                    <h3>Chicago</h3>
                                     <p>Address</p>
-                                    <span className={styles.address}>12Th Floor Caesar's Tower, <br className='d-none d-lg-block' />  Karachi, Pakistan</span>
+                                    <span className={styles.address}>141 W Jackson Blvd STE 300 A, <br className='d-none d-lg-block'/> Chicago, IL 60604, United States </span>
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <Link href="tel:;">
-                                            +92 346 828 0101
+                                            (302) 216-8231
+                                        </Link>
+                                        {/* <span className='mx-2'>|</span>
+                                        <Link href="tel:;">
+                                            +971 551 659060
+                                        </Link> */}
+                                    </div>
+                                </div>
+                                <div className={styles.locate}>
+                                    <h3>Dallas</h3>
+                                    <p>Address</p>
+                                    <span className={styles.address}>1341 W Mockingbird Ln, Dallas, <br className='d-none d-lg-block'/> TX 75247, United States </span>
+                                    <div className={styles.number}>
+                                        <FaPhoneAlt className='me-2' size={12} />
+                                        <Link href="tel:;">
+                                            (302) 216-8231
+                                        </Link>
+                                        {/* <span className='mx-2'>|</span>
+                                        <Link href="tel:;">
+                                            + 1 312 379 5987
+                                        </Link> */}
+                                    </div>
+                                </div>
+                                <div className={styles.locate}>
+                                    <h3>Newyork</h3>
+                                    <p>Address</p>
+                                    <span className={styles.address}>26 Broadway Suite 934, New York, <br className='d-none d-lg-block'/> NY 10004, United States </span>
+                                    <div className={styles.number}>
+                                        <FaPhoneAlt className='me-2' size={12} />
+                                        <Link href="tel:;">
+                                            (302) 216-8231
                                         </Link>
                                     </div>
                                 </div>
                                 <div className={styles.locate}>
-                                    <h3>LABUAN</h3>
+                                    <h3>Dubai</h3>
                                     <p>Address</p>
-                                    <span className={styles.address}>Office 13 A - Main Office Tower <br className='d-none d-lg-block' />  Financial Park, Labuan , Malaysia</span>
+                                    <span className={styles.address}>office #101 - 32 Street - Al Majarra -<br className='d-none d-lg-block'/> Mughaidir Suburb - Sharjah - United Arab Emirates </span>
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <Link href="tel:;">
-                                            +92 346 828 0101
+                                        (+971) 55 503 1266
                                         </Link>
                                     </div>
                                 </div>

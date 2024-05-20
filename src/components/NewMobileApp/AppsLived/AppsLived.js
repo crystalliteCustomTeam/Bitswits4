@@ -227,12 +227,12 @@ const AppsLived = () => {
     ]
     return (
         <>
-            <section ref={sectionRef} className={styles.appStyles}>
+            <section id='casestudies' ref={sectionRef} className={styles.appStyles}>
                 <div className="container">
                     <Row>
                         <Col lg={12}>
                             <div className={styles}>
-                                <h2>Our Apps that <span>Left</span> an <span>Indelible</span> Mark!</h2>
+                                <h2>Our <span>Apps</span> that Left an <span>Indelible</span> Mark!</h2>
                                 <p>BitsWits has launched some of the leading mobile applications on Google Play Store and Apple App Store. Our iOS app development services and Android app development services have geared businesses to take the market by storm. Our work is a testimony to the quality of our full-cycle development processes. </p>
                             </div>
                         </Col>
@@ -248,8 +248,8 @@ const AppsLived = () => {
                                     <p>Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
 
                                     <div className={styles.blackBtn}>
-                                        <Link href="javascript:;" className='d-flex align-items-center gap-4'>
-                                            Featured Apps
+                                        <Link href="tel:1 833 500 6007" className='d-flex align-items-center gap-4'>
+                                            Free Consultation
                                             <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                         </Link>
                                     </div>

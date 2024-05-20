@@ -25,7 +25,7 @@ const Card = ({ content, isActive }) => {
 const CardContainer = ({ content, isActive }) => {
     return (
         <div className={styles.cardsMain}>
-            <Link href="javascript:;">
+            <Link href="tel:1 833 500 6007">
                 <Card content={content} isActive={isActive} />
             </Link>
         </div>

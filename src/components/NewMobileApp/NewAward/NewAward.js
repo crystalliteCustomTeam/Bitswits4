@@ -50,6 +50,7 @@ const NewAward = ({ content }) => {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
+                    speed: 20000,
                 }
             },
         ]
