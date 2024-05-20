@@ -80,7 +80,7 @@
   .donothing::before {
     position: absolute;
     content: "";
-    background-image: url(../public/images/mobilelpfinal/bgimage.png);
+    background-image: url(../public/images/mobilelpfinal/bgimage.webp);
     width: 728px;
     height: 728px;
     top: -300px;
@@ -96,7 +96,7 @@
   .donothing::before {
     position: absolute;
     content: "";
-    background-image: url(../public/images/mobilelpfinal/bgimage.png);
+    background-image: url(../public/images/mobilelpfinal/bgimage.webp);
     width: 728px;
     height: 728px;
     top: -300px;

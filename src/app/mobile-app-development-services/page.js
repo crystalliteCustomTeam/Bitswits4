@@ -1,21 +1,21 @@
 "use client"
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 // CSS
 import stylesjust from "@/styles/Justbuilditlp.module.css";
 // Components
 import Bannerlpfinal from "../../components/Bannerlpfinal";
-import Awardsrecognition from "../../components/Awardsrecognition";
-import Nothinglp2 from "../../components/Nothinglp2";
-import Innovate from "../../components/Innovate";
-import Technologieslp from "../../components/Technologieslp";
-import Globallplp6 from "../../components/Globallplp6";
-import ProjectProcesslpfinal6 from "../../components/ProjectProcesslpfinal6";
-import Justbuilditlp from "../../components/Justbuilditlp";
-import Transformideaslp6 from "../../components/Transformideaslp6";
-import Formnewlp2lp6 from "../../components/Formnewlp2lp6";
-import NewFaqslp from "../../components/NewFaqslp";
-import HomeLocationlp from "../../components/HomeLocationlp";
-import Expertapplp6 from "../../components/Expertapplp6";
+const Awardsrecognition = React.lazy(() => import("../../components/Awardsrecognition"));
+const Nothinglp2 = React.lazy(() => import("../../components/Nothinglp2"));
+const Innovate = React.lazy(() => import("../../components/Innovate"));
+const Technologieslp = React.lazy(() => import("../../components/Technologieslp"));
+const Globallplp6 = React.lazy(() => import("../../components/Globallplp6"));
+const ProjectProcesslpfinal6 = React.lazy(() => import("../../components/ProjectProcesslpfinal6"));
+const Justbuilditlp = React.lazy(() => import("../../components/Justbuilditlp"));
+const Transformideaslp6 = React.lazy(() => import("../../components/Transformideaslp6"));
+const Formnewlp2lp6 = React.lazy(() => import("../../components/Formnewlp2lp6"));
+const NewFaqslp = React.lazy(() => import("../../components/NewFaqslp"));
+const HomeLocationlp = React.lazy(() => import("../../components/HomeLocationlp"));
+const Expertapplp6 = React.lazy(() => import("../../components/Expertapplp6"));
 
 export default function gamedevelopmentcompany() {
   const [showFolds, setShowFolds] = useState(false);

@@ -32,6 +32,11 @@ import icon11 from '/public/images/awards/award11.png'
 
 const Footerlp = () => {
 
+  const icons = [
+    icon1, icon2, icon3, icon4, icon5, icon6,
+    icon7, icon8, icon9, icon10, icon11
+  ];
+
   var awardslogo = {
     dots: false,
     arrows: false,
@@ -77,39 +82,11 @@ const Footerlp = () => {
             </Col>
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon1} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon2} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon3} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon4} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon5} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon6} className="img-fluid" />
-                </div>
-                <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image alt="BitsWits" src={icon7} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon8} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon9} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon10} className="img-fluid" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon11} className="img-fluid" />
-                </div>
+                {icons.map((icon, index) => (
+                  <div key={index} className={`${styles.strpImg} ${icon === icon7 ? styles.minImg : styles.strpImg}`}>
+                    <Image alt="BitsWits" src={icon} className="img-fluid" />
+                  </div>
+                ))}
               </Slider>
             </Col>
           </Row>
@@ -182,7 +159,7 @@ const Footerlp = () => {
                   <li>
                     <Link href="/our-work">Works</Link>
                   </li>
-              
+
                   <li>
                     <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
@@ -192,7 +169,7 @@ const Footerlp = () => {
                   <li>
                     <Link href="/blog">Blogs</Link>
                   </li>
-                
+
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-2">

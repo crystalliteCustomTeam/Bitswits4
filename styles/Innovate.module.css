@@ -110,7 +110,7 @@
 .innovate::before {
   position: absolute;
   content: "";
-  background-image: url(../public/images/mobilelpfinal/bglong.png);
+  background-image: url(../public/images/mobilelpfinal/bglong.webp);
   width: 1954px;
   height: 1954px;
   top: -663px;

@@ -2,7 +2,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background: #000;
-  background-image: url(../public/images/mobilelpfinal/bg.png);
+  background-image: url(../public/images/mobilelpfinal/bg.webp);
   background-position: 406px -525px;
   background-repeat: no-repeat;
   background-size: 93%;
@@ -716,16 +716,14 @@
     padding-bottom: 0px;
     padding-top: 50px;
   }
+
+  .comple,
+  .posty {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .posty {
-    display: flex;
-    gap: 10px;
-    margin-top: 6%;
-    margin-bottom: 6%;
-  }
-
   .conform h2 {
     font-size: 30px;
     line-height: 1.2;
@@ -809,14 +807,6 @@
     padding-right: 15px;
   }
 
-  .comple {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    margin-top: 2%;
-    margin-bottom: 10%;
-  }
-
   .conform h2 {
     font-size: 24px;
     line-height: 1.5;
@@ -826,15 +816,6 @@
 
   .oppp h4 {
     font-size: 18px;
-  }
-
-  .posty {
-    display: flex;
-    gap: 10px;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    flex-direction: column;
-    gap: 20px;
   }
 
   .careatapp {
