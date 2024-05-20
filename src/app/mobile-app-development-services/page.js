@@ -1,6 +1,4 @@
 "use client"
-import dynamic from 'next/dynamic';
-import { useEffect, useState } from "react";
 // CSS
 import stylesjust from "@/styles/Justbuilditlp.module.css";
 // Components
@@ -19,13 +17,6 @@ import HomeLocationlp from "../../components/HomeLocationlp";
 import Expertapplp6 from "../../components/Expertapplp6";
 
 export default function gamedevelopmentcompany() {
-  const [showFolds, setShowFolds] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
   return (
     <>
       <Bannerlpfinal newHomeBgprops="newHomeBg" />
