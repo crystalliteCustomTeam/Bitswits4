@@ -718,7 +718,11 @@
   }
 
   .comple,
-  .posty {
+  .posty,
+  .ouroff,
+  .comple img,
+  .posty img,
+  .ouroff img {
     display: none;
   }
 }

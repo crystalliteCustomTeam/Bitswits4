@@ -121,27 +121,27 @@ const Bannerlpfinal = (props) => {
                                 </div>
                             </div>
                             <div className={styles.comple}>
-                                <Image priority quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
+                                <Image loading="lazy" quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
 
                                 <div className={styles.comple1}>
-                                    <Image priority quality={95} alt='BitsWits' src={star} className='img-fluid' />
+                                    <Image loading="lazy" quality={95} alt='BitsWits' src={star} className='img-fluid' />
                                     <p className='mb-0'> <span className='fw700'>4.9 out of 5</span> <span className={styles.rating}>(review rating) <br></br>
                                         Over 1,200+ reviews
                                         Over 1,200+ reviews</span> </p>
                                 </div>
-                                <Image priority quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
+                                <Image loading="lazy" quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
                             </div>
 
                             <div className={styles.posty}>
                                 <div className={styles.comple3}>
-                                    <Image priority quality={95} alt='BitsWits' src={star2} className='img-fluid' />
+                                    <Image loading="lazy" quality={95} alt='BitsWits' src={star2} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>US TOP 3 BEST RATED</p>
                                         <p className='mb-0 fw700'>App & Software Development Company</p>
                                     </div>
                                 </div>
                                 <div className={styles.comple3}>
-                                    <Image priority quality={95} alt='BitsWits' src={star1} className='img-fluid' />
+                                    <Image loading="lazy" quality={95} alt='BitsWits' src={star1} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>HIGH PERFORMER</p>
                                         <p className='mb-0 fw700'>Top App Development Company</p>
@@ -171,15 +171,15 @@ const Bannerlpfinal = (props) => {
                                 </div>
                                 <div className={styles.ouroff}>
                                     <span>
-                                        <Image priority quality={95} alt='BitsWits' src={usa} className='img-fluid' />
+                                        <Image loading="lazy" quality={95} alt='BitsWits' src={usa} className='img-fluid' />
                                         <p>USA</p>
                                     </span>
                                     <span>
-                                        <Image priority quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
+                                        <Image loading="lazy" quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
                                         <p>MIDDLE EAST</p>
                                     </span>
                                     <span>
-                                        <Image priority quality={95} alt='BitsWits' src={asia} className='img-fluid' />
+                                        <Image loading="lazy" quality={95} alt='BitsWits' src={asia} className='img-fluid' />
                                         <p>ASIA</p>
                                     </span>
                                 </div>
