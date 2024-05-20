@@ -22,6 +22,110 @@ import Star from "/public/newDubaiPagev1/star.png"
 
 const NewDubaiAwards = ({ content }) => {
     const { title, desc } = content;
+
+    const sliderData = [
+        {
+            image: Slider2,
+            title: 'Dot Comm',
+            description: 'Excellence in Web Creativity & Digital Communication',
+        },
+        {
+            image: Slider3,
+            title: 'INC. 5000',
+            description: "America's Fastest Growing Companies",
+        },
+        {
+            image: Slider1,
+            title: 'Horizon Award',
+            description: 'Gold Award Winner 2020',
+        },
+        {
+            image: Slider5,
+            title: 'Horizon Award',
+            description: 'Silver Awards Winner 2023',
+        },
+        {
+            image: Slider6,
+            title: 'Clutch',
+            description: 'Top 1000 Companies',
+        },
+        {
+            image: Slider7,
+            title: 'Right firms',
+            description: 'Top Mobile App Development Company 2023',
+        },
+        {
+            image: Slider12,
+            title: 'The Manifest',
+            description: 'Most Reviewed App Development Company',
+        },
+        {
+            image: Slider13,
+            title: 'The Manifest',
+            description: 'Most Reviewed App Development Company',
+        },
+        {
+            image: Slider8,
+            title: 'Top Developers',
+            description: 'Top Entertainment App Developers',
+        },
+        {
+            image: Slider9,
+            title: 'Expertise',
+            description: 'Best Mobile App Developer',
+        },
+        {
+            image: Slider10,
+            title: 'Top Rated',
+            description: 'Top App Development Companies',
+        },
+        {
+            image: Slider1,
+            title: 'Horizon Award',
+            description: 'Gold Award Winner 2020',
+        },
+        {
+            image: Slider2,
+            title: 'Dot Comm',
+            description: 'Excellence in Web Creativity & Digital Communication',
+        },
+        {
+            image: Slider3,
+            title: 'INC. 5000',
+            description: "America's Fastest Growing Companies",
+        },
+        {
+            image: Slider5,
+            title: 'Horizon Award',
+            description: 'Silver Awards Winner 2023',
+        },
+        {
+            image: Slider6,
+            title: 'Clutch',
+            description: 'Top 1000 Companies',
+        },
+        {
+            image: Slider7,
+            title: 'Right firms',
+            description: 'Top Mobile App Development Company 2023',
+        },
+        {
+            image: Slider8,
+            title: 'Top Developers',
+            description: 'Top Entertainment App Developers',
+        },
+        {
+            image: Slider9,
+            title: 'Expertise',
+            description: 'Best Mobile App Developer',
+        },
+        {
+            image: Slider10,
+            title: 'Top Rated',
+            description: 'Top App Development Companies',
+        },
+    ];
+
     var awardSlider = {
         arrows: false,
         slidesToShow: 4,
@@ -88,7 +192,7 @@ const NewDubaiAwards = ({ content }) => {
                         </Col>
                         <Col md={8}>
                             <div className='mt-4 mt-md-0'>
-                                <Slider {...awardSlider}>
+                                {/* <Slider {...awardSlider}>
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
@@ -317,6 +421,21 @@ const NewDubaiAwards = ({ content }) => {
                                             </div>
                                         </div>
                                     </div>
+                                </Slider> */}
+                                <Slider {...awardSlider}>
+                                    {sliderData.map((slide, index) => (
+                                        <div key={index} className='px-2 px-lg-1'>
+                                            <div className={styles.sliderCards}>
+                                                <div className={styles.imageDiv}>
+                                                    <Image src={slide.image} alt="Bitswits" className='mx-auto' />
+                                                </div>
+                                                <div className={styles.sliderTxt}>
+                                                    <h6>{slide.title}</h6>
+                                                    <p className='mb-0 fontsfregular'>{slide.description}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </Slider>
                             </div>
                         </Col>
