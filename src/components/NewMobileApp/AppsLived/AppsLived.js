@@ -291,7 +291,7 @@ const AppsLived = () => {
                                                     <p>{content.desc}</p>
                                                 </div>
                                                 <div className={styles.sliderBtn}>
-                                                    <Link href="javascript:;" className='d-flex align-items-center gap-4'>
+                                                    <Link href='tel:1 833 500 6007' className='d-flex align-items-center gap-4'>
                                                         Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                                     </Link>

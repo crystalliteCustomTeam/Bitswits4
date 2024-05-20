@@ -1,6 +1,8 @@
 "use client"
+import dynamic from 'next/dynamic'
 import React from "react";
 // componets
+// const Bannerdubai = dynamic(() => import('../../components/Bannerdubainew'));
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import StoryLine from "@/src/components/DubaiStoryLine";
@@ -279,7 +281,7 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-  
+
 
   return (
     <>

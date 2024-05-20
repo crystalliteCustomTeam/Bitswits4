@@ -70,7 +70,7 @@ const NewAward = ({ content }) => {
                                         {desc}
                                     </p>
                                     <div className={`${styles.btn} mt-5 mt-md-0`}>
-                                        <a href="javascript:;">
+                                        <a href='tel:1 833 500 6007'>
                                             Free Consultation
                                         </a>
                                     </div>

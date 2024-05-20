@@ -81,7 +81,7 @@ const AppsJourney = () => {
                                     Explore New Horizons – Let Our App Experts Take Control!
                                 </h2>
                                 <div className={styles.btn}>
-                                    <Link href="javascript:;">
+                                    <Link href='tel:1 833 500 6007'>
                                         Make A Move!
                                     </Link>
                                 </div>

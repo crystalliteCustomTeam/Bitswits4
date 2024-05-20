@@ -35,7 +35,7 @@ const JournyForm = () => {
                             </div>
                         </Col>
                         <Col lg={6}>
-                            <form>
+                            <form id='form'>
                                 <div className='mb-4'>
                                     <h4>Have an Idea to Execute?
                                     </h4>

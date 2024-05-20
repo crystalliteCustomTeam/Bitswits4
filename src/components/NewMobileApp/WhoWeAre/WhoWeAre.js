@@ -174,7 +174,7 @@ const Whowearenew = ({ content }) => {
                                     <h6>Our Value Additions for Clients</h6>
                                     <h3>Progress By <br /> Numbers</h3>
                                     <div className={`${styles.btn}`}>
-                                        <a href="javascript:;">
+                                        <a href='tel:1 833 500 6007'>
                                             Time to Execute
                                         </a>
                                     </div>

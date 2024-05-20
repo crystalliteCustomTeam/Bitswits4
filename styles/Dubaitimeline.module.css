@@ -132,7 +132,7 @@
 .marker {
   width: 220px;
   height: 50px;
-  background-image: url(../public/newDubaiPagev1/timelineParticle.png);
+  background-image: url(../public/newDubaiPagev1/timelineParticle.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@
 .numberOne {
   width: 250px;
   height: 50px;
-  background-image: url(../public/newDubaiPagev1/numberOne.png);
+  background-image: url(../public/newDubaiPagev1/numberOne.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -192,7 +192,7 @@
   width: 250px;
   height: 50px;
   margin-left: -14px;
-  background-image: url(../public/newDubaiPagev1/numberTwo.png);
+  background-image: url(../public/newDubaiPagev1/numberTwo.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
   width: 250px;
   height: 50px;
   margin-left: -14px;
-  background-image: url(../public/newDubaiPagev1/numberThree.png);
+  background-image: url(../public/newDubaiPagev1/numberThree.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@
   width: 250px;
   height: 50px;
   margin-left: -14px;
-  background-image: url(../public/newDubaiPagev1/numberFour.png);
+  background-image: url(../public/newDubaiPagev1/numberFour.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@
   width: 220px;
   height: 50px;
   margin-left: -50px;
-  background-image: url(../public/newDubaiPagev1/timelineParticle.png);
+  background-image: url(../public/newDubaiPagev1/timelineParticle.webp);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
