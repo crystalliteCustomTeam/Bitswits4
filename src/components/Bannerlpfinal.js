@@ -1,20 +1,18 @@
-import React from 'react'
-import asia from "@/public/images/mobilelpfinal/asia.png"
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
-import Image from 'next/image';
-import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/bannerlpfianl.module.css";
 //
+import asia from "@/public/images/mobilelpfinal/asia.png"
 import banImg1 from '/public/images/people/people.png'
 import star from '/public/images/mobilelpfinal/star.png'
 import clutch from '/public/images/mobilelpfinal/clutch.png'
 import star1 from '/public/images/people/1.png'
 import star2 from '/public/images/people/2.png'
 import usa from "@/public/images/mobilelpfinal/usa.png"
-import dubai from "@/public/images/mobilelpfinal/dubai.png" 
+import dubai from "@/public/images/mobilelpfinal/dubai.png"
 
 
 const Bannerlpfinal = (props) => {
@@ -29,7 +27,7 @@ const Bannerlpfinal = (props) => {
         getIPData()
     }, [])
     const [score, setScore] = useState('ENQUIRE NOW');
-   const router = usePathname();
+    const router = usePathname();
     const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
@@ -56,7 +54,7 @@ const Bannerlpfinal = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-    
+
 
 
         fetch('/api/emailapi/', {
@@ -123,27 +121,27 @@ const Bannerlpfinal = (props) => {
                                 </div>
                             </div>
                             <div className={styles.comple}>
-                                <Image quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
+                                <Image priority quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
 
                                 <div className={styles.comple1}>
-                                    <Image quality={95} alt='BitsWits' src={star} className='img-fluid' />
+                                    <Image priority quality={95} alt='BitsWits' src={star} className='img-fluid' />
                                     <p className='mb-0'> <span className='fw700'>4.9 out of 5</span> <span className={styles.rating}>(review rating) <br></br>
                                         Over 1,200+ reviews
                                         Over 1,200+ reviews</span> </p>
                                 </div>
-                                <Image quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
+                                <Image priority quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
                             </div>
 
                             <div className={styles.posty}>
                                 <div className={styles.comple3}>
-                                    <Image quality={95} alt='BitsWits' src={star2} className='img-fluid' />
+                                    <Image priority quality={95} alt='BitsWits' src={star2} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>US TOP 3 BEST RATED</p>
                                         <p className='mb-0 fw700'>App & Software Development Company</p>
                                     </div>
                                 </div>
                                 <div className={styles.comple3}>
-                                    <Image quality={95} alt='BitsWits' src={star1} className='img-fluid' />
+                                    <Image priority quality={95} alt='BitsWits' src={star1} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>HIGH PERFORMER</p>
                                         <p className='mb-0 fw700'>Top App Development Company</p>
@@ -173,15 +171,15 @@ const Bannerlpfinal = (props) => {
                                 </div>
                                 <div className={styles.ouroff}>
                                     <span>
-                                        <Image quality={95} alt='BitsWits' src={usa} className='img-fluid' />
+                                        <Image priority quality={95} alt='BitsWits' src={usa} className='img-fluid' />
                                         <p>USA</p>
                                     </span>
                                     <span>
-                                        <Image quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
+                                        <Image priority quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
                                         <p>MIDDLE EAST</p>
                                     </span>
                                     <span>
-                                        <Image quality={95} alt='BitsWits' src={asia} className='img-fluid' />
+                                        <Image priority quality={95} alt='BitsWits' src={asia} className='img-fluid' />
                                         <p>ASIA</p>
                                     </span>
                                 </div>

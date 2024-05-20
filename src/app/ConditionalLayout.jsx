@@ -22,6 +22,7 @@ import Skicky from "../components/Skicky";
 import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
+import FooterNewLps from "../components/FooterNewLps";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -125,7 +126,8 @@ const ConditionalLayout = ({ children }) => {
                 pathname == "/mobile-app-development-company-lp2" ? <Footernewlp /> :
                     pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
-                                pathname == "/video-explainer-lp" ? <VideoFooter /> :
+                            pathname == "/video-explainer-lp" ? <VideoFooter /> :
+                                pathname == "/top-mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
                                         <Footer />
             }
