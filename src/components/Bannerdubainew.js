@@ -138,10 +138,10 @@ const Bannerdubai = ({ content }) => {
                                 <h1 className='white fw500 mb-4'>
                                     {title}
                                 </h1>
-                                <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
-                                    {desc}
+                                <p className='white mt-3 mb-lg-4'>
+                                    {desc}  
                                 </p>
-                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
+                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver}`}>
                                     Let’s Build Your Dream App!
                                 </a>
                             </div>
