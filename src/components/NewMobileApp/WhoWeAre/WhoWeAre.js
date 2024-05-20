@@ -99,7 +99,7 @@ const Whowearenew = ({ content }) => {
     const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
     return (
         <>
-            <section id='casestudies' ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
+            <section ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
                 <Container>
                     <Row className={`${styles.android} mx-auto`}>
                         <h2 className='center'>{title}</h2>
@@ -133,37 +133,37 @@ const Whowearenew = ({ content }) => {
                                 <Row className={styles.counterdigit}>
                                     <Col md={4} className={`col-6 ${styles.borderOne}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">93</span><span>%</span>
+                                            <span className='mb-0 d-inline'>93</span><span>%</span>
                                         </h5>
                                         <p>Satisfied Customers</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderTwo}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">90000</span><span>+</span>
+                                            <span className='mb-0 d-inline'>90000</span><span>+</span>
                                         </h5>
                                         <p>Development Hours</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderThree}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">2500</span><span>+</span>
+                                            <span className='mb-0 d-inline'>2500</span><span>+</span>
                                         </h5>
                                         <p>App Launched</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFour}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">100</span><span>+</span>
+                                            <span className='mb-0 d-inline'>100</span><span>+</span>
                                         </h5>
                                         <p className='mb-0'>Countries Served</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFive}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">24</span><span>/7</span>
+                                            <span className='mb-0 d-inline'>24</span><span>/7</span>
                                         </h5>
                                         <p className='mb-0'>Post Launch<br /> Support</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderSix}`}>
                                         <h5 className='pt-2'>
-                                            <span className='mb-0 d-inline counter' data-speed="4000">167</span><span>%</span>
+                                            <span className='mb-0 d-inline'>167</span><span>%</span>
                                         </h5>
                                         <p className='mb-0'>Average ROI <br /> Return</p>
                                     </Col>

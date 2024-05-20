@@ -129,7 +129,7 @@
   width: max-content;
   height: 45px;
   border-radius: 6px;
-  background: black;
+  background: #f32f53;
   box-shadow: 0 5px 12px #00000075;
   color: white;
   display: flex;
@@ -163,6 +163,6 @@
 
 @media only screen and (max-width: 567px) {
   .industries {
-    padding: 0 0 50px;
+    padding: 50px 0 50px;
   }
 }

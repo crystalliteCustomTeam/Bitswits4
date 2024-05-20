@@ -39,6 +39,7 @@ const Conviced = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
+                    speed: 20000,
                 }
             }
         ]
@@ -58,7 +59,7 @@ const Conviced = () => {
                                     <Image src={Clutch} alt='Bitswits' className={`img-fluid d-block mt-4 ms-md-auto ${styles.clutch}`} />
                                     <div className={styles.btn}>
                                         <Link href="javascript:;" className='gap-4'>
-                                            See All
+                                            Free Consultation
                                             <Image src={Arrow} alt='Bitswits' width={24} height={15} />
                                         </Link>
                                     </div>
@@ -75,7 +76,7 @@ const Conviced = () => {
                                             </div>
                                             <div className={styles.cardBottom}>
                                                 <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                     <div className="txt">
                                                         <h3>Hal Jordan</h3>
                                                         <h6>Chief Operating Officer</h6>
@@ -96,7 +97,7 @@ const Conviced = () => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                 <div className="txt">
                                                     <h3>Ethan Fatu</h3>
                                                     <h6>Marketing Manager</h6>
@@ -117,7 +118,7 @@ const Conviced = () => {
                                             </div>
                                             <div className={styles.cardBottom}>
                                                 <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                     <div className="txt">
                                                         <h3>Samantha Ervine</h3>
                                                         <h6>Social Media Influencer</h6>
@@ -138,7 +139,7 @@ const Conviced = () => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                 <div className="txt">
                                                     <h3>Mark Maron</h3>
                                                     <h6>Healthcare Expert</h6>
@@ -159,7 +160,7 @@ const Conviced = () => {
                                             </div>
                                             <div className={styles.cardBottom}>
                                                 <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                     <div className="txt">
                                                         <h3>Suzie Milton</h3>
                                                         <h6>Game Developer</h6>
@@ -180,7 +181,7 @@ const Conviced = () => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                 <div className="txt">
                                                     <h3>Antonio Botticelli</h3>
                                                     <h6>Fashion Designer</h6>
@@ -201,7 +202,7 @@ const Conviced = () => {
                                             </div>
                                             <div className={styles.cardBottom}>
                                                 <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                    <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                    {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                     <div className="txt">
                                                         <h3>Mehtab Sheikh </h3>
                                                         <h6>Hotelier</h6>
@@ -222,7 +223,7 @@ const Conviced = () => {
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <div className="client d-flex align-items-center gap-1 gap-xxl-3">
-                                                <Image src={Client1} alt='Bitswits' width={45} height={45} />
+                                                {/* <Image src={Client1} alt='Bitswits' width={45} height={45} /> */}
                                                 <div className="txt">
                                                     <h3>Heather Feinstein</h3>
                                                     <h6>Art Enthusiast</h6>

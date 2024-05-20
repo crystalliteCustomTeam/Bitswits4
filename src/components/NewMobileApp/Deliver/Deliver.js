@@ -87,9 +87,7 @@ const Deliver = () => {
                             <div>
                                 <div className={`${styles.card}`}>
                                     <div className={styles.imgBox}>
-                                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
-                                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
-                                        <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                                        <Image src={icon1} alt='BitsWits' className='img-fluid' /> 
                                     </div>
                                     <h3>Clear Communication</h3>
                                     <p>We have a transparent policy where we keep a direct and open line of communication. Trust and integrity are paramount for maximum ROI generation.</p>

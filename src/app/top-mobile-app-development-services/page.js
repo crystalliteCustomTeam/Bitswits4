@@ -34,7 +34,7 @@ const page = () => {
   // Who We Are Content
   const WhoWeAre = {
     title: "This is Us",
-    desc: <>As the torch bearer of mobile app development services in US, <span>BitsWits (make this red)</span> offers the best app making services and excels in custom <span>mobile and web applications (make this red)</span>, focusing on user-centric, innovative solutions. We specialize in healthcare, social media, and enterprise apps and software, enhancing operational efficiency and user engagement while boosting <span>ROI (make this red) </span>for your business.
+    desc: <>As the torch bearer of mobile app development services in US, <span>BitsWits</span> offers the best app making services and excels in custom <span>mobile and web applications</span>, focusing on user-centric, innovative solutions. We specialize in healthcare, social media, and enterprise apps and software, enhancing operational efficiency and user engagement while boosting <span>ROI </span>for your business.
     </>,
     subtitleOne: "Soul Scribe ",
     subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
