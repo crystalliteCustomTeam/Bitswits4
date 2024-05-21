@@ -2,7 +2,6 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/NewMobileApp/LogoSlider.module.css'
 //
@@ -18,16 +17,20 @@ import leftImg5 from 'media/newmobileapp/sqlite-logo/leftImg5.png'
 import leftImg6 from 'media/newmobileapp/sqlite-logo/leftImg6.png'
 import leftImg7 from 'media/newmobileapp/sqlite-logo/leftImg7.png'
 import leftImg8 from 'media/newmobileapp/sqlite-logo/leftImg8.png'
-// import leftImg9 from 'media/newmobileapp/sqlite-logo/leftImg9.png'
-import rightImg1 from 'media/newmobileapp/sqlite-logo/ionic.png'
-import rightImg2 from 'media/newmobileapp/sqlite-logo/node-logo.png'
-import rightImg3 from 'media/newmobileapp/sqlite-logo/php-logo.png'
-import rightImg4 from 'media/newmobileapp/sqlite-logo/javascript-logo.png'
-import rightImg5 from 'media/newmobileapp/sqlite-logo/ios-sdk.png'
-import rightImg6 from 'media/newmobileapp/sqlite-logo/kotlin.png'
-import rightImg7 from 'media/newmobileapp/sqlite-logo/objective.png'
-import rightImg8 from 'media/newmobileapp/sqlite-logo/react-logo.png'
-import rightImg9 from 'media/newmobileapp/sqlite-logo/sqlite-logo.png'
+import leftImg9 from 'media/newmobileapp/sqlite-logo/leftImg9.png'
+import leftImg10 from 'media/newmobileapp/sqlite-logo/leftImg10.png'
+import leftImg11 from 'media/newmobileapp/sqlite-logo/leftImg11.png'
+import rightImg1 from 'media/newmobileapp/sqlite-logo/rightImg1.png'
+import rightImg2 from 'media/newmobileapp/sqlite-logo/rightImg2.png'
+import rightImg3 from 'media/newmobileapp/sqlite-logo/rightImg3.png'
+import rightImg4 from 'media/newmobileapp/sqlite-logo/rightImg4.png'
+import rightImg5 from 'media/newmobileapp/sqlite-logo/rightImg5.png'
+import rightImg6 from 'media/newmobileapp/sqlite-logo/rightImg6.png'
+import rightImg7 from 'media/newmobileapp/sqlite-logo/rightImg7.png'
+import rightImg8 from 'media/newmobileapp/sqlite-logo/rightImg8.png'
+import rightImg9 from 'media/newmobileapp/sqlite-logo/rightImg9.png'
+import rightImg10 from 'media/newmobileapp/sqlite-logo/rightImg10.png'
+import rightImg11 from 'media/newmobileapp/sqlite-logo/rightImg11.png'
 import btnArrow from "media/newmobileapp/right-arrow.png"
 
 const LogoSlider = (props) => {
@@ -40,7 +43,9 @@ const LogoSlider = (props) => {
         { image: leftImg6, index: 5 },
         { image: leftImg7, index: 6 },
         { image: leftImg8, index: 7 },
-        // { image: leftImg9, index: 8 },
+        { image: leftImg9, index: 8 },
+        { image: leftImg10, index: 9 },
+        { image: leftImg11, index: 10 },
     ];
     const tabRight = [
         { image: rightImg1, index: 0 },
@@ -50,10 +55,12 @@ const LogoSlider = (props) => {
         { image: rightImg5, index: 4 },
         { image: rightImg6, index: 5 },
         { image: rightImg7, index: 6 },
-        { image: leftImg1, index: 7 },
+        { image: rightImg8, index: 7 },
         { image: rightImg9, index: 8 },
+        { image: rightImg10, index: 9 },
+        { image: rightImg11, index: 10 },
     ];
-    const router = usePathname();
+
     var leftSlider = {
         dots: false,
         arrows: false,
@@ -89,7 +96,7 @@ const LogoSlider = (props) => {
         speed: 10000,
         pauseOnHover: false,
         cssEase: 'linear',
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 1,
         rtl: true,
         responsive: [
