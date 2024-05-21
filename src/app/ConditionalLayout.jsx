@@ -82,10 +82,6 @@ const ConditionalLayout = ({ children }) => {
         pathname == "/create-a-mobile-app" ||
         pathname == "/top-mobile-app-developers";
     // =======================================
-    const superecommer =
-        pathname == "/top-mobile-app-developers" ||
-        pathname == "/top-ecommerce-app-development-company";
-    // =======================================
     const [showPixels, setShowPixels] = useState(false);
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -109,7 +105,7 @@ const ConditionalLayout = ({ children }) => {
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
                             pathname == "/video-explainer-lp" ? <VideoHeader /> :
-                                pathname == "/top-mobile-app-development-services" ? <>
+                                pathname == "/lp/mobile-app-development-services" ? <>
                                     <NewMobileHeader />
                                     <NewHeaderMbl />
                                 </> :
@@ -120,14 +116,19 @@ const ConditionalLayout = ({ children }) => {
                                         </>
             }
             {mouse && <Cursor />}
-            {superecommer ? '' : <Skicky />}
+            {
+                pathname == "/top-mobile-app-developers" ? '' :
+                    pathname == "/top-ecommerce-app-development-company" ? '' :
+                        pathname == "/lp/mobile-app-development-services" ? '' :
+                            <Skicky />
+            }
             {children}
             {
                 pathname == "/mobile-app-development-company-lp2" ? <Footernewlp /> :
                     pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
                         pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
                             pathname == "/video-explainer-lp" ? <VideoFooter /> :
-                                pathname == "/top-mobile-app-development-services" ? <FooterNewLps /> :
+                                pathname == "/lp/mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
                                         <Footer />
             }

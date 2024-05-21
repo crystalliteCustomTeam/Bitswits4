@@ -1,7 +1,8 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Bannerdubai from '@/src/components/NewMobileApp/Banner/Banner'
+import Sticky from "@/src/components/NewMobileApp/MobileSkicky/MobileSkicky"
 import NewAward from '@/src/components/NewMobileApp/NewAward/NewAward';
 import Whowearenew from '@/src/components/NewMobileApp/WhoWeAre/WhoWeAre';
 import FutureReady from '@/src/components/NewMobileApp/FutureReady/FutureReady';
@@ -16,13 +17,45 @@ import JournyForm from '@/src/components/NewMobileApp/JourneyForm/JournyForm';
 import Faqs from '@/src/components/NewMobileApp/Faqs/Faqs';
 import Location from '@/src/components/NewMobileApp/Location/Location';
 
-const page = () => {
+const page = ({ content }) => {
+  // Skicky
+  const [isHovered, setIsHovered] = useState(false);
+  const [showSticky, setShowSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const showStickyThreshold = 700;
+
+      if (scrollPosition > showStickyThreshold) {
+        setShowSticky(true);
+      } else {
+        setShowSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const loc = () => {
+    setIsHovered((prev) => !prev);
+  };
+
+  const handleAnchorClick = () => {
+    loc();
+    if (!showSticky) {
+      setShowSticky(true);
+    }
+  };
   // Banner Content
   const Banner = {
     title: "Top Mobile App Development Services",
     desc: "Join the revolution with unparalleled expertise in mobile application development services specializing in iOS, Android, and cross-platform solutions that get your ROI on-point.",
   }
-
   // award Content
   const Award = {
     title: <>Your Partner For App Development <span>Services</span></>,
@@ -30,7 +63,6 @@ const page = () => {
     </>,
 
   }
-
   // Who We Are Content
   const WhoWeAre = {
     title: "This is Us",
@@ -53,7 +85,6 @@ const page = () => {
     { label: "Deployment", index: 5 },
     { label: "Maintenance & Updates", index: 6 },
   ];
-
   const sections = [
     [
       {
@@ -107,7 +138,6 @@ const page = () => {
       }
     ]
   ];
-
   const HoustonContent = {
     menus: menus,
     sections: sections,
@@ -115,13 +145,14 @@ const page = () => {
 
   return (
     <>
+      <Sticky isHovered={isHovered} showSticky={showSticky} loc={loc} />
       <Bannerdubai content={Banner} />
-      <NewAward content={Award} />
-      <Whowearenew content={WhoWeAre} />
+      <NewAward content={Award} contentTwo={content} onAnchorClick={handleAnchorClick} />
+      <Whowearenew content={WhoWeAre} contentTwo={content} onAnchorClick={handleAnchorClick} />
       <FutureReady />
-      <AppsLived />
-      <AppsJourney />
-      <Conviced />
+      <AppsLived content={content} onAnchorClick={handleAnchorClick} />
+      <AppsJourney content={content} onAnchorClick={handleAnchorClick} />
+      <Conviced content={content} onAnchorClick={handleAnchorClick}/>
       <NewHouston content={HoustonContent} />
       <Industries />
       <Deliver />

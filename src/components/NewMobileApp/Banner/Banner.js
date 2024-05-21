@@ -131,7 +131,11 @@ const Banner = ({ content }) => {
                                     className={styles.quickly}
                                     aria-hidden>
                                     {text.split("").map((char) => (
-                                        <motion.span variants={defaultAnimation}>{char}</motion.span>
+                                        <motion.span transition={{
+                                            repeat: 1,
+                                            repeatType: "reverse",
+                                            duration: 2
+                                        }} variants={defaultAnimation}>{char}</motion.span>
                                     ))}
                                 </motion.p>
                             </div>
@@ -145,9 +149,6 @@ const Banner = ({ content }) => {
                                 <a href='tel:1 833 500 6007' className={`${styles.deliver}`}>
                                     Let’s Discuss Your Project
                                 </a>
-                                {/* <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver}`}>
-                                    Let’s Discuss Your Project
-                                </Link> */}
                             </div>
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
@@ -179,7 +180,7 @@ const Banner = ({ content }) => {
                             </div>
                         </Col>
                         <Col lg={5} xl={6} className='p-0'>
-                            <form className={styles.your} onSubmit={handleSubmit}>
+                            <form id='BannerForm' className={styles.your} onSubmit={handleSubmit}>
                                 <h3>Let’s Discuss <br /> Your App Idea In Detail</h3>
                                 <p className='text-white text-center'>Our experts help you in the best way possible. Get customized plans!</p>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>

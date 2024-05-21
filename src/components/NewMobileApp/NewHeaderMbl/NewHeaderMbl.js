@@ -34,7 +34,7 @@ const HeaderMbl = () => {
         <>
             <header className={path ? `${styles.header}` : `${styles.header} header`}>
                 <div className={styles.navLogo}>
-                    <Link href="/">
+                    <Link href="javascript:;">
                         <Image
                             alt="bitswits"
                             className='img-fluid'
@@ -45,7 +45,7 @@ const HeaderMbl = () => {
                 <nav className={styles.navBar}>
                     <ul className={isActive ? `${styles.menu} ${styles.active}` : `${styles.menu}`}>
                         <div className={`${styles.navLogo} ${styles.mblLogo}`}>
-                            <Link href="/">
+                            <Link href="javascript:;">
                                 <Image alt="bitswits" className='img-fluid'
                                     src={mbllogo}
                                 />

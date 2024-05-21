@@ -10,7 +10,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Slider from 'react-slick'
 
-const Conviced = () => {
+const Conviced = ({ content, onAnchorClick }) => {
 
     var convicedSlider = {
         arrows: false,
@@ -58,7 +58,7 @@ const Conviced = () => {
                                 <div className={`${styles.btnImage} clutch`}>
                                     <Image src={Clutch} alt='Bitswits' className={`img-fluid d-block mt-4 ms-md-auto ${styles.clutch}`} />
                                     <div className={styles.btn}>
-                                        <a href='tel:1 833 500 6007' className='gap-4'>
+                                        <a href='javascript:;' onClick={onAnchorClick} className='gap-4'>
                                             Free Consultation
                                             <Image src={Arrow} alt='Bitswits' width={24} height={15} />
                                         </a>

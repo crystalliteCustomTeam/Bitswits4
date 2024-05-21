@@ -15,7 +15,7 @@ import slider4 from "media/newmobileapp/slider-4.png"
 import slider5 from "media/newmobileapp/slider-5.png"
 
 
-const AppsLived = () => {
+const AppsLived = ({ content, onAnchorClick }) => {
     const sectionRef = useRef(null);
     const [activeSlide, setActiveSlide] = useState(0);
 
@@ -53,7 +53,7 @@ const AppsLived = () => {
                 if (counterInnerText < count) {
                     clearInterval(stop);
                     if (counterInnerText === 1) {
-                        item.textContent += "M";
+                        item.textContent += "M +";
                     } else if (counterInnerText === 124) {
                         item.textContent += "%";
                     } else if (counterInnerText === 138) {
@@ -92,34 +92,17 @@ const AppsLived = () => {
             {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 1
-            },
-            {
-                icon: "/newmobileapp/makeus.png",
-                title: "MAUs",
-                number: 250
+                number: "1M+"
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 124
-            },
-        ],
-        [
-            {
-                icon: "/newmobileapp/download.png",
-                title: "Downloads",
-                number: 1
-            },
-            {
-                icon: "/newmobileapp/roi.png",
-                title: "ROI",
-                number: 138
+                number: "124%"
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 470
+                number: "250K"
             },
 
         ],
@@ -127,78 +110,91 @@ const AppsLived = () => {
             {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 1
+                number: "1M+"
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 167
+                number: "138%"
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 500
+                number: "470K"
+            },
+
+        ],
+        [
+            {
+                icon: "/newmobileapp/download.png",
+                title: "Downloads",
+                number: "1M+"
+            },
+            {
+                icon: "/newmobileapp/roi.png",
+                title: "ROI",
+                number: "167%"
+            },
+            {
+                icon: "/newmobileapp/makeus.png",
+                title: "MAUs",
+                number: "500K"
             },
         ],
         [
             {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 1
+                number: "1M+"
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 112
+                number: "112%"
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 300
+                number: "300K"
             },
         ],
         [
             {
                 icon: "/newmobileapp/download.png",
                 title: "Downloads",
-                number: 1
+                number: "1M+"
             },
             {
                 icon: "/newmobileapp/roi.png",
                 title: "ROI",
-                number: 127
+                number: "127%"
             },
             {
                 icon: "/newmobileapp/makeus.png",
                 title: "MAUs",
-                number: 280
+                number: "280K"
             },
         ],
-        [
-            {
-                icon: "/newmobileapp/download.png",
-                title: "Downloads",
-                number: 1
-            },
-            {
-                icon: "/newmobileapp/roi.png",
-                title: "ROI",
-                number: 127
-            },
-            {
-                icon: "/newmobileapp/makeus.png",
-                title: "MAUs",
-                number: 280
-            },
-        ],
+        // [
+        //     {
+        //         icon: "/newmobileapp/download.png",
+        //         title: "Downloads",
+        //         number: 1
+        //     },
+        //     {
+        //         icon: "/newmobileapp/roi.png",
+        //         title: "ROI",
+        //         number: 127
+        //     },
+        //     {
+        //         icon: "/newmobileapp/makeus.png",
+        //         title: "MAUs",
+        //         number: 280
+        //     },
+        // ],
     ];
 
     const SliderContent = [
-        {
-            image: slider1,
-            title: "Prized Offerings That Made A Splash",
-            desc: "We aim to provide the best value for money through quality provisions. ROI’s that far exceed expectations."
-        },
         {
             image: slider2,
             title: "The Practice Pen",
@@ -210,17 +206,17 @@ const AppsLived = () => {
             desc: "A social networking digital diary to share with friends and family and rejoice memories."
         },
         {
-            image: slider4,
+            image: slider5,
             title: "Crave Cuisine",
             desc: "Select from local eateries, place your order, and savor quality dishes brought straight to you."
         },
         {
-            image: slider5,
+            image: slider1,
             title: "Route Rover",
             desc: "Secure and easy to track school bus booking app to keep an eye on your kids"
         },
         {
-            image: slider1,
+            image: slider4,
             title: "Fit Now",
             desc: "Select your workout, set your goals, and work under the direction of renowned fitness experts. "
         }
@@ -244,8 +240,8 @@ const AppsLived = () => {
                                             FEATURED WORKS
                                         </a>
                                     </div>
-                                    <h3>Some work we are proud of</h3>
-                                    <p>Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
+                                    <h3>Prized Offerings That Made A Splash</h3>
+                                    <p>We aim to provide the best value for money through quality provisions. ROI’s that far exceed expectations.</p>
 
                                     <div className={styles.blackBtn}>
                                         <a href="tel:1 833 500 6007" className='d-flex align-items-center gap-4'>
@@ -263,7 +259,7 @@ const AppsLived = () => {
                                                     <img src={data.icon} alt='Bitswits' />
                                                     <h4>{data.title}</h4>
                                                     <h5>
-                                                        <span className='mb-0 d-inline counter' data-speed="1000">
+                                                        <span className='mb-0 d-inline'>
                                                             {data.number}
                                                         </span>
                                                     </h5>
@@ -291,7 +287,7 @@ const AppsLived = () => {
                                                     <p>{content.desc}</p>
                                                 </div>
                                                 <div className={styles.sliderBtn}>
-                                                    <a href='tel:1 833 500 6007' className='d-flex align-items-center gap-4'>
+                                                    <a href='javascript:;' onClick={onAnchorClick} className='d-flex align-items-center gap-4'>
                                                         Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                                     </a>

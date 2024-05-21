@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Affordable Top Mobile App Development Services',
     description: ' We provide app development services to help you emerge as the market leader with tailored mobile apps that accelerate ROI for your business. ',
-    url: '/top-mobile-app-development-services',
+    url: '/lp/mobile-app-development-services',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/top-mobile-app-development-services' },
+  alternates: { canonical: '/lp/mobile-app-development-services' },
   //===== No-Index =====
   robots: {
     index: false,
