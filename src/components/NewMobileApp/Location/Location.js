@@ -64,9 +64,9 @@ const Location = () => {
                                     <span className={styles.address}>26 Broadway Suite 934, New York, <br className='d-none d-lg-block'/> NY 10004, United States </span>
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
-                                        <Link href="tel:;">
+                                        <a href="tel:(302) 216-8231">
                                             (302) 216-8231
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={styles.locate}>
@@ -75,9 +75,9 @@ const Location = () => {
                                     <span className={styles.address}>office #101 - 32 Street - Al Majarra -<br className='d-none d-lg-block'/> Mughaidir Suburb - Sharjah - United Arab Emirates </span>
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
-                                        <Link href="tel:;">
+                                        <a href="tel:(+971) 55 503 1266">
                                         (+971) 55 503 1266
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

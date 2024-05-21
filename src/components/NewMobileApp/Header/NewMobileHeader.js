@@ -66,10 +66,10 @@ const NewMobileHeader = () => {
                             </Link>
                         </li>
                         <li className='d-flex align-items-center justify-content-center me-2'>
-                            <Link className={`${styles.post} ${styles.quote}`} href="tel:1 833 500 6007">
+                            <a className={`${styles.post} ${styles.quote}`} href="tel:1 833 500 6007">
                                 <FaPhoneAlt className='me-2' />
                                 +1 833 500 6007
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </nav>

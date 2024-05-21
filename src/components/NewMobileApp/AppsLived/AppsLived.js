@@ -240,18 +240,18 @@ const AppsLived = () => {
                             <div className={styles.featured}>
                                 <div>
                                     <div className={styles.btn}>
-                                        <Link href="javascript:;">
+                                        <a href="javascript:;">
                                             FEATURED WORKS
-                                        </Link>
+                                        </a>
                                     </div>
                                     <h3>Some work we are proud of</h3>
                                     <p>Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
 
                                     <div className={styles.blackBtn}>
-                                        <Link href="tel:1 833 500 6007" className='d-flex align-items-center gap-4'>
+                                        <a href="tel:1 833 500 6007" className='d-flex align-items-center gap-4'>
                                             Free Consultation
                                             <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -291,10 +291,10 @@ const AppsLived = () => {
                                                     <p>{content.desc}</p>
                                                 </div>
                                                 <div className={styles.sliderBtn}>
-                                                    <Link href='tel:1 833 500 6007' className='d-flex align-items-center gap-4'>
+                                                    <a href='tel:1 833 500 6007' className='d-flex align-items-center gap-4'>
                                                         Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
-                                                    </Link>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

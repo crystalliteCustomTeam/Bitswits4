@@ -61,10 +61,10 @@ const NewHouston = ({ content }) => {
                                                 <h2 className="py-2">{item.title}</h2>
                                                 <div dangerouslySetInnerHTML={{ __html: item.content }} />
                                                 <div className={styles.btn}>
-                                                    <Link href="#form" className="d-flex gap-3">
+                                                    <a href="#form" className="d-flex gap-3">
                                                         Free Consultation
                                                         <Image src={BtnArrow} alt="Bitswits" width={24} height={12} />
-                                                    </Link>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

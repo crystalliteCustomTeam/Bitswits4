@@ -25,9 +25,9 @@ const Card = ({ content, isActive }) => {
 const CardContainer = ({ content, isActive }) => {
     return (
         <div className={styles.cardsMain}>
-            <Link href="tel:1 833 500 6007">
+            <a href="tel:1 833 500 6007">
                 <Card content={content} isActive={isActive} />
-            </Link>
+            </a>
         </div>
     );
 };
@@ -81,9 +81,9 @@ const AppsJourney = () => {
                                     Explore New Horizons – Let Our App Experts Take Control!
                                 </h2>
                                 <div className={styles.btn}>
-                                    <Link href='tel:1 833 500 6007'>
+                                    <a href='tel:1 833 500 6007'>
                                         Make A Move!
-                                    </Link>
+                                    </a>
                                 </div>
                             </Col>
                             <Col lg={7}>

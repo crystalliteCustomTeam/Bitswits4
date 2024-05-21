@@ -142,9 +142,9 @@ const Banner = ({ content }) => {
                                 <p className='font16 text-black fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <Link href='tel:1 833 500 6007' className={`${styles.deliver}`}>
+                                <a href='tel:1 833 500 6007' className={`${styles.deliver}`}>
                                     Let’s Discuss Your Project
-                                </Link>
+                                </a>
                                 {/* <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver}`}>
                                     Let’s Discuss Your Project
                                 </Link> */}

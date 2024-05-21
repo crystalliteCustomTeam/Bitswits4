@@ -73,12 +73,12 @@ const Industries = () => {
                                         <h3>Healthcare</h3>
                                         <p>Our mobile app development services specialize in providing innovative healthcare solutions. As a US-based healthcare app development company, patient-centered treatment is our first priority.
                                         </p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
@@ -90,12 +90,12 @@ const Industries = () => {
                                         <h3>Education</h3>
                                         <p>Mobile application development services transform education through digital classrooms and personalized learning. As the best app making services money can buy, we guarantee excellence.
                                         </p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
@@ -106,12 +106,12 @@ const Industries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Logistics</h3>
                                         <p>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
@@ -123,12 +123,12 @@ const Industries = () => {
                                         <h3>Insurance</h3>
                                         <p>Our mobile application development service innovates in insurance, digital insurance platforms, and claims automation. Our app development agency leads with success.
                                         </p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
@@ -139,12 +139,12 @@ const Industries = () => {
                                     <div className={`${styles.content} content`}>
                                         <h3>Engineering Construction & Operations</h3>
                                         <p>Our mobile application development services pioneer sustainable infrastructure solutions. We are at the forefront of the industry. Trusted globally, we integrate and automate with precision.</p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`${styles.indusSlide} indusSlide`}>
@@ -156,12 +156,12 @@ const Industries = () => {
                                         <h3>Insurance</h3>
                                         <p>Our mobile application development service innovates in insurance, digital insurance platforms, and claims automation. Our app development agency leads with success.
                                         </p>
-                                        <Link href="#" className={styles.btn}>
+                                        <a href="#" className={styles.btn}>
                                             Learn More
                                             <span>
                                                 <Image src={arrow} alt='Bitswits' width={17} height={11} />
                                             </span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </Slider>
