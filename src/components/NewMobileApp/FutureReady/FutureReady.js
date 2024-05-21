@@ -46,7 +46,7 @@ const FutureReady = () => {
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -58,11 +58,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance. 
+                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -74,11 +74,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner. 
+                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -90,11 +90,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea. 
+                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -106,11 +106,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native. 
+                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -126,7 +126,7 @@ const FutureReady = () => {
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </Col>
@@ -146,7 +146,7 @@ const FutureReady = () => {
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
@@ -158,11 +158,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance. 
+                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
@@ -174,11 +174,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner. 
+                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
@@ -190,11 +190,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea. 
+                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
@@ -206,11 +206,11 @@ const FutureReady = () => {
                                     </div>
                                     <div className="cardContent">
                                         <p>
-                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native. 
+                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native.
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@ const FutureReady = () => {
                                         </p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007">Let's Talk</a>
+                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                     </div>
                                 </div>
                             </div>
