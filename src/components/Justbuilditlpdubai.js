@@ -26,7 +26,6 @@ const Justbuilditlpdubai = (props) => {
         cssEase: 'linear',
         slidesToShow: 1,
         slidesToScroll: 1
-
     };
 
     return (
@@ -38,7 +37,7 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <a className={`blueShade ${styles.about1}`} href="tel:8335006007">
+                                <a className={`blueShade ${styles.about1}`} href={props.href}>
                                     Call Now
                                 </a>
                                 <a className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
