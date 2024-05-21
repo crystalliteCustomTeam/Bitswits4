@@ -338,11 +338,12 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-      <Justbuilditlpdubai
+<Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
+        href="tel:+971 55 503 1266"
       />
       <Brand />
       <Faqdubai
@@ -394,7 +395,9 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap />
+      <Globalmap 
+        href="tel:+971 55 503 1266"
+      />
     </>
   );
 } 

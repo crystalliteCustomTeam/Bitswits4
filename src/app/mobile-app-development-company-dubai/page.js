@@ -2,7 +2,6 @@
 import dynamic from 'next/dynamic'
 import React from "react";
 // componets
-// const Bannerdubai = dynamic(() => import('../../components/Bannerdubainew'));
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import StoryLine from "@/src/components/DubaiStoryLine";
@@ -338,6 +337,7 @@ export default function dubaidevelopmentcompany() {
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
         slide="slide1lp"
+        href="tel:+971 55 503 1266"
       />
       <Brand />
       <Faqdubai
@@ -389,7 +389,9 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap />
+      <Globalmap 
+        href="tel:+971 55 503 1266"
+      />
     </>
   );
 } 
