@@ -51,19 +51,19 @@ const Justbuilditlpdubai = (props) => {
 
                 <Slider {...bannerslider} className='mt-5 d-sm-block d-none'>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg1} className="img-fluid" />
+                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg1} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg2} className="img-fluid" />
+                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg2} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg3} className="img-fluid" />
+                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg3} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg4} className="img-fluid" />
+                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg4} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg5} className="img-fluid" />
+                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg5} className="img-fluid" />
                     </div>
                 </Slider>
             </section>

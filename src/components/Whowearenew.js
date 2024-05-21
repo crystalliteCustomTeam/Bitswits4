@@ -67,7 +67,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban1} loading='lazy' className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban1} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel}`}>
@@ -107,7 +107,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban2} loading='lazy'  className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban2} loading='lazy' sizes="100vw"  className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel2}`}>
@@ -147,7 +147,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban3} loading='lazy'  className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban3} loading='lazy' sizes="100vw"  className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel3}`}>

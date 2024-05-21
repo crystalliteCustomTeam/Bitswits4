@@ -45,7 +45,7 @@ export default function Expertappdubaiadvanced(props) {
                             <Col lg={4} key={index}>
                                 <div className={styles.app}>
                                     <div className={styles.copy}>
-                                        <Image alt='BitsWits' src={app.imageSrc} className='img-fluid' />
+                                        <Image alt='BitsWits' loading='lazy' sizes="100vw" src={app.imageSrc} className='img-fluid' />
                                         <h3 className='black fw700'>{app.title}</h3>
                                     </div>
                                     <p className='m-0'>{app.description}</p>
@@ -64,7 +64,7 @@ export default function Expertappdubaiadvanced(props) {
                                 <Col lg={4} key={index}>
                                     <div className={styles.app}>
                                         <div className={styles.copy}>
-                                            <Image alt='BitsWits' src={app.imageSrc} className='img-fluid mb-3' />
+                                            <Image alt='BitsWits' loading='lazy' sizes="100vw" src={app.imageSrc} className='img-fluid mb-3' />
                                             <h3 className=' black fw700'>{app.title}</h3>
                                         </div>
                                         <p className='m-0'>{app.description}</p>

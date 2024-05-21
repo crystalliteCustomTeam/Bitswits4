@@ -172,17 +172,17 @@ const NewDubaiAwards = ({ content }) => {
                                 </div>
                                 <div className={`${styles.trustPilot} mt-5 mt-md-0`}>
                                     <div className='image'>
-                                        <Image src={ClientTwo} alt='Bitswits' width={101} height={28} />
+                                        <Image sizes="100vw" loading='lazy' src={ClientTwo} alt='Bitswits' width={101} height={28} />
                                     </div>
                                     <div>
                                         <div className='txt d-flex align-items-center'>
                                             <p className='mb-0 me-2'>4.9 / <span>5.0</span></p>
                                             <div className='d-md-none d-lg-flex align-items-center'>
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
-                                                <Image src={Star} alt='Bitswits' width={13} height={13} />
+                                                <Image sizes="100vw" loading='lazy' src={Star} alt='Bitswits' width={13} height={13} />
+                                                <Image sizes="100vw" loading='lazy' src={Star} alt='Bitswits' width={13} height={13} />
+                                                <Image sizes="100vw" loading='lazy' src={Star} alt='Bitswits' width={13} height={13} />
+                                                <Image sizes="100vw" loading='lazy' src={Star} alt='Bitswits' width={13} height={13} />
+                                                <Image sizes="100vw" loading='lazy' src={Star} alt='Bitswits' width={13} height={13} />
                                             </div>
                                         </div>
                                         <p className={`${styles.clientsPara} fontsfregular`}>based on 40+ clients</p>
@@ -196,7 +196,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider2} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider2} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Dot Comm</h6>
@@ -207,7 +207,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider3} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider3} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>INC. 5000</h6>
@@ -218,7 +218,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider1} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Horizon Award</h6>
@@ -229,7 +229,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Horizon Award</h6>
@@ -241,7 +241,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Clutch</h6>
@@ -253,7 +253,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Right firms</h6>
@@ -264,7 +264,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider12} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider12} alt="Bitswits" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>The Manifest</h6>
@@ -275,7 +275,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider13} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider13} alt="Bitswits" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>The Manifest</h6>
@@ -286,7 +286,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Developers</h6>
@@ -298,7 +298,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Expertise</h6>
@@ -310,7 +310,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Rated</h6>
@@ -321,7 +321,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider1} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider1} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Horizon Award</h6>
@@ -332,7 +332,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider2} alt="Bitswits" className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider2} alt="Bitswits" className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Dot Comm</h6>
@@ -343,7 +343,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider3} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider3} alt="Bitswits" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>INC. 5000</h6>
@@ -354,7 +354,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider5} alt="Bitswits" width={120} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Horizon Award</h6>
@@ -366,7 +366,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider6} alt="Bitswits" width={123} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Clutch</h6>
@@ -378,7 +378,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider7} alt="Bitswits" width={90} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Right firms</h6>
@@ -389,7 +389,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider8} alt="Bitswits" width={102} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Developers</h6>
@@ -401,7 +401,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider9} alt="Bitswits" width={102} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Expertise</h6>
@@ -413,7 +413,7 @@ const NewDubaiAwards = ({ content }) => {
                                     <div className='px-2 px-lg-1'>
                                         <div className={styles.sliderCards}>
                                             <div className={styles.imageDiv}>
-                                                <Image src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
+                                                <Image sizes="100vw" loading='lazy' src={Slider10} alt="Bitswits" width={100} height={100} className='mx-auto' />
                                             </div>
                                             <div className={styles.sliderTxt}>
                                                 <h6>Top Rated</h6>
@@ -427,7 +427,7 @@ const NewDubaiAwards = ({ content }) => {
                                         <div key={index} className='px-2 px-lg-1'>
                                             <div className={styles.sliderCards}>
                                                 <div className={styles.imageDiv}>
-                                                    <Image src={slide.image} alt="Bitswits" className='mx-auto' />
+                                                    <Image sizes="100vw" loading='lazy' src={slide.image} alt="Bitswits" className='mx-auto' />
                                                 </div>
                                                 <div className={styles.sliderTxt}>
                                                     <h6>{slide.title}</h6>

@@ -111,7 +111,7 @@ const Brand = (props) => {
           <Row className={`${styles.newtsl} gy-3 gx-0`}>
             <Col lg={4}>
               <div className={styles.imgtoken}>
-                <Image src={free} width={436} height={618} className="img-fluid" />
+                <Image src={free} width={436} height={618} alt='Bitswits' loading='lazy' sizes="100vw" className="img-fluid" />
               </div>
             </Col>
             <Col lg={8}>
