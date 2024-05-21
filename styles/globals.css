@@ -2159,7 +2159,6 @@ input::-webkit-inner-spin-button {
   align-items: center;
   flex-direction: row-reverse;
   padding-right: 9px;
-  transform: translateX(-179px);
 }
 
 .newtownfy .icon img {
@@ -2173,7 +2172,8 @@ input::-webkit-inner-spin-button {
   position: relative;
   left: 0;
   transition: 0.3s ease-in-out;
-  animation: fadeInLeft 0.3s ease-in-out;
+  /* animation: fadeInLeft 0.3s ease-in-out; */
+  transform: translateX(-179px);
 }
 
 @keyframes fadeInLeft {
@@ -2190,7 +2190,7 @@ input::-webkit-inner-spin-button {
 
 .newtownfy .call:hover,
 .newtownfy .chat:hover {
-  transform: translateX(170px);
+  transform: translateX(0px);
 }
 
 .newtownfy .call a,

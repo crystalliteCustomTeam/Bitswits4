@@ -9,7 +9,7 @@ import ban1 from "media/newdubai/ban4.png"
 import ban2 from "media/newdubai/ban2.png"
 import ban3 from "media/newdubai/ban5.png"
 
-const Whowearenew = ({ content }) => {
+const Whowearenew = ({ content, contentTwo, onAnchorClick }) => {
     const variantOne = {
         initial: {
             y: 200,
@@ -96,7 +96,7 @@ const Whowearenew = ({ content }) => {
         });
     };
 
-    const { title, desc, subtitleOne, subDescOne, subtitleTwo, subDescTwo, subtitleThree, subDescThree } = content
+    const { title, desc } = content
     return (
         <>
             <section ref={sectionRef} className={`${styles.counterSec} overflow-hidden`}>
@@ -125,7 +125,6 @@ const Whowearenew = ({ content }) => {
                                 <Image src={ban3} className={`img-fluid mx-auto d-block`} />
                             </motion.div>
                         </Col>
-
                     </Row>
                     <div className={styles.counterBack}>
                         <Row className={`align-items-center ${styles.counterRow} mx-auto`}>
@@ -174,7 +173,7 @@ const Whowearenew = ({ content }) => {
                                     <h6>Our Value Additions for Clients</h6>
                                     <h3>Progress By <br /> Numbers</h3>
                                     <div className={`${styles.btn}`}>
-                                        <a href='tel:1 833 500 6007'>
+                                        <a href="javascript:;" onClick={onAnchorClick}>
                                             Time to Execute
                                         </a>
                                     </div>

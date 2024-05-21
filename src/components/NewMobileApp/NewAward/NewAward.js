@@ -21,7 +21,7 @@ import ClientTwo from "/public/newDubaiPagev1/client2.png"
 import Star from "/public/newDubaiPagev1/star.png"
 import Link from 'next/link';
 
-const NewAward = ({ content }) => {
+const NewAward = ({ content, contentTwo, onAnchorClick }) => {
     const { title, desc } = content;
     var awardSlider = {
         arrows: false,
@@ -70,7 +70,7 @@ const NewAward = ({ content }) => {
                                         {desc}
                                     </p>
                                     <div className={`${styles.btn} mt-5 mt-md-0`}>
-                                        <a href='tel:1 833 500 6007'>
+                                        <a href="javascript:;" onClick={onAnchorClick}>
                                             Free Consultation
                                         </a>
                                     </div>

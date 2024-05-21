@@ -113,19 +113,41 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .locations h3 {
+    margin-bottom: 0px;
+  }
+
+  .locate {
+    height: 160px;
+  }
+
+  .number a {
+    font-size: 12px;
+  }
+
+  .locations .address {
+    font-size: 14px;
+  }
+
   .locations::before {
-    display: none;
+    left: -10%;
+  }
+
+  .locate::before {
+    content: url(../../public/newmobileapp/hLine.png);
+    top: 95%;
+    left: -120%;
   }
 
   .locations {
-    gap: 65px 30px;
+    gap: 35px 30px;
   }
 }
 
 @media only screen and (max-width: 567px) {
   .locationSec {
     margin-top: 50px;
-    padding: 50px 0 20px;
+    padding: 50px 0 0px;
   }
 
   .locationSec h2 {
@@ -138,14 +160,14 @@
   }
 
   .locations::before {
-    top: 4%;
+    top: 16%;
     left: -120%;
     display: block;
   }
 
   .locate::before {
     content: url(../../public/newmobileapp/hLine.png);
-    top: 30px;
+    top: 102%;
     left: -120%;
   }
 

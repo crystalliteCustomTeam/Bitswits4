@@ -32,7 +32,7 @@ const CardContainer = ({ content, isActive }) => {
     );
 };
 
-const AppsJourney = () => {
+const AppsJourney = ({ content, onAnchorClick }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
@@ -81,7 +81,7 @@ const AppsJourney = () => {
                                     Explore New Horizons – Let Our App Experts Take Control!
                                 </h2>
                                 <div className={styles.btn}>
-                                    <a href='tel:1 833 500 6007'>
+                                    <a href='javascript:;' onClick={onAnchorClick}>
                                         Make A Move!
                                     </a>
                                 </div>
