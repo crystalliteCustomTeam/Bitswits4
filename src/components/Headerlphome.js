@@ -166,10 +166,10 @@ const Headerlphome = () => {
                                     <div className="header-content position-relative">
                                         <div className="text-center">
 
-                                            <h4 className="font-25 font-bold color-p" data-scroll data-scroll-speed="0.3">Elevate Your Mobile App
+                                            <h4 className="font-bold color-p" data-scroll data-scroll-speed="0.3">Elevate Your Mobile App
                                                 Experience With
                                             </h4>
-                                            <h1 className="font-60 font-bold text-gradient gradient1" data-scroll data-scroll-speed="0.3">Top Mobile App Developers
+                                            <h1 className="font-bold text-gradient gradient1" data-scroll data-scroll-speed="0.3">Top Mobile App Developers
                                             </h1>
                                             <p className=""> Let us help you bring your vision to life and take your
                                                 business to
