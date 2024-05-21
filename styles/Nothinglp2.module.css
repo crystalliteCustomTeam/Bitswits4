@@ -83,6 +83,12 @@
     padding-top: 0px;
     padding-bottom: 80px;
   }
+
+  .nothing,
+  .nothing1,
+  .lp6final {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
