@@ -141,7 +141,7 @@ const LogoSlider = (props) => {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.btn}>
-                                <Link href="#form" className='d-flex align-items-center gap-3'>
+                                <Link href="#form" className='d-flex align-items-center gap-3 pink'>
                                     Free Consultation
                                     <Image src={btnArrow} alt='Bitswits' width={24} height={12} />
                                 </Link>

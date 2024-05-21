@@ -11,7 +11,6 @@ import call from "@/public/images/fixed/call.webp"
 
 
 const MobileSkicky = ({ isHovered, showSticky, loc }) => {
-
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -21,23 +20,17 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
     useEffect(() => {
         getIPData()
     }, [])
-
     const [score, setScore] = useState('Submit');
-
     const router = usePathname();
     const currentRoute = router;
-
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
         setPagenewurl(pagenewurl);
     }, []);
-
     const handleSubmit = async (e) => {
-
         e.preventDefault()
         var currentdate = new Date().toLocaleString() + ''
-
         const data = {
             name: e.target.name.value,
             email: e.target.email.value,
@@ -47,13 +40,8 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
         }
-
         const JSONdata = JSON.stringify(data)
-
         setScore('Sending Data');
-
-
-
         fetch('/api/emailapi/', {
             method: 'POST',
             headers: {
@@ -67,14 +55,12 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
                 console.log(`Response Successed ${res}`)
             }
         })
-
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
             "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
             "Content-Type": "application/json"
         }
-
         let bodyContent = JSON.stringify({
             "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             "Brand": "Bitswits",
@@ -84,7 +70,6 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
             "JSON": JSONdata,
 
         });
-
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
             method: "POST",
             body: bodyContent,
@@ -94,7 +79,6 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
         if (pathname == pathname) {
             window.location.href = '/thank-you';
         }
-
     }
 
     return (
@@ -123,12 +107,13 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
             {showSticky && (
                 <div className={isHovered ? 'openForm active' : 'openForm'}>
                     <div className="wrapper">
-                        <span className="close" onClick={loc}>
+                        <span onClick={loc}>
                             {isHovered ?
-
-                                <BsX />
+                                <BsX className='close'/>
                                 :
-                                'Get In Touch'
+                                <span className="ppcOpen">
+                                    Get In Touch
+                                </span>
                             }
 
                         </span>

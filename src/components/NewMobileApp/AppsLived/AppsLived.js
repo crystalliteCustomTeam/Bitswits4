@@ -244,7 +244,7 @@ const AppsLived = ({ content, onAnchorClick }) => {
                                     <p>We aim to provide the best value for money through quality provisions. ROI’s that far exceed expectations.</p>
 
                                     <div className={styles.blackBtn}>
-                                        <a href="tel:1 833 500 6007" className='d-flex align-items-center gap-4'>
+                                        <a href="tel:1 833 500 6007" className='d-flex align-items-center gap-4 black'>
                                             Free Consultation
                                             <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                         </a>
@@ -287,7 +287,7 @@ const AppsLived = ({ content, onAnchorClick }) => {
                                                     <p>{content.desc}</p>
                                                 </div>
                                                 <div className={styles.sliderBtn}>
-                                                    <a href='javascript:;' onClick={onAnchorClick} className='d-flex align-items-center gap-4'>
+                                                    <a href='javascript:;' onClick={onAnchorClick} className='d-flex align-items-center gap-4 black'>
                                                         Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                                     </a>

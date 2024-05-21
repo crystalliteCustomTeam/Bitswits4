@@ -14,6 +14,18 @@
   --transparentBlue: #f32f5321;
 }
 
+.black {
+  --pulseSize: 10px;
+  --blue: #050505;
+  --transparentBlue: #00000021;
+}
+
+.grey {
+  --pulseSize: 10px;
+  --blue: #05050545;
+  --transparentBlue: #6f6f6f21;
+}
+
 .blueShade {
   --pulseSize: 10px;
   --blue: #4a78ef;
@@ -2283,6 +2295,28 @@ input::-webkit-inner-spin-button {
   letter-spacing: 1px;
 }
 
+.openForm .wrapper .ppcOpen {
+  position: absolute;
+  top: 20%;
+  left: -100px;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+  width: 200px;
+  text-align: center;
+  height: 100px;
+  background-color: #e83468;
+  color: white;
+  padding-right: 0;
+  border-radius: 30px 30px 0 0;
+  line-height: 50px;
+  box-shadow: 0 1px 3px 0 #000000c2;
+  transform: rotate(-90deg);
+  letter-spacing: 1px;
+}
+
 .openForm .wrapper form {
   width: 100%;
 }
@@ -4430,6 +4464,46 @@ button {
 }
 
 @keyframes pulsing {
+  from {
+    box-shadow: 0 0 0 0 var(--blue);
+  }
+
+  70% {
+    box-shadow: 0 0 0 var(--pulseSize) var(--transparentBlue);
+  }
+
+  to {
+    box-shadow: 0 0 0 0 var(--transparentBlue);
+  }
+}
+
+.grey {
+  animation: pulsingFour 2s infinite;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@keyframes pulsingFour {
+  from {
+    box-shadow: 0 0 0 0 var(--blue);
+  }
+
+  70% {
+    box-shadow: 0 0 0 var(--pulseSize) var(--transparentBlue);
+  }
+
+  to {
+    box-shadow: 0 0 0 0 var(--transparentBlue);
+  }
+}
+
+.black {
+  animation: pulsingThree 2s infinite;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@keyframes pulsingThree {
   from {
     box-shadow: 0 0 0 0 var(--blue);
   }
