@@ -63,7 +63,6 @@ const NewHouston = ({ content }) => {
         }
     }, [selectedSection]);
 
-
     const handleChange = (event) => {
         const index = event.target.value;
         setSelectedOption(index);

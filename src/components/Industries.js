@@ -130,7 +130,7 @@ const Industries = () => {
                             onMouseEnter={() => setIsSliderHovered(true)}
                             onMouseLeave={() => setIsSliderHovered(false)}>
                             {isSliderHovered || backgroundImage ? (
-                                <Image src={backgroundImage || sliderImages[0]} width={1532} height={842} alt='Bitswits' />
+                                <Image src={backgroundImage || sliderImages[0]} width={1532} height={842} alt='Bitswits' loading='lazy' sizes="100vw" />
                             ) : null}
                         </div>
                         <Slider {...industriesSlider} className={`${styles.industriesSlider} industriesSlider`}>
@@ -149,7 +149,7 @@ const Industries = () => {
                                             <Link href={content.href} className={styles.btn}>
                                                 Learn More
                                                 <span>
-                                                    <Image src={SliderArrow} alt='Bitswits' width={17} height={11} />
+                                                    <Image src={SliderArrow} alt='Bitswits' loading='lazy' sizes="100vw" width={17} height={11} />
                                                 </span>
                                             </Link>
                                         </div>

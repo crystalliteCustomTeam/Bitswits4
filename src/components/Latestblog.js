@@ -16,7 +16,7 @@ const Latestblog = (props) => {
                         {props.blogBox.map((blog, index) => (
                             <Col md={4} className='mb-lg-3'>
                                 <div key={index} className={`${styles.blogBox} d-flex flex-column gap-2 gap-lg-4 pb-3 pb-lg-5`}>
-                                    <Image loading='lazy' src={blog.img} alt='BitsWits' className='img-fluid mb-2' />
+                                    <Image loading='lazy' sizes="100vw" src={blog.img} alt='BitsWits' className='img-fluid mb-2' />
                                     <div className='px-3'>
                                         <h4 className='black f-500'>{blog.title}</h4>
                                         <p className='fw300 m-0'>{blog.content}</p>

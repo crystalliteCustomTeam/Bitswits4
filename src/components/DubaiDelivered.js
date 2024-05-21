@@ -82,20 +82,20 @@ const DubaiDelivered = ({ content }) => {
             <section className={styles.DubaiDelivered}>
                 <motion.div
                     variants={variantOne} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image src={ParticleOne} alt='Bitswits' className={styles.secImage} />
+                    <Image sizes="100vw" loading='lazy' src={ParticleOne} alt='Bitswits' className={styles.secImage} />
                 </motion.div>
                 <motion.div
                     variants={variantTwo} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image src={ParticleTwo} alt='Bitswits' className={styles.secImageTwo} />
+                    <Image sizes="100vw" loading='lazy' src={ParticleTwo} alt='Bitswits' className={styles.secImageTwo} />
                 </motion.div>
                 <motion.div
                     variants={variantThree} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'
                 >
-                    <Image src={ParticleThree} alt='Bitswits' className={styles.secImageThree} />
+                    <Image sizes="100vw" loading='lazy' src={ParticleThree} alt='Bitswits' className={styles.secImageThree} />
                 </motion.div>
                 <motion.div
                     variants={variantFour} initial="initial" whileInView="animate" className='h-100 w-100 d-lg-block d-none'>
-                    <Image src={ParticleFour} alt='Bitswits' height={420} width={400} className={styles.secImageFour} />
+                    <Image sizes="100vw" loading='lazy' src={ParticleFour} alt='Bitswits' height={420} width={400} className={styles.secImageFour} />
                 </motion.div>
                 <div className='container'>
                     <Row>
