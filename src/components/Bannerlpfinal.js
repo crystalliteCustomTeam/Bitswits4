@@ -24,7 +24,7 @@ const Bannerlpfinal = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
     const [score, setScore] = useState('ENQUIRE NOW');
     const router = usePathname();

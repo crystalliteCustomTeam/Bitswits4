@@ -16,7 +16,7 @@ const LpForm = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

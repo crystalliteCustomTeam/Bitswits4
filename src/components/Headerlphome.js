@@ -37,7 +37,7 @@ const Headerlphome = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

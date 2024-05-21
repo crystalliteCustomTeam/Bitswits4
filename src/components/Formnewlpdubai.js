@@ -15,7 +15,7 @@ const Formnewlpdubai = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

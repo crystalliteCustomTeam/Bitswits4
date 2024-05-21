@@ -15,7 +15,7 @@ const BrandDuplicate = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
     const [score, setScore] = useState('Submit');

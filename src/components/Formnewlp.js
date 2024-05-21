@@ -12,7 +12,7 @@ const Formnewlp = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        // //   getIPData()
     }, [])
 
     const [score, setScore] = useState('Submit');

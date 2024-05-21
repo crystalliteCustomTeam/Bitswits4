@@ -55,7 +55,7 @@ const VideoFooter = () => {
         setIP(res.data);
     };
     useEffect(() => {
-        getIPData();
+        //   getIPData();
     }, []);
     // For Page
     let page = usePathname();

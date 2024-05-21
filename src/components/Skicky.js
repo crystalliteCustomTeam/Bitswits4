@@ -45,7 +45,7 @@ const Skicky = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

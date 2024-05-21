@@ -16,7 +16,7 @@ const SocialLpForm = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

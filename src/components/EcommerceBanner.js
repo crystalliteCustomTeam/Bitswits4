@@ -39,7 +39,7 @@ const EcommerceBanner = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

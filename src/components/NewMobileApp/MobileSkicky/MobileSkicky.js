@@ -18,7 +18,7 @@ const MobileSkicky = ({ isHovered, showSticky, loc }) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
     const [score, setScore] = useState('Submit');
     const router = usePathname();

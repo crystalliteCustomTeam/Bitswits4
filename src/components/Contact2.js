@@ -21,7 +21,7 @@ const Contact = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        // //   getIPData()
     }, [])
     const [score, setScore] = useState('Time to Book The Call');
     const router = usePathname();

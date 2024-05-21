@@ -15,7 +15,7 @@ const Formnewlp2lp6 = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

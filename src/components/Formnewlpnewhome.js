@@ -20,7 +20,7 @@ const Formnewlpnewhome = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
 
 

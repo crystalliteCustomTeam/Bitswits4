@@ -14,7 +14,7 @@ const Freequote = (props) => {
       setIP(res.data);
   }
   useEffect(() => {
-      getIPData()
+      //   getIPData()
   }, [])
 
 

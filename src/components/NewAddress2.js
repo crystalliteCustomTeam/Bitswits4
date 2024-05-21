@@ -19,7 +19,7 @@ const NewAddress = () => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
     const [score, setScore] = useState('Submit Now');
    const router = usePathname();

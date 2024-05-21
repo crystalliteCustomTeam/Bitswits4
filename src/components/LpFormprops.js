@@ -44,7 +44,7 @@ const LpFormprops = (props) => {
         setIP(res.data);
     }
     useEffect(() => {
-        getIPData()
+        //   getIPData()
     }, [])
     const [score, setScore] = useState('Submit');
    const router = usePathname();
