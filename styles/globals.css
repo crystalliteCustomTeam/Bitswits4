@@ -14,7 +14,7 @@
   --transparentBlue: #f32f5321;
 }
 
-.black {
+.blackPulse {
   --pulseSize: 10px;
   --blue: #050505;
   --transparentBlue: #00000021;
@@ -4497,7 +4497,7 @@ button {
   }
 }
 
-.black {
+.blackPulse {
   animation: pulsingThree 2s infinite;
   transition: all 0.2s;
   cursor: pointer;

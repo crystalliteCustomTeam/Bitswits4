@@ -81,7 +81,7 @@ const AppsJourney = ({ content, onAnchorClick }) => {
                                     Explore New Horizons – Let Our App Experts Take Control!
                                 </h2>
                                 <div className={styles.btn}>
-                                    <a href='javascript:;' className='black' onClick={onAnchorClick}>
+                                    <a href='javascript:;' className='blackPulse' onClick={onAnchorClick}>
                                         Make A Move!
                                     </a>
                                 </div>

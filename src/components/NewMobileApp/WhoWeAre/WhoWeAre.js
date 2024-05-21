@@ -173,7 +173,7 @@ const Whowearenew = ({ content, contentTwo, onAnchorClick }) => {
                                     <h6>Our Value Additions for Clients</h6>
                                     <h3>Progress By <br /> Numbers</h3>
                                     <div className={`${styles.btn}`}>
-                                        <a href="javascript:;" className='black' onClick={onAnchorClick}>
+                                        <a href="javascript:;" className='blackPulse' onClick={onAnchorClick}>
                                             Time to Execute
                                         </a>
                                     </div>

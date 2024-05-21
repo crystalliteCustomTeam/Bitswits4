@@ -146,7 +146,7 @@ const Banner = ({ content }) => {
                                 <p className='font16 text-black fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <a href='tel:1 833 500 6007' className={`${styles.deliver} black`}>
+                                <a href='tel:1 833 500 6007' className={`${styles.deliver} blackPulse`}>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
@@ -190,7 +190,7 @@ const Banner = ({ content }) => {
                                 <div className='d-sm-flex align-items-center mt-4'>
                                     <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                     <label className='form-check-label' htmlFor='flexCheckDefault'>Sign Non-Disclosure Agreement </label>
-                                    <button className={`pink ${styles.value} mt-4 mt-sm-0 black`} type='submit'>
+                                    <button className={`pink ${styles.value} mt-4 mt-sm-0 blackPulse`} type='submit'>
                                         <Image src={formImg} className='img-fluid' alt='BitsWits' />
                                         Sign Me Up
                                     </button>

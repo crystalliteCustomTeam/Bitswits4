@@ -37,7 +37,7 @@ export default function Expertappdubaiadvanced(props) {
                 <Container>
                     <Row className='align-items-center g-2 d-none d-lg-flex'>
                         <Col lg={12} className={styles.newtown}>
-                            <h2 className='black  f-700 center mb-3 mb-md-5'>
+                            <h2 className='text-black  f-700 center mb-3 mb-md-5'>
                                 {props.title}
                             </h2>
                         </Col>
@@ -46,7 +46,7 @@ export default function Expertappdubaiadvanced(props) {
                                 <div className={styles.app}>
                                     <div className={styles.copy}>
                                         <Image alt='BitsWits' loading='lazy' sizes="100vw" src={app.imageSrc} className='img-fluid' />
-                                        <h3 className='black fw700'>{app.title}</h3>
+                                        <h3 className='text-black fw700'>{app.title}</h3>
                                     </div>
                                     <p className='m-0'>{app.description}</p>
                                 </div>
@@ -57,7 +57,7 @@ export default function Expertappdubaiadvanced(props) {
                     {/* For Mobile */}
                     <Row className='gy-5 d-block d-lg-none'>
                         <Col lg={12} >
-                            <h2 className='black font50 f-700 center mb-5'>Advanced Technology Solutions for Large-Scale  <br></br> Businesses & Enterprises </h2>
+                            <h2 className='text-black font50 f-700 center mb-5'>Advanced Technology Solutions for Large-Scale  <br></br> Businesses & Enterprises </h2>
                         </Col>
                         <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider} dubaiSliders`}>
                             {props.appData.map((app, index) => (
@@ -65,7 +65,7 @@ export default function Expertappdubaiadvanced(props) {
                                     <div className={styles.app}>
                                         <div className={styles.copy}>
                                             <Image alt='BitsWits' loading='lazy' sizes="100vw" src={app.imageSrc} className='img-fluid mb-3' />
-                                            <h3 className=' black fw700'>{app.title}</h3>
+                                            <h3 className=' text-black fw700'>{app.title}</h3>
                                         </div>
                                         <p className='m-0'>{app.description}</p>
                                     </div>
