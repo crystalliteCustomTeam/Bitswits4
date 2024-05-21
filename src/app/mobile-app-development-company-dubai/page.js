@@ -34,12 +34,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/dubai.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
     desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 100 projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
+    bg: HeroBg
   }
   // award Content
   const Award = {

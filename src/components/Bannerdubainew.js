@@ -24,7 +24,7 @@ const saudiaBackground = `${styles.newSaudiaBg}`;
 
 const Bannerdubai = ({ content }) => {
     const pathname = usePathname();
-    const { title, desc, pageSlug } = content;
+    const { title, desc, pageSlug, bg = " " } = content;
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -115,10 +115,10 @@ const Bannerdubai = ({ content }) => {
             window.location.href = '/thank-you';
         }
     }
-
+    
     return (
         <>
-            <section className={`
+            {/* <section className={`
             ${pathname === "/app-development-austin" ? austinBackground : ""}
             ${pathname === "/app-development-chicago" ? chicagoBackground : ""}
             ${pathname === "/mobile-app-development-company-dallas" ? dallasBackground : ""}
@@ -130,7 +130,9 @@ const Bannerdubai = ({ content }) => {
             ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}
             ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : ""}
             ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
-             ${styles.DubaiBanner} bg-black`} >
+             ${styles.DubaiBanner} bg-black`} > */}
+             <section className={`${styles.DubaiBanner} bg-black`}>
+                <Image src={bg} fill priority={true} />
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>
                         <Col xl={7} className='px-0'>
