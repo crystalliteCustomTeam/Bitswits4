@@ -59,17 +59,17 @@ const Innovate = () => {
 
                                 {isSliderActive ?
                                     <Slider {...awardslogo}>
-                                        <Image src={layout1} className='img-fluid mb-5' alt="bitswits" />
-                                        <Image src={layout2} className='img-fluid mb-5' alt="bitswits" />
-                                        <Image src={layout3} className='img-fluid mb-5' alt="bitswits" />
-                                        <Image src={layout4} className='img-fluid mb-5' alt="bitswits" />
-                                        <Image src={layout5} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={layout1} className='img-fluid mb-5' alt='BitsWits' />
+                                        <Image src={layout2} className='img-fluid mb-5' alt='BitsWits' />
+                                        <Image src={layout3} className='img-fluid mb-5' alt='BitsWits' />
+                                        <Image src={layout4} className='img-fluid mb-5' alt='BitsWits' />
+                                        <Image src={layout5} className='img-fluid mb-5' alt='BitsWits' />
 
                                     </Slider>
 
                                     :
                                     <div>
-                                        <Image src={icon20} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={icon20} className='img-fluid mb-5' alt='BitsWits' />
                                     </div>
                                 }
 

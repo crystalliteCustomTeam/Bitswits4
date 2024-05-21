@@ -85,7 +85,7 @@ const Awardsrecognition = () => {
                                 </div>
                             </Slider>
                             <div className={styles.newpost}>
-                                <Image src={mobilelpfinal} className='img-fluid mb-5' quality={95} />
+                                <Image alt='BitsWits' src={mobilelpfinal} className='img-fluid mb-5' quality={95} />
                             </div>
                             <div className={styles.donothing}>
                                 <p className={`${styles.welcome} m-0`}>Welcome to our world of <span>innovative app</span> creation. At BitsWits, we don't just create a mobile app, we transform your vision into a <span>digital masterpiece</span>. With a blend of creativity and technical skill, we're recognized as the best <span>app making company</span> dedicated to elevating your business.</p>
@@ -119,7 +119,7 @@ const Awardsrecognition = () => {
                                     </div>
                                 </div>
                                 <div className={styles.newpost}>
-                                    <Image src={mobilelpfinal} className='img-fluid' quality={95} />
+                                    <Image alt='BitsWits' src={mobilelpfinal} className='img-fluid' quality={95} />
                                 </div>
                                 <div className={styles.donothing}>
                                     <p className={styles.welcome}>Welcome to our world of <span>innovative app</span> creation. At BitsWits, we don't just create a mobile app, we transform your vision into a <span>digital masterpiece</span>. With a blend of creativity and technical skill, we're recognized as the best <span>app making company</span> dedicated to elevating your business.</p>

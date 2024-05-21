@@ -74,7 +74,7 @@ const Technologieslp = () => {
 
                         <Col xl={12} className='mb-5 d-block d-lg-none'>
                             <div className={styles.analpost}>
-                                <select onChange={(e) => setActiveTab1(e.target.value)}>
+                                <select label="" onChange={(e) => setActiveTab1(e.target.value)}>
                                     <option className={styles.selOpt} value="tab1" label='Mobile'>Mobile</option>
                                     <option className={styles.selOpt} value="tab2" label='Front-End'>Front-End</option>
                                     <option className={styles.selOpt} value="tab3" label='Database'>Database</option>
