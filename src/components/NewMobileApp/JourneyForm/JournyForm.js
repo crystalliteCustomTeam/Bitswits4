@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Link from 'next/link';
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap';
 //
@@ -8,7 +7,7 @@ import formImg from 'media/newmobileapp/formImg.png'
 import { usePathname } from 'next/navigation';
 
 const JournyForm = () => {
-
+    const [checkboxes, setCheckboxes] = useState([]);
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -18,10 +17,6 @@ const JournyForm = () => {
     useEffect(() => {
         //   getIPData()
     }, [])
-
-    const [score, setScore] = useState('Submit');
-
-    const [checkboxes, setCheckboxes] = useState([]);
     const handleOptionChange3 = (e) => {
         const { value, checked } = e.target;
 
@@ -33,18 +28,16 @@ const JournyForm = () => {
     };
     const router = usePathname();
     const currentRoute = router;
-
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
         setPagenewurl(pagenewurl);
     }, []);
-
     const handleSubmit = async (e) => {
         e.preventDefault()
         var currentdate = new Date().toLocaleString() + ''
         const data = {
-            name: e.target.first.value,
+            name: e.target.name.value,
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
@@ -55,9 +48,7 @@ const JournyForm = () => {
         }
         const JSONdata = JSON.stringify(data)
 
-        setScore('Sending Data');
-
-        fetch('api/emailapidubai/route', {
+        fetch('/api/emailapidubai/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -70,7 +61,6 @@ const JournyForm = () => {
                 console.log(`Response Successed ${res}`)
             }
         })
-
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
@@ -85,14 +75,13 @@ const JournyForm = () => {
             "Date": currentdate,
             "Time": currentdate,
             "JSON": JSONdata,
-        });
 
+        });
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
             method: "POST",
             body: bodyContent,
             headers: headersList
         });
-
         const { pathname } = router;
         if (pathname == pathname) {
             window.location.href = '/thank-you';
@@ -121,7 +110,7 @@ const JournyForm = () => {
                                     </h4>
                                     <h3 className='grdiant'>We’re Listening</h3>
                                 </div>
-                                <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
+                                <input type='text' minLength="4" name='name' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>
                                 <textarea placeholder='Comment' name='comment' className='form-control mt-3'></textarea>

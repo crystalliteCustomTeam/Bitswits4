@@ -13,7 +13,8 @@ import Partner from "media/newmobileapp/partner.png"
 import formImg from 'media/newmobileapp/formImg.png'
 
 const Banner = ({ content }) => {
-    const { title, desc, pageSlug } = content;
+    const { title, desc } = content;
+    const [checkboxes, setCheckboxes] = useState([]);
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -23,10 +24,6 @@ const Banner = ({ content }) => {
     useEffect(() => {
         //   getIPData()
     }, [])
-
-    const [score, setScore] = useState('Submit');
-
-    const [checkboxes, setCheckboxes] = useState([]);
     const handleOptionChange3 = (e) => {
         const { value, checked } = e.target;
 
@@ -38,18 +35,16 @@ const Banner = ({ content }) => {
     };
     const router = usePathname();
     const currentRoute = router;
-
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
         setPagenewurl(pagenewurl);
     }, []);
-
     const handleSubmit = async (e) => {
         e.preventDefault()
         var currentdate = new Date().toLocaleString() + ''
         const data = {
-            name: e.target.first.value,
+            name: e.target.name.value,
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
@@ -60,9 +55,7 @@ const Banner = ({ content }) => {
         }
         const JSONdata = JSON.stringify(data)
 
-        setScore('Sending Data');
-
-        fetch('api/emailapidubai/route', {
+        fetch('/api/emailapidubai/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -75,7 +68,6 @@ const Banner = ({ content }) => {
                 console.log(`Response Successed ${res}`)
             }
         })
-
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
@@ -90,14 +82,13 @@ const Banner = ({ content }) => {
             "Date": currentdate,
             "Time": currentdate,
             "JSON": JSONdata,
-        });
 
+        });
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
             method: "POST",
             body: bodyContent,
             headers: headersList
         });
-
         const { pathname } = router;
         if (pathname == pathname) {
             window.location.href = '/thank-you';
@@ -105,7 +96,6 @@ const Banner = ({ content }) => {
     }
 
     const text = "Timely – Trusted – Trailblazing"
-
     const defaultAnimation = {
         hidden: {
             opacity: 0,
@@ -183,7 +173,7 @@ const Banner = ({ content }) => {
                             <form id='BannerForm' className={styles.your} onSubmit={handleSubmit}>
                                 <h3>Let’s Discuss <br /> Your App Idea In Detail</h3>
                                 <p className='text-white text-center'>Our experts help you in the best way possible. Get customized plans!</p>
-                                <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
+                                <input type='text' minLength="4" name='name' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-3'></textarea>
