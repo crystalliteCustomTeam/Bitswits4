@@ -35,6 +35,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  z-index: 1;
 }
 
 .newHoustonBg {
@@ -766,9 +767,9 @@
 }
 
 @media screen and (max-width: 1999px) {
-  .newHomeBg {
+  /* .newHomeBg {
     height: 85dvh;
-  }
+  } */
 
   .newHoustonBg {
     height: 85dvh;
@@ -861,9 +862,9 @@
     margin-left: 10%;
   }
 
-  .newHomeBg {
+  /* .newHomeBg {
     height: 100dvh;
-  }
+  } */
 
   .newHoustonBg {
     height: 100dvh;
@@ -947,9 +948,9 @@
     max-height: 320px;
   }
 
-  .newHomeBg {
+  /* .newHomeBg {
     height: 100dvh;
-  }
+  } */
 
   .newHoustonBg {
     height: 100dvh;
@@ -997,7 +998,7 @@
 }
 
 @media screen and (max-width: 1099px) {
-  .newHomeBg {
+  .DubaiBanner {
     height: auto;
     padding-top: 60px;
     padding-bottom: 70px;
@@ -1180,7 +1181,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .newHomeBg {
+  .DubaiBanner {
     background: #000;
     background-image: inherit;
   }
@@ -1218,7 +1219,7 @@
     font-size: 18px;
   }
 
-  .newHomeBg {
+  .DubaiBanner {
     padding-top: 0px;
     padding-bottom: 50px;
   }
