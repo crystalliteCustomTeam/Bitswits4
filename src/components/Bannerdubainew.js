@@ -27,6 +27,7 @@ const Bannerdubai = ({ content }) => {
     const { title, desc, pageSlug, bg = " " } = content;
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
+    const [checkboxes, setCheckboxes] = useState([]);
 
     // Creating function to load IP address from the API
     const getIPData = async () => {
