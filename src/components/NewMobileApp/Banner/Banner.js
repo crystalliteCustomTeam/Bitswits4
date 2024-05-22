@@ -1,9 +1,8 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { motion } from "framer-motion"
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Typing from 'react-typing-effect';
 import styles from "@/styles/NewMobileApp/Banner.module.css"
 // images 
 import badgeClient from "media/newdubai/badgesClient.png"
@@ -113,9 +112,9 @@ const Banner = ({ content }) => {
         },
         visible: {
             opacity: 1,
-            y: 0
+            y: 0,
         }
-    }
+    };
 
     return (
         <>
@@ -124,20 +123,13 @@ const Banner = ({ content }) => {
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col lg={7} xl={6} className='p-0 my-0'>
                             <div>
-                                <motion.p
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    transition={{ staggerChildren: 0.1 }}
+                                <Typing
                                     className={styles.quickly}
-                                    aria-hidden>
-                                    {text.split("").map((char) => (
-                                        <motion.span transition={{
-                                            repeat: 1,
-                                            repeatType: "reverse",
-                                            duration: 2
-                                        }} variants={defaultAnimation}>{char}</motion.span>
-                                    ))}
-                                </motion.p>
+                                    text='Timely – Trusted – Trailblazing'
+                                    speed={300}
+                                    eraseDelay={500}
+                                    typingDelay={500}
+                                />
                             </div>
                             <div className={styles.oppp}>
                                 <h1 className='text-black fw600 mb-3'>
