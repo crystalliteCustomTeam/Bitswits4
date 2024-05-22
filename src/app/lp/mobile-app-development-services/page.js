@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import Bannerdubai from '@/src/components/NewMobileApp/Banner/Banner'
 import Sticky from "@/src/components/NewMobileApp/MobileSkicky/MobileSkicky"
+import Bannerdubai from '@/src/components/NewMobileApp/Banner/Banner'
 import NewAward from '@/src/components/NewMobileApp/NewAward/NewAward';
 import Whowearenew from '@/src/components/NewMobileApp/WhoWeAre/WhoWeAre';
 import FutureReady from '@/src/components/NewMobileApp/FutureReady/FutureReady';
