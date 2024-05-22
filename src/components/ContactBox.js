@@ -19,26 +19,38 @@ const ContactBox = () => {
     function loc(tabs1) {
         setActiveTab(tabs1);
     }
+
     const [ip, setIP] = useState('');
-    //creating function to load ip address from the API
-    const getIPData = async () => {
-        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
-        setIP(res.data);
-    }
-    useEffect(() => {
-        //   getIPData()
-    }, [])
+    const [pagenewurl, setPagenewurl] = useState('');
     const [score, setScore] = useState('Submit');
-   const router = usePathname();
+
+    // Creating function to load IP address from the API
+    const getIPData = async () => {
+        try {
+            const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+            setIP(res.data);
+        } catch (error) {
+            console.error('Error fetching IP data:', error);
+        }
+    };
+
+    useEffect(() => {
+        getIPData();
+        setPagenewurl(window.location.href);
+    }, []);
+
+    const router = usePathname();
     const currentRoute = router;
-     const [pagenewurl, setPagenewurl] = useState('');
-      useEffect(() => {
-        const pagenewurl = window.location.href;
-        setPagenewurl(pagenewurl);
-      }, []);
+
     const handleSubmit = async (e) => {
-        e.preventDefault()
-        var currentdate = new Date().toLocaleString() + ''
+        e.preventDefault();
+        // Check if IP data is available before submitting the form
+        if (!ip) {
+            console.error('IP data is not available yet. Please try again later.');
+            return;
+        }
+
+        const currentdate = new Date().toLocaleString();
         const data = {
             name: e.target.name.value,
             last: e.target.last.value,
@@ -49,9 +61,10 @@ const ContactBox = () => {
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
         }
-        const JSONdata = JSON.stringify(data)
+        const JSONdata = JSON.stringify(data);
         setScore('Sending Data');
-    
+
+        // First API call to your server
         fetch('/api/emailapi/', {
             method: 'POST',
             headers: {
@@ -60,18 +73,19 @@ const ContactBox = () => {
             },
             body: JSONdata
         }).then((res) => {
-            console.log(`Response received ${res}`)
+            console.log(`Response received ${res}`);
             if (res.status === 200) {
-                console.log(`Response Successed ${res}`)
+                console.log(`Response Successed ${res}`);
             }
-        })
+        });
+
+        // Second API call to SheetDB
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
             "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
             "Content-Type": "application/json"
-        }
-
+        };
         let bodyContent = JSON.stringify({
             "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             "Brand": "Bitswits",
@@ -79,18 +93,75 @@ const ContactBox = () => {
             "Date": currentdate,
             "Time": currentdate,
             "JSON": JSONdata,
-
         });
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
             method: "POST",
             body: bodyContent,
             headers: headersList
         });
+
+        // Third API call to another endpoint
+        const myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        const raw = JSON.stringify({
+            "fields": [
+                {
+                    "objectTypeId": "0-1",
+                    "name": "email",
+                    "value": e.target.email.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "firstname",
+                    "value": e.target.name.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "phone",
+                    "value": e.target.phone.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "message",
+                    "value": e.target.comment.value
+                }
+            ],
+            "context": {
+                "ipAddress": ip.IPv4,
+                "pageUri": pagenewurl,
+                "pageName": pagenewurl
+            },
+            "legalConsentOptions": {
+                "consent": {
+                    "consentToProcess": true,
+                    "text": "I agree to allow Example Company to store and process my personal data.",
+                    "communications": [
+                        {
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }
+                    ]
+                }
+            }
+        });
+        const requestOptions = {
+            method: "POST",
+            headers: myHeaders,
+            body: raw,
+            redirect: "follow"
+        };
+        await fetch("https://api.hsforms.com/submissions/v3/integration/submit/46084502/ea92327e-cdf7-4b04-9538-8d0c0e92cd9e", requestOptions)
+            .then((response) => response.text())
+            .then((result) => console.log(result))
+            .catch((error) => console.error(error));
+
         const { pathname } = router;
         if (pathname == pathname) {
             window.location.href = '/thank-you';
         }
     }
+
     return (
         <>
             <section className={styles.bannerContact}>
@@ -193,19 +264,19 @@ const ContactBox = () => {
                                 <form id="contactusform1" onSubmit={handleSubmit}>
                                     <Row className='gy-3'>
                                         <Col lg={6}>
-                                            <input type="text"   name="name" id="name" placeholder="Full Name" required />
+                                            <input type="text" name="name" id="name" placeholder="Full Name" required />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="text" name="last"  placeholder="Last Name" required />
+                                            <input type="text" name="last" placeholder="Last Name" required />
                                         </Col>
                                         <Col lg={6}>
                                             <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name="phone" id="phone" placeholder="Phone" required />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="email" name="email"  placeholder="Email Address" required />
+                                            <input type="email" name="email" placeholder="Email Address" required />
                                         </Col>
                                         <Col lg={12}>
-                                            <textarea type="textarea"  name="comment" id="comments" placeholder="Comments" required />
+                                            <textarea type="textarea" name="comment" id="comments" placeholder="Comments" required />
                                         </Col>
                                         <Col>
                                             <div className={styles.notic}>
