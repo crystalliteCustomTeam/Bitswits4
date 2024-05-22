@@ -33,12 +33,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/houston.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-tier Mobile App Development Company in Houston",
     desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 200+ projects over the years. Reach us today and transform your dream app into reality.",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -265,7 +267,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -331,7 +333,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

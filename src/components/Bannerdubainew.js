@@ -132,7 +132,7 @@ const Bannerdubai = ({ content }) => {
             ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
              ${styles.DubaiBanner} bg-black`} > */}
             <section className={`${styles.DubaiBanner} bg-black`}>
-                {/* <Image src={bg} fill priority={true} sizes='100vw' style={{zIndex: -1}} /> */}
+                <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} />
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>
                         <Col xl={7} className='px-0'>
@@ -150,15 +150,15 @@ const Bannerdubai = ({ content }) => {
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
                                     <div>
-                                        <Image priority={true} sizes='100vw' fill src={badgeClient} alt='Bitswits' width={183} height={80} />
+                                        <Image priority={true} sizes='100vw' src={badgeClient} alt='Bitswits' width={183} height={80} />
                                     </div>
                                     <div>
                                         <div className={styles.reviews}>
-                                            <Image priority={true} sizes='100vw' fill src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority={true} sizes='100vw' fill src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority={true} sizes='100vw' fill src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority={true} sizes='100vw' fill src={Star} alt='Bitswits' width={25} height={22} />
-                                            <Image priority={true} sizes='100vw' fill src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority={true} sizes='100vw' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority={true} sizes='100vw' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority={true} sizes='100vw' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority={true} sizes='100vw' src={Star} alt='Bitswits' width={25} height={22} />
+                                            <Image priority={true} sizes='100vw' src={Star} alt='Bitswits' width={25} height={22} />
                                         </div>
                                         <p className='mb-0'>
                                             <strong>4.8 out of 5</strong> (review rating)
@@ -167,7 +167,7 @@ const Bannerdubai = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <Image priority={true} sizes='100vw' fill src={Clutch} alt='Bitswits' width={129} height={60} />
+                                    <Image priority={true} sizes='100vw' src={Clutch} alt='Bitswits' width={129} height={60} />
                                 </div>
                             </div>
                         </Col>

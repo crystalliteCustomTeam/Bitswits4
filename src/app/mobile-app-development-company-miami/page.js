@@ -33,12 +33,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/miami.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Trusted Mobile App Development Company in Miami",
     desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 200+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -325,7 +327,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -412,7 +414,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

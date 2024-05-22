@@ -33,12 +33,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/chicago.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-Notch Mobile App Development Company in Chicago",
     desc: "Looking for a top mobile app development company in Chicago? Discover BitsWits – your gateway to turning app preferences into tangible results. We specialize in designing mobile application solutions to suit your business goals with an experienced team of professionals ready to tackle projects of any size. From start-ups to corporate restructuring, our commitment to excellence remains unwavering. Let's make your app unforgettable, shall we?",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -312,7 +314,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -363,7 +365,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

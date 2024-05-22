@@ -33,12 +33,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/dallas.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-Grade Mobile App Development Company in Dallas",
-    desc: "With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance. Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and driving long-term success. Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!"
+    desc: "With our proficiency in mobile app development in Dallas, we engineer bespoke Android and iOS applications, using cutting-edge technology for optimal performance. Our end-to-end services, from design to development are geared towards enhancing your ROI by 3X and driving long-term success. Trust us as the leading mobile app development company in Dallas to deliver custom solutions, building apps that perfectly fit your needs!",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -343,7 +345,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -361,8 +363,8 @@ export default function dubaidevelopmentcompany() {
           },
           {
             question: "How do you ensure the security of mobile applications?",
-            answer: (<> 
-            We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>. </>)
+            answer: (<>
+              We ensure mobile app security through <b>encryption</b>, <b>secure authentication</b>, <b>regular updates</b>, <b>thorough testing</b>, <b>adherence to secure coding practices</b>, and <b>staying informed about security threats</b>. </>)
           },
           {
             question: "Do you offer ongoing support and maintenance after the app launch?",
@@ -379,7 +381,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

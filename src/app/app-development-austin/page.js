@@ -33,12 +33,14 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
+import HeroBg from "/public/newhouston/austin.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-tier Mobile App Development Company in Austin",
     desc: "Develop friendly and scalable mobile applications that help your business escalate to higher levels by partnering with our elite mobile app development company in Austin. Our Austin app developers utilize state-of-the-art, modern tools & technologies that help them develop intuitive products that would generate 2X revenue. We are committed to designing a well-structured digital app that will ensure a high-quality user experience and outstanding app performance.",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -342,7 +344,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -437,7 +439,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

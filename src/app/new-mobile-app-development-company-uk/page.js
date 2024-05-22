@@ -34,12 +34,14 @@ import banImg3 from '@/public/dubailp/services/3.png'
 import banImg4 from '@/public/dubailp/services/4.png'
 import banImg5 from '@/public/dubailp/services/5.png'
 import banImg6 from '@/public/dubailp/services/6.png'
+import HeroBg from "/public/newhouston/uk.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
     desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered 100+ projects across the UAE. We specialize in creating customized yet data-driven solutions for all kinds of businesses, which distinguishes us from the rest of the competitors. Our mobile app developers in Dubai are well-versed with the latest tools and technologies, which helps them create indigenous digital products. Reach out to our app development company today and let us handle all your app requirements.",
+    bg: HeroBg
   }
   // award Content
   const Award = {
@@ -338,7 +340,7 @@ export default function dubaidevelopmentcompany() {
           ]
         }
       />
-<Justbuilditlpdubai
+      <Justbuilditlpdubai
         title1="Just"
         title="Build It."
         para="Design, Develop, and Grow with BitsWits."
@@ -395,7 +397,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>
