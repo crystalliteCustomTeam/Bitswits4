@@ -41,7 +41,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"); */
 
-/* @font-face {
+@font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
   font-display: swap;
@@ -77,7 +77,7 @@
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: Gilroy-Bold;
   src: url(../public/fontgilroy/Gilroy-Bold.ttf);
   font-display: swap;
