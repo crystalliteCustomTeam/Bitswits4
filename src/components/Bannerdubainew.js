@@ -132,7 +132,7 @@ const Bannerdubai = ({ content }) => {
             ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
              ${styles.DubaiBanner} bg-black`} > */}
              <section className={`${styles.DubaiBanner} bg-black`}>
-                <Image src={bg} fill priority={true} sizes='100vw' style={{zIndex: -1}} />
+                {/* <Image src={bg} fill priority={true} sizes='100vw' style={{zIndex: -1}} /> */}
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>
                         <Col xl={7} className='px-0'>
