@@ -174,9 +174,9 @@ const Banner = ({ content }) => {
                                 <Typing
                                     className={styles.quickly}
                                     text='Timely – Trusted – Trailblazing'
-                                    speed={300}
-                                    eraseDelay={500}
-                                    typingDelay={500}
+                                    speed={100}
+                                    eraseDelay={200}
+                                    typingDelay={100}
                                 />
                             </div>
                             <div className={styles.oppp}>

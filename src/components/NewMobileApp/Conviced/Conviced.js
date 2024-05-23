@@ -72,7 +72,7 @@ const Conviced = ({ content, onAnchorClick }) => {
                                     <div className={`${styles.cardNegative}`}>
                                         <div className={`${styles.card}`}>
                                             <div className="cardTop">
-                                                <p>As a long-time client of BitsWits<span className={styles.blue}>mobile app development company</span>, I'm consistently impressed by their quality <span>cross-platform app development services</span> Their innovative approach has improved our businesses across the board.</p>
+                                                <p>As a long-time client of BitsWits <span className={styles.blue}>mobile app development company</span>, I'm consistently impressed by their quality <span>cross-platform app development services</span> Their innovative approach has improved our businesses across the board.</p>
                                             </div>
                                             <div className={styles.cardBottom}>
                                                 <div className="client d-flex align-items-center gap-1 gap-xxl-3">
@@ -219,7 +219,7 @@ const Conviced = ({ content, onAnchorClick }) => {
                                 <div className='px-2'>
                                     <div className={styles.card}>
                                         <div className="cardTop">
-                                            <p>Exclusivity is the name of the game. I wanted immaculate<span className={styles.red}>Android app development services</span>. BitsWits claimed they were a premier <span className={styles.red}>Android app development company</span> and they certainly lived up to their word.</p>
+                                            <p>Exclusivity is the name of the game. I wanted immaculate <span className={styles.red}>Android app development services</span>. BitsWits claimed they were a premier <span className={styles.red}>Android app development company</span> and they certainly lived up to their word.</p>
                                         </div>
                                         <div className={styles.cardBottom}>
                                             <div className="client d-flex align-items-center gap-1 gap-xxl-3">
