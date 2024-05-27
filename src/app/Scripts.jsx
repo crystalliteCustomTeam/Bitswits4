@@ -23,7 +23,7 @@ const Scripts = () => {
             //======== zenDesk ========//
             const zenDesk = document.createElement("script");
             zenDesk.id = "ze-snippet";
-            zenDesk.src = "https://static.zdassets.com/ekr/snippet.js?key=325da280-f4f0-4c80-997f-ea4de45eb2f1";
+            zenDesk.src = "https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d";
             zenDesk.async = true;
             zenDesk.defer = true;
             document.body.appendChild(zenDesk);
