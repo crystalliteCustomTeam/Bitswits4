@@ -456,7 +456,7 @@
   padding-right: 26px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: linear-gradient(var(--angle), #f32f53, #f32fc2, #4a78ef);
+  background: linear-gradient(to top, #f32f53, #f32fc2, #4a78ef);
   width: 65%;
   margin-left: auto;
   position: relative;
