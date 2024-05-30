@@ -190,7 +190,6 @@ export default function Home() {
           whyPara={whyPara}
         />
         <Contact newBg="newBgSpc" />
-
       </main>
     </>
   );

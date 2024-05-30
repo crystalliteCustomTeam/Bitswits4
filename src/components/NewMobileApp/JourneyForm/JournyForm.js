@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap';
+import Axios from "axios";
 //
 import styles from '@/styles/NewMobileApp/JournyForm.module.css'
 import formImg from 'media/newmobileapp/formImg.png'
-import { usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation'; 
 
 const JournyForm = () => {
     const [checkboxes, setCheckboxes] = useState([]);
@@ -175,8 +176,7 @@ const JournyForm = () => {
                         <Col lg={6}>
                             <form id='form' onSubmit={handleSubmit}>
                                 <div className='mb-4'>
-                                    <h4>Have an Idea to Execute?
-                                    </h4>
+                                    <h4>Have an Idea to Execute?</h4>
                                     <h3 className='grdiant'>We’re Listening</h3>
                                 </div>
                                 <input type='text' minLength="4" name='name' required className='form-control' placeholder="Full Name"></input>
