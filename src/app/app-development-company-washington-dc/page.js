@@ -102,31 +102,33 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
-    desc: "Ready to See Yours Become a Reality?",
-    btntext: "Book Your Free Consultation Now!"
+    title: <>2X Your Business Revenue with our Cutting-Edge Mobile Apps!</>,
+    desc: "Ready to Dominate the App Market? Let's Create Your Digital Product!",
+    btntext: "Schedule a Free Consultation Today!"
   }
   // timeline Content
   const timeline = {
-    classSec: "dubai",
-    title: <> Our Agile Process for <br /> Mobile App Development <br /> in Dubai </>,
+    classSec: "washington",
+    subtitle: "Process We Utilize",
+    title: <> Leading App  Development <br />  Firm Washington DC </>,
     desc: <>
-      <span className="d-block">At BitsWits, we're not here just to develop ordinary mobile apps; in fact, our aim is to create captivating yet revenue-generating applications that help you stay ahead in the digital world.</span>
+      <span className="d-block">As an elite app development company in Washington, DC, we are well aware of all the complexities and nuances related to app development, unlike other firms that offer average products at high prices. </span>
       <br />
-      <span className="d-block">We utilize advanced technologies and creative designs to produce apps that effectively connect with users and boost business success.with intensive research and strategy, we start with defining the core problem statement and aligning it with client goals. This guides our digital strategy, ensuring continued success post-launch.</span>
+      <span className="d-block">From the beginning of the process to the product finally hitting the market, we are always engaged with you, where you are kept in the loop and well-informed. We thoroughly test your app to ensure it works phenomenally without any serious threats or bugs</span>
       <br />
-      <span className="mb-5 mb-sm-0 d-block">Here is the process we follow for developing mobile apps for our clients.</span>
+      <span className="mb-5 mb-sm-0 d-block">Here is the process we utilize to develop products that boost exceptional performance.</span>
     </>,
-    heading1: "Research and Strategy",
-    para1: "In the research and strategy phase for app development Dubai, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development.",
+    isSubtitle: true,
+    heading1: "Research & Strategy ",
+    para1: "We begin with an in-depth analysis of app ideas, its goals, and an overall assessment of its feasibility. We perform comprehensive research to determine your target audience and whether the idea you want to launch has the potential or not. Besides, we conduct brainstorming sessions that enable us to come up with a strategic plan. ",
     heading2: "Development",
-    para2: "In the development phase, our mobile app developers in Dubai follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth app launch and submission process.",
-    heading3: "UI and UX",
-    para3: "In the design phase, our designers collaborate closely with clients to create powerful, visually appealing, and intuitive interfaces. Through wireframing and design prototyping, we ensure users can navigate the app effortlessly, fostering a highly engaging user experience and satisfaction. This collaborative process guarantees seamless interaction, enhancing app usability, and ultimately delivering a compelling user experience. Additionally, we prioritize accessibility over other complexities.",
+    para2: "In the development phase, our DC app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprint regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. ",
+    heading3: "UI/UX ",
+    para3: "We pay great attention to the creation of an interface that is simple and convenient to use as well as delivers a user-friendly interface. We have created designs that not only accomplish your brand’s identity but also fulfill your targeted audience's needs & demands. By employing users' persona, we create intuitive, functional, and aesthetically appealing app designs..",
     heading4: "Scale",
-    para4: "In the scale phase, we prioritize achieving the client's goals by focusing on app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Dubai mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. In addition, we emphasize continuous refinement to ensure sustained user engagement.",
+    para4: "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke DC mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. ",
     heading5: "Deployment",
-    para5: "In the deployment phase, our team focuses on launching the app successfully to the market. We run thorough compatibility tests on several different devices and platforms to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
+    para5: "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users.",
   }
   // ClientContent
   const ClientContent = {

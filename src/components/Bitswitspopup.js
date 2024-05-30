@@ -49,7 +49,7 @@ const Freequote = (props) => {
       name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
-      comment: e.target.comment.value,
+      comment: e.target.message.value,
       pageUrl: pagenewurl,
       IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
       currentdate: currentdate,
@@ -116,7 +116,7 @@ const Freequote = (props) => {
         {
           "objectTypeId": "0-1",
           "name": "message",
-          "value": e.target.comment.value
+          "value": e.target.message.value
         }
       ],
       "context": {
@@ -175,7 +175,6 @@ const Freequote = (props) => {
           <textarea className={styles.formfree} required name="message" rows="2" placeholder="Type Your Message Here"></textarea>
           <button className={styles.freebtn} type="submit">{score} </button>
         </form>
-
 
         {props.show ?
 
