@@ -398,36 +398,36 @@
 
   .servSlider .app1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain1.png);
+      url(../public/newHomePage/images/newMaintain1.webp);
   }
   .servSlider .app2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain2.png);
+      url(../public/newHomePage/images/newMaintain2.webp);
   }
   .servSlider .app3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain3.png);
+      url(../public/newHomePage/images/newMaintain3.webp);
   }
   .servSlider .app4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain12.png);
+      url(../public/newHomePage/images/newMaintain12.webp);
   }
   .servSlider .app5 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain5.png);
+      url(../public/newHomePage/images/newMaintain5.webp);
   }
   .servSlider .app6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain6.png);
+      url(../public/newHomePage/images/newMaintain6.webp);
     justify-content: flex-end;
   }
   .servSlider .app7 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/maintain8_bg.png);
+      url(../public/newHomePage/images/maintain8_bg.webp);
   }
   .servSlider .app8 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain11.png);
+      url(../public/newHomePage/images/newMaintain11.webp);
   }
 
   .servSlider .app .cardContent {
