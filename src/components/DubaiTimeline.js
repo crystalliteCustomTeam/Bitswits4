@@ -25,7 +25,7 @@ const DubaiTimeline = ({ content }) => {
                                         {subtitle}
                                     </h4> :
                                     <h4 className={`${styles.redPara} fontsfregular`}>
-                                        The Process
+                                        Our Process
                                     </h4>}
                                 <h2>{title}</h2>
                                 <p className='fontsfregular '>
@@ -43,7 +43,7 @@ const DubaiTimeline = ({ content }) => {
                                                     {subtitle}
                                                 </h4> :
                                                 <h4 className={`${styles.redPara} fontsfregular`}>
-                                                    The Process
+                                                    Our Process
                                                 </h4>}
                                             <h2>{title}</h2>
                                             <p className='fontsfregular'>

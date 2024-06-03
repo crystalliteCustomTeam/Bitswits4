@@ -38,22 +38,21 @@ import HeroBg from "/public/newhouston/dubai.webp";
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
-    title: "Leading Mobile App Development Company in Toronto",
-    desc: "BitsWits is regarded as the best Toronto app development company and for all the right reasons. Our innovative apps not only enhance user engagement but also drive sales and maximize return on investment for businesses in Toronto. We take great pride in aiding leading brands in Toronto to outperform their competitors and achieve remarkable success!",
+    title: "Top Mobile App Development Company in New York",
+    desc: "Bitwits is a top-tier mobile app development company in New York helping startups and entrepreneurs across 10+ industries build super-fast, scalable, and feature-rich mobile applications. We pride our partnerships with some of the fastest-growing digital startups globally and boast of having the dream team of the finest NYC app developers, engineers, UX designers, and project managers.",
     bg: HeroBg
   }
   // award Content
   const Award = {
     title: "Awards & Recognitions",
-    desc: <>Our dedication and hardwork has consistently <br className="d-xl-block d-none" />
-      garnered acknowledgment by different platforms. </>,
+    desc: <>Consistently delivering value and results<br className="d-xl-block d-none" /> to our partners and clients throughout the globe. </>,
 
   }
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Android App Development in Toronto',
-      answer: "BitsWits’ award-winning Android app development services in Toronto ensure that you secure the top spot on the app chart. With a focus on interactivity and user engagement, we bring your app ideas to life using the latest technologies and industry best practices. From conceptualization to deployment, our team ensures the seamless integration of your vision into high-quality Android applications.",
+      question: 'Android App Development in NYC',
+      answer: "We offer top-tier Android app development services to entrepreneurs who want to build native apps for both Android and iOS platforms. The tech stack for our Android app development services includes programming languages like Dart, Kotlin, Java, PHP, etc. Android Studio as the IDE, MongoDB or MySQL for Databases, and Android Jetpack for UI components.",
       btn: "Let’s Build My Android App",
       StoryLineImg: StoryLine2
     },
@@ -83,10 +82,10 @@ export default function dubaidevelopmentcompany() {
     },
   ];
   const storyLine = {
-    subtitle: (<>Top-Rated </>),
-    title: (<>Mobile App Development Company in Toronto </>),
-    para: "For BitsWits, the customer comes first. We have established a huge family of local clients in Toronto that has made us the talk of the town. With years of experience behind us, our mobile app developers in Toronto ensure that your app is unique and groundbreaking.",
-    subPara: "Below are some of our leading app development services in Toronto:",
+    subtitle: (<>Top-Rated</>),
+    title: (<> Mobile App Development Company in New York </>),
+    para: "BitsWits has been consistently ranked as the leading mobile app development company in New York on top review platforms like Clutch, GoodFirms, etc. Our full-stack development expertise is the reason why we are ranked among the finest NYC app developers.",
+    subPara: "Here’s the suite of app development services we offer:",
     accordionData: accordionData
   };
   // Who We Are Content
