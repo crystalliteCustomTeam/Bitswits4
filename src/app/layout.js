@@ -1,6 +1,7 @@
 //===== Import Css =====
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
+import { primary } from "./configs/fonts";
 //===== Import Components =====
 import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
@@ -47,7 +48,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={primary.variable}>
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
       <Scripts />
       <body>

@@ -40,7 +40,7 @@
 }
 
 .app {
-  background-image: url(../public/newHomePage/images/pageLp6/icon1.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon1.webp);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -54,7 +54,7 @@
 
 .app1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../public/newHomePage/images/pageLp6/icon2.png);
+    url(../public/newHomePage/images/pageLp6/icon2.webp);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -63,7 +63,7 @@
 }
 
 .app2 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon3.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon3.webp);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -145,7 +145,7 @@
 }
 
 .app3 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon4.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon4.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@
 }
 
 .app4 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon5.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon5.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@
 }
 
 .app7 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon8.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon8.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +242,7 @@
 }
 
 .app5 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon6.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon6.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@
 }
 
 .app6 {
-  background-image: url(../public/newHomePage/images/pageLp6/icon7.png);
+  background-image: url(../public/newHomePage/images/pageLp6/icon7.webp);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;

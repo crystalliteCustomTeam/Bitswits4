@@ -32,44 +32,8 @@
   --transparentBlue: #4a79ef1c;
 }
 
-/* @font-face {
-  font-family: SF-Pro-Display;
-  src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SF-Pro-Display;
-  src: url(../public/fontsfy/SF-Pro-Display-Bold.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SF-Pro-Display-Heavy;
-  src: url(../public/fontsfy/SF-Pro-Display-Heavy.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SF-Pro-Display;
-  src: url(../public/fontsfy/SF-Pro-Display-Light.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SF-Pro-Display-Regular;
-  src: url(../public/fontsfy/SF-Pro-Display-Regular.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SF-Pro-Display;
-  src: url(../public/fontsfy/SF-Pro-Display-Medium.otf);
-  font-display: swap;
-} */
-
 * {
-  font-family: "SF-Pro-Display";
+  font-family: var(--font-primary);
 }
 
 html,
@@ -117,7 +81,7 @@ strong {
 }
 
 .fontf {
-  font-family: "SF-Pro-Display";
+  font-family: var(--font-primary);
 }
 
 .fontN {
@@ -153,11 +117,13 @@ strong {
 }
 
 .fontsfheavy {
-  font-family: "SF-Pro-Display-Heavy", sans-serif;
+  font-family: var(--font-primary);
+  font-weight: 800;
 }
 
 .fontsfregular {
-  font-family: "SF-Pro-Display-Regular", sans-serif;
+  font-family: var(--font-primary);
+  font-weight: 300;
 }
 
 /*====================== fontweight ======================*/
