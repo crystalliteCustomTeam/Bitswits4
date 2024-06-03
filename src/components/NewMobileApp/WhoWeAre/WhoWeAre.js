@@ -134,25 +134,25 @@ const Whowearenew = ({ content, contentTwo, onAnchorClick }) => {
                                         <h5>
                                             <span className='mb-0 d-inline'>93</span><span>%</span>
                                         </h5>
-                                        <p>Satisfied Customers</p>
+                                        <p>Satisfied <br /> Customers</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderTwo}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline'>90000</span><span>+</span>
+                                            <span className='mb-0 d-inline'>90,000</span><span>+</span>
                                         </h5>
-                                        <p>Development Hours</p>
+                                        <p>Development <br /> Hours</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderThree}`}>
                                         <h5>
-                                            <span className='mb-0 d-inline'>2500</span><span>+</span>
+                                            <span className='mb-0 d-inline'>2,500</span><span>+</span>
                                         </h5>
-                                        <p>App Launched</p>
+                                        <p>App <br /> Launched</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFour}`}>
                                         <h5 className='pt-2'>
                                             <span className='mb-0 d-inline'>100</span><span>+</span>
                                         </h5>
-                                        <p className='mb-0'>Countries Served</p>
+                                        <p className='mb-0'>Countries <br /> Served</p>
                                     </Col>
                                     <Col md={4} className={`col-6 ${styles.borderFive}`}>
                                         <h5 className='pt-2'>

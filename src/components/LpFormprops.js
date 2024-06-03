@@ -72,8 +72,7 @@ const LpFormprops = (props) => {
             name: e.target.name.value,
             last: 'null',
             email: e.target.email.value,
-            phone: e.target.phone.value,
-            comment: 'null',
+            phone: e.target.phone.value, 
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -136,11 +135,6 @@ const LpFormprops = (props) => {
                     "objectTypeId": "0-1",
                     "name": "phone",
                     "value": e.target.phone.value
-                },
-                {
-                    "objectTypeId": "0-1",
-                    "name": "message",
-                    "value": e.target.comment.value
                 }
             ],
             "context": {

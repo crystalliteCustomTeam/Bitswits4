@@ -1,5 +1,4 @@
-"use client"
-import dynamic from 'next/dynamic'
+"use client" 
 import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";

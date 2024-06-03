@@ -11,7 +11,7 @@ import TimelineFour from "/public/newDubaiPagev1/timeline4.png"
 import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 
 const DubaiTimeline = ({ content }) => {
-    const { title, desc, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, classSec } = content
+    const { subtitle, title, desc, isSubtitle, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, classSec } = content
 
     return (
         <>
@@ -20,7 +20,13 @@ const DubaiTimeline = ({ content }) => {
                     <Row>
                         <Col lg={12}>
                             <div className={`${styles.timelineContent} d-block d-lg-none`}>
-                                <h4 className={`${styles.redPara} fontsfregular`}>The Process </h4>
+                                {isSubtitle ?
+                                    <h4 className={`${styles.redPara} fontsfregular`}>
+                                        {subtitle}
+                                    </h4> :
+                                    <h4 className={`${styles.redPara} fontsfregular`}>
+                                        Our Process
+                                    </h4>}
                                 <h2>{title}</h2>
                                 <p className='fontsfregular '>
                                     {desc}
@@ -32,7 +38,13 @@ const DubaiTimeline = ({ content }) => {
                                 <div className={styles.timelineMain}>
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
-                                            <h4 className={`${styles.redPara} fontsfregular`}>The Process </h4>
+                                            {isSubtitle ?
+                                                <h4 className={`${styles.redPara} fontsfregular`}>
+                                                    {subtitle}
+                                                </h4> :
+                                                <h4 className={`${styles.redPara} fontsfregular`}>
+                                                    Our Process
+                                                </h4>}
                                             <h2>{title}</h2>
                                             <p className='fontsfregular'>
                                                 {desc}

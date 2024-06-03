@@ -507,6 +507,100 @@
   top: 253px;
 }
 
+/* ============ Washington DC ============ */
+
+.washington .marker {
+  top: 112px;
+}
+
+.washington .timelineMain:before {
+  top: 26px;
+  height: 8%;
+}
+
+.washington .timeOne::after {
+  height: 79%;
+  bottom: -72px;
+}
+
+.washington .timeTwo::after {
+  height: 31%;
+  top: 135px;
+}
+
+.numberOne {
+  top: 80px;
+}
+
+.washington .numberTwo {
+  top: 309px;
+}
+
+.washington .numberThree {
+  top: -21px;
+}
+
+.washington .timeThree::before {
+  height: 32%;
+  top: -183px;
+}
+
+.washington .timeThree::after {
+  height: 42%;
+  top: 35px;
+}
+
+.washington .numberFour {
+  top: 245px;
+}
+
+/* ============ newyork ============ */
+
+.newyork .marker {
+  top: 112px;
+}
+
+.newyork .timelineMain:before {
+  top: 18px;
+  height: 8%;
+}
+
+.newyork .timeOne::after {
+  height: 83%;
+  bottom: -85px;
+}
+
+.newyork .timeTwo::after {
+  height: 28%;
+  top: 150px;
+}
+
+.numberOne {
+  top: 93px;
+}
+
+.newyork .numberTwo {
+  top: 317px;
+}
+
+.newyork .numberThree {
+  top: -10px;
+}
+
+.newyork .timeThree::before {
+  height: 37%;
+  top: -197px;
+}
+
+.newyork .timeThree::after {
+  height: 39%;
+  top: 46px;
+}
+
+.newyork .numberFour {
+  top: 240px;
+}
+
 /* ============Media Query Start============ */
 
 @media screen and (max-width: 1499px) {
@@ -780,6 +874,123 @@
   .houston .numberFour {
     top: 253px;
   }
+
+  /* ============ Washington============ */
+
+  .washington .timelineMain::before {
+    top: 15px;
+  }
+
+  .washington .timeOne::after {
+    height: 84%;
+  }
+
+  .washington .marker {
+    top: 98px;
+  }
+
+  .washington .timelineMain:before {
+    height: 9%;
+    top: -22px;
+  }
+
+  .washington .timeOne::after {
+    height: 83%;
+  }
+
+  .washington .timeTwo::after {
+    height: 31%;
+    top: 136px;
+  }
+
+  .washington .numberTwo {
+    top: 320px;
+  }
+
+  .washington .timeThree::before {
+    height: 33%;
+    top: -196px;
+  }
+
+  .washington .numberThree {
+    top: -22px;
+  }
+
+  .washington .timeThree::after {
+    height: 40%;
+    top: 34px;
+  }
+
+  .washington .numberFour {
+    top: 245px;
+  }
+
+  /* ============ newyork ============ */
+
+  .newyork .timelineMain::before {
+    top: 15px;
+  }
+
+  .newyork .timeOne::after {
+    height: 84%;
+  }
+
+  .newyork .marker {
+    top: 110px;
+  }
+
+  .newyork .timelineMain:before {
+    height: 9%;
+    top: -5px;
+  }
+
+  .newyork .timeOne::after {
+    height: 83%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 27%;
+    top: 149px;
+  }
+
+  .newyork .numberTwo {
+    top: 320px;
+  }
+
+  .newyork .timeThree::before {
+    height: 39%;
+    top: -220px;
+  }
+
+  .newyork .numberThree {
+    top: -12px;
+  }
+
+  .newyork .timeThree::after {
+    height: 38%;
+    top: 45px;
+  }
+
+  .newyork .numberFour {
+    top: 245px;
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+
+  /* ============Washington============ */
+  .washington .timelineMain::before {
+    top: -5px;
+  }
+
+  .washington .marker {
+    top: 110px;
+  }
+
+  .washington .timeOne::after {
+    height: 81%;
+  }
+
 }
 
 @media screen and (max-width: 1099px) {
@@ -1149,6 +1360,100 @@
   }
 
   .houston .numberFour {
+    top: 258px;
+  }
+
+  /* ============Washington============ */
+
+  .washington .marker {
+    top: 114px;
+  }
+
+  .washington .timelineMain:before {
+    top: 50px;
+    height: 8%;
+  }
+
+  .washington .timeOne::after {
+    height: 75%;
+    bottom: -53px;
+  }
+
+  .washington .numberOne {
+    top: 66px;
+  }
+
+  .washington .timeTwo::after {
+    height: 36%;
+    top: 104px;
+  }
+
+  .washington .numberTwo {
+    top: 258px;
+  }
+
+  .washington .timeThree::before {
+    height: 23%;
+    top: -120px;
+  }
+
+  .washington .numberThree {
+    top: -16px;
+  }
+
+  .washington .timeThree::after {
+    height: 54%;
+    top: 20px;
+  }
+
+  .washington .numberFour {
+    top: 258px;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .marker {
+    top: 105px;
+  }
+
+  .newyork .timelineMain:before {
+    top: 43px;
+    height: 8%;
+  }
+
+  .newyork .timeOne::after {
+    height: 81%;
+    bottom: -70px;
+  }
+
+  .newyork .numberOne {
+    top: 76px;
+  }
+
+  .newyork .timeTwo::after {
+    height: 32%;
+    top: 114px;
+  }
+
+  .newyork .numberTwo {
+    top: 258px;
+  }
+
+  .newyork .timeThree::before {
+    height: 28%;
+    top: -140px;
+  }
+
+  .newyork .numberThree {
+    top: -14px;
+  }
+
+  .newyork .timeThree::after {
+    height: 54%;
+    top: 20px;
+  }
+
+  .newyork .numberFour {
     top: 258px;
   }
 }
@@ -1596,6 +1901,110 @@
 
   .houston .numberFourMobile {
     top: 71.5%;
+  }
+
+  /* ============Washington============ */
+
+  .washington .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .washington .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .washington .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .washington .numberOne {
+    top: 77px;
+  }
+
+  .washington .timeTwo::after {
+    height: 44%;
+    top: 114px;
+  }
+
+  .washington .numberTwoMobile {
+    top: 72%;
+  }
+
+  .washington .timeThree::before {
+    height: 46%;
+    top: -84px;
+  }
+
+  .washington .numberThree {
+    top: 128px;
+  }
+
+  .washington .timeThree::after {
+    height: 34%;
+    top: 170px;
+  }
+
+  .washington .numberFourMobile {
+    top: 73%;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .newyork .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .newyork .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .newyork .numberOne {
+    top: 77px;
+  }
+
+  .newyork .timeTwo::after {
+    height: 44%;
+    top: 114px;
+  }
+
+  .newyork .numberTwoMobile {
+    top: 70%;
+  }
+
+  .newyork .timeThree::before {
+    height: 49%;
+    top: -97px;
+  }
+
+  .newyork .numberThree {
+    top: 126px;
+  }
+
+  .newyork .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .newyork .numberFourMobile {
+    top: 76%;
   }
 }
 
@@ -2048,6 +2457,76 @@
   .houston .numberFourMobile {
     top: 65.5%;
   }
+
+  /* ============Washington============ */
+
+  .washington .timelineMain:before {
+    top: -68px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .washington .timeOne::after {
+    height: 116%;
+  }
+
+  .washington .timeTwo::after {
+    height: 44.5%;
+  }
+
+  .washington .numberTwoMobile {
+    top: 63.3%;
+  }
+
+  .washington .timeThree::before {
+    top: -199px;
+    height: 47%;
+  }
+
+  .washington .timeThree::after {
+    height: 40%;
+    top: 166px;
+  }
+
+  .washington .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .timelineMain:before {
+    top: -68px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .newyork .timeOne::after {
+    height: 116%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 44.5%;
+  }
+
+  .newyork .numberTwoMobile {
+    top: 62.3%;
+  }
+
+  .newyork .timeThree::before {
+    top: -223px;
+    height: 54%;
+  }
+
+  .newyork .timeThree::after {
+    height: 43%;
+    top: 166px;
+  }
+
+  .newyork .numberFourMobile {
+    top: 70.5%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -2146,6 +2625,76 @@
 
   .houston .numberFourMobile {
     top: 66.5%;
+  }
+
+  /* ============Washington============ */
+
+  .washington .timelineMain:before {
+    top: -68px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .washington .timeOne::after {
+    height: 116%;
+  }
+
+  .washington .timeTwo::after {
+    height: 44.5%;
+  }
+
+  .washington .numberTwoMobile {
+    top: 64.5%;
+  }
+
+  .washington .timeThree::before {
+    top: -199px;
+    height: 47%;
+  }
+
+  .washington .timeThree::after {
+    height: 40%;
+    top: 166px;
+  }
+
+  .washington .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .timelineMain:before {
+    top: -86px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .newyork .timeOne::after {
+    height: 116%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 44.5%;
+  }
+
+  .newyork .numberTwoMobile {
+    top: 61%;
+  }
+
+  .newyork .timeThree::before {
+    top: -261px;
+    height: 53%;
+  }
+
+  .newyork .timeThree::after {
+    height: 45%;
+    top: 166px;
+  }
+
+  .newyork .numberFourMobile {
+    top: 70%;
   }
 }
 
@@ -2332,6 +2881,74 @@
 
   .houston .numberFourMobile {
     top: 65.5%;
+  }
+
+  /* ============Washington============ */
+
+  .washington .timelineMain:before {
+    top: -78px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .washington .timeOne::after {
+    height: 114%;
+  }
+
+  .washington .timeTwo::after {
+    height: 45%;
+  }
+
+  .washington .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .washington .timeThree::before {
+    top: -223px;
+    height: 47%;
+  }
+
+  .washington .timeThree::after {
+    height: 41%;
+    top: 163px;
+  }
+
+  .washington .numberFourMobile {
+    top: 64.5%;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .timelineMain:before {
+    top: -78px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .newyork .timeOne::after {
+    height: 114%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 45%;
+  }
+
+  .newyork .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .newyork .timeThree::before {
+    top: -223px;
+    height: 47%;
+  }
+
+  .newyork .timeThree::after {
+    height: 41%;
+    top: 163px;
+  }
+
+  .newyork .numberFourMobile {
+    top: 64.5%;
   }
 }
 
@@ -2524,6 +3141,76 @@
 
   .houston .numberFourMobile {
     top: 63.5%;
+  }
+
+  /* ============Washington============ */
+
+  .washington .timelineMain:before {
+    top: -82px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .washington .timeOne::after {
+    height: 116%;
+  }
+
+  .washington .timeTwo::after {
+    height: 46%;
+  }
+
+  .washington .numberTwoMobile {
+    top: 63.6%;
+  }
+
+  .washington .timeThree::before {
+    top: -219px;
+    height: 45%;
+  }
+
+  .washington .timeThree::after {
+    height: 42%;
+    top: 168px;
+  }
+
+  .washington .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============newyork============ */
+
+  .newyork .timelineMain:before {
+    top: -90px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .newyork .timeOne::after {
+    height: 114%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 46%;
+  }
+
+  .newyork .numberTwoMobile {
+    top: 61.6%;
+  }
+
+  .newyork .timeThree::before {
+    top: -274px;
+    height: 51%;
+  }
+
+  .newyork .timeThree::after {
+    height: 46%;
+    top: 168px;
+  }
+
+  .newyork .numberFourMobile {
+    top: 69%;
   }
 }
 

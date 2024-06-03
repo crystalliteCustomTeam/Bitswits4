@@ -103,23 +103,43 @@ const Contact = (props) => {
             "fields": [
                 {
                     "objectTypeId": "0-1",
+                    "name": "firstname",
+                    "value": e.target.fname.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "lastName",
+                    "value": e.target.lname.value
+                },
+                {
+                    "objectTypeId": "0-1",
                     "name": "email",
                     "value": e.target.email.value
                 },
                 {
                     "objectTypeId": "0-1",
-                    "name": "firstname",
-                    "value": e.target.name.value
+                    "name": "company",
+                    "value": e.target.company.value
                 },
                 {
                     "objectTypeId": "0-1",
-                    "name": "phone",
-                    "value": e.target.phone.value
+                    "name": "service",
+                    "value": e.target.service.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "source",
+                    "value": e.target.source.value
+                },
+                {
+                    "objectTypeId": "0-1",
+                    "name": "budget",
+                    "value": e.target.budget.value
                 },
                 {
                     "objectTypeId": "0-1",
                     "name": "message",
-                    "value": e.target.comment.value
+                    "value": e.target.message.value
                 }
             ],
             "context": {
