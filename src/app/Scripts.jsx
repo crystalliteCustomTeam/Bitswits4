@@ -75,7 +75,7 @@ const Scripts = () => {
                 gtag('config', 'G-T8JYHWL639');
             `;
             document.head.appendChild(analyticConfigScript);
-        }, 10000);
+        }, 3000);
 
         return () => clearTimeout(timer);
     }, []);

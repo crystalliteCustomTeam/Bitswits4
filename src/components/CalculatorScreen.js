@@ -288,155 +288,16 @@ const CalculatorScreen = () => {
         }
     };
     // =========== Form ===============
-    const [ip, setIP] = useState('');
-    const [pagenewurl, setPagenewurl] = useState('');
-    const [score, setScore] = useState('Submit');
 
-    // Creating function to load IP address from the API
-    const getIPData = async () => {
-        try {
-            const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
-            setIP(res.data);
-        } catch (error) {
-            console.error('Error fetching IP data:', error);
-        }
-    };
-
-    useEffect(() => {
-        getIPData();
-        setPagenewurl(window.location.href);
-    }, []);
-
-    const router = usePathname();
-    const currentRoute = router;
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        // Check if IP data is available before submitting the form
-        if (!ip) {
-            console.error('IP data is not available yet. Please try again later.');
-            return;
-        }
-
-        const currentdate = new Date().toLocaleString();
-        const data = {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            phone: e.target.phone.value,
-            comment: e.target.comment.value,
-            pageUrl: pagenewurl,
-            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-            currentdate: currentdate,
-        };
-        const JSONdata = JSON.stringify(data);
-        setScore('Sending Data');
-
-        // First API call to your server
-        fetch('/api/emailapi/', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSONdata
-        }).then((res) => {
-            console.log(`Response received ${res}`);
-            if (res.status === 200) {
-                console.log(`Response Successed ${res}`);
-            }
-        });
-
-        // Second API call to SheetDB
-        let headersList = {
-            "Accept": "*/*",
-            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
-            "Content-Type": "application/json"
-        };
-        let bodyContent = JSON.stringify({
-            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-            "Brand": "Bitswits",
-            "Page": `${currentRoute}`,
-            "Date": currentdate,
-            "Time": currentdate,
-            "JSON": JSONdata,
-        });
-        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
-            method: "POST",
-            body: bodyContent,
-            headers: headersList
-        });
-
-        // Third API call to another endpoint
-        const myHeaders = new Headers();
-        myHeaders.append("Content-Type", "application/json");
-        const raw = JSON.stringify({
-            "fields": [
-                {
-                    "objectTypeId": "0-1",
-                    "name": "email",
-                    "value": e.target.email.value
-                },
-                {
-                    "objectTypeId": "0-1",
-                    "name": "firstname",
-                    "value": e.target.name.value
-                },
-                {
-                    "objectTypeId": "0-1",
-                    "name": "phone",
-                    "value": e.target.phone.value
-                },
-                {
-                    "objectTypeId": "0-1",
-                    "name": "message",
-                    "value": e.target.comment.value
-                }
-            ],
-            "context": {
-                "ipAddress": ip.IPv4,
-                "pageUri": pagenewurl,
-                "pageName": pagenewurl
-            },
-            "legalConsentOptions": {
-                "consent": {
-                    "consentToProcess": true,
-                    "text": "I agree to allow Example Company to store and process my personal data.",
-                    "communications": [
-                        {
-                            "value": true,
-                            "subscriptionTypeId": 999,
-                            "text": "I agree to receive marketing communications from Example Company."
-                        }
-                    ]
-                }
-            }
-        });
-        const requestOptions = {
-            method: "POST",
-            headers: myHeaders,
-            body: raw,
-            redirect: "follow"
-        };
-        await fetch("https://api.hsforms.com/submissions/v3/integration/submit/46084502/ea92327e-cdf7-4b04-9538-8d0c0e92cd9e", requestOptions)
-            .then((response) => response.text())
-            .then((result) => console.log(result))
-            .catch((error) => console.error(error));
-
-        const { pathname } = router;
-        if (pathname == pathname) {
-            window.location.href = '/thank-you';
-        }
-    }
 
     return (
         <>
             <section className={styles.screen}>
                 <Container fluid className={styles.height}>
-                    <Row>
+                    <Row className='justify-content-between'>
                         <Col lg={7}>
-                            <form id="contactusform1" onSubmit={handleSubmit}>
-                                <div className={styles.checkCol}>
+                            <form id="contactusform1">
+                                <div className={`${styles.checkCol} screen`}>
                                     <div className={styles.progressBar}>
                                         <div className={`${styles.bar} ${currentStep > 0 ? styles.done : currentStep === 0 ? styles.active : ''}`}>
                                             <span>
@@ -489,10 +350,10 @@ const CalculatorScreen = () => {
                                     </div>
                                     <div className={styles.progressContrnt}>
                                         {/* ========== Step 1 ========== */}
-                                        <div className={currentStep === 0 ? 'd-block' : 'd-none'}>
-                                            <div className={`${styles.checkBoxs} screen`}>
+                                        <div className={currentStep === 0 ? 'd-block ps-3' : 'd-none'}>
+                                            <div className={`${styles.checkBoxs}`}>
                                                 <h3>What type of app are you building?</h3>
-                                                <p>Apple iOS is a better choice to reach to a more engaged user base. Android has a broader reach, however, particularly in emerging markets, like Asia and Africa.</p>
+                                                <p>Apple iOS is a better choice to reach to a more engaged user base. Android has a broader reach, however, <br /> particularly in emerging markets, like Asia and Africa.</p>
                                                 <div className={styles.forCheckBox}>
                                                     <div className={`${styles.checkBox}`}>
                                                         <input
@@ -534,7 +395,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 2 ========== */}
-                                        <div className={currentStep === 1 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 1 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} screen`}>
                                                 <h3>What features would you like your app to have?</h3>
                                                 <p>Filter by functionality type.</p>
@@ -865,7 +726,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 3 ========== */}
-                                        <div className={currentStep === 2 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 2 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} screen`}>
                                                 <h3>How do people login?</h3>
                                                 <p>An email login is generally best to start with unless your app will have tight integration with services like Facebook or Twitter, in which case social login is better.</p>
@@ -992,7 +853,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 4 ========== */}
-                                        <div className={currentStep === 3 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 3 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} screen`}>
                                                 <h3>What device features will your app need to integrate with?</h3>
                                                 <p>These are sensors on the device you can integrate with.</p>
@@ -1090,7 +951,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 5 ========== */}
-                                        <div className={currentStep === 4 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 4 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} screen`}>
                                                 <h3>Will your app generate revenue?</h3>
                                                 <p>Charging users for your app upfront is cheaper than building in-app purchases, but in-app purchase can produce higher returns if/when you have an engaged user base.</p>
@@ -1135,7 +996,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 6 ========== */}
-                                        <div className={currentStep === 5 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 5 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} ${styles.checkBoxs2} screen`}>
                                                 <h3>Option 1: Host and develop your app with BuildFire</h3>
                                                 <p>When you build your app with BuildFire, all of the infrastructure is taken care of for you and your app can easily scale to millions of users. You also don’t need to worry about any ongoing maintenance or support costs because it’s all included in your subscription!</p>
@@ -1157,7 +1018,7 @@ const CalculatorScreen = () => {
                                                                 <p className={styles.cost}>
                                                                     <sup>$</sup>
                                                                     499
-                                                                    <sub> /mo</sub>
+                                                                    <span> /mo</span>
                                                                 </p>
                                                                 <p>Per month billed quarterly.</p>
                                                             </div>
@@ -1180,7 +1041,7 @@ const CalculatorScreen = () => {
                                                                 <p className={styles.cost}>
                                                                     <sup>$</sup>
                                                                     349
-                                                                    <sub> /mo</sub>
+                                                                    <span> /mo</span>
                                                                 </p>
                                                                 <p>Per month billed quarterly.</p>
                                                             </div>
@@ -1203,7 +1064,7 @@ const CalculatorScreen = () => {
                                                                 <p className={styles.cost}>
                                                                     <sup>$</sup>
                                                                     189
-                                                                    <sub> /mo</sub>
+                                                                    <span> /mo</span>
                                                                 </p>
                                                                 <p>Per month billed quarterly.</p>
                                                             </div>
@@ -1354,7 +1215,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 7 ========== */}
-                                        <div className={currentStep === 6 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 6 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={`${styles.checkBoxs} ${styles.checkBoxs3} screen`}>
                                                 <h3>Setup & Design Packages</h3>
                                                 <p>Hire a top-notch team of designers and app strategists to build your app for you on top of the BuildFire platform.</p>
@@ -1561,7 +1422,7 @@ const CalculatorScreen = () => {
                                             </div>
                                         </div>
                                         {/* ========== Step 8 ========== */}
-                                        <div className={currentStep === 7 ? 'd-block' : 'd-none'}>
+                                        <div className={currentStep === 7 ? 'd-block ps-3' : 'd-none'}>
                                             <div className={styles.fromBox}>
                                                 <h2>Enter Data <span className='text-white'>To Get A Detailed Breakdown Of <br /> Your</span> App Cost</h2>
                                                 <div className={styles.estimateForm}>
@@ -1580,6 +1441,16 @@ const CalculatorScreen = () => {
                                                         </Col>
                                                     </Row>
                                                 </div>
+                                                <div className={styles.selected}>
+                                                    <h4>Selected Features:</h4>
+                                                    <div className={`${styles.features} features`}>
+                                                        <ol className='ps-2 m-0'>
+                                                            {checkedItems.map((item, index) => (
+                                                                <li key={index}>{index + 1}. {labels[item]}</li>
+                                                            ))}
+                                                        </ol>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1596,7 +1467,7 @@ const CalculatorScreen = () => {
                                         </button>
                                     )}
                                     {currentStep > 6 && (
-                                        <button value={score} id="savebtns" type="submit" className={styles.bttns1}>{score}</button>
+                                        <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
                                     )}
                                 </div>
 
@@ -1616,7 +1487,7 @@ const CalculatorScreen = () => {
                                 </div> */}
                             </form>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={5}>
                             <div className={styles.imgCol}>
                                 <div className={`${styles.imgBg} mx-auto`}>
                                     {/* {renderImage()} */}
@@ -1624,19 +1495,6 @@ const CalculatorScreen = () => {
                                 </div>
                                 <div className={styles.para}>
                                     <p>Disclaimer: This is a tool to estimate app cost if you were to develop your app with an outside agency. Typically BuildFire prices are a fraction of the cost of an outside agency because our app development platform significantly reduces the amount of time and effort to build an app.</p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col lg={1} className='p-0'>
-                            <div className={styles.selected}>
-                                <h4>Selected Features:</h4>
-                                <div className={`${styles.features} features`}>
-                                    {checkedItems.map((item, index) => (
-                                        <React.Fragment key={index}>
-                                            <p>{labels[item]},</p>
-                                            {index !== checkedItems.length - 1}
-                                        </React.Fragment>
-                                    ))}
                                 </div>
                             </div>
                         </Col>
