@@ -152,7 +152,7 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner} onSubmit={handleSubmit}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        {/* <h4 className='newchoose text-white font-bold mb-3'>Turn Your App Idea Into An App</h4> */}
+                                        <h4 className='newchoose text-white font-bold mb-3'>Turn Your App Idea Into An App</h4>
                                     </div>
                                     <Row>
                                         <Col lg={3}>
