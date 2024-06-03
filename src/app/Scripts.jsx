@@ -27,6 +27,13 @@ const Scripts = () => {
             zenDesk.async = true;
             zenDesk.defer = true;
             document.body.appendChild(zenDesk);
+        }, 3000);
+
+        return () => clearTimeout(timer);
+    }, []);
+    // =======================================
+    useEffect(() => {
+        const timer2 = setTimeout(() => {
             //======== GTM Code ========//
             const googleTagManager = document.createElement("script");
             googleTagManager.strategy = "lazyOnload"
@@ -75,9 +82,9 @@ const Scripts = () => {
                 gtag('config', 'G-T8JYHWL639');
             `;
             document.head.appendChild(analyticConfigScript);
-        }, 3000);
+        }, 6000);
 
-        return () => clearTimeout(timer);
+        return () => clearTimeout(timer2);
     }, []);
     // =======================================
     return (
