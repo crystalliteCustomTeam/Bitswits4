@@ -131,7 +131,7 @@ const ConditionalLayout = ({ children }) => {
                                 pathname == "/lp/mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
                                     pathname == "/calculator" ? null :
-                                        <Footer />
+                                       ""
             }
         </>
     )
