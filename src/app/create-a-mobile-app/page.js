@@ -33,9 +33,23 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Bannerlp6
+        title={
+          <>
+            <h1 className={`${styles.develop} text-center font50 font-bold mb-3`}>
+              Create a Mobile App That Stands Out
+            </h1>
+          </>
+        }
+        para={
+          <>
+            <p className="font20 white center mb-3">
+              Beautiful, High-Performance Apps Delivered <span className={styles.txtDec}>ON TIME</span> and <span className={styles.txtDec}>WITHIN BUDGET</span>
+            </p>
+          </>
+        }
         newHomeBgprops="newHomeBg"
       />
-      <People People="people" />
+      {/* <People People="people" />
       <HomeBannerSliderlp />
       <LpForm6 />
       <Nothing Nothing="nothingLp6" />
@@ -68,7 +82,7 @@ export default function gamedevelopmentcompany() {
       <Partnerships />
       <Formnewlp />
       <NewFaqslp />
-      <HomeLocationlp />
+      <HomeLocationlp /> */}
     </>
   );
 }
