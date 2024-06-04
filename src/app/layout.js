@@ -1,6 +1,6 @@
 //===== Import Css =====
 import "bootstrap/dist/css/bootstrap.css";
-// import "@/styles/globals.css";
+import "@/styles/globals.css";
 import { primary } from "./configs/fonts";
 //===== Import Components =====
 import Scripts from "./Scripts";
