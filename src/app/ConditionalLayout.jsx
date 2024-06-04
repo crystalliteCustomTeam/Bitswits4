@@ -92,14 +92,14 @@ const ConditionalLayout = ({ children }) => {
     // =======================================
     return (
         <>
-            {showPixels && (
+            {/* {showPixels && (
                 <>
                     <MetaData />
                     <Pixel />
                     <Pixel2 />
                     <Analytics />
                 </>
-            )}
+            )} */}
             {
                 pathname == "/mobile-app-development-company-lp2" ? <Headerlp /> :
                     pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
@@ -131,7 +131,7 @@ const ConditionalLayout = ({ children }) => {
                                 pathname == "/lp/mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
                                     pathname == "/calculator" ? null :
-                                        <Footer />
+                                        {/* <Footer /> */}
             }
         </>
     )
