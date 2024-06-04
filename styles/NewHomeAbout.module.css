@@ -628,7 +628,7 @@
 }
 
 .newHomeBg {
-  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-image: url(../public/newHomePage/images/bg-image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -700px center;

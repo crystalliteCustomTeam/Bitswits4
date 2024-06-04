@@ -1,7 +1,7 @@
 .caseChoose {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-image: url(../public/newHomePage/images/bg-image.webp);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: 600px center;
@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 1400px) {
   .caseChoose {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 87%;
     background-position: 374px center;
@@ -93,7 +93,7 @@
 
 @media screen and (min-width: 1400px) {
   .caseChoose {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 72%;
     background-position: 550px center;

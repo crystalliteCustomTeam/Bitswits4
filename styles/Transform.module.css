@@ -2,7 +2,7 @@
   background-color: black;
   padding-top: 140px;
   padding-bottom: 50px;
-  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-image: url(../public/newHomePage/images/bg-image.webp);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: 600px center;
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1400px) {
   .transform {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: 700px center;

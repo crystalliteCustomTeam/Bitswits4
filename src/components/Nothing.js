@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Nothing.module.css";
 //images
-import banImg1 from "/public/images/nothing/map.png";
+import banImg1 from "/public/images/nothing/map.webp";
 //
 import news1 from "/public/images/nothing/1.png";
 import news2 from "/public/images/nothing/1.png";

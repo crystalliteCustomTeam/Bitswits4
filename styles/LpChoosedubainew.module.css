@@ -72,14 +72,14 @@
 
 @media screen and (max-width: 1400px) {
   .transform {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 87%;
     background-position: 374px center;
     background-color: black;
   }
   .hybirf {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 87%;
     background-position: 374px center;
@@ -98,14 +98,14 @@
 
 @media screen and (min-width: 1400px) {
   .transform {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 72%;
     background-position: 550px center;
     background-color: black;
   }
   .hybirf {
-    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-image: url(../public/newHomePage/images/bg-image.webp);
     background-repeat: no-repeat;
     background-size: 72%;
     background-position: 550px center;
