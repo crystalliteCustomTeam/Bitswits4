@@ -2,27 +2,28 @@
 import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 import { Analytics } from '@vercel/analytics/react';
+import dynamic from 'next/dynamic'
 //
-import Header from "../components/NewHeader";
-import HeaderMbl from "../components/HeaderMbl";
-import Headerlp from "../components/Headerlp";
-import Headerlphome from "../components/Headerlphome";
-import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
-import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
-import VideoHeader from "../components/video-explainer/Header/Header";
-import EcommerceBanner from "../components/EcommerceBanner";
-import Footer from "../components/Footer";
-import Footernewlp from "../components/Footernewlp";
-import Footernewdesign from "../components/Footernewdesign";
-import VideoFooter from "../components/video-explainer/Footer/Footer";
-import EcommerceFooter from "../components/EcommerceFooter";
+const Header = dynamic(() => import("../components/NewHeader"));
+const HeaderMbl = dynamic(() => import("../components/HeaderMbl"));
+const Headerlp = dynamic(() => import("../components/Headerlp"));
+const Headerlphome = dynamic(() => import("../components/Headerlphome"));
+const NewMobileHeader = dynamic(() => import("../components/NewMobileApp/Header/NewMobileHeader"));
+const NewHeaderMbl = dynamic(() => import("../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl"));
+const VideoHeader = dynamic(() => import("../components/video-explainer/Header/Header"));
+const EcommerceBanner = dynamic(() => import("../components/EcommerceBanner"));
+const Footer = dynamic(() => import("../components/Footer"));
+const Footernewlp = dynamic(() => import("../components/Footernewlp"));
+const Footernewdesign = dynamic(() => import("../components/Footernewdesign"));
+const VideoFooter = dynamic(() => import("../components/video-explainer/Footer/Footer"));
+const EcommerceFooter = dynamic(() => import("../components/EcommerceFooter"));
 //
-import Cursor from "../components/Cursor";
-import Skicky from "../components/Skicky";
-import Pixel from "../components/Pixel";
-import Pixel2 from "../components/Pixel2";
-import MetaData from "../components/MetaData";
-import FooterNewLps from "../components/FooterNewLps";
+const Cursor = dynamic(() => import("../components/Cursor"));
+const Skicky = dynamic(() => import("../components/Skicky"));
+const Pixel = dynamic(() => import("../components/Pixel"));
+const Pixel2 = dynamic(() => import("../components/Pixel2"));
+const MetaData = dynamic(() => import("../components/MetaData"));
+const FooterNewLps = dynamic(() => import("../components/FooterNewLps"));
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -130,8 +131,8 @@ const ConditionalLayout = ({ children }) => {
                             pathname == "/video-explainer-lp" ? <VideoFooter /> :
                                 pathname == "/lp/mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
-                                    pathname == "/calculator" ? null :
-                                       ""
+                                        pathname == "/calculator" ? null :
+                                            <Footer />
             }
         </>
     )

@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import dynamic from 'next/dynamic'
 // CSS 
 import styles from "@/styles/bannerlp6.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
@@ -15,37 +14,13 @@ import WeworkLp from "../../components/new-home-page-fy/WeworkLphome";
 import StartupsLp from "../../components/StartupsLp6";
 import ProjectProcess from "../../components/ProjectProcessLp6";
 import LpChoose from "../../components/LpChoose";
-// import Technologieslp from "../../components/Technologieslp";
-// import Justbuilditlp from "../../components/Justbuilditlp";
-// import Globallplp6 from "../../components/Globallplp6";
-// import Partnerships from "../../components/Partnerships";
-// import Formnewlp from "../../components/Formnewlp";
+import Technologieslp from "../../components/Technologieslp";
+import Justbuilditlp from "../../components/Justbuilditlp";
+import Globallplp6 from "../../components/Globallplp6";
+import Partnerships from "../../components/Partnerships";
+import Formnewlp from "../../components/Formnewlp";
 import NewFaqslp from "../../components/NewFaqslp";
-// import HomeLocationlp from "";
-
-const DynamicHeader = dynamic(() => import('../../components/HomeLocationlp'), {
-  loading: () => <p>Loading...</p>,
-})
-
-const Formnewlp = dynamic(() => import('../../components/Formnewlp'), {
-  loading: () => <p>Loading...</p>,
-})
-
-const Partnerships = dynamic(() => import('../../components/Partnerships'), {
-  loading: () => <p>Loading...</p>,
-})
-
-const Globallplp6 = dynamic(() => import('../../components/Globallplp6'), {
-  loading: () => <p>Loading...</p>,
-})
-
-const Justbuilditlp = dynamic(() => import('../../components/Justbuilditlp'), {
-  loading: () => <p>Loading...</p>,
-})
-
-const Technologieslp = dynamic(() => import('../../components/Technologieslp'), {
-  loading: () => <p>Loading...</p>,
-})
+import HomeLocationlp from "../../components/HomeLocationlp";
 
 export default function gamedevelopmentcompany() {
   const [showFolds, setShowFolds] = useState(false);
@@ -107,7 +82,7 @@ export default function gamedevelopmentcompany() {
       <Partnerships />
       <Formnewlp />
       <NewFaqslp />
-      <DynamicHeader />
+      <HomeLocationlp />
     </>
   );
 }
