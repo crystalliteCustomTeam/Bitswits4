@@ -170,43 +170,43 @@ const Carousel = () => {
             <div className={styles.carousel} ref={carouselRef}>
                 <div className={styles.carouselPivot} ref={carouselPivotRef}>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr1} alt="carousel-item" />
+                        <Image loading='lazy' src={scr1} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr2} alt="carousel-item" />
+                        <Image loading='lazy' src={scr2} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr3} alt="carousel-item" />
+                        <Image loading='lazy' src={scr3} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr4} alt="carousel-item" />
+                        <Image loading='lazy' src={scr4} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr5} alt="carousel-item" />
+                        <Image loading='lazy' src={scr5} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr6} alt="carousel-item" />
+                        <Image loading='lazy' src={scr6} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr7} alt="carousel-item" />
+                        <Image loading='lazy' src={scr7} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr8} alt="carousel-item" />
+                        <Image loading='lazy' src={scr8} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr9} alt="carousel-item" />
+                        <Image loading='lazy' src={scr9} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr10} alt="carousel-item" />
+                        <Image loading='lazy' src={scr10} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr11} alt="carousel-item" />
+                        <Image loading='lazy' src={scr11} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr12} alt="carousel-item" />
+                        <Image loading='lazy' src={scr12} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image priority src={scr13} alt="carousel-item" />
+                        <Image loading='lazy' src={scr13} alt="carousel-item" />
                     </div>
                 </div>
             </div>
