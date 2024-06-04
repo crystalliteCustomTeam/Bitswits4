@@ -26,9 +26,9 @@ const NewMaintain6Lp = () => {
                 <Container>
                     <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
-                            <p className={`font24 font-extrabold text-center mb-0 ${styles.changered1}`}>How We Make App Creation Simple and Effective
+                            <p className={`f-30 f-700 center mb-0 mb-sm-1 ${styles.changered1}`}>How We Make App Creation Simple and Effective
                             </p>
-                            <h1 className='text-white font50 font-bold text-center mb-2'>Our Mobile App Development Solutions</h1>
+                            <h2 className='white newchoose f-700 center mb-3'>Our Mobile App Development Solutions</h2>
                             <p className='m-0 text-white text-center'>Our comprehensive services cover everything from design to development, ensuring your journey to create an app  </p>
                             <p className='m-0 text-white text-center mb-4'>is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation. </p>
                         </Col>
@@ -133,10 +133,10 @@ const NewMaintain6Lp = () => {
                     <div className='d-block d-lg-none'>
                         <Row>
                             <Col lg={12}>
-                                <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily</p>
-                                <h1 className='text-white f-55 font-bold text-center'>Trusted Development Company For Tech Solutions</h1>
-                                <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy.</p>
-                                <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution and bring the following services to the table.</p>
+                                <p className={`f-30 f-700 center mb-1 ${styles.changered1}`}>How We Make App Creation Simple and Effective
+                                </p>
+                                <h2 className='white newchoose f-700 center mb-2'>Our Mobile App Development Solutions</h2>
+                                <p className='m-0 text-white text-center'>Our comprehensive services cover everything from design to development, ensuring your journey to create an app is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation. </p>
                             </Col>
                         </Row>
                         <Slider {...servSlider} className={`${styles.servSlider} servSlider`}>
