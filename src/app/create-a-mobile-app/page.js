@@ -50,7 +50,7 @@ export default function gamedevelopmentcompany() {
         newHomeBgprops="newHomeBg"
       />
       <People People="people" />
-      {/* <HomeBannerSliderlp />
+      <HomeBannerSliderlp />
       <LpForm6 />
       <Nothing Nothing="nothingLp6" />
       <NewMaintain6Lp />
@@ -82,7 +82,7 @@ export default function gamedevelopmentcompany() {
       <Partnerships />
       <Formnewlp />
       <NewFaqslp />
-      <HomeLocationlp /> */}
+      <HomeLocationlp />
     </>
   );
 }
