@@ -52,9 +52,9 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
       {/* <Scripts /> */}
       <body>
-        {/* <ConditionalLayout> */}
+        <ConditionalLayout>
           <main>{children}</main>
-        {/* </ConditionalLayout> */}
+        </ConditionalLayout>
       </body>
     </html>
   );
