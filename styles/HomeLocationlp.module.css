@@ -3,6 +3,7 @@
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 
 .mapVideo {
@@ -53,7 +54,7 @@
 
 .locationImage {
   position: absolute;
-  left: -20%;
+  left: 0;
   top: -75px;
   object-fit: contain;
 }

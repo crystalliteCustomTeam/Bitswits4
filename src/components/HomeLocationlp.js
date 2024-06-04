@@ -207,7 +207,7 @@ const HomeLocationlp = () => {
                                 </div>
                             </Col>
                             <Col lg={5} className={`d-lg-block d-none ${styles.positionDiv}`}>
-                                <Image quality={75} alt='BitsWits' src={LocationWorld} className={styles.locationImage} />
+                                <Image priority quality={75} alt='BitsWits' src={LocationWorld} className={styles.locationImage} />
                             </Col>
                         </Row>
                     </Container>

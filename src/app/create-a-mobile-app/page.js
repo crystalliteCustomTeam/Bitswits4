@@ -1,38 +1,33 @@
 "use client"
 import React, { useEffect, useState } from "react";
+import dynamic from 'next/dynamic'
 // CSS 
 import styles from "@/styles/bannerlp6.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
 // Components
-import Bannerlp6 from "../../components/Bannerlp6";
-import People from "../../components/People";
-import HomeBannerSliderlp from "../../components/HomeBannerSliderlp";
-import LpForm6 from "../../components/LpForm6";
-import Nothing from "../../components/Nothing";
-import NewMaintain6Lp from "../../components/NewMaintain6Lp";
-import WeworkLp from "../../components/new-home-page-fy/WeworkLphome";
-import StartupsLp from "../../components/StartupsLp6";
-import ProjectProcess from "../../components/ProjectProcessLp6";
-import LpChoose from "../../components/LpChoose";
-import Technologieslp from "../../components/Technologieslp";
-import Justbuilditlp from "../../components/Justbuilditlp";
-import Globallplp6 from "../../components/Globallplp6";
-import Partnerships from "../../components/Partnerships";
-import Formnewlp from "../../components/Formnewlp";
-import NewFaqslp from "../../components/NewFaqslp";
+const Bannerlp6 = dynamic(() => import("../../components/Bannerlp6"), { ssr: true });
+const People = dynamic(() => import("../../components/People"), { ssr: true });
+const HomeBannerSliderlp = dynamic(() => import("../../components/HomeBannerSliderlp"), { ssr: true });
+const LpForm6 = dynamic(() => import("../../components/LpForm6"), { ssr: true });
+const Nothing = dynamic(() => import("../../components/Nothing"), { ssr: true });
+const NewMaintain6Lp = dynamic(() => import("../../components/NewMaintain6Lp"), { ssr: true });
+const WeworkLp = dynamic(() => import("../../components/new-home-page-fy/WeworkLphome"), { ssr: true });
+const StartupsLp = dynamic(() => import("../../components/StartupsLp6"), { ssr: true });
+const ProjectProcess = dynamic(() => import("../../components/ProjectProcessLp6"), { ssr: true });
+const LpChoose = dynamic(() => import("../../components/LpChoose"), { ssr: true });
+const Technologieslp = dynamic(() => import("../../components/Technologieslp"), { ssr: true });
+const Justbuilditlp = dynamic(() => import("../../components/Justbuilditlp"), { ssr: true });
+const Globallplp6 = dynamic(() => import("../../components/Globallplp6"), { ssr: true });
+const Partnerships = dynamic(() => import("../../components/Partnerships"), { ssr: true });
+const Formnewlp = dynamic(() => import("../../components/Formnewlp"), { ssr: true });
+const NewFaqslp = dynamic(() => import("../../components/NewFaqslp"), { ssr: true });
 import HomeLocationlp from "../../components/HomeLocationlp";
 
 export default function gamedevelopmentcompany() {
-  const [showFolds, setShowFolds] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
+
   return (
     <>
-      {/* <Bannerlp6
+      <Bannerlp6
         title={
           <>
             <h1 className={`${styles.develop} text-center font50 font-bold mb-3`}>
@@ -48,7 +43,7 @@ export default function gamedevelopmentcompany() {
           </>
         }
         newHomeBgprops="newHomeBg"
-      /> */}
+      />
       <People People="people" />
       <HomeBannerSliderlp />
       <LpForm6 />
