@@ -49,8 +49,8 @@ export default function gamedevelopmentcompany() {
         }
         newHomeBgprops="newHomeBg"
       />
-      {/* <People People="people" />
-      <HomeBannerSliderlp />
+      <People People="people" />
+      {/* <HomeBannerSliderlp />
       <LpForm6 />
       <Nothing Nothing="nothingLp6" />
       <NewMaintain6Lp />
