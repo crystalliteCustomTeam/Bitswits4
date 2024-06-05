@@ -601,6 +601,53 @@
   top: 240px;
 }
 
+/* ============ toronto ============ */
+
+.toronto .marker {
+  top: 112px;
+}
+
+.toronto .timelineMain:before {
+  top: 18px;
+  height: 8%;
+}
+
+.toronto .timeOne::after {
+  height: 81%;
+  bottom: -74px;
+}
+
+.toronto .timeTwo::after {
+  height: 29%;
+  top: 136px;
+}
+
+.numberOne {
+  top: 80px;
+}
+
+.toronto .numberTwo {
+  top: 317px;
+}
+
+.toronto .numberThree {
+  top: -22px;
+}
+
+.toronto .timeThree::before {
+  height: 38%;
+  top: -224px;
+}
+
+.toronto .timeThree::after {
+  height: 39%;
+  top: 35px;
+}
+
+.toronto .numberFour {
+  top: 240px;
+}
+
 /* ============Media Query Start============ */
 
 @media screen and (max-width: 1499px) {
@@ -973,6 +1020,111 @@
 
   .newyork .numberFour {
     top: 245px;
+  }
+
+  /* ============ newyork ============ */
+
+  .newyork .timelineMain::before {
+    top: 15px;
+  }
+
+  .newyork .timeOne::after {
+    height: 84%;
+  }
+
+  .newyork .marker {
+    top: 110px;
+  }
+
+  .newyork .timelineMain:before {
+    height: 9%;
+    top: -5px;
+  }
+
+  .newyork .timeOne::after {
+    height: 83%;
+  }
+
+  .newyork .timeTwo::after {
+    height: 27%;
+    top: 149px;
+  }
+
+  .newyork .numberTwo {
+    top: 320px;
+  }
+
+  .newyork .timeThree::before {
+    height: 39%;
+    top: -220px;
+  }
+
+  .newyork .numberThree {
+    top: -12px;
+  }
+
+  .newyork .timeThree::after {
+    height: 38%;
+    top: 45px;
+  }
+
+  .newyork .numberFour {
+    top: 245px;
+  }
+
+  /* ============ toronto ============ */
+
+  .toronto .timelineMain::before {
+    top: 15px;
+  }
+
+  .toronto .timeOne::after {
+    height: 84%;
+  }
+
+  .toronto .marker {
+    top: 84px;
+  }
+
+  .toronto .timelineMain:before {
+    height: 7%;
+    top: -5px;
+  }
+
+  .toronto .timeOne::after {
+    height: 83%;
+    bottom: -58px;
+  }
+
+  .toronto .numberOne {
+    top: 70px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .toronto .numberTwo {
+    top: 312px;
+  }
+
+  .toronto .timeThree::before {
+    height: 39%;
+    top: -253px;
+  }
+
+  .toronto .numberThree {
+    top: -36px;
+  }
+
+  .toronto .timeThree::after {
+    height: 38%;
+    top: 26px;
+  }
+
+  .toronto .numberFour {
+    top: 240px;
   }
 }
 
@@ -1455,6 +1607,53 @@
 
   .newyork .numberFour {
     top: 258px;
+  }
+
+  /* ============toronto============ */
+
+  .toronto .marker {
+    top: 95px;
+  }
+
+  .toronto .timelineMain:before {
+    top: 43px;
+    height: 7%;
+  }
+
+  .toronto .timeOne::after {
+    height: 80%;
+    bottom: -54px;
+  }
+
+  .toronto .numberOne {
+    top: 59px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .toronto .numberTwo {
+    top: 251px;
+  }
+
+  .toronto .timeThree::before {
+    height: 28%;
+    top: -164px;
+  }
+
+  .toronto .numberThree {
+    top: -30px;
+  }
+
+  .toronto .timeThree::after {
+    height: 54%;
+    top: 6px;
+  }
+
+  .toronto .numberFour {
+    top: 256px;
   }
 }
 
@@ -2006,6 +2205,58 @@
   .newyork .numberFourMobile {
     top: 76%;
   }
+
+  /* ============toronto============ */
+
+  .toronto .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .toronto .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .toronto .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .toronto .numberOne {
+    top: 77px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 44%;
+    top: 114px;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 70%;
+  }
+
+  .toronto .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .toronto .numberThree {
+    top: 126px;
+  }
+
+  .toronto .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 71%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2527,6 +2778,41 @@
   .newyork .numberFourMobile {
     top: 70.5%;
   }
+
+  /* ============toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .toronto .timeOne::after {
+    height: 116%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .toronto .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .toronto .timeThree::after {
+    height: 39%;
+    top: 166px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 62%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -2695,6 +2981,41 @@
 
   .newyork .numberFourMobile {
     top: 70%;
+  }
+
+  /* ============toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -86px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .toronto .timeOne::after {
+    height: 116%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 47%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62%;
+  }
+
+  .toronto .timeThree::before {
+    top: -270px;
+    height: 52%;
+  }
+
+  .toronto .timeThree::after {
+    height: 39%;
+    top: 166px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 62%;
   }
 }
 
@@ -2949,6 +3270,40 @@
 
   .newyork .numberFourMobile {
     top: 64.5%;
+  }
+
+  /* ============toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 114%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .toronto .timeThree::before {
+    top: -296px;
+    height: 52%;
+  }
+
+  .toronto .timeThree::after {
+    height: 40%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 61%;
   }
 }
 
@@ -3211,6 +3566,40 @@
 
   .newyork .numberFourMobile {
     top: 69%;
+  }
+
+  /* ============toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 114%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .toronto .timeThree::before {
+    top: -296px;
+    height: 49%;
+  }
+
+  .toronto .timeThree::after {
+    height: 40%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 61%;
   }
 }
 
