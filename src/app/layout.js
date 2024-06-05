@@ -1,9 +1,13 @@
 //===== Import Css =====
+import dynamic from "next/dynamic";
 import { primary } from "./configs/fonts";
-import "bootstrap/dist/css/bootstrap.css";
-import "@/styles/globals.css";
+// import "bootstrap/dist/css/bootstrap.css";
+// import "@/styles/globals.css";
+const Bootstrap = dynamic(() => import("bootstrap/dist/css/bootstrap.css"));
+const Styles = dynamic(() => import("@/styles/globals.css"));
 //===== Import Components =====
-import Scripts from "./Scripts";
+// import Scripts from "./Scripts";
+const Scripts = dynamic(() => import("./Scripts"));
 import ConditionalLayout from "./ConditionalLayout";
 //===== Meta Data =====
 export const metadata = {
