@@ -1,32 +1,23 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
 // CSS 
 import styles from "@/styles/bannerlp6.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
 // Components
 import Bannerlp6 from "../../components/Bannerlp6";
-// import People from "../../components/People";
-const People = dynamic(() => import("../../components/People"), { ssr: false });
-// import HomeBannerSliderlp from "../../components/HomeBannerSliderlp";
-const HomeBannerSliderlp = dynamic(() => import("../../components/HomeBannerSliderlp"), { ssr: false });
+import People from "../../components/People";
+import HomeBannerSliderlp from "../../components/HomeBannerSliderlp";
 import LpForm6 from "../../components/LpForm6";
-// import Nothing from "../../components/Nothing";
-const Nothing = dynamic(() => import("../../components/Nothing"), { ssr: false });
-// import NewMaintain6Lp from "../../components/NewMaintain6Lp";
-const NewMaintain6Lp = dynamic(() => import("../../components/NewMaintain6Lp"), { ssr: false });
+import Nothing from "../../components/Nothing";
+import NewMaintain6Lp from "../../components/NewMaintain6Lp";
 import WeworkLp from "../../components/new-home-page-fy/WeworkLphome";
 import StartupsLp from "../../components/StartupsLp6";
 import ProjectProcess from "../../components/ProjectProcessLp6";
 import LpChoose from "../../components/LpChoose";
-// import Technologieslp from "../../components/Technologieslp";
-const Technologieslp = dynamic(() => import("../../components/Technologieslp"), { ssr: false });
-// import Justbuilditlp from "../../components/Justbuilditlp";
-const Justbuilditlp = dynamic(() => import("../../components/Justbuilditlp"), { ssr: false });
-// import Globallplp6 from "../../components/Globallplp6";
-const Globallplp6 = dynamic(() => import("../../components/Globallplp6"), { ssr: false });
-// import Partnerships from "../../components/Partnerships";
-const Partnerships = dynamic(() => import("../../components/Partnerships"), { ssr: false });
+import Technologieslp from "../../components/Technologieslp";
+import Justbuilditlp from "../../components/Justbuilditlp";
+import Globallplp6 from "../../components/Globallplp6";
+import Partnerships from "../../components/Partnerships";
 import Formnewlp from "../../components/Formnewlp";
 import NewFaqslp from "../../components/NewFaqslp";
 import HomeLocationlp from "../../components/HomeLocationlp";
