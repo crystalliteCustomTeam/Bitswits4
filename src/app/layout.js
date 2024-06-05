@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
       {/* <Scripts /> */}
-      <body >
+      <body className={primary.variable}>
         <ConditionalLayout>
           <main>{children}</main>
         </ConditionalLayout>
