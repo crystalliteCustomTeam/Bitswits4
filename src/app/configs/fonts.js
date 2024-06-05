@@ -8,17 +8,23 @@ const primary = localFont({
             style: 'normal',
         },
         {
-            path: '../../fonts/SFProDisplay-Black.ttf',
+            path: '../../fonts/SFProDisplay-Medium.ttf',
             weight: '500',
             style: 'normal',
         },
         {
-            path: '../../fonts/SFProDisplay-Medium.ttf',
+            path: '../../fonts/SFProDisplay-Semibold.ttf',
             weight: '600',
             style: 'normal',
         },
         {
             path: '../../fonts/SFProDisplay-Bold.ttf',
+            weight: '700',
+            style: 'normal',
+        },
+        
+        {
+            path: '../../fonts/SFProDisplay-Black.ttf',
             weight: '800',
             style: 'normal',
         },
