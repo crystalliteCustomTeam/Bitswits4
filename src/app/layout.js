@@ -1,7 +1,7 @@
 //===== Import Css =====
+import { primary } from "./configs/fonts";
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
-import { primary } from "./configs/fonts";
 //===== Import Components =====
 import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
