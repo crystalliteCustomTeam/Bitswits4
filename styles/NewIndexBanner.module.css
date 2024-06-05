@@ -81,11 +81,6 @@
   text-align: left;
 }
 
-.content .title {
-  font-family: "arial-black";
-  text-transform: uppercase;
-}
-
 .content .description {
   line-height: 1.7;
   margin: 1rem 0 1.5rem;
@@ -150,7 +145,7 @@
   justify-content: center;
   font-size: 15px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: all 0.5s ease-in-out;

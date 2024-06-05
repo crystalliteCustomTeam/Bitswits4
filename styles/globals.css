@@ -32,9 +32,6 @@
   --transparentBlue: #4a79ef1c;
 }
 
-* {
-  font-family: var(--font-primary);
-}
 
 html,
 body {
@@ -69,63 +66,6 @@ b,
 strong {
   font-weight: bold;
 }
-
-/*====================== fontfamily ======================*/
-
-.fontfam {
-  font-family: "Dosis", sans-serif;
-}
-
-.newfony {
-  font-family: "Dosis", sans-serif;
-}
-
-.fontf {
-  font-family: var(--font-primary);
-}
-
-.fontN {
-  font-family: "Nofex", sans-serif;
-}
-
-.fontgilroybold {
-  font-family: "Gilroy-Bold", sans-serif;
-}
-
-.fontgilroygilroyExtraBold {
-  font-family: "Gilroy-ExtraBold", sans-serif;
-}
-
-.fontgilroyheavy {
-  font-family: "Gilroy-Heavy", sans-serif;
-}
-
-.fontgilroylight {
-  font-family: "Gilroy-Light", sans-serif;
-}
-
-.fontgilroymediumitalic {
-  font-family: "Gilroy-MediumItalic", sans-serif;
-}
-
-.fontgilroygilroygilroyregular {
-  font-family: "Gilroy-Regular", sans-serif;
-}
-
-.fontgilroygilroysemibold {
-  font-family: "Gilroy-SemiBold", sans-serif;
-}
-
-.fontsfheavy {
-  font-family: var(--font-primary);
-  font-weight: 800;
-}
-
-.fontsfregular {
-  font-family: var(--font-primary);
-  font-weight: 300;
-}
-
 /*====================== fontweight ======================*/
 
 .font-regular {
@@ -759,7 +699,7 @@ a {
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: "Montserrat";
+  
   list-style: none;
   text-decoration: none;
   font-size: 14px;
@@ -842,7 +782,7 @@ a {
 .faqsblog .accordion-body {
   font-size: 16px;
   color: black;
-  font-family: "Montserrat";
+  
   font-weight: 500;
 }
 
@@ -924,7 +864,7 @@ a {
 .faqsLp .accordion-body {
   font-size: 16px;
   color: #fff;
-  font-family: "Montserrat";
+  
   font-weight: 400;
   border: 1px solid #fff;
   border-radius: 0px !important;
@@ -1039,14 +979,14 @@ a {
 
 .ourservicesfaqs .accordion-button {
   font-size: 25px;
-  font-family: "Montserrat";
+  
   font-weight: bold;
 }
 
 .ourservicesfaqs .accordion-body {
   color: #b2b2b2;
   font-size: 15px;
-  font-family: "Montserrat";
+  
   font-weight: 500;
 }
 
@@ -1640,7 +1580,7 @@ input::-webkit-inner-spin-button {
 
 .abtourservices .ourservicesfaqs .accordion-button {
   font-size: 25px;
-  font-family: "Montserrat";
+  
   font-weight: 300;
 }
 
@@ -1679,7 +1619,7 @@ input::-webkit-inner-spin-button {
 .proisting h3 {
   font-size: 25px;
   font-weight: 700;
-  font-family: "Montserrat";
+  
   text-transform: capitalize;
 }
 
@@ -1737,7 +1677,7 @@ input::-webkit-inner-spin-button {
   gap: 10px;
   font-size: 16px;
   line-height: 22px;
-  font-family: "Poppins";
+  
   font-weight: 600;
   padding: 15px 10px;
   border-radius: 8px;
@@ -1763,7 +1703,7 @@ input::-webkit-inner-spin-button {
 }
 
 .industxt .accordion-body {
-  font-family: "Poppins";
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1835,7 +1775,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
   justify-content: center;
   color: #000;
-  font-family: "Montserrat";
+  
   list-style: none;
   text-decoration: none;
   font-size: 15px;
@@ -1947,7 +1887,7 @@ input::-webkit-inner-spin-button {
 }
 
 .newfoldlp .slick-dots li button:before {
-  font-family: "slick";
+  /* font-family: "slick"; */
   font-size: 15px;
   line-height: 20px;
   position: absolute;
@@ -2194,7 +2134,6 @@ input::-webkit-inner-spin-button {
   left: -100px;
   cursor: pointer;
   font-size: 22px;
-  font-family: Poppins, sans-serif;
   font-weight: 500;
   transition: 0.3s;
   width: 200px;
@@ -2216,7 +2155,6 @@ input::-webkit-inner-spin-button {
   left: -100px;
   cursor: pointer;
   font-size: 22px;
-  font-family: Poppins, sans-serif;
   font-weight: 500;
   transition: 0.3s;
   width: 200px;
@@ -2250,7 +2188,6 @@ input::-webkit-inner-spin-button {
   color: white;
   font-size: 30px;
   border-radius: 100px;
-  font-family: "Noto Sans";
   line-height: 1.5;
 }
 
@@ -2265,7 +2202,6 @@ input::-webkit-inner-spin-button {
   font-weight: 400;
   width: 100%;
   font-size: 16px;
-  font-family: Poppins, sans-serif;
 }
 
 .openForm .wrapper form .inputGroup input::placeholder {
@@ -2828,7 +2764,7 @@ input::-webkit-inner-spin-button {
 
   .ourservicesfaqs .accordion-button {
     font-size: 25px;
-    font-family: "Montserrat";
+    
     font-weight: 300;
   }
 
@@ -3367,7 +3303,7 @@ input::-webkit-inner-spin-button {
 
   .ourservicesfaqs .accordion-button {
     font-size: 18px;
-    font-family: "Montserrat";
+    
     font-weight: bold;
   }
 
@@ -3430,22 +3366,6 @@ li {
   list-style: none;
 }
 
-/*====================== fontfamilys ======================*/
-.f-montserrat {
-  font-family: "Montserrat", sans-serif;
-}
-
-.f-poppins {
-  font-family: "Poppins", sans-serif;
-}
-
-.f-playfair {
-  font-family: "Montserrat", sans-serif;
-}
-
-.f-bebas {
-  font-family: "Bebas Neue", sans-serif;
-}
 
 /*====================== fontweight ======================*/
 .f-400 {
@@ -3606,7 +3526,6 @@ li {
   font-size: 20px;
   line-height: 30px;
   font-weight: 800;
-  font-family: var(--s-fonts);
   text-transform: uppercase;
 }
 

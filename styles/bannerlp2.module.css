@@ -101,7 +101,7 @@
   justify-content: center;
   font-size: 15px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -155,7 +155,7 @@
   justify-content: center;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  
   letter-spacing: 1px;
 
   transition: all 0.5s ease-in-out;
@@ -248,12 +248,12 @@
   margin-bottom: 4%;
   padding-left: 2%;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
 .formsbanner .forminput::placeholder {
   color: #9f9f9f;
-  font-family: "Montserrat", sans-serif;
+  
   font-weight: 600;
   font-size: 12px;
 }
@@ -268,7 +268,7 @@
 
 .formsbanner .formarea::placeholder {
   color: #9f9f9f;
-  font-family: "Montserrat", sans-serif;
+  
   font-weight: 600;
   font-size: 12px;
 }
@@ -283,7 +283,7 @@
   padding-left: 2%;
   padding-top: 2%;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  
   resize: none;
 }
 
@@ -301,7 +301,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: "Montserrat";
+  
   list-style: none;
   text-decoration: none;
   font-size: 15px;

@@ -10,7 +10,7 @@
     font-size: 30px;
     color: #231f20;
     font-weight: 700;
-    font-family: "Montserrat";
+    
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
     color: #231f20;
     font-weight: 400;
     padding: 20px 0;
-    font-family: "Montserrat";
+    
     text-align: center;
 }
 
@@ -36,12 +36,12 @@
     font-size: 25px;
     font-weight: 700;
     padding: 20px 0 10px;
-    font-family: "Montserrat";
+    
 }
 
 .card p {
     font-size: 16px;
-    font-family: "Montserrat";
+    
     padding-right: 10px;
     margin-bottom: 0;
 }

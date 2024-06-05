@@ -20,7 +20,7 @@
 .aboutbtn {
   width: 226px;
   height: 45px;
-  font-family: "Montserrat";
+  
   border: unset;
   border-radius: unset;
   margin-top: 7%;
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   color: #000;
-  font-family: "Montserrat";
+  
   list-style: none;
   text-decoration: none;
   font-size: 15px;

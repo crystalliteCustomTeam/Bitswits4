@@ -11,7 +11,7 @@
     font-size: 30px;
     color: #231f20;
     font-weight: 700;
-    font-family: "Montserrat";
+    
 }
 
 .faqsSec p {
@@ -19,7 +19,7 @@
     color: #231f20;
     font-weight: 400;
     padding: 20px 0;
-    font-family: "Montserrat";
+    
 }
 
 .isActive {
@@ -66,21 +66,21 @@
 .question h3 {
     font-size: 16px;
     text-transform: capitalize;
-    font-family: "Montserrat";
+    
     margin-bottom: 0;
 }
 
 .icon {
     font-size: 20px;
     font-weight: 900;
-    font-family: "Montserrat";
+    
 }
 
 .answer {
     font-size: 16px;
     font-weight: 400;
     color: #231f20;
-    font-family: "Montserrat";
+    
 }
 
 /* Media Query Start */

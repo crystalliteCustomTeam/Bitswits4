@@ -31,7 +31,7 @@
 .patner li a {
   color: #cacaca;
   text-decoration: none;
-  font-family: "Montserrat";
+  
   font-size: 12px;
   font-weight: 500;
   position: relative;
@@ -40,7 +40,7 @@
 .footinfofullrelative a {
   color: #cacaca;
   text-decoration: none;
-  font-family: "Montserrat";
+  
   font-size: 12px;
   font-weight: 500;
   position: relative;
@@ -72,7 +72,7 @@
 }
 .ftrhd {
   color: white;
-  font-family: "Montserrat";
+  
   font-size: 16px;
   font-weight: 800;
   line-height: 1.1;
@@ -148,7 +148,7 @@
   align-items: center;
   justify-content: center;
   color: #000;
-  font-family: "Montserrat";
+  
   list-style: none;
   text-decoration: none;
   font-size: 15px;
@@ -195,7 +195,7 @@
   .patner li a {
     color: #cacaca;
     text-decoration: none;
-    font-family: "Montserrat";
+    
     font-size: 12px;
     font-weight: 500;
   }

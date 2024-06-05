@@ -3,22 +3,22 @@ import localFont from "next/font/local";
 const primary = localFont({
     src: [
         {
-            path: '../../fonts/SF-Pro-Display-Regular.otf',
+            path: '../../fonts/SFProDisplay-Regular.ttf',
             weight: '400',
             style: 'normal',
         },
         {
-            path: '../../fonts/SF-Pro-Display-Black.otf',
+            path: '../../fonts/SFProDisplay-Black.ttf',
             weight: '500',
             style: 'normal',
         },
         {
-            path: '../../fonts/SF-Pro-Display-Medium.otf',
+            path: '../../fonts/SFProDisplay-Medium.ttf',
             weight: '600',
             style: 'normal',
         },
         {
-            path: '../../fonts/SF-Pro-Display-Bold.otf',
+            path: '../../fonts/SFProDisplay-Bold.ttf',
             weight: '800',
             style: 'normal',
         },

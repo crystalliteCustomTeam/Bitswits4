@@ -10,7 +10,7 @@
     font-size: 30px;
     color: #231f20;
     font-weight: 700;
-    font-family: "Montserrat";
+    
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
     color: #231f20;
     font-weight: 400;
     padding: 20px 0;
-    font-family: "Montserrat";
+    
     text-align: center;
 }
 
@@ -28,7 +28,7 @@
     color: #231f20;
     font-weight: 700;
     padding: 25px 0 15px;
-    font-family: "Montserrat";
+    
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
     width: 93%;
     margin: 0 auto;
     text-align: center;
-    font-family: "Montserrat";
+    
 }
 
 /* Media Query Start */

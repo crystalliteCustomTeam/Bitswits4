@@ -14,7 +14,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    font-family: "Montserrat";
+    
 }
 
 .bannerSec p {
@@ -22,7 +22,7 @@
     padding: 25px 0;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Montserrat";
+    
 }
 
 .bannerSec ul {
@@ -36,9 +36,6 @@
     padding-bottom: 10px;
 }
 
-.bannerSec ul li span {
-    font-family: "Montserrat";
-}
 
 .btn {
     padding: 10px 30px;
@@ -48,21 +45,21 @@
     letter-spacing: .3px;
     transition-duration: .6s;
     text-transform: uppercase;
-    font-family: "poppins", sans-serif;
+    
     border-radius: 5px;
     background: #f6c501;
 }
 
 .spanOne {
     color: #ffcb05;
-    font-family: "poppins", sans-serif;
+    
     font-size: 14px;
     font-weight: 400;
     display: block;
 }
 
 .spanTwo {
-    font-family: "poppins", sans-serif;
+    
     font-size: 16px;
     font-weight: 700;
     color: white;
@@ -85,7 +82,7 @@
     color: #fff;
     font-weight: 700;
     text-align: left;
-    font-family: "montserrat", sans-serif;
+    
 }
 
 .form h3 strong {
@@ -93,7 +90,7 @@
     margin-left: 2rem;
     font-weight: 900;
     color: #f6c501;
-    font-family: "montserrat", sans-serif;
+    
 }
 
 .form .txt {
@@ -110,7 +107,7 @@
     margin-top: 10px !important;
     padding: 13px 8px !important;
     box-shadow: 0 0 0 0 transparent;
-    font-family: "poppins", sans-serif;
+    
     border: 0;
     border-radius: 1px;
     background: #f1f0f0;
@@ -124,7 +121,7 @@
     border: 0;
     border-radius: 1px;
     background: #f1f0f0;
-    font-family: "poppins", sans-serif;
+    
 }
 
 .form .formFeilds button {
@@ -141,7 +138,7 @@
     margin-top: 10px !important;
     padding: 13px 8px !important;
     box-shadow: 0 0 0 0 transparent;
-    font-family: "poppins", sans-serif;
+    
 }
 
 .discountbg {
@@ -163,7 +160,7 @@
     text-transform: uppercase;
     left: 0;
     margin: auto;
-    font-family: "Montserrat";
+    
 }
 
 .discountbg h4 {
@@ -176,7 +173,7 @@
     font-weight: 700;
     right: -32px;
     transform: rotate(-18deg);
-    font-family: "Montserrat";
+    
 }
 
 .discountbg h5 {
@@ -189,7 +186,7 @@
     font-weight: 700;
     right: -42px;
     transform: rotate(-18deg);
-    font-family: "Montserrat";
+    
 }
 
 .headingParticle::before {

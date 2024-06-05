@@ -18,7 +18,7 @@
   color: white;
   font-weight: bold;
   color: #F32F53;
-  font-family: 'SF-Pro-Display';
+  
     letter-spacing: 2px;
   padding-bottom: 10px;
 }
@@ -48,14 +48,14 @@
   border-radius: 50px;
   color: white;
   font-size: 37px;
-  font-family: 'SF-Pro-Display';
+  
     letter-spacing: 2px;
   font-weight: bold;
 }
 .understand h2 {
   color: black;
   font-size: 37px;
-  font-family: 'SF-Pro-Display';
+  
     letter-spacing: 2px;
   font-weight: bold;
   padding-top: 10px;
@@ -84,7 +84,7 @@
   border-radius: 50px;
   left: -19px;
   margin-top: 9px;
-  font-family: 'SF-Pro-Display';
+  
     letter-spacing: 2px;
 }
 .understand{

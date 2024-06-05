@@ -13,7 +13,7 @@
   font-size: 17px;
   font-weight: 600;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  
   text-align: left;
   background: unset;
   display: flex;
@@ -32,7 +32,7 @@
   justify-content: center;
   font-size: 15px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 70px auto 0;
@@ -63,7 +63,7 @@
   font-size: 14px;
   font-weight: 400;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  
   text-align: justify;
 }
 
@@ -75,7 +75,7 @@
   font-size: 14px;
   font-weight: 400;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  
   text-align: justify;
   margin: 5px 0;
   list-style: disc;
@@ -89,7 +89,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
 .faqs a:hover {

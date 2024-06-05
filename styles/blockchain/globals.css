@@ -24,11 +24,11 @@
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  
 }
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  
   background: #000 !important;
   background: var(--dark);
   background: linear-gradient(360deg, #001206, #000e05, #141414, #000000);
@@ -450,7 +450,7 @@ p {
 }
 .dropdown-item a {
   font-size: 14px;
-  font-family: "Poppins";
+  
   color: var(--white);
 }
 
@@ -550,7 +550,7 @@ p {
   }
   .dropdown-item a {
     font-size: 12px;
-    font-family: "Poppins";
+    
     color: var(--white);
   }
 

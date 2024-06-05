@@ -64,29 +64,29 @@
 .level .message::placeholder {
     color: #000000;
     font-size: 14px;
-    font-family: "SF-Pro-Display";
+    
 }
 
 .level input[type="text"]::placeholder {
     color: #000000;
     font-size: 14px;
-    font-family: "SF-Pro-Display";
+    
 }
 
 .level input[type="email"]::placeholder {
     color: #000000;
     font-size: 14px;
-    font-family: "SF-Pro-Display";
+    
 }
 
 .level input[type="tel"]::placeholder {
     color: #000000;
     font-size: 14px;
-    font-family: "SF-Pro-Display";
+    
 }
 
 .level h3 {
-    font-family: "SF-Pro-Display";
+    
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 1px;

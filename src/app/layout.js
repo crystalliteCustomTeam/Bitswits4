@@ -1,6 +1,6 @@
 //===== Import Css =====
 import "bootstrap/dist/css/bootstrap.css";
-// import "@/styles/globals.css";
+import "@/styles/globals.css";
 import { primary } from "./configs/fonts";
 //===== Import Components =====
 import Scripts from "./Scripts";
@@ -51,11 +51,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
       {/* <Scripts /> */}
-      <body className={primary.variable}>
-        {/* <ConditionalLayout>
+      <body >
+        <ConditionalLayout>
           <main>{children}</main>
-        </ConditionalLayout> */}
-        <main>{children}</main>
+        </ConditionalLayout>
       </body>
     </html>
   );

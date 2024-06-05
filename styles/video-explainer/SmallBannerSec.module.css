@@ -12,7 +12,7 @@
     font-size: 30px;
     color: #231f20;
     font-weight: 700;
-    font-family: "Montserrat";
+    
 }
 
 .SmallBannerSec p {
@@ -20,7 +20,7 @@
     color: #231f20;
     font-weight: 400;
     padding: 10px 0 25px;
-    font-family: "Montserrat";
+    
 }
 
 .secBtns {
@@ -38,7 +38,7 @@
     letter-spacing: .3px;
     transition-duration: .6s;
     text-transform: capitalize;
-    font-family: "poppins";
+    
     border-radius: 5px;
     background: #003466;
     box-shadow: 0 11px 21px 0 rgba(0, 0, 0, .16);
@@ -57,7 +57,6 @@
     letter-spacing: .3px;
     transition-duration: .6s;
     text-transform: capitalize;
-    font-family: poppins, sans-serif;
     border-radius: 5px;
     background: #231f20;
     box-shadow: 0 11px 21px 0 rgb(0 0 0 / 16%);
@@ -74,7 +73,7 @@
     font-weight: 700;
     margin: 0 0 0 15px;
     transition-duration: .6s;
-    font-family: "Montserrat";
+    
 }
 
 .number:hover {

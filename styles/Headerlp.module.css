@@ -71,7 +71,7 @@
   align-items: center;
   gap: 3px;
 
-  font-family: "Montserrat", sans-serif;
+  
   transition: all 0.4s ease-in-out;
 }
 
@@ -135,7 +135,7 @@
   align-items: unset;
   gap: unset;
   text-transform: unset;
-  font-family: "Montserrat", sans-serif;
+  
   transition: all 0.4s ease-in-out;
 }
 
@@ -239,7 +239,7 @@
 .listBody ul li span {
   font-size: 11px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  
   color: #fff;
   border-bottom: 1px solid #a7a7a7;
   width: 100%;
@@ -251,7 +251,7 @@
   font-weight: 500;
   color: #ccc;
   margin-top: 5px;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
 .listMain2 {
@@ -339,14 +339,14 @@
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
 .realDummy {
   color: #fff;
   font-size: 11px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
 .cntct {
@@ -409,7 +409,7 @@
   font-size: 21px;
   border-radius: 50px;
   font-weight: bolder;
-  font-family: Poppins;
+  
   cursor: pointer;
   border: 1px solid #ff004a;
   background-color: #ff004a;
