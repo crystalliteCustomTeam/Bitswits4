@@ -8,7 +8,8 @@ const Styles = dynamic(() => import("@/styles/globals.css"));
 //===== Import Components =====
 // import Scripts from "./Scripts";
 const Scripts = dynamic(() => import("./Scripts"));
-import ConditionalLayout from "./ConditionalLayout";
+// import ConditionalLayout from "./ConditionalLayout";
+const ConditionalLayout = dynamic(() => import("./ConditionalLayout"));
 //===== Meta Data =====
 export const metadata = {
   metadataBase: new URL('https://www.bitswits.co'),
