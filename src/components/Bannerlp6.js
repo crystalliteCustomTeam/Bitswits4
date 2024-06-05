@@ -14,7 +14,7 @@ const AndriodBanner = (props) => {
                             {props.title}
                             {props.para}
                             {props.btn2}
-                            <div className='mt-5 center d-none d-lg-block'>
+                            <div className='mt-5 center'>
                                 <LpCarousel />
                             </div>
                         </Col>
