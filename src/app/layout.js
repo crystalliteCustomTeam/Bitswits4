@@ -50,11 +50,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
-      <Scripts />
+      {/* <Scripts /> */}
       <body className={primary.variable}>
-        <ConditionalLayout>
+        {/* <ConditionalLayout>
           <main>{children}</main>
-        </ConditionalLayout>
+        </ConditionalLayout> */}
+        <main>{children}</main>
       </body>
     </html>
   );
