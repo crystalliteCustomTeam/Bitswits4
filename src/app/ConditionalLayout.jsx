@@ -1,28 +1,29 @@
 "use client"
 import React, { useEffect, useState } from "react"
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation"
 import { Analytics } from '@vercel/analytics/react';
 //
-import Header from "../components/NewHeader";
-import HeaderMbl from "../components/HeaderMbl";
-import Headerlp from "../components/Headerlp";
-import Headerlphome from "../components/Headerlphome";
-import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
-import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
-import VideoHeader from "../components/video-explainer/Header/Header";
-import EcommerceBanner from "../components/EcommerceBanner";
-import Footer from "../components/Footer";
-import Footernewlp from "../components/Footernewlp";
-import Footernewdesign from "../components/Footernewdesign";
-import VideoFooter from "../components/video-explainer/Footer/Footer";
-import EcommerceFooter from "../components/EcommerceFooter";
+const Header = dynamic(() => import("../components/NewHeader"), { ssr: false });
+const HeaderMbl = dynamic(() => import("../components/HeaderMbl"), { ssr: false });
+const Headerlp = dynamic(() => import("../components/Headerlp"), { ssr: false });
+const Headerlphome = dynamic(() => import("../components/Headerlphome"), { ssr: false });
+const NewMobileHeader = dynamic(() => import("../components/NewMobileApp/Header/NewMobileHeader"), { ssr: false });
+const NewHeaderMbl = dynamic(() => import("../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl"), { ssr: false });
+const VideoHeader = dynamic(() => import("../components/video-explainer/Header/Header"), { ssr: false });
+const EcommerceBanner = dynamic(() => import("../components/EcommerceBanner"), { ssr: false });
+const Footer = dynamic(() => import("../components/Footer"), { ssr: false });
+const Footernewlp = dynamic(() => import("../components/Footernewlp"), { ssr: false });
+const Footernewdesign = dynamic(() => import("../components/Footernewdesign"), { ssr: false });
+const VideoFooter = dynamic(() => import("../components/video-explainer/Footer/Footer"), { ssr: false });
+const EcommerceFooter = dynamic(() => import("../components/EcommerceFooter"), { ssr: false });
 //
-import Cursor from "../components/Cursor";
-import Skicky from "../components/Skicky";
-import Pixel from "../components/Pixel";
-import Pixel2 from "../components/Pixel2";
-import MetaData from "../components/MetaData";
-import FooterNewLps from "../components/FooterNewLps";
+const Cursor = dynamic(() => import("../components/Cursor"), { ssr: false });
+const Skicky = dynamic(() => import("../components/Skicky"), { ssr: false });
+const Pixel = dynamic(() => import("../components/Pixel"), { ssr: false });
+const Pixel2 = dynamic(() => import("../components/Pixel2"), { ssr: false });
+const MetaData = dynamic(() => import("../components/MetaData"), { ssr: false });
+const FooterNewLps = dynamic(() => import("../components/FooterNewLps"), { ssr: false });
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
