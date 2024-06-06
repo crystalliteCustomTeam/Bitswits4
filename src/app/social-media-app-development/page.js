@@ -24,52 +24,130 @@ import NewFaqslp from "../../components/NewFaqslp";
 import HomeLocationlp from "../../components/HomeLocationlp";
 
 export default function SocialMediaApp() {
-  const [showFolds, setShowFolds] = useState(false);
+  const [showDesktopComponents, setShowDesktopComponents] = useState(false);
+  const [showMobileComponents, setShowMobileComponents] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    // Show desktop components after 1 second
+    const desktopTimer = setTimeout(() => {
+      setShowDesktopComponents(true);
+    }, 500);
+
+    return () => {
+      window.removeEventListener("resize", checkMobile);
+      clearTimeout(desktopTimer);
+    };
   }, []);
+
+  useEffect(() => {
+    const handleTouchOrScroll = () => {
+      setShowMobileComponents(true);
+      // Remove event listeners after mobile components are shown
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+
+    // Add event listeners for touch and scroll events
+    window.addEventListener("scroll", handleTouchOrScroll);
+    window.addEventListener("touchstart", handleTouchOrScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+  }, []);
+
   return (
     <>
       <SocialLpBanner newHomeBgprops="newHomeBg" />
       <People People="people" />
-      <HomeBannerSliderlp />
-      <SocialLpForm />
-      <Nothing Nothing="nothingLp6" />
-      <SocialExpertapp expertapp="expertapp" />
-      <SocialLpSolutions />
-      <WeworkLp wework="weworkLpnewhomefy" />
-      <StartupsLp startups="startups" />
-      <ProjectProcess
-        processclass="processLp6"
-        title="Explore Our App Development Journey"
-        desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
-      />
-      <LpChoose transform="transformlp" />
-      <Technologieswe />
-      <Justbuilditlp
-        title={
+      {isMobile ? (
+        showMobileComponents && (
+        <>
+          <HomeBannerSliderlp />
+          <SocialLpForm />
+          <Nothing Nothing="nothingLp6" />
+          <SocialExpertapp expertapp="expertapp" />
+          <SocialLpSolutions />
+          <WeworkLp wework="weworkLpnewhomefy" />
+          <StartupsLp startups="startups" />
+          <ProjectProcess
+            processclass="processLp6"
+            title="Explore Our App Development Journey"
+            desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
+          />
+          <LpChoose transform="transformlp" />
+          <Technologieswe />
+          <Justbuilditlp
+            title={
+              <>
+                <h2 className={stylesjust.just}>Just Build It.</h2>
+              </>
+            }
+            para={
+              <>
+                <h3 className={stylesjust.develop}>
+                  Design, Develop, and Grow with BitsWits.
+                </h3>
+              </>
+            }
+            slide="slide1lp"
+          />
+          <Globallplp6 />
+          <Partnerships />
+          <Formnewlp />
+          <NewFaqslp />
+          <HomeLocationlp />
+        </>
+       )
+      ) : (
+        showDesktopComponents && (
           <>
-            <h2 className={stylesjust.just}>Just Build It.</h2>
+            <HomeBannerSliderlp />
+          <SocialLpForm />
+          <Nothing Nothing="nothingLp6" />
+          <SocialExpertapp expertapp="expertapp" />
+          <SocialLpSolutions />
+          <WeworkLp wework="weworkLpnewhomefy" />
+          <StartupsLp startups="startups" />
+          <ProjectProcess
+            processclass="processLp6"
+            title="Explore Our App Development Journey"
+            desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
+          />
+          <LpChoose transform="transformlp" />
+          <Technologieswe />
+          <Justbuilditlp
+            title={
+              <>
+                <h2 className={stylesjust.just}>Just Build It.</h2>
+              </>
+            }
+            para={
+              <>
+                <h3 className={stylesjust.develop}>
+                  Design, Develop, and Grow with BitsWits.
+                </h3>
+              </>
+            }
+            slide="slide1lp"
+          />
+          <Globallplp6 />
+          <Partnerships />
+          <Formnewlp />
+          <NewFaqslp />
+          <HomeLocationlp />
           </>
-        }
-        para={
-          <>
-            <h3 className={stylesjust.develop}>
-              Design, Develop, and Grow with BitsWits.
-            </h3>
-          </>
-        }
-        slide="slide1lp"
-      />
-      <Globallplp6 />
-      <Partnerships />
-      <Formnewlp />
-      <NewFaqslp />
-      <HomeLocationlp />
-
+        )
+        )}
     </>
   );
 }
