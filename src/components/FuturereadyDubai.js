@@ -38,19 +38,19 @@ const FutureReady = ({ content }) => {
                                 <p className="fontsfregular mb-3">
                                     {para}
                                 </p>
-                                <p className="fontsfregular">
+                                <p className="fontsfregular mb-3 mb-md-0">
                                     {subPara}
                                 </p>
                             </div>
                         </Col>
                     </Row>
                     <div className='d-md-block d-none mt-5'>
-                        <Row>
+                        <div className={styles.cardsRow}>
                             {accordionData.map((item, index) => (
-                                <Col md={6} className='p-2'>
+                                <div key={index} className={`${styles.cardMain} p-2`}>
                                     <div className={`${styles.iosCard} ${styles.card}`}>
                                         <div className={styles.cardTop}>
-                                            <h3>{item.question}</h3> 
+                                            <h3>{item.question}</h3>
                                         </div>
                                         <div className="cardContent">
                                             <p>
@@ -61,108 +61,29 @@ const FutureReady = ({ content }) => {
                                             <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
                                         </div>
                                     </div>
-                                </Col>
+                                </div>
                             ))}
-                        </Row>
+                        </div>
                     </div>
                     <div className='d-md-none d-block'>
                         <Slider {...FutureSlider} className='futureSlider'>
-                            <div className='px-2'>
-                                <div className={`${styles.iosCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>IOS Application Development</h3>
-                                        <Image src={ios} width={25} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            We provide iOS app development services that epitomize smooth performance and innovative design, setting new standards in mobile user experiences and enabling an influx of ROI for your business.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='px-2'>
-                                <div className={`${styles.andriodCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>Android Application Development</h3>
-                                        <Image src={andriod} width={25} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            Our Android app development services will help you launch your idea with modern in-app features and a user-friendly interface. We use the latest technology stack and efficient coding practices to ensure standout performance.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
+                            {accordionData.map((item, index) => (
+                                <div key={index} className={`${styles.cardMain} p-2`}>
+                                    <div className={`${styles.iosCard} ${styles.card}`}>
+                                        <div className={styles.cardTop}>
+                                            <h3>{item.question}</h3>
+                                        </div>
+                                        <div className="cardContent">
+                                            <p>
+                                                {item.answer}
+                                            </p>
+                                        </div>
+                                        <div className={styles.btn}>
+                                            <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className='px-2'>
-                                <div className={`${styles.nativeCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>React Native App Development</h3>
-                                        <Image src={native} width={32} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            Harness the full potential of your mobile app with our React Native app development services. We use rapid multi-platform development to quickly launch your idea into a stellar app in a cost-effective manner.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='px-2'>
-                                <div className={`${styles.flutterCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>Flutter App Development</h3>
-                                        <Image src={flutter} width={25} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            Our Flutter app development services enable the development of user-friendly cross-platform mobile applications.  We use the revolutionary Flutter framework to create a trailblazing mobile application for your idea.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='px-2'>
-                                <div className={`${styles.crossCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>Cross Platform App Development</h3>
-                                        <Image src={cross} width={36} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            Leading the charge in cross platform app development services, we provide unmatched application experiences for multiple industries and domains using the latest frameworks such as Flutter and React Native.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='px-2'>
-                                <div className={`${styles.webdevelopmentCard} ${styles.card}`}>
-                                    <div className={styles.cardTop}>
-                                        <h3>Web App Development</h3>
-                                        <Image src={webdevelopment} width={31} height={30} alt='Bitswits' />
-                                    </div>
-                                    <div className="cardContent">
-                                        <p>
-                                            We offer compelling, user-focused web app development services that leverage our deep understanding of mobile and progressive web app development. Our market-leading innovations set the standard and guarantee excellent ROI.
-                                        </p>
-                                    </div>
-                                    <div className={styles.btn}>
-                                        <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </Slider>
                     </div>
                 </div>

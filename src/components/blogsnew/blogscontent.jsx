@@ -5,6 +5,7 @@ import Image from 'next/image';
 // Images
 import Arrow from "media/newblogs/blogArrow.png"
 import BlogImage1 from "media/newblogs/blog-1.png"
+import profile from "media/newblogs/blog-client.svg"
 
 const blogscontent = () => {
     const [activeTab1, setActiveTab1] = useState('tab1');
@@ -74,6 +75,14 @@ const blogscontent = () => {
                                                                 Read More
                                                                 <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                                             </a>
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.cardBottom}>
+                                                        <div className={styles.cardBottomImg}>
+                                                            <Image src={profile} width={50} height={50} alt='Bitswits' className='img-fluid' />
+                                                        </div>
+                                                        <div className={styles.cardbottomContent}>
+                                                            <h3>Nick Willford</h3>
                                                         </div>
                                                     </div>
                                                 </div>

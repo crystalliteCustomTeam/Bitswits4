@@ -41,6 +41,16 @@
     margin: 0 auto;
 }
 
+.cardsRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardMain {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .card {
     position: relative;
     background: #000;
@@ -49,6 +59,7 @@
     padding: 20px;
     transition: all ease-in-out 0.4s;
     height: 100%;
+    width: 100%;
 }
 
 .card:hover {
@@ -219,6 +230,10 @@
 }
 
 @media only screen and (max-width: 567px) {
+    .cardMain {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .futureSec {
         padding: 50px 0;
@@ -236,6 +251,9 @@
     }
 
     .card {
-        min-height: 263px;
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
