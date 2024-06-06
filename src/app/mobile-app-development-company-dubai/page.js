@@ -288,8 +288,8 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      {/* <StoryLine content={storyLine} /> */}
-      <FutureReady content={storyLine} />
+      <StoryLine content={storyLine} />
+      {/* <FutureReady content={storyLine} /> */}
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
