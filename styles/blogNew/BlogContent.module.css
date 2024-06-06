@@ -64,7 +64,7 @@
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    border-bottom: 3px solid #F32F53; 
+    border-bottom: 3px solid #F32F53;
     padding: 0 10px 10px;
     transition: all ease-in-out 0.4s;
 }
@@ -83,4 +83,41 @@
     background-color: #F3F3F3;
     border-radius: 10px;
     border: 0;
+}
+
+.blogcontent .cardContent {
+    padding: 0 25px 25px;
+    border-bottom: 2px solid #D4D4D4;
+}
+
+.blogcontent .cardContent p:first-of-type {
+    color: #F32F53;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 24px;
+}
+
+.blogcontent .cardContent h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.blogcontent .cardContent p:last-of-type {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.blogcontent .cardContent .btn {
+    display: flex;
+    align-items: center;
+}
+
+.blogcontent .cardContent .btn a {
+    margin-left: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
 }

@@ -1,4 +1,4 @@
-"use client" 
+"use client"
 import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
@@ -289,7 +289,7 @@ export default function dubaidevelopmentcompany() {
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
       {/* <StoryLine content={storyLine} /> */}
-      <FutureReady />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -392,7 +392,7 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
+      <Globalmap
         href="tel:+971 55 503 1266"
       />
     </>

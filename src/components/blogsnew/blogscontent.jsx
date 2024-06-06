@@ -65,10 +65,10 @@ const blogscontent = () => {
                                                         <Image src={BlogImage1} alt='Bitswits' className='img-fluid' />
                                                     </div>
                                                     <div className={styles.cardContent}>
-                                                        <p>Blockchain</p>
-                                                        <h5>Conquer Tech With Bitswits:
+                                                        <p className='fontsfregular'>Blockchain</p>
+                                                        <h5 className='fontsfregular'>Conquer Tech With Bitswits: <br />
                                                             Your Path To Unstoppable Progress!</h5>
-                                                        <p>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
+                                                        <p className='fontsfregular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
                                                         <div className={styles.btn}>
                                                             <a href="javascript:;" className='text-black'>
                                                                 Read More
