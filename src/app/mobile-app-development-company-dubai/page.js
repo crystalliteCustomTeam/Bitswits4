@@ -34,6 +34,7 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dubai.webp";
+import FutureReady from "@/src/components/FuturereadyDubai";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -154,7 +155,7 @@ export default function dubaidevelopmentcompany() {
   const delivered = {
     title: "How Much Does it Cost to Make an App in Dubai",
     desc: desc,
-    cta: "Calculate Your App Cost Now!"
+    cta: "Book A Consultation Now!"
   }
   // Houston Content
   const menus = [
@@ -287,7 +288,8 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      {/* <StoryLine content={storyLine} /> */}
+      <FutureReady />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />

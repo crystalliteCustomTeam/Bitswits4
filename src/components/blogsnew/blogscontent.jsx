@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/blogNew/BlogContent.module.css"
+import Image from 'next/image';
+// Images
+import Arrow from "media/newblogs/blogArrow.png"
+import BlogImage1 from "media/newblogs/blog-1.png"
 
 const blogscontent = () => {
     const [activeTab1, setActiveTab1] = useState('tab1');
@@ -53,8 +57,28 @@ const blogscontent = () => {
                         <Col lg={12}>
                             <div className="tabs-body">
                                 {activeTab1 == 'tab1' &&
-                                    <div>
-                                        1
+                                    <div className='mt-4'>
+                                        <Row>
+                                            <Col lg={4}>
+                                                <div className={styles.card}>
+                                                    <div className={styles.cardImg}>
+                                                        <Image src={BlogImage1} alt='Bitswits' className='img-fluid' />
+                                                    </div>
+                                                    <div className={styles.cardContent}>
+                                                        <p>Blockchain</p>
+                                                        <h5>Conquer Tech With Bitswits:
+                                                            Your Path To Unstoppable Progress!</h5>
+                                                        <p>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
+                                                        <div className={styles.btn}>
+                                                            <a href="javascript:;" className='text-black'>
+                                                                Read More
+                                                                <Image src={Arrow} alt='Bitswits' className='ms-2' />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                        </Row>
                                     </div>
                                 }
 
