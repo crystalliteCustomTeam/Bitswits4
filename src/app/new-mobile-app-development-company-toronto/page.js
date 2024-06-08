@@ -71,15 +71,13 @@ export default function dubaidevelopmentcompany() {
     },
     {
       question: 'Game App Development in Toronto',
-      answer: "PCreating fun and engaging games is not everyone’s cup of tea. BitsWits, however, is renowned for their game apps. Our game app development services in Toronto boast a proven track record of crafting both simple and complex multiplayer experiences. With a keen eye for design and a focus on user engagement, we develop indulging gaming experiences that keep users immersed and entertained.",
-      btn: "Let’s Build My PWA!",
+      answer: "Creating fun and engaging games is not everyone’s cup of tea. BitsWits, however, is renowned for their game apps. Our game app development services in Toronto boast a proven track record of crafting both simple and complex multiplayer experiences. With a keen eye for design and a focus on user engagement, we develop indulging gaming experiences that keep users immersed and entertained.",
       btn: "Let’s Build Your Game App!",
       StoryLineImg: StoryLine5
     },
     {
       question: 'Blockchain App Development in Toronto',
-      answer: "Blockchain has more potential than organizations perceive. With this decentralized technology we have created some of the most famous and best performing blockchain apps that have led businesses to achieve new heights of success. Therefore, if you aim to adapt to change and seize market-winning opportunities, our blockchain app development services are exactly what you need.",
-      btn: "Let’s Build My Game App!",
+      answer: "Blockchain has more potential than organizations perceive. With this decentralized technology we have created some of the most famous and best performing blockchain apps that have led businesses to achieve new heights of success. Therefore, if you aim to adapt to change and seize market-winning opportunities, our blockchain app development services are exactly what you need.", 
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6
     },

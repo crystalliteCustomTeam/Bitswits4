@@ -648,6 +648,53 @@
   top: 240px;
 }
 
+/* ============ florida ============ */
+
+.florida .marker {
+  top: 112px;
+}
+
+.florida .timelineMain:before {
+  top: 18px;
+  height: 8%;
+}
+
+.florida .timeOne::after {
+  height: 81%;
+  bottom: -74px;
+}
+
+.florida .timeTwo::after {
+  height: 29%;
+  top: 136px;
+}
+
+.florida .numberOne {
+  top: 80px;
+}
+
+.florida .numberTwo {
+  top: 317px;
+}
+
+.florida .numberThree {
+  top: -22px;
+}
+
+.florida .timeThree::before {
+  height: 38%;
+  top: -224px;
+}
+
+.florida .timeThree::after {
+  height: 39%;
+  top: 35px;
+}
+
+.florida .numberFour {
+  top: 240px;
+}
+
 /* ============Media Query Start============ */
 
 @media screen and (max-width: 1499px) {
@@ -1126,6 +1173,61 @@
   .toronto .numberFour {
     top: 240px;
   }
+
+  /* ============ florida ============ */
+
+  .florida .timelineMain::before {
+    top: 15px;
+  }
+
+  .florida .timeOne::after {
+    height: 84%;
+  }
+
+  .florida .marker {
+    top: 84px;
+  }
+
+  .florida .timelineMain:before {
+    height: 7%;
+    top: -5px;
+  }
+
+  .florida .timeOne::after {
+    height: 83%;
+    bottom: -58px;
+  }
+
+  .florida .numberOne {
+    top: 70px;
+  }
+
+  .florida .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .florida .numberTwo {
+    top: 312px;
+  }
+
+  .florida .timeThree::before {
+    height: 39%;
+    top: -253px;
+  }
+
+  .florida .numberThree {
+    top: -36px;
+  }
+
+  .florida .timeThree::after {
+    height: 38%;
+    top: 26px;
+  }
+
+  .florida .numberFour {
+    top: 240px;
+  }
 }
 
 @media only screen and (max-width: 1299px) {
@@ -1141,6 +1243,59 @@
 
   .washington .timeOne::after {
     height: 81%;
+  }
+
+  /* ============ florida ============ */
+
+  .florida .timelineMain::before {
+    top: 15px;
+  }
+
+  .florida .timeOne::after {
+    height: 84%;
+  }
+
+  .florida .marker {
+    top: 96px;
+  }
+
+  .florida .timelineMain:before {
+    top: 10px;
+  }
+
+  .florida .timeOne::after {
+    bottom: -65px;
+  }
+
+  .florida .numberOne {
+    top: 70px;
+  }
+
+  .florida .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .florida .numberTwo {
+    top: 312px;
+  }
+
+  .florida .timeThree::before {
+    height: 39%;
+    top: -253px;
+  }
+
+  .florida .numberThree {
+    top: -36px;
+  }
+
+  .florida .timeThree::after {
+    height: 38%;
+    top: 26px;
+  }
+
+  .florida .numberFour {
+    top: 240px;
   }
 
 }
@@ -1653,6 +1808,53 @@
   }
 
   .toronto .numberFour {
+    top: 256px;
+  }
+
+  /* ============florida============ */
+
+  .florida .marker {
+    top: 95px;
+  }
+
+  .florida .timelineMain:before {
+    top: 43px;
+    height: 7%;
+  }
+
+  .florida .timeOne::after {
+    height: 80%;
+    bottom: -54px;
+  }
+
+  .florida .numberOne {
+    top: 59px;
+  }
+
+  .florida .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .florida .numberTwo {
+    top: 251px;
+  }
+
+  .florida .timeThree::before {
+    height: 28%;
+    top: -164px;
+  }
+
+  .florida .numberThree {
+    top: -30px;
+  }
+
+  .florida .timeThree::after {
+    height: 54%;
+    top: 6px;
+  }
+
+  .florida .numberFour {
     top: 256px;
   }
 }
@@ -2257,6 +2459,58 @@
   .toronto .numberFourMobile {
     top: 71%;
   }
+
+  /* ============florida============ */
+
+  .florida .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .florida .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .florida .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .florida .numberOne {
+    top: 77px;
+  }
+
+  .florida .timeTwo::after {
+    height: 44%;
+    top: 114px;
+  }
+
+  .florida .numberTwoMobile {
+    top: 70%;
+  }
+
+  .florida .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .florida .numberThree {
+    top: 126px;
+  }
+
+  .florida .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .florida .numberFourMobile {
+    top: 71%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2813,6 +3067,41 @@
   .toronto .numberFourMobile {
     top: 62%;
   }
+
+  /* ============florida============ */
+
+  .florida .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .florida .timeOne::after {
+    height: 116%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .florida .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .florida .timeThree::after {
+    height: 39%;
+    top: 166px;
+  }
+
+  .florida .numberFourMobile {
+    top: 62%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -3016,6 +3305,45 @@
 
   .toronto .numberFourMobile {
     top: 62%;
+  }
+
+  /* ============florida============ */
+
+  .florida .timelineMain:before {
+    top: -102px;
+    height: 7%;
+    left: 19px;
+
+  }
+
+  .florida marker {
+    top: -4px;
+  }
+
+  .florida .timeOne::after {
+    height: 116%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 62.5%;
+  }
+
+  .florida .timeThree::before {
+    top: -295px;
+    height: 52%;
+  }
+
+  .florida .timeThree::after {
+    height: 41%;
+    top: 161px;
+  }
+
+  .florida .numberFourMobile {
+    top: 61.5%;
   }
 }
 
