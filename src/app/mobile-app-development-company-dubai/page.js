@@ -2,8 +2,8 @@
 import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import NewDubaiAwards from "@/src/components/NewDubaiAwards"; 
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -34,7 +34,6 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dubai.webp";
-import FutureReady from "@/src/components/FuturereadyDubai";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -288,8 +287,7 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      {/* <StoryLine content={storyLine} /> */}
-      <FutureReady content={storyLine} />
+      <FutureReady content={storyLine} /> 
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />

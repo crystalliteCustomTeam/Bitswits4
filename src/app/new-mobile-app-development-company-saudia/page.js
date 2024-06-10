@@ -14,7 +14,7 @@ import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClients from "@/src/components/DubaiClients";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Delivered from "@/src/components/Delivered";
 import Industries from "@/src/components/Industries";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
@@ -294,7 +294,7 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />

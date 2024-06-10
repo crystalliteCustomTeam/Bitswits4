@@ -3,7 +3,7 @@ import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -268,7 +268,7 @@ export default function dubaidevelopmentcompany() {
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
