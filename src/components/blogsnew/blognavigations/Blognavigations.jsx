@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/blogNew/Blognavigations.module.css"
 
 const Blognavigations = () => {
+
+    const [isNavVisible, setIsNavVisible] = useState(true);
+    const [activeHeading, setActiveHeading] = useState('#heading1');
+    const toggleNavVisibility = () => {
+        setIsNavVisible(!isNavVisible);
+    };
+
+    const handleHeadingClick = (heading) => {
+        setActiveHeading(heading);
+    };
     return (
         <>
             <section className={styles.sidebar}>
@@ -10,35 +20,65 @@ const Blognavigations = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles.navigations}>
-                                <div className={styles.mainHeading}>
+                                <div className={styles.mainHeading} onClick={toggleNavVisibility}>
                                     <h3 className='fontsfregular'>
                                         Navigation
                                     </h3>
                                 </div>
-                                <ul className={styles.navHeadings}>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Conquer Tech With Bitswits: <br />
-                                            Your Path To Unstoppable Progress!</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Development Of A Crypto Exchange  <br />Platform App</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Tech Stack For Development</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Security Measurements</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Frequently Asked Questions <br />Regarding The Development Of <br />Cryptocurrency Exchange Software</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Development Of A Crypto Exchange <br /> Platform App</a>
-                                    </li>
-                                    <li>
-                                        <a href='javascript:;' className='fontsfregular text-black'>Tech Stack For Development</a>
-                                    </li>
-                                </ul>
+                                {isNavVisible && (
+                                    <ul className={styles.navHeadings}>
+                                        <li>
+                                            <a
+                                                href='#heading1'
+                                                className={`fontsfregular ${activeHeading === '#heading1' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading1')} >
+                                                Conquer Tech With Bitswits: <br />
+                                                Your Path To Unstoppable Progress!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='#heading2'
+                                                className={`fontsfregular ${activeHeading === '#heading2' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading2')} >
+                                                Development Of A Crypto Exchange  <br />Platform App
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='#heading3'
+                                                className={`fontsfregular ${activeHeading === '#heading3' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading3')} >
+                                                Tech Stack For Development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='#heading4'
+                                                className={`fontsfregular ${activeHeading === '#heading4' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading4')} >
+                                                Security Measurements
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='javascript:;'
+                                                className={`fontsfregular ${activeHeading === 'javascript:;' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                Frequently Asked Questions <br />Regarding The Development Of <br />Cryptocurrency Exchange Software
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='javascript:;'
+                                                className={`fontsfregular ${activeHeading === 'javascript:;' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                Development Of A Crypto Exchange <br /> Platform App
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href='javascript:;'
+                                                className={`fontsfregular ${activeHeading === 'javascript:;' ? styles.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                Tech Stack For Development
+                                            </a>
+                                        </li>
+                                    </ul>
+                                )}
                             </div>
                             <div className={styles.articles}>
                                 <h3 className='fontsfregular'>Relevant Articles</h3>

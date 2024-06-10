@@ -29,6 +29,7 @@ import applewatch from "/public/images/reactnativeappdevelopment/expertreactnati
 import appletvappdevelopment from "/public/images/reactnativeappdevelopment/hybridmobileappwithreactnative.png";
 import iphoneappdesigning from "/public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png";
 import hybridiphone from "/public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png";
+import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
 
 export default function ReactNativeMobile() {
 
@@ -219,15 +220,7 @@ export default function ReactNativeMobile() {
       />
       <Justbuildit />
       <LpChoose transform="transform" />
-      <ServicesPortfolio
-        title={
-          <>
-            Showcasing Our <span className="newfycolr">
-              Creative Vision
-            </span>
-          </>
-        }
-      />
+      <AppsLived />
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"

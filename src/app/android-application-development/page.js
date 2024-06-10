@@ -31,6 +31,7 @@ import applewatch from "/public/images/andriodappdevelopment/androidgamedevelopm
 import appletvappdevelopment from "/public/images/andriodappdevelopment/androidweardevelopment.png";
 import iphoneappdesigning from "/public/images/andriodappdevelopment/enterpriseandroidapps.png";
 import hybridiphone from "/public/images/andriodappdevelopment/androiduiuxdesign.png";
+import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -200,6 +201,7 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
+      <AppsLived />
       <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
@@ -211,16 +213,7 @@ export default function gamedevelopmentcompany() {
   exactly as you imagined."
       />
       <Justbuildit />
-      <LpChoose transform="transform" marginTop={styles.marginTop} />
-      <ServicesPortfolio
-        title={
-          <>
-            Showcasing Our <span className="newfycolr">
-              Creative Vision
-            </span>
-          </>
-        }
-      />
+      <LpChoose transform="transform" marginTop={styles.marginTop} /> 
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"

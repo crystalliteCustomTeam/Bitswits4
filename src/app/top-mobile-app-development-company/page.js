@@ -7,10 +7,10 @@ import stylesjust from "@/styles/Justbuilditlp.module.css";
 // components
 import Bannerlp from "../../components/Bannerlp";
 import People from "../../components/People";
-import HomeBannerSliderlp from "../../components/HomeBannerSliderlp";
-import LpForm from "../../components/LpFormprops";
-import Nothing from "../../components/Nothing";
-import Hurdles from "../../components/Hurdles";
+import HomeBannerSliderlp from "../../components/HomeBannerSliderlp"; 
+import AppsJourney from "@/src/components/NewMobileApp/AppsJourney/AppsJourney";
+import Whowearenew from '@/src/components/NewMobileApp/WhoWeAre/WhoWeAre';
+import Nothing from "../../components/Nothing"; 
 import Expertapp from "../../components/Expertapp";
 import ProjectProcesslp1 from "../../components/ProjectProcesslp1";
 import LpChoose from "../../components/LpChoose";
@@ -21,6 +21,8 @@ import Partnerships from "../../components/Partnerships";
 import Formnewlp from "../../components/Formnewlp";
 import NewFaqslp from "../../components/NewFaqslp";
 import HomeLocationlp from "../../components/HomeLocationlp";
+import Industries from "@/src/components/NewMobileApp/Industries/Industries";
+import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
 
 export default function gamedevelopmentcompany() {
   const [showFolds, setShowFolds] = useState(false);
@@ -30,6 +32,19 @@ export default function gamedevelopmentcompany() {
     }, 2000);
     return () => clearTimeout(timeout);
   }, []);
+
+  // Who We Are Content
+  const WhoWeAre = {
+    title: "This is Us",
+    desc: <>Discover excellence in app innovation with Bitswits, a leading <span>mobile app development company.</span> We turn your ideas into impactful <span>mobile app solutions.</span> Our expertise isn't just in coding; it's about understanding your needs and delivering an app that resonates with your audience. Experience the <span>Bitswits</span> difference: where expertise meets excellence, and your vision becomes a reality.
+    </>,
+    subtitleOne: "Soul Scribe ",
+    subDescOne: "Soul Scribe is a groundbreaking social networking app which functions as digital diary, and you can enlist your loved ones to be part of you online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories. Users have the privilege to create and share profound moments with their loved ones. This makes Soul Scribe a social media experience that is different and personal.",
+    subtitleTwo: "Ready App",
+    subDescTwo: "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having an user-friendly interface along with features like secure messaging, personal meetings and real-time updates. Our platform solve issues such as data security, algorithm revisions, and user interface design among others in order to have a scalable and mutually beneficial solution. ",
+    subtitleThree: "Greasy Monkey ",
+    subDescThree: "Grease Monkey is a comprehensive automotive innovation system which provides everything ranging from car repairs to oil checkup. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations and also client ratings for your vehicles. The app takes the convenience to a different level altogether.. With Grease Monkey, car owners can do regular maintenance for their cars in an easy way by just a few taps on their smartphones."
+  }
   return (
     <>
       <Bannerlp
@@ -61,14 +76,13 @@ export default function gamedevelopmentcompany() {
       />
       <People People="people" />
       <HomeBannerSliderlp />
-      <LpForm
-        addresClass="iosclass"
-        heading={`Discover excellence in app innovation with Bitswits, a leading mobile app development company. We turn your ideas into impactful mobile app solutions. Our expertise isn't just in coding; it's about understanding your needs and delivering an app that resonates with your audience. Experience the Bitswits difference: where expertise meets excellence, and your vision becomes a reality.`}
-      />
+      <Whowearenew content={WhoWeAre} />
       <Nothing Nothing="nothing" />
-      <Hurdles />
+      <AppsJourney />
       <Expertapp expertapp="expertapp" />
+      <AppsLived />
       <ProjectProcesslp1 processclass="process" />
+      <Industries />
       <LpChoose transform="transform" />
       <Technologieslp />
       <Justbuilditlp
@@ -91,7 +105,6 @@ export default function gamedevelopmentcompany() {
       <Formnewlp />
       <NewFaqslp />
       <HomeLocationlp />
-
       <Script id="websiteSchema" type="application/ld+json">
         {`
            {

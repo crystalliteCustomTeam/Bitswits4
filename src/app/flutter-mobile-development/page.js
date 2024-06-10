@@ -22,6 +22,7 @@ import StartupsLp from "../../components/StartupsLp6";
 import ProjectProcess from "../../components/ProjectProcessLp6";
 import Formnewlp from "../../components/Formnewlp";
 import ServicesMaintainmobile from "../../components/ServicesMaintainmobile";
+import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
 //images
 import customios from "/public/images/flutterappdeveloper/dartapplicationdevelopmentservices.png";
 import iphoneapp from "/public/images/flutterappdeveloper/fluttercrossplatformappdevelopment.png";
@@ -221,15 +222,7 @@ export default function HybridMobile() {
       />
       <Justbuildit />
       <LpChoose transform="transform" />
-      <ServicesPortfolio
-        title={
-          <>
-            Showcasing Our <span className="newfycolr">
-              Creative Vision
-            </span>
-          </>
-        }
-      />
+      <AppsLived />
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"

@@ -87,6 +87,11 @@
   left: 0;
   right: 0;
   padding-left: 1%;
+  overflow-x: hidden;
+}
+
+.megamenuwork {
+  overflow-x: hidden;
 }
 
 .mega hr {

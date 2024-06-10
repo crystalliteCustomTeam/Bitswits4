@@ -1,6 +1,4 @@
 .sidebar {
-    /* position: sticky;
-    top: 20px; */
     width: 90%;
     margin-left: auto;
 }
@@ -16,6 +14,9 @@
     border-radius: 10px;
     background-color: #F3F3F3;
     margin-bottom: 45px;
+    position: sticky;
+    top: 20px;
+    z-index: 999;
 }
 
 .mainHeading {
@@ -23,6 +24,22 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 15px 0;
+    cursor: pointer;
+}
+
+.active {
+    position: relative;
+    color: #F32F53;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    top: 0px;
+    left: -30px;
+    background: #F32F53;
 }
 
 .mainHeading h3 {
@@ -61,6 +78,7 @@
     line-height: 21px;
     font-weight: 300;
     letter-spacing: 0.6px;
+    position: relative;
 }
 
 .articles {
