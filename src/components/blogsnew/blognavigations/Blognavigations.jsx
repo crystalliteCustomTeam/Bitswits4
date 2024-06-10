@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/blogNew/Blognavigations.module.css"
+import { FaAngleDown } from 'react-icons/fa';
 
 const Blognavigations = () => {
-
-    const [isNavVisible, setIsNavVisible] = useState(true);
+    const [isNavVisible, setIsNavVisible] = useState(true); // Initially visible
     const [activeHeading, setActiveHeading] = useState('#heading1');
+
     const toggleNavVisibility = () => {
         setIsNavVisible(!isNavVisible);
     };
@@ -13,6 +14,23 @@ const Blognavigations = () => {
     const handleHeadingClick = (heading) => {
         setActiveHeading(heading);
     };
+
+    useEffect(() => {
+        const handleScroll = () => { 
+            const isSticky = window.scrollY > 1000; // Example condition
+            if (isSticky) {
+                setIsNavVisible(false);
+            } else {
+                setIsNavVisible(true);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     return (
         <>
             <section className={styles.sidebar}>
@@ -23,6 +41,7 @@ const Blognavigations = () => {
                                 <div className={styles.mainHeading} onClick={toggleNavVisibility}>
                                     <h3 className='fontsfregular'>
                                         Navigation
+                                        <FaAngleDown className='ms-3' />
                                     </h3>
                                 </div>
                                 {isNavVisible && (
