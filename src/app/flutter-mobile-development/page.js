@@ -30,6 +30,8 @@ import applewatch from "/public/images/flutterappdeveloper/flutterdevelopmentfor
 import appletvappdevelopment from "/public/images/flutterappdeveloper/customizedflutterdevelopmentsolutions.png";
 import iphoneappdesigning from "/public/images/flutterappdeveloper/testingqualityassurance.png";
 import hybridiphone from "/public/images/flutterappdeveloper/maintenancesupportservices.png";
+import HomeCaseStudies from "@/src/components/HomeCaseStudies";
+import HomeIndustries from "@/src/components/HomeIndustries";
 
 export default function HybridMobile() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -210,6 +212,7 @@ export default function HybridMobile() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
+      <HomeCaseStudies />
       <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
@@ -222,7 +225,7 @@ export default function HybridMobile() {
       />
       <Justbuildit />
       <LpChoose transform="transform" />
-      <AppsLived />
+      <HomeIndustries />
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"

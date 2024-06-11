@@ -32,6 +32,8 @@ import applewatch from "/public/images/iosappdevelopment/applewatch.png";
 import appletvappdevelopment from "/public/images/iosappdevelopment/appletvappdevelopment.png";
 import iphoneappdesigning from "/public/images/iosappdevelopment/iphoneappdesigning.png";
 import hybridiphone from "/public/images/iosappdevelopment/hybridiphone.png";
+import HomeCaseStudies from "@/src/components/HomeCaseStudies";
+import HomeIndustries from "@/src/components/HomeIndustries";
 
 export default function gamedevelopmentcompany() {
 
@@ -249,7 +251,8 @@ export default function gamedevelopmentcompany() {
             ) : (
               <ServicesMaintainmobile severcedata={severcedata} />
             )}
-            <AppsLived />
+            {/* <AppsLived /> */}
+            <HomeCaseStudies />
             <WeworkLp wework="weworkLpnewhomefy" />
             <StartupsLp startups="startups" />
             <ProjectProcess
@@ -261,7 +264,7 @@ export default function gamedevelopmentcompany() {
         exactly as you imagined."
             />
             <Justbuildit />
-            <LpChoose transform="transform" marginTop={styles.marginTop} /> 
+            <LpChoose transform="transform" marginTop={styles.marginTop} />
             <Newsuccess
               assignClass="spacing"
               subtitle="Ready For Success?"
@@ -535,8 +538,8 @@ export default function gamedevelopmentcompany() {
               />
             ) : (
               <ServicesMaintainmobile severcedata={severcedata} />
-            )}
-            <AppsLived />
+            )} 
+            <HomeCaseStudies />
             <WeworkLp wework="weworkLpnewhomefy" />
             <StartupsLp startups="startups" />
             <ProjectProcess
@@ -549,6 +552,7 @@ export default function gamedevelopmentcompany() {
             />
             <Justbuildit />
             <LpChoose transform="transform" marginTop={styles.marginTop} />
+            <HomeIndustries />
             <Newsuccess
               assignClass="spacing"
               subtitle="Ready For Success?"

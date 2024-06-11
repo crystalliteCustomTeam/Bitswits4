@@ -33,6 +33,8 @@ import appletvappdevelopment from "/public/images/crossappdevelopement/webbasedc
 import iphoneappdesigning from "/public/images/crossappdevelopement/aiintegratedcrossplatformapps.png";
 import hybridiphone from "/public/images/crossappdevelopement/crossplatformappsconsulting.png";
 import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
+import HomeCaseStudies from "@/src/components/HomeCaseStudies";
+import HomeIndustries from "@/src/components/HomeIndustries";
 
 export default function gamedevelopmentcompany() {
 
@@ -263,6 +265,7 @@ export default function gamedevelopmentcompany() {
             ) : (
               <ServicesMaintainmobile severcedata={severcedata} />
             )}
+            <HomeCaseStudies />
             <WeworkLp wework="weworkLpnewhomefy" />
             <StartupsLp startups="startups" />
             <ProjectProcess
@@ -275,7 +278,7 @@ export default function gamedevelopmentcompany() {
             />
             <Justbuildit />
             <LpChoose transform="transform" marginTop={styles.marginTop} />
-            <AppsLived />
+            <HomeIndustries />
             <Newsuccess
               assignClass="spacing"
               subtitle="Ready For Success?"
@@ -514,28 +517,20 @@ export default function gamedevelopmentcompany() {
             ) : (
               <ServicesMaintainmobile severcedata={severcedata} />
             )}
+            <HomeCaseStudies />
             <WeworkLp wework="weworkLpnewhomefy" />
             <StartupsLp startups="startups" />
             <ProjectProcess
               processclass="processLp6"
               title="Explore Our Cross-Platform App Development Journey"
               desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+                streamlined process for app development is <br /> designed to be
+                transparent and collaborative, ensuring your vision comes to life
+                exactly as you imagined."
             />
             <Justbuildit />
             <LpChoose transform="transform" marginTop={styles.marginTop} />
-            <ServicesPortfolio
-              title={
-                <>
-                  {" "}
-                  Showcasing Our <span className="newfycolr">
-                    Creative Vision
-                  </span>{" "}
-                </>
-              }
-            />
+            <HomeIndustries />
             <Newsuccess
               assignClass="spacing"
               subtitle="Ready For Success?"

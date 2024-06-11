@@ -30,6 +30,8 @@ import appletvappdevelopment from "/public/images/reactnativeappdevelopment/hybr
 import iphoneappdesigning from "/public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png";
 import hybridiphone from "/public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png";
 import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
+import HomeCaseStudies from "@/src/components/HomeCaseStudies";
+import HomeIndustries from "@/src/components/HomeIndustries";
 
 export default function ReactNativeMobile() {
 
@@ -208,6 +210,7 @@ export default function ReactNativeMobile() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
+       <HomeCaseStudies />
       <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
@@ -220,7 +223,7 @@ export default function ReactNativeMobile() {
       />
       <Justbuildit />
       <LpChoose transform="transform" />
-      <AppsLived />
+      <HomeIndustries />
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"

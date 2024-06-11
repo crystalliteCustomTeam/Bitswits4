@@ -7,10 +7,10 @@ import stylesjust from "@/styles/Justbuilditlp.module.css";
 // components
 import Bannerlp from "../../components/Bannerlp";
 import People from "../../components/People";
-import HomeBannerSliderlp from "../../components/HomeBannerSliderlp"; 
+import HomeBannerSliderlp from "../../components/HomeBannerSliderlp";
 import AppsJourney from "@/src/components/NewMobileApp/AppsJourney/AppsJourney";
 import Whowearenew from '@/src/components/NewMobileApp/WhoWeAre/WhoWeAre';
-import Nothing from "../../components/Nothing"; 
+import Nothing from "../../components/Nothing";
 import Expertapp from "../../components/Expertapp";
 import ProjectProcesslp1 from "../../components/ProjectProcesslp1";
 import LpChoose from "../../components/LpChoose";
@@ -23,6 +23,9 @@ import NewFaqslp from "../../components/NewFaqslp";
 import HomeLocationlp from "../../components/HomeLocationlp";
 import Industries from "@/src/components/NewMobileApp/Industries/Industries";
 import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
+import HomeCaseStudies from "@/src/components/HomeCaseStudies";
+import HomeNewWhoWeAre from "@/src/components/HomeNewWhoWeAre";
+import HomeIndustries from "@/src/components/HomeIndustries";
 
 export default function gamedevelopmentcompany() {
   const [showFolds, setShowFolds] = useState(false);
@@ -76,13 +79,12 @@ export default function gamedevelopmentcompany() {
       />
       <People People="people" />
       <HomeBannerSliderlp />
-      <Whowearenew content={WhoWeAre} />
+      <HomeNewWhoWeAre content={WhoWeAre} />
       <Nothing Nothing="nothing" />
-      <AppsJourney />
+      <HomeCaseStudies />
       <Expertapp expertapp="expertapp" />
-      <AppsLived />
       <ProjectProcesslp1 processclass="process" />
-      <Industries />
+      <HomeIndustries />
       <LpChoose transform="transform" />
       <Technologieslp />
       <Justbuilditlp
