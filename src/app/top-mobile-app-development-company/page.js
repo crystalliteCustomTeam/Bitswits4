@@ -38,7 +38,7 @@ export default function gamedevelopmentcompany() {
 
   // Who We Are Content
   const WhoWeAre = {
-    title: "This is Us",
+    title: "Who We Are",
     desc: <>Discover excellence in app innovation with Bitswits, a leading <span>mobile app development company.</span> We turn your ideas into impactful <span>mobile app solutions.</span> Our expertise isn't just in coding; it's about understanding your needs and delivering an app that resonates with your audience. Experience the <span>Bitswits</span> difference: where expertise meets excellence, and your vision becomes a reality.
     </>,
     subtitleOne: "Soul Scribe ",
