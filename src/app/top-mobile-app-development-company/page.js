@@ -26,6 +26,7 @@ import AppsLived from "@/src/components/NewMobileApp/AppsLived/AppsLived";
 import HomeCaseStudies from "@/src/components/HomeCaseStudies";
 import HomeNewWhoWeAre from "@/src/components/HomeNewWhoWeAre";
 import HomeIndustries from "@/src/components/HomeIndustries";
+import ServiceNothing from "@/src/components/ServiceNothing";
 
 export default function gamedevelopmentcompany() {
   const [showFolds, setShowFolds] = useState(false);
@@ -68,7 +69,7 @@ export default function gamedevelopmentcompany() {
         btn2={
           <>
             <div className={styles.pont}>
-              <a className={styles.about} href="javascript:$zopim.livechat.window.show();">
+              <a className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
                 Transform Your App Idea Into A Success Story - Today Is The Day
                 To Start!
               </a>
@@ -80,7 +81,7 @@ export default function gamedevelopmentcompany() {
       <People People="people" />
       <HomeBannerSliderlp />
       <HomeNewWhoWeAre content={WhoWeAre} />
-      <Nothing Nothing="nothing" />
+      <ServiceNothing Nothing="nothing" />
       <HomeCaseStudies />
       <Expertapp expertapp="expertapp" />
       <ProjectProcesslp1 processclass="process" />

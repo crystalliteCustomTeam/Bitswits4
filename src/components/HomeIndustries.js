@@ -254,7 +254,7 @@ const HomeIndustries = () => {
 
                         <Col lg={12}>
                             <div className={`${styles.btns}`}>
-                                <a href="javascript:$zopim.livechat.window.show();">
+                                <a href="javascript:$zopim.livechat.window.show();" className='pink'>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
