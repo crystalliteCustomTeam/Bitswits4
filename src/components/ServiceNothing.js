@@ -137,7 +137,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid  "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2 fontf font-regular">
+                                            <p className="text-black font14 mt-4 mb-2 fontf font-regular">
                                                 Bitswits' development of the ProEYE project, a wallet
                                                 analytics and search engine platform on blockchain, was
                                                 exceptional. Their comprehensive work, from requirement
@@ -174,7 +174,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid  "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2">
+                                            <p className="text-black font14 mt-4 mb-2">
                                                 Bitswits excelled in developing our custom CRM system,
                                                 perfectly aligning it with our SEO firm's workflow.
                                                 Their team delivered an efficient, user-friendly
@@ -210,7 +210,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2">
+                                            <p className="text-black font14 mt-4 mb-2">
                                                 Bitswits delivered an efficient solution that
                                                 significantly improved processing speed, productivity,
                                                 and accuracy. Their proactive engagement, soliciting of
@@ -244,7 +244,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid  "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2">
+                                            <p className="text-black font14 mt-4 mb-2">
                                                 We decided to hire app developers from Bitswits on their
                                                 hourly package and it turned out to be a perfect fit for
                                                 our project's needs. Their team's expertise and
@@ -279,7 +279,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid  "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2">
+                                            <p className="text-black font14 mt-4 mb-2">
                                                 Bitswits' development of the ProEYE project, a wallet
                                                 analytics and search engine platform on blockchain, was
                                                 exceptional. Their comprehensive work, from requirement
@@ -316,7 +316,7 @@ export default function ServiceNothing(props) {
                                                 src={Clutch}
                                                 className="img-fluid  "
                                             />
-                                            <p className="text-black font12 mt-4 mb-2">
+                                            <p className="text-black font14 mt-4 mb-2">
                                                 Working with Bitswits was a game-changer for our retail
                                                 chain. They developed an AI-assisted inventory
                                                 management system that automates stock level tracking
