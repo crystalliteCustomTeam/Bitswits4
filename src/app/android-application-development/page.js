@@ -125,7 +125,7 @@ export default function gamedevelopmentcompany() {
           <video
             autoPlay
             muted
-            src="../../bannerVideos/android.mp4"
+            src="https://player.vimeo.com/progressive_redirect/playback/961490600/rendition/720p/file.mp4?loc=external&log_user=0&signature=d73258e27ecc79f1404833cb3aca43eab9fc881ba7619fd3933af63dff97ca29"
             className="w-50"
           ></video>
         }

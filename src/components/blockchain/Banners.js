@@ -49,7 +49,7 @@ function Banners() {
             name: e.target.name.value,
             last: 'null',
             email: e.target.email.value,
-            phone: e.target.phone.value, 
+            phone: e.target.phone.value,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -112,7 +112,7 @@ function Banners() {
                     "objectTypeId": "0-1",
                     "name": "phone",
                     "value": e.target.phone.value
-                } 
+                }
             ],
             "context": {
                 "ipAddress": ip.IPv4,
@@ -150,14 +150,18 @@ function Banners() {
         }
     }
 
-
+    const bannerVideo = {
+        video: "https://player.vimeo.com/progressive_redirect/playback/961499637/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a3bd8570552dc46bf37d1e808b68d7899f89d691601afd89ffa9778943c9a415"
+    }
 
     return (
         <>
             <div className='HomeBanner'>
                 <div className={style.overlay}></div>
                 <div className='homeVideo'>
-                    <video className='' autoPlay muted loop src="../../../blockchain/images/homeback.mov" type="video/mov"></video>
+                    {bannerVideo && (
+                        <video className='' autoPlay muted loop src={bannerVideo.video} type="video/mov"></video>
+                    )}
                 </div>
 
                 <Container>

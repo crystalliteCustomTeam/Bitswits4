@@ -125,7 +125,7 @@ export default function ReactNativeMobile() {
           <video
             autoPlay
             muted
-            src="../../bannerVideos/react.mp4"
+            src="https://player.vimeo.com/progressive_redirect/playback/961579998/rendition/1080p/file.mp4?loc=external&log_user=0&signature=03fd43f56b649c6927e31458c803a4d8c1fffacce875645af987b9c076ef6814"
             className="w-50"
           ></video>
         }

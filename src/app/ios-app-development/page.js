@@ -172,7 +172,7 @@ export default function gamedevelopmentcompany() {
           <video
             autoPlay
             muted
-            src="../../bannerVideos/ios.mp4"
+            src="https://player.vimeo.com/progressive_redirect/playback/961581020/rendition/1080p/file.mp4?loc=external&log_user=0&signature=aa97d33c7cc1d89db03471ce9ed26c8bf3848599fa581a659f3a2fa56501f8b1"
             className="w-50"
           ></video>
         }

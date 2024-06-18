@@ -14,7 +14,7 @@ const EcommerceShoppingApp = () => {
                 <Container>
                     <Row>
                         <Col lg={6}>
-                            <video autoPlay loop muted src='./ecommerce/ecommerce-solutions.mp4' className='w-100 h-100'></video>
+                            <video autoPlay loop muted src='https://player.vimeo.com/progressive_redirect/playback/961574886/rendition/720p/file.mp4?loc=external&log_user=0&signature=063a165d67c17955d4718a2ee6438d073a4c5d047aafe0f10e9bad668ad27a1b' className='w-100 h-100'></video>
                         </Col>
                         <Col lg={6}>
                             <p className='text-white font18 font-bold mb-0 mt-4 mt-lg-0'>Swipe, Shop, Smile with Our</p>

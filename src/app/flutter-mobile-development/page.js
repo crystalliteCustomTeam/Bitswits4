@@ -119,7 +119,7 @@ export default function HybridMobile() {
             expertise and technology to turn your ideas into amazing apps.
           </>
         }
-        video={<video autoPlay muted src='../../bannerVideos/flutter.mp4' className="w-75" ></video>}
+        video={<video autoPlay muted src='https://player.vimeo.com/progressive_redirect/playback/961561508/rendition/1080p/file.mp4?loc=external&log_user=0&signature=58a3f20a76b1f51528d95985356d244acf62eba0dc0c673fc525ac8e7fed5733' className="w-75" ></video>}
         assignClass="flutter"
       />
       <People People="people" />

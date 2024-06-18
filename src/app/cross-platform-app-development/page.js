@@ -180,7 +180,7 @@ export default function gamedevelopmentcompany() {
             can develop and deploy one single app for both Android and iOS!{" "}
           </>
         }
-        video={<video autoPlay muted src='../../bannerVideos/cross.mp4' className="w-75" ></video>}
+        video={<video autoPlay muted src='https://player.vimeo.com/progressive_redirect/playback/961556561/rendition/360p/file.mp4?loc=external&log_user=0&signature=a745b879770d1a0683cd908adfa55351c023526978cc6f405fa87404be718539' className="w-75" ></video>}
       />
       <People People="people" />
       {isMobile ? (
