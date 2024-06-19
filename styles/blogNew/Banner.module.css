@@ -8,8 +8,9 @@
 }
 
 .bannerSec .txt h1 {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
 }
 
 .bannerSec .txt p {
@@ -67,7 +68,8 @@
     }
 
     .bannerSec .txt h1 {
-        font-size: 40px;
+        font-size: 35px;
+        line-height: 45px;
     }
 }
 
