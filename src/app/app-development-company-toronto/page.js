@@ -77,7 +77,7 @@ export default function dubaidevelopmentcompany() {
     },
     {
       question: 'Blockchain App Development in Toronto',
-      answer: "Blockchain has more potential than organizations perceive. With this decentralized technology we have created some of the most famous and best performing blockchain apps that have led businesses to achieve new heights of success. Therefore, if you aim to adapt to change and seize market-winning opportunities, our blockchain app development services are exactly what you need.", 
+      answer: "Blockchain has more potential than organizations perceive. With this decentralized technology we have created some of the most famous and best performing blockchain apps that have led businesses to achieve new heights of success. Therefore, if you aim to adapt to change and seize market-winning opportunities, our blockchain app development services are exactly what you need.",
       btn: "Let’s Build Your Blockchain App!",
       StoryLineImg: StoryLine6
     },
@@ -122,14 +122,14 @@ export default function dubaidevelopmentcompany() {
     isSubtitle: true,
     heading1: "Research and Strategy",
     para1: "In the research and strategy phase for mobile app development in Toronto, we conduct intensive user interviews, ethnographic research, and competitive analysis. This informs our conception, prototyping, and user testing process. Guided by strategy workshops with the client, we then develop hypotheses for MVPs and prototypes to align with client goals, ensuring effective product development and seamless user experiences.",
-    heading2: "Scale",
-    para2: "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Toronto mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. In addition, we emphasize continuous refinement to ensure sustained user engagement and long-term success.",
+    heading2: "Development",
+    para2: "In the development phase, our Toronto app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. Moreover, we then integrate feedback loops for continuous improvement throughout development cycles.",
     heading3: "UI and UX",
     para3: "In the design phase, our expert designers collaborate closely with clients to create powerful, visually appealing, and intuitive interfaces. Through wireframing and design prototyping, we ensure users can navigate the mobile app effortlessly, fostering a highly engaging user experience and satisfaction. This collaborative process guarantees seamless interaction, enhancing app usability, and ultimately delivering a compelling user experience. Additionally, we prioritize accessibility and responsiveness across various devices and platforms.",
-    heading4: "Deployment",
-    para4: "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
-    heading5: "Development",
-    para5: "In the development phase, our Toronto app developers follow agile methodologies with 2-week sprints for iterative development and testing of user stories and features. We conduct comprehensive usability testing and optimize app store metadata. Our process includes sprintly regression tests and end-to-end scenario tests to ensure a smooth mobile app launch and submission process. Moreover, we then integrate feedback loops for continuous improvement throughout development cycles.",
+    heading4: "Scale",
+    para4: "In the scale phase, we prioritize achieving the client's goals by focusing on mobile app success and growth. We conduct iterative management and execution of analytics, experiments, and A/B tests. As a bespoke Toronto mobile app development company, our approach includes automated messaging campaigns and attribution optimization to attract new users, boost retention, and maximize revenue. In addition, we emphasize continuous refinement to ensure sustained user engagement and long-term success.",
+    heading5: "Deployment",
+    para5: "In the deployment phase, our Google-certified app developers focus on launching the app successfully to the market. We run thorough compatibility tests on several different devices to guarantee a smooth and error-free user experience for all users. Additionally, we provide support during the initial rollout phase to address any issues and ensure a seamless transition for users. Furthermore, we offer comprehensive training sessions for client teams post-launch.",
   }
   // ClientContent
   const ClientContent = {
@@ -375,8 +375,8 @@ export default function dubaidevelopmentcompany() {
             answer: (
               <>
                 <p>
-                Absolutely, we have experience integrating third-party APIs and services into mobile apps. Whether it's payment gateways, social media integration, or geolocation services, we can seamlessly incorporate external functionalities into your app.
-                </p> 
+                  Absolutely, we have experience integrating third-party APIs and services into mobile apps. Whether it's payment gateways, social media integration, or geolocation services, we can seamlessly incorporate external functionalities into your app.
+                </p>
               </>
             ),
           },
@@ -399,7 +399,7 @@ export default function dubaidevelopmentcompany() {
                 </p>
               </>
             ),
-          }, 
+          },
         ]}
       />
       <Latestblog blogBox={blogBox} />

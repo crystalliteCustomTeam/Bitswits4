@@ -91,8 +91,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 200+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
-    para: "Here is a showcase of some of our remarkable projects:",
+    desc: <>We have a proven track record of delivering 100+ exclusive mobile apps based on distinct categories across diverse sectors and industries.</>,
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",

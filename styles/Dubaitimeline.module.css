@@ -613,17 +613,17 @@
 }
 
 .toronto .timeOne::after {
-  height: 81%;
-  bottom: -74px;
+  height: 79%;
+  bottom: -65px;
 }
 
 .toronto .timeTwo::after {
-  height: 29%;
-  top: 136px;
+  height: 33%;
+  top: 125px;
 }
 
 .toronto .numberOne {
-  top: 80px;
+  top: 70px;
 }
 
 .toronto .numberTwo {
@@ -631,17 +631,17 @@
 }
 
 .toronto .numberThree {
-  top: -22px;
+  top: -9px;
 }
 
 .toronto .timeThree::before {
-  height: 38%;
-  top: -224px;
+  height: 35%;
+  top: -200px;
 }
 
 .toronto .timeThree::after {
-  height: 39%;
-  top: 35px;
+  height: 36%;
+  top: 45px;
 }
 
 .toronto .numberFour {
@@ -660,17 +660,17 @@
 }
 
 .florida .timeOne::after {
-  height: 81%;
-  bottom: -74px;
+  height: 79%;
+  bottom: -65px;
 }
 
 .florida .timeTwo::after {
-  height: 29%;
-  top: 136px;
+  height: 33%;
+  top: 125px;
 }
 
 .florida .numberOne {
-  top: 80px;
+  top: 70px;
 }
 
 .florida .numberTwo {
@@ -678,17 +678,17 @@
 }
 
 .florida .numberThree {
-  top: -22px;
+  top: -9px;
 }
 
 .florida .timeThree::before {
-  height: 38%;
-  top: -224px;
+  height: 35%;
+  top: -200px;
 }
 
 .florida .timeThree::after {
-  height: 39%;
-  top: 35px;
+  height: 36%;
+  top: 45px;
 }
 
 .florida .numberFour {
@@ -1140,7 +1140,7 @@
 
   .toronto .timeOne::after {
     height: 83%;
-    bottom: -58px;
+    bottom: -64px;
   }
 
   .toronto .numberOne {
@@ -1157,17 +1157,17 @@
   }
 
   .toronto .timeThree::before {
-    height: 39%;
+    height: 40%;
     top: -253px;
   }
 
   .toronto .numberThree {
-    top: -36px;
+    top: -22px;
   }
 
   .toronto .timeThree::after {
-    height: 38%;
-    top: 26px;
+    height: 36%;
+    top: 33px;
   }
 
   .toronto .numberFour {
@@ -1185,17 +1185,17 @@
   }
 
   .florida .marker {
-    top: 84px;
+    top: 98px;
   }
 
   .florida .timelineMain:before {
     height: 7%;
-    top: -5px;
+    top: 15px;
   }
 
   .florida .timeOne::after {
     height: 83%;
-    bottom: -58px;
+    bottom: -64px;
   }
 
   .florida .numberOne {
@@ -1212,17 +1212,17 @@
   }
 
   .florida .timeThree::before {
-    height: 39%;
+    height: 40%;
     top: -253px;
   }
 
   .florida .numberThree {
-    top: -36px;
+    top: -22px;
   }
 
   .florida .timeThree::after {
-    height: 38%;
-    top: 26px;
+    height: 36%;
+    top: 33px;
   }
 
   .florida .numberFour {
@@ -1231,7 +1231,6 @@
 }
 
 @media only screen and (max-width: 1299px) {
-
   /* ============Washington============ */
   .washington .timelineMain::before {
     top: -5px;
@@ -1280,24 +1279,9 @@
     top: 312px;
   }
 
-  .florida .timeThree::before {
-    height: 39%;
-    top: -253px;
-  }
-
-  .florida .numberThree {
-    top: -36px;
-  }
-
-  .florida .timeThree::after {
-    height: 38%;
-    top: 26px;
-  }
-
   .florida .numberFour {
     top: 240px;
   }
-
 }
 
 @media screen and (max-width: 1099px) {
@@ -1794,17 +1778,17 @@
   }
 
   .toronto .timeThree::before {
-    height: 28%;
+    height: 31%;
     top: -164px;
   }
 
   .toronto .numberThree {
-    top: -30px;
+    top: -10px;
   }
 
   .toronto .timeThree::after {
-    height: 54%;
-    top: 6px;
+    height: 47%;
+    top: 28px;
   }
 
   .toronto .numberFour {
@@ -1841,17 +1825,17 @@
   }
 
   .florida .timeThree::before {
-    height: 28%;
+    height: 32%;
     top: -164px;
   }
 
   .florida .numberThree {
-    top: -30px;
+    top: -8px;
   }
 
   .florida .timeThree::after {
-    height: 54%;
-    top: 6px;
+    height: 47%;
+    top: 30px;
   }
 
   .florida .numberFour {
@@ -2486,12 +2470,12 @@
   }
 
   .florida .timeTwo::after {
-    height: 44%;
+    height: 46%;
     top: 114px;
   }
 
   .florida .numberTwoMobile {
-    top: 70%;
+    top: 71%;
   }
 
   .florida .timeThree::before {
@@ -2509,7 +2493,7 @@
   }
 
   .florida .numberFourMobile {
-    top: 71%;
+    top: 71.5%;
   }
 }
 
@@ -2969,7 +2953,6 @@
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -3004,7 +2987,6 @@
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -3039,7 +3021,6 @@
     top: -89px;
     height: 7%;
     left: 19px;
-
   }
 
   .toronto .timeOne::after {
@@ -3060,12 +3041,12 @@
   }
 
   .toronto .timeThree::after {
-    height: 39%;
-    top: 166px;
+    height: 43%;
+    top: 162px;
   }
 
   .toronto .numberFourMobile {
-    top: 62%;
+    top: 65.5%;
   }
 
   /* ============florida============ */
@@ -3074,7 +3055,6 @@
     top: -89px;
     height: 7%;
     left: 19px;
-
   }
 
   .florida .timeOne::after {
@@ -3095,12 +3075,12 @@
   }
 
   .florida .timeThree::after {
-    height: 39%;
-    top: 166px;
+    height: 40%;
+    top: 162px;
   }
 
   .florida .numberFourMobile {
-    top: 62%;
+    top: 65.5%;
   }
 }
 
@@ -3208,7 +3188,6 @@
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -3243,7 +3222,6 @@
     top: -86px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -3275,45 +3253,47 @@
   /* ============toronto============ */
 
   .toronto .timelineMain:before {
-    top: -86px;
-    height: 7%;
+    top: -110px;
+    height: 8%;
     left: 19px;
+  }
 
+  .toronto marker {
+    top: -4px;
   }
 
   .toronto .timeOne::after {
-    height: 116%;
+    height: 115%;
   }
 
   .toronto .timeTwo::after {
-    height: 47%;
+    height: 49%;
   }
 
   .toronto .numberTwoMobile {
-    top: 62%;
+    top: 64%;
   }
 
   .toronto .timeThree::before {
-    top: -270px;
-    height: 52%;
+    top: -246px;
+    height: 47%;
   }
 
   .toronto .timeThree::after {
-    height: 39%;
-    top: 166px;
+    height: 45%;
+    top: 161px;
   }
 
   .toronto .numberFourMobile {
-    top: 62%;
+    top: 66.5%;
   }
 
   /* ============florida============ */
 
   .florida .timelineMain:before {
-    top: -102px;
-    height: 7%;
+    top: -110px;
+    height: 8%;
     left: 19px;
-
   }
 
   .florida marker {
@@ -3321,7 +3301,7 @@
   }
 
   .florida .timeOne::after {
-    height: 116%;
+    height: 115%;
   }
 
   .florida .timeTwo::after {
@@ -3329,21 +3309,21 @@
   }
 
   .florida .numberTwoMobile {
-    top: 62.5%;
+    top: 64%;
   }
 
   .florida .timeThree::before {
-    top: -295px;
-    height: 52%;
+    top: -246px;
+    height: 47%;
   }
 
   .florida .timeThree::after {
-    height: 41%;
+    height: 45%;
     top: 161px;
   }
 
   .florida .numberFourMobile {
-    top: 61.5%;
+    top: 66.5%;
   }
 }
 
@@ -3613,25 +3593,59 @@
   }
 
   .toronto .timeTwo::after {
-    height: 49%;
+    height: 50%;
   }
 
   .toronto .numberTwoMobile {
-    top: 62.4%;
+    top: 64.2%;
   }
 
   .toronto .timeThree::before {
-    top: -296px;
-    height: 52%;
+    top: -270px;
+    height: 47.5%;
   }
 
   .toronto .timeThree::after {
-    height: 40%;
+    height: 45%;
     top: 163px;
   }
 
   .toronto .numberFourMobile {
-    top: 61%;
+    top: 65.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 114%;
+  }
+
+  .florida .timeTwo::after {
+    height: 50%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .florida .timeThree::before {
+    top: -270px;
+    height: 47.5%;
+  }
+
+  .florida .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
+    top: 65.5%;
   }
 }
 
@@ -3762,7 +3776,7 @@
     top: 63.5%;
   }
 
-  /* ============Chicaho============ */
+  /* ============Chicago============ */
 
   .chicago .timelineMain:before {
     top: -82px;
@@ -3832,7 +3846,6 @@
     top: -82px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -3867,7 +3880,6 @@
     top: -90px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -3922,12 +3934,46 @@
   }
 
   .toronto .timeThree::after {
-    height: 40%;
+    height: 43.5%;
     top: 163px;
   }
 
   .toronto .numberFourMobile {
-    top: 61%;
+    top: 63.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 114%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .florida .timeThree::before {
+    top: -296px;
+    height: 49%;
+  }
+
+  .florida .timeThree::after {
+    height: 43.5%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
+    top: 63.5%;
   }
 }
 
@@ -4069,6 +4115,74 @@
   }
 
   .houston .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 112%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62%;
+  }
+
+  .toronto .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .toronto .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 112%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 62%;
+  }
+
+  .florida .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .florida .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
     top: 63%;
   }
 }

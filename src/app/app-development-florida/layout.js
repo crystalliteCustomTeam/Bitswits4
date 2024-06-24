@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Leading Mobile App Development Company in Florida',
     description: 'BitsWits is a premier app development company in Florida that helps startups and businesses across industries create salable and UX-driven mobile apps!',
-    url: '/new-mobile-app-development-company-florida',
+    url: '/app-development-florida',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/new-mobile-app-development-company-florida' },
+  alternates: { canonical: '/app-development-florida' },
   //===== No-Index =====
   robots: {
     index: false,
