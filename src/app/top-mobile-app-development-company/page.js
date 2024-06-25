@@ -1,6 +1,6 @@
 "use client"
-import Script from "next/script";
 import React, { useEffect, useState } from "react";
+import Script from "next/script";
 // css
 import styles from "@/styles/bannerlp.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
@@ -29,12 +29,45 @@ import HomeIndustries from "@/src/components/HomeIndustries";
 import ServiceNothing from "@/src/components/ServiceNothing";
 
 export default function gamedevelopmentcompany() {
-  const [showFolds, setShowFolds] = useState(false);
+  const [showDesktopComponents, setShowDesktopComponents] = useState(false);
+  const [showMobileComponents, setShowMobileComponents] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    // Show desktop components after 1 second
+    const desktopTimer = setTimeout(() => {
+      setShowDesktopComponents(true);
+    }, 500);
+
+    return () => {
+      window.removeEventListener("resize", checkMobile);
+      clearTimeout(desktopTimer);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleTouchOrScroll = () => {
+      setShowMobileComponents(true);
+      // Remove event listeners after mobile components are shown
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+
+    // Add event listeners for touch and scroll events
+    window.addEventListener("scroll", handleTouchOrScroll);
+    window.addEventListener("touchstart", handleTouchOrScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
   }, []);
 
   // Who We Are Content
@@ -79,35 +112,75 @@ export default function gamedevelopmentcompany() {
         newHomeBgprops="newHomeBg"
       />
       <People People="people" />
-      <HomeBannerSliderlp />
-      <HomeNewWhoWeAre content={WhoWeAre} />
-      <ServiceNothing Nothing="nothing" />
-      <HomeCaseStudies />
-      <Expertapp expertapp="expertapp" />
-      <ProjectProcesslp1 processclass="process" />
-      <HomeIndustries />
-      <LpChoose transform="transform" />
-      <Technologieslp />
-      <Justbuilditlp
-        title={
+      {isMobile ? (
+        showMobileComponents && (
           <>
-            <h2 className={stylesjust.just}>Just Build It.</h2>
+            <HomeBannerSliderlp />
+            <HomeNewWhoWeAre content={WhoWeAre} />
+            <ServiceNothing Nothing="nothing" />
+            <HomeCaseStudies />
+            <Expertapp expertapp="expertapp" />
+            <ProjectProcesslp1 processclass="process" />
+            <HomeIndustries />
+            <LpChoose transform="transform" />
+            <Technologieslp />
+            <Justbuilditlp
+              title={
+                <>
+                  <h2 className={stylesjust.just}>Just Build It.</h2>
+                </>
+              }
+              para={
+                <>
+                  <h3 className={stylesjust.develop}>
+                    Design, Develop, and Grow with BitsWits.
+                  </h3>
+                </>
+              }
+              slide="slide1lp"
+            />
+            <Globallplp6 />
+            <Partnerships />
+            <Formnewlp />
+            <NewFaqslp />
+            <HomeLocationlp />
           </>
-        }
-        para={
+        )
+      ) : (
+        showDesktopComponents && (
           <>
-            <h3 className={stylesjust.develop}>
-              Design, Develop, and Grow with BitsWits.
-            </h3>
+            <HomeBannerSliderlp />
+            <HomeNewWhoWeAre content={WhoWeAre} />
+            <ServiceNothing Nothing="nothing" />
+            <HomeCaseStudies />
+            <Expertapp expertapp="expertapp" />
+            <ProjectProcesslp1 processclass="process" />
+            <HomeIndustries />
+            <LpChoose transform="transform" />
+            <Technologieslp />
+            <Justbuilditlp
+              title={
+                <>
+                  <h2 className={stylesjust.just}>Just Build It.</h2>
+                </>
+              }
+              para={
+                <>
+                  <h3 className={stylesjust.develop}>
+                    Design, Develop, and Grow with BitsWits.
+                  </h3>
+                </>
+              }
+              slide="slide1lp"
+            />
+            <Globallplp6 />
+            <Partnerships />
+            <Formnewlp />
+            <NewFaqslp />
+            <HomeLocationlp />
           </>
-        }
-        slide="slide1lp"
-      />
-      <Globallplp6 />
-      <Partnerships />
-      <Formnewlp />
-      <NewFaqslp />
-      <HomeLocationlp />
+        )
+      )}
       <Script id="websiteSchema" type="application/ld+json">
         {`
            {
