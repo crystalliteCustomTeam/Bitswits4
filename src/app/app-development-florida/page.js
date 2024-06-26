@@ -33,7 +33,7 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
-import HeroBg from "/public/newhouston/dubai.webp";
+import HeroBg from "/public/newhouston/florida.webp";
 
 export default function dubaidevelopmentcompany() {
   // Banner Content

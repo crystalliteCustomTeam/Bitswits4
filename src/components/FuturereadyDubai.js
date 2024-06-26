@@ -58,7 +58,7 @@ const FutureReady = ({ content }) => {
                                             </p>
                                         </div>
                                         <div className={styles.btn}>
-                                            <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
+                                            <a href="tel:1 833 500 6007" className='pink'>{item.btn}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ const FutureReady = ({ content }) => {
                                             </p>
                                         </div>
                                         <div className={styles.btn}>
-                                            <a href="tel:1 833 500 6007" className='pink'>Let's Talk</a>
+                                            <a href="tel:1 833 500 6007" className='pink'>{item.btn}</a>
                                         </div>
                                     </div>
                                 </div>

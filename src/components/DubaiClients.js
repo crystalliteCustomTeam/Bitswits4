@@ -46,7 +46,6 @@ const DubaiClients = ({ content }) => {
                         <Col lg={12}>
                             <h2>{title}</h2>
                             <p className='fontsfregular mb-5 mb-lg-4 pb-lg-5'>{desc}</p>
-
                         </Col>
                         <Col md={6} lg={4}>
                             <div className={styles.trustPilot}>
