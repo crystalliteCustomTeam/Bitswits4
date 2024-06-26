@@ -14,20 +14,6 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-austin' },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
   //===== GEO Tags =====
   other: {},
 }
