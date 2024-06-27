@@ -10,7 +10,6 @@ import DubaiTimeline from "@/src/components/DubaiTimeline";
 import DubaiClients from "@/src/components/DubaiClients";
 import Delivered from "@/src/components/Delivered";
 import Industries from "@/src/components/Industries";
-import Houtondubai from "../../components/Houtondubai";
 import DubaiBrandTrust from "@/src/components/DubaiBrandTrust";
 import Expertappdubaiadvanced from "../../components/Expertappdubaiadvanced";
 import Justbuilditlpdubai from "../../components/Justbuilditlpdubai";
@@ -77,6 +76,7 @@ export default function dubaidevelopmentcompany() {
     {
       question: 'React Native App Development in Denver',
       answer: "BitsWits offers React Native app development services in Denver that are exceptional. Our skilled developers surpass your expectations by creating slick, reliable, and compelling applications using the newest frameworks. We guarantee 100% client satisfaction by fusing distinctive technology with creative design to produce solutions that not only meet but also surpass your business objectives.",
+      btn: "Let’s Build Your React Native App!",
       StoryLineImg: StoryLine6
     },
   ];
@@ -157,113 +157,6 @@ export default function dubaidevelopmentcompany() {
     desc: desc,
     cta: "Calculate Your App Development Cost Now!"
   }
-  // Houston Content
-  const menus = [
-    "How much does Playstore pay for 1000 downloads?",
-    "Which apps don't work in Denver?",
-    "Why apps are banned in Denver?",
-    "How to choose a reputable mobile app development company in Denver?",
-    "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
-    "What methodologies and processes does your mobile app development company in Denver employ?",
-    "How does BitsWits stay updated with the latest trends and advancements in mobile app development?",
-  ];
-  const sections = [
-    {
-      num: "01",
-      title: "How much does Playstore pay for 1000 downloads?",
-      content: `<p class='fontsfregular'>Google pays nothing for app downloads.</p>
-            <p class='fontsfregular'>Even with over 1 million downloads on the Play Store, you won't make any money solely from downloads.</p>
-            <p class='fontsfregular'>However, you can monetize your app through various methods, such as advertisements and in-app purchases, or by implementing a revenue model to unlock cash flow.</p>
-            <p class='fontsfregular'>Monetizing your app effectively is crucial for generating revenue despite the lack of direct payment from the Google Play Store for downloads.</p>
-            <p class='fontsfregular'>Consider implementing strategies like freemium models, where users can access basic features for free but pay for premium content or functionality.</p>
-            <p class='fontsfregular'>Additionally, explore sponsorship opportunities, affiliate marketing, or offering subscription-based services within your app.</p>
-            <p class='fontsfregular'>These methods can help unlock cash flow and maximize the financial potential of your app.</p>
-            <p class='fontsfregular'>Moreover, optimizing your app for user engagement and retention is essential for maximizing revenue potential.</p>
-            <p class='fontsfregular'>This includes offering valuable content, providing excellent user experience, and regularly updating your app to meet evolving user needs. By focusing on both monetization strategies and user satisfaction, you can effectively generate revenue and ensure long-term success for your app.</p>`
-    },
-    {
-      num: "02",
-      title: "Which apps don't work in Denver?",
-      content: `<p class='fontsfregular'>Denver has blocked VoIP (Voice over Internet Protocol) services like <b>WhatsApp</b>, <b>Skype</b>, <b>Viber</b>, and <b>Facetime</b> due to regulations and the desire to control telecommunications within their borders.</p>
-      <p class='fontsfregular'>In addition to VoIP services, certain social media and messaging apps may also face restrictions in Denver. Apps like <b>Telegram</b>, <b>Discord</b>, and <b>Signal</b> have experienced intermittent blocks or limitations in functionality.</p>
-      <p class='fontsfregular'>These restrictions are often attributed to regulatory policies aimed at controlling telecommunications and ensuring compliance with local laws.</p>
-      <p class='fontsfregular'>Consequently, users in Denver may encounter challenges accessing or using these apps for communication purposes.</p>
-      <p class='fontsfregular'>Furthermore, individuals in Denver may need to explore alternative communication methods such as traditional voice calls or SMS messaging to stay connected.</p>
-      <p class='fontsfregular'>While these restrictions present challenges for residents and visitors, they highlight the importance of understanding and adhering to local regulations when using communication services in foreign countries.</p>
-      <p class='fontsfregular'>Users should stay informed about any updates or changes to regulations that may affect their ability to use certain apps or services.</p>`
-    },
-    {
-      num: "03",
-      title: "Why apps are banned in Denver?",
-      content: `<p class='fontsfregular'>Apps are banned in Denver because the state wants people to use local phone companies instead of these cheaper internet calls.</p>
-      <p class='fontsfregular'>Additionally, the Denver government imposes bans on certain apps to maintain control over telecommunications and ensure compliance with local regulations.</p>
-      <p class='fontsfregular'>This allows authorities to monitor and regulate communication channels more effectively. By restricting access to specific apps like VoIP services, the government aims to protect the interests of local telecommunications companies and maintain revenue streams.</p>
-      <p class='fontsfregular'>Furthermore, these bans may also serve security and censorship purposes, enabling authorities to mitigate potential risks associated with unregulated internet-based communication platforms.</p> `
-    },
-    {
-      num: "04",
-      title: "How to choose a reputable mobile app development company in Denver?",
-      content: `<p class='fontsfregular'>When searching for a premier mobile app development firm in Denver, it's crucial to assess various essential characteristics to guarantee your app's success.</p>
-        <p class='fontsfregular'>Several vital factors to consider when selecting an app development company in Denver include:</p>
-        <h5>Vast Experience & Expertise</h5>
-        <p class='fontsfregular'>Primarily, ensure that the chosen company not only showcases a robust portfolio but also demonstrates expertise across various platforms and sectors. Their previous achievements validate their ability to develop fully functional mobile apps within specified timelines. Additionally, ascertain the company's proficiency in handling diverse mobile app development tasks and assess their experience and competence in your targeted industry or niche.</p>
-        <h5>Effective Communication</h5>
-        <p class='fontsfregular'>Next, effective communication is essential in selecting the most dependable mobile app development company in Denver. A top-tier company will excel in understanding your vision and transforming it into a functional app. Moreover, professionals should not only articulate well but also actively listen to your input and integrate feedback during the design phase. Hence, it is crucial to engage someone with robust communication abilities.</p>
-        <h5>Expertise in UI/UX Design</h5>
-        <p class='fontsfregular'>The importance of visual appeal in mobile app development cannot be overstated. Focus on selecting a team that creates visually appealing and user-centered designs, ultimately enhancing the overall usability of your mobile application.</p>
-        <h5>Technical Proficiency</h5>
-        <p class='fontsfregular'>Technical proficiency is essential and indispensable. A top-notch app development company in Denver boasts a team of proficient app developers capable of crafting dependable, scalable, and effective apps tailored to meet your specific business requirements effectively.</p>
-        <h5>Transparency and Openness</h5>
-        <p class='fontsfregular'>Establishing transparency and open communication is vital for fostering a productive partnership. You can trust that the leading mobile app developers in Denver will keep you informed, value your input, and maintain transparent and open lines of communication throughout the app development journey.</p>
-        <h5>Customer-Centric Approach</h5>
-        <p class='fontsfregular'>Ensuring client satisfaction ranks highest among successful companies. This entails developing quality apps within agreed timelines and budgets, and providing maintenance services as needed.</p>
-        <p class='fontsfregular'>Additionally, prioritize a customer-oriented approach when selecting a mobile app development company in Denver.</p>
-        <p class='fontsfregular'>Ultimately, verifying these traits is crucial for finding a dependable app development partner, as it directly influences the performance of your application.</p>`
-    },
-    {
-      num: "05",
-      title: "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
-      content: `<p class='fontsfregular'>The selection of a framework significantly impacts the performance of mobile app development. </p>
-      <p class='fontsfregular'>At BitsWits, we excel in utilizing cutting-edge frameworks to develop innovative and top-quality mobile apps. Below are some of the leading frameworks we employ:</p>
-      <h5>React Native</h5>
-      <p class='fontsfregular'>React Native's primary advantage lies in its capacity to create applications compatible with both iOS and Android platforms seamlessly, eliminating the necessity for additional implementation. This ensures rapid development cycles and cost-efficient solutions.</p>
-      <h5>Xamarin</h5>
-      <p class='fontsfregular'>Xamarin, another widely used cross-platform framework, enables developers to write a single codebase and deploy it across various platforms. This accelerates the development process and ensures efficient performance across different devices.</p>
-      <h5>Flutter</h5>
-      <p class='fontsfregular'>Developed by Google, Flutter has gained widespread attention for its ability to facilitate the creation of highly responsive and visually appealing apps without the need for extensive technical knowledge.</p>
-      <h5>Ionic</h5>
-      <p class='fontsfregular'>Ionic is renowned for its flexibility and seamless user interface, making it a favored option among mobile app developers in Denver.</p>
-      <h5>PhoneGap</h5>
-      <p class='fontsfregular'>PhoneGap is commonly utilized for hybrid app development because it enables developers to create apps compatible with various platforms such as iOS, Android, and web.</p>
-      <h5>NativeScript</h5>
-      <p class='fontsfregular'>Using NativeScript, developers can craft native applications that operate seamlessly on any device, utilizing JavaScript and TypeScript to deliver exceptional user experiences.</p>
-      <h5>jQuery Mobile</h5>
-      <p class='fontsfregular'>jQuery Mobile is a web framework optimized for touch, enabling the development of responsive mobile applications compatible with all major platforms.</p>
-      <h5>Sencha Touch</h5>
-      <p class='fontsfregular'>Sencha Touch is a platform comprising various reusable controls and UI components, facilitating the creation of high-performance apps using HTML5 and JavaScript, suitable for deployment across multiple devices.</p>`
-    },
-    {
-      num: "06",
-      title: "What methodologies and processes does your mobile app development company in Denver employ?",
-      content: `<p class='fontsfregular'>At our mobile app development company in Denver, we follow a rigorous yet flexible approach to ensure project success and client satisfaction. Our methodologies and processes are built around clear communication, thorough planning, and agile development practices.</p>
-        <p class='fontsfregular'>We begin by conducting detailed consultations with our clients to understand their requirements, goals, and vision for the app. This allows us to define clear project objectives and develop a comprehensive project plan tailored to their needs. Throughout the development process, we prioritize transparency and collaboration, keeping our clients informed and involved at every stage.</p>
-        <p class='fontsfregular'>We utilize agile methodologies, allowing for iterative development and frequent feedback loops. This enables us to adapt to changing requirements and preferences, ensuring that the final product meets our client's expectations. Additionally, we place a strong emphasis on quality assurance and testing to deliver robust, reliable, and user-friendly mobile apps that exceed our clients' expectations.</p>`
-    },
-    {
-      num: "07",
-      title: "How does BitsWits stay updated with the latest trends and advancements in mobile app development?",
-      content: `<p class='fontsfregular'>At BitsWits, we prioritize remaining ahead of the latest trends and advancements in mobile app development to ensure we utilize cutting-edge technologies.</p>
-      <p class='fontsfregular'>Our approach involves actively engaging in industry events such as conferences, workshops, and seminars, where we gain valuable insights into emerging technologies and best practices.</p>
-      <p class='fontsfregular'>Furthermore, we allocate dedicated time for research and development within our team, enabling us to explore new frameworks, tools, and techniques.</p>
-      <p class='fontsfregular'>Additionally, we maintain close relationships with technology partners and industry experts, allowing us to access early insights into upcoming advancements.</p>
-      <p class='fontsfregular'>Moreover, our commitment to continuous learning is reflected in our internal training programs, where team members are encouraged to enhance their skills and expertise in relevant areas of mobile app development.</p>
-      <p class='fontsfregular'>Through these efforts, we guarantee our clients receive solutions that are not only current but also innovative and forward-thinking, positioning them for success.</p>`
-    },
-  ];
-  const HoustonContent = {
-    menus: menus,
-    sections: sections,
-  }
   // Blogs Content
   const blogBox = [
     {
@@ -294,8 +187,9 @@ export default function dubaidevelopmentcompany() {
       <DubaiClients content={ClientContent} />
       <Delivered content={delivered} />
       <Industries />
-      <Houtondubai content={HoustonContent} />
-      <DubaiBrandTrust />
+      <div className="pt-5">
+        <DubaiBrandTrust />
+      </div>
       <Expertappdubaiadvanced expertapp="expertapp"
         title="Advanced Technology Solutions for Large-Scale Businesses & Enterprises"
         appData={
