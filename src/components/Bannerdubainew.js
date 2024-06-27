@@ -10,21 +10,8 @@ import badgeClient from "media/newdubai/badgesClient.png"
 import Star from "media/newDubaiPagev1/star.png"
 import Clutch from "media/newDubaiPagev1/clutch.png"
 
-const dubaiBackground = `${styles.newHomeBg}`;
-const houstonBackground = `${styles.newHoustonBg}`;
-const dallasBackground = `${styles.newDallasBg}`;
-const newYorkBackground = `${styles.newNewYorkBg}`;
-const washingtonBackground = `${styles.newWashingtonBg}`;
-const austinBackground = `${styles.newAustinBg}`;
-const chicagoBackground = `${styles.newChicagoBg}`;
-const miamiBackground = `${styles.newMiamiBg}`;
-const torontoBackground = `${styles.newTorontoBg}`;
-const ukBackground = `${styles.newUKBg}`;
-const saudiaBackground = `${styles.newSaudiaBg}`;
-
 const Bannerdubai = ({ content }) => {
-    const pathname = usePathname();
-    const { title, desc, pageSlug, bg = " " } = content;
+    const { title, desc, bg = " " } = content;
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [checkboxes, setCheckboxes] = useState([]);
@@ -177,19 +164,6 @@ const Bannerdubai = ({ content }) => {
 
     return (
         <>
-            {/* <section className={`
-            ${pathname === "/app-development-austin" ? austinBackground : ""}
-            ${pathname === "/app-development-chicago" ? chicagoBackground : ""}
-            ${pathname === "/mobile-app-development-company-dallas" ? dallasBackground : ""}
-            ${pathname === "/mobile-app-development-company-dubai" ? dubaiBackground : ""}
-            ${pathname === "/app-development-houston" ? houstonBackground : ""}
-            ${pathname === "/mobile-app-development-company-miami" ? miamiBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-newyork" ? newYorkBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-saudia" ? saudiaBackground : ""} 
-            ${pathname === "/new-mobile-app-development-company-toronto" ? torontoBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-uk" ? ukBackground : ""}
-            ${pathname === "/new-mobile-app-development-company-washington-dc" ? washingtonBackground : ""}
-             ${styles.DubaiBanner} bg-black`} > */}
             <section className={`${styles.DubaiBanner} bg-black`}>
                 <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} />
                 <Container className={` ${styles.conform}`}>

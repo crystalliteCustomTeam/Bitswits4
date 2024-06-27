@@ -25,8 +25,8 @@
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 0;
+  color: #000;
 }
-
 
 .appno {
   max-width: 1000px;
@@ -41,8 +41,8 @@
 .app {
   display: flex;
   align-items: flex-start;
-  background-color: #F3F3F3;
-  border: 2px solid #F3F3F3;
+  background-color: #f3f3f3;
+  border: 2px solid #f3f3f3;
   border-radius: 15px;
   height: 100%;
   min-height: 300px;
@@ -101,7 +101,7 @@
 
 /* Media Query Start */
 
-@media only screen and (max-width:1399px) {
+@media only screen and (max-width: 1399px) {
   .newtown h2 {
     font-size: 40px;
     line-height: 45px;

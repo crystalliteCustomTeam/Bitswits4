@@ -7,27 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Leading Mobile App Development Company in Toronto',
     description: 'BitsWits is a top-grade mobile app development company in Toronto that specializes in creating UX-driven mobile apps for startups and Fortune 500 companies.',
-    url: '/new-mobile-app-development-company-toronto',
+    url: '/app-development-company-toronto',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: '/new-mobile-app-development-company-toronto' },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  alternates: { canonical: '/app-development-company-toronto' },
   //===== GEO Tags =====
   other: {},
 }
