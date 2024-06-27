@@ -15,7 +15,7 @@
 }
 
 .blackPulse {
-  --pulseSize: 10px;
+  --pulseSize: 6px;
   --blue: #050505;
   --transparentBlue: #00000021;
 }
@@ -76,6 +76,55 @@
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Medium.otf);
   font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-Bold.ttf);
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-ExtraBold.ttf);
+  font-display: swap;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-ExtraLight.ttf);
+  font-display: swap;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-Light.ttf);
+  font-display: swap;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-Medium.ttf);
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-Regular.ttf);
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../public/fonts/service/Manrope-SemiBold.ttf);
+  font-display: swap;
+  font-weight: 600;
 }
 
 /* @font-face {
@@ -210,6 +259,10 @@ strong {
 
 .fontsfregular {
   font-family: "SF-Pro-Display-Regular", sans-serif;
+}
+
+.manrope {
+  font-family: "Manrope";
 }
 
 /*====================== fontweight ======================*/
@@ -640,6 +693,12 @@ strong {
   -webkit-text-fill-color: transparent;
 }
 
+.grdiant3 {
+  background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .blkgrdiant {
   background: linear-gradient(to right, #000000, #1d1d1d);
 }
@@ -1030,6 +1089,10 @@ a {
 
 .ppcFaqs .newfoldpost {
   border: 2px solid #f32f53;
+}
+
+.servicesFaqs .newfoldpost {
+  border: 2px solid #BCBCBC;
 }
 
 /*===========================*/
@@ -1474,8 +1537,7 @@ a {
 /*====================== Other Sliders ======================*/
 
 .caseSlider .slick-track {
-  display: flex;
-  gap: 20px;
+  display: flex; 
 }
 
 .showSticky {
@@ -2981,12 +3043,6 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@media screen and (max-width: 1280px) {
-  /* .industriesSlider .slick-slide.slick-active.slick-current .card {
-    bottom: 50px;
-  } */
-}
-
 /*=========================*/
 
 @media screen and (max-width: 1200px) {
@@ -3026,6 +3082,11 @@ input::-webkit-inner-spin-button {
   .indusSlider .slick-prev,
   .indusSlider .slick-next {
     top: 27%;
+  }
+
+  .font16 {
+    font-size: 13px;
+    line-height: 22px;
   }
 }
 
@@ -4594,31 +4655,98 @@ button {
   gap: 25px;
 }
 
-/* .indusSlider .slick-slide.slick-active.slick-center.slick-current {
-  transform: scale(1.05);
+.acheivedSlider .slick-track {
+  display: flex;
+  align-items: center;
 }
 
-.indusSlider .slick-slide.slick-active.slick-center.slick-current .content {
-  transform: translateY(-100%);
-  z-index: 5;
+/* Why Choose Start */
+
+.whychooseSlider .slick-prev:before {
+  content: url(/services/left-arrow.svg);
 }
 
-.indusSlider .slick-slide.slick-active.slick-center.slick-current .head {
-  display: none;
+.whychooseSlider .slick-next:before {
+  content: url(/services/right-arrow.svg);
 }
 
-.indusSlider .slick-slide.slick-active.slick-center.slick-current .indusSlide::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  z-index: 4;
-  background: #000;
-  border-radius: 15px;
-} */
+.whychooseSlider .slick-prev {
+  left: 40%;
+  bottom: -75px;
+  top: inherit;
+}
+
+.whychooseSlider .slick-next {
+  right: 40%;
+  bottom: -75px;
+  top: inherit;
+}
+
+.whychooseSlider .slick-center.slick-current .card {
+  background: linear-gradient(to left, #F32F53, #F32FC2, #4A78EF);
+  margin-top: -20px;
+}
+
+.whychooseSlider .slick-slide {
+  margin-top: 20px;
+}
+
+.whychooseSlider .slick-center.slick-current .card h3,
+.whychooseSlider .slick-center.slick-current .card p {
+  color: white;
+}
+
+/* Why Choose End */
+
+/* Testinomials Start */
+.testimonialSlider .slick-prev:before {
+  content: url(/services/left-arrow.svg);
+  filter: brightness(100) invert(1);
+}
+
+.testimonialSlider .slick-next:before {
+  content: url(/services/right-arrow.svg);
+  filter: brightness(100) invert(1);
+}
+
+.testimonialSlider .slick-next {
+  right: 46%;
+  top: inherit;
+  bottom: -60px;
+}
+
+.testimonialSlider .slick-prev {
+  left: 45%;
+  top: inherit;
+  bottom: -60px;
+}
+
+/* Testinomials End */
+
+/* Services Slider Start */
+.servicesIndustriesSlider .slick-prev:before {
+  content: url(/services/left-arrow.svg);
+}
+
+.servicesIndustriesSlider .slick-next:before {
+  content: url(/services/right-arrow.svg);
+}
+
+.servicesIndustriesSlider .slick-next {
+  right: 46%;
+  top: inherit;
+  bottom: -65px;
+  z-index: 99999999;
+}
+
+.servicesIndustriesSlider .slick-prev {
+  left: 46%;
+  top: inherit;
+  bottom: -65px;
+  z-index: 99999999;
+}
+
+/* Services Slider End */
 
 /*====================== Media Queries ======================*/
 
@@ -4656,13 +4784,13 @@ button {
 }
 
 @media screen and (max-width: 991px) {
-  .activefapost .newfoldpost {
+  /* .activefapost .newfoldpost {
     border: unset !important;
-  }
+  } */
 
-  .activefapost .d-block {
+  /* .activefapost .d-block {
     border: unset !important;
-  }
+  } */
 
   .cntctRow {
     row-gap: 90px;
@@ -4960,6 +5088,24 @@ button {
   .appsSlider .slick-prev {
     top: 173px;
   }
+
+  .testimonialSlider .slick-next {
+    right: 40%;
+    bottom: -55px;
+  }
+
+  .testimonialSlider .slick-prev {
+    left: 40%;
+    bottom: -55px;
+  }
+
+  .servicesIndustriesSlider .slick-prev {
+    left: 40%;
+  }
+
+  .servicesIndustriesSlider .slick-next {
+    right: 40%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -5024,8 +5170,8 @@ button {
   }
 
   .font16 {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .industriesSlider .slick-next,
