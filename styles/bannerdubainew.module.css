@@ -583,6 +583,25 @@
   gap: 4px;
 }
 
+.cross {
+  position: absolute;
+  top: -1.5%;
+  right: -1.5%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: Poppins;
+  cursor: pointer;
+  border: 1px solid #ff004a;
+  background-color: #ff004a;
+}
+
 /* =========================================== */
 
 @media screen and (min-width: 1700px) {
