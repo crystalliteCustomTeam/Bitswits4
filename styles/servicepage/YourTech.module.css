@@ -31,7 +31,7 @@
     font-size: 15px;
     line-height: 25px;
     border-radius: 5px;
-    padding: 0 25px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,10 +42,11 @@
 .YourTechSec .tenchnologies {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 89%;
+    width: 95%;
     margin: 0 auto;
+    gap: 40px 90px;
 }
 
 .YourTechSec .tech {

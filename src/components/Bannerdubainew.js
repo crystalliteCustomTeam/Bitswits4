@@ -3,8 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Modal } from 'react-bootstrap'
 import styles from "@/styles/bannerdubainew.module.css";
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 // images 
 import badgeClient from "media/newdubai/badgesClient.png"
 import Star from "media/newDubaiPagev1/star.png"
@@ -162,6 +164,16 @@ const Bannerdubai = ({ content }) => {
         }
     }
 
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
+
+    function closemodal() {
+        setShow(false);
+    }
     return (
         <>
             <section className={`${styles.DubaiBanner} bg-black`}>
@@ -176,9 +188,9 @@ const Bannerdubai = ({ content }) => {
                                 <p className='font16 white fw300 mt-3 mb-lg-4 fontsfregular'>
                                     {desc}
                                 </p>
-                                <a href='javascript:$zopim.livechat.window.show();' className={`${styles.deliver} pink`}>
+                                <button onClick={modal} className={`${styles.deliver} pink`}>
                                     Let’s Build Your Dream App!
-                                </a>
+                                </button>
                             </div>
                             <div className={styles.badge}>
                                 <div className={`d-flex align-items-center ${styles.clientRviews}`}>
@@ -222,6 +234,18 @@ const Bannerdubai = ({ content }) => {
                     </Row>
                 </Container>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    {" "}
+                    <Bitswitspopup formsaspire="popquote" />{" "}
+                    <span onClick={closemodal} className={styles.cross}>
+                        {" "}
+                        <RxCross2 />{" "}
+                    </span>{" "}
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     )
 }

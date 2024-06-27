@@ -8,6 +8,9 @@ import Slider from 'react-slick'
 import Client1 from "media/services/client-1.svg"
 import QouteOne from "media/services/quote-left.svg"
 import QouteTwo from "media/services/quote-right.svg"
+import TestiOne from "media/services/testimonials-1.svg"
+import TestiTwo from "media/services/testimonials-2.svg"
+import TestiThree from "media/services/testimonials-3.svg"
 
 const Testimonials = () => {
     const testimonialSlider = {
@@ -30,7 +33,7 @@ const Testimonials = () => {
                             <div className="txt">
                                 <h2 className='manrope font-bold text-center text-white mb-3 mb-md-5 pb-3'>Client Testimonial</h2>
                             </div>
-                            <Slider {...testimonialSlider} className={`testimonialSlider ${styles.testimonialSlider}`}>
+                            <Slider {...testimonialSlider} className={`testimonialSlider pb-lg-4 ${styles.testimonialSlider}`}>
                                 <div>
                                     <div className="testimonials">
                                         <div className="image">
@@ -76,6 +79,17 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </Slider>
+                            <div className="d-flex align-items-center justify-content-center gap-5 pt-5 mt-5">
+                                <div>
+                                    <Image src={TestiOne} alt='Bitswits' />
+                                </div>
+                                <div>
+                                    <Image src={TestiTwo} alt='Bitswits' />
+                                </div>
+                                <div>
+                                    <Image src={TestiThree} alt='Bitswits' />
+                                </div>
+                            </div>
                         </div>
                         <div className={styles.secBtn}>
                             <a href="javascript:;">

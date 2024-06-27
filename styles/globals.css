@@ -4712,13 +4712,13 @@ button {
 .testimonialSlider .slick-next {
   right: 46%;
   top: inherit;
-  bottom: -75px;
+  bottom: -60px;
 }
 
 .testimonialSlider .slick-prev {
   left: 45%;
   top: inherit;
-  bottom: -75px;
+  bottom: -60px;
 }
 
 /* Testinomials End */

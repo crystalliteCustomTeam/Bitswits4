@@ -114,19 +114,19 @@ const ConditionalLayout = ({ children }) => {
                                         <NewMobileHeader />
                                         <NewHeaderMbl />
                                     </> :
-                                    pathname == "/bitswits-services-page-2" ? <>
-                                        <NewServiceHeader />
-                                        <NewHeaderMbl />
-                                    </> :
-                                    pathname == "/bitswits-services-page-3" ? <>
-                                        <NewMobileHeader />
-                                        <NewHeaderMbl />
-                                    </> :
-                                        pathname == "/meet-our-team" ? null :
-                                            <>
-                                                <Header />
-                                                <HeaderMbl />
-                                            </>
+                                        pathname == "/bitswits-services-page-2" ? <>
+                                            <NewServiceHeader />
+                                            <NewHeaderMbl />
+                                        </> :
+                                            pathname == "/bitswits-services-page-3" ? <>
+                                                <NewMobileHeader />
+                                                <NewHeaderMbl />
+                                            </> :
+                                                pathname == "/meet-our-team" ? null :
+                                                    <>
+                                                        <Header />
+                                                        <HeaderMbl />
+                                                    </>
             }
             {mouse && <Cursor />}
             {
