@@ -109,11 +109,15 @@ const ConditionalLayout = ({ children }) => {
                                     <NewMobileHeader />
                                     <NewHeaderMbl />
                                 </> :
-                                    pathname == "/meet-our-team" ? null :
-                                        <>
-                                            <Header />
-                                            <HeaderMbl />
-                                        </>
+                                    pathname == "/bitswits-services-page-1" ? <>
+                                        <NewMobileHeader />
+                                        <NewHeaderMbl />
+                                    </> :
+                                        pathname == "/meet-our-team" ? null :
+                                            <>
+                                                <Header />
+                                                <HeaderMbl />
+                                            </>
             }
             {mouse && <Cursor />}
             {
@@ -130,8 +134,8 @@ const ConditionalLayout = ({ children }) => {
                             pathname == "/video-explainer-lp" ? <VideoFooter /> :
                                 pathname == "/lp/mobile-app-development-services" ? <FooterNewLps /> :
                                     pathname == "/meet-our-team" ? null :
-                                    pathname == "/calculator" ? null :
-                                        <Footer />
+                                        pathname == "/calculator" ? null :
+                                            <Footer />
             }
         </>
     )

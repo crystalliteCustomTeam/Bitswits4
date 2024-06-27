@@ -57,9 +57,6 @@ const Technology = (props) => {
                 >
                   Technology Stack
                 </div>
-
-
-
               </div>
             </Col>
 
