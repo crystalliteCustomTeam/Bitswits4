@@ -23,6 +23,7 @@ import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
 import FooterNewLps from "../components/FooterNewLps";
+import NewServiceHeader from "../components/NewServiceHeader/NewServiceHeader";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -110,6 +111,14 @@ const ConditionalLayout = ({ children }) => {
                                     <NewHeaderMbl />
                                 </> :
                                     pathname == "/bitswits-services-page-1" ? <>
+                                        <NewMobileHeader />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-2" ? <>
+                                        <NewServiceHeader />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-3" ? <>
                                         <NewMobileHeader />
                                         <NewHeaderMbl />
                                     </> :

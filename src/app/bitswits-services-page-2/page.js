@@ -74,8 +74,7 @@ const page = () => {
         sections: sections,
     };
     return (
-        <>
-            {/* <Banner /> */}
+        <> 
             <BannerTwo />
             <CaseStudies /> 
             <Acheived />
