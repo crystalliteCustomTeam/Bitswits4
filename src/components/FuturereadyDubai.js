@@ -1,8 +1,10 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Col, Modal, Row } from 'react-bootstrap'
 import styles from "@/styles/futureReadyDubai.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 // Images
 import ios from "media/newmobileapp/ios.png"
 import andriod from "media/newmobileapp/andriod.png"
@@ -22,6 +24,18 @@ const FutureReady = ({ content }) => {
         slidesToScroll: 1,
         speed: 200,
     };
+
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
+
+    function closemodal() {
+        setShow(false);
+    }
+
     return (
         <>
             <section id='services' className={styles.futureSec}>
@@ -58,7 +72,7 @@ const FutureReady = ({ content }) => {
                                             </p>
                                         </div>
                                         <div className={styles.btn}>
-                                            <a href="tel:1 833 500 6007" className='pink'>{item.btn}</a>
+                                            <button onClick={modal} className='pink'>{item.btn}</button>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +93,7 @@ const FutureReady = ({ content }) => {
                                             </p>
                                         </div>
                                         <div className={styles.btn}>
-                                            <a href="tel:1 833 500 6007" className='pink'>{item.btn}</a>
+                                            <button onClick={modal} className='pink'>{item.btn}</button>
                                         </div>
                                     </div>
                                 </div>
@@ -88,6 +102,18 @@ const FutureReady = ({ content }) => {
                     </div>
                 </div>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    {" "}
+                    <Bitswitspopup formsaspire="popquote" />{" "}
+                    <span onClick={closemodal} className={styles.cross}>
+                        {" "}
+                        <RxCross2 />{" "}
+                    </span>{" "}
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     )
 }
