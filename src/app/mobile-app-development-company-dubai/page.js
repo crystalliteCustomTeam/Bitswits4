@@ -2,7 +2,7 @@
 import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
-import NewDubaiAwards from "@/src/components/NewDubaiAwards"; 
+import NewDubaiAwards from "@/src/components/NewDubaiAwards";
 import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
@@ -34,6 +34,7 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dubai.webp";
+import MapImage from "media/newdubai/saudiaArabiaMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -282,12 +283,19 @@ export default function dubaidevelopmentcompany() {
     },
   ];
 
-
+  // Global Conten
+  const global = {
+    address: "",
+    number: "(302) 216-8231",
+    href: "tel:+3022168231",
+    image: MapImage,
+    link: ""
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <FutureReady content={storyLine} /> 
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -391,7 +399,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );
