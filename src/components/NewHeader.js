@@ -66,7 +66,7 @@ import ready from "/public/images/case-studies/case-ready/banner-img.png"
 
 
 const HeaderNewDesign = () => {
- const router = usePathname();
+  const router = usePathname();
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -154,10 +154,23 @@ const HeaderNewDesign = () => {
       setIsHovered3("secImage2");
     }, 1000);
   }, [toggleCloseMeg, router]);
+  // Header Scrolled Start
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 1);
+    };
 
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
-      <header className={styles.headernew}>
+      <header className={`${styles.headernew} ${isScrolled ? styles.bgColor : styles.transparent}`}>
         <div className={styles.logo}>
           <Link href="/">
             <Image alt="bitswits" loading="lazy" src={logo} className="img-fluid" />

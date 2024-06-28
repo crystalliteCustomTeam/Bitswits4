@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation"
 import Link from "next/link";
 import Image from "next/image";
 import { Row, Col, Modal } from "react-bootstrap";
-import styles from "@/styles/NewServiceHeaderTwo/NewServiceHeaderTwo.module.css";
+import styles from "@/styles/NewServiceHeader/NewHeader.module.css";
 //
 import { FaAngleDown } from "react-icons/fa";
 import { RiArrowDropRightLine } from "react-icons/ri";
@@ -12,7 +12,7 @@ import { RxCross2 } from "react-icons/rx";
 import ActiveLink from "@/src/components/ActiveLink";
 import Bitswitspopup from "@/src/components/Bitswitspopup";
 // images
-import logo from "/public/images/icons/footerlogo.webp";
+import logo from "/public/images/icons/logo.png";
 import discount from "/public/headerbits/discount.jpg";
 import cta1 from "/public/headerbits/cta1.png";
 import cta2 from "/public/headerbits/cta2.png";
@@ -65,7 +65,7 @@ import beats from "/public/images/case-studies/case-beats/banner-img.png"
 import ready from "/public/images/case-studies/case-ready/banner-img.png"
 
 
-const NewServiceHeader = () => {
+const NewServiceHeaderTwo = () => {
     const router = usePathname();
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
@@ -190,7 +190,7 @@ const NewServiceHeader = () => {
                             </Link>
                         </div>
                         <li>
-                            <Link href="/" className={styles.post}>
+                            <Link href="/" className={`manrope font-bold ${styles.post}`}>
                                 Home
                             </Link>
                         </li>
@@ -199,7 +199,7 @@ const NewServiceHeader = () => {
                             onMouseLeave={() => fun21("secImage11")}
                             className={styles.product}
                         >
-                            <Link className={styles.post} href="#">
+                            <Link className={`manrope font-bold ${styles.post}`} href="#">
                                 Services
                                 <FaAngleDown />
                             </Link>
@@ -222,7 +222,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Mobile App <br /> Development
                                                                 </h4>
                                                                 <Image
@@ -241,7 +241,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Game <br /> Development
                                                                 </h4>
                                                                 <Image
@@ -262,7 +262,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Blockchain <br /> Development{" "}
                                                                 </h4>
                                                                 <Image
@@ -281,7 +281,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Artificial <br /> Intelligence (Ai){" "}
                                                                 </h4>
                                                                 <Image
@@ -302,7 +302,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Web App <br /> Development
                                                                 </h4>
                                                                 <Image
@@ -321,7 +321,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Business <br /> Intelligence{" "}
                                                                 </h4>
                                                                 <Image
@@ -342,7 +342,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     Web <br /> Development
                                                                 </h4>
                                                                 <Image
@@ -361,7 +361,7 @@ const NewServiceHeader = () => {
                                                             href="#"
                                                         >
                                                             <div className={styles.polo}>
-                                                                <h4>
+                                                                <h4 className="manrope">
                                                                     UI/UX App <br /> Design{" "}
                                                                 </h4>
                                                                 <Image
@@ -1054,7 +1054,7 @@ const NewServiceHeader = () => {
                                                     </a>
                                                 </div>
                                                 <div className={styles.proper}>
-                                                    <h4>Development Excellence with Bitswits</h4>
+                                                    <h4 className="manrope">Development Excellence with Bitswits</h4>
                                                     <h3>
                                                         On Time, Within Budget
                                                     </h3>
@@ -1112,7 +1112,7 @@ const NewServiceHeader = () => {
                             onMouseLeave={() => funwork2("secImage2")}
                             className={styles.product}
                         >
-                            <Link href="#" className={styles.post}>
+                            <Link href="#" className={`manrope font-bold ${styles.post}`}>
                                 OUR WORK
                                 <FaAngleDown />
                             </Link>
@@ -1126,7 +1126,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab1")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>FITNESS APP</h4>
+                                                    <h4 className="manrope">FITNESS APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={fitnowimg}
@@ -1140,7 +1140,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab2")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>ECOMMERCE APP</h4>
+                                                    <h4 className="manrope">ECOMMERCE APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={ecommerceimg}
@@ -1154,7 +1154,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab3")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>SOCIAL MEDIA APP</h4>
+                                                    <h4 className="manrope">SOCIAL MEDIA APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={scribeimg}
@@ -1168,7 +1168,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab4")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>HIRING APP</h4>
+                                                    <h4 className="manrope">HIRING APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={readyappimg}
@@ -1182,7 +1182,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab5")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>AUTOMOBILE REPAIR APP</h4>
+                                                    <h4 className="manrope">AUTOMOBILE REPAIR APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={greepeimg}
@@ -1196,7 +1196,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab6")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>FOOD DELIVERY APP</h4>
+                                                    <h4 className="manrope">FOOD DELIVERY APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={cruveimg}
@@ -1210,7 +1210,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab7")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>MUSIC APP</h4>
+                                                    <h4 className="manrope">MUSIC APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={beatsimg}
@@ -1224,7 +1224,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab8")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>TRAVEL APP</h4>
+                                                    <h4 className="manrope">TRAVEL APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={travelimg}
@@ -1238,7 +1238,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab9")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>INFLUENCER MARKETING APP</h4>
+                                                    <h4 className="manrope">INFLUENCER MARKETING APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={sponserdimg}
@@ -1252,7 +1252,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab10")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>REAL ESTATE APP</h4>
+                                                    <h4 className="manrope">REAL ESTATE APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={realestateimgg}
@@ -1266,7 +1266,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab11")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>HANDYMAN APP</h4>
+                                                    <h4 className="manrope">HANDYMAN APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={homeconnctimg}
@@ -1280,7 +1280,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab12")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>HEALTH CARE APP</h4>
+                                                    <h4 className="manrope">HEALTH CARE APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={healthimg}
@@ -1294,7 +1294,7 @@ const NewServiceHeader = () => {
                                                 onClick={() => fun2("tab13")}
                                                 href="#">
                                                 <div className={styles.polo1}>
-                                                    <h4>RIDE APP</h4>
+                                                    <h4 className="manrope">RIDE APP</h4>
                                                     <Image
                                                         alt="bitswits"
                                                         src={riderimg}
@@ -1514,7 +1514,7 @@ const NewServiceHeader = () => {
                                                     </a>
                                                 </div>
                                                 <div className={styles.proper}>
-                                                    <h4>Crafting Success with Bitswits</h4>
+                                                    <h4 className="manrope">Crafting Success with Bitswits</h4>
                                                     <h3>
                                                         Your Vision, Our Expertise
                                                     </h3>
@@ -1569,19 +1569,18 @@ const NewServiceHeader = () => {
                                 ""
                             )}
                         </li>
-
                         <li>
-                            <Link href="/about-us" className={styles.post}>
+                            <Link href="/about-us" className={`manrope font-bold ${styles.post}`}>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact-us" className={styles.post}>
+                            <Link href="/contact-us" className={`manrope font-bold ${styles.post}`}>
                                 Contact
                             </Link>
                         </li>
                         <li onClick={modal}>
-                            <Link className={`${styles.post} ${styles.quote}`} href="#">
+                            <Link className={`${`manrope font-bold ${styles.post}`} ${styles.quote}`} href="#">
                                 GET A QUOTE
                             </Link>
                         </li>
@@ -1604,15 +1603,12 @@ const NewServiceHeader = () => {
                         ></span>
                     </div>
                 </nav>
-
                 <Modal show={show} onHide={closemodal} className={styles.modalnew}>
                     <Modal.Body>
-                        {" "}
-                        <Bitswitspopup formsaspire="popquote" />{" "}
+                        <Bitswitspopup formsaspire="popquote" />
                         <span onClick={closemodal} className={styles.cross}>
-                            {" "}
-                            <RxCross2 />{" "}
-                        </span>{" "}
+                            <RxCross2 />
+                        </span>
                     </Modal.Body>
                 </Modal>
             </header>
@@ -1620,4 +1616,4 @@ const NewServiceHeader = () => {
     );
 };
 
-export default NewServiceHeader;
+export default NewServiceHeaderTwo;

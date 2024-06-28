@@ -7,7 +7,7 @@ import Header from "../components/NewHeader";
 import HeaderMbl from "../components/HeaderMbl";
 import Headerlp from "../components/Headerlp";
 import Headerlphome from "../components/Headerlphome";
-import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
+import NewServiceHeader from "../components/NewServiceHeader/NewServiceHeader";
 import NewHeaderMbl from "../components/NewMobileApp/NewHeaderMbl/NewHeaderMbl";
 import VideoHeader from "../components/video-explainer/Header/Header";
 import EcommerceBanner from "../components/EcommerceBanner";
@@ -23,7 +23,8 @@ import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 import MetaData from "../components/MetaData";
 import FooterNewLps from "../components/FooterNewLps";
-import NewServiceHeader from "../components/NewServiceHeader/NewServiceHeader";
+import NewServiceHeaderTwo from "../components/servicePage/NewServiceHeaderTwo/NewServiceHeaderTwo";
+import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -111,15 +112,15 @@ const ConditionalLayout = ({ children }) => {
                                     <NewHeaderMbl />
                                 </> :
                                     pathname == "/bitswits-services-page-1" ? <>
-                                        <NewMobileHeader />
+                                        <NewServiceHeaderTwo />
                                         <NewHeaderMbl />
                                     </> :
                                         pathname == "/bitswits-services-page-2" ? <>
                                             <NewServiceHeader />
-                                            <NewHeaderMbl />
+                                            <HeaderMbl />
                                         </> :
                                             pathname == "/bitswits-services-page-3" ? <>
-                                                <NewMobileHeader />
+                                                <NewServiceHeaderTwo />
                                                 <NewHeaderMbl />
                                             </> :
                                                 pathname == "/meet-our-team" ? null :
