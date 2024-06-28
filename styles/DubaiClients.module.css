@@ -15,7 +15,7 @@
   color: #f32f53;
 }
 
-.clientSec p {
+.clientSec .txt p {
   color: black;
   font-size: 17px;
   line-height: 26px;
@@ -58,7 +58,7 @@
   transition: all ease-in-out 0.4s;
 }
 
-.card:hover .cardTop h6,
+.card:hover .cardTop p,
 .card:hover .cardTop p,
 .card:hover .cardBottom p {
   color: white;
@@ -80,17 +80,18 @@
   padding: 0 20px 20px;
 }
 
-.cardTop h6 {
+.cardTop p {
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
-.cardTop p {
+/* .cardTop p {
   font-size: 16px;
   line-height: 26px;
   color: black;
   padding-left: 10px;
-}
+} */
 
 .cardTop span {
   font-size: 12px;
@@ -152,7 +153,7 @@
     font-size: 13px;
   }
 
-  .cardTop h6 {
+  .cardTop p {
     font-size: 15px;
     margin-bottom: 0;
   }
@@ -195,7 +196,7 @@
     text-align: justify !important;
   }
 
-  .clientSec p {
+  .clientSec .txt p {
     font-size: 16px;
     line-height: 24px;
     height: 100%;

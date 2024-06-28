@@ -60,6 +60,7 @@ export default function dubaidevelopmentcompany() {
     {
       question: 'iPhone App Development in Miami',
       answer: "Delivering robust iOS app development services in Miami that stand out in the competitive market prioritizing user needs from navigation to layout. We conduct thorough tests to ensure compatibility-driven app solutions that offer high responsiveness across various iPhone devices and iOS versions. At BitsWits, whether you require crafting a new iPhone app from the ground up or enhancing an existing product, we specialize in delivering solutions that are both highly encrypted and accessible.",
+      btn: "Let’s Build Your IOS App!",
       StoryLineImg: StoryLine3
     },
     {

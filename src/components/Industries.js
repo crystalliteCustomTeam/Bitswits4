@@ -91,6 +91,7 @@ const Industries = () => {
     };
 
     var industriesSlider = {
+        infinite: false,
         arrows: true,
         dots: false,
         autoplay: false,

@@ -353,7 +353,7 @@ export default function dubaidevelopmentcompany() {
     number: "(833) 500-6007",
     href: "tel:+8335006007",  
     image: MapImage,
-    link: "https://goo.gl/maps/JxwLW37aq8F43imv9"
+    link: ""
   }
 
   return (

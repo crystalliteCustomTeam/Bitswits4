@@ -1,29 +1,11 @@
 import React, { useState } from 'react'
 import { Col, Modal, Row } from 'react-bootstrap'
 import styles from "@/styles/futureReadyDubai.module.css"
-import Image from 'next/image'
-import Link from 'next/link'
 import Bitswitspopup from "../components/Bitswitspopup";
 import { RxCross2 } from "react-icons/rx";
-// Images
-import ios from "media/newmobileapp/ios.png"
-import andriod from "media/newmobileapp/andriod.png"
-import native from "media/newmobileapp/native.png"
-import flutter from "media/newmobileapp/flutter.png"
-import cross from "media/newmobileapp/cross.png"
-import webdevelopment from "media/newmobileapp/webdevelopment.png"
-import Slider from 'react-slick'
 
 const FutureReady = ({ content }) => {
     const { subtitle, title, para, subPara, accordionData } = content;
-
-    var FutureSlider = {
-        arrows: false,
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        speed: 200,
-    };
 
     // Modal 
     const [show, setShow] = useState(false);
@@ -58,18 +40,20 @@ const FutureReady = ({ content }) => {
                             </div>
                         </Col>
                     </Row>
-                    <div className='d-md-block d-none mt-5'>
+                    <div className='mt-md-5'>
                         <div className={styles.cardsRow}>
                             {accordionData.map((item, index) => (
                                 <div key={index} className={`${styles.cardMain} p-2`}>
                                     <div className={`${styles.iosCard} ${styles.card}`}>
-                                        <div className={styles.cardTop}>
-                                            <h3>{item.question}</h3>
-                                        </div>
-                                        <div className="cardContent">
-                                            <p>
-                                                {item.answer}
-                                            </p>
+                                        <div className='txt'>
+                                            <div className={styles.cardTop}>
+                                                <h3>{item.question}</h3>
+                                            </div>
+                                            <div className="cardContent">
+                                                <p>
+                                                    {item.answer}
+                                                </p>
+                                            </div>
                                         </div>
                                         <div className={styles.btn}>
                                             <button onClick={modal} className='pink'>{item.btn}</button>
@@ -78,27 +62,6 @@ const FutureReady = ({ content }) => {
                                 </div>
                             ))}
                         </div>
-                    </div>
-                    <div className='d-md-none d-block'>
-                        <Slider {...FutureSlider} className='futureSlider'>
-                            {accordionData.map((item, index) => (
-                                <div key={index} className={`${styles.cardMain} p-2`}>
-                                    <div className={`${styles.iosCard} ${styles.card}`}>
-                                        <div className={styles.cardTop}>
-                                            <h3>{item.question}</h3>
-                                        </div>
-                                        <div className="cardContent">
-                                            <p>
-                                                {item.answer}
-                                            </p>
-                                        </div>
-                                        <div className={styles.btn}>
-                                            <button onClick={modal} className='pink'>{item.btn}</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </Slider>
                     </div>
                 </div>
             </section>

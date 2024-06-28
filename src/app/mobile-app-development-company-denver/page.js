@@ -182,7 +182,7 @@ export default function dubaidevelopmentcompany() {
     number: "(302) 216-8231",
     href: "tel:+3022168231",
     image: MapImage,
-    link: "https://maps.app.goo.gl/1Q2vCzWWkYDE4Ctq6"
+    link: ""
   }
   return (
     <>

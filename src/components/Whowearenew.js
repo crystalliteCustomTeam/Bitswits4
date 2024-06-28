@@ -84,22 +84,16 @@ const Whowearenew = ({ content }) => {
                                 </div>
                                 <div className={styles.counter}>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">500K</p><span>+</span>
-                                        </h4>
-                                        <span>Installs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">500K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>Installs</span>
                                     </div>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">100K</p><span>+</span>
-                                        </h4>
-                                        <span>MAUs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">100K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">300</p><span>%</span>
-                                        </h4>
-                                        <span>ROI</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">300</p><span className={styles.symbols}>%</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>ROI</span>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +101,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban2} loading='lazy' sizes="100vw"  className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban2} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel2}`}>
@@ -124,22 +118,16 @@ const Whowearenew = ({ content }) => {
                                 </div>
                                 <div className={styles.counter}>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">300K</p><span>+</span>
-                                        </h4>
-                                        <span>Installs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">300K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>Installs</span>
                                     </div>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">50K</p><span>+</span>
-                                        </h4>
-                                        <span>MAUs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">50K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">250</p><span>%</span>
-                                        </h4>
-                                        <span>ROI</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">250</p><span className={styles.symbols}>%</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>ROI</span>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +135,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban3} loading='lazy' sizes="100vw"  className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban3} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel3}`}>
@@ -164,22 +152,16 @@ const Whowearenew = ({ content }) => {
                                 </div>
                                 <div className={styles.counter}>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">200K</p><span>+</span>
-                                        </h4>
-                                        <span>Installs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">200K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>Installs</span>
                                     </div>
                                     <div>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">70K</p><span>+</span>
-                                        </h4>
-                                        <span>MAUs</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">70K</p><span className={styles.symbols}>+</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>MAUs</span>
                                     </div>
                                     <div className={styles.lastCount}>
-                                        <h4>
-                                            <p className='mb-0 d-inline counter' data-speed="5">400</p><span>%</span>
-                                        </h4>
-                                        <span>ROI</span>
+                                        <p className='mb-0 d-inline counter' data-speed="5">400</p><span className={styles.symbols}>%</span>
+                                        <span className={`d-block ${styles.txtSpan}`}>ROI</span>
                                     </div>
                                 </div>
                             </div>

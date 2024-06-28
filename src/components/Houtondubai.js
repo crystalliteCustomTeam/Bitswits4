@@ -111,7 +111,7 @@ const NewHouston = ({ content }) => {
                                                 {menus.map((menu, index) => (
                                                     <li key={index} className={`d-flex ${visibleSection === `0${index + 1}` ? styles.active : ""}`}>
                                                         <a href={`#0${index + 1}`} onClick={() => setSelectedSection(index + 1)} className="d-flex align-items-center">
-                                                            <span className={`pe-4 d-none`}>0{index + 1}</span>
+                                                            {/* <span className={`pe-4 d-none`}>0{index + 1}</span> */}
                                                             <span className={styles.menusHeading}>{menu}</span>
                                                         </a>
                                                     </li>

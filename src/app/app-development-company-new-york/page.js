@@ -34,7 +34,7 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dubai.webp";
-import MapImage from "media/newdubai/map1.png"
+import MapImage from "media/newdubai/newYorkMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content

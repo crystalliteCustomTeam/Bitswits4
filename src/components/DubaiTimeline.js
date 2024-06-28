@@ -11,33 +11,18 @@ import TimelineFour from "/public/newDubaiPagev1/timeline4.png"
 import TimelineFive from "/public/newDubaiPagev1/timeline5.png"
 
 const DubaiTimeline = ({ content }) => {
-    const { subtitle, title, desc, isSubtitle, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, classSec } = content
+    const { subtitle, title, desc, isSubtitle, heading1, heading2, heading3, heading4, heading5, para1, para2, para3, para4, para5, classSec, isMobile } = content
 
     return (
         <>
             <section className={`${styles.timelineSec} ${styles[classSec]}`}>
                 <div className='container'>
-                    <Row>
-                        <Col lg={12}>
-                            <div className={`${styles.timelineContent} d-block d-lg-none`}>
-                                {isSubtitle ?
-                                    <h4 className={`${styles.redPara} fontsfregular`}>
-                                        {subtitle}
-                                    </h4> :
-                                    <h4 className={`${styles.redPara} fontsfregular`}>
-                                        Our Process
-                                    </h4>}
-                                <h2>{title}</h2>
-                                <p className='fontsfregular '>
-                                    {desc}
-                                </p>
-                            </div>
-                        </Col>
+                    <Row> 
                         <Col lg={12}>
                             <div className=''>
                                 <div className={styles.timelineMain}>
                                     <div className={`${styles.timeline} ${styles.timeOne} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
-                                        <div className={`${styles.timelineContent} ${styles.paddingTwo} d-none d-lg-block`}>
+                                        <div className={`${styles.timelineContent} ${styles.paddingTwo}`}>
                                             {isSubtitle ?
                                                 <h4 className={`${styles.redPara} fontsfregular`}>
                                                     {subtitle}
@@ -68,7 +53,7 @@ const DubaiTimeline = ({ content }) => {
                                             </p>
                                         </div>
                                         <div className={`d-lg-block d-none ${styles.numberTwo}`}></div>
-                                        <div className={`d-lg-none d-block ${styles.numberTwoMobile}`}></div>
+                                        <div className={` ${styles.numberTwoMobile}`}></div>
                                         <div className={styles.numberOne}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo}`}>
                                             <Image src={TimelineTwo} alt='Bitswits' loading="lazy" sizes="100vw" width={184} height={100} />
@@ -88,7 +73,7 @@ const DubaiTimeline = ({ content }) => {
                                         </div>
                                         <div className={styles.numberThree}></div>
                                         <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
-                                        <div className={`d-lg-none d-block ${styles.numberFourMobile}`}></div>
+                                        <div className={` ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
                                             <Image src={TimelineFive} loading="lazy" sizes="100vw" width={207} height={202} alt='Bitswits' />
                                             <h3 className=''>{heading5}</h3>
