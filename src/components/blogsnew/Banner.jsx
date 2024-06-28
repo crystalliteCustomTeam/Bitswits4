@@ -18,7 +18,7 @@ const Banner = () => {
                             <div className={styles.form}>
                                 <form action="javascript:;">
                                     <input type="email" name='email' placeholder='Enter Your Email Address' className='fontsfregular' />
-                                    <button type='submit' className='fontsfregular'>Subscribe</button>
+                                    <button type='submit' className='fontsfregular bitsForm'>Subscribe</button>
                                 </form>
                             </div>
                         </Col>

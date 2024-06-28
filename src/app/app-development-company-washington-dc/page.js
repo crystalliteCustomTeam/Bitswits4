@@ -34,6 +34,7 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/washington.webp";
+import MapImage from "media/newdubai/washingtonDCMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -346,7 +347,14 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
+  // Global Content
+  const global = {
+    address: "",
+    number: "(833) 500-6007",
+    href: "tel:+8335006007",  
+    image: MapImage,
+    link: "https://goo.gl/maps/JxwLW37aq8F43imv9"
+  }
 
   return (
     <>
@@ -481,7 +489,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

@@ -193,7 +193,7 @@ const NewAddress = () => {
                                     <Col lg={5} className='d-none d-lg-block demono2'>
                                         <div>
                                             <textarea name='message' className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                            <input type='Submit' value={score} className={styles.notice} />
+                                            <input type='Submit' value={score} className={`bitsForm ${styles.notice}`} />
                                         </div>
                                     </Col>
                                     <Col lg={2} className='d-none d-lg-block newfire'>

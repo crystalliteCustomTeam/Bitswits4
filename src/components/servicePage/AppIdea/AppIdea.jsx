@@ -44,7 +44,7 @@ const AppIdea = () => {
                                             </div>
                                         </Col>
                                         <Col lg={12}>
-                                            <button type='submit' className='manrope'>
+                                            <button type='submit' className='manrope bitsForm'>
                                                 Get Free Consultation
                                             </button>
                                         </Col>

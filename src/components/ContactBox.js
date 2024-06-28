@@ -281,7 +281,7 @@ const ContactBox = () => {
                                         <Col>
                                             <div className={styles.notic}>
                                                 <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='newfycolr' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
-                                                <button value={score} id="savebtns" type="submit" className={styles.bttns1}>{score}</button>
+                                                <button value={score} id="savebtns" type="submit" className={`bitsForm ${styles.bttns1}`}>{score}</button>
                                             </div>
                                         </Col>
                                     </Row>

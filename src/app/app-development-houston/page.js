@@ -18,6 +18,8 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
+import MapImage from "media/newdubai/houstonMap.png"
+
 //Images 
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
@@ -216,6 +218,14 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
+  // Global Conten
+  const global = {
+    address: "2800 Post Oak Blvd STE 4100, Houston, TX 77056",
+    number: "(833) 500-6007",
+    href: "tel:+8335006007",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/L5Df9XfyFv3z7VzYA"
+  }
 
   return (
     <>
@@ -334,7 +344,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

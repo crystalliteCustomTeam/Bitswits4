@@ -270,7 +270,7 @@ function Banners() {
                                     <input className='form-control' type="email" name='email' placeholder="Type Your Email" required />
                                 </Col>
                                 <Col lg={3} className="pt-4 mt-2">
-                                    <button className={style.btnprimary}>{score}</button>
+                                    <button className={`bitsForm ${style.btnprimary}`}>{score}</button>
                                 </Col>
                             </Row>
                         </form>

@@ -174,7 +174,7 @@ const Bannerdubai = (props) => {
                                 <textarea placeholder='Description' name='comment' className='form-control mt-2'></textarea>
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
-                                <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
+                                <input type='submit' value={score} name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input>
                             </form>
                         </Col>
                     </Row>

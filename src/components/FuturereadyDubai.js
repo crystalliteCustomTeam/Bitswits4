@@ -105,12 +105,10 @@ const FutureReady = ({ content }) => {
             {/* Modal Start*/}
             <Modal show={show} onHide={closemodal} className={styles.modalnew}>
                 <Modal.Body>
-                    {" "}
-                    <Bitswitspopup formsaspire="popquote" />{" "}
+                    <Bitswitspopup formsaspire="popquote" />
                     <span onClick={closemodal} className={styles.cross}>
-                        {" "}
-                        <RxCross2 />{" "}
-                    </span>{" "}
+                        <RxCross2 />
+                    </span>
                 </Modal.Body>
             </Modal>
             {/* Modal Start*/}

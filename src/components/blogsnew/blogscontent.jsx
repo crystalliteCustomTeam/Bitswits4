@@ -138,7 +138,7 @@ const blogscontent = () => {
                                                     <div className={styles.form}>
                                                         <form action="javascript:;">
                                                             <input type="email" name='email' placeholder='Enter Your Email' className='fontsfregular' />
-                                                            <button type='submit' className='fontsfregular'>Subscribe</button>
+                                                            <button type='submit' className='fontsfregular bitsForm'>Subscribe</button>
                                                         </form>
                                                     </div>
                                                     <p className='fontsfregular text-start pt-4'>By Entering Your Email, You Are Agreeing To Our Privacy <a href='javascript:;' className='text-white'>Policy.</a></p>

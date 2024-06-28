@@ -308,7 +308,7 @@ const EcommerceBanner = () => {
                                 <textarea rows={5} required name='comment' placeholder='Please include any notes or specific questions here'></textarea>
                                 <div className='d-flex align-items-center justify-content-between pt-3'>
                                     <span className='text-white font-medium font11'>We takes your privacy seriously. Read our <Link href="javascript:;" className='text-white d-block font-bold'>Privacy Notice.</Link> </span>
-                                    <Button value={score} type='submit' className={`text-white bg-black rounded-2 ${styles.secBtn}`}>{score}</Button>
+                                    <Button value={score} type='submit' className={`text-white bitsForm bg-black rounded-2 ${styles.secBtn}`}>{score}</Button>
                                 </div>
                                 <h5 className='text-white font-bold font-28 text-center mt-4 mb-4'>OUR OFFICES</h5>
                                 <Row>

@@ -55,7 +55,7 @@ function HomeBanner() {
                                 <Row className='px-4'>
                                     <Col lg={12} className=" mt-4">
 
-                                        <button className={style.btnprimary}>Submit</button>
+                                        <button className={`bitsForm ${style.btnprimary}`}>Submit</button>
 
                                     </Col>
                                 </Row>

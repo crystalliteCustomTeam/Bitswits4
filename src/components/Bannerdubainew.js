@@ -225,8 +225,8 @@ const Bannerdubai = ({ content }) => {
                                 <textarea placeholder='Description' name='comment' className='form-control mt-3'></textarea>
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
-                                {/* <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input> */}
-                                <button className={`pink ${styles.value}`} type='submit'>
+                                {/* <input type='submit' value={score} name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input> */}
+                                <button className={`pink ${styles.value} bitsForm`} type='submit'>
                                     Submit
                                 </button>
                             </form>
@@ -237,12 +237,10 @@ const Bannerdubai = ({ content }) => {
             {/* Modal Start*/}
             <Modal show={show} onHide={closemodal} className={styles.modalnew}>
                 <Modal.Body>
-                    {" "}
-                    <Bitswitspopup formsaspire="popquote" />{" "}
+                    <Bitswitspopup formsaspire="popquote" />
                     <span onClick={closemodal} className={styles.cross}>
-                        {" "}
-                        <RxCross2 />{" "}
-                    </span>{" "}
+                        <RxCross2 />
+                    </span>
                 </Modal.Body>
             </Modal>
             {/* Modal Start*/}

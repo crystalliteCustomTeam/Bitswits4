@@ -15,7 +15,6 @@ const LpForm = (props) => {
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
                                         <h4 className='letterspaceblock text-white font-bold mb-3'>Turn Your App Idea Into An App </h4>
-
                                     </div>
                                     <Row>
                                         <Col lg={3}>
@@ -35,7 +34,7 @@ const LpForm = (props) => {
                                         </Col>
                                         <Col lg={3}>
                                             <div>
-                                                <Link className={`${styles.book}`} href="#">Submit</Link>
+                                                <button className={`${styles.book} bitsForm`}>Submit</button>
                                             </div>
                                         </Col>
                                     </Row>

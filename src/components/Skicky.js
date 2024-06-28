@@ -207,12 +207,10 @@ const Skicky = () => {
                     <div className="wrapper">
                         <span className="close" onClick={() => loc()}>
                             {isHovered ?
-
                                 <BsX />
                                 :
                                 'Get In Touch'
                             }
-
                         </span>
                         <form id="leadPopupForm" onSubmit={handleSubmit} className="popup-form" data-hs-cf-bound="true">
                             <div className="inputGroup">
@@ -230,7 +228,7 @@ const Skicky = () => {
                             <div className="inputGroup">
                                 <textarea name='comment' required placeholder="Let Us know Time And Date To Call You."></textarea>
                             </div>
-                            <button id="btntrack" value={score} type="submit">{score}</button>
+                            <button id="btntrack" value={score} type="submit" className='bitsForm'>{score}</button>
                         </form>
                     </div>
                 </div>

@@ -73,7 +73,7 @@ const Banner = () => {
                                     <div className="relative">
                                         <textarea name='message' type="text" placeholder='Message' required ></textarea>
                                     </div>
-                                    <button>Get a free quote</button>
+                                    <button className='bitsForm'>Get a free quote</button>
                                 </div>
                                 <div className={`form_partical ${styles.discountbg}`}>
                                     <h6 className={`${styles.headingParticle}`}>Special Offer</h6>

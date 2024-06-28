@@ -1,6 +1,8 @@
 "use client"
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Modal, Row } from "react-bootstrap";
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 import styles from "@/styles/Houtondubai.module.css";
 
 const Section = ({ section, refCallback }) => {
@@ -70,6 +72,16 @@ const NewHouston = ({ content }) => {
         document.getElementById(`0${index}`).scrollIntoView({ behavior: "smooth" });
     };
 
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
+
+    function closemodal() {
+        setShow(false);
+    }
     return (
         <>
             <section className={`${styles.houston}`}>
@@ -107,9 +119,9 @@ const NewHouston = ({ content }) => {
                                             </ul>
                                         </nav>
                                         <div className={styles.btn}>
-                                            <a href="javascript:$zopim.livechat.window.show();" className="pink">
+                                            <button onClick={modal} className="pink">
                                                 Book A Consultation Now!
-                                            </a>
+                                            </button>
                                         </div>
                                     </div>
                                 </>
@@ -125,6 +137,16 @@ const NewHouston = ({ content }) => {
                     </Row>
                 </div>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    <Bitswitspopup formsaspire="popquote" />
+                    <span onClick={closemodal} className={styles.cross}>
+                        <RxCross2 />
+                    </span>
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     )
 }

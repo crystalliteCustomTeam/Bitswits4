@@ -173,7 +173,7 @@ const Freequote = (props) => {
 
           <label className={styles.label}>Message *</label>
           <textarea className={styles.formfree} required name="message" rows="2" placeholder="Type Your Message Here"></textarea>
-          <button className={styles.freebtn} type="submit">{score} </button>
+          <button className={`bitsForm ${styles.freebtn}`} type="submit">{score} </button>
         </form>
 
         {props.show ?

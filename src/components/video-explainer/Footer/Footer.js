@@ -198,7 +198,7 @@ const VideoFooter = () => {
                                         </Col>
                                     </Row>
                                     <div className={`${styles.btn} mt-3`}>
-                                        <button type='submit' onClick={handleFormSubmit} disabled={isDisabled}>
+                                        <button type='submit' onClick={handleFormSubmit} disabled={isDisabled} className='bitsForm'>
                                             {formStatus}
                                         </button>
                                     </div>

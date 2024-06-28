@@ -9,7 +9,7 @@ const Form = (props) => {
                 <input className={style.formControl} type="text" placeholder="Phone Number" required />
                 <input className={style.formControl} type="email" placeholder="Email" required />
                 <textarea type="textarea" className={style.formControl} placeholder="Message"  ></textarea>
-                <button className={style.btnprimary}>Submit</button>
+                <button className={`bitsForm ${style.btnprimary}`}>Submit</button>
             </form>
         </>
     )

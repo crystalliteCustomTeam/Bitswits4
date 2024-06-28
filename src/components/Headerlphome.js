@@ -253,7 +253,7 @@ const Headerlphome = () => {
                                                     <textarea type="text" id="message" name="comment" placeholder="Comment" className="form-control" required></textarea>
                                                 </div>
                                                 <div className="form-group  col-xl-4 col-lg-4  ">
-                                                    <button value={score} type="submit" name="saves1" id="butact2" className="">{score}</button>
+                                                    <button value={score} type="submit" name="saves1" id="butact2" className="bitsForm">{score}</button>
                                                 </div>
                                             </div>
                                         </form>

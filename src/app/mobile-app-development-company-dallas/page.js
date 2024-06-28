@@ -18,6 +18,7 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
+import MapImage from "media/newdubai/dallasMap.png"
 //Images 
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
@@ -294,7 +295,14 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
+  // Global Conten
+  const global = {
+    address: "1341 W Mockingbird Ln, Dallas, TX 75247",
+    number: "(302) 216-8231",
+    href: "tel:+3022168231",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/Koam3m3q4DXPCDg49"
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
@@ -382,7 +390,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

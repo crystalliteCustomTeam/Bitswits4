@@ -24,7 +24,7 @@ const Discuss = () => {
                                     <input type="number" placeholder='Phone Number' className='manrope' />
                                 </div>
                                 <div className={`${styles.mainDiv} button`}>
-                                    <button className='manrope'>Submit</button>
+                                    <button className='manrope bitsForm'>Submit</button>
                                 </div>
                             </form>
                         </div>

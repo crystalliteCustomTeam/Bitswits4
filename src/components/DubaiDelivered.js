@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image';
 import { animate, motion } from "framer-motion";
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Modal } from 'react-bootstrap'
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 import styles from "@/styles/DubaiDelivered.module.css"
 // Images
 import ParticleOne from "/public/newDubaiPagev1/particale-1.png"
@@ -11,7 +13,6 @@ import ParticleFour from "/public/newDubaiPagev1/particale-4.png"
 
 const DubaiDelivered = ({ content }) => {
     const { title, desc, btntext } = content;
-
     const variantOne = {
         initial: {
             x: "-75%",
@@ -76,7 +77,16 @@ const DubaiDelivered = ({ content }) => {
             }
         },
     };
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
 
+    function closemodal() {
+        setShow(false);
+    }
     return (
         <>
             <section className={styles.DubaiDelivered}>
@@ -109,15 +119,25 @@ const DubaiDelivered = ({ content }) => {
                                     {desc}
                                 </p>
                                 <div className={styles.btn}>
-                                    <a href='javascript:$zopim.livechat.window.show();' className='pink'>
+                                    <button onClick={modal} className='pink'>
                                         {btntext}
-                                    </a>
+                                    </button>
                                 </div>
                             </motion.div>
                         </Col>
                     </Row>
                 </div>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    <Bitswitspopup formsaspire="popquote" />
+                    <span onClick={closemodal} className={styles.cross}>
+                        <RxCross2 />
+                    </span>
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     )
 }

@@ -211,11 +211,9 @@ const Footer = () => {
                                 </li>
                             </Link>
                         </ul>
-
                         <form className='d-flex justify-content-center align-items-center'>
                             <PhoneInput country='us' regions={['america', 'carribean']} />
-
-                            <button className='btn btn-primary d-inline formBtn'>Submit</button>
+                            <button className='btn btn-primary d-inline formBtn bitsForm'>Submit</button>
                         </form>
 
                         <div className={style.social}>

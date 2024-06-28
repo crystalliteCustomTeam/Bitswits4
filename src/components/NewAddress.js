@@ -181,7 +181,7 @@ const NewAddress = (props) => {
                                         <Col lg={6} className='d-none d-lg-block'>
                                             <div>
                                                 <textarea name='comment1' required className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                                <input type='Submit' value={score} className={styles.notice} />
+                                                <input type='Submit' value={score} className={`bitsForm ${styles.notice}`} />
                                             </div>
                                         </Col>
                                     </Row>

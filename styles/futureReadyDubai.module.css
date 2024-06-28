@@ -188,7 +188,7 @@
     width: max-content;
 }
 
-.btn a {
+.btn button {
     font-size: 12px;
     font-weight: 300;
     line-height: 16px;
@@ -201,6 +201,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0;
 }
 
 .card:hover .btn a {

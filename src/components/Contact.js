@@ -318,7 +318,7 @@ const Contact = (props) => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className='mb-5'>
-                                                <button type="submit" id="submit" data-wait="Booking the Call " className={styles.btns}>{score}</button>
+                                                <button type="submit" id="submit" data-wait="Booking the Call " className={`bitsForm ${styles.btns}`}>{score}</button>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
