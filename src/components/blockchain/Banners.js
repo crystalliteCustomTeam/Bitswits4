@@ -50,6 +50,7 @@ function Banners() {
             last: 'null',
             email: e.target.email.value,
             phone: e.target.phone.value,
+            comment: 'null',
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
