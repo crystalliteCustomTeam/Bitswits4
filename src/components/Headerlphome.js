@@ -71,7 +71,7 @@ const Headerlphome = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        fetch('/api/emailapi/', {
+        fetch('/api/formapi/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',

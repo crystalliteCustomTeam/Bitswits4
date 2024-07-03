@@ -75,7 +75,6 @@ const Appmaking = () => {
         ],
     };
 
-
     return (
         <>
             <section className={styles.appmaking} id='technofair'>
@@ -184,7 +183,6 @@ const Appmaking = () => {
                             </>
                         }
                     </Row>
-
                 </Container>
                 <div className={styles.post}></div>
             </section>

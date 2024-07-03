@@ -85,7 +85,7 @@ const Ecommerce = () => {
   return (
     <>
       {/* <EcommerceBanner /> */}
-      <section>
+      <section className="overflow-hidden">
         <div className={`${styles.awardsFold}`}>
           <div className="container-fluid px-0">
             <div className="row align-items-center">
