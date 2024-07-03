@@ -56,7 +56,6 @@ const BrandDuplicate = (props) => {
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
-            checkboxesdata: checkboxes,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -65,7 +64,7 @@ const BrandDuplicate = (props) => {
         setScore('Sending Data');
 
         // First API call to your server
-        fetch('/api/emailapidubai/', {
+        fetch('/api/formapi/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',

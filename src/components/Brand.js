@@ -10,7 +10,6 @@ import free from "@/public/newdubai/free.png";
 const Brand = (props) => {
   const [ip, setIP] = useState('');
   const [pagenewurl, setPagenewurl] = useState('');
-  const [checkboxes, setCheckboxes] = useState([]);
 
   // Creating function to load IP address from the API
   const getIPData = async () => {
@@ -27,15 +26,6 @@ const Brand = (props) => {
     setPagenewurl(window.location.href);
   }, []);
 
-  const handleOptionChange3 = (e) => {
-    const { value, checked } = e.target;
-    if (checked) {
-      setCheckboxes([...checkboxes, value]);
-    } else {
-      setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
-    }
-  };
-
   const router = usePathname();
   const currentRoute = router;
 
@@ -49,11 +39,11 @@ const Brand = (props) => {
 
     const currentdate = new Date().toLocaleString();
     const data = {
-      name: e.target.name.value,
+      name: e.target.first.value,
+      last: e.target.last.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
       comment: e.target.comment.value,
-      checkboxesdata: checkboxes,
       pageUrl: pagenewurl,
       IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
       currentdate: currentdate,
@@ -189,7 +179,6 @@ const Brand = (props) => {
                       <button type='submit' className='pink bitsForm'>
                         Submit
                       </button>
-                      {/* <input type="submit" placeholder="Submit" value={score} /> */}
                     </div>
                   </div>
                 </form>

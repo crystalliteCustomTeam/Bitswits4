@@ -219,13 +219,12 @@ const Bannerdubai = ({ content }) => {
                         <Col xl={5} className='px-0'>
                             <form className={styles.your} onSubmit={handleSubmit}>
                                 <h3 className='mb-4 white fw500'>Book a Free Consultation</h3>
-                                <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
+                                <input type='text' minLength="4" name='name' required className='form-control' placeholder="Full Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-3'></textarea>
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
-                                {/* <input type='submit' value={score} name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input> */}
                                 <button className={`pink ${styles.value} bitsForm`} type='submit'>
                                     Submit
                                 </button>
