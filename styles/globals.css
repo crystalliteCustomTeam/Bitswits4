@@ -1537,7 +1537,7 @@ a {
 /*====================== Other Sliders ======================*/
 
 .caseSlider .slick-track {
-  display: flex; 
+  display: flex;
 }
 
 .showSticky {
@@ -2822,6 +2822,16 @@ input::-webkit-inner-spin-button {
 #bomp .iavp16 {
   background-color: #21f884;
 }
+
+
+/* Thank You Slider Start */
+
+.thankyouSlider .slick-slider .slick-track {
+  align-items: center;
+  display: flex;
+}
+
+/* Thank You Slider End */
 
 /*====================== Media Queries ======================*/
 

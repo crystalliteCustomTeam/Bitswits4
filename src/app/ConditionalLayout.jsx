@@ -111,7 +111,7 @@ const ConditionalLayout = ({ children }) => {
                                     <NewMobileHeader />
                                     <NewHeaderMbl />
                                 </> :
-                                    pathname == "/bitswits-services-page-1" ? <>
+                                    pathname == "/bitswits-services-page-1" || "thankyou-pagenew" ? <>
                                         <NewServiceHeaderTwo />
                                         <NewHeaderMbl />
                                     </> :
