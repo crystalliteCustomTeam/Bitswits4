@@ -21,7 +21,6 @@
     box-shadow: 0 5px 20px 5px #00000021;
     margin: 20px auto 0;
 }
-
 /* Media Query Start */
 @media only screen and (max-width: 1099px) {
     .ThankYouSec {
