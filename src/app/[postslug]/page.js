@@ -13,7 +13,7 @@ import arrow from '/public/images/blogBanners/right-arrow.webp'
 import logo from '/public/images/icons/favicon.png'
 
 export default function Post({ params }) {
-    let featuredImageUrl = "https://wp23.cryscampus.com/webdesginhubblogs/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
+    let featuredImageUrl = "https://inhouse.cryscampus.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
     const [postData, setPostData] = useState(false);
     const handlePost = async () => {
@@ -55,7 +55,7 @@ export default function Post({ params }) {
                                         <div className="mt-4">
                                             {postData.featuredImage ?
                                                 (
-                                                    <Image quality={75} src={`https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} />
+                                                    <Image quality={75} src={`https://inhouse.cryscampus.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} />
                                                 )
                                                 :
                                                 (
