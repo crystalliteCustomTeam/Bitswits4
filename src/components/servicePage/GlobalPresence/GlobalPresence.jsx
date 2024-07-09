@@ -23,9 +23,23 @@ const GlobalPresence = () => {
         centerPadding: "0px",
         autoplay: false,
         autoplaySpeed: 3000,
-        slidesToShow: 2.9,
+        slidesToShow: 4.1,
         slidesToScroll: 1,
         responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 3.1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 2.8,
+                    slidesToScroll: 1,
+                }
+            },
             {
                 breakpoint: 1099,
                 settings: {

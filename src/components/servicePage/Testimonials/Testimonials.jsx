@@ -79,7 +79,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </Slider>
-                            <div className="d-flex align-items-center justify-content-center gap-5 pt-5 mt-5">
+                            <div className="d-flex flex-wrap align-items-center justify-content-center gap-5 pt-5 mt-5">
                                 <div>
                                     <Image src={TestiOne} alt='Bitswits' />
                                 </div>
