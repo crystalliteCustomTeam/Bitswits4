@@ -78,7 +78,7 @@ const GlobalPresence = () => {
                 <Col lg={12}>
                     <Slider {...globalSlider} className={styles.sliderMain}>
                         <div>
-                            <div className="cardMain">
+                            {/* <div className="cardMain"> */}
                                 <div className={styles.cardContainer}>
                                     <div className={`${styles.card}`}>
                                         <div className={styles.cardImage}>
@@ -117,10 +117,10 @@ const GlobalPresence = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         <div>
-                            <div className="cardMain mt-lg-5 pt-lg-3">
+                            {/* <div className="cardMain mt-lg-5 pt-lg-3"> */}
                                 <div className={styles.cardContainer}>
                                     <div className={`${styles.card}`}>
                                         <div className={styles.cardImage}>
@@ -159,10 +159,10 @@ const GlobalPresence = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         <div>
-                            <div className="cardMain">
+                            {/* <div className="cardMain"> */}
                                 <div className={styles.cardContainer}>
                                     <div className={`${styles.card}`}>
                                         <div className={styles.cardImage}>
@@ -201,10 +201,10 @@ const GlobalPresence = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         <div>
-                            <div className="cardMain mt-lg-5 pt-lg-3">
+                            {/* <div className="cardMain mt-lg-5 pt-lg-3"> */}
                                 <div className={styles.cardContainer}>
                                     <div className={`${styles.card}`}>
                                         <div className={styles.cardImage}>
@@ -243,10 +243,10 @@ const GlobalPresence = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         <div>
-                            <div className="cardMain mt-lg-5 pt-lg-3">
+                            {/* <div className="cardMain mt-lg-5 pt-lg-3"> */}
                                 <div className={styles.cardContainer}>
                                     <div className={`${styles.card}`}>
                                         <div className={styles.cardImage}>
@@ -285,7 +285,7 @@ const GlobalPresence = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </Slider>
                 </Col>

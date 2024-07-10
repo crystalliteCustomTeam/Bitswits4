@@ -53,11 +53,11 @@
     background: white;
     box-shadow: 0 1px 15px #00000012;
     border-radius: 10px;
-    transform: translateY(-55%);
-    display: none;
+    transform: translateY(12%);
+    /* display: none; */
     transition: all 0.4s ease-in-out;
     height: 515px;
-    width: 65%;
+    width: calc(316px + 33px);
     margin-left: auto;
     overflow: hidden;
 }
@@ -144,36 +144,26 @@
 
 @media only screen and (max-width: 1920px) {
     .globalSec .cardContent {
-        left: 295px;
+        left: 65px;
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 330px;
+        left: 135px;
     }
-
-    .globalSec .flipCard {
-        width: 53%;
-    }
+ 
 }
 
 @media only screen and (max-width: 1799px) {
     .globalSec .cardContent {
-        left: 185px;
+        left: 145px;
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 280px;
-    }
-
-    .globalSec .flipCard {
-        width: 57%;
-    }
+        left: 220px;
+    } 
 }
 
 @media only screen and (max-width: 1599px) {
-    .globalSec .flipCard {
-        width: 65%;
-    }
 
     .globalSec .cardContent {
         position: absolute;
@@ -181,14 +171,11 @@
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 210px;
+        left: 220px;
     }
 }
 
-@media only screen and (max-width: 1399px) {
-    .globalSec .flipCard {
-        width: 72%;
-    }
+@media only screen and (max-width: 1399px) { 
 
     .globalSec .cardContent {
         position: absolute;
@@ -196,13 +183,13 @@
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 160px;
+        left: 168px;
     }
 }
 
 @media only screen and (max-width: 1299px) {
     .globalSec .flipCard {
-        width: 82%;
+        width: calc(305px + 33px);
     }
 
     .globalSec .cardContent {
@@ -212,7 +199,7 @@
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 105px;
+        left: 117px;
     }
 
     .cardImage {
@@ -239,14 +226,10 @@
 
     .globalSec .cardContent {
         left: 110px;
-    }
-
-    .globalSec .flipCard {
-        width: 65%;
-    }
+    } 
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 207px;
+        left: 166px;
     }
 
     .globalSec .cardContainer:hover .cardImage img {
@@ -255,22 +238,18 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .globalSec .flipCard {
+    /* .globalSec .flipCard {
         width: 90%;
-    }
+    } */
 
     .globalSec .cardContent {
-        left: 70px;
+        left: 18px;
     }
 
     .globalSec .cardContainer:hover .cardContent {
-        left: 137px;
+        left: 70px;
         z-index: 999;
-    }
-
-    .globalSec .flipCard {
-        width: 75%;
-    }
+    } 
 }
 
 @media only screen and (max-width: 567px) {
@@ -283,9 +262,9 @@
         line-height: 40px;
     }
 
-    .globalSec .flipCard {
+    /* .globalSec .flipCard {
         margin-right: auto;
-    }
+    } */
 
     .cardImage img {
         width: 100%;
