@@ -19,8 +19,13 @@ import JournyForm from '@/src/components/servicePage/JourneyForm/JourneyForm'
 import Faqs from '@/src/components/servicePage/Faqs/Faqs'
 import BlogPosts from '@/src/components/servicePage/BlogPosts/BlogPosts'
 import GlobalPresence from '@/src/components/servicePage/GlobalPresence/GlobalPresence'
-
+import ImageOne from "media/services/smallBannerImg.svg"
 const page = () => {
+    const smallBannerContent = {
+        title: "No Risks With An MVP! Launch Your IDEA To See How They Like It!",
+        txt: "BitsWits believes in taking a creative, hands-on approach to mobile application development because we know it’s not just",
+        img: ImageOne
+    }
     // Sample content data
     const menus = [
         { label: "iOS App Development Consultation", index: 0 },
@@ -85,7 +90,7 @@ const page = () => {
             <DevelopmentProcess />
             <MobileTechnologies />
             <Testimonials />
-            <SmallBanner />
+            <SmallBanner content={smallBannerContent} />
             <ApplicationOffer content={HoustonContent} />
             <EstimatedCost />
             <Fueling />
@@ -113,7 +118,7 @@ const page = () => {
                 ]}
             />
             <BlogPosts />
-            <GlobalPresence /> 
+            <GlobalPresence />
         </>
     )
 }

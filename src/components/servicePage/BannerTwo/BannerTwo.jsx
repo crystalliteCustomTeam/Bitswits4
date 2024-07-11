@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/servicepage/Banner.module.css"
 
 const BannerTwo = () => {
-    return (       
+    return (
         <section className={`${styles.bannerSec} ${styles.bannerTwo}`}>
             <Container>
                 <Row>

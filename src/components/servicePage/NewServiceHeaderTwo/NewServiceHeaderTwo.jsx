@@ -1569,26 +1569,6 @@ const NewServiceHeaderTwo = () => {
                                 ""
                             )}
                         </li>
-                        <li className={styles.locDropdown}>
-                            <Link href="#" className={styles.post}>
-                                Location
-                                <FaAngleDown />
-                            </Link>
-                            <ul className={styles.locDropMenu}>
-                                <li><Link href="/app-development-austin">Mobile App Development Company Austin</Link></li>
-                                <li><Link href="/app-development-chicago">Mobile App Development Company Chicago</Link></li>
-                                <li><Link href="/mobile-app-development-company-dallas">Mobile App Development Company Dallas</Link></li>
-                                <li><Link href="/mobile-app-development-company-denver">Mobile App Development Company Denver</Link></li>
-                                <li><Link href="/mobile-app-development-company-dubai">Mobile App Development Company Dubai</Link></li>
-                                <li><Link href="/app-development-florida">Mobile App Development Company Florida</Link></li>
-                                <li><Link href="/app-development-houston">Mobile App Development Company Houston</Link></li>
-                                <li><Link href="/mobile-app-development-company-miami">Mobile App Development Company Miami</Link></li>
-                                <li><Link href="/app-development-company-new-york">Mobile App Development Company New York</Link></li>
-                                <li><Link href="/mobile-app-development-company-saudi-arabia">Mobile App Development Saudi Arabia</Link></li>
-                                <li><Link href="/app-development-company-toronto">Mobile App Development Company Toronto</Link></li>
-                                <li><Link href="/app-development-company-washington-dc">Mobile App Development Company Washington Dc</Link></li>
-                            </ul>
-                        </li>
                         <li>
                             <Link href="/about-us" className={`manrope font-bold ${styles.post}`}>
                                 About

@@ -16,7 +16,7 @@ const BlogPosts = () => {
             <Container>
                 <Row>
                     <Col lg={12}>
-                        <h2 className=' manrope mb-3 mb-md-5 text-center'>Our Related Blog Posts</h2>
+                        <h2 className=' manrope mb-5 text-center'>Our Related Blog Posts</h2>
                     </Col>
                     <Col md={6} lg={4} className='p-2'>
                         <div className={styles.card}>

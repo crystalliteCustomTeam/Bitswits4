@@ -285,6 +285,23 @@
     transition: all ease-in-out 0.4s;
 }
 
+.bgcolor_puple {
+    padding: 50px 0px;
+}
+
+.bgcolor_puple .applicationlong {
+    background-image: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+}
+
+.bgcolor_puple ul li span:first-of-type {
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgcolor_puple .menusHeading {
+    border-bottom: 2px solid #fff;
+}
 
 /* ==================================== */
 @media only screen and (max-width: 1920px) {
@@ -391,7 +408,8 @@
         height: 610px;
     }
 
-    .houston select {
+    .houston select,
+    .bgcolor_puple select {
         width: 100%;
         margin: 0 auto;
         height: 60px;
@@ -400,6 +418,10 @@
         font-size: 16px;
         border: 2px solid black;
         border-radius: 11px;
+    }
+
+    .bgcolor_puple .applicationlong {
+        background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
     }
 
     .understandContent {
@@ -416,7 +438,8 @@
         font-size: 25px;
     }
 
-    .houston select {
+    .houston select,
+    .bgcolor_puple select {
         font-size: 13px;
     }
 

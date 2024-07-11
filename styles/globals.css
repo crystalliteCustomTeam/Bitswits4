@@ -934,25 +934,6 @@ a {
   background: #f32f5e;
 }
 
-/*======== Service Page Scroll Bar */
-
-/* width */
-.successfulSlider::-webkit-scrollbar {
-  width: 4px;
-}
-
-/* Track */
-.successfulSlider::-webkit-scrollbar-track {
-  background: #fff;
-  border-bottom: 2px solid #CBCBCB;
-}
-
-/* Handle */
-.successfulSlider::-webkit-scrollbar-thumb {
-  background: #CBCBCB;
-}
-
-/*======== Service Page Scroll Bar */
 /*============================*/
 
 .newfolsing::-webkit-scrollbar {
@@ -4725,7 +4706,36 @@ button {
   color: white;
 }
 
+
 /* Why Choose End */
+
+/* Industry Slider */
+
+.industrySlider {
+  margin-bottom: 50px;
+}
+
+.industrySlider .slick-prev:before {
+  content: url(/services/left-arrow.svg);
+}
+
+.industrySlider .slick-next:before {
+  content: url(/services/right-arrow.svg);
+}
+
+.industrySlider .slick-prev {
+  left: 47%;
+  bottom: -60px;
+  top: inherit;
+}
+
+.industrySlider .slick-next {
+  right: 47%;
+  bottom: -60px;
+  top: inherit;
+}
+
+/* Industry Slider End */
 
 /* Testinomials Start */
 .testimonialSlider .slick-prev:before {
@@ -4793,6 +4803,14 @@ button {
   .dubaiClientSlider .slick-prev {
     left: -35px;
   }
+
+  .industrySlider .slick-prev {
+    left: 47%;
+  }
+
+  .industrySlider .slick-next {
+    right: 47%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -4810,6 +4828,14 @@ button {
   .border-l {
     border-left: 0;
   }
+
+  .industrySlider .slick-prev {
+    left: 45%;
+  }
+
+  .industrySlider .slick-next {
+    right: 45%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -4820,6 +4846,14 @@ button {
   /* .activefapost .d-block {
     border: unset !important;
   } */
+
+  .industrySlider .slick-prev {
+    left: 45%;
+  }
+
+  .industrySlider .slick-next {
+    right: 45%;
+  }
 
   .cntctRow {
     row-gap: 90px;
@@ -4923,6 +4957,14 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .industrySlider .slick-prev {
+    left: 37%;
+  }
+
+  .industrySlider .slick-next {
+    right: 37%;
+  }
+
   .mixColor5 {
     display: none;
   }
@@ -5135,6 +5177,14 @@ button {
   .servicesIndustriesSlider .slick-next {
     right: 40%;
   }
+
+  .industrySlider .slick-prev {
+    left: 37%;
+  }
+
+  .industrySlider .slick-next {
+    right: 37%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -5206,5 +5256,13 @@ button {
   .industriesSlider .slick-next,
   .industriesSlider .slick-prev {
     top: 55%;
+  }
+
+  .industrySlider .slick-prev {
+    left: 37%;
+  }
+
+  .industrySlider .slick-next {
+    right: 37%;
   }
 }

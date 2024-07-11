@@ -4,7 +4,7 @@ import styles from '../../styles/BlogListBody.module.css'
 
 
 export default function LoadMore({ posts, setPosts, taxonomy = null }) {
-    const bT = posts.pageInfo?.hasNextPage ? 'Load More' : 'No more posts to load';
+    const bT = posts.pageInfo?.hasNextPage ? 'Load more posts' : 'No more posts to load';
     const bD = posts.pageInfo?.hasNextPage ? false : true;
 
     const [buttonText, setButtonText] = useState(bT);
@@ -51,6 +51,6 @@ export default function LoadMore({ posts, setPosts, taxonomy = null }) {
             onClick={handleOnclick}
             disabled={buttonDisabled}>
             {buttonText}
-        </button>  
+        </button>
     );
 }

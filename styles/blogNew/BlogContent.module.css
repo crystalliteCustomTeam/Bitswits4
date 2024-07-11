@@ -92,46 +92,33 @@
     background-color: #F3F3F3;
     border-radius: 10px;
     border: 0;
-    height: 100%;
 }
 
 .blogcontent .cardContent {
     padding: 0 25px 25px;
     border-bottom: 1px solid #D4D4D4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
 }
 
-.blogcontent .cardContent .categoriesPara {
+.blogcontent .cardContent p:first-of-type {
     color: #F32F53;
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
     padding-top: 24px;
-    margin-bottom: 0;
 }
 
 .blogcontent .cardContent h5 {
     font-size: 20px;
     font-weight: 500;
     line-height: 27px;
-    margin-bottom: 0;
 }
 
-.blogcontent .cardContent .blogDesciption p {
+.blogcontent .cardContent p:last-of-type {
     font-size: 14px;
     font-weight: 300;
     line-height: 25px;
     padding-right: 10px;
     margin-bottom: 0;
-    color: #000;
-    font-family: "SF-Pro-Display-Regular", sans-serif;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .blogcontent .cardContent .btn {
@@ -169,10 +156,6 @@
     line-height: 20px;
     color: #AEAEAE;
     margin-bottom: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .blogcontent .cardTwo {

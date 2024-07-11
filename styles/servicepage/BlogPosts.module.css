@@ -90,14 +90,3 @@
         width: 13%;
     }
 }
-
-@media only screen and (max-width: 567px) {
-    .readSec { 
-        padding-bottom: 50px;
-    }
-
-    .readSec h2 {
-        font-size: 25px;
-        line-height: 35px;
-    }
-}

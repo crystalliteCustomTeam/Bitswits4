@@ -8,12 +8,17 @@
 
 .fuelingSec .txt {
     position: sticky;
-    top: 140px;
+    top: 20px;
 }
 
 .fuelingSec h2 {
     font-size: 40px;
     line-height: 55px;
+    color: #fff;
+}
+
+.fuelingSec p {
+    color: #fff
 }
 
 .fuelingSec .ideaPart {
@@ -78,6 +83,8 @@
     height: 2px;
     background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
 }
+
+.bgcolor_black {}
 
 /* Media Query Start */
 

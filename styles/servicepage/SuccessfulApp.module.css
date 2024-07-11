@@ -29,12 +29,6 @@
 .successfulSlider {
     border-top: 1px solid #cecece;
     padding-top: 25px;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    gap: 0 20px;
-    padding-bottom: 60px;
 }
 
 .cardBtn a {
@@ -56,7 +50,6 @@
 .card {
     position: relative;
     margin: 0 10px;
-    min-width: 400px;
 }
 
 .card::after {
@@ -141,18 +134,8 @@
 /* Media Query Start */
 
 @media only screen and (max-width: 1399px) {
-    .card {
-        min-width: 330px;
-    }
-
     .content p {
         padding-right: 15px;
-    }
-}
-
-@media only screen and (max-width: 1099px) {
-    .card {
-        min-width: 470px;
     }
 }
 
@@ -166,10 +149,6 @@
 @media only screen and (max-width: 567px) {
     .successfulSec {
         padding: 50px 0;
-    }
-
-    .card {
-        min-width: 335px;
     }
 
     .successfulSec h2 {

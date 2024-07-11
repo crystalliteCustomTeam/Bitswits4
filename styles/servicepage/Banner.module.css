@@ -12,7 +12,7 @@
   background-image: url(../../public/services/service-bg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 210px 0 120px;
 }
 
@@ -44,6 +44,16 @@
   font-size: 50px;
   line-height: 68px;
 }
+
+/*Banner Industry*/
+.BannerIndustry {
+  background-image: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 80vh;
+}
+
 
 /* =================== */
 
@@ -913,9 +923,9 @@
     height: 100vh !important;
   }
 
-  .bannerSec { 
-    padding: 120px 0;
-    height: auto !important;
+  .bannerSec {
+    padding-bottom: 0;
+    padding: 40px 0;
   }
 
   .bannerSec h1 {
