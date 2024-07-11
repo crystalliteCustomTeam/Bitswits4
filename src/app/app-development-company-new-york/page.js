@@ -92,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "A Portfolio that Shouts Success!",
-    desc: <>We are among the fastest-growing app development companies in NYC with a portfolio of 100+ successfully <br className="d-xl-block d-none" /> built and launched mobile applications across 10+ industries, with over 1 million downloads combined. </>,
+    desc: <>We are among the fastest-growing app development companies in NYC with a portfolio of 150+ successfully <br className="d-xl-block d-none" /> built and launched mobile applications across 10+ industries, with over 1 million downloads combined. </>,
     para: "Here’s a glimpse at our resounding app development portfolio.",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -139,10 +139,10 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>App development cost in NYC ranges anywhere between   <span>$20,000 </span>to <span>$200,000</span><br className="d-xl-block d-none" /> for a minimum viable product (MVP) and could go higher in the long run.</>
+      para: <>App development cost in NYC ranges anywhere between   <span>$20,000 </span>to <span>$100,000+</span><br className="d-xl-block d-none" /> for a minimum viable product (MVP) and could go higher in the long run.</>
     },
     {
-      para: <>As a premier app development company in NYC, our starting price for building an app is <span>$25k</span> for an MVP and the overall cost depends on a number of factors – like cross-platform compatibility, GPS and camera features, payment gateway integrations for in-app purchases, and other similar intricate features. </>
+      para: <>As a premier app development company in NYC, our starting price for building an app is <span>$20,000</span> for an MVP and the overall cost depends on a number of factors – like cross-platform compatibility, GPS and camera features, payment gateway integrations for in-app purchases, and other similar intricate features. </>
     },
     {
       para: <>Curious about how much app development costs? Try our free app cost calculator to get a tailored estimate based on your app’s LOE. </>

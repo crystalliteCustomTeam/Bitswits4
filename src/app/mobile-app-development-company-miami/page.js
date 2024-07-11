@@ -40,7 +40,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Trusted Mobile App Development Company in Miami",
-    desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 200+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
+    desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 150+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
     bg: HeroBg
   }
   // award Content
@@ -95,7 +95,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>BitsWits is your trusted app development partner in Miami. From startups to enterprise-level apps, backed up by a strong proven record, <br /> we take pride in developing 100+ app ideas into functional realities.</>,
+    desc: <>BitsWits is your trusted app development partner in Miami. From startups to enterprise-level apps, backed up by a strong proven record, <br /> we take pride in developing 150+ app ideas into functional realities.</>,
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",
@@ -105,7 +105,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -142,7 +142,7 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost to develop a mobile app can vary significantly on factors like app complexity, the platforms it will operate on (iOS, Android, or both), and the specific features included.</>
     },
     {
-      para: <>Simple apps like a flashlight or a simple news feed that require minimal user interactions and features can cost between <b>$10,000 to $40,000</b>. <b>Complex apps</b> such as full-fledged social media platforms or e-commerce sites with multiple features can range from <b>$120,000 to $500,000 or more</b>. <b>High-end apps</b> that require enterprise-level features, such as real-time data processing, high-end security features, AI capabilities, or AR/VR experiences, often exceed <b>$500,000</b> depending on the specific requirements and technologies involved.</>
+      para: <>Simple apps like a flashlight or a simple news feed that require minimal user interactions and features can cost between <b>$20,000 to $60,000</b>. <b>Complex apps</b> such as full-fledged social media platforms or e-commerce sites with multiple features can range from <b>$60,000 to $150,000 or more</b>. <b>High-end apps</b> that require enterprise-level features, such as real-time data processing, high-end security features, AI capabilities, or AR/VR experiences, often exceed <b>$300,000+</b> depending on the specific requirements and technologies involved.</>
     }
   ]
   const delivered = {

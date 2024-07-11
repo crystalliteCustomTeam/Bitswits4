@@ -103,7 +103,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -140,7 +140,7 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost to develop an app is determined by a range of factors such as app complexity, the platforms it will run on, and the features it will have.</>
     },
     {
-      para: <><span>Simple apps</span> like a flashlight or a calculator with minimal features can cost you around <span>$10,000 to $40,000</span>. <span>Complex apps</span> like e-commerce or social media apps fall in the range of <span>$30,000 to $500,000 or more</span>. <span>High-end apps</span> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <span>$500,000 or more</span>.</>,
+      para: <><span>Simple apps</span> like a flashlight or a calculator with minimal features can cost you around <span>$20,000 to $60,000</span>. <span>Complex apps</span> like e-commerce or social media apps fall in the range of <span>$60,000 to $150,000 </span>or more  . <span>High-end apps</span> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <span>$300,000+ </span>or more.</>,
     },
     {
       para: <>BitsWits, as a premier app development company in Dallas offers custom solutions for every budget. </>,

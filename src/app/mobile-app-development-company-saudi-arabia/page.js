@@ -40,7 +40,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top Mobile App Development Company In Saudi Arabia",
-    desc: "BitsWits has emerged as the leading mobile app development company in Saudi Arabia. With a proven track record of transforming our client visions into 100+ data-driven app development realities, BitsWits stands as a top choice for mobile app development across the Middle East. The state-of-the-art expertise of our app developers helps you outstand your industry giants in Saudi delivering seamless navigation and high responsiveness.",
+    desc: "BitsWits has emerged as the leading mobile app development company in Saudi Arabia. With a proven track record of transforming our client visions into 150+ data-driven app development realities, BitsWits stands as a top choice for mobile app development across the Middle East. The state-of-the-art expertise of our app developers helps you outstand your industry giants in Saudi delivering seamless navigation and high responsiveness.",
     bg: HeroBg
   }
   // award Content
@@ -93,7 +93,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>From startups to enterprise-level apps, backed up by a strong proven record, we take pride as a top-rated Saudia app development company developing <br className="d-xl-block d-none" /> 100+ app ideas into functional realities.</>,
+    desc: <>From startups to enterprise-level apps, backed up by a strong proven record, we take pride as a top-rated Saudia app development company developing <br className="d-xl-block d-none" /> 150+ app ideas into functional realities.</>,
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: <>The <br className="d-none d-md-block d-lg-none" /> Ready App</>,
@@ -103,7 +103,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We've Delivered More Than 100+ Mobile Apps To Customers Worldwide!</>,
+    title: <>We've Delivered More Than 150+ Mobile Apps To Customers Worldwide!</>,
     desc: "Your App Concept Can Be The Next Best Thing!",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -137,16 +137,16 @@ export default function dubaidevelopmentcompany() {
     desc: <>We at BitsWits carefully understand our clients' bottom-line requirements and provide them with an app solution customized to their <br /> personalized requirements. From startup apps to enterprise-level apps, we deliver quality.
       <br />
       <br />
-      Here is what our clients have to say about our successful track record of delivering 100+ projects.
+      Here is what our clients have to say about our successful track record of delivering 150+ projects.
     </>
   }
   // Delivered
   const desc = [
     {
-      para: <>The app development cost varies based on complexity and functionality, ranging from <span>SAR 7,600 to SAR 760,000 or more.</span></>
+      para: <>The app development cost varies based on complexity and functionality, ranging from <span>SAR 100,000 </span>to <span>SAR 400,000+</span>or more.</>
     },
     {
-      para: <>At BitsWits, we offer a transparent pricing structure customized to your specific needs and requirements. Our simplest app development <br /> project begins at <span>SAR 95,000</span>, ensuring quality and affordability to suit your bottom-line objectives.</>
+      para: <>At BitsWits, we offer a transparent pricing structure customized to your specific needs and requirements. Our simplest app development <br /> project begins at <span>SAR 100,000</span>, ensuring quality and affordability to suit your bottom-line objectives.</>
     },
     {
       para: <>To receive an accurate, customized estimate for your project, we encourage you to use our cost calculator. We stand ready to assist you in <br /> achieving your app development goals in Saudi Arabia.</>

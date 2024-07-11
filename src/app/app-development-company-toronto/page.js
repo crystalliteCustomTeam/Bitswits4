@@ -93,7 +93,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>The reason for us being the best Toronto app development company lies in the hard-work and efforts that our team has put <br className="d-xl-block d-none" /> into 200+ projects for business of all sorts and industries. </>,
+    desc: <>The reason for us being the best Toronto app development company lies in the hard-work and efforts that our team has put <br className="d-xl-block d-none" /> into 150+ projects for business of all sorts and industries. </>,
     para: "",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -146,7 +146,7 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost for developing an app depends on the nature and functionality of a mobile application.</>
     },
     {
-      para: <>In Toronto, the average cost for mobile app development ranges from <span>6200 CAD to 187000 CAD</span>. At BitsWits, we value our customers and understand that cost plays a vital role in closing a deal.</>
+      para: <>In Toronto, the average cost for mobile app development ranges from <span>CAD 30,000 - CAD 140,000+</span>. At BitsWits, we value our customers and understand that cost plays a vital role in closing a deal.</>
     },
     {
       para: <>Therefore, our experts ensure to brief our clients about every minute detail and craft a descriptive quotation for you to examine. </>

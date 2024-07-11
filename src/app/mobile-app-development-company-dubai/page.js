@@ -40,7 +40,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
-    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 100 projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
+    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 150+ projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
     bg: HeroBg
   }
   // award Content
@@ -92,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 200+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
+    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 150+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
     para: "Here is a showcase of some of our remarkable projects:",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -103,7 +103,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -137,10 +137,10 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>The cost of developing an app in Dubai typically ranges between <span>$25,000 (AED 91825) to $200,000+ (AED 734600+)</span>, depending on the app’s complexity and functionality.</>
+      para: <>The cost of developing an app in Dubai typically ranges between <span> AED 100,000 to AED 400,000+ </span>, depending on the app’s complexity and functionality.</>
     },
     {
-      para: <>At BitsWits, a simple app development project starts with just $25,000, and it varies depending on your specific app needs.</>
+      para: <>At BitsWits, a simple app development project starts with just AED 100,000, and it varies depending on your specific app needs.</>
     },
     {
       para: <>However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>

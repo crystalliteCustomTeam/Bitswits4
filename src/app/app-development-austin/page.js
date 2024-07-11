@@ -92,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We have a proven track record of delivering 100+ exclusive mobile apps based on distinct categories across diverse sectors and industries.</>,
+    desc: <>We have a proven track record of delivering 150+ exclusive mobile apps based on distinct categories across diverse sectors and industries.</>,
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",
@@ -137,13 +137,13 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>Simple apps cost between <span>$10,000 and $60,000</span>, average complexity apps fall between <span>$60,000 and $150,000</span>, and highly advanced apps start at around <span>$300,000</span>.</>
+      para: <>Simple apps cost between <span>$20,000 to $60,000</span>, average complexity apps fall between <span>$60,000 and $150,000</span>, and highly advanced apps start at around <span>$300,000</span>.</>
     },
     {
       para: <>However, the final price depends on factors like the app’s complexity, the platform it will run on, and the features it will have.</>
     },
     {
-      para: <>Expect mobile app development costs ranging from <span>$30,000 to $200,000+</span> based on your app’s complexity and unique business needs by connecting with BitsWits, a top-grade mobile app development company in Austin.</>
+      para: <>Expect mobile app development costs ranging from <span>$20,000 to $100,000+</span> based on your app’s complexity and unique business needs by connecting with BitsWits, a top-grade mobile app development company in Austin.</>
     },
     {
       para: <>Our experts ensure that the product you get meets all the industry standards and helps your business stay forward.</>
