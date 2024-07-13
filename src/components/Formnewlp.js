@@ -50,7 +50,7 @@ const Formnewlp = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        fetch('/api/formapi /', {
+        fetch('/api/formapi/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',

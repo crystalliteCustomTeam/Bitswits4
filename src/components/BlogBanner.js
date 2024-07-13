@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/blogNew/Banner.module.css"
 
 
-const Banner = () => {
+const BlogBanner = () => {
     return (
         <>
             <section className={styles.bannerSec}>
@@ -29,4 +29,4 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default BlogBanner

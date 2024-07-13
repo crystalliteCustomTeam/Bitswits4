@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/blogNew/BlogContent.module.css"
-import Image from 'next/image';
 import { getPostList } from "@/lib/posts";
-import Date from "@/src/components/Date";
 import LoadMore from "@/src/components/LoadMore";
 import FeaturedImage from "@/src/components/FeaturedImage";
 // Images
@@ -13,9 +13,8 @@ import BlogImage1 from "media/newblogs/blog-1.png"
 import BlogImage2 from "media/newblogs/blog-2.png"
 import BlogImage3 from "media/newblogs/blog-3.png"
 import profile from "media/newblogs/blog-client.svg"
-import Link from 'next/link';
 
-const blogscontent = () => {
+const BlogList = () => {
     const [activeTab1, setActiveTab1] = useState('tab1');
     function fun1(tabs1) {
         setActiveTab1(tabs1);
@@ -81,11 +80,9 @@ const blogscontent = () => {
                                                 posts && posts.nodes.map((post) => (
                                                     <Col md={6} lg={4} className='p-2 order-3 order-lg-1'>
                                                         <div className={styles.card}>
-                                                            {/* <Link href="/blog-inner"> */}
-                                                                <div className={styles.cardImg}>
-                                                                    <FeaturedImage post={post} className="w-100" />
-                                                                </div>
-                                                            {/* </Link> */}
+                                                            <div className={styles.cardImg}>
+                                                                <FeaturedImage post={post} className="w-100" />
+                                                            </div>
                                                             <div className={styles.cardContent}>
                                                                 {
                                                                     post.categories.nodes.map((category) => (
@@ -1690,9 +1687,9 @@ const blogscontent = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section >
+            </section>
         </>
     )
 }
 
-export default blogscontent
+export default BlogList
