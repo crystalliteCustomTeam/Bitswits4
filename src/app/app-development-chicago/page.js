@@ -92,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We have a proven track record of delivering 100+ exclusive mobile apps based on distinct categories across diverse sectors and industries.</>,
+    desc: <>We have a proven track record of delivering 150+ exclusive mobile apps based on distinct categories across diverse sectors and industries.</>,
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",
@@ -102,7 +102,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We've Delivered More Than 100+ Mobile Apps To Customers Worldwide!</>,
+    title: <>We've Delivered More Than 150+ Mobile Apps To Customers Worldwide!</>,
     desc: "Your App Concept Can Be The Next Best Thing!",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -140,10 +140,10 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost to develop a mobile app depends on several factors such as the app’s complexity, the platform it will run on, and the features it will have.</>
     },
     {
-      para: <><b>Simple apps</b> with basic functionality, like a calculator or flashlight app, can cost you around <b>$10,000 to $40,000</b>. <b>Complex apps</b> for social media and e-commerce platforms can cost you between <b>$30,000 to $500,000 and more</b>. High-end apps for banking and healthcare sectors that have complex functionalities and enterprise-level features can cost more than <b>$500,000</b>.</>
+      para: <><b>Simple apps</b> with basic functionality, like a calculator or flashlight app, can cost you around <b>$20,000 to $60,000</b>. <b>Complex apps</b> for social media and e-commerce platforms can cost you between <b>$60,000 to $150,000</b>. High-end apps for banking and healthcare sectors that have complex functionalities and enterprise-level features can cost more than <b>$300,000+</b>.</>
     },
     {
-      para: <>BitsWits offers full-fledged app development services customized to your project’s complexity, with prices ranging from <b>$20,000 to $500,000</b>.</>
+      para: <>BitsWits offers full-fledged app development services customized to your project’s complexity, with prices ranging from <b>$20,000 to $100,000+</b>.</>
     }
   ]
   const delivered = {

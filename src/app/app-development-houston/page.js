@@ -41,7 +41,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-tier Mobile App Development Company in Houston",
-    desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 200+ projects over the years. Reach us today and transform your dream app into reality.",
+    desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 150+ projects over the years. Reach us today and transform your dream app into reality.",
     bg: HeroBg
   }
   // award Content
@@ -106,7 +106,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -141,13 +141,13 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>The mobile app development cost in Houston varies between $30,000 to $250,000.</>
+      para: <>The mobile app development cost in Houston varies between $20,000 to $100,000+.</>
     },
     {
       para: <>However, there is no definitive answer for that as the mobile app development cost depends on various parameters including the app’s complexity, features and functionality, tools and technologies, and the estimated time frame.</>
     },
     {
-      para: <>At BitsWits, a basic app development project starts at just $40,000, and the cost varies depending on your specific app needs. However, if your app requires complex features and functionalities, you can expect the cost to be between $60,000 and $150,000+.</>
+      para: <>At BitsWits, a basic app development project starts at just $20,000, and the cost varies depending on your specific app needs. However, if your app requires complex features and functionalities, you can expect the cost to be between $60,000 and $150,000+.</>
     },
     {
       para: <>Want a precise cost for your app development project? Utilize our app development cost calculator.</>

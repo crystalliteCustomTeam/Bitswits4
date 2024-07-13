@@ -142,7 +142,7 @@ export default function dubaidevelopmentcompany() {
       para: <>There is no exact cost mentioned anywhere when it comes to determining the mobile app development cost in   <span>Washington, DC. </span><br className="d-xl-block d-none" /> Various parameters are involved during the creation of a mobile app.</>
     },
     {
-      para: <>At BitsWits, a basic project begins with just <span>$20,000</span> with limited features & functionalities. However, if your app needs to revolve around complex technicalities,<br className="d-xl-block d-none" /> you can expect the price to be between <span>$30,000</span> to <span>$150,000+</span>.  Our tailor-made solutions are created to accommodate every business needs regardless<br className="d-xl-block d-none" /> of their size & niche. </>
+      para: <>At BitsWits, a basic project begins with just <span>$20,000</span> with limited features & functionalities. However, if your app needs to revolve around complex technicalities,<br className="d-xl-block d-none" /> you can expect the price to be between <span>$20,000</span> to <span>$100,000+</span>.  Our tailor-made solutions are created to accommodate every business needs regardless<br className="d-xl-block d-none" /> of their size & niche. </>
     },
     {
       para: <>Want to know the exact estimated cost for your app? Use our dedicated app development cost calculator below!</>

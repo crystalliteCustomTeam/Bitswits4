@@ -38,7 +38,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Denver Mobile App Development Company",
-    desc: "Our team of app developers in Denver bring a wealth of expertise and experience having successfully delivered 100+ projects. Throughout the development, our app developers Denver collaborate closely with you to ensure that every detail of the app reflects your vision. Opting for BitsWits translates to teaming up with individuals who are dedicated to providing top-notch quality.",
+    desc: "Our team of app developers in Denver bring a wealth of expertise and experience having successfully delivered 150+ projects. Throughout the development, our app developers Denver collaborate closely with you to ensure that every detail of the app reflects your vision. Opting for BitsWits translates to teaming up with individuals who are dedicated to providing top-notch quality.",
     bg: HeroBg
   }
   // award Content
@@ -102,7 +102,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Developed 1000+ Apps That Help Our Clients Dominate Their Business Market!</>,
+    title: <>We Have Developed 150+ Apps That Help Our Clients Dominate Their Business Market!</>,
     desc: "Develop Your Business App with the Expert team of app developers in Denver!",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -138,16 +138,16 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>Mobile app development in Denver typically costs between $30,000 to $250,000, with prices varying greatly depending on the app's complexity, features, tools, technology, and development duration.</>
+      para: <>Mobile app development in Denver typically costs between $20,000 to $100,000+, with prices varying greatly depending on the app's complexity, features, tools, technology, and development duration.</>
     },
     {
-      para: <>Simple apps with conventional functionality cost between $20,000 and $40,000, making them appropriate for straightforward applications.</>
+      para: <>Simple apps with conventional functionality cost between $20,000 to $60,000, making them appropriate for straightforward applications.</>
     },
     {
       para: <>Apps with extensive features and functionalities cost $60,000 to $150,000 and require intricate designs, integrations, and customizations.</>
     },
     {
-      para: <>Highly complicated apps, such as those for banking or healthcare, can cost more than $500,000 to design and test and require substantial security measures.</>
+      para: <>Highly complicated apps, such as those for banking or healthcare, can cost more than $300,000+ to design and test and require substantial security measures.</>
     },
     {
       para: <>For an accurate quotation, use our app development cost calculator.</>

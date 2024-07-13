@@ -99,7 +99,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "A Portfolio That Shouts Success!",
-    desc: <>We are one of the fastest-growing app development companies in Florida, with a portfolio of over 100 successfully built and launched mobile <br className="d-xl-block d-none" /> applications across various industries, achieving over 1 million combined downloads.</>,
+    desc: <>We are one of the fastest-growing app development companies in Florida, with a portfolio of over 150+ successfully built and launched mobile <br className="d-xl-block d-none" /> applications across various industries, achieving over 1 million combined downloads.</>,
     para: "Here’s a glimpse of our successful app development portfolio.",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -146,10 +146,10 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>App development costs in Florida range from $20,000 to $200,000 for a minimum viable product (MVP), with prices increasing based on additional features and the region of the app development company you choose to partner with.</>
+      para: <>App development costs in Florida range from $20,000 to $100,000+ for a minimum viable product (MVP), with prices increasing based on additional features and the region of the app development company you choose to partner with.</>
     },
     {
-      para: <>As a top-rated app development company in Florida, our starting price for an MVP development is <span>$25k</span>, influenced by factors like cross-platform compatibility, <br /> advanced features, and more.</>
+      para: <>As a top-rated app development company in Florida, our starting price for an MVP development is <span>$20,000</span>, influenced by factors like cross-platform compatibility, <br /> advanced features, and more.</>
     },
     {
       para: <>Looking for a detailed estimate and cost breakdown? Try our free app development cost calculator and get a comprehensive cost breakdown based on the LOE of your app to plan your app development budget with confidence!</>

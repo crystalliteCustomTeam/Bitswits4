@@ -78,7 +78,7 @@ const Formnewlp = () => {
             "Date": currentdate,
             "Time": currentdate,
             "JSON": JSONdata,
-        });
+        }); 
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
             method: "POST",
             body: bodyContent,
