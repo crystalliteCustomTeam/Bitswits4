@@ -67,7 +67,7 @@ export default function Post({ params }) {
     }, []);
 
     if (!postData) {
-        return null; 
+        return null;
     }
 
     return (
@@ -91,10 +91,10 @@ export default function Post({ params }) {
                                     <h4>{postData.categories.nodes[0].name}</h4>
                                     <h1 className='fontsfregular'>{postData.title}</h1>
                                     {postData.blogDescription.topDescription && (
-                                       
+
                                         <>
-                                        
-                                        <p className='fontsfregular' dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></p>
+
+                                            <p className='fontsfregular' dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></p>
                                         </>
 
                                     )}
