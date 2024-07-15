@@ -88,25 +88,24 @@ export default function Post({ params }) {
                         <Container>
                             <Row className="align-items-center">
                                 <Col lg={6}>
-                                    <h4>{postData.categories.nodes[0].name}</h4>
-                                    <h1 className='fontsfregular'>{postData.title}</h1>
-                                    {postData.blogDescription.topDescription && (
-
-                                        <>
-
-                                            <p className='fontsfregular' dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></p>
-                                        </>
-
-                                    )}
+                                    <div className={styles.blogTopDes}>
+                                        <h4>{postData.categories.nodes[0].name}</h4>
+                                        <h1 className='fontsfregular'>{postData.title}</h1>
+                                        {postData.blogDescription.topDescription && (
+                                            <>
+                                                <div className='' dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></div>
+                                            </>
+                                        )}
+                                    </div>
                                 </Col>
                                 <Col lg={6}>
                                     {postData.featuredImage ?
                                         (
-                                            <Image quality={75} src={`https://inhouse.cryscampus.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} />
+                                            <Image quality={75} src={`https://inhouse.cryscampus.com/wordpress/bitswits/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`} alt="BitsWits" width={736} height={450} className="img-fluid" />
                                         )
                                         :
                                         (
-                                            <Image quality={75} src={featuredImageUrl} alt="BitsWits" width={736} height={450} />
+                                            <Image quality={75} src={featuredImageUrl} alt="BitsWits" width={736} height={450} className="img-fluid" />
                                         )
                                     }
                                 </Col>

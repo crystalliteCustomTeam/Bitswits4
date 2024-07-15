@@ -12,7 +12,7 @@ import verifies from "media/newblogs/blog-verify.png"
 import BlogImage1 from "media/newblogs/blog-1.png"
 import BlogImage2 from "media/newblogs/blog-2.png"
 import BlogImage3 from "media/newblogs/blog-3.png"
-import profile from "media/newblogs/blog-client.svg"
+import profile from "media/newblogs/blog-client.png"
 
 const BlogList = () => {
     const [activeTab1, setActiveTab1] = useState('tab1');
@@ -36,9 +36,12 @@ const BlogList = () => {
                             <div className={styles.form}>
                                 <form action="javascript:;">
                                     <select className={styles.search}>
+                                        <option selected>All</option>
                                         <option value="Blockchain" className='fontsfregular'>Blockchain</option>
-                                        <option value="Development" className='fontsfregular'>Development</option>
-                                        <option value="Game Development" className='fontsfregular'>Game Development</option>
+                                        <option value="eCommerce" className='fontsfregular'>eCommerce</option>
+                                        <option value="General" className='fontsfregular'>General</option>
+                                        <option value="Mobile Application" className='fontsfregular'>Mobile Application</option>
+                                        <option value="News" className='fontsfregular'>News</option>
                                     </select>
                                     <input type="text" />
                                     <button type='submit' className='fontsfregular'>Search</button>
@@ -80,9 +83,7 @@ const BlogList = () => {
                                                 posts && posts.nodes.map((post) => (
                                                     <Col md={6} lg={4} className='p-2 order-3 order-lg-1'>
                                                         <div className={styles.card}>
-                                                            <div className={styles.cardImg}>
-                                                                <FeaturedImage post={post} className="w-100" />
-                                                            </div>
+                                                            <FeaturedImage post={post} className="w-100" />
                                                             <div className={styles.cardContent}>
                                                                 {
                                                                     post.categories.nodes.map((category) => (
@@ -91,16 +92,16 @@ const BlogList = () => {
                                                                         </p>
                                                                     ))
                                                                 }
-                                                                <Link href="/blog-inner">
+                                                                <Link href={`/blog/${post.slug}`}>
                                                                     <h5 className='fontsfregular text-black'>{post.title}</h5>
                                                                 </Link>
                                                                 <div dangerouslySetInnerHTML={{ __html: post.excerpt }} className={styles.blogDesciption}>
                                                                 </div>
                                                                 <div className={styles.btn}>
-                                                                    <a href="javascript:;" className='text-black'>
+                                                                    <Link href={`/blog/${post.slug}`} className='text-black'>
                                                                         Read More
                                                                         <Image src={Arrow} alt='Bitswits' className='ms-2' />
-                                                                    </a>
+                                                                    </Link>
                                                                 </div>
                                                             </div>
                                                             <div className={styles.cardBottom}>
