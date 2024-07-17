@@ -80,7 +80,7 @@ const Industries = () => {
                 <Container fluid>
                     <Row>
                         <Col lg={12}>
-                            <h2 className='manrope mb-3'>Industries We’ve Conquered</h2>
+                            <h2 className='manrope mb-3'>Industries We’ve <span className='newfycolr'>Conquered</span></h2>
                             <p className='manrope'>BitsWits offers a diverse reach by providing industry-specificsolutions for every client. We work with clients <br className='d-xl-block d-none' /> who aim to improve customer quality oflife while simplifying the daily duties of their employees.</p>
                         </Col>
                         <Col lg={12}>

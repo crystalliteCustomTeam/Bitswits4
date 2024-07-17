@@ -31,7 +31,7 @@ const Testimonials = () => {
                     <Col lg={10}>
                         <div className={styles.sliderContent}>
                             <div className="txt">
-                                <h2 className='manrope font-bold text-center text-white mb-3 mb-md-5 pb-3'>Client Testimonial</h2>
+                                <h2 className='manrope font-bold text-center text-white mb-3 mb-md-5 pb-3'><span className='newfycolr'>Client</span> Testimonial</h2>
                             </div>
                             <Slider {...testimonialSlider} className={`testimonialSlider pb-lg-4 ${styles.testimonialSlider}`}>
                                 <div>

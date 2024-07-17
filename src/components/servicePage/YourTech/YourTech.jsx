@@ -81,7 +81,7 @@ const YourTech = () => {
                 <Row>
                     <Col lg={12}>
                         <div className={`${styles.txt} text-center`}>
-                            <h2 className='manrope font-bold mb-md-3'>Your Tech Stack Is Our Burden</h2>
+                            <h2 className='manrope font-bold mb-md-3'>Your <span className='newfycolr'>Tech Stack</span> Is Our Burden</h2>
                             <p className='manrope font16 font-medium pb-2 pb-md-4 mb-xl-4'>Our teams hold expertise in a multitude of programming aspects</p>
                         </div>
                     </Col>

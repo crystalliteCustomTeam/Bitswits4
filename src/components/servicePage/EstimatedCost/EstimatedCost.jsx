@@ -12,7 +12,7 @@ const EstimatedCost = () => {
                 <Row>
                     <Col lg={12}>
                         <div className={`${styles.txt} text-center`}>
-                            <h2 className='font-bold manrope text-black mb-3'>Estimated Cost Of Mobile App Development <br className='d-lg-block d-none' />
+                            <h2 className='font-bold manrope text-black mb-3'>Estimated Cost Of <span className='newfycolr'>Mobile App Development</span> <br className='d-lg-block d-none' />
                                 Based On App Complexity</h2>
                             <p className='font16 font-medium text-black manrope mb-3 mb-lg-5 pb-xl-2'>Discover our ballpark estimates for <a href="javascript:;" className='manrope'>mobile app development cost </a> based on app complexity. Generally, developing a <br className='d-lg-block d-none' /> mobile app will cost between <span>$10,000 to $120,000+</span> depending on the complexity and the functionality of the app.</p>
                         </div>

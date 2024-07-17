@@ -18,7 +18,7 @@ const DevelopmentProcess = () => {
                 <Row>
                     <Col lg={12}>
                         <div className="txt text-center">
-                            <h2 className='font-bold manrope text-white mb-3'>Our Mobile App Development Process</h2>
+                            <h2 className='font-bold manrope text-white mb-3'>Our <span className='newfycolr'>Mobile App Development</span>  Process</h2>
                             <p className='font16 font-medium text-white manrope mb-5'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining <br className='d-lg-block d-none' />
                                 UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                         </div>

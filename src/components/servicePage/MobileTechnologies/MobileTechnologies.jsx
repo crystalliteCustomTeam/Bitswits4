@@ -20,7 +20,7 @@ const MobileTechnologies = () => {
                 <Row className='align-items-center'>
                     <Col lg={7}>
                         <div className={styles.txt}>
-                            <h2 className='manrope font-bold mb-3 mb-xxl-5'>Mobile Technologies We Leverage As An App Development Company</h2>
+                            <h2 className='manrope font-bold mb-3 mb-xxl-5'><span className='newfycolr'>Mobile Technologies</span > We Leverage As An App Development Company</h2>
                             <p className='font16 manrope font-medium mb-4'>As an app development company, we leverage cutting-edge mobile technologies to create innovative and user-friendly applications. Our expertise includes native development for iOS and Android, as well as cross-platform solutions using frameworks like Flutter and React Native. By utilizing the latest advancements in mobile tech, we ensure high performance, seamless user experiences, and robust security for every app we develop. Trust us to transform your ideas into powerful mobile applications. As an app development company, we leverage cutting-edge mobile technologies to create innovative and user-friendly applications. </p>
                         </div>
                         <div className={styles.services}>

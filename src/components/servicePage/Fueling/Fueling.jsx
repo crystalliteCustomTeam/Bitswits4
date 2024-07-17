@@ -12,7 +12,7 @@ const Fueling = () => {
                 <Row>
                     <Col lg={6}>
                         <div className={styles.txt}>
-                            <h2 className='manrope font-bold text-white mb-3'>Fueling Your Ios App With
+                            <h2 className='manrope font-bold text-white mb-3'><span className='newfycolr'>Fueling Your Ios App</span> With
                                 Emerging Technologies</h2>
                             <p className='manrope font16 font-medium text-white mb-5 pb-xxl-3'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience.</p>
                             <div className={styles.ideaPart}>

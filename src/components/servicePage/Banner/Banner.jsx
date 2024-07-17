@@ -167,33 +167,10 @@ const Banner = ({ content }) => {
                     <Col lg={7} xl={6} className='p-lg-0'>
                         <div className="txt">
                             <p className={`mb-2 ${styles.firstPara} manrope font-bold`}>Quickly – Efficiently – Effortlessly</p>
-                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Empower Your Business With Top-Class Software Development</h1>
-                            <ul className='px-0 pb-2 mb-0'>
-                                <li>
-                                    <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>
-                                        <Image src={correcticon} alt='Bitswits' className='img-fluid me-2 me-md-3' />
-                                        We’re a software development company that ensures its experts
-                                    </p>
-                                </li>
-                                <li>
-                                    <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>
-                                        <Image src={correcticon} alt='Bitswits' className='img-fluid me-2 me-md-3' />
-                                        Cost-Effective Functional App Delivery In Just 45 Days
-                                    </p>
-                                </li>
-                                <li>
-                                    <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>
-                                        <Image src={correcticon} alt='Bitswits' className='img-fluid me-2 me-md-3' />
-                                        We’re a software development company that ensures its experts
-                                    </p>
-                                </li>
-                                <li>
-                                    <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>
-                                        <Image src={correcticon} alt='Bitswits' className='img-fluid me-2 me-md-3' />
-                                        Cost-Effective Functional App Delivery In Just 45 Days Almost
-                                    </p>
-                                </li>
-                            </ul>
+                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Empower Your Business With Top-Class <span className='newfycolr'>Software Development</span></h1>
+                            <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'> 
+                                We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days. We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days Almost.
+                            </p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
                                 <a href="javascript:;" className={`${styles.demoBtn} font-bold manrope`}>
                                     Get a Free Demo
