@@ -14,6 +14,19 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-company-washington-dc' },
+  //===== No-Index =====
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      'max-snippet': -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+    },
+  },
   //===== GEO Tags =====
   other: {},
 }

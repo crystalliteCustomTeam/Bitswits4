@@ -21,7 +21,6 @@ import Cursor from "../components/Cursor";
 import Skicky from "../components/Skicky";
 import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
-import MetaData from "../components/MetaData";
 import FooterNewLps from "../components/FooterNewLps";
 import NewServiceHeaderTwo from "../components/servicePage/NewServiceHeaderTwo/NewServiceHeaderTwo";
 import NewMobileHeader from "../components/NewMobileApp/Header/NewMobileHeader";
@@ -96,7 +95,6 @@ const ConditionalLayout = ({ children }) => {
         <>
             {showPixels && (
                 <>
-                    <MetaData />
                     <Pixel />
                     <Pixel2 />
                     <Analytics />

@@ -121,7 +121,7 @@
   letter-spacing: 1px;
 }
 
-/* Article Section */
+/*============ Article Section ============*/
 
 .articleSec {
   padding: 40px 0;
@@ -131,8 +131,13 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  position: sticky;
+  /* position: sticky;
   top: 0%;
+  z-index: 99; */
+}
+
+.articleSec .share li {
+  cursor: pointer;
 }
 
 .articleSec .share li::before {
@@ -255,7 +260,7 @@
   display: none;
 }
 
-/*================= Read Sec Start */
+/*============ Read Section ============*/
 
 .readSec {
   padding-top: 30px;
@@ -338,7 +343,81 @@
   margin-bottom: 0;
 }
 
-/* Media Query Start */
+/*============ Faqs Section ============*/
+
+.heading {
+  border-image: linear-gradient(90deg, #f32fc261, #4a78ef) 10;
+  border-width: 4px;
+  border-style: solid;
+  padding: 10px 20px;
+  margin-top: 1%;
+  cursor: pointer;
+  padding-bottom: unset;
+  background-color: #fff;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+}
+
+.faqs h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  background: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.faqs p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+.plus img {
+  filter: invert(1);
+}
+
+.faqs ul {
+  padding-left: 15px;
+}
+
+.faqs ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin: 5px 0;
+  list-style: none;
+}
+
+.faqs a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f32fc2;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.faqs a:hover {
+  color: var(--p-color);
+}
+
+/*============ Media Queries ============*/
 
 @media only screen and (max-width: 1299px) {
   .articleSec p {

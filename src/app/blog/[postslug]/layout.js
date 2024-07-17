@@ -1,11 +1,11 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Blogs",
+  title: "Blog Inner",
   description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
   //===== OG Tags =====
   openGraph: {
-    title: 'Blogs - BitsWits',
+    title: 'Blog Inner',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
     url: '/blog',
     siteName: 'BitsWits',

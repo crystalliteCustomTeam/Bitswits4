@@ -1,8 +1,9 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import Link from 'next/link'
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from 'react-bootstrap'
+import { FacebookShareButton, TwitterShareButton, LinkedinShareButton } from 'react-share';
 // ===== CSS
 import styles from "@/styles/blogNew/InnerBanner.module.css"
 import style from "@/styles/blogNew/Blognavigations.module.css"
@@ -19,8 +20,13 @@ import Share from "media/newblogs/shareIcon.png"
 import social1 from "media/newblogs/linkedin.png"
 import social2 from "media/newblogs/twitter.png"
 import social3 from "media/newblogs/facebook.png"
+//
+import close from '/public/newHomePageImages/close.png'
+import open from '/public/newHomePageImages/open.png'
+
 
 export default function Post({ params }) {
+    // =============== Post Data ===============
     let featuredImageUrl = "https://inhouse.cryscampus.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
     const [postData, setPostData] = useState(null);
@@ -49,32 +55,51 @@ export default function Post({ params }) {
         setActiveHeading(heading);
     };
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const isSticky = window.scrollY > 1000; // Example condition
-            if (isSticky) {
-                setIsNavVisible(false);
-            } else {
-                setIsNavVisible(true);
-            }
-        };
+    // =============== Share Article ===============
+    const shareArticle = () => {
+        if (navigator.share) {
+            navigator.share({
+                title: document.title,
+                url: (window.location.href)
+            }).then(() => {
+                console.log('Shared successfully');
+            }).catch((error) => {
+                console.error('Error sharing:', error);
+            });
+        } else {
+            console.log('Web Share API not supported');
+        }
+    };
 
-        window.addEventListener('scroll', handleScroll);
+    // =============== Faqs ===============
+    const initialFaqState = postData && postData.blogDescription && postData.blogDescription.faq ?
+        Array(postData.blogDescription.faq.length).fill(false) : [];
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    const [faqshow, setFaqShow] = useState(initialFaqState);
 
+    const toggleFaq = (index) => {
+        const newFaqShow = [...faqshow];
+        newFaqShow[index] = !newFaqShow[index];
+        setFaqShow(newFaqShow);
+    };
+
+
+    // // Handle case where postData is null or undefined
+    // if (!postData || !postData.blogDescription || !postData.blogDescription.faq) {
+    //     return <div>Loading...</div>; // Or handle this case according to your UI requirements
+    // }
+
+    // ==============================
     if (!postData) {
         return null;
     }
+
 
     return (
         <>
             {postData && (
                 <>
-                    {/* <Head>
+                    <Head>
                         <title key="title">{postData.title}</title>
                         <meta name="description" content={postData.metaDesc} key="metadesc" />
                         <meta property="og:title" content={postData.opengraphTitle} />
@@ -83,7 +108,7 @@ export default function Post({ params }) {
                         <meta property="og:type" content={postData.opengraphType} />
                         <meta property="og:locale" content="en_IN" />
                         <meta property="og:site_name" content={postData.opengraphSiteName} />
-                    </Head> */}
+                    </Head>
                     <section className={styles.innerBannerSec}>
                         <Container>
                             <Row className="align-items-center">
@@ -93,7 +118,7 @@ export default function Post({ params }) {
                                         <h1 className='fontsfregular'>{postData.title}</h1>
                                         {postData.blogDescription.topDescription && (
                                             <>
-                                                <div className='' dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></div>
+                                                <div dangerouslySetInnerHTML={{ __html: postData.blogDescription.topDescription }}></div>
                                             </>
                                         )}
                                     </div>
@@ -136,8 +161,11 @@ export default function Post({ params }) {
 
                                             <div className={styles.expertise}>
                                                 <span className={`${styles.expertisePara} fontsfregular`}>EXPERTISE</span>
-                                                <Link href="javascript:;" className={`fontsfregular text-black ${styles.btn}`}>Animation</Link>
-                                                <Link href="javascript:;" className={`fontsfregular text-black ${styles.btn}`}>Development</Link>
+                                                {postData.author.node.userexperties.experties.map((experties, index) => (
+                                                    <span key={index} className={`fontsfregular text-black ${styles.btn}`}>
+                                                        {experties}
+                                                    </span>
+                                                ))}
                                             </div>
                                         </Col>
                                     </Row>
@@ -150,26 +178,45 @@ export default function Post({ params }) {
                             <Row>
                                 <Col lg={8}>
                                     <ul className={`p-0 mb-4 ${styles.share}`}>
-                                        <li className={`d-flex align-items-center justify-content-center gap-3 ${styles.shareIcon}`}>
+                                        <li className={`d-flex align-items-center justify-content-center gap-3 ${styles.shareIcon}`} onClick={shareArticle}>
                                             <Image src={Share} alt='Bitswits' width={20} height={20} />
                                             <p className='mb-0'>Share This Article</p>
                                         </li>
                                         <li className={`${styles.icons}`}>
-                                            <Link href="javascript:;"></Link>
-                                            <Image src={social1} alt='Bitswits' width={20} height={20} />
+                                            <LinkedinShareButton className="w-100 h-100" url="https://www.linkedin.com/">
+                                                <Image src={social1} alt='Bitswits' width={20} height={20} />
+                                            </LinkedinShareButton>
                                         </li>
                                         <li className={`${styles.icons}`}>
-                                            <Link href="javascript:;">
+                                            <TwitterShareButton className="w-100 h-100" url="https://twitter.com/">
                                                 <Image src={social2} alt='Bitswits' width={25} height={20} />
-                                            </Link>
+                                            </TwitterShareButton>
                                         </li>
                                         <li className={`${styles.icons}`}>
-                                            <Link href="javascript:;">
+                                            <FacebookShareButton className="w-100 h-100" url="https://www.facebook.com/">
                                                 <Image src={social3} alt='Bitswits' width={10} height={20} />
-                                            </Link>
+                                            </FacebookShareButton>
                                         </li>
                                     </ul>
                                     <div dangerouslySetInnerHTML={{ __html: postData.content }}></div>
+
+                                    {postData.blogDescription.faq.map(({ questions, answers }, index) => (
+                                        <div key={index} className={styles.faqs}>
+                                            <div className={`${faqshow[index] ? 'touchFaq' : ''}`}>
+                                                <div onClick={() => toggleFaq(index)} className={styles.heading}>
+                                                    <h3>
+                                                        {questions}
+                                                        <span className={styles.plus}>
+                                                            <Image quality={75} alt='BitsWits' src={faqshow[index] ? open : close} className='img-fluid' />
+                                                        </span>
+                                                    </h3>
+                                                </div>
+                                                <div className={faqshow[index] ? 'd-block' : 'd-none'}>
+                                                    <p dangerouslySetInnerHTML={{ __html: answers }}></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </Col>
                                 <Col lg={4}>
                                     <div className={style.sidebar}>
@@ -214,23 +261,20 @@ export default function Post({ params }) {
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a
-                                                                    href='javascript:;'
-                                                                    className={`fontsfregular ${activeHeading === 'javascript:;' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                                <a href='#heading5'
+                                                                    className={`fontsfregular ${activeHeading === '#heading5' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading5')} >
                                                                     Frequently Asked Questions <br />Regarding The Development Of <br />Cryptocurrency Exchange Software
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a
-                                                                    href='javascript:;'
-                                                                    className={`fontsfregular ${activeHeading === 'javascript:;' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                                <a href='#heading6'
+                                                                    className={`fontsfregular ${activeHeading === '#heading6' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading6')} >
                                                                     Development Of A Crypto Exchange <br /> Platform App
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a
-                                                                    href='javascript:;'
-                                                                    className={`fontsfregular ${activeHeading === 'javascript:;' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('javascript:;')} >
+                                                                <a href='#heading7'
+                                                                    className={`fontsfregular ${activeHeading === '#heading7' ? style.active : 'text-black'}`} onClick={() => handleHeadingClick('#heading7')} >
                                                                     Tech Stack For Development
                                                                 </a>
                                                             </li>
@@ -258,34 +302,6 @@ export default function Post({ params }) {
                                                             <p className='fontsfregular'>Mobile Application</p>
                                                             <h6 className='fontsfregular'>Conquer Tech With Bitswits: <br />
                                                                 Your Path To Unstoppable Progress!</h6>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div className={style.services}>
-                                                    <h3 className='fontsfregular mb-4'>
-                                                        See Our Relsted Services
-                                                    </h3>
-                                                    <ul className={style.noList}>
-                                                        <li>
-                                                            Mobile App Development
-                                                        </li>
-                                                        <li>
-                                                            Blockchain App Development
-                                                        </li>
-                                                        <li>
-                                                            React Native
-                                                        </li>
-                                                        <li>
-                                                            Game App Development
-                                                        </li>
-                                                        <li>
-                                                            Artificial Intelligence
-                                                        </li>
-                                                        <li>
-                                                            Android App Development
-                                                        </li>
-                                                        <li>
-                                                            iOS App Development
                                                         </li>
                                                     </ul>
                                                 </div>
