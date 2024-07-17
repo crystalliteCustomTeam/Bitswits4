@@ -163,7 +163,7 @@ const Banner = ({ content }) => {
     return (
         <section className={`${styles.bannerSec} ${styles.bannerOne}`}>
             <Container>
-                <Row>
+                <Row className='align-items-center'>
                     <Col lg={7} xl={6} className='p-lg-0'>
                         <div className="txt">
                             <p className={`mb-2 ${styles.firstPara} manrope font-bold`}>Quickly – Efficiently – Effortlessly</p>

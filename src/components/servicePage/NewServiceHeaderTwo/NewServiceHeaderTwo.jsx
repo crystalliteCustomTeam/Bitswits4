@@ -1570,7 +1570,7 @@ const NewServiceHeaderTwo = () => {
                             )}
                         </li>
                         <li className={styles.locDropdown}>
-                            <Link href="#" className={styles.post}>
+                            <Link href="#" className={`manrope font-bold ${styles.post}`}>
                                 Location
                                 <FaAngleDown />
                             </Link>

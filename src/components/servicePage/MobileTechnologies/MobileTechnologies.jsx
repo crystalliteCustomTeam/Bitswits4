@@ -17,7 +17,7 @@ const MobileTechnologies = () => {
     return (
         <section className={styles.technologiesSec}>
             <Container>
-                <Row>
+                <Row className='align-items-center'>
                     <Col lg={7}>
                         <div className={styles.txt}>
                             <h2 className='manrope font-bold mb-3 mb-xxl-5'>Mobile Technologies We Leverage As An App Development Company</h2>
@@ -64,7 +64,7 @@ const MobileTechnologies = () => {
                         </div>
                     </Col>
                     <Col lg={5}>
-                        <div className={styles.secImage}>
+                        <div className={`d-md-block d-none ${styles.secImage}`}>
                             <Image src={TachnoImg} alt='Bitswits' className='img-fluid' />
                         </div>
                     </Col>
