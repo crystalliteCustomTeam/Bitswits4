@@ -8,7 +8,6 @@
 }
 
 .content {
-    overflow-y: hidden;
     border-top: 1px solid #cecece;
     margin-top: 20px;
     transition: all 0.5s ease;
@@ -24,6 +23,8 @@
     padding-right: 10px;
     font-size: 15px;
     line-height: 25px;
+    height: 0px;
+    z-index: -1;
 }
 
 .successfulSlider {
@@ -35,6 +36,14 @@
     overflow-x: scroll;
     gap: 0 20px;
     padding-bottom: 60px;
+}
+
+.cardBtn {
+    background: white;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    position: relative;
 }
 
 .cardBtn a {
@@ -55,8 +64,8 @@
 
 .card {
     position: relative;
-    margin: 0 10px;
-    min-width: 400px;
+    margin: 0 17px;
+    min-width: 379px;
 }
 
 .card::after {
@@ -98,7 +107,7 @@
     max-height: max-content;
     transition: all 0.4s ease;
     transform: translateY(0px);
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .card:hover .content {
@@ -106,11 +115,24 @@
     transition: all 0.5s ease;
 }
 
+
+.card:hover .content p {
+    height: 70px;
+}
+
 .hoverTxt {
     max-height: 0;
-    opacity: 0;
-    transform: translateY(95px);
+    /* opacity: 0; */
+    transform: translateY(80px);
     transition: all 0.4s ease;
+}
+
+.sliderNumber {
+    background: white;
+    display: flex; 
+    z-index: 9999;
+    position: relative;
+    height: 45px;
 }
 
 .sliderNumber p {
@@ -160,6 +182,16 @@
     .successfulSec h2 {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .card {
+        min-width: 310px;
+    }
+
+    .content p {
+        padding-right: 0;
+        font-size: 13px;
+        line-height: 22px;
     }
 }
 
