@@ -1,6 +1,4 @@
 .bannerSec {
-  /* margin-bottom: 50px; */
-  /* height: 100vh; */
   position: relative;
   z-index: 1;
   display: flex;
@@ -43,7 +41,7 @@
 .bannerSec h1 {
   font-size: 50px;
   line-height: 68px;
-}
+} 
 
 /* =================== */
 
@@ -414,6 +412,10 @@
 /* =========================================== */
 
 @media only screen and (max-width: 1920px) {
+  .bannerOne {
+    height: 100%;
+  }
+
   .bannerTwo {
     height: 110vh !important;
   }
@@ -432,6 +434,7 @@
 }
 
 @media screen and (min-width: 1700px) {
+
   .conform h1 {
     font-size: 50px;
   }
@@ -456,6 +459,10 @@
 }
 
 @media screen and (max-width: 1799px) {
+  .bannerOne {
+    height: 100vh;
+  }
+
   .applost {
     padding: 120px 0 100px;
   }

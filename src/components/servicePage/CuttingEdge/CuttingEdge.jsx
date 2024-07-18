@@ -24,7 +24,7 @@ const CuttingEdge = () => {
                     <Col lg={12}>
                         <div className="txt">
                             <h2 className='text-center text-white manrope font-bold mb-2 mb-lg-4'>Cutting-Edge Services We Offer As An <br className='d-xl-block d-none' />
-                                App Development Company</h2>
+                            <span className='newfycolr'>App Development Company</span></h2>
                             <p className='font16 text-white font-medium text-center manrope mb-md-5 pb-3'>We’re a software development company that ensures its expertise extends to offer a seamlessly <br className='d-xl-block d-none' /> productive and growth-oriented partnership</p>
                         </div>
                     </Col>

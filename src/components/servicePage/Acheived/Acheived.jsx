@@ -58,7 +58,7 @@ const Acheived = () => {
                 <Row>
                     <Col lg={12}>
                         <div className="txt">
-                            <h2 className='text-center manrope font-bold mb-xl-3'>Together We've Achieved</h2>
+                            <h2 className='text-center manrope font-bold mb-xl-3'>Together We've <span className='newfycolr'>Achieved </span></h2>
                             <p className='font16 text-black font-medium text-center manrope mb-5 pb-3'>We’re a software development company that ensures its expertise extends to offer <br className='d-lg-block d-none' /> a seamlessly productive and growth-oriented partnership</p>
                         </div>
                     </Col>

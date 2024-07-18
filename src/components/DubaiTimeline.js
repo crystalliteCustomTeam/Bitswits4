@@ -39,14 +39,14 @@ const DubaiTimeline = ({ content }) => {
                                             <span className={styles.dotted}></span>
                                         </div>
                                         <div className={`${styles.timelineContent} ${styles.paddingOne} ${styles.spacing}`}>
-                                            <Image src={TimelineOne} loading="lazy" sizes="100vw" width={165} height={87} alt='Bitswits' />
+                                            <Image src={TimelineOne} loading="lazy" sizes="100vw" width={165} height={87} alt='Image shows about Research and Strategy' />
                                             <h3 className=''>{heading1}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>{para1}</p>
                                         </div>
                                     </div>
                                     <div className={`${styles.timeline} ${styles.timeTwo} ${styles.timelineRight} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.spacingOne} ${styles.paddingThree}`}>
-                                            <Image src={TimelineThree} loading="lazy" sizes="100vw" width={203} height={202} alt='Bitswits' />
+                                            <Image src={TimelineThree} loading="lazy" sizes="100vw" width={203} height={202} alt='This Image shows an example of a developed app' />
                                             <h3 className=''>{heading2}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para2}
@@ -56,7 +56,7 @@ const DubaiTimeline = ({ content }) => {
                                         <div className={` ${styles.numberTwoMobile}`}></div>
                                         <div className={styles.numberOne}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFour} ${styles.spacingTwo}`}>
-                                            <Image src={TimelineTwo} alt='Bitswits' loading="lazy" sizes="100vw" width={184} height={100} />
+                                            <Image src={TimelineTwo} alt='Image shows about UI and UX ' loading="lazy" sizes="100vw" width={184} height={100} />
                                             <h3 className=''>{heading3}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para3}
@@ -65,7 +65,7 @@ const DubaiTimeline = ({ content }) => {
                                     </div>
                                     <div className={`${styles.timeline} ${styles.timeThree} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour}`}>
-                                            <Image src={TimelineFour} loading="lazy" sizes="100vw" width={207} height={202} alt='Bitswits' />
+                                            <Image src={TimelineFour} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the deployment phase of an app' />
                                             <h3 className=''>{heading4}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para4}
@@ -75,7 +75,7 @@ const DubaiTimeline = ({ content }) => {
                                         <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
                                         <div className={` ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
-                                            <Image src={TimelineFive} loading="lazy" sizes="100vw" width={207} height={202} alt='Bitswits' />
+                                            <Image src={TimelineFive} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the scaling phase of an app' />
                                             <h3 className=''>{heading5}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para5}

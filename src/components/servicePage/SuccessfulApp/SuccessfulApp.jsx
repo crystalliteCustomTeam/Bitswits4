@@ -48,7 +48,7 @@ const SuccessfulApp = () => {
                 <Row>
                     <Col lg={12}>
                         <div className="txt">
-                            <h2 className='text-center text-black manrope font-bold mb-3'>Take A Glimpse At Our Successful App Projects</h2>
+                            <h2 className='text-center text-black manrope font-bold mb-3'>Take A Glimpse At <span className='newfycolr'>Our Successful App </span>Projects</h2>
                             <p className='font16 text-black font-medium text-center manrope mb-5 pb-md-2'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. <br className='d-lg-block d-none' /> We bring your iOS app ideas to life by using our comprehensive</p>
                         </div>
                     </Col>

@@ -26,7 +26,7 @@ const Faqs = (props) => {
                         <Col lg={12}>
                             <h6 className="manrope center">Asked Questions With Value</h6>
                             <h2 className="text-black manrope center pb-md-3 pb-xxl-5 mb-lg-4">
-                                Frequently Asked Questions
+                                Frequently <span className='newfycolr'>Asked</span> Questions
                             </h2>
                         </Col>
                         <Col lg={4}>

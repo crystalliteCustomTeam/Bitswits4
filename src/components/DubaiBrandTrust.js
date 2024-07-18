@@ -23,10 +23,10 @@ const DubaiBrandTrust = () => {
                             </div>
                             <div className={styles.brands}>
                                 <div>
-                                    <Image src={BrandOne} alt='Bitswits' loading='lazy' sizes="100vw" className='w-100 h-auto' />
-                                    <Image src={BrandTwo} alt='Bitswits' loading='lazy' sizes="100vw" className='w-100 h-auto' />
-                                    <Image src={BrandOne} alt='Bitswits' loading='lazy' sizes="100vw" className='w-100 h-auto' />
-                                    <Image src={BrandTwo} alt='Bitswits' loading='lazy' sizes="100vw" className='w-100 h-auto' />
+                                    <Image src={BrandOne} alt='This image shows about the companies that are our partners' loading='lazy' sizes="100vw" className='w-100 h-auto' />
+                                    <Image src={BrandTwo} alt='This image shows about the companies that are our partners' loading='lazy' sizes="100vw" className='w-100 h-auto' />
+                                    <Image src={BrandOne} alt='This image shows about the companies that are our partners' loading='lazy' sizes="100vw" className='w-100 h-auto' />
+                                    <Image src={BrandTwo} alt='This image shows about the companies that are our partners' loading='lazy' sizes="100vw" className='w-100 h-auto' />
                                 </div>
                             </div>
                         </Col>
