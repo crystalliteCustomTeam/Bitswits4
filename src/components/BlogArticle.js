@@ -30,7 +30,7 @@ const BlogArticle = () => {
                                         Your Path To Unstoppable Progress!</h5>
                                     <p className='fontsfregular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
                                     <div className={styles.btn}>
-                                        <a href="javascript:;" className='text-black'>
+                                        <a href="#href" className='text-black'>
                                             Read More
                                             <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                         </a>
@@ -61,7 +61,7 @@ const BlogArticle = () => {
                                         Your Path To Unstoppable Progress!</h5>
                                     <p className='fontsfregular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
                                     <div className={styles.btn}>
-                                        <a href="javascript:;" className='text-black'>
+                                        <a href="#href" className='text-black'>
                                             Read More
                                             <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                         </a>
@@ -92,7 +92,7 @@ const BlogArticle = () => {
                                         Your Path To Unstoppable Progress!</h5>
                                     <p className='fontsfregular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain, Was Exceptional. Their Comprehensive Work, From Requirement Analysis</p>
                                     <div className={styles.btn}>
-                                        <a href="javascript:;" className='text-black'>
+                                        <a href="#href" className='text-black'>
                                             Read More
                                             <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                         </a>
