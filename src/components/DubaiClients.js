@@ -51,7 +51,7 @@ const DubaiClients = ({ content }) => {
                         <Col md={6} lg={4}>
                             <div className={styles.trustPilot}>
                                 <div className='image'>
-                                    <Image src={ClientOne} alt='Bitswits' loading='lazy' sizes="100vw" width={161} height={40} />
+                                    <Image src={ClientOne} alt='Trustpilot Badge' loading='lazy' sizes="100vw" width={161} height={40} />
                                 </div>
                                 <div>
                                     <div className='txt d-flex align-items-center'>
@@ -71,7 +71,7 @@ const DubaiClients = ({ content }) => {
                         <Col md={6} lg={4}>
                             <div className={`${styles.trustPilot} mt-5 mt-md-0`}>
                                 <div className='image'>
-                                    <Image src={ClientTwo} alt='Bitswits' loading='lazy' sizes="100vw" width={161} height={40} />
+                                    <Image src={ClientTwo} alt='Clutch Badge' loading='lazy' sizes="100vw" width={161} height={40} />
                                 </div>
                                 <div>
                                     <div className='txt d-flex align-items-center'>
@@ -91,7 +91,7 @@ const DubaiClients = ({ content }) => {
                         <Col md={12} lg={4}>
                             <div className={`${styles.trustPilot} mt-5 mt-lg-0`}>
                                 <div className='image'>
-                                    <Image src={ClientThree} alt='Bitswits' loading='lazy' sizes="100vw" width={161} height={40} />
+                                    <Image src={ClientThree} alt='Bark Badge' loading='lazy' sizes="100vw" width={161} height={40} />
                                 </div>
                                 <div>
                                     <div className='txt d-flex align-items-center'>

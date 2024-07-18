@@ -212,7 +212,7 @@ const Bannerdubai = ({ content }) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <Image priority={true} sizes='100vw' src={Clutch} alt='Bitswits' width={129} height={60} />
+                                    <Image priority={true} sizes='100vw' src={Clutch} alt='Clutch Badge' width={129} height={60} />
                                 </div>
                             </div>
                         </Col>

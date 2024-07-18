@@ -67,7 +67,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban1} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban1} loading='lazy' sizes="100vw" alt='Soul Scribe Social Networking App' className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel}`}>
@@ -75,7 +75,7 @@ const Whowearenew = ({ content }) => {
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleOne}</h3>
                                         <Link href="/social-app-development-case-study">
-                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                            <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>
                                     <p className='white fontsfregular'>
@@ -101,7 +101,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban2} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban2} loading='lazy' alt='The Ready App' sizes="100vw" className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel2}`}>
@@ -109,7 +109,7 @@ const Whowearenew = ({ content }) => {
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleTwo}</h3>
                                         <Link href="/hiring-app-development-case-study">
-                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                            <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>
                                     <p className='white fontsfregular'>
@@ -135,7 +135,7 @@ const Whowearenew = ({ content }) => {
                         <Col md={4} className='p-0'>
                             <div className={styles.caseBox}>
                                 <div className={`${styles.ImageDiv}`}>
-                                    <Image src={ban3} loading='lazy' sizes="100vw" className={`img-fluid mx-auto d-block`} />
+                                    <Image src={ban3} loading='lazy' alt='Grease Monkey App' sizes="100vw" className={`img-fluid mx-auto d-block`} />
                                 </div>
                             </div>
                             <div className={`${styles.travelBox} ${styles.travel3}`}>
@@ -143,7 +143,7 @@ const Whowearenew = ({ content }) => {
                                     <div className={`d-flex align-items-center justify-content-between mb-2 ${styles.txt}`}>
                                         <h3>{subtitleThree}</h3>
                                         <Link href="/automobile-repair-app-development-case-study">
-                                            <Image src={ArrowImage} alt='Bitswits' className={`${styles.arrowImage} img-fluid`} />
+                                            <Image src={ArrowImage} alt='Arrow Icon' className={`${styles.arrowImage} img-fluid`} />
                                         </Link>
                                     </div>
                                     <p className='white fontsfregular'>
