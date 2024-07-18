@@ -163,7 +163,7 @@ const VideoFooter = () => {
                                 <p>Its High Time to Showcase Your Store to the World</p>
                             </div>
                             <div className={styles.form}>
-                                <form action="javascript:;">
+                                <form>
                                     <Row>
                                         <Col lg={6} className={`${styles.inputs} `}>
                                             <FaUser className={styles.icon} />

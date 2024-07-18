@@ -13,7 +13,7 @@ const Discuss = () => {
                             <p className='font16 fw500 manrope mb-4 mb-md-5 pb-xxl-3'>We’re a software development company that ensures its expertise extends to offer <br className='d-lg-block d-none ' /> a seamlessly productive and growth-oriented partnership</p>
                         </div>
                         <div className={styles.form}>
-                            <form action="javascript:;">
+                            <form>
                                 <div className={`${styles.mainDiv} name`}>
                                     <input type="text" placeholder='Name' className='manrope' />
                                 </div>

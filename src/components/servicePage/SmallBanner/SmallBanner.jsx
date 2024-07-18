@@ -20,7 +20,7 @@ const SmallBanner = () => {
                                 </h2>
                                 <p className='manrope font-medium font16 text-white'>BitsWits believes in taking a creative, hands-on approach to mobile application development because we know it’s not just</p>
                                 <div className={styles.secBtn}>
-                                    <a href="javascript:;" className='manrope'>
+                                    <a href="#href" className='manrope'>
                                         Get Free Consultation
                                     </a>
                                 </div>

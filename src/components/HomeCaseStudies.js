@@ -212,7 +212,7 @@ const HomeCaseStudies = ({ content, onAnchorClick }) => {
                             <div className={styles.featured}>
                                 <div>
                                     <div className={styles.btn}>
-                                        <a href="javascript:;">
+                                        <a href="#href">
                                             FEATURED WORKS
                                         </a>
                                     </div>

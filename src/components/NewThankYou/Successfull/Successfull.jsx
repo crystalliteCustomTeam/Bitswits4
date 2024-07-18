@@ -70,7 +70,7 @@ const SuccessfulApp = () => {
                                         </div>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -93,7 +93,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -116,7 +116,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -139,7 +139,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -162,7 +162,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -187,7 +187,7 @@ const SuccessfulApp = () => {
                                         </div>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -210,7 +210,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -233,7 +233,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -256,7 +256,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>
@@ -279,7 +279,7 @@ const SuccessfulApp = () => {
                                         <p className='manrope font-medium'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app</p>
                                     </div>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             View Full Casestudy
                                         </a>
                                     </div>

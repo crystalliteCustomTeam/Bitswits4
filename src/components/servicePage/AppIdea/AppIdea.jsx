@@ -21,7 +21,7 @@ const AppIdea = () => {
                                 <h2 className='font-bold text-white manrope mb-3'>Let's Change The World
                                     With Your App Idea!</h2>
                                 <p className='font16 text-white font-medium manrope mb-md-4 pb-3'>BitsWits believes in taking a creative, hands-on approach to mobile application development because we know it’s not just</p>
-                                <form action="javascript:;">
+                                <form>
                                     <Row className=''>
                                         <Col lg={6}>
                                             <div className="name">

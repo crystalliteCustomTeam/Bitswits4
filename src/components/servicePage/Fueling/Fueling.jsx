@@ -25,7 +25,7 @@ const Fueling = () => {
                                 </div>
                             </div>
                             <div className={styles.secBtn}>
-                                <a href="javascript:;">
+                                <a href="#href">
                                     Let’s Discuss Your Project
                                 </a>
                             </div>

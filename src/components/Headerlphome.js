@@ -185,13 +185,13 @@ const Headerlphome = () => {
                             <div className={styles.toasNotification} data-scroll data-scroll-speed="0.1">
                                 <div className={styles.innerborder} >
                                     <div className="text-uppercase font-12 me-3" id="toasNotification1">
-                                        <Link href="jjavascript:;" className="text-white font-18" id="closeBtn"> x
+                                        <Link href="#href" className="text-white font-18" id="closeBtn"> x
                                         </Link>
                                         <span className={styles.package}> 25% OFF any package! USE:
                                             <span className={styles.textth}> today25 </span> today!</span>
                                     </div>
                                     <div className="mouse" data-bs-toggle="modal" data-bs-target="#ourWebModal">
-                                        <Link href="javascript:;" className={styles.ToastOpen}>CLAIM</Link>
+                                        <Link href="#href" className={styles.ToastOpen}>CLAIM</Link>
                                     </div>
                                 </div>
                             </div>

@@ -28,7 +28,7 @@ const NewDubaiBussiness = ({ content }) => {
                                 </div>
                             ))}
                             <div>
-                                <Link href="javascript:;" className={styles.btn}>
+                                <Link href="#href" className={styles.btn}>
                                     Talk To Our Experts
                                 </Link>
                             </div>

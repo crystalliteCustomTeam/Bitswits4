@@ -58,7 +58,7 @@ const MobileTechnologies = () => {
                             </div>
                         </div>
                         <div className={styles.serviBtn}>
-                            <a href="javascript:;">
+                            <a href="#href">
                                 Let’s Discuss Your Project
                             </a>
                         </div>

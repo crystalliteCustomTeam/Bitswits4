@@ -62,7 +62,7 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="javascript:;" className={styles.getStarted}>
+                                        <Link href="#href" className={styles.getStarted}>
                                             Get Started
                                         </Link>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
@@ -114,7 +114,7 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="javascript:;" className={styles.getStarted}>
+                                        <Link href="#href" className={styles.getStarted}>
                                             Get Started
                                         </Link>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>
@@ -166,7 +166,7 @@ const Packages = () => {
                                         </a>
                                     </div>
                                     <div className={styles.cardCtas}>
-                                        <Link href="javascript:;" className={styles.getStarted}>
+                                        <Link href="#href" className={styles.getStarted}>
                                             Get Started
                                         </Link>
                                         <a href="javascript:$zopim.livechat.window.show();" className={styles.liveChart}>

@@ -36,7 +36,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>IOS Application Development</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -46,7 +46,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -63,7 +63,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Android Application Development</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -73,7 +73,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -90,7 +90,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Progressive Web Application Development</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -100,7 +100,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -117,7 +117,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Cross Platform Applications</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -127,7 +127,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -144,7 +144,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>UX/UI Designing</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -154,7 +154,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -171,7 +171,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Prototyping</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -181,7 +181,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -198,7 +198,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Software Quality Testing</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -208,7 +208,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -225,7 +225,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Migration Services</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -235,7 +235,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -252,7 +252,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Blockchain App Development</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -262,7 +262,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -279,7 +279,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Wearables</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -289,7 +289,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -306,7 +306,7 @@ const CuttingEdge = () => {
                                         <h3 className='manrope'>Augmented Reality</h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -316,7 +316,7 @@ const CuttingEdge = () => {
                                         <p className='font16 font-medium manrope'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. We bring your iOS app ideas to life by using our comprehensive</p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
-                                                <a href="javascript:;" className='manrope font-bold'>
+                                                <a href="#href" className='manrope font-bold'>
                                                     Let’s Do This!
                                                 </a>
                                             </div>
@@ -335,7 +335,7 @@ const CuttingEdge = () => {
                             <div className={styles.estimateContent}>
                                 <h3 className='font-bold manrope text-center text-white'>Estimate Your App <br /> Project's Cost Now!</h3>
                                 <div className={`${styles.etimateBtn}`}>
-                                    <a href="javascript:;">
+                                    <a href="#href">
                                         Let's Talk !
                                     </a>
                                 </div>

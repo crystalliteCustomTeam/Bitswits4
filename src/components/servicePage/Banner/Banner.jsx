@@ -172,10 +172,10 @@ const Banner = ({ content }) => {
                                 We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days. We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days Almost.
                             </p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
-                                <a href="javascript:;" className={`${styles.demoBtn} font-bold manrope`}>
+                                <a href="#href" className={`${styles.demoBtn} font-bold manrope`}>
                                     Get a Free Demo
                                 </a>
-                                <a href="javascript:;" className={`${styles.portfolioBtn} font-bold manrope`}>
+                                <a href="#href" className={`${styles.portfolioBtn} font-bold manrope`}>
                                     See Portfolio
                                 </a>
                             </div>

@@ -14,7 +14,7 @@ const EstimatedCost = () => {
                         <div className={`${styles.txt} text-center`}>
                             <h2 className='font-bold manrope text-black mb-3'>Estimated Cost Of <span className='newfycolr'>Mobile App Development</span> <br className='d-lg-block d-none' />
                                 Based On App Complexity</h2>
-                            <p className='font16 font-medium text-black manrope mb-3 mb-lg-5 pb-xl-2'>Discover our ballpark estimates for <a href="javascript:;" className='manrope'>mobile app development cost </a> based on app complexity. Generally, developing a <br className='d-lg-block d-none' /> mobile app will cost between <span>$10,000 to $120,000+</span> depending on the complexity and the functionality of the app.</p>
+                            <p className='font16 font-medium text-black manrope mb-3 mb-lg-5 pb-xl-2'>Discover our ballpark estimates for <a href="#href" className='manrope'>mobile app development cost </a> based on app complexity. Generally, developing a <br className='d-lg-block d-none' /> mobile app will cost between <span>$10,000 to $120,000+</span> depending on the complexity and the functionality of the app.</p>
                         </div>
                     </Col>
                     <Col lg={6} className='mt-4 mt-lg-0'>
@@ -57,7 +57,7 @@ const EstimatedCost = () => {
                                     <h6 className='manrope font-bold text-white pt-5'>Intransition At A Glance</h6>
                                     <p className='mb-4 manrope font16 font-medium pe-2 text-white'>Normally, complex apps with endless features and functionalities can cost between $100k-$200k.</p>
                                     <div className={styles.cardBtn}>
-                                        <a href="javascript:;" className='manrope'>
+                                        <a href="#href" className='manrope'>
                                             Let’s Do This!
                                         </a>
                                     </div>

@@ -19,10 +19,10 @@ const BannerThree = ({ content }) => {
                             <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Empower Your Business With Top-Class Software Development</h1>
                             <p className='font16 text-black fw500 mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>We’re a software development company that ensures its expertise extends to offer a seamlessly productive and growth-oriented partnership to its client’s goals, and internal teams. We’re a software development company that ensures</p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
-                                <a href="javascript:;" className={`${styles.demoBtn} font-bold manrope`}>
+                                <a href="#href" className={`${styles.demoBtn} font-bold manrope`}>
                                     Get a Free Demo
                                 </a>
-                                <a href="javascript:;" className={`${styles.portfolioBtn} font-bold manrope`}>
+                                <a href="#href" className={`${styles.portfolioBtn} font-bold manrope`}>
                                     See Portfolio
                                 </a>
                             </div>

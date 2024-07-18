@@ -94,7 +94,7 @@ const GlobalPresence = () => {
                                             <p className='manrope'>08 : 10 PM</p>
                                         </div>
                                         <div className={styles.adress}>
-                                            <a href="javascript:;" className='text-black'>
+                                            <a href="#href" className='text-black'>
                                                 <p className='manrope'>2800 Post Oak Blvd STE 4100,<br className='d-xl-block d-none' /> Houston, TX 77056, United States 6</p>
                                             </a>
                                         </div>
@@ -136,7 +136,7 @@ const GlobalPresence = () => {
                                             <p className='manrope'>08 : 10 PM</p>
                                         </div>
                                         <div className={styles.adress}>
-                                            <a href="javascript:;" className='text-black'>
+                                            <a href="#href" className='text-black'>
                                                 <p className='manrope'>2800 Post Oak Blvd STE 4100,<br className='d-xl-block d-none' /> Houston, TX 77056, United States 6</p>
                                             </a>
                                         </div>
@@ -178,7 +178,7 @@ const GlobalPresence = () => {
                                             <p className='manrope'>08 : 10 PM</p>
                                         </div>
                                         <div className={styles.adress}>
-                                            <a href="javascript:;" className='text-black'>
+                                            <a href="#href" className='text-black'>
                                                 <p className='manrope'>2800 Post Oak Blvd STE 4100,<br className='d-xl-block d-none' /> Houston, TX 77056, United States 6</p>
                                             </a>
                                         </div>
@@ -220,7 +220,7 @@ const GlobalPresence = () => {
                                             <p className='manrope'>08 : 10 PM</p>
                                         </div>
                                         <div className={styles.adress}>
-                                            <a href="javascript:;" className='text-black'>
+                                            <a href="#href" className='text-black'>
                                                 <p className='manrope'>2800 Post Oak Blvd STE 4100,<br className='d-xl-block d-none' /> Houston, TX 77056, United States 6</p>
                                             </a>
                                         </div>
@@ -262,7 +262,7 @@ const GlobalPresence = () => {
                                             <p className='manrope'>08 : 10 PM</p>
                                         </div>
                                         <div className={styles.adress}>
-                                            <a href="javascript:;" className='text-black'>
+                                            <a href="#href" className='text-black'>
                                                 <p className='manrope'>2800 Post Oak Blvd STE 4100,<br className='d-xl-block d-none' /> Houston, TX 77056, United States 6</p>
                                             </a>
                                         </div>

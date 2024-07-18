@@ -62,7 +62,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Ios App Development Consultation</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -82,7 +82,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Document</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -102,7 +102,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Design</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -122,7 +122,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Executive</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -142,7 +142,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Inegration</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -162,7 +162,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Deployment</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>
@@ -182,7 +182,7 @@ const DevelopmentProcess = () => {
                                             <h3 className='manrope text-white font-bold mb-3'>Maintenance</h3>
                                             <p className='manrope text-white font16 font-medium'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
                                             <div className={styles.tabBtn}>
-                                                <a href="javascript:;">
+                                                <a href="#href">
                                                     Let’s Discuss Your Project
                                                 </a>
                                             </div>

@@ -34,7 +34,7 @@ const Faqs = (props) => {
                                 <h3 className="manrope mb-3">Have Any Queries?</h3>
                                 <p className="manrope font-medium">Have a word with our expert consultants about your next project to get suggestive guidance & proposal.</p>
                                 <div className={styles.secBtn}>
-                                    <a href="javascript:;" className="manrope">
+                                    <a href="#href" className="manrope">
                                         Get A Free Consultation Now
                                     </a>
                                 </div>

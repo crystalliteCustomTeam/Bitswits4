@@ -29,7 +29,7 @@ const BlogPosts = () => {
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>
-                                    <a href="javascript:;" className='text-black manrope font-bold'>
+                                    <a href="#href" className='text-black manrope font-bold'>
                                         Read More
                                         <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                     </a>
@@ -60,7 +60,7 @@ const BlogPosts = () => {
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>
-                                    <a href="javascript:;" className='text-black manrope font-bold'>
+                                    <a href="#href" className='text-black manrope font-bold'>
                                         Read More
                                         <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                     </a>
@@ -91,7 +91,7 @@ const BlogPosts = () => {
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>
-                                    <a href="javascript:;" className='text-black manrope font-bold'>
+                                    <a href="#href" className='text-black manrope font-bold'>
                                         Read More
                                         <Image src={Arrow} alt='Bitswits' className='ms-2' />
                                     </a>

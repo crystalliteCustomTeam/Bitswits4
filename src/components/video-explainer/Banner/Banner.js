@@ -38,10 +38,10 @@ const Banner = () => {
                             </ul>
                             <Image src={BannerLogos} alt='banner-logos' className='' />
                             <div className='d-flex align-items-center gap-4 pt-4'>
-                                <Link href="javascript:;" className={styles.btn}>
+                                <Link href="#href" className={styles.btn}>
                                     Get Started
                                 </Link>
-                                <Link href="javascript:;" className='d-flex align align-items-center'>
+                                <Link href="#href" className='d-flex align align-items-center'>
                                     <Image src={chatIcon} alt='chat-icon' className='me-2' />
                                     <div>
                                         <span className={styles.spanOne}>Talk to our Expert</span>
@@ -51,7 +51,7 @@ const Banner = () => {
                             </div>
                         </Col>
                         <Col lg={5}>
-                            <form action="javascript:;" className={styles.form}>
+                            <form action="#href" className={styles.form}>
                                 <div className={styles.txt}>
                                     <h3>
                                         Share Your <br className='block' />

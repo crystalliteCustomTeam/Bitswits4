@@ -16,7 +16,7 @@ const BannerTwo = () => {
                                 We’re a software development company that ensures its expertise extends to offer a seamlessly productive <br className='d-lg-block d-none' /> and growth-oriented partnership to its client’s goals, and internal teams.
                             </p>
                             <div className="btn d-flex align-items-center justify-center gap-4 px-0">
-                                <a href="javascript:;" className={`${styles.demoBtn} font-bold manrope mx-auto`}>
+                                <a href="#href" className={`${styles.demoBtn} font-bold manrope mx-auto`}>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>

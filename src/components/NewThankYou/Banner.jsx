@@ -69,7 +69,7 @@ const Banner = () => {
                             <h1 className='manrope font-bold mb-3'>Thanks For Getting In Touch!</h1>
                             <p className='font16 fw500 manrope mb-4 mb-md-5'>Your online query has been recorded and forwarded to one of our account directors. Hang in <br className='d-lg-block d-none' /> there because, within a matter of 24 hours, we will reach out to you!</p>
                             <div className={styles.btn}>
-                                <Link href="javascript:;">
+                                <Link href="#href">
                                     Go Back Home
                                 </Link>
                             </div>

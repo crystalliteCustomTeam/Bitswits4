@@ -76,7 +76,7 @@ const StoryLineDuplicate = ({ content }) => {
                                             <>
                                                 <p className="fontsfregular">{item.answer}</p>
                                                 <div className={styles.btn}>
-                                                    <Link href="javascript:;">
+                                                    <Link href="#href">
                                                         {item.btn}
                                                     </Link>
                                                 </div>

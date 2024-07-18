@@ -39,7 +39,7 @@ const WhyChoose = () => {
                             <p className='font16 text-black font-medium manrope mb-3'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining
                                 UI/UX app design.</p>
                             <div className={styles.secBtn}>
-                                <a href="javascript:;">
+                                <a href="#href">
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
