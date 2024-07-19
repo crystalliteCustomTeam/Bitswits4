@@ -73,7 +73,7 @@
 
     .services {
         padding-right: 0;
-        justify-content: space-between;
+        gap: 20px;
     }
 
     .technologiesSec .secImage {
