@@ -15,7 +15,32 @@ import Client from "media/newblogs/innerclient.png"
 import verified from "media/newblogs/blog-verify.png"
 import experience from "media/newblogs/experience.png"
 
-export default async function Post({ params }) {
+
+
+export async function generateMetadata({ params, searchParams }, parent) {
+    // read route params
+    const postData = await getSinglePost(params.postslug);
+    return {
+        title: postData.seo.title,
+        description: postData.seo.metaDesc,
+        //===== OG Tags =====
+        openGraph: {
+            title: postData.seo.opengraphTitle,
+            description: postData.seo.metaDesc,
+            url: postData.seo.opengraphUrl,
+            siteName: postData.seo.opengraphSiteName,
+            locale: 'en_US',
+            type: postData.seo.opengraphType,
+            images: "/public/images/icons/footerlogo.png",
+        },
+        //===== Canonical =====
+        alternates: { canonical: postData.seo.opengraphTitle },
+        //===== GEO Tags =====
+        other: {},
+    }
+}
+
+export default async function Post({ params, searchParams }) {
     // =============== Post Data ===============
     let featuredImageUrl = "https://inhouse.cryscampus.com/wordpress/bitswits/wp-admin/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
@@ -99,7 +124,7 @@ export default async function Post({ params }) {
                             </Row>
                         </Container>
                     </section>
-                    <section className={styles.articleSec}>
+                    <section className={styles.articleSec} id="leftcontent">
                         <Container>
                             <Row>
                                 <Col lg={8}>
