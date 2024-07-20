@@ -18,10 +18,15 @@ const BlogNavigation = ({ postData }) => {
             const doc = parser.parseFromString(postData.content, 'text/html');
             const h2Elements = doc.querySelectorAll('h2');
 
-            h2Elements.forEach((h2, index) => {
-                const id = `heading${index + 1}`;
-                h2.setAttribute('id', id);
-            });
+            // h2Elements.forEach((h2, index) => {
+            //     const id = `heading${index + 1}`;
+            //     h2.setAttribute('id', id);
+            // });
+
+            let h2ElementLeft = document.querySelectorAll("#leftcontent h2");
+            Array.from(h2ElementLeft).map((e, i) => {
+                e.setAttribute("id", `heading${i + 1}`)
+            })
 
             const h2TagsArray = Array.from(h2Elements).map(h2 => h2.innerText);
             setH2Tags(h2TagsArray);

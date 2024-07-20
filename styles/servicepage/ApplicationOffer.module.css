@@ -128,10 +128,6 @@
     padding-bottom: 10px;
 }
 
-.txt {
-    margin-left: 110px;
-}
-
 .txt h2 {
     font-size: 40px;
     line-height: 53px;
@@ -287,32 +283,14 @@
 
 
 /* ==================================== */
-@media only screen and (max-width: 1920px) {
-    .txt {
-        margin-left: 285px;
-    }
+@media only screen and (max-width: 1920px) { 
 
     .applicationlong img {
         height: 530px;
     }
-}
+}  
 
-@media only screen and (max-width: 1799px) {
-    .txt {
-        margin-left: 190px;
-    }
-}
-
-@media only screen and (max-width: 1599px) {
-    .txt {
-        margin-left: 95px;
-    }
-}
-
-@media only screen and (max-width: 1399px) {
-    .txt {
-        margin-left: 115px;
-    }
+@media only screen and (max-width: 1399px) { 
 
     .menusHeading {
         font-size: 17px !important;
@@ -340,11 +318,7 @@
     .understand h2 {
         font-size: 25px;
         line-height: 30px;
-    }
-
-    .txt {
-        margin-left: 55px;
-    }
+    } 
 }
 
 @media only screen and (max-width: 1099px) {
@@ -379,11 +353,7 @@
     .understand h2 {
         font-size: 30px;
         line-height: 45px;
-    }
-
-    .txt {
-        margin-left: 30px;
-    }
+    } 
 
     .posto {
         margin-top: 20px;

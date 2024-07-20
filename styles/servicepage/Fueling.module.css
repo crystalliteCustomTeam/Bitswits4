@@ -81,6 +81,16 @@
 
 /* Media Query Start */
 
+@media only screen and (max-width: 1399px) {
+    .fuelingSec .ideaPart {
+        height: 240px;
+    }
+
+    .fuelingSec .ideaPart .image {
+        margin-top: -80px;
+    }
+}
+
 @media only screen and (max-width: 1299px) {
     .fuelingSec .fuelingItems {
         padding-left: 50px;
