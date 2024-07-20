@@ -113,23 +113,27 @@ const ConditionalLayout = ({ children }) => {
                                         <NewServiceHeaderTwo />
                                         <NewHeaderMbl />
                                     </> :
-                                        pathname == "/thankyou-pagenew" ? <>
-                                            <NewServiceHeaderTwo />
-                                            <NewHeaderMbl />
+                                        pathname == "/bitswits-services-page-2" ? <>
+                                            <NewServiceHeader />
+                                            <HeaderMbl />
                                         </> :
-                                            pathname == "/bitswits-services-page-2" ? <>
-                                                <NewServiceHeader />
-                                                <HeaderMbl />
+                                            pathname == "/bitswits-services-page-3" ? <>
+                                                <NewServiceHeaderTwo />
+                                                <NewHeaderMbl />
                                             </> :
-                                                pathname == "/bitswits-services-page-3" ? <>
-                                                    <NewServiceHeaderTwo />
-                                                    <NewHeaderMbl />
+                                                pathname == "/game-development-services" ? <>
+                                                    <NewServiceHeader />
+                                                    <HeaderMbl />
                                                 </> :
-                                                    pathname == "/meet-our-team" ? null :
-                                                        <>
-                                                            <Header />
-                                                            <HeaderMbl />
-                                                        </>
+                                                    pathname == "/thankyou-pagenew" ? <>
+                                                        <NewServiceHeaderTwo />
+                                                        <NewHeaderMbl />
+                                                    </> :
+                                                        pathname == "/meet-our-team" ? null :
+                                                            <>
+                                                                <Header />
+                                                                <HeaderMbl />
+                                                            </>
             }
             {mouse && <Cursor />}
             {

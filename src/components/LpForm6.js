@@ -1,5 +1,5 @@
+"use client"
 import React from 'react'
-import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/LpForm6.module.css";
 import { useState, useEffect } from 'react';

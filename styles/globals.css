@@ -129,48 +129,6 @@
   font-weight: 600;
 }
 
-/* @font-face {
-  font-family: Gilroy-Bold;
-  src: url(../public/fontgilroy/Gilroy-Bold.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-ExtraBold;
-  src: url(../public/fontgilroy/Gilroy-ExtraBold.otf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-Heavy;
-  src: url(../public/fontgilroy/Gilroy-Heavy.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-Light;
-  src: url(../public/fontgilroy/Gilroy-Light.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-MediumItalic;
-  src: url(../public/fontgilroy/Gilroy-MediumItalic.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-Regular;
-  src: url(../public/fontgilroy/Gilroy-Regular.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gilroy-SemiBold;
-  src: url(../public/fontgilroy/Gilroy-SemiBold.ttf);
-  font-display: swap;
-} */
-
 * {
   font-family: "SF-Pro-Display";
 }
