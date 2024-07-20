@@ -25,14 +25,14 @@ const NewMobileHeader = () => {
         <>
             <header className={`${styles.headernew} ${isScrolled ? styles.bgColor : styles.transparent}`}>
                 <div className={styles.logo}>
-                    <Link href="javascript:;">
+                    <Link href="#href">
                         <Image alt="bitswits" loading="lazy" src={logo} width={176} height={36} className="img-fluid" />
                     </Link>
                 </div>
                 <nav>
                     <ul className='d-flex align-items-center gap-3 me-2 mb-0'>
                         <div className={`${styles.navLogo} ${styles.mblLogo}`}>
-                            <Link href="javascript:;">
+                            <Link href="#href">
                                 <Image alt="bitswits" className="img-fluid" src={mbllogo} />
                             </Link>
                         </div>

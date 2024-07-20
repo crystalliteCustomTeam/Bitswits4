@@ -51,7 +51,7 @@ const Formnewlp = () => {
         setScore('Sending Data');
 
         // First API call to your server
-        fetch('/api/emailapi/', {
+        fetch('/api/formapi/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -175,7 +175,7 @@ const Formnewlp = () => {
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Enter your Phone No"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
                                 <textarea placeholder='Comment' name='comment' className='form-control mt-3'></textarea>
-                                <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
+                                <input type='submit' value={score} name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input>
 
                             </form>
                         </Col>

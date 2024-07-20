@@ -188,7 +188,7 @@ const JournyForm = () => {
                                         <input className={`mb-0 ${styles.vehicle1}`} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                         <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                     </div>
-                                    <button className={`${styles.value} pink`} type='submit'>
+                                    <button className={`${styles.value} pink bitsForm`} type='submit'>
                                         <Image src={formImg} className='img-fluid' alt='BitsWits' />
                                         Let’s Do This
                                     </button>

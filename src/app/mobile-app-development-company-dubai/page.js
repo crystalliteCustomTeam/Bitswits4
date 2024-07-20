@@ -1,9 +1,9 @@
-"use client" 
+"use client"
 import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -34,12 +34,13 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/dubai.webp";
+import MapImage from "media/newdubai/map1.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Leading Mobile App Development Company Dubai",
-    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 100 projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
+    desc: "BitsWits stands out as a leading mobile app development company in Dubai due to offering state-of-the-art app development services and solutions. We have successfully delivered over 150+ projects across the UAE, specializing in bespoke, data-driven solutions that distinguish us from competitors. Our focus on customization ensures unique outcomes, reflecting diverse business needs and enabling success in dynamic market environments.",
     bg: HeroBg
   }
   // award Content
@@ -91,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 200+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
+    desc: <>We are one of the fastest-growing app development companies in Dubai, and we can proudly say that we have successfully completed 150+ <br className="d-xl-block d-none" /> projects for various audiences from different sectors and industries. </>,
     para: "Here is a showcase of some of our remarkable projects:",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -102,7 +103,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -136,10 +137,10 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>The cost of developing an app in Dubai typically ranges between <span>$25,000 (AED 91825) to $200,000+ (AED 734600+)</span>, depending on the app’s complexity and functionality.</>
+      para: <>The cost of developing an app in Dubai typically ranges between <span> AED 100,000 to AED 400,000+ </span>, depending on the app’s complexity and functionality.</>
     },
     {
-      para: <>At BitsWits, a simple app development project starts with just $25,000, and it varies depending on your specific app needs.</>
+      para: <>At BitsWits, a simple app development project starts with just AED 100,000, and it varies depending on your specific app needs.</>
     },
     {
       para: <>However, if your app involves complex features and intricate functionalities, it means more time and cost will be involved.</>
@@ -154,7 +155,7 @@ export default function dubaidevelopmentcompany() {
   const delivered = {
     title: "How Much Does it Cost to Make an App in Dubai",
     desc: desc,
-    cta: "Calculate Your App Cost Now!"
+    cta: "Book A Consultation Now!"
   }
   // Houston Content
   const menus = [
@@ -204,17 +205,17 @@ export default function dubaidevelopmentcompany() {
       title: "How to choose a reputable mobile app development company in Dubai?",
       content: `<p class='fontsfregular'>When searching for a premier mobile app development firm in Dubai, it's crucial to assess various essential characteristics to guarantee your app's success.</p>
         <p class='fontsfregular'>Several vital factors to consider when selecting an app development company in Dubai include:</p>
-        <h5>Vast Experience & Expertise</h5>
+        <h3>Vast Experience & Expertise</h3>
         <p class='fontsfregular'>Primarily, ensure that the chosen company not only showcases a robust portfolio but also demonstrates expertise across various platforms and sectors. Their previous achievements validate their ability to develop fully functional mobile apps within specified timelines. Additionally, ascertain the company's proficiency in handling diverse mobile app development tasks and assess their experience and competence in your targeted industry or niche.</p>
-        <h5>Effective Communication</h5>
+        <h3>Effective Communication</h3>
         <p class='fontsfregular'>Next, effective communication is essential in selecting the most dependable mobile app development company in Dubai. A top-tier company will excel in understanding your vision and transforming it into a functional app. Moreover, professionals should not only articulate well but also actively listen to your input and integrate feedback during the design phase. Hence, it is crucial to engage someone with robust communication abilities.</p>
-        <h5>Expertise in UI/UX Design</h5>
+        <h3>Expertise in UI/UX Design</h3>
         <p class='fontsfregular'>The importance of visual appeal in mobile app development cannot be overstated. Focus on selecting a team that creates visually appealing and user-centered designs, ultimately enhancing the overall usability of your mobile application.</p>
-        <h5>Technical Proficiency</h5>
+        <h3>Technical Proficiency</h3>
         <p class='fontsfregular'>Technical proficiency is essential and indispensable. A top-notch app development company in Dubai boasts a team of proficient app developers capable of crafting dependable, scalable, and effective apps tailored to meet your specific business requirements effectively.</p>
-        <h5>Transparency and Openness</h5>
+        <h3>Transparency and Openness</h3>
         <p class='fontsfregular'>Establishing transparency and open communication is vital for fostering a productive partnership. You can trust that the leading mobile app developers in Dubai will keep you informed, value your input, and maintain transparent and open lines of communication throughout the app development journey.</p>
-        <h5>Customer-Centric Approach</h5>
+        <h3>Customer-Centric Approach</h3>
         <p class='fontsfregular'>Ensuring client satisfaction ranks highest among successful companies. This entails developing quality apps within agreed timelines and budgets, and providing maintenance services as needed.</p>
         <p class='fontsfregular'>Additionally, prioritize a customer-oriented approach when selecting a mobile app development company in Dubai.</p>
         <p class='fontsfregular'>Ultimately, verifying these traits is crucial for finding a dependable app development partner, as it directly influences the performance of your application.</p>`
@@ -224,21 +225,21 @@ export default function dubaidevelopmentcompany() {
       title: "Cutting-Edge Mobile App Development Frameworks Utilized by BitsWits",
       content: `<p class='fontsfregular'>The selection of a framework significantly impacts the performance of mobile app development. </p>
       <p class='fontsfregular'>At BitsWits, we excel in utilizing cutting-edge frameworks to develop innovative and top-quality mobile apps. Below are some of the leading frameworks we employ:</p>
-      <h5>React Native</h5>
+      <h3>React Native</h3>
       <p class='fontsfregular'>React Native's primary advantage lies in its capacity to create applications compatible with both iOS and Android platforms seamlessly, eliminating the necessity for additional implementation. This ensures rapid development cycles and cost-efficient solutions.</p>
-      <h5>Xamarin</h5>
+      <h3>Xamarin</h3>
       <p class='fontsfregular'>Xamarin, another widely used cross-platform framework, enables developers to write a single codebase and deploy it across various platforms. This accelerates the development process and ensures efficient performance across different devices.</p>
-      <h5>Flutter</h5>
+      <h3>Flutter</h3>
       <p class='fontsfregular'>Developed by Google, Flutter has gained widespread attention for its ability to facilitate the creation of highly responsive and visually appealing apps without the need for extensive technical knowledge.</p>
-      <h5>Ionic</h5>
+      <h3>Ionic</h3>
       <p class='fontsfregular'>Ionic is renowned for its flexibility and seamless user interface, making it a favored option among mobile app developers in Dubai.</p>
-      <h5>PhoneGap</h5>
+      <h3>PhoneGap</h3>
       <p class='fontsfregular'>PhoneGap is commonly utilized for hybrid app development because it enables developers to create apps compatible with various platforms such as iOS, Android, and web.</p>
-      <h5>NativeScript</h5>
+      <h3>NativeScript</h3>
       <p class='fontsfregular'>Using NativeScript, developers can craft native applications that operate seamlessly on any device, utilizing JavaScript and TypeScript to deliver exceptional user experiences.</p>
-      <h5>jQuery Mobile</h5>
+      <h3>jQuery Mobile</h3>
       <p class='fontsfregular'>jQuery Mobile is a web framework optimized for touch, enabling the development of responsive mobile applications compatible with all major platforms.</p>
-      <h5>Sencha Touch</h5>
+      <h3>Sencha Touch</h3>
       <p class='fontsfregular'>Sencha Touch is a platform comprising various reusable controls and UI components, facilitating the creation of high-performance apps using HTML5 and JavaScript, suitable for deployment across multiple devices.</p>`
     },
     {
@@ -282,12 +283,19 @@ export default function dubaidevelopmentcompany() {
     },
   ];
 
-
+  // Global Conten
+  const global = {
+    address: "",
+    number: "(971) 55 503 1266 ",
+    href: "tel:+971555031266",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/8PKQdpVrHinUxnFK8"
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -390,8 +398,8 @@ export default function dubaidevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <Globalmap 
-        href="tel:+971 55 503 1266"
+      <Globalmap
+        content={global}
       />
     </>
   );

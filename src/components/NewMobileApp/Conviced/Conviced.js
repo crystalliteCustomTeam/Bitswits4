@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import styles from "@/styles/NewMobileApp/Conviced.module.css"
@@ -58,7 +59,7 @@ const Conviced = ({ content, onAnchorClick }) => {
                                 <div className={`${styles.btnImage} clutch`}>
                                     <Image src={Clutch} alt='Bitswits' className={`img-fluid d-block mt-4 ms-md-auto ${styles.clutch}`} />
                                     <div className={styles.btn}>
-                                        <a href='javascript:;' onClick={onAnchorClick} className='gap-4 pink'>
+                                        <a href="#href" onClick={onAnchorClick} className='gap-4 pink'>
                                             Free Consultation
                                             <Image src={Arrow} alt='Bitswits' width={24} height={15} />
                                         </a>

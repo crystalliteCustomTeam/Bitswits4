@@ -5,6 +5,9 @@ import styles from '@/styles/blockchain/leftContent.module.css';
 import CTA from '../../components/blockchain/cta';
 
 const LeftContent = (props) => {
+    const starVid = {
+        video: "https://player.vimeo.com/progressive_redirect/playback/961503901/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9c55ca5ebe05612901f5f5092d0cef7bffdc817bee58cf5f660c5d15574008c1"
+    }
     return (
         <>
             <div className={`${styles[props.whychooseclass]}  ${styles.secPad}`}>
@@ -26,7 +29,9 @@ const LeftContent = (props) => {
                         <Col lg={6}>
                             <div className={styles.image}>
                                 <div className='text-center'>
-                                    <video className={`${styles.bgVideo} img-fluid`} width={500} autoPlay muted loop src="../../../blockchain/images/starlycoin.mp4" type="video/mp4"></video>
+                                    {starVid && (
+                                        <video className={`${styles.bgVideo} img-fluid`} width={500} autoPlay muted loop src={starVid.video} type="video/mp4"></video>
+                                    )}
                                 </div>
                             </div>
                         </Col>

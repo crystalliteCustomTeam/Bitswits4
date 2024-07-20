@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Modal } from "react-bootstrap";
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 import styles from "@/styles/Faqsdubia.module.css";
 //
 import close from "@/public/newdubai/close.png";
@@ -15,7 +17,16 @@ const Faqdubai = (props) => {
         setFaqStates(newFaqStates);
         setClassAdded(true);
     };
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
 
+    function closemodal() {
+        setShow(false);
+    }
     return (
         <>
             <section className={`${styles.faqs} newfaqsgloble newlevel`}>
@@ -36,7 +47,7 @@ const Faqdubai = (props) => {
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
                                             <p>{faq.answer}</p>
-                                            <a href="javascript:$zopim.livechat.window.show();">Get Started</a>
+                                            <button onClick={modal}>Get Started</button>
                                         </div>
                                     </div>
                                 </div>
@@ -45,6 +56,16 @@ const Faqdubai = (props) => {
                     </Row>
                 </Container>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    <Bitswitspopup formsaspire="popquote" />
+                    <span onClick={closemodal} className={styles.cross}>
+                        <RxCross2 />
+                    </span>
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     );
 };

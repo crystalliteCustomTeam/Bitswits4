@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Modal } from 'react-bootstrap'
+import Bitswitspopup from "../components/Bitswitspopup";
+import { RxCross2 } from "react-icons/rx";
 import styles from '@/styles/Justbuilditlpdubai.module.css'
 //
 import Slider from "react-slick";
@@ -27,7 +29,16 @@ const Justbuilditlpdubai = (props) => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+    // Modal 
+    const [show, setShow] = useState(false);
+    function modal(e) {
+        e.preventDefault();
+        setShow(true);
+    }
 
+    function closemodal() {
+        setShow(false);
+    }
     return (
         <>
             <section className={`${styles[props.slide]} ${props.css}`}>
@@ -37,12 +48,12 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <a className={`blueShade ${styles.about1}`} href={props.href}>
+                                <button onClick={modal} className={`blueShade ${styles.about1}`}>
                                     Call Now
-                                </a>
-                                <a className={`pink ${styles.about}`} href="javascript:$zopim.livechat.window.show();">
+                                </button>
+                                <button onClick={modal} className={`pink ${styles.about}`}>
                                     Live Chat
-                                </a>
+                                </button>
                             </div>
                         </Col>
                     </Row>
@@ -50,22 +61,32 @@ const Justbuilditlpdubai = (props) => {
 
                 <Slider {...bannerslider} className='mt-5 d-sm-block d-none'>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg1} className="img-fluid" />
+                        <Image alt="This image showcases the different arrays of Apps we have created" sizes="100vw" loading='lazy' src={banImg1} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg2} className="img-fluid" />
+                        <Image alt="This image showcases the different arrays of Apps we have created" sizes="100vw" loading='lazy' src={banImg2} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg3} className="img-fluid" />
+                        <Image alt="This image showcases the different arrays of Apps we have created" sizes="100vw" loading='lazy' src={banImg3} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg4} className="img-fluid" />
+                        <Image alt="This image showcases the different arrays of Apps we have created" sizes="100vw" loading='lazy' src={banImg4} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" sizes="100vw" loading='lazy' src={banImg5} className="img-fluid" />
+                        <Image alt="This image showcases the different arrays of Apps we have created" sizes="100vw" loading='lazy' src={banImg5} className="img-fluid" />
                     </div>
                 </Slider>
             </section>
+            {/* Modal Start*/}
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body>
+                    <Bitswitspopup formsaspire="popquote" />
+                    <span onClick={closemodal} className={styles.cross}>
+                        <RxCross2 />
+                    </span>
+                </Modal.Body>
+            </Modal>
+            {/* Modal Start*/}
         </>
     )
 }

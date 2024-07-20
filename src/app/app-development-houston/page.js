@@ -3,7 +3,7 @@ import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -18,6 +18,8 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
+import MapImage from "media/newdubai/houstonMap.png"
+
 //Images 
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
@@ -39,7 +41,7 @@ export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Top-tier Mobile App Development Company in Houston",
-    desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 200+ projects over the years. Reach us today and transform your dream app into reality.",
+    desc: "We develop high-performing apps utilizing the latest tech stacks to match your needs. As a bespoke mobile application development company in Houston, our comprehensive services focus on your ROI and long-term success. We outpace other mobile app development companies in Houston by leading the production of groundbreaking Android and iOS apps. Our mobile app developers in Houston have a track record of successfully delivering 150+ projects over the years. Reach us today and transform your dream app into reality.",
     bg: HeroBg
   }
   // award Content
@@ -59,6 +61,7 @@ export default function dubaidevelopmentcompany() {
     {
       question: 'iPhone App Development in Houston',
       answer: "Just like Android, the iOS market is another lucrative market with 2 million apps available on the app store currently. Our iPhone app development in Houston helps businesses capitalize on this highly revenue-generating market. Nothing beats our iOS app developers when it comes to developing appealing and user-friendly iPhone apps. Whether you want a customized app, or you want modifications in an existing one, we are only at the top of our game.",
+      btn: "Let’s Build Your IOS App!",
       StoryLineImg: StoryLine3
     },
     {
@@ -103,7 +106,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -138,13 +141,13 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>The mobile app development cost in Houston varies between $30,000 to $250,000.</>
+      para: <>The mobile app development cost in Houston varies between $20,000 to $100,000+.</>
     },
     {
       para: <>However, there is no definitive answer for that as the mobile app development cost depends on various parameters including the app’s complexity, features and functionality, tools and technologies, and the estimated time frame.</>
     },
     {
-      para: <>At BitsWits, a basic app development project starts at just $40,000, and the cost varies depending on your specific app needs. However, if your app requires complex features and functionalities, you can expect the cost to be between $60,000 and $150,000+.</>
+      para: <>At BitsWits, a basic app development project starts at just $20,000, and the cost varies depending on your specific app needs. However, if your app requires complex features and functionalities, you can expect the cost to be between $60,000 and $150,000+.</>
     },
     {
       para: <>Want a precise cost for your app development project? Utilize our app development cost calculator.</>
@@ -216,12 +219,20 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
+  // Global Conten
+  const global = {
+    address: "2800 Post Oak Blvd STE 4100, Houston, TX 77056",
+    number: "(833) 500-6007",
+    href: "tel:+8335006007",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/L5Df9XfyFv3z7VzYA"
+  }
 
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -334,7 +345,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

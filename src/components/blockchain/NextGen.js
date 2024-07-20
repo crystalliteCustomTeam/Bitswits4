@@ -25,7 +25,7 @@ const NextGen = (props) => {
 
                             {props.poster ?
                                 <div className='text-center'>
-                                    <video className={`${style.bgVideo} img-fluid`} width={450} autoPlay muted loop src="../../../blockchain/images/nextgen.mp4" type="video/mp4"></video>
+                                    <video className={`${style.bgVideo} img-fluid`} width={450} autoPlay muted loop src="https://player.vimeo.com/progressive_redirect/playback/961508973/rendition/720p/file.mp4?loc=external&log_user=0&signature=e63f149b53ea2d73422b5f90304f9d87b322a46ad97c90263f53d702bcad525c" type="video/mp4"></video>
                                 </div>
                                 :
                                 ''

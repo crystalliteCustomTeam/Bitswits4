@@ -38,7 +38,7 @@ const VideoHeader = () => {
                                 </a>
                             </div>
                             <div>
-                                <Link href="javascript:;" className={`${styles.popupBtn} d-lg-flex align-items-center d-none`}>Get Started</Link>
+                                <Link href="#href" className={`${styles.popupBtn} d-lg-flex align-items-center d-none`}>Get Started</Link>
                             </div>
                         </div>
                     </div>

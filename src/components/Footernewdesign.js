@@ -28,35 +28,35 @@ const Footernewdesign = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <ul>
-                      <li> <Link href="javascript:;">iPhone App
+                      <li> <Link href="#href">iPhone App
                         Development
                       </Link></li>
-                      <li><Link href="javascript:;">Cross
+                      <li><Link href="#href">Cross
                         Platform App Development</Link></li>
-                      <li><Link href="javascript:;">Android App
+                      <li><Link href="#href">Android App
                         Development</Link></li>
-                      <li><Link href="javascript:;">React Native
+                      <li><Link href="#href">React Native
                         App Development</Link></li>
-                      <li> <Link href="javascript:;">Flutter App
+                      <li> <Link href="#href">Flutter App
                         Development</Link></li>
-                      <li><Link href="javascript:;">Wearable App
+                      <li><Link href="#href">Wearable App
                         Development</Link></li>
                     </ul>
                   </div>
                   <div className="col-md-6">
                     <ul>
-                      <li><Link href="javascript:;">UI / UX App Design</Link>
+                      <li><Link href="#href">UI / UX App Design</Link>
                       </li>
 
-                      <li><Link href="javascript:;">Web App
+                      <li><Link href="#href">Web App
                         Development</Link></li>
-                      <li><Link href="javascript:;">Game Development</Link>
+                      <li><Link href="#href">Game Development</Link>
                       </li>
-                      <li><Link href="javascript:;">2D Game
+                      <li><Link href="#href">2D Game
                         Development</Link></li>
-                      <li><Link href="javascript:;">3D Game
+                      <li><Link href="#href">3D Game
                         Development</Link></li>
-                      <li><Link href="javascript:;">Blockchain
+                      <li><Link href="#href">Blockchain
                         Game Development</Link></li>
                     </ul>
                   </div>
@@ -70,24 +70,24 @@ const Footernewdesign = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <ul>
-                      <li><Link href="javascript:;" className="modal-toggle">On Demand App Development</Link></li>
-                      <li><Link href="javascript:;" className="modal-toggle">Taxi App Solution</Link></li>
-                      <li><Link href="javascript:;" className="modal-toggle">Food Delivering App Solutions</Link>
+                      <li><Link href="#href" className="modal-toggle">On Demand App Development</Link></li>
+                      <li><Link href="#href" className="modal-toggle">Taxi App Solution</Link></li>
+                      <li><Link href="#href" className="modal-toggle">Food Delivering App Solutions</Link>
                       </li>
-                      <li><Link href="javascript:;" className="modal-toggle">Elearning App Solutions</Link></li>
-                      <li><Link href="javascript:;" className="modal-toggle">Lifestyle App Development</Link></li>
-                      <li><Link href="javascript:;" className="modal-toggle">Healthcare App Development</Link></li>
+                      <li><Link href="#href" className="modal-toggle">Elearning App Solutions</Link></li>
+                      <li><Link href="#href" className="modal-toggle">Lifestyle App Development</Link></li>
+                      <li><Link href="#href" className="modal-toggle">Healthcare App Development</Link></li>
                     </ul>
                   </div>
                   <div className="col-md-6">
                     <ul>
-                      <li><Link href="javascript:;" className="modal-toggle">On Demand eWallet App Solutions</Link>
+                      <li><Link href="#href" className="modal-toggle">On Demand eWallet App Solutions</Link>
                       </li>
-                      <li><Link href="javascript:;" className="modal-toggle">Fantasy Sports App Development</Link>
+                      <li><Link href="#href" className="modal-toggle">Fantasy Sports App Development</Link>
                       </li>
-                      <li><Link href="javascript:;" className="modal-toggle">Grocery Delivery App Development</Link>
+                      <li><Link href="#href" className="modal-toggle">Grocery Delivery App Development</Link>
                       </li>
-                      <li><Link href="javascript:;" className="modal-toggle">Live Streaming App Development</Link>
+                      <li><Link href="#href" className="modal-toggle">Live Streaming App Development</Link>
                       </li>
                     </ul>
                   </div>
@@ -98,12 +98,12 @@ const Footernewdesign = () => {
                   <h3 className="text-white font-bold font-22">Useful Links</h3>
                 </div>
                 <ul>
-                  <li><Link href="javascript:;">Contact Us</Link></li>
-                  <li><Link href="javascript:;">About Us</Link></li>
-                  <li><Link href="javascript:;">Works</Link></li>
-                  <li><Link href="javascript:;">Testimonials</Link></li>
-                  <li><Link href="javascript:;"> Privacy Policy</Link></li>
-                  <li><Link href="javascript:;">Terms & Conditions</Link></li>
+                  <li><Link href="#href">Contact Us</Link></li>
+                  <li><Link href="#href">About Us</Link></li>
+                  <li><Link href="#href">Works</Link></li>
+                  <li><Link href="#href">Testimonials</Link></li>
+                  <li><Link href="#href"> Privacy Policy</Link></li>
+                  <li><Link href="#href">Terms & Conditions</Link></li>
 
                 </ul>
 

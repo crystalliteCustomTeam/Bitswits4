@@ -145,7 +145,7 @@ export default function mobileApplication() {
         ]}
         video={
           <video
-            src="../bussinessintelligence/peo.mp4"
+            src="https://player.vimeo.com/progressive_redirect/playback/961554122/rendition/540p/file.mp4?loc=external&log_user=0&signature=7ad8927833282825ae5e439ab5add957efcdc3cf2a71d05d0c04047377c5c9c3"
             autoPlay="true"
             loop="true"
           ></video>

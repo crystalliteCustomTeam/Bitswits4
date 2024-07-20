@@ -12,7 +12,7 @@ const ActiveLink = ({ href, text, className = "", handle }) => {
     <button className={styles.megaButton} onClick={handle}>
       <Link
         href={href}
-        className={`
+        className={`manrope
         ${currentRoute === href ? `${styles.tabLink}` : `${styles.myLink}`}
         ${className}
       `}

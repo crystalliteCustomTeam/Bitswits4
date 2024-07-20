@@ -195,7 +195,7 @@ const Skicky = () => {
                         <span className="icon">
                             <Image width="30" height="30" alt="bitswits" className="img-fluid" src={call} loading="lazy" />
                             <div className="txtBody">
-                                <a href="tel:3123795987">1 - 312 379 5987</a>
+                                <a href="tel:8335006007">(833) 500-6007</a>
                             </div>
                         </span>
                     </div>
@@ -207,12 +207,10 @@ const Skicky = () => {
                     <div className="wrapper">
                         <span className="close" onClick={() => loc()}>
                             {isHovered ?
-
                                 <BsX />
                                 :
                                 'Get In Touch'
                             }
-
                         </span>
                         <form id="leadPopupForm" onSubmit={handleSubmit} className="popup-form" data-hs-cf-bound="true">
                             <div className="inputGroup">
@@ -230,7 +228,7 @@ const Skicky = () => {
                             <div className="inputGroup">
                                 <textarea name='comment' required placeholder="Let Us know Time And Date To Call You."></textarea>
                             </div>
-                            <button id="btntrack" value={score} type="submit">{score}</button>
+                            <button id="btntrack" value={score} type="submit" className='bitsForm'>{score}</button>
                         </form>
                     </div>
                 </div>

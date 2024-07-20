@@ -3,7 +3,7 @@ import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -34,12 +34,13 @@ import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
 import HeroBg from "/public/newhouston/miami.webp";
+import MapImage from "media/newdubai/miamiMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
   const Banner = {
     title: "Trusted Mobile App Development Company in Miami",
-    desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 200+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
+    desc: "Leveraging modern tools, robust technologies, and state-of-the-art expertise, BitsWits emerges as the leading mobile app development company in Miami. We have successfully delivered 150+ data-driven applications across Miami. A proven track record of transforming client visions into digital reality. As the best mobile app development company in Miami, you can count on us to give you unique solutions and make apps that meet all of your needs.",
     bg: HeroBg
   }
   // award Content
@@ -59,6 +60,7 @@ export default function dubaidevelopmentcompany() {
     {
       question: 'iPhone App Development in Miami',
       answer: "Delivering robust iOS app development services in Miami that stand out in the competitive market prioritizing user needs from navigation to layout. We conduct thorough tests to ensure compatibility-driven app solutions that offer high responsiveness across various iPhone devices and iOS versions. At BitsWits, whether you require crafting a new iPhone app from the ground up or enhancing an existing product, we specialize in delivering solutions that are both highly encrypted and accessible.",
+      btn: "Let’s Build Your IOS App!",
       StoryLineImg: StoryLine3
     },
     {
@@ -93,7 +95,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "Our Award-Winning Portfolio",
-    desc: <>BitsWits is your trusted app development partner in Miami. From startups to enterprise-level apps, backed up by a strong proven record, <br /> we take pride in developing 100+ app ideas into functional realities.</>,
+    desc: <>BitsWits is your trusted app development partner in Miami. From startups to enterprise-level apps, backed up by a strong proven record, <br /> we take pride in developing 150+ app ideas into functional realities.</>,
     subtitleOne: "Soul Scribe",
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
     subtitleTwo: "The Ready App",
@@ -103,7 +105,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -140,7 +142,7 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost to develop a mobile app can vary significantly on factors like app complexity, the platforms it will operate on (iOS, Android, or both), and the specific features included.</>
     },
     {
-      para: <>Simple apps like a flashlight or a simple news feed that require minimal user interactions and features can cost between <b>$10,000 to $40,000</b>. <b>Complex apps</b> such as full-fledged social media platforms or e-commerce sites with multiple features can range from <b>$120,000 to $500,000 or more</b>. <b>High-end apps</b> that require enterprise-level features, such as real-time data processing, high-end security features, AI capabilities, or AR/VR experiences, often exceed <b>$500,000</b> depending on the specific requirements and technologies involved.</>
+      para: <>Simple apps like a flashlight or a simple news feed that require minimal user interactions and features can cost between <b>$20,000 to $60,000</b>. <b>Complex apps</b> such as full-fledged social media platforms or e-commerce sites with multiple features can range from <b>$60,000 to $150,000 or more</b>. <b>High-end apps</b> that require enterprise-level features, such as real-time data processing, high-end security features, AI capabilities, or AR/VR experiences, often exceed <b>$300,000+</b> depending on the specific requirements and technologies involved.</>
     }
   ]
   const delivered = {
@@ -276,12 +278,19 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
+  // Global Content
+  const global = {
+    address: "601 Brickell Key Dr suite 700, Miami, FL 33131",
+    number: "(302) 216-8231",
+    href: "tel:+3022168231",
+    image: MapImage,
+    link: "https://goo.gl/maps/JxwLW37aq8F43imv9"
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -415,7 +424,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

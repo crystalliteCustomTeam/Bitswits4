@@ -15,27 +15,81 @@ import Formnewlpnewhome from "../../components/Formnewlpnewhome";
 import SupersaleStiky from "../../components/SupersaleStiky";
 
 export default function Home() {
-  const [showFolds, setShowFolds] = useState(false);
+  const [showDesktopComponents, setShowDesktopComponents] = useState(false);
+  const [showMobileComponents, setShowMobileComponents] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowFolds(true);
-    }, 2000);
-    return () => clearTimeout(timeout);
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    // Show desktop components after 1 second
+    const desktopTimer = setTimeout(() => {
+      setShowDesktopComponents(true);
+    }, 500);
+
+    return () => {
+      window.removeEventListener("resize", checkMobile);
+      clearTimeout(desktopTimer);
+    };
   }, []);
+
+  useEffect(() => {
+    const handleTouchOrScroll = () => {
+      setShowMobileComponents(true);
+      // Remove event listeners after mobile components are shown
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+
+    // Add event listeners for touch and scroll events
+    window.addEventListener("scroll", handleTouchOrScroll);
+    window.addEventListener("touchstart", handleTouchOrScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+  }, []); 
+
   return (
     <>
       <Appmaking />
-      <Homeslider />
-      <ProjectProcesshome processclass="process" />
-      <Creative />
-      <Expertapphome expertapp="expertapp" />
-      <Thrthy />
-      <Everyone />
-      <Testimonailslider />
-      <Startaproject />
-      <Formnewlpnewhome />
-      <SupersaleStiky />
-
+      {isMobile ? (
+        showMobileComponents && (
+          <>
+            <Homeslider />
+            <ProjectProcesshome processclass="process" />
+            <Creative />
+            <Expertapphome expertapp="expertapp" />
+            <Thrthy />
+            <Everyone />
+            <Testimonailslider />
+            <Startaproject />
+            <Formnewlpnewhome />
+            <SupersaleStiky />
+          </>
+        )
+      ) : (
+        showDesktopComponents && (
+          <>
+            <Homeslider />
+            <ProjectProcesshome processclass="process" />
+            <Creative />
+            <Expertapphome expertapp="expertapp" />
+            <Thrthy />
+            <Everyone />
+            <Testimonailslider />
+            <Startaproject />
+            <Formnewlpnewhome />
+            <SupersaleStiky />
+          </>
+        )
+      )}
     </>
   );
 }

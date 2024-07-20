@@ -179,7 +179,7 @@ const SocialLpForm = (props) => {
                                         </Col>
                                         <Col lg={3}>
                                             <div>
-                                                <input type='submit' name='submit' className={styles.book} placeholder="Submit" value={score}></input>
+                                                <input type='submit' name='submit' className={`bitsForm ${styles.book}`} placeholder="Submit" value={score}></input>
                                             </div>
                                         </Col>
                                     </Row>

@@ -94,35 +94,35 @@ const FooterNewLps = () => {
               <Col md={4} lg={3} className="mt-md-0 mt-4">
                 <ul className={`${styles.socials} mb-0 p-0`}>
                   <li>
-                    <a href="javascript:;" rel="noopener noreferrer">
+                    <a href="#href" rel="noopener noreferrer">
                       <Image alt="BitsWits" className='img-fluid'
                         src={fb} loading="lazy"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" rel="noopener noreferrer">
+                    <a href="#href" rel="noopener noreferrer">
                       <Image alt="BitsWits" className='img-fluid'
                         src={inta} loading="lazy"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" rel="noopener noreferrer">
+                    <a href="#href" rel="noopener noreferrer">
                       <Image alt="BitsWits" className='img-fluid'
                         src={tweet} loading="lazy"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" rel="noopener noreferrer">
+                    <a href="#href" rel="noopener noreferrer">
                       <Image alt="BitsWits" className='img-fluid'
                         src={linkedin} loading="lazy"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" rel="noopener noreferrer">
+                    <a href="#href" rel="noopener noreferrer">
                       <Image alt="BitsWits" className='img-fluid'
                         src={youtube} loading="lazy"
                       />
@@ -133,7 +133,7 @@ const FooterNewLps = () => {
               <Col md={4} lg={6}>
                 <p className={`${styles.trmCon} f-montserrat f-12 white f-500 mb-0`}>
                   Copyright © 2024 BitsWits. |
-                  <Link href="javascript:;" className="white ps-1">
+                  <Link href="#href" className="white ps-1">
                     Brand Of Bhaoo Incorporation Company
                   </Link>
                 </p>

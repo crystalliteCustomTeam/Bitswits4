@@ -529,7 +529,7 @@
 }
 
 .numberOne {
-  top: 80px;
+  top: 68px;
 }
 
 .washington .numberTwo {
@@ -554,7 +554,7 @@
   top: 245px;
 }
 
-/* ============ newyork ============ */
+/* ============ Newyork ============ */
 
 .newyork .marker {
   top: 112px;
@@ -575,7 +575,7 @@
   top: 150px;
 }
 
-.numberOne {
+.newyork .numberOne {
   top: 93px;
 }
 
@@ -598,6 +598,194 @@
 }
 
 .newyork .numberFour {
+  top: 240px;
+}
+
+/* ============ Toronto ============ */
+
+.toronto .marker {
+  top: 112px;
+}
+
+.toronto .timelineMain:before {
+  top: 18px;
+  height: 8%;
+}
+
+.toronto .timeOne::after {
+  height: 79%;
+  bottom: -65px;
+}
+
+.toronto .timeTwo::after {
+  height: 33%;
+  top: 125px;
+}
+
+.toronto .numberOne {
+  top: 70px;
+}
+
+.toronto .numberTwo {
+  top: 317px;
+}
+
+.toronto .numberThree {
+  top: -9px;
+}
+
+.toronto .timeThree::before {
+  height: 35%;
+  top: -200px;
+}
+
+.toronto .timeThree::after {
+  height: 36%;
+  top: 45px;
+}
+
+.toronto .numberFour {
+  top: 240px;
+}
+
+/* ============ Florida ============ */
+
+.florida .marker {
+  top: 112px;
+}
+
+.florida .timelineMain:before {
+  top: 18px;
+  height: 8%;
+}
+
+.florida .timeOne::after {
+  height: 79%;
+  bottom: -65px;
+}
+
+.florida .timeTwo::after {
+  height: 33%;
+  top: 125px;
+}
+
+.florida .numberOne {
+  top: 70px;
+}
+
+.florida .numberTwo {
+  top: 317px;
+}
+
+.florida .numberThree {
+  top: -9px;
+}
+
+.florida .timeThree::before {
+  height: 35%;
+  top: -200px;
+}
+
+.florida .timeThree::after {
+  height: 36%;
+  top: 45px;
+}
+
+.florida .numberFour {
+  top: 240px;
+}
+
+/* ============Saudi============ */
+
+.saudi .marker {
+  top: 128px;
+}
+
+.saudi .timelineMain:before {
+  top: 30px;
+  height: 8%;
+}
+
+.saudi .timeOne::after {
+  height: 77%;
+  bottom: -65px;
+}
+
+.saudi .timeTwo::after {
+  height: 33%;
+  top: 125px;
+}
+
+.saudi .numberOne {
+  top: 70px;
+}
+
+.saudi .numberTwo {
+  top: 317px;
+}
+
+.saudi .numberThree {
+  top: -9px;
+}
+
+.saudi .timeThree::before {
+  height: 35%;
+  top: -200px;
+}
+
+.saudi .timeThree::after {
+  height: 36%;
+  top: 45px;
+}
+
+.saudi .numberFour {
+  top: 240px;
+}
+
+/* ============Denver============ */
+
+.denver .marker {
+  top: 114px;
+}
+
+.denver .timelineMain:before {
+  top: 20px;
+  height: 8%;
+}
+
+.denver .timeOne::after {
+  height: 78%;
+  bottom: -65px;
+}
+
+.denver .timeTwo::after {
+  height: 33%;
+  top: 125px;
+}
+
+.denver .numberOne {
+  top: 70px;
+}
+
+.denver .numberTwo {
+  top: 317px;
+}
+
+.denver .numberThree {
+  top: -9px;
+}
+
+.denver .timeThree::before {
+  height: 35%;
+  top: -200px;
+}
+
+.denver .timeThree::after {
+  height: 36%;
+  top: 45px;
+}
+
+.denver .numberFour {
   top: 240px;
 }
 
@@ -881,10 +1069,6 @@
     top: 15px;
   }
 
-  .washington .timeOne::after {
-    height: 84%;
-  }
-
   .washington .marker {
     top: 98px;
   }
@@ -925,14 +1109,10 @@
     top: 245px;
   }
 
-  /* ============ newyork ============ */
+  /* ============ Newyork ============ */
 
   .newyork .timelineMain::before {
     top: 15px;
-  }
-
-  .newyork .timeOne::after {
-    height: 84%;
   }
 
   .newyork .marker {
@@ -974,10 +1154,209 @@
   .newyork .numberFour {
     top: 245px;
   }
+
+  /* ============ Toronto ============ */
+
+  .toronto .timelineMain::before {
+    top: 15px;
+  }
+
+  .toronto .marker {
+    top: 84px;
+  }
+
+  .toronto .timelineMain:before {
+    height: 7%;
+    top: -5px;
+  }
+
+  .toronto .timeOne::after {
+    height: 83%;
+    bottom: -64px;
+  }
+
+  .toronto .numberOne {
+    top: 70px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .toronto .numberTwo {
+    top: 312px;
+  }
+
+  .toronto .timeThree::before {
+    height: 40%;
+    top: -253px;
+  }
+
+  .toronto .numberThree {
+    top: -22px;
+  }
+
+  .toronto .timeThree::after {
+    height: 36%;
+    top: 33px;
+  }
+
+  .toronto .numberFour {
+    top: 240px;
+  }
+
+  /* ============ Florida ============ */
+
+  .florida .timelineMain::before {
+    top: 15px;
+  }
+
+  .florida .marker {
+    top: 98px;
+  }
+
+  .florida .timelineMain:before {
+    height: 7%;
+    top: 15px;
+  }
+
+  .florida .timeOne::after {
+    height: 83%;
+    bottom: -64px;
+  }
+
+  .florida .numberOne {
+    top: 70px;
+  }
+
+  .florida .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .florida .numberTwo {
+    top: 312px;
+  }
+
+  .florida .timeThree::before {
+    height: 40%;
+    top: -253px;
+  }
+
+  .florida .numberThree {
+    top: -22px;
+  }
+
+  .florida .timeThree::after {
+    height: 36%;
+    top: 33px;
+  }
+
+  .florida .numberFour {
+    top: 240px;
+  }
+
+  /* ============ Saudi ============ */
+
+  .saudi .timelineMain::before {
+    top: 15px;
+  }
+
+  .saudi .marker {
+    top: 112px;
+  }
+
+  .saudi .timelineMain:before {
+    height: 7%;
+    top: 25px;
+  }
+
+  .saudi .timeOne::after {
+    height: 81%;
+    bottom: -64px;
+  }
+
+  .saudi .numberOne {
+    top: 70px;
+  }
+
+  .saudi .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .saudi .numberTwo {
+    top: 312px;
+  }
+
+  .saudi .timeThree::before {
+    height: 40%;
+    top: -253px;
+  }
+
+  .saudi .numberThree {
+    top: -22px;
+  }
+
+  .saudi .timeThree::after {
+    height: 36%;
+    top: 33px;
+  }
+
+  .saudi .numberFour {
+    top: 240px;
+  }
+
+  /* ============ Denver ============ */
+
+  .denver .marker {
+    top: 72px;
+  }
+
+  .denver .timelineMain:before {
+    height: 7%;
+    top: -10px;
+  }
+
+  .denver .timeOne::after {
+    height: 86%;
+    bottom: -64px;
+  }
+
+  .denver .numberOne {
+    top: 70px;
+  }
+
+  .denver .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .denver .numberTwo {
+    top: 312px;
+  }
+
+  .denver .timeThree::before {
+    height: 40%;
+    top: -253px;
+  }
+
+  .denver .numberThree {
+    top: -22px;
+  }
+
+  .denver .timeThree::after {
+    height: 36%;
+    top: 33px;
+  }
+
+  .denver .numberFour {
+    top: 240px;
+  }
 }
 
-@media only screen and (max-width: 1299px) {
-
+@media screen and (max-width: 1299px) {
   /* ============Washington============ */
   .washington .timelineMain::before {
     top: -5px;
@@ -991,6 +1370,109 @@
     height: 81%;
   }
 
+  /* ============ Florida ============ */
+
+  .florida .timelineMain::before {
+    top: 15px;
+  }
+
+  .florida .marker {
+    top: 96px;
+  }
+
+  .florida .timelineMain:before {
+    top: 10px;
+  }
+
+  .florida .timeOne::after {
+    height: 84%;
+    bottom: -65px;
+  }
+
+  .florida .numberOne {
+    top: 70px;
+  }
+
+  .florida .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .florida .numberTwo {
+    top: 312px;
+  }
+
+  .florida .numberFour {
+    top: 240px;
+  }
+
+  /* ============ Saudi ============ */
+
+  .saudi .timelineMain::before {
+    top: 15px;
+  }
+
+  .saudi .marker {
+    top: 110px;
+  }
+
+  .saudi .timelineMain:before {
+    top: 24px;
+  }
+
+  .saudi .timeOne::after {
+    bottom: -65px;
+    height: 82%;
+  }
+
+  .saudi .numberOne {
+    top: 70px;
+  }
+
+  .saudi .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .saudi .numberTwo {
+    top: 312px;
+  }
+
+  .saudi .numberFour {
+    top: 240px;
+  }
+
+  /* ============ Denver ============ */
+
+  .denver .marker {
+    top: 72px;
+  }
+
+  .denver .timelineMain:before {
+    top: -10px;
+  }
+
+  .denver .timeOne::after {
+    height: 87%;
+    bottom: -65px;
+  }
+
+  .denver .numberOne {
+    top: 70px;
+  }
+
+  .denver .timeTwo::after {
+    height: 28%;
+    top: 129px;
+  }
+
+  .denver .numberTwo {
+    top: 312px;
+  }
+
+  .denver .numberFour {
+    top: 240px;
+  }
 }
 
 @media screen and (max-width: 1099px) {
@@ -1410,7 +1892,7 @@
     top: 258px;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .marker {
     top: 105px;
@@ -1456,6 +1938,194 @@
   .newyork .numberFour {
     top: 258px;
   }
+
+  /* ============Toronto============ */
+
+  .toronto .marker {
+    top: 95px;
+  }
+
+  .toronto .timelineMain:before {
+    top: 43px;
+    height: 7%;
+  }
+
+  .toronto .timeOne::after {
+    height: 80%;
+    bottom: -54px;
+  }
+
+  .toronto .numberOne {
+    top: 59px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .toronto .numberTwo {
+    top: 251px;
+  }
+
+  .toronto .timeThree::before {
+    height: 31%;
+    top: -164px;
+  }
+
+  .toronto .numberThree {
+    top: -10px;
+  }
+
+  .toronto .timeThree::after {
+    height: 47%;
+    top: 28px;
+  }
+
+  .toronto .numberFour {
+    top: 256px;
+  }
+
+  /* ============Florida============ */
+
+  .florida .marker {
+    top: 95px;
+  }
+
+  .florida .timelineMain:before {
+    top: 43px;
+    height: 7%;
+  }
+
+  .florida .timeOne::after {
+    height: 80%;
+    bottom: -54px;
+  }
+
+  .florida .numberOne {
+    top: 59px;
+  }
+
+  .florida .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .florida .numberTwo {
+    top: 251px;
+  }
+
+  .florida .timeThree::before {
+    height: 32%;
+    top: -164px;
+  }
+
+  .florida .numberThree {
+    top: -8px;
+  }
+
+  .florida .timeThree::after {
+    height: 47%;
+    top: 30px;
+  }
+
+  .florida .numberFour {
+    top: 256px;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .marker {
+    top: 115px;
+  }
+
+  .saudi .timelineMain:before {
+    top: 55px;
+    height: 7%;
+  }
+
+  .saudi .timeOne::after {
+    height: 77%;
+    bottom: -54px;
+  }
+
+  .saudi .numberOne {
+    top: 59px;
+  }
+
+  .saudi .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .saudi .numberTwo {
+    top: 251px;
+  }
+
+  .saudi .timeThree::before {
+    height: 32%;
+    top: -164px;
+  }
+
+  .saudi .numberThree {
+    top: -8px;
+  }
+
+  .saudi .timeThree::after {
+    height: 47%;
+    top: 30px;
+  }
+
+  .saudi .numberFour {
+    top: 256px;
+  }
+
+  /* ============Denver============ */
+
+  .denver .marker {
+    top: 86px;
+  }
+
+  .denver .timelineMain:before {
+    top: 35px;
+    height: 7%;
+  }
+
+  .denver .timeOne::after {
+    height: 81.5%;
+    bottom: -54px;
+  }
+
+  .denver .numberOne {
+    top: 59px;
+  }
+
+  .denver .timeTwo::after {
+    height: 33%;
+    top: 96px;
+  }
+
+  .denver .numberTwo {
+    top: 251px;
+  }
+
+  .denver .timeThree::before {
+    height: 32%;
+    top: -164px;
+  }
+
+  .denver .numberThree {
+    top: -8px;
+  }
+
+  .denver .timeThree::after {
+    height: 47%;
+    top: 30px;
+  }
+
+  .denver .numberFour {
+    top: 256px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1467,6 +2137,7 @@
     max-width: 90px;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 14px;
   }
 
   .timelineContent h3 {
@@ -1519,7 +2190,7 @@
   }
 
   .timeThree {
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
   }
 
   .timeOne::after,
@@ -1528,6 +2199,7 @@
   .timeThree::after {
     left: 17px;
     width: 4px;
+    display: none;
   }
 
   .marker,
@@ -1536,6 +2208,12 @@
   .numberThree,
   .numberFour {
     left: 32px;
+    display: none;
+  }
+
+  .numberTwoMobile,
+  .numberFourMobile {
+    display: none ;
   }
 
   .numberTwoMobile {
@@ -1569,11 +2247,12 @@
   .paddingFour,
   .paddingFive,
   .paddingSix {
-    padding: 11px 12px 0 70px;
+    padding: 11px 12px 0 0px;
+    order: 1;
   }
 
   .paddingOne {
-    padding: 55px 12px 0 70px;
+    padding: 80px 12px 0 0px;
     margin-bottom: 0;
   }
 
@@ -1584,17 +2263,26 @@
   }
 
   .timelineMain {
-    margin-top: 25px;
+    margin-top: 15px;
+    padding: 0px 0 70px;  
   }
 
   .timeline {
     margin-bottom: 0;
   }
 
+  .timelineMain::before {
+    display: none;
+  }
+
+  .timeOne::after {
+    display: none;
+  }
+
   /* ============Dubai============ */
 
   .dubai .marker {
-    top: 0px;
+    top: 73%;
     left: 31px;
     width: 129px;
     height: 28px;
@@ -1955,7 +2643,7 @@
     top: 73%;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .marker {
     top: 0px;
@@ -2005,6 +2693,214 @@
 
   .newyork .numberFourMobile {
     top: 76%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .toronto .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .toronto .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .toronto .numberOne {
+    top: 77px;
+  }
+
+  .toronto .timeTwo::after {
+    height: 44%;
+    top: 114px;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 70%;
+  }
+
+  .toronto .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .toronto .numberThree {
+    top: 126px;
+  }
+
+  .toronto .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 71%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .florida .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .florida .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .florida .numberOne {
+    top: 77px;
+  }
+
+  .florida .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .florida .numberTwoMobile {
+    top: 71%;
+  }
+
+  .florida .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .florida .numberThree {
+    top: 126px;
+  }
+
+  .florida .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .florida .numberFourMobile {
+    top: 71.5%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .saudi .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .saudi .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .saudi .numberOne {
+    top: 77px;
+  }
+
+  .saudi .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 71%;
+  }
+
+  .saudi .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .saudi .numberThree {
+    top: 126px;
+  }
+
+  .saudi .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 71.5%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .marker {
+    top: 0px;
+    left: 31px;
+    width: 129px;
+    height: 28px;
+    z-index: 99;
+  }
+
+  .denver .timelineMain:before {
+    height: 6%;
+    top: -22px;
+    left: 18px;
+  }
+
+  .denver .timeOne::after {
+    height: 136%;
+    bottom: -73px;
+  }
+
+  .denver .numberOne {
+    top: 77px;
+  }
+
+  .denver .timeTwo::after {
+    height: 46%;
+    top: 114px;
+  }
+
+  .denver .numberTwoMobile {
+    top: 71%;
+  }
+
+  .denver .timeThree::before {
+    height: 45%;
+    top: -99px;
+  }
+
+  .denver .numberThree {
+    top: 126px;
+  }
+
+  .denver .timeThree::after {
+    height: 35%;
+    top: 168px;
+  }
+
+  .denver .numberFourMobile {
+    top: 71.5%;
   }
 }
 
@@ -2249,6 +3145,10 @@
     padding: 50px 0 0;
   }
 
+  .paddingOne {
+    padding: 55px 0px 0 0px;
+  }
+
   .timelineContent h2 {
     font-size: 32px;
     line-height: 1.3;
@@ -2464,7 +3364,6 @@
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -2493,13 +3392,12 @@
     top: 65.5%;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .timelineMain:before {
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -2526,6 +3424,142 @@
 
   .newyork .numberFourMobile {
     top: 70.5%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 116%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .toronto .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .toronto .timeThree::after {
+    height: 43%;
+    top: 162px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 116%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .florida .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .florida .timeThree::after {
+    height: 40%;
+    top: 162px;
+  }
+
+  .florida .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .saudi .timeOne::after {
+    height: 116%;
+  }
+
+  .saudi .timeTwo::after {
+    height: 49%;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .saudi .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .saudi .timeThree::after {
+    height: 43%;
+    top: 162px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .timelineMain:before {
+    top: -89px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .denver .timeOne::after {
+    height: 116%;
+  }
+
+  .denver .timeTwo::after {
+    height: 49%;
+  }
+
+  .denver .numberTwoMobile {
+    top: 64.3%;
+  }
+
+  .denver .timeThree::before {
+    top: -243px;
+    height: 48.4%;
+  }
+
+  .denver .timeThree::after {
+    height: 43%;
+    top: 162px;
+  }
+
+  .denver .numberFourMobile {
+    top: 65.5%;
   }
 }
 
@@ -2633,7 +3667,6 @@
     top: -68px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -2662,13 +3695,12 @@
     top: 65.5%;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .timelineMain:before {
     top: -86px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -2696,6 +3728,158 @@
   .newyork .numberFourMobile {
     top: 70%;
   }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -110px;
+    height: 8%;
+    left: 19px;
+  }
+
+  .toronto marker {
+    top: -4px;
+  }
+
+  .toronto .timeOne::after {
+    height: 115%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 64%;
+  }
+
+  .toronto .timeThree::before {
+    top: -246px;
+    height: 47%;
+  }
+
+  .toronto .timeThree::after {
+    height: 45%;
+    top: 161px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 66.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -110px;
+    height: 8%;
+    left: 19px;
+  }
+
+  .florida marker {
+    top: -4px;
+  }
+
+  .florida .timeOne::after {
+    height: 115%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 64%;
+  }
+
+  .florida .timeThree::before {
+    top: -246px;
+    height: 47%;
+  }
+
+  .florida .timeThree::after {
+    height: 45%;
+    top: 161px;
+  }
+
+  .florida .numberFourMobile {
+    top: 66.5%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .timelineMain:before {
+    top: -110px;
+    height: 8%;
+    left: 19px;
+  }
+
+  .saudi marker {
+    top: -4px;
+  }
+
+  .saudi .timeOne::after {
+    height: 115%;
+  }
+
+  .saudi .timeTwo::after {
+    height: 49%;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 64%;
+  }
+
+  .saudi .timeThree::before {
+    top: -246px;
+    height: 47%;
+  }
+
+  .saudi .timeThree::after {
+    height: 45%;
+    top: 161px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 66.5%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .timelineMain:before {
+    top: -110px;
+    height: 8%;
+    left: 19px;
+  }
+
+  .denver marker {
+    top: -4px;
+  }
+
+  .denver .timeOne::after {
+    height: 115%;
+  }
+
+  .denver .timeTwo::after {
+    height: 49%;
+  }
+
+  .denver .numberTwoMobile {
+    top: 64%;
+  }
+
+  .denver .timeThree::before {
+    top: -246px;
+    height: 47%;
+  }
+
+  .denver .timeThree::after {
+    height: 45%;
+    top: 161px;
+  }
+
+  .denver .numberFourMobile {
+    top: 66.5%;
+  }
 }
 
 @media screen and (max-width: 395px) {
@@ -2706,7 +3890,7 @@
   }
 
   .dubai .timeOne::after {
-    height: 116%;
+    height: 31%;
   }
 
   .dubai .timeTwo::after {
@@ -2917,7 +4101,7 @@
     top: 64.5%;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .timelineMain:before {
     top: -78px;
@@ -2949,6 +4133,142 @@
 
   .newyork .numberFourMobile {
     top: 64.5%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 114%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 50%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .toronto .timeThree::before {
+    top: -270px;
+    height: 47.5%;
+  }
+
+  .toronto .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 114%;
+  }
+
+  .florida .timeTwo::after {
+    height: 50%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .florida .timeThree::before {
+    top: -270px;
+    height: 47.5%;
+  }
+
+  .florida .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .saudi .timeOne::after {
+    height: 114%;
+  }
+
+  .saudi .timeTwo::after {
+    height: 50%;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .saudi .timeThree::before {
+    top: -270px;
+    height: 47.5%;
+  }
+
+  .saudi .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 65.5%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .denver .timeOne::after {
+    height: 114%;
+  }
+
+  .denver .timeTwo::after {
+    height: 50%;
+  }
+
+  .denver .numberTwoMobile {
+    top: 64.2%;
+  }
+
+  .denver .timeThree::before {
+    top: -270px;
+    height: 47.5%;
+  }
+
+  .denver .timeThree::after {
+    height: 45%;
+    top: 163px;
+  }
+
+  .denver .numberFourMobile {
+    top: 65.5%;
   }
 }
 
@@ -3079,7 +4399,7 @@
     top: 63.5%;
   }
 
-  /* ============Chicaho============ */
+  /* ============Chicago============ */
 
   .chicago .timelineMain:before {
     top: -82px;
@@ -3149,7 +4469,6 @@
     top: -82px;
     height: 7%;
     left: 19px;
-
   }
 
   .washington .timeOne::after {
@@ -3178,13 +4497,12 @@
     top: 65.5%;
   }
 
-  /* ============newyork============ */
+  /* ============Newyork============ */
 
   .newyork .timelineMain:before {
     top: -90px;
     height: 7%;
     left: 19px;
-
   }
 
   .newyork .timeOne::after {
@@ -3211,6 +4529,142 @@
 
   .newyork .numberFourMobile {
     top: 69%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 114%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .toronto .timeThree::before {
+    top: -296px;
+    height: 49%;
+  }
+
+  .toronto .timeThree::after {
+    height: 43.5%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 63.5%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -99px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 114%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .florida .timeThree::before {
+    top: -296px;
+    height: 49%;
+  }
+
+  .florida .timeThree::after {
+    height: 43.5%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
+    top: 63.5%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .timelineMain:before {
+    top: -104px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .saudi .timeOne::after {
+    height: 114%;
+  }
+
+  .saudi .timeTwo::after {
+    height: 49%;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .saudi .timeThree::before {
+    top: -296px;
+    height: 48%;
+  }
+
+  .saudi .timeThree::after {
+    height: 45.2%;
+    top: 163px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 64.5%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .timelineMain:before {
+    top: -100px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .denver .timeOne::after {
+    height: 114%;
+  }
+
+  .denver .timeTwo::after {
+    height: 49%;
+  }
+
+  .denver .numberTwoMobile {
+    top: 62.4%;
+  }
+
+  .denver .timeThree::before {
+    top: -296px;
+    height: 49%;
+  }
+
+  .denver .timeThree::after {
+    height: 43.5%;
+    top: 163px;
+  }
+
+  .denver .numberFourMobile {
+    top: 63.5%;
   }
 }
 
@@ -3352,6 +4806,142 @@
   }
 
   .houston .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Toronto============ */
+
+  .toronto .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .toronto .timeOne::after {
+    height: 112%;
+  }
+
+  .toronto .timeTwo::after {
+    height: 49%;
+  }
+
+  .toronto .numberTwoMobile {
+    top: 62%;
+  }
+
+  .toronto .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .toronto .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .toronto .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Florida============ */
+
+  .florida .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .florida .timeOne::after {
+    height: 112%;
+  }
+
+  .florida .timeTwo::after {
+    height: 49%;
+  }
+
+  .florida .numberTwoMobile {
+    top: 62%;
+  }
+
+  .florida .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .florida .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .florida .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Saudi============ */
+
+  .saudi .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .saudi .timeOne::after {
+    height: 112%;
+  }
+
+  .saudi .timeTwo::after {
+    height: 49%;
+  }
+
+  .saudi .numberTwoMobile {
+    top: 62%;
+  }
+
+  .saudi .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .saudi .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .saudi .numberFourMobile {
+    top: 63%;
+  }
+
+  /* ============Denver============ */
+
+  .denver .timelineMain:before {
+    top: -115px;
+    height: 7%;
+    left: 19px;
+  }
+
+  .denver .timeOne::after {
+    height: 112%;
+  }
+
+  .denver .timeTwo::after {
+    height: 49%;
+  }
+
+  .denver .numberTwoMobile {
+    top: 62%;
+  }
+
+  .denver .timeThree::before {
+    top: -312px;
+    height: 48%;
+  }
+
+  .denver .timeThree::after {
+    height: 44%;
+    top: 163px;
+  }
+
+  .denver .numberFourMobile {
     top: 63%;
   }
 }

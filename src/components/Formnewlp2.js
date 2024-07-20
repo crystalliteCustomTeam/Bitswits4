@@ -159,7 +159,6 @@ const Formnewlp = () => {
                                 <h2 className='font40 white fw600'> Get Your<span className='fw800 f45'> Free 30 Minute </span>  <br></br>  <span className='fw600'>Strategy Session With An <br></br>
                                     Experienced </span>  <span className='fw800 f45'> App Experts </span> <br></br> <span className='fw600'>Valued</span> At  <span className='fw800 f45'> $300 </span></h2>
                             </div>
-
                         </Col>
                         <Col xl={6}>
                             <form className={styles.your} onSubmit={handleSubmit}>
@@ -170,12 +169,9 @@ const Formnewlp = () => {
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-3' placeholder="Enter your Phone No"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
                                 <textarea placeholder='Comment' name='comment' className='form-control mt-3'></textarea>
-                                <input value={score} type='submit' name='submit' className={styles.value} placeholder="Submit"></input>
-
+                                <input value={score} type='submit' name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input>
                             </form>
-
                         </Col>
-
                     </Row>
                 </Container>
             </section>

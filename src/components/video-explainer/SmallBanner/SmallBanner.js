@@ -21,7 +21,7 @@ const SmallBanner = () => {
                             </p>
                             <div className={styles.secBtns}>
                                 <div className='btnOne'>
-                                    <Link href="javascript:;" className={styles.btnOne}>
+                                    <Link href="#href" className={styles.btnOne}>
                                         Get Started
                                     </Link>
                                 </div>

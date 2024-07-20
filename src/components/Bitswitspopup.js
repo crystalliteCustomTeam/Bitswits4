@@ -105,7 +105,7 @@ const Freequote = (props) => {
         },
         {
           "objectTypeId": "0-1",
-          "name": "firstname",
+          "name": "name",
           "value": e.target.name.value
         },
         {
@@ -163,7 +163,7 @@ const Freequote = (props) => {
 
         <form className={styles.formalign} onSubmit={handleSubmit}>
           <label className={styles.label}>Full Name*</label>
-          <input type="text" className={styles.formfree} required name="first" placeholder="Your name..." />
+          <input type="text" className={styles.formfree} required name="name" placeholder="Your name..." />
 
           <label className={styles.label}>Email Address*</label>
           <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Type Email Address" />
@@ -173,7 +173,7 @@ const Freequote = (props) => {
 
           <label className={styles.label}>Message *</label>
           <textarea className={styles.formfree} required name="message" rows="2" placeholder="Type Your Message Here"></textarea>
-          <button className={styles.freebtn} type="submit">{score} </button>
+          <button className={`bitsForm ${styles.freebtn}`} type="submit">{score} </button>
         </form>
 
         {props.show ?

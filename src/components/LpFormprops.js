@@ -202,7 +202,7 @@ const LpFormprops = (props) => {
                                         </Col>
                                         <Col lg={3}>
                                             <div>
-                                                <input type='submit' value={score} name='submit' className={`${styles.book}`} placeholder="Submit"></input>
+                                                <input type='submit' value={score} name='submit' className={`bitsForm ${styles.book}`} placeholder="Submit"></input>
                                             </div>
                                         </Col>
                                     </Row>

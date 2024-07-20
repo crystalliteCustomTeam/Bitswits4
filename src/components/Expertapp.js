@@ -14,7 +14,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
 const appData = [
     {
         title: 'iOS Application Development',
@@ -50,8 +49,6 @@ const appData = [
 
 
 export default function Expertapp(props) {
-
-
     const mblSlider = {
         dots: false,
         arrows: false,
@@ -63,7 +60,6 @@ export default function Expertapp(props) {
         slidesToScroll: 1,
         adaptiveHeight: true,
     };
-
 
     return (
         <>
@@ -143,7 +139,7 @@ export default function Expertapp(props) {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.offer}>
-                                <a className={styles.connect} href='javascript:$zopim.livechat.window.show();'>Your App, Our Expertise -  Let's Connect </a>
+                                <a className={`pink ${styles.connect}`} href='javascript:$zopim.livechat.window.show();'>Your App, Our Expertise -  Let's Connect </a>
                             </div>
                         </Col>
                     </Row>

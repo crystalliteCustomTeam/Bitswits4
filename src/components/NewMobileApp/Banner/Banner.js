@@ -230,7 +230,7 @@ const Banner = ({ content }) => {
                                 <div className='d-sm-flex align-items-center mt-4'>
                                     <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                     <label className='form-check-label' htmlFor='flexCheckDefault'>Sign Non-Disclosure Agreement </label>
-                                    <button className={`pink ${styles.value} mt-4 mt-sm-0 blackPulse`} type='submit'>
+                                    <button className={`pink ${styles.value} mt-4 mt-sm-0 blackPulse bitsForm`} type='submit'>
                                         <Image src={formImg} className='img-fluid' alt='BitsWits' />
                                         Sign Me Up
                                     </button>

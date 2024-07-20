@@ -1467,7 +1467,7 @@ const CalculatorScreen = () => {
                                         </button>
                                     )}
                                     {currentStep > 6 && (
-                                        <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
+                                        <button id="savebtns" type="submit" className={`bitsForm ${styles.bttns1}`}>Submit</button>
                                     )}
                                 </div>
 

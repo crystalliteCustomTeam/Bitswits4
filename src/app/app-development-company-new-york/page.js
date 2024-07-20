@@ -1,9 +1,9 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -33,7 +33,8 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
-import HeroBg from "/public/newhouston/dubai.webp";
+import HeroBg from "/public/newhouston/newyork.webp";
+import MapImage from "media/newdubai/newYorkMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -91,7 +92,7 @@ export default function dubaidevelopmentcompany() {
   // Who We Are Content
   const WhoWeAre = {
     title: "A Portfolio that Shouts Success!",
-    desc: <>We are among the fastest-growing app development companies in NYC with a portfolio of 100+ successfully <br className="d-xl-block d-none" /> built and launched mobile applications across 10+ industries, with over 1 million downloads combined. </>,
+    desc: <>We are among the fastest-growing app development companies in NYC with a portfolio of 150+ successfully <br className="d-xl-block d-none" /> built and launched mobile applications across 10+ industries, with over 1 million downloads combined. </>,
     para: "Here’s a glimpse at our resounding app development portfolio.",
     subtitleOne: <>Soul <br className="d-none d-md-block d-lg-none" /> Scribe</>,
     subDescOne: "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
@@ -138,10 +139,10 @@ export default function dubaidevelopmentcompany() {
   // Delivered
   const desc = [
     {
-      para: <>App development cost in NYC ranges anywhere between   <span>$20,000 </span>to <span>$200,000</span><br className="d-xl-block d-none" /> for a minimum viable product (MVP) and could go higher in the long run.</>
+      para: <>App development cost in NYC ranges anywhere between   <span>$20,000 </span>to <span>$100,000+</span><br className="d-xl-block d-none" /> for a minimum viable product (MVP) and could go higher in the long run.</>
     },
     {
-      para: <>As a premier app development company in NYC, our starting price for building an app is <span>$25k</span> for an MVP and the overall cost depends on a number of factors – like cross-platform compatibility, GPS and camera features, payment gateway integrations for in-app purchases, and other similar intricate features. </>
+      para: <>As a premier app development company in NYC, our starting price for building an app is <span>$20,000</span> for an MVP and the overall cost depends on a number of factors – like cross-platform compatibility, GPS and camera features, payment gateway integrations for in-app purchases, and other similar intricate features. </>
     },
     {
       para: <>Curious about how much app development costs? Try our free app cost calculator to get a tailored estimate based on your app’s LOE. </>
@@ -466,13 +467,19 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
-
+  // Global Content
+  const global = {
+    address: "26 Broadway Suite 934, New York, NY 10004",
+    number: "(302) 216-8231",
+    href: "tel:+3022168231",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/1Q2vCzWWkYDE4Ctq6"
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -627,7 +634,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

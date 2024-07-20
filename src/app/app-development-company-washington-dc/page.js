@@ -3,7 +3,7 @@ import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -33,7 +33,8 @@ import banImg6 from '@/public/dubailp/services/6.png'
 import blog1 from "/public/newdubai/blog1.png";
 import blog2 from "/public/newdubai/blog2.png";
 import blog3 from "/public/newdubai/blog3.png";
-import HeroBg from "/public/newhouston/dubai.webp";
+import HeroBg from "/public/newhouston/washington.webp";
+import MapImage from "media/newdubai/washingtonDCMap.png"
 
 export default function dubaidevelopmentcompany() {
   // Banner Content
@@ -141,7 +142,7 @@ export default function dubaidevelopmentcompany() {
       para: <>There is no exact cost mentioned anywhere when it comes to determining the mobile app development cost in   <span>Washington, DC. </span><br className="d-xl-block d-none" /> Various parameters are involved during the creation of a mobile app.</>
     },
     {
-      para: <>At BitsWits, a basic project begins with just <span>$20,000</span> with limited features & functionalities. However, if your app needs to revolve around complex technicalities,<br className="d-xl-block d-none" /> you can expect the price to be between <span>$30,000</span> to <span>$150,000+</span>.  Our tailor-made solutions are created to accommodate every business needs regardless<br className="d-xl-block d-none" /> of their size & niche. </>
+      para: <>At BitsWits, a basic project begins with just <span>$20,000</span> with limited features & functionalities. However, if your app needs to revolve around complex technicalities,<br className="d-xl-block d-none" /> you can expect the price to be between <span>$20,000</span> to <span>$100,000+</span>.  Our tailor-made solutions are created to accommodate every business needs regardless<br className="d-xl-block d-none" /> of their size & niche. </>
     },
     {
       para: <>Want to know the exact estimated cost for your app? Use our dedicated app development cost calculator below!</>
@@ -346,13 +347,20 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
+  // Global Content
+  const global = {
+    address: "",
+    number: "(833) 500-6007",
+    href: "tel:+8335006007",  
+    image: MapImage,
+    link: ""
+  }
 
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -481,7 +489,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

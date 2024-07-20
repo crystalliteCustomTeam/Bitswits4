@@ -1,8 +1,12 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../../styles/HomeLocation.module.css'
-
 const HomeLocation = () => {
+
+    const video = {
+        FooterVideo: "https://player.vimeo.com/progressive_redirect/playback/961449544/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b0944fc2ff242ed106294e79016fae07366f84c63150fc864b42203ef7420740"
+    }
+
     return (
         <>
             <section className={styles.locations}>
@@ -18,7 +22,9 @@ const HomeLocation = () => {
                                 </h3>
                             </Col>
                             <Col lg={12}>
-                                <video autoPlay loop muted src='./images/locations.mp4' className='w-100 h-100'></video>
+                                {video && (
+                                    <video autoPlay loop muted src={video.FooterVideo} type="video/mp4" className='w-100 h-100'></video>
+                                )}
                             </Col>
                         </Row>
                     </Container>

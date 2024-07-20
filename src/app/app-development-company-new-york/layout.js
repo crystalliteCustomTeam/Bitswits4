@@ -16,16 +16,15 @@ export const metadata = {
   alternates: { canonical: '/app-development-company-new-york' },
   //===== No-Index =====
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    nocache: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
+      'max-snippet': -1,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1,
     },
   },
   //===== GEO Tags =====

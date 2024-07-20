@@ -32,6 +32,8 @@
 
 .banImg {
   box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .blogCategory {
@@ -128,32 +130,32 @@
   color: #fff;
 }
 
-.arrowBtn > span {
+.arrowBtn>span {
   margin-right: 8px;
   transition: 0.4s;
 }
 
-.arrowBtn:hover > span {
+.arrowBtn:hover>span {
   margin-right: 30px;
 }
 
-.arrowBtn > img {
+.arrowBtn>img {
   display: inline-block;
   margin: unset;
   filter: invert(1);
 }
 
 .loadMore {
-  width: 250px;
-  height: 45px;
-  border-radius: unset;
-  margin: 4% 0;
-  font-size: 15px;
-  font-weight: 700;
-  border: 1px solid #000;
-  text-transform: uppercase;
-  background-color: #fff;
-  color: #000;
+  background: #000;
+  color: white;
+  box-shadow: 0px 3px 25px rgba(65, 59, 59, 0.75);
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 55px auto 0;
 }
 
 .loadMore:hover {

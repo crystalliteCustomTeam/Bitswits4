@@ -236,7 +236,7 @@ const AppsLived = ({ content, onAnchorClick }) => {
                             <div className={styles.featured}>
                                 <div>
                                     <div className={styles.btn}>
-                                        <a href="javascript:;">
+                                        <a href="#href">
                                             FEATURED WORKS
                                         </a>
                                     </div>
@@ -287,7 +287,7 @@ const AppsLived = ({ content, onAnchorClick }) => {
                                                     <p>{content.desc}</p>
                                                 </div>
                                                 <div className={styles.sliderBtn}>
-                                                    <a href='javascript:;' onClick={onAnchorClick} className='d-flex align-items-center gap-4 black'>
+                                                    <a href="#href" onClick={onAnchorClick} className='d-flex align-items-center gap-4 black'>
                                                         Unravel The Plan
                                                         <Image src={rightArrow} alt='Bitswits' width={24} height={12} />
                                                     </a>

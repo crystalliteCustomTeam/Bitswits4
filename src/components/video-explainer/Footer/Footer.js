@@ -163,7 +163,7 @@ const VideoFooter = () => {
                                 <p>Its High Time to Showcase Your Store to the World</p>
                             </div>
                             <div className={styles.form}>
-                                <form action="javascript:;">
+                                <form>
                                     <Row>
                                         <Col lg={6} className={`${styles.inputs} `}>
                                             <FaUser className={styles.icon} />
@@ -198,7 +198,7 @@ const VideoFooter = () => {
                                         </Col>
                                     </Row>
                                     <div className={`${styles.btn} mt-3`}>
-                                        <button type='submit' onClick={handleFormSubmit} disabled={isDisabled}>
+                                        <button type='submit' onClick={handleFormSubmit} disabled={isDisabled} className='bitsForm'>
                                             {formStatus}
                                         </button>
                                     </div>

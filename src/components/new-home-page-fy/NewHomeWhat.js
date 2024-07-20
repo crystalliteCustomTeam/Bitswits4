@@ -9,7 +9,7 @@ const NewHomeWhat = () => {
         <>
             <section className={styles.newHomeBg}>
                 <div className={styles.videobackground}>
-                    <video autoPlay loop muted src='./v2video.mp4' className='w-100 h-100'></video>
+                    <video autoPlay loop muted src='https://player.vimeo.com/progressive_redirect/playback/961570091/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7265d559a471a4c65dfa313b55a7fca0e187a60c7b83fc3a82c8d84a74df0182' className='w-100 h-100'></video>
                 </div>
                 <div className={styles.newHomeOvrly}>
                     <Container>

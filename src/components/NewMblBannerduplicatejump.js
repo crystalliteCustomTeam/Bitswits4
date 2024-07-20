@@ -169,12 +169,11 @@ const NewHomeBanner = () => {
 
 
                             <form className={styles.formalign} onSubmit={handleSubmit}>
-
                                 <input type="text" minLength="4" placeholder="Type Name" id="name" name="name" required />
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" id="phone" name="phone" placeholder="(000) 000-0000" required />
                                 <input type="email" placeholder="Type Your Email" id="email" name="email" required />
                                 <input type="url" placeholder="Type Your Website" id="message" name="website" required />
-                                <button type="submit" name="saves1" id="butact1" className="primary-btn">{score}</button>
+                                <button type="submit" name="saves1" id="butact1" className="primary-btn bitsForm">{score}</button>
                             </form>
 
                         </Col>

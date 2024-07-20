@@ -25,7 +25,7 @@ const DubaiMobileApplication = ({ content }) => {
                                 </div>
                             ))}
                             <div className={styles.btn}>
-                                <Link href="javascript:;" className='text-white'>
+                                <Link href="#href" className='text-white'>
                                     Let’s Get Started
                                 </Link>
                             </div>

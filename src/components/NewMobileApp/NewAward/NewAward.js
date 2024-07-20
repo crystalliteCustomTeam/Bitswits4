@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
@@ -70,7 +71,7 @@ const NewAward = ({ content, contentTwo, onAnchorClick }) => {
                                         {desc}
                                     </p>
                                     <div className={`${styles.btn} mt-5 mt-md-0`}>
-                                        <a href="javascript:;" className='blackPulse' onClick={onAnchorClick}>
+                                        <a href="#href" className='blackPulse' onClick={onAnchorClick}>
                                             Free Consultation
                                         </a>
                                     </div>

@@ -1,7 +1,3 @@
-/* .DubaiBanner {
-  padding-top: 40px;
-} */
-
 .newpound {
   margin-top: 40px;
   margin-bottom: 60px;
@@ -28,114 +24,11 @@
 
 .DubaiBanner {
   background: #000;
-  /* background-image: url(../public/newhouston/dubai.webp); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   height: 100dvh;
   display: flex;
   align-items: center;
   position: relative;
   z-index: 1;
-}
-
-.newHoustonBg {
-  background: #000;
-  background-image: url(../public/newhouston/houston.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newDallasBg {
-  background: #000;
-  background-image: url(../public/newhouston/dallas.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newNewYorkBg {
-  background: #000;
-  background-image: url(../public/newhouston/newyork.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newWashingtonBg {
-  background: #000;
-  background-image: url(../public/newhouston/washington.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newAustinBg {
-  background: #000;
-  background-image: url(../public/newhouston/austin.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newChicagoBg {
-  background: #000;
-  background-image: url(../public/newhouston/chicago.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newMiamiBg {
-  background: #000;
-  background-image: url(../public/newhouston/miami.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newTorontoBg {
-  background: #000;
-  background-image: url(../public/newhouston/toronto.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newUKBg {
-  background: #000;
-  background-image: url(../public/newhouston/uk.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
-}
-
-.newSaudiaBg {
-  background: #000;
-  background-image: url(../public/newhouston/saudi.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100dvh;
-  display: flex;
-  align-items: center;
 }
 
 .conform .applost {
@@ -197,56 +90,6 @@
   -webkit-perspective: 300px;
   perspective: 300px;
 }
-
-/* .deliver span {
-  background-color: #f32f53;
-  border-radius: 4px;
-  display: block;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 50px;
-  margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.deliver span:nth-child(1) {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.deliver span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-
-.deliver:hover span:nth-child(1) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-
-.deliver:hover span:nth-child(2) {
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-} */
 
 .postimg img {
   transition: all 1s ease-out;
@@ -738,6 +581,25 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
+}
+
+.cross {
+  position: absolute;
+  top: -1.5%;
+  right: -1.5%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: Poppins;
+  cursor: pointer;
+  border: 1px solid #ff004a;
+  background-color: #ff004a;
 }
 
 /* =========================================== */

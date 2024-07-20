@@ -19,7 +19,7 @@ export default function HomeBannerSlider(props) {
   return (
     <>
       <section
-        className={`${styles.BannerSlider} ${styles[props.assignClass]} pt-5`}
+        className={`${styles.BannerSlider} ${styles[props.assignClass]} pt-5 pb-5`}
       >
         <div className="slider">
           <div className="slideTrack">

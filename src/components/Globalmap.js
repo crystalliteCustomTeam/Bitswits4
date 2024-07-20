@@ -5,8 +5,8 @@ import styles from "@/styles/Globalmap.module.css";
 
 import Map from "media/newdubai/map1.png"
 
-const Globalmap = (props) => {
-
+const Globalmap = ({ content }) => {
+  const { address, number, href, image, link } = content;
   return (
     <>
       <section className={styles.mapGlobal}>
@@ -16,16 +16,17 @@ const Globalmap = (props) => {
               <div className={styles.newtimg}>
                 <h2>Meet Our Experts <br></br>
                   One-on-One</h2>
-                <a className={styles.address} href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</a>
+                <a className={styles.address} href={link}>{address}</a>
                 <a className={`pink ${styles.timr}`} href="javascript:$zopim.livechat.window.show();">
                   Let's Chat
                 </a>
-                <p className="black mb-0">Call us at <a className={styles.num} href={props.href}>+971 55 503 1266</a> </p>
+                <p className="black mb-0">Call us at <a className={styles.num} href={href}>{number}</a> </p>
               </div>
             </Col>
             <Col lg={6} className="p-0">
-              {/* <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.2030876727467!2d55.43093617444632!3d25.330965326271304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f593062f1ec89%3A0xbc77b4e02b99cac3!2s101%2032%20Street%20-%20Al%20Shahba%20-%20Mughaidir%20Suburb%20-%20Sharjah%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1711614171393!5m2!1sen!2s" ></iframe> */}
-              <Image src={Map} alt="Bitswits" loading="lazy" sizes="100vw" width={700} height={453} className="w-100" />
+              <a href={link} target="_blank">
+                <Image src={image} alt="Bitswits" loading="lazy" sizes="100vw" width={700} height={453} className="w-100" />
+              </a>
             </Col>
           </Row>
         </Container>

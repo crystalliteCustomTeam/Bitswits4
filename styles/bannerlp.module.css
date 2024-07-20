@@ -92,6 +92,7 @@
   width: max-content;
   height: 50px;
   background-color: #f32f53;
+  border-radius: 6px;
   color: white;
   display: flex;
   align-items: center;
@@ -102,6 +103,7 @@
   letter-spacing: 1px;
   transition: all 0.5s ease-in-out;
   padding: 0 15px;
+  margin-top: 10px;
 }
 
 .pont {

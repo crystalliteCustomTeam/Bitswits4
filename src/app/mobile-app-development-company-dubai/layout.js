@@ -14,6 +14,19 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/mobile-app-development-company-dubai' },
+  //===== No-Index =====
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      'max-snippet': -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+    },
+  },
   //===== GEO Tags =====
   other: {},
 }

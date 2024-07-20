@@ -87,6 +87,11 @@
   left: 0;
   right: 0;
   padding-left: 1%;
+  overflow-x: hidden;
+}
+
+.megamenuwork {
+  overflow-x: hidden;
 }
 
 .mega hr {
@@ -625,7 +630,7 @@
   font-size: 17px;
   color: white;
   padding-top: 25px;
-  font-weight: 600;
+  font-weight: 500;
   z-index: 999;
   line-height: 20px;
 }
@@ -885,6 +890,62 @@
   color: #f32f5e;
 }
 
+/* =====================Location DropDown======================= */
+
+.locDropdown {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transform: perspective(1000px);
+}
+
+.locDropMenu {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: -90%;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -99999;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.locDropMenu li:first-child {
+  cursor: default;
+}
+
+.locDropMenu a {
+  color: #242429;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.locDropMenu a:hover {
+  background: #f32f53;
+  color: #fff;
+}
+
+.locDropdown:hover .locDropMenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+  width: max-content;
+  -webkit-transition: all 0.5s, background, 2s 0.5s linear;
+  transition: all 0.5s, background 2s 0.5s linear;
+}
+
 /* ============================================ */
 
 @media screen and (min-width: 1400px) {
@@ -1119,7 +1180,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .megamenu,
   .megamenuserve,
   .megamenucom,

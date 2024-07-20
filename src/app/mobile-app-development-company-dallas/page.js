@@ -3,7 +3,7 @@ import React from "react";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
-import StoryLine from "@/src/components/DubaiStoryLine";
+import FutureReady from "@/src/components/FuturereadyDubai";
 import Whowearenew from "../../components/Whowearenew";
 import DubaiDelivered from "@/src/components/DubaiDelivered";
 import DubaiTimeline from "@/src/components/DubaiTimeline";
@@ -18,6 +18,7 @@ import Brand from "../../components/Brand";
 import Faqdubai from "../../components/Faqdubai";
 import Latestblog from "../../components/Latestblog";
 import Globalmap from "../../components/Globalmap";
+import MapImage from "media/newdubai/dallasMap.png"
 //Images 
 import StoryLine2 from "/public/newDubaiPagev1/storyLine2.png";
 import StoryLine3 from "/public/newDubaiPagev1/storyLine3.png";
@@ -102,7 +103,7 @@ export default function dubaidevelopmentcompany() {
   }
   // delivered content
   const DeliveredContent = {
-    title: <>We Have Successfully Brought 100+ App Ideas to Life!</>,
+    title: <>We Have Successfully Brought 150+ App Ideas to Life!</>,
     desc: "Ready to See Yours Become a Reality?",
     btntext: "Book Your Free Consultation Now!"
   }
@@ -139,7 +140,7 @@ export default function dubaidevelopmentcompany() {
       para: <>The cost to develop an app is determined by a range of factors such as app complexity, the platforms it will run on, and the features it will have.</>
     },
     {
-      para: <><span>Simple apps</span> like a flashlight or a calculator with minimal features can cost you around <span>$10,000 to $40,000</span>. <span>Complex apps</span> like e-commerce or social media apps fall in the range of <span>$30,000 to $500,000 or more</span>. <span>High-end apps</span> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <span>$500,000 or more</span>.</>,
+      para: <><span>Simple apps</span> like a flashlight or a calculator with minimal features can cost you around <span>$20,000 to $60,000</span>. <span>Complex apps</span> like e-commerce or social media apps fall in the range of <span>$60,000 to $150,000 </span>or more  . <span>High-end apps</span> like healthcare or banking apps that have enterprise-level features and complex functionalities can cost you around <span>$300,000+ </span>or more.</>,
     },
     {
       para: <>BitsWits, as a premier app development company in Dallas offers custom solutions for every budget. </>,
@@ -294,12 +295,19 @@ export default function dubaidevelopmentcompany() {
       content: 'There Are Around 2.69 Million Apps For Android Smartphones. Almost Everyone Understands Android Apps, And Many Are Ready To Launch Their Own. But...'
     },
   ];
-
+  // Global Conten
+  const global = {
+    address: "1341 W Mockingbird Ln, Dallas, TX 75247",
+    number: "(302) 216-8231",
+    href: "tel:+3022168231",
+    image: MapImage,
+    link: "https://maps.app.goo.gl/Koam3m3q4DXPCDg49"
+  }
   return (
     <>
       <Bannerdubai content={Banner} />
       <NewDubaiAwards content={Award} />
-      <StoryLine content={storyLine} />
+      <FutureReady content={storyLine} />
       <Whowearenew content={WhoWeAre} />
       <DubaiDelivered content={DeliveredContent} />
       <DubaiTimeline content={timeline} />
@@ -382,7 +390,7 @@ export default function dubaidevelopmentcompany() {
       />
       <Latestblog blogBox={blogBox} />
       <Globalmap
-        href="tel:+971 55 503 1266"
+        content={global}
       />
     </>
   );

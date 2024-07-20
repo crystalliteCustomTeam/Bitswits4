@@ -442,7 +442,6 @@ export default function Home() {
             }
           `
         }
-
       </Script>
       <Script id="productSchema" type="application/ld+json">
         {`

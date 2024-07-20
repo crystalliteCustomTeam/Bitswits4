@@ -11,6 +11,7 @@ const Bannerdubai = (props) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [score, setScore] = useState('Submit');
+    const [checkboxes, setCheckboxes] = useState([]);
 
     // Creating function to load IP address from the API
     const getIPData = async () => {
@@ -26,6 +27,15 @@ const Bannerdubai = (props) => {
         getIPData();
         setPagenewurl(window.location.href);
     }, []);
+
+    const handleOptionChange3 = (e) => {
+        const { value, checked } = e.target;
+        if (checked) {
+          setCheckboxes([...checkboxes, value]);
+        } else {
+          setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
+        }
+      };
 
     const router = usePathname();
     const currentRoute = router;
@@ -45,6 +55,7 @@ const Bannerdubai = (props) => {
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
+            checkboxesdata: checkboxes,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -53,7 +64,7 @@ const Bannerdubai = (props) => {
         setScore('Sending Data');
 
         // First API call to your server
-        fetch('/api/emailapidubai/', {
+        fetch('/api/emailapidubai2/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -174,7 +185,7 @@ const Bannerdubai = (props) => {
                                 <textarea placeholder='Description' name='comment' className='form-control mt-2'></textarea>
                                 <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                                 <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
-                                <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
+                                <input type='submit' value={score} name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit"></input>
                             </form>
                         </Col>
                     </Row>

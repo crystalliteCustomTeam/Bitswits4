@@ -75,7 +75,6 @@ const Appmaking = () => {
         ],
     };
 
-
     return (
         <>
             <section className={styles.appmaking} id='technofair'>
@@ -128,7 +127,7 @@ const Appmaking = () => {
                                         <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                     </ul>
                                     <div>
-                                        <a href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</a>
+                                        <a href='tel:8335006007' className={styles.live1}>Call Now: (833) 500-6007</a>
                                     </div>
                                 </div>
                             </Slider>
@@ -177,14 +176,13 @@ const Appmaking = () => {
                                             <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                         </ul>
                                         <div>
-                                            <a href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</a>
+                                            <a href='tel:8335006007' className={styles.live1}>Call Now: (833) 500-6007</a>
                                         </div>
                                     </div>
                                 </Col>
                             </>
                         }
                     </Row>
-
                 </Container>
                 <div className={styles.post}></div>
             </section>

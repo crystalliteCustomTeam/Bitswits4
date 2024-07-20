@@ -224,7 +224,7 @@ const Bannerlpfinal = (props) => {
                                         We takes yout privacy seriously. Read our
                                         Privacy Notice.
                                     </p>
-                                    <input type='submit' name='submit' className={styles.value} placeholder="Submit" value={score}></input>
+                                    <input type='submit' name='submit' className={`bitsForm ${styles.value}`} placeholder="Submit" value={score}></input>
                                 </div>
                                 <div className="d-none d-lg-block">
                                     <h4 className='font20 white fw800 center mt-2'>OUR OFFICES</h4>

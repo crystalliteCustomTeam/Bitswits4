@@ -2,11 +2,11 @@
 export const metadata = {
   //===== Meta Tags =====
   title: "Mobile App Development Company in Miami - BitsWits",
-  description: "Trust BitsWits as your go-to mobile app development company in Miami. We provide expert app development services to meet the needs of your business.",
+  description: "Make sure your mobile app is in safe hands by trusting our expert app developers in Miami. Hire us as we are the pioneers of Miami mobile app development",
   //===== OG Tags =====
   openGraph: {
     title: 'Mobile App Development Company in Miami - BitsWits',
-    description: 'Trust BitsWits as your go-to mobile app development company in Miami. We provide expert app development services to meet the needs of your business.',
+    description: 'Make sure your mobile app is in safe hands by trusting our expert app developers in Miami. Hire us as we are the pioneers of Miami mobile app development',
     url: '/mobile-app-development-company-miami',
     siteName: 'BitsWits',
     locale: 'en_US',
@@ -16,16 +16,15 @@ export const metadata = {
   alternates: { canonical: '/mobile-app-development-company-miami' },
   //===== No-Index =====
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    nocache: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
+      'max-snippet': -1,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1,
     },
   },
   //===== GEO Tags =====
