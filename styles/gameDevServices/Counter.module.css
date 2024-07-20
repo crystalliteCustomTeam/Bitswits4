@@ -1,0 +1,33 @@
+.counterSec {
+  background-color: #000;
+  padding: 35px 0;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 0;
+  border-style: solid;
+  border-right-width: 2px;
+  border-image: linear-gradient(to top, #f32f5e, #4a78ef) 20;
+}
+
+.noBorder {
+  border-right-width: 0;
+}
+
+.counter h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.counter p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}

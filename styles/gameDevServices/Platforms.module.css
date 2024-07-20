@@ -1,0 +1,118 @@
+.Platforms {
+  padding: 100px 0;
+}
+
+.gredientBg {
+  background: linear-gradient(to left, #f32f53, #f32fc2, #4a78ef);
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dimond {
+  position: absolute;
+  left: 3%;
+  top: -10%;
+  text-align: left;
+}
+
+.dimond img {
+  width: 40%;
+}
+
+.circles {
+  position: absolute;
+  text-align: right;
+  top: 7%;
+  right: 2%;
+}
+
+.circles img {
+  width: 45%;
+}
+
+.txt {
+  padding: 0 40px;
+}
+
+.Platforms h2 {
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.secBtn a {
+  background: #f32f53;
+  border-radius: 6px;
+  width: 237px;
+  height: 45px;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 5px #00000040;
+  margin: 30px 0 0px;
+}
+
+.secImg {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+  .txt {
+    padding: 25px 40px;
+  }
+
+  .Platforms h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .txt {
+    padding: 17px 40px;
+  }
+
+  .Platforms h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .txt {
+    padding: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .Platforms {
+    padding: 50px 0;
+  }
+
+  .gredientBg {
+    width: 100%;
+  }
+
+  .txt {
+    padding: 20px 25px;
+  }
+
+  .Platforms h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .secBtn a {
+    width: 100%;
+    margin: 20px 0 0px;
+  }
+}

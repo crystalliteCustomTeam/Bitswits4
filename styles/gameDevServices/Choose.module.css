@@ -1,0 +1,95 @@
+.Choose {
+  padding: 100px 0;
+}
+
+.Choose h2 {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.Choose .card p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.secBtn a {
+  background: #f32f53;
+  border-radius: 6px;
+  width: 237px;
+  height: 45px;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 5px #00000040;
+  margin: 20px 0 30px;
+}
+
+.whychooseSlider {
+  position: relative;
+}
+
+.Choose h3 {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 40px 10px;
+  border-radius: 10px;
+  background: #f3f3f3;
+  height: 100%;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+  .Choose .card p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  .Choose h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .Choose .card {
+    min-height: 280px;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .Choose h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .Choose .card {
+    min-height: 230px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .Choose {
+    padding: 40px 0 120px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .Choose {
+    padding: 20px 0 100px;
+  }
+
+  .Choose h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

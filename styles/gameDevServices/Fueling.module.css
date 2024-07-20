@@ -1,0 +1,193 @@
+.fuelingSec {
+  padding: 100px 0;
+  background-image: url(../../public/services/fuelingSec.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fuelingSec .txt {
+  position: sticky;
+  top: 140px;
+}
+
+.fuelingSec h2 {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.fuelingSec .ideaPart {
+  background: linear-gradient(to left, #f32f53, #f32fc2, #4a78ef);
+  display: flex;
+  align-items: center;
+  height: 215px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.fuelingSec .ideaPart .content {
+  padding: 0;
+}
+
+.fuelingSec .ideaPart .content h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.fuelingSec .ideaPart .content p {
+  font-size: 15px;
+}
+
+.fuelingSec .secBtn a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 20px;
+  width: -moz-max-content;
+  width: max-content;
+  height: 45px;
+  border-radius: 6px;
+  background: #f32f53;
+  box-shadow: 0px 5px 20px 5px #00000040;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.4s;
+  margin-top: 40px;
+}
+
+.fuelingSec .ideaPart .image {
+  position: relative;
+  width: 200px;
+}
+
+.fuelingSec .ideaPart .image img {
+  position: absolute;
+  bottom: -170px;
+  right: 10%;
+}
+
+.fuelingSec .fuelingItems {
+  padding-left: 120px;
+}
+
+.fuelingSec .fuelingItems li h3 {
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.fuelingSec .fuelingItems li h3::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(to right, #4a78ef, #f32fc2, #f32f53);
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1499px) {
+  .fuelingSec .ideaPart .image {
+    width: 180px;
+  }
+
+  .fuelingSec .ideaPart .image img {
+    bottom: -145px;
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+  .fuelingSec .fuelingItems {
+    padding-left: 50px;
+  }
+
+  .fuelingSec .ideaPart .content h3 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .fuelingSec .ideaPart .image img {
+    right: 12%;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .fuelingSec h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .br {
+    display: none;
+  }
+
+  .fuelingSec .ideaPart .content h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .fuelingSec .ideaPart .content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .fuelingSec .ideaPart {
+    height: 175px;
+  }
+
+  .fuelingSec .ideaPart .image {
+    width: 150px;
+  }
+
+  .fuelingSec .ideaPart .image img {
+    bottom: -130px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .fuelingSec .fuelingItems {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+
+  .br {
+    display: block;
+  }
+
+  .fuelingSec .ideaPart {
+    height: 160px;
+  }
+
+  .fuelingSec .ideaPart .image {
+    width: 150px;
+  }
+
+  .fuelingSec .ideaPart .image img {
+    bottom: -120px;
+    right: 0%;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .fuelingSec {
+    padding: 50px 0;
+  }
+
+  .fuelingSec h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .fuelingSec .ideaPart {
+    height: 180px;
+  }
+}
