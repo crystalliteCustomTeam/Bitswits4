@@ -9,32 +9,7 @@ import { FaComments, FaEnvelope, FaGlobeAsia, FaPhoneAlt, FaUser } from 'react-i
 import Payment from "media/videoexplainer/payment-img.png"
 import UpArrow from "media/videoexplainer/up-arrow.png"
 
-// const socialLinks = [
-//     {
-//         icon: facebook,
-//         link: "https://www.facebook.com/infinityanimationsofficial"
-//     },
-//     {
-//         icon: twitter,
-//         link: "https://twitter.com/infinityan_/"
-//     },
-//     {
-//         icon: instagram,
-//         link: "https://www.instagram.com/infinityanimationsofficials"
-//     },
-//     {
-//         icon: linkedin,
-//         link: "https://www.linkedin.com/company/infinity-animations/"
-//     },
-//     {
-//         icon: youtube,
-//         link: "https://www.youtube.com/@Infinity-Animations"
-//     },
-//     {
-//         icon: vimeo,
-//         link: "https://www.vimeo.com/infinityanimations"
-//     },
-// ]
+
 const VideoFooter = () => {
     // form Start 
     let newDate = new Date();
@@ -50,7 +25,7 @@ const VideoFooter = () => {
     //creating function to load ip address from the API
     const getIPData = async () => {
         const res = await Axios.get(
-            "https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8"
+            "https://ipwho.is/"
         );
         setIP(res.data);
     };
@@ -65,7 +40,8 @@ const VideoFooter = () => {
         email: "",
         message: "",
         botchecker: null,
-        pageURL: page
+        pageURL: page,
+        IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
     });
     const handleDataChange = (e) => {
         setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -134,7 +110,7 @@ const VideoFooter = () => {
                 };
 
                 let bodyContent = JSON.stringify({
-                    IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                    IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
                     Brand: "Bitswits",
                     Page: `${page}`,
                     Date: setDate,
