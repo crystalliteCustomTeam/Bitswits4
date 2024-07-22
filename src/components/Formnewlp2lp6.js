@@ -15,7 +15,7 @@ const Formnewlp2lp6 = () => {
     // Creating function to load IP address from the API
     const getIPData = async () => {
         try {
-            const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+            const res = await Axios.get('https://ipwho.is/');
             setIP(res.data);
         } catch (error) {
             console.error('Error fetching IP data:', error);
@@ -41,7 +41,7 @@ const Formnewlp2lp6 = () => {
             phone: e.target.phone.value,
             comment: e.target.comment.value,
             pageUrl: pagenewurl,
-            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
             currentdate: currentdate,
         }
         const JSONdata = JSON.stringify(data);
@@ -70,7 +70,7 @@ const Formnewlp2lp6 = () => {
             "Content-Type": "application/json"
         };
         let bodyContent = JSON.stringify({
-            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "IP": `${ip.ip} - ${ip.country} - ${ip.city}`,
             "Brand": "Bitswits",
             "Page": `${currentRoute}`,
             "Date": currentdate,
