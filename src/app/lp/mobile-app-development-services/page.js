@@ -18,6 +18,48 @@ import Faqs from '@/src/components/NewMobileApp/Faqs/Faqs';
 import Location from '@/src/components/NewMobileApp/Location/Location';
 
 const page = ({ content }) => {
+  const [isMobile, setIsMobile] = useState(false);
+  const [showDesktopComponents, setShowDesktopComponents] = useState(false);
+  const [showMobileComponents, setShowMobileComponents] = useState(false);
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    // Show desktop components after 1 second
+    const desktopTimer = setTimeout(() => {
+      setShowDesktopComponents(true);
+    }, 300);
+
+    return () => {
+      window.removeEventListener("resize", checkMobile);
+      clearTimeout(desktopTimer);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleTouchOrScroll = () => {
+      setShowMobileComponents(true);
+      // Remove event listeners after mobile components are shown
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+
+    // Add event listeners for touch and scroll events
+    window.addEventListener("scroll", handleTouchOrScroll);
+    window.addEventListener("touchstart", handleTouchOrScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleTouchOrScroll);
+      window.removeEventListener("touchstart", handleTouchOrScroll);
+    };
+  }, []);
+
+
+
   // Skicky
   const [isHovered, setIsHovered] = useState(false);
   const [showSticky, setShowSticky] = useState(false);
@@ -147,56 +189,118 @@ const page = ({ content }) => {
     <>
       <Sticky isHovered={isHovered} showSticky={showSticky} loc={loc} />
       <Bannerdubai content={Banner} />
-      <NewAward content={Award} contentTwo={content} onAnchorClick={handleAnchorClick} />
-      <Whowearenew content={WhoWeAre} contentTwo={content} onAnchorClick={handleAnchorClick} />
-      <FutureReady />
-      <AppsLived content={content} onAnchorClick={handleAnchorClick} />
-      <AppsJourney content={content} onAnchorClick={handleAnchorClick} />
-      <Conviced content={content} onAnchorClick={handleAnchorClick}/>
-      <NewHouston content={HoustonContent} />
-      <Industries />
-      <Deliver />
-      <LogoSlider />
-      <JournyForm />
-      <Faqs
-        faqsData={[
-          {
-            question: "Are mobile app development services expensive?",
-            answer: "The cost of developing a mobile app varies based on several factors, such as complexity, features, platform (iOS, Android, cross-platform), and the mobile app development services you choose. It's advisable to speak with several app developers and agencies to get quotes that are more suitable for you."
-          },
-          {
-            question: "How much does it cost to develop an app in US?",
-            answer: "The cost varies widely depending on the complexity and features of the app. Best app making services charge more due to their reputation and quality of work. Prices generally range from a few thousand dollars to hundreds of thousands depending on the time and effort."
-          },
-          {
-            question: "What is the typical timeline for mobile app development?",
-            answer: "Development time varies by app intricacy and features. A simple application can take around 6 months to launch while a complex app with two or multiple interfaces can take 9-12 months."
-          },
-          {
-            question: "Do hybrid app development services develop apps for both iOS and Android?",
-            answer: "Yes, our hybrid app development services have excelled in creating apps that function on iOS and Android platforms. They often employ frameworks like Flutter and React Native to ensure optimum functionality and visual appeal."
-          },
-          {
-            question: "What is a typical app development process?",
-            answer: "The process for app development includes ideation, UI/UX design, development, testing, and deployment. Each juncture ensures the app meets client expectations and functions exceptionally well across platforms."
-          },
-          {
-            question: "Will my app be compatible with all devices?",
-            answer: "BitsWits focuses on creating apps that work without fault across various devices and operating systems by employing advanced frameworks and rigorous testing methodologies."
-          },
-          {
-            question: "Can we update mobile applications after launch?",
-            answer: " Yes, our  app development services typically offer maintenance and updates to refine features and improve the app based on user feedback and technological advancements."
-          },
-          {
-            question: "What data privacy measures are taken by your company?",
-            answer: "Trailblazers of social media app development services, BitsWits prioritizes user data privacy by adhering to legal standards like GDPR and CCPA, ensuring secure data storage and transmission while integrating fail-safe consent mechanisms into the app."
-          },
-        ]}
-      />
-      <Location />
+      {isMobile ? (
+        showMobileComponents && (
+          <>
+            <NewAward content={Award} contentTwo={content} onAnchorClick={handleAnchorClick} />
+            <Whowearenew content={WhoWeAre} contentTwo={content} onAnchorClick={handleAnchorClick} />
+            <FutureReady />
+            <AppsLived content={content} onAnchorClick={handleAnchorClick} />
+            <AppsJourney content={content} onAnchorClick={handleAnchorClick} />
+            <Conviced content={content} onAnchorClick={handleAnchorClick} />
+            <NewHouston content={HoustonContent} />
+            <Industries />
+            <Deliver />
+            <LogoSlider />
+            <JournyForm />
+            <Faqs
+              faqsData={[
+                {
+                  question: "Are mobile app development services expensive?",
+                  answer: "The cost of developing a mobile app varies based on several factors, such as complexity, features, platform (iOS, Android, cross-platform), and the mobile app development services you choose. It's advisable to speak with several app developers and agencies to get quotes that are more suitable for you."
+                },
+                {
+                  question: "How much does it cost to develop an app in US?",
+                  answer: "The cost varies widely depending on the complexity and features of the app. Best app making services charge more due to their reputation and quality of work. Prices generally range from a few thousand dollars to hundreds of thousands depending on the time and effort."
+                },
+                {
+                  question: "What is the typical timeline for mobile app development?",
+                  answer: "Development time varies by app intricacy and features. A simple application can take around 6 months to launch while a complex app with two or multiple interfaces can take 9-12 months."
+                },
+                {
+                  question: "Do hybrid app development services develop apps for both iOS and Android?",
+                  answer: "Yes, our hybrid app development services have excelled in creating apps that function on iOS and Android platforms. They often employ frameworks like Flutter and React Native to ensure optimum functionality and visual appeal."
+                },
+                {
+                  question: "What is a typical app development process?",
+                  answer: "The process for app development includes ideation, UI/UX design, development, testing, and deployment. Each juncture ensures the app meets client expectations and functions exceptionally well across platforms."
+                },
+                {
+                  question: "Will my app be compatible with all devices?",
+                  answer: "BitsWits focuses on creating apps that work without fault across various devices and operating systems by employing advanced frameworks and rigorous testing methodologies."
+                },
+                {
+                  question: "Can we update mobile applications after launch?",
+                  answer: " Yes, our  app development services typically offer maintenance and updates to refine features and improve the app based on user feedback and technological advancements."
+                },
+                {
+                  question: "What data privacy measures are taken by your company?",
+                  answer: "Trailblazers of social media app development services, BitsWits prioritizes user data privacy by adhering to legal standards like GDPR and CCPA, ensuring secure data storage and transmission while integrating fail-safe consent mechanisms into the app."
+                },
+              ]}
+            />
+            <Location />
+          </>
+        )
+      ) : (
+        showDesktopComponents && (
+          <>
+            <NewAward content={Award} contentTwo={content} onAnchorClick={handleAnchorClick} />
+            <Whowearenew content={WhoWeAre} contentTwo={content} onAnchorClick={handleAnchorClick} />
+            <FutureReady />
+            <AppsLived content={content} onAnchorClick={handleAnchorClick} />
+            <AppsJourney content={content} onAnchorClick={handleAnchorClick} />
+            <Conviced content={content} onAnchorClick={handleAnchorClick} />
+            <NewHouston content={HoustonContent} />
+            <Industries />
+            <Deliver />
+            <LogoSlider />
+            <JournyForm />
+            <Faqs
+              faqsData={[
+                {
+                  question: "Are mobile app development services expensive?",
+                  answer: "The cost of developing a mobile app varies based on several factors, such as complexity, features, platform (iOS, Android, cross-platform), and the mobile app development services you choose. It's advisable to speak with several app developers and agencies to get quotes that are more suitable for you."
+                },
+                {
+                  question: "How much does it cost to develop an app in US?",
+                  answer: "The cost varies widely depending on the complexity and features of the app. Best app making services charge more due to their reputation and quality of work. Prices generally range from a few thousand dollars to hundreds of thousands depending on the time and effort."
+                },
+                {
+                  question: "What is the typical timeline for mobile app development?",
+                  answer: "Development time varies by app intricacy and features. A simple application can take around 6 months to launch while a complex app with two or multiple interfaces can take 9-12 months."
+                },
+                {
+                  question: "Do hybrid app development services develop apps for both iOS and Android?",
+                  answer: "Yes, our hybrid app development services have excelled in creating apps that function on iOS and Android platforms. They often employ frameworks like Flutter and React Native to ensure optimum functionality and visual appeal."
+                },
+                {
+                  question: "What is a typical app development process?",
+                  answer: "The process for app development includes ideation, UI/UX design, development, testing, and deployment. Each juncture ensures the app meets client expectations and functions exceptionally well across platforms."
+                },
+                {
+                  question: "Will my app be compatible with all devices?",
+                  answer: "BitsWits focuses on creating apps that work without fault across various devices and operating systems by employing advanced frameworks and rigorous testing methodologies."
+                },
+                {
+                  question: "Can we update mobile applications after launch?",
+                  answer: " Yes, our  app development services typically offer maintenance and updates to refine features and improve the app based on user feedback and technological advancements."
+                },
+                {
+                  question: "What data privacy measures are taken by your company?",
+                  answer: "Trailblazers of social media app development services, BitsWits prioritizes user data privacy by adhering to legal standards like GDPR and CCPA, ensuring secure data storage and transmission while integrating fail-safe consent mechanisms into the app."
+                },
+              ]}
+            />
+            <Location />
+          </>
+        )
+      )}
     </>
   )
 }
 
 export default page
+
+
+
