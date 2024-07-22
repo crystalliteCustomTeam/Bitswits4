@@ -31,12 +31,7 @@ const Formnewlpdubai = () => {
     const currentRoute = router;
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-        // Check if IP data is available before submitting the form
-        if (!ip) {
-            console.error('IP data is not available yet. Please try again later.');
-            return;
-        }
+         e.preventDefault();
 
         const currentdate = new Date().toLocaleString();
         const data = {
