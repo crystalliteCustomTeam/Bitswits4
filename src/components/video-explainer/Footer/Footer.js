@@ -9,32 +9,7 @@ import { FaComments, FaEnvelope, FaGlobeAsia, FaPhoneAlt, FaUser } from 'react-i
 import Payment from "media/videoexplainer/payment-img.png"
 import UpArrow from "media/videoexplainer/up-arrow.png"
 
-// const socialLinks = [
-//     {
-//         icon: facebook,
-//         link: "https://www.facebook.com/infinityanimationsofficial"
-//     },
-//     {
-//         icon: twitter,
-//         link: "https://twitter.com/infinityan_/"
-//     },
-//     {
-//         icon: instagram,
-//         link: "https://www.instagram.com/infinityanimationsofficials"
-//     },
-//     {
-//         icon: linkedin,
-//         link: "https://www.linkedin.com/company/infinity-animations/"
-//     },
-//     {
-//         icon: youtube,
-//         link: "https://www.youtube.com/@Infinity-Animations"
-//     },
-//     {
-//         icon: vimeo,
-//         link: "https://www.vimeo.com/infinityanimations"
-//     },
-// ]
+
 const VideoFooter = () => {
     // form Start 
     let newDate = new Date();
