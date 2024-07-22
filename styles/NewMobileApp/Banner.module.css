@@ -942,7 +942,7 @@
   }
 
   .badge {
-    flex-wrap: inherit;
+    display: none;
   }
 }
 
