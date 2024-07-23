@@ -55,33 +55,38 @@ const Banner = () => {
             {
                 breakpoint: 1099,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                 },
             },
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 },
             },
         ],
     };
     return (
         <section className={styles.banner}>
+            <div className={styles.banVideo}>
+                <video loading="lazy" muted loop autoPlay preload="auto" >
+                    <source src="https://player.vimeo.com/progressive_redirect/playback/989097146/rendition/720p/file.mp4?loc=external&log_user=0&signature=3ff085a6ef07723a99e91c4223df0c30dc667885242f5804df7f98640687dc78" type="video/mp4" />
+                </video>
+            </div>
             <Container>
                 <Row className='align-items-center'>
-                    <Col lg={7} className={styles.column}>
+                    <Col md={7} className={styles.column}>
                         <div className="txt">
                             <p className={`${styles.gradient} font20 manrope font-bold mb-3`}>Quickly – Efficiently – Effortlessly</p>
                             <h1 className='font-bold manrope text-white'>The Ultimate <span className={styles.gradient2}>Mobile Game Development</span> Company</h1>
-                            <p className='font16 manrope text-white my-3 py-3'>We’re a software development company that ensures its expertise extends to offer a seamlessly productive and growth-oriented partnership to its client’s goals, and internal teams.</p>
+                            <p className='font16 manrope text-white my-3 py-xl-3'>We’re a software development company that ensures its expertise extends to offer a seamlessly productive and growth-oriented partnership to its client’s goals, and internal teams.</p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
                                 <a href="#href" className={`${styles.demoBtn} font-bold manrope`}>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
                         </div>
-                        <Slider {...logoSlider} className={`testimonialSlider pt-5`}>
+                        <Slider {...logoSlider} className={`testimonialSlider pt-4 pt-xl-5`}>
                             {logoData.map((i, index) => (
                                 <div key={index} className={styles.logos}>
                                     <Image src={i.logo} alt='Bitswits' className='img-fluid' />

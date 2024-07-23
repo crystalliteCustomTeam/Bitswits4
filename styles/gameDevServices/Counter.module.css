@@ -34,6 +34,24 @@
 
 /* =========================================== */
 
+@media only screen and (max-width: 1099px) {
+
+  .counter h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .counter p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+}
+
+
 @media only screen and (max-width: 991px) {
   .counter {
     border: 0;

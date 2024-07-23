@@ -66,6 +66,20 @@
 
 /* Media Query Start */
 
+@media only screen and (max-width: 1099px) {
+  .cube {
+    top: -5%;
+  }
+
+  .angel {
+    bottom: 10%;
+  }
+
+  .ball {
+    top: -10%;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .BasedCta2 {
     padding: 100px 0 50px;

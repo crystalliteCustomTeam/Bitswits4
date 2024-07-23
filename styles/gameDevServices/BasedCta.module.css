@@ -91,6 +91,20 @@
 
 /* Media Query Start */
 
+@media only screen and (max-width: 1099px) {
+  .cube {
+    top: -5%;
+  }
+
+  .angel {
+    bottom: 10%;
+  }
+
+  .ball {
+    top: -12%;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .BasedCta {
     padding: 50px 0;
@@ -131,5 +145,9 @@
 
   .serviBtn a {
     width: 100%;
+  }
+
+  .ball {
+    top: -20%;
   }
 }

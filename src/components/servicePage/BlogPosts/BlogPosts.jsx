@@ -25,7 +25,7 @@ const BlogPosts = () => {
                             </div>
                             <div className={styles.cardContent}>
                                 <p className='fontsfregular manrope font-regular'>Blockchain</p>
-                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br />
+                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br className='d-none d-xl-block' />
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>
@@ -56,7 +56,7 @@ const BlogPosts = () => {
                             </div>
                             <div className={styles.cardContent}>
                                 <p className='fontsfregular manrope font-regular'>Mobile Application</p>
-                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br />
+                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br className='d-none d-xl-block' />
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>
@@ -87,7 +87,7 @@ const BlogPosts = () => {
                             </div>
                             <div className={styles.cardContent}>
                                 <p className='fontsfregular manrope font-regular'>General</p>
-                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br />
+                                <h5 className='fontsfregular manrope'>Conquer Tech With Bitswits: <br className='d-none d-xl-block' />
                                     Your Path To Unstoppable Progress!</h5>
                                 <p className='fontsfregular manrope font-regular'>Bitswits' Development Of The Proeye Project, A Wallet Analytics And Search Engine Platform On Blockchain,  Their Comprehensive Work, From Requirement Analysis</p>
                                 <div className={styles.btn}>

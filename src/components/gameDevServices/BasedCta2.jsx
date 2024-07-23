@@ -13,7 +13,7 @@ const BasedCta2 = () => {
     return (
         <section className={`${styles.BasedCta2}`}>
             <Container>
-                <Row className='align-items-center gy-4'>
+                <Row className='align-items-center'>
                     <Col lg={6}>
                         <div className={styles.content}>
                             <div className={styles.cube}>
@@ -35,7 +35,7 @@ const BasedCta2 = () => {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <div className={`d-md-block d-none ${styles.secImage}`}>
+                        <div className={`d-md-block d-none ${styles.secImage} mt-4 mt-lg-0`}>
                             <Image src={basedImg} alt='Bitswits' className='img-fluid' />
                         </div>
                     </Col>

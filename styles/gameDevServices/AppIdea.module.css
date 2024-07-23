@@ -101,14 +101,12 @@
   }
 
   .image {
-    margin-top: -94px;
-    position: relative;
-    top: 45px;
+    top: -3%;
   }
 
   .image img {
-    max-height: 510px;
-    min-height: 510px;
+    width: 90%;
+    height: auto;
   }
 
   .gredientBg::after {

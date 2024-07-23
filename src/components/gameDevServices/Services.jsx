@@ -21,7 +21,7 @@ const Services = () => {
                     <Col lg={12}>
                         <div className="txt">
                             <h2 className='text-white manrope font-bold mb-3'>Our <span className='newfycolr'>Services</span></h2>
-                            <p className='font16 text-white manrope mb-lg-5 pb-lg-3'>We’re a software development company that ensures its expertise extends to offer a seamlessly productive and  <br className='d-xl-block d-none' /> growth-oriented partnership</p>
+                            <p className='font16 text-white manrope mb-lg-5 pb-lg-3'>We’re a software development company that ensures its expertise extends to offer a seamlessly <br className='d-none d-lg-block' /> productive and growth-oriented partnership</p>
                         </div>
                     </Col>
                     <Col lg={6}>
