@@ -44,7 +44,7 @@
   width: 50%;
 }
 
-.BasedCta h2 {
+.BasedCta2 h2 {
   font-size: 40px;
   line-height: 55px;
 }
@@ -67,7 +67,11 @@
 /* Media Query Start */
 
 @media only screen and (max-width: 991px) {
-  .BasedCta h2 {
+  .BasedCta2 {
+    padding: 100px 0 50px;
+  }
+
+  .BasedCta2 h2 {
     font-size: 30px;
     line-height: 40px;
   }
@@ -76,23 +80,35 @@
     padding-right: 0;
   }
 
-  .BasedCta .secImage {
+  .BasedCta2 .secImage {
     width: 80%;
     margin: 35px auto 0;
+  }
+
+  .cube {
+    display: none;
+  }
+
+  .angel {
+    display: none;
+  }
+
+  .ball {
+    top: -30%;
   }
 }
 
 @media only screen and (max-width: 567px) {
-  .BasedCta {
-    padding: 50px 0;
-  }
-
-  .BasedCta h2 {
+  .BasedCta2 h2 {
     font-size: 25px;
     line-height: 35px;
   }
 
   .serviBtn a {
     width: 100%;
+  }
+
+  .ball {
+    top: -20%;
   }
 }

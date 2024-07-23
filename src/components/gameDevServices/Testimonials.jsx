@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { Col, Container, Row } from 'react-bootstrap'
 import Slider from 'react-slick'
+import { Col, Container, Row } from 'react-bootstrap'
 //====== Css
 import styles from "@/styles/gameDevServices/Testimonials.module.css"
 //====== Image

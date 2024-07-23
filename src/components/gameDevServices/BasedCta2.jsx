@@ -13,7 +13,7 @@ const BasedCta2 = () => {
     return (
         <section className={`${styles.BasedCta2}`}>
             <Container>
-                <Row className='align-items-center'>
+                <Row className='align-items-center gy-4'>
                     <Col lg={6}>
                         <div className={styles.content}>
                             <div className={styles.cube}>

@@ -151,7 +151,7 @@ const Discuss = () => {
                     <Image src={plus} alt='Bitswits' className='img-fluid w-50' />
                 </div>
                 <div className={styles.cube}>
-                    <Image src={cube} alt='Bitswits' className='img-fluid w-50' />
+                    <Image src={cube} alt='Bitswits' className='img-fluid' />
                 </div>
                 <Container>
                     <div className={`mb-5 text-center`}>

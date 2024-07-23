@@ -16,6 +16,19 @@
   width: 15%;
 }
 
+.cube img {
+  animation: animName 10s linear infinite;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .heading h3 svg {
   position: absolute;
   right: 1%;
@@ -203,7 +216,7 @@
 
 @media only screen and (max-width: 1099px) {
   .faqs {
-    padding: 0 0 80px;
+    padding: 50px 0;
   }
 
   .faqs .txt h3 {
@@ -240,13 +253,8 @@
   }
 
   .mostimg {
-    /* display: unset !important; */
     gap: 40px;
     justify-content: space-between;
-  }
-
-  .faqs {
-    padding: 0 0 80px;
   }
 
   .about {
@@ -255,10 +263,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .faqs {
-    padding: 0 0 50px;
-  }
-
   .about {
     margin: 0 auto 0;
   }
@@ -329,9 +333,5 @@
   .about {
     margin-right: auto;
     margin-bottom: 5%;
-  }
-
-  .faqs {
-    padding: 50px 0;
   }
 }

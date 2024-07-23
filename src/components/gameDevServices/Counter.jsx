@@ -16,9 +16,9 @@ const Counter = () => {
     return (
         <section className={styles.counterSec}>
             <Container>
-                <Row>
+                <Row className='gy-5'>
                     {counters.map((counter, index) => (
-                        <Col lg={3} key={index}>
+                        <Col className='col-6 col-lg-3' key={index}>
                             <div className={`${styles.counter} ${counter.noBorder ? styles.noBorder : ''}`}>
                                 <h3 className='manrope'>{counter.number}</h3>
                                 <p className='manrope'>{counter.description}</p>

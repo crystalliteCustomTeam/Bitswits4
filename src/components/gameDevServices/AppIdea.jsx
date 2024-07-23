@@ -12,7 +12,7 @@ const AppIdea = () => {
             <Container>
                 <div className={styles.gredientBg}>
                     <Row className='align-items-center justify-content-center gap-5'>
-                        <Col lg={4}>
+                        <Col lg={4} className='d-none d-lg-block'>
                             <div className={styles.image}>
                                 <Image src={appIdeaImg} alt='Bitswits' className='img-fluid d-lg-block d-none' />
                             </div>

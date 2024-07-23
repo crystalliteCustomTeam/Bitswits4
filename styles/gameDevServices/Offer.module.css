@@ -94,7 +94,6 @@
   margin: 0;
 }
 
-
 .understandContent {
   display: flex;
   flex-direction: column;
@@ -346,7 +345,7 @@
 
 @media screen and (max-width: 991px) {
   .Offer {
-    padding: 0px 0 25px;
+    padding: 0 0 50px;
   }
 
   .applicationlong {

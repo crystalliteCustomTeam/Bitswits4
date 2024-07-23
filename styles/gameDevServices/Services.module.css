@@ -75,8 +75,8 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .services {
-    padding: 60px 0;
+  .serviceSec {
+    padding: 50px 0;
   }
 
   .services h2 {
@@ -94,6 +94,10 @@
 
   .etimate {
     margin-top: 40px;
+  }
+
+  .angle {
+    display: none;
   }
 }
 

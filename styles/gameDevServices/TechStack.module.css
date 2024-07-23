@@ -64,8 +64,6 @@
   justify-content: center;
 }
 
-
-
 .TechStack .tech p {
   font-size: 14px;
   line-height: 28px;
@@ -83,6 +81,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .TechStack {
+    padding: 0 0 50px;
+  }
+
   .tabList {
     padding: 0 0 15px;
   }
@@ -99,10 +101,6 @@
 }
 
 @media only screen and (max-width: 567px) {
-  .TechStack {
-    padding: 50px 0;
-  }
-
   .TechStack h2 {
     font-size: 25px;
     line-height: 35px;

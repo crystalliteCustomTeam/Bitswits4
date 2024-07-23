@@ -17,6 +17,21 @@
   right: 2%;
 }
 
+.cube img {
+  width: 35%;
+  height: auto;
+  animation: animName 10s linear infinite;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .formsbanner .forminput {
   background-color: transparent;
   border: 2px solid #cecece;
@@ -67,6 +82,14 @@
 @media screen and (max-width: 991px) {
   .discuss {
     padding: 50px 0;
+  }
+
+  .plus {
+    display: none;
+  }
+
+  .cube {
+    display: none;
   }
 }
 
