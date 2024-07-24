@@ -53,7 +53,6 @@ const Bannerlpfinal = (props) => {
         const currentdate = new Date().toLocaleString();
         const data = {
             name: e.target.name.value,
-            last: '',
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
@@ -210,10 +209,10 @@ const Bannerlpfinal = (props) => {
                             <form className={styles.your} onSubmit={handleSubmit}>
                                 <h3 className='white fw500'>Transform Your App Idea Into A Success Story</h3>
                                 <h2 className='mb-3 fw500 white'>Today Is The Day To Start!</h2>
-                                <input type='text' minLength="4" name='first' required className={styles.newform} placeholder="Your Name*"></input>
+                                <input type='text' minLength="4" name='name' required className={styles.newform} placeholder="Your Name*"></input>
                                 <input type='email' name='email' required className={styles.newform} placeholder="Your Email*"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className={styles.newform} placeholder="Your Phone Number*"></input>
-                                <textarea placeholder='Message*' required name='message' className={styles.newformtext}></textarea>
+                                <textarea placeholder='Message*' required name='comment' className={styles.newformtext}></textarea>
                                 <div className={styles.takesread}>
                                     <p>
                                         We takes yout privacy seriously. Read our
