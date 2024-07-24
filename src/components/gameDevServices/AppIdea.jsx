@@ -6,6 +6,7 @@ import styles from "@/styles/gameDevServices/AppIdea.module.css"
 //====== Images
 import appIdeaImg from "media/gameServices/appIdeaImg.png"
 
+
 const AppIdea = () => {
     return (
         <section className={styles.appIdeaSec}>
@@ -44,7 +45,7 @@ const AppIdea = () => {
                                             </div>
                                         </Col>
                                         <Col lg={12}>
-                                            <button type='submit' className='manrope bitsForm'>
+                                            <button type='submit' className='manrope bitsForm blackPulse'>
                                                 Get Free Consultation
                                             </button>
                                         </Col>

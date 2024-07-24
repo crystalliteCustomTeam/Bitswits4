@@ -32,17 +32,16 @@
   margin-bottom: 0;
 }
 
-/* =========================================== */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1099px) {
-
   .counter h3 {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 5px;
   }
-  
+
   .counter p {
     color: #fff;
     font-size: 16px;
@@ -50,7 +49,6 @@
     margin-bottom: 0;
   }
 }
-
 
 @media only screen and (max-width: 991px) {
   .counter {
@@ -63,7 +61,7 @@
     font-weight: 600;
     margin-bottom: 5px;
   }
-  
+
   .counter p {
     color: #fff;
     font-size: 16px;

@@ -6,7 +6,36 @@ import styles from "@/styles/gameDevServices/Fueling.module.css"
 //====== Images
 import fuelingImg from "media/gameServices/fuelingImg.png"
 
+
 const Fueling = () => {
+    /* ============================= */
+    const fuelingItems = [
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        },
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        },
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        },
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        },
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        },
+        {
+            title: 'AI/ML',
+            content: 'As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation.'
+        }
+    ];
+    /* ============================= */
     return (
         <section className={styles.fuelingSec}>
             <Container>
@@ -32,7 +61,7 @@ const Fueling = () => {
                                 </Row>
                             </div>
                             <div className={styles.secBtn}>
-                                <a href="#href">
+                                <a href="#href" className='pink'>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
@@ -40,35 +69,17 @@ const Fueling = () => {
                     </Col>
                     <Col lg={6}>
                         <ul className={styles.fuelingItems}>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
-                            <li className='mb-5'>
-                                <h3 className='manrope font-bold text-white'>AI/ML</h3>
-                                <p className='text-white font16 manrope mb-0'>As a leading iOS development firm, we have a team of talented developers who can transform your business by integrating advanced AI and ML solutions. Our iOS app development services harness the power of artificial intelligence to automate processes, drive innovation</p>
-                            </li>
+                            {fuelingItems.map((i, index) => (
+                                <li key={index} className='mb-5'>
+                                    <h3 className='manrope font-bold text-white'>{i.title}</h3>
+                                    <p className='text-white font16 manrope mb-0'>{i.content}</p>
+                                </li>
+                            ))}
                         </ul>
                     </Col>
                 </Row>
             </Container>
-        </section >
+        </section>
     )
 }
 

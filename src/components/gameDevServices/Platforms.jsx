@@ -8,6 +8,7 @@ import platformImg from "media/gameServices/platformImg.png"
 import dimond from "media/gameServices/dimond.png"
 import circles from "media/gameServices/circles.png"
 
+
 const Platforms = () => {
     return (
         <section className={styles.Platforms}>
@@ -27,7 +28,7 @@ const Platforms = () => {
                                 </h2>
                                 <p className='manrope font16 text-white'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                                 <div className={styles.secBtn}>
-                                    <a href="#href" className='manrope'>
+                                    <a href="#href" className='manrope pink'>
                                         Get Free Consultation
                                     </a>
                                 </div>

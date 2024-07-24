@@ -1,4 +1,5 @@
 .banner {
+  background-color: #000;
   display: flex;
   align-items: center;
   height: 100dvh;
@@ -12,7 +13,6 @@
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
 }
 
 .banVideo video {
@@ -21,21 +21,24 @@
   height: 100%;
 }
 
-.gradient {
-  background: linear-gradient(to right, #4a78ef 0%, #f32fc2 18%, #f32f53 100%);
+.typingText {
+  background: linear-gradient(to right, #4a78ef 0%, #f32fc2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.gradient2 {
-  background: linear-gradient(to top, #4a78ef 20%, #f32fc2 50%, #f32f53 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .banner h1 {
   font-size: 50px;
   line-height: 60px;
+}
+
+.banner h1 span {
+  background: linear-gradient(to top, #4a78ef 20%, #f32fc2 50%, #f32f53 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .demoBtn {
@@ -58,7 +61,7 @@
   height: auto;
 }
 
-/* =========================================== */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1399px) {
   .banner h1 {

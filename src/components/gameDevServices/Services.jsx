@@ -10,7 +10,42 @@ import servIcn2 from "media/gameServices/servIcn2.png"
 import servIcn3 from "media/gameServices/servIcn3.png"
 import angel from "media/gameServices/angel.png"
 
+
 const Services = () => {
+    /* ============================= */
+    const servicesData = [
+        {
+            title: (<> <span className='newfycolr fw-500'>Mobile App</span> Game Development </>),
+            image: servIcn1,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+        {
+            title: (<> <span className='newfycolr fw-500'>3D Game</span> Development </>),
+            image: servIcn2,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+        {
+            title: (<> <span className='newfycolr fw-500'>NFT Game</span> Development </>),
+            image: servIcn3,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+        {
+            title: (<> <span className='newfycolr fw-500'>Mobile App</span> Game Development </>),
+            image: servIcn1,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+        {
+            title: (<> <span className='newfycolr fw-500'>3D Game</span> Development </>),
+            image: servIcn2,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+        {
+            title: (<> <span className='newfycolr fw-500'>NFT Game</span> Development </>),
+            image: servIcn3,
+            description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+        },
+    ];
+    /* ============================= */
     return (
         <section className={styles.serviceSec}>
             <div className={styles.angle}>
@@ -26,78 +61,20 @@ const Services = () => {
                     </Col>
                     <Col lg={6}>
                         <div className={styles.services}>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>Mobile App</span> Game Development</h3>
-                                    <Image src={servIcn1} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
+                            {servicesData.map((service, index) => (
+                                <div className={`${styles.servicesItem}`} key={index}>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <h3 className='manrope mb-0'>{service.title}</h3>
+                                        <Image src={service.image} alt='Bitswits' className='img-fluid' />
+                                    </div>
+                                    <div className="">
+                                        <p className='font16 manrope text-white mb-4'>{service.description}</p>
+                                        <div className={styles.edgeBtn}>
+                                            <a href="#href" className='manrope font-bold pink'>Let’s Discuss Your Project</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>3D Game</span> Development</h3>
-                                    <Image src={servIcn2} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>NFT Game</span> Development</h3>
-                                    <Image src={servIcn3} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>Mobile App</span> Game Development</h3>
-                                    <Image src={servIcn1} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>3D Game</span> Development</h3>
-                                    <Image src={servIcn2} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <h3 className='manrope mb-0'><span className='newfycolr'>NFT Game</span> Development</h3>
-                                    <Image src={servIcn3} alt='Bitswits' className='img-fluid' />
-                                </div>
-                                <div className="">
-                                    <p className='font16 manrope text-white mb-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
-                                    <div className={styles.edgeBtn}>
-                                        <a href="#href" className='manrope font-bold'>Let’s Discuss Your Project</a>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </Col>
                     <Col lg={6}>

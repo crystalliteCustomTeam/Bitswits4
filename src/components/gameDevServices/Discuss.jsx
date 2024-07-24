@@ -12,12 +12,11 @@ import cube from "media/gameServices/cube.png"
 
 
 const Discuss = () => {
-
+    /* ============================= */
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [score, setScore] = useState('Submit');
 
-    // Creating function to load IP address from the API
     const getIPData = async () => {
         try {
             const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
@@ -36,7 +35,7 @@ const Discuss = () => {
     const currentRoute = router;
 
     const handleSubmit = async (e) => {
-         e.preventDefault();
+        e.preventDefault();
 
         const currentdate = new Date().toLocaleString();
         const data = {
@@ -50,8 +49,7 @@ const Discuss = () => {
         };
         const JSONdata = JSON.stringify(data);
         setScore('Sending Data');
-
-        // First API call to your server
+        /* ==============First API============== */
         fetch('/api/emailapi/', {
             method: 'POST',
             headers: {
@@ -65,8 +63,7 @@ const Discuss = () => {
                 console.log(`Response Successed ${res}`);
             }
         });
-
-        // Second API call to SheetDB
+        /* ==============Second API============== */
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
@@ -86,8 +83,7 @@ const Discuss = () => {
             body: bodyContent,
             headers: headersList
         });
-
-        // Third API call to another endpoint
+        /* ==============Third API============== */
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
         const raw = JSON.stringify({
@@ -143,7 +139,7 @@ const Discuss = () => {
             window.location.href = '/thank-you';
         }
     }
-
+    /* ============================= */
     return (
         <>
             <section className={styles.discuss}>
@@ -178,7 +174,7 @@ const Discuss = () => {
                                 </Col>
                                 <Col lg={3}>
                                     <div>
-                                        <input type='submit' name='submit' className={`bitsForm ${styles.book}`} placeholder="Submit" value={score}></input>
+                                        <input type='submit' name='submit' className={`bitsForm pink ${styles.book}`} placeholder="Submit" value={score}></input>
                                     </div>
                                 </Col>
                             </Row>

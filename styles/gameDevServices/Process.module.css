@@ -36,6 +36,7 @@
   height: 50px;
   color: white;
   width: max-content;
+  cursor: pointer;
 }
 
 .tabContent {
@@ -66,7 +67,24 @@
   margin: 30px 0 30px;
 }
 
-/* Media Query Start */
+.tabImage img {
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* =================Media Queries=================== */
+
 @media only screen and (max-width: 1399px) {
   .tabList {
     gap: 15px;

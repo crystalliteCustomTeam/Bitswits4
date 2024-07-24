@@ -19,6 +19,19 @@
 
 .dimond img {
   width: 40%;
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
 
 .circles {
@@ -29,11 +42,11 @@
 }
 
 .circles img {
-  width: 40%;
-  animation: moveTopToBottom 2s ease-in-out infinite alternate;
+  width: 45%;
+  animation: move 2s ease-in-out infinite alternate;
 }
 
-@keyframes moveTopToBottom {
+@keyframes move {
   0% {
     transform: translateY(0%);
   }
@@ -63,7 +76,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 5px 20px 5px #00000040;
   margin: 30px 0 0px;
 }
 
@@ -71,9 +83,10 @@
   width: 70%;
   margin: auto;
   padding: 50px 0;
+  animation: scale 2s linear infinite;
 }
 
-/* Media Query Start */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1399px) {
   .txt {

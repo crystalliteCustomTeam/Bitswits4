@@ -13,6 +13,7 @@ import { FaAngleUp } from "react-icons/fa";
 
 
 const Faqs = (props) => {
+    /* ============================= */
     const [faqStates, setFaqStates] = useState(Array(props.faqsData.length).fill(false));
     const [isClassAdded, setClassAdded] = useState(false);
     const toggleFaq = (index) => {
@@ -20,7 +21,7 @@ const Faqs = (props) => {
         setFaqStates(newFaqStates);
         setClassAdded(true);
     };
-
+    /* ============================= */
     return (
         <>
             <section className={`${styles.faqs} newfaqsgloble newlevel`}>
@@ -37,7 +38,9 @@ const Faqs = (props) => {
                                 <div className={styles.cube}>
                                     <Image src={cube} alt='Bitswits' className='img-fluid' />
                                 </div>
-                                <Image src={faqImg} alt='Bitswits' className='img-fluid' />
+                                <div className={styles.secImg}>
+                                    <Image src={faqImg} alt='Bitswits' className='img-fluid' />
+                                </div>
                             </div>
                         </Col>
                         <Col lg={8}>

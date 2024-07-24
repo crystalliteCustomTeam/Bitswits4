@@ -15,10 +15,10 @@
 
 .cube img {
   width: 40%;
-  animation: animName 10s linear infinite;
+  animation: rotate 10s linear infinite;
 }
 
-@keyframes animName {
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -36,6 +36,19 @@
 
 .angel img {
   width: 35%;
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
 
 .txt {
@@ -86,10 +99,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 5px 20px 5px #00000040;
 }
 
-/* Media Query Start */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1099px) {
   .cube {

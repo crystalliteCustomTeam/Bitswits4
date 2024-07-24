@@ -72,7 +72,7 @@
   margin-top: 15px;
 }
 
-/* Media Query Start */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1024px) {
   .tabList {

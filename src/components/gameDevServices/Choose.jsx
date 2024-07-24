@@ -5,7 +5,28 @@ import { Col, Container, Row } from 'react-bootstrap'
 //====== Css
 import styles from "@/styles/gameDevServices/Choose.module.css"
 
+
 const Choose = () => {
+    /* ============================= */
+    const slides = [
+        {
+            title: 'Clear Communication',
+            content: 'We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.'
+        },
+        {
+            title: 'Customer-Centric Approach',
+            content: 'We prioritize our client\'s success, understand your unique needs, and deliver tailored solutions that drive your business growth.'
+        },
+        {
+            title: 'Innovation And Excellence',
+            content: 'We consistently deliver innovative, high quality solutions as a team on the cutting edge of technology trends.'
+        },
+        {
+            title: 'Customer-Centric Approach',
+            content: 'We prioritize our client\'s success, understand your unique needs, and deliver tailored solutions that drive your business growth.'
+        }
+    ];
+    /* ============================= */
     const whychooseSlider = {
         arrows: true,
         slidesToShow: 3,
@@ -30,6 +51,7 @@ const Choose = () => {
             },
         ],
     };
+    /* ============================= */
     return (
         <section className={styles.Choose}>
             <Container>
@@ -40,7 +62,7 @@ const Choose = () => {
                             <p className='font16 text-black font-medium manrope mb-3'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining
                                 UI/UX app design.</p>
                             <div className={styles.secBtn}>
-                                <a href="#href">
+                                <a href="#href" className='pink'>
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
@@ -48,30 +70,14 @@ const Choose = () => {
                     </Col>
                     <Col lg={8}>
                         <Slider {...whychooseSlider} className={`whychooseSlider ${styles.whychooseSlider}`}>
-                            <div className='px-1'>
-                                <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Clear <br className='d-xl-block d-none' /> Communication</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.</p>
+                            {slides.map((value, index) => (
+                                <div className='px-1' key={index}>
+                                    <div className={`card border-0 ${styles.card}`}>
+                                        <h3 className='font-bold manrope'>{value.title}</h3>
+                                        <p className='manrope font-medium font16 pe-2'>{value.content}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className='px-1'>
-                                <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Customer-Centric <br className='d-xl-block d-none' /> Approch</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your business growth.</p>
-                                </div>
-                            </div>
-                            <div className='px-1'>
-                                <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Innovation And <br className='d-xl-block d-none' /> Excellence</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We consistently deliver innovative, high quality solutions as a team on the cutting edge of technology trends.</p>
-                                </div>
-                            </div>
-                            <div className='px-1'>
-                                <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Customer-Centric <br className='d-xl-block d-none' /> Approch</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your business growth.</p>
-                                </div>
-                            </div>
+                            ))}
                         </Slider>
                     </Col>
                 </Row>

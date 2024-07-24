@@ -66,92 +66,93 @@ import icon53 from "media/gameServices/database/database5.png"
 import icon54 from "media/gameServices/database/database6.png"
 import icon55 from "media/gameServices/database/database7.png"
 
-const tabs = [
-    { id: "tab1", label: "Front-End" },
-    { id: "tab2", label: "Back-End" },
-    { id: "tab3", label: "Project Management Tools" },
-    { id: "tab4", label: "Cloud Tools" },
-    { id: "tab5", label: "Frameworks" },
-    { id: "tab6", label: "Databases" }
-];
-
-const tabTechnologies = {
-    tab1: [
-        { src: icon1, name: 'Unity' },
-        { src: icon2, name: 'Unreal Engine' },
-        { src: icon3, name: 'HTML5' },
-        { src: icon4, name: 'CSS3' },
-        { src: icon5, name: 'JavaScript' },
-        { src: icon6, name: 'C#' },
-        { src: icon7, name: 'Visual Scripting' },
-        { src: icon8, name: 'React' },
-        { src: icon9, name: 'Angular' },
-        { src: icon10, name: 'Phaser' },
-    ],
-    tab2: [
-        { src: icon11, name: 'Node.JS' },
-        { src: icon12, name: 'Python' },
-        { src: icon13, name: 'Java' },
-        { src: icon14, name: 'C++' },
-        { src: icon15, name: 'Ruby' },
-        { src: icon16, name: 'PHP' },
-        { src: icon17, name: 'Go' },
-        { src: icon18, name: 'Firebase' },
-        { src: icon19, name: 'AWS Lambda' },
-        { src: icon20, name: 'Azure' },
-    ],
-    tab3: [
-        { src: icon21, name: 'Jira' },
-        { src: icon22, name: 'Trello' },
-        { src: icon23, name: 'Asana' },
-        { src: icon24, name: 'Monday.com' },
-        { src: icon25, name: 'Basecamp' },
-        { src: icon26, name: 'Microsoft Project' },
-        { src: icon27, name: 'GitLab Issues' },
-        { src: icon28, name: 'Redmine' },
-    ],
-    tab4: [
-        { src: icon29, name: 'AWS' },
-        { src: icon30, name: 'GCP' },
-        { src: icon31, name: 'Microsoft Azure' },
-        { src: icon32, name: 'Firebase' },
-        { src: icon33, name: 'Heroku' },
-        { src: icon34, name: 'DigitalOcean' },
-        { src: icon35, name: 'Linode' },
-        { src: icon36, name: 'IBM Cloud' },
-        { src: icon37, name: 'Alibaba Cloud' },
-        { src: icon38, name: 'Oracle Cloud' },
-    ],
-    tab5: [
-        { src: icon39, name: 'Phaser' },
-        { src: icon40, name: 'Unity' },
-        { src: icon41, name: 'Unreal Engine' },
-        { src: icon42, name: 'React.js' },
-        { src: icon43, name: 'Angular' },
-        { src: icon44, name: 'Django' },
-        { src: icon45, name: 'Flask' },
-        { src: icon46, name: 'Spring Boot' },
-        { src: icon47, name: 'Ruby on Rails' },
-        { src: icon48, name: 'Vue.js' },
-    ],
-    tab6: [
-        { src: icon49, name: 'MySQL' },
-        { src: icon50, name: 'PostgreSQL' },
-        { src: icon51, name: 'MongoDB' },
-        { src: icon52, name: 'SQLite' },
-        { src: icon53, name: 'Microsoft SQL' },
-        { src: icon54, name: 'Firebase' },
-        { src: icon55, name: 'DynamoDB' },
-    ],
-};
 
 const TechStack = () => {
-
+    /* ============================= */
+    const tabs = [
+        { id: "tab1", label: "Front-End" },
+        { id: "tab2", label: "Back-End" },
+        { id: "tab3", label: "Project Management Tools" },
+        { id: "tab4", label: "Cloud Tools" },
+        { id: "tab5", label: "Frameworks" },
+        { id: "tab6", label: "Databases" }
+    ];
+    /* ============================= */
+    const tabTechnologies = {
+        tab1: [
+            { src: icon1, name: 'Unity' },
+            { src: icon2, name: 'Unreal Engine' },
+            { src: icon3, name: 'HTML5' },
+            { src: icon4, name: 'CSS3' },
+            { src: icon5, name: 'JavaScript' },
+            { src: icon6, name: 'C#' },
+            { src: icon7, name: 'Visual Scripting' },
+            { src: icon8, name: 'React' },
+            { src: icon9, name: 'Angular' },
+            { src: icon10, name: 'Phaser' },
+        ],
+        tab2: [
+            { src: icon11, name: 'Node.JS' },
+            { src: icon12, name: 'Python' },
+            { src: icon13, name: 'Java' },
+            { src: icon14, name: 'C++' },
+            { src: icon15, name: 'Ruby' },
+            { src: icon16, name: 'PHP' },
+            { src: icon17, name: 'Go' },
+            { src: icon18, name: 'Firebase' },
+            { src: icon19, name: 'AWS Lambda' },
+            { src: icon20, name: 'Azure' },
+        ],
+        tab3: [
+            { src: icon21, name: 'Jira' },
+            { src: icon22, name: 'Trello' },
+            { src: icon23, name: 'Asana' },
+            { src: icon24, name: 'Monday.com' },
+            { src: icon25, name: 'Basecamp' },
+            { src: icon26, name: 'Microsoft Project' },
+            { src: icon27, name: 'GitLab Issues' },
+            { src: icon28, name: 'Redmine' },
+        ],
+        tab4: [
+            { src: icon29, name: 'AWS' },
+            { src: icon30, name: 'GCP' },
+            { src: icon31, name: 'Microsoft Azure' },
+            { src: icon32, name: 'Firebase' },
+            { src: icon33, name: 'Heroku' },
+            { src: icon34, name: 'DigitalOcean' },
+            { src: icon35, name: 'Linode' },
+            { src: icon36, name: 'IBM Cloud' },
+            { src: icon37, name: 'Alibaba Cloud' },
+            { src: icon38, name: 'Oracle Cloud' },
+        ],
+        tab5: [
+            { src: icon39, name: 'Phaser' },
+            { src: icon40, name: 'Unity' },
+            { src: icon41, name: 'Unreal Engine' },
+            { src: icon42, name: 'React.js' },
+            { src: icon43, name: 'Angular' },
+            { src: icon44, name: 'Django' },
+            { src: icon45, name: 'Flask' },
+            { src: icon46, name: 'Spring Boot' },
+            { src: icon47, name: 'Ruby on Rails' },
+            { src: icon48, name: 'Vue.js' },
+        ],
+        tab6: [
+            { src: icon49, name: 'MySQL' },
+            { src: icon50, name: 'PostgreSQL' },
+            { src: icon51, name: 'MongoDB' },
+            { src: icon52, name: 'SQLite' },
+            { src: icon53, name: 'Microsoft SQL' },
+            { src: icon54, name: 'Firebase' },
+            { src: icon55, name: 'DynamoDB' },
+        ],
+    };
+    /* ============================= */
     const [activeTab, setActiveTab] = useState("tab1");
     const handleTabClick = (tabId) => {
         setActiveTab(tabId);
     };
-
+    /* ============================= */
     return (
         <section className={styles.TechStack}>
             <Container>

@@ -9,6 +9,7 @@ import cube from "media/gameServices/cube2.png"
 import angel from "media/gameServices/angel2.png"
 import basedImg from "media/gameServices/basedImg.png"
 
+
 const BasedCta = () => {
     return (
         <section className={`${styles.BasedCta}`}>
@@ -30,7 +31,7 @@ const BasedCta = () => {
                                 <p className={`font16 manrope mt-3 mb-4`}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                             </div>
                             <div className={styles.serviBtn}>
-                                <a href="#href">Let’s Discuss Your Project</a>
+                                <a href="#href" className='pink'>Let’s Discuss Your Project</a>
                             </div>
                         </div>
                     </Col>

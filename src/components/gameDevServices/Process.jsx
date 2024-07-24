@@ -7,12 +7,69 @@ import styles from "@/styles/gameDevServices/Process.module.css"
 //====== Image
 import processImg from "media/gameServices/processImg.png"
 
+
 const Process = () => {
-    // Tabs
-    const [activeTab1, setActiveTab1] = useState("tab1");
-    function fun1(tabs1) {
-        setActiveTab1(tabs1);
-    }
+    /* ============================= */
+    const tabs = [
+        { id: 'tab1', label: 'Discovery Session' },
+        { id: 'tab2', label: 'Documentation' },
+        { id: 'tab3', label: 'Design' },
+        { id: 'tab4', label: 'Execution' },
+        { id: 'tab5', label: 'Integration & Testing' },
+        { id: 'tab6', label: 'Deployment' },
+        { id: 'tab7', label: 'Maintenance & Updates' }
+    ];
+    /* ============================= */
+    const tabData = [
+        {
+            id: "tab1",
+            title: (<> Ios App Development <span className='text-white f-400'>Consultation</span> </>),
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab2",
+            title: "Document",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab3",
+            title: "Design",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab4",
+            title: "Executive",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab5",
+            title: "Inegration",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab6",
+            title: "Deployment",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+        {
+            id: "tab7",
+            title: "Maintenance",
+            para: "Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.",
+            img: processImg,
+        },
+    ];
+    /* ============================= */
+    const [activeTab1, setActiveTab1] = useState('tab1');
+    const handleClick = (tabId) => {
+        setActiveTab1(tabId);
+    };
+    /* ============================= */
     return (
         <section className={styles.Process}>
             <Container>
@@ -25,177 +82,44 @@ const Process = () => {
                         </div>
                         <div className="tabList">
                             <ul className={styles.tabList}>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab1" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab1")}>
-                                    Discovery Session
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab2" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab2")}>
-                                    Documentation
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab3" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab3")}>
-                                    Design
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab4" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab4")}>
-                                    Execution
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab5" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab5")}>
-                                    Integration & Testing
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab6" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab6")}>
-                                    Deployment
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab7" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab7")}>
-                                    Maintenance & Updates
-                                </li>
+                                {tabs.map(tab => (
+                                    <li
+                                        key={tab.id}
+                                        className={`manrope font-medium ${styles.lists} ${activeTab1 === tab.id ? styles.active : styles.nonActive}`}
+                                        onClick={() => handleClick(tab.id)}
+                                    >
+                                        {tab.label}
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className={styles.tabContent}>
-                            {activeTab1 == "tab1" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope text-white font-bold mb-3'><span className='newfycolr'>Ios App Development</span> Consultation</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
+                            {tabData.map(tab => (
+                                activeTab1 === tab.id && (
+                                    <Row className='align-items-center' key={tab.id}>
+                                        <Col lg={7}>
+                                            <div className="tabsContent">
+                                                <h3 className={`manrope font-bold newfycolr mb-3`}>
+                                                    {tab.title}
+                                                </h3>
+                                                <p className='manrope text-white font16'>
+                                                    {tab.para}
+                                                </p>
+                                                <div className={styles.tabBtn}>
+                                                    <a href="#href" className='pink'>
+                                                        Let’s Discuss Your Project
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab2" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Document</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
+                                        </Col>
+                                        <Col lg={5}>
+                                            <div className={`${styles.tabImage} d-md-block d-none`}>
+                                                <Image src={tab.img} alt='Bitswits' className='img-fluid' />
                                             </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab3" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Design</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab4" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Executive</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab5" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Inegration</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab6" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Deployment</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
-                            {activeTab1 == "tab7" && (
-                                <Row className='align-items-center'>
-                                    <Col lg={7}>
-                                        <div className="tabsContent">
-                                            <h3 className='manrope font-bold newfycolr mb-3'>Maintenance</h3>
-                                            <p className='manrope text-white font16'>Unlock the full potential of your iOS app with our expert consultation services. We offer tailored advice to optimize your app’s design, functionality, and user experience. Our team of experienced developers will guide you through every step of the process, ensuring your app meets industry standards and stands out in the App Store. Let us help you turn your vision into a successful, high-performing iOS application.</p>
-                                            <div className={styles.tabBtn}>
-                                                <a href="#href">
-                                                    Let’s Discuss Your Project
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={5}>
-                                        <div className="tabImage d-md-block d-none">
-                                            <Image src={processImg} alt='Bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            )}
+                                        </Col>
+                                    </Row>
+                                )
+                            ))}
                         </div>
                     </Col>
                 </Row>

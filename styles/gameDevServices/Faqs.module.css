@@ -17,10 +17,10 @@
 }
 
 .cube img {
-  animation: animName 10s linear infinite;
+  animation: rotate 10s linear infinite;
 }
 
-@keyframes animName {
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -175,7 +175,24 @@
   padding-right: 140px;
 }
 
+.secImg img {
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 /* =================Media Queries=================== */
+
 @media screen and (min-width: 1400px) {
   .mostimg p {
     max-width: 1100px;

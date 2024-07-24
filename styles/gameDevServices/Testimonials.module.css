@@ -11,11 +11,40 @@
   text-align: left;
 }
 
+.testiBef img {
+  animation: scale 3s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 .testiAftr {
   position: absolute;
   text-align: right;
   bottom: 0%;
   right: 0%;
+}
+
+.testiAftr img {
+  animation: move 2s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-30%);
+  }
 }
 
 .testimonialsSec h2 {
@@ -77,14 +106,12 @@
   margin: 50px auto 0px;
 }
 
-/* Media Query Start */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 991px) {
-
   .testimonialsSec {
     padding: 50px 0;
   }
-  
 
   .testimonialsSec h2 {
     font-size: 30px;

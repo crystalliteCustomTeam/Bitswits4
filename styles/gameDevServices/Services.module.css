@@ -10,6 +10,19 @@
   right: 0;
 }
 
+.angle img {
+  animation: move 2s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
 .serviceSec .services {
   display: flex;
   flex-direction: column;
@@ -33,7 +46,8 @@
   color: white;
   font-size: 24px;
   line-height: 27px;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .servicesItem p {
@@ -65,7 +79,7 @@
   top: 110px;
 }
 
-/* Media Query Start */
+/* =================Media Queries=================== */
 
 @media only screen and (max-width: 1399px) {
   .servicesItem h3 {

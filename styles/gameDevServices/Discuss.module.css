@@ -10,6 +10,22 @@
   text-align: left;
 }
 
+.plus img {
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 .cube {
   position: absolute;
   text-align: right;
@@ -20,10 +36,10 @@
 .cube img {
   width: 35%;
   height: auto;
-  animation: animName 10s linear infinite;
+  animation: rotate 10s linear infinite;
 }
 
-@keyframes animName {
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -77,7 +93,7 @@
   box-shadow: 0px 5px 20px 5px #00000040;
 }
 
-/* =========================================== */
+/* =================Media Queries=================== */
 
 @media screen and (max-width: 991px) {
   .discuss {
