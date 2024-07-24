@@ -175,23 +175,6 @@ const AppsLived = ({ content, onAnchorClick }) => {
                 number: "280K"
             },
         ],
-        // [
-        //     {
-        //         icon: "/newmobileapp/download.png",
-        //         title: "Downloads",
-        //         number: 1
-        //     },
-        //     {
-        //         icon: "/newmobileapp/roi.png",
-        //         title: "ROI",
-        //         number: 127
-        //     },
-        //     {
-        //         icon: "/newmobileapp/makeus.png",
-        //         title: "MAUs",
-        //         number: 280
-        //     },
-        // ],
     ];
 
     const SliderContent = [
