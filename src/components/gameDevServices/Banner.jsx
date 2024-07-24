@@ -80,7 +80,7 @@ const Banner = () => {
             <Container>
                 <Row className='align-items-center'>
                     <Col md={7}>
-                        <div>
+                        <div className={styles.content}>
                             <Typing
                                 className={`${styles.typingText} manrope`}
                                 text='Quickly – Efficiently – Effortlessly'
@@ -95,14 +95,14 @@ const Banner = () => {
                                     Let’s Discuss Your Project
                                 </a>
                             </div>
+                            <Slider {...logoSlider} className={`testimonialSlider pt-4 pt-xl-5`}>
+                                {logoData.map((i, index) => (
+                                    <div key={index} className={styles.logos}>
+                                        <Image src={i.logo} alt='Bitswits' className='img-fluid' />
+                                    </div>
+                                ))}
+                            </Slider>
                         </div>
-                        <Slider {...logoSlider} className={`testimonialSlider pt-4 pt-xl-5`}>
-                            {logoData.map((i, index) => (
-                                <div key={index} className={styles.logos}>
-                                    <Image src={i.logo} alt='Bitswits' className='img-fluid' />
-                                </div>
-                            ))}
-                        </Slider>
                     </Col>
                 </Row>
             </Container>
