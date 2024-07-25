@@ -118,7 +118,7 @@ const VideoFooter = () => {
                     JSON: data,
                 });
                 let reqOptions = {
-                    url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
+                    url: "https://sheetdb.io/api/v1/71sd48ae8vab6",
                     method: "POST",
                     headers: headersList,
                     data: bodyContent,
