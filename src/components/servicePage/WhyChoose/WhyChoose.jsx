@@ -33,11 +33,10 @@ const WhyChoose = () => {
         <section className={styles.whychooseSec}>
             <Container>
                 <Row className='align-items-center'>
-                    <Col lg={4}>
+                    <Col lg={5}>
                         <div className="txt">
-                            <h2 className='font-bold text-black manrope mb-md-3'>Why<span className='newfycolr'> Choose</span> Us</h2>
-                            <p className='font16 text-black font-medium manrope mb-3'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining
-                                UI/UX app design.</p>
+                            <h2 className='font-bold text-black manrope mb-md-3'>Why<span className='newfycolr'> Choose</span> BitsWits?</h2>
+                            <p className='font16 text-black font-medium manrope mb-3'>Our comprehensive project management ensures high quality, transparency, and scalability. Here’s why you should choose BitsWits for your game development needs:</p>
                             <div className={styles.secBtn}>
                                 <a href="#href">
                                     Let’s Discuss Your Project
@@ -45,34 +44,40 @@ const WhyChoose = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={8}>
+                    <Col lg={7}>
                         <Slider {...whychooseSlider} className={`whychooseSlider ${styles.whychooseSlider}`}>
                             <div className='px-1'>
                                 <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Clear <br className='d-xl-block d-none' /> Communication</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.</p>
+                                    <h3 className='font-bold manrope'>On-Time <br className='d-xl-block d-none' /> Delivery</h3>
+                                    <p className='manrope font-medium font16 pe-2'>As a leading 3D game development company, we promise timely delivery, ensuring your game hits the market without delays.</p>
                                 </div>
                             </div>
                             <div className='px-1'>
                                 <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Customer-Centric
+                                    <h3 className='font-bold manrope'>Expertise of 250+
                                         <br className='d-xl-block d-none' />
-                                        Approch</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your business growth.</p>
+                                        Professionals</h3>
+                                    <p className='manrope font-medium font16 pe-2'>We have a team of 250+ skilled 3D game developers with expertise in game engines like Unity, Unreal Engine, Phaser, and Maya.</p>
                                 </div>
                             </div>
                             <div className='px-1'>
                                 <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Innovation And
+                                    <h3 className='font-bold manrope'>Client-First 
                                         <br className='d-xl-block d-none' />
-                                        Excellence</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We consistently deliver innovative, high quality solutions as a team on the cutting edge of technology trends.</p>
+                                        Approach</h3>
+                                    <p className='manrope font-medium font16 pe-2'>We follow an agile process with a client-first approach, adapting to your needs and prioritizing your vision.</p>
                                 </div>
                             </div>
                             <div className='px-1'>
                                 <div className={`card border-0 ${styles.card}`}>
-                                    <h3 className='font-bold manrope'>Clear <br className='d-xl-block d-none' /> Communication</h3>
-                                    <p className='manrope font-medium font16 pe-2'>We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication.</p>
+                                    <h3 className='font-bold manrope'>Streamlined Project <br className='d-xl-block d-none' /> Management</h3>
+                                    <p className='manrope font-medium font16 pe-2'>Our 3D game development services offer streamlined project management, ensuring end-to-end transparency to keep you informed at every stage.</p>
+                                </div>
+                            </div>
+                            <div className='px-1'>
+                                <div className={`card border-0 ${styles.card}`}>
+                                    <h3 className='font-bold manrope'>Consistent <br className='d-xl-block d-none' /> Support</h3>
+                                    <p className='manrope font-medium font16 pe-2'>We offer a holistic approach to 3D game development, providing consistent testing and support for a flawless gaming experience.</p>
                                 </div>
                             </div>
                         </Slider>

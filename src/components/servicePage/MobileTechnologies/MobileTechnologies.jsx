@@ -20,8 +20,8 @@ const MobileTechnologies = () => {
                 <Row className='align-items-center'>
                     <Col lg={7}>
                         <div className={styles.txt}>
-                            <h2 className='manrope font-bold mb-3'><span className='newfycolr'>Mobile Technologies</span > We Leverage As An App Development Company</h2>
-                            <p className='font16 manrope font-medium my-3'>As an app development company, we leverage cutting-edge mobile technologies to create innovative and user-friendly applications. Our expertise includes native development for iOS and Android, as well as cross-platform solutions using frameworks like Flutter and React Native. By utilizing the latest advancements in mobile tech, we ensure high performance, seamless user experiences, and robust security for every app we develop. Trust us to transform your ideas into powerful mobile applications. As an app development company, we leverage cutting-edge mobile technologies to create innovative and user-friendly applications. </p>
+                            <h2 className='manrope font-bold mb-3'>The Benefits When You Hire A 3D Game Development Company</h2>
+                            <p className='font16 manrope font-medium my-3'>When you hire a top-grade 3D game development company in USA, you benefit from customized full-cycle development, ensuring every aspect of your game is expertly created. Flexible team selection allows you to choose the best 3D game developers tailored to your project’s needs. Utilizing cutting-edge technology, these companies create standout experiences, boasting a 90% player satisfaction rate and over 20 million downloads in stores.</p>
                         </div>
                         <div className={styles.services}>
                             <div className={styles.service}>

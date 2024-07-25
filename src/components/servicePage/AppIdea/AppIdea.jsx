@@ -18,9 +18,8 @@ const AppIdea = () => {
                         </Col>
                         <Col lg={7}>
                             <div className={styles.secform}>
-                                <h2 className='font-bold text-white manrope mb-3'>Let's Change The World
-                                    With Your App Idea!</h2>
-                                <p className='font16 text-white font-medium manrope mb-md-4 pb-3'>BitsWits believes in taking a creative, hands-on approach to mobile application development because we know it’s not just</p>
+                                <h2 className='font-bold text-white manrope mb-3'>Quit Procrastinating and Build Your Dream Game Now!</h2>
+                                <p className='font16 text-white font-medium manrope mb-md-4 pb-3'>Book your free consultation to learn how we create stunning games that enhance engagement and increase your revenue!</p>
                                 <form>
                                     <Row className=''>
                                         <Col lg={6}>

@@ -80,8 +80,8 @@ const Industries = () => {
                 <Container fluid>
                     <Row>
                         <Col lg={12}>
-                            <h2 className='manrope mb-3'>Industries We’ve <span className='newfycolr'>Conquered</span></h2>
-                            <p className='manrope'>BitsWits offers a diverse reach by providing industry-specificsolutions for every client. We work with clients <br className='d-xl-block d-none' /> who aim to improve customer quality oflife while simplifying the daily duties of their employees.</p>
+                            <h2 className='manrope mb-3'>Industries We <span className='newfycolr'>Serve</span></h2>
+                            <p className='manrope'>We provide customized 3D game development services for various sectors, helping streamline operations and enhance user engagement. <br /> Explore our solutions tailored for healthcare, education, finance, retail, and more.</p>
                         </Col>
                         <Col lg={12}>
                             <Slider {...indusSlider} className={`${styles.indusSlider} servicesIndustriesSlider`}>
@@ -93,8 +93,7 @@ const Industries = () => {
                                         </div>
                                         <div className={`${styles.content} content`}>
                                             <h3 className='manrope'>Healthcare</h3>
-                                            <p className='manrope'>Typically, medium-complex apps with intuitive graphics, complex features and functionalities will cost in between $30k-$70K. Some of the most common examples of mid-level apps are healthcare apps, booking apps, and food delivery apps.
-                                            </p>
+                                            <p className='manrope'>We help healthcare providers improve communication with patients, streamline appointment scheduling, and enhance health tracking. Customized solutions ensure better patient engagement and more effective healthcare delivery, resulting in improved outcomes.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -108,12 +107,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide2} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>E-Commerce</h5>
+                                            <h5 className='manrope'>Education</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>E-Commerce</h3>
-                                            <p className='manrope'>Typically, medium-complex apps with intuitive graphics, complex features and functionalities will cost in between $30k-$70K. Some of the most common examples of mid-level apps are healthcare apps, booking apps, and food delivery apps.
-                                            </p>
+                                            <h3 className='manrope'>Education</h3>
+                                            <p className='manrope'>We create interactive 3D content that boosts student engagement and learning. Our solutions include educational games, simulations, and virtual classrooms, making education more immersive and effective, enhancing the overall learning experience.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -127,11 +125,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide3} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Gaming</h5>
+                                            <h5 className='manrope'>Finance</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Gaming</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
+                                            <h3 className='manrope'>Finance</h3>
+                                            <p className='manrope'>We focus on creating secure, real-time financial data visualization and interactive tools. These applications enhance convenience and security, helping users better understand and manage their finances.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -145,12 +143,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide4} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Logistics</h5>
+                                            <h5 className='manrope'>Retail</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Logistics</h3>
-                                            <p className='manrope'>Typically, medium-complex apps with intuitive graphics, complex features and functionalities will cost in between $30k-$70K. Some of the most common examples of mid-level apps are healthcare apps, booking apps, and food delivery apps.
-                                            </p>
+                                            <h3 className='manrope'>Retail</h3>
+                                            <p className='manrope'>We help retailers drive sales and customer satisfaction through personalized 3D shopping experiences. Our solutions include virtual stores, interactive product displays, and mobile payment integration, providing an engaging shopping experience.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -164,12 +161,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide5} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Insurance</h5>
+                                            <h5 className='manrope'>Real Estate</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Insurance</h3>
-                                            <p className='manrope'>Typically, medium-complex apps with intuitive graphics, complex features and functionalities will cost in between $30k-$70K. Some of the most common examples of mid-level apps are healthcare apps, booking apps, and food delivery apps.
-                                            </p>
+                                            <h3 className='manrope'>Real Estate</h3>
+                                            <p className='manrope'>Our services allow clients to explore property listings, schedule viewings, and interact with virtual tours. These solutions help real estate professionals showcase properties more effectively, leading to increased customer interest.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -183,11 +179,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide6} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Engineering Construction <br /> & Operations</h5>
+                                            <h5 className='manrope'>Travel & Hospitality</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Engineering Construction <br /> & Operations</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
+                                            <h3 className='manrope'>Travel & Hospitality</h3>
+                                            <p className='manrope'>We develop 3D applications that help travelers explore destinations, manage travel plans, and optimize itinerary management. Our solutions also include tools for travel agencies to optimize fleet management and improve customer service.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -201,11 +197,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide7} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Social Media</h5>
+                                            <h5 className='manrope'>Entertainment</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Social Media</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
+                                            <h3 className='manrope'>Entertainment</h3>
+                                            <p className='manrope'>Our services for the entertainment industry include interactive games, virtual concerts, and immersive experiences. We help clients engage their audience with high-quality content, from music and videos to live events.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>
@@ -219,65 +215,11 @@ const Industries = () => {
                                     <div className={`${styles.indusSlide} indusSlide`}>
                                         <Image src={slide8} alt='BitsWits' className='img-fluid w-100' />
                                         <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Finance</h5>
+                                            <h5 className='manrope'>Food & Beverage</h5>
                                         </div>
                                         <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Finance</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
-                                            <a href="#form" className={`manrope ${styles.btn}`}>
-                                                Learn More
-                                                <span>
-                                                    <Image src={arrow} alt='Bitswits' width={17} height={11} />
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="px-2">
-                                    <div className={`${styles.indusSlide} indusSlide`}>
-                                        <Image src={slide9} alt='BitsWits' className='img-fluid w-100' />
-                                        <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Real Estate</h5>
-                                        </div>
-                                        <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Real Estate</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
-                                            <a href="#form" className={`manrope ${styles.btn}`}>
-                                                Learn More
-                                                <span>
-                                                    <Image src={arrow} alt='Bitswits' width={17} height={11} />
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="px-2">
-                                    <div className={`${styles.indusSlide} indusSlide`}>
-                                        <Image src={slide10} alt='BitsWits' className='img-fluid w-100' />
-                                        <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Information Technology</h5>
-                                        </div>
-                                        <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Information Technology</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
-                                            <a href="#form" className={`manrope ${styles.btn}`}>
-                                                Learn More
-                                                <span>
-                                                    <Image src={arrow} alt='Bitswits' width={17} height={11} />
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="px-2">
-                                    <div className={`${styles.indusSlide} indusSlide`}>
-                                        <Image src={slide11} alt='BitsWits' className='img-fluid w-100' />
-                                        <div className={`${styles.head} head`}>
-                                            <h5 className='manrope'>Documentation</h5>
-                                        </div>
-                                        <div className={`${styles.content} content`}>
-                                            <h3 className='manrope'>Documentation</h3>
-                                            <p className='manrope'>Trusted globally, we excel in inventory management and route optimization. As a leader in ride hailing app development services, our solutions are boundless.,</p>
+                                            <h3 className='manrope'>Food & Beverage</h3>
+                                            <p className='manrope'>We create 3D solutions for the food and beverage industry to optimize services, including delivery tracking, mobile payment processing, and interactive menus. These tools enhance customer satisfaction and streamline operations for better efficiency.</p>
                                             <a href="#form" className={`manrope ${styles.btn}`}>
                                                 Learn More
                                                 <span>

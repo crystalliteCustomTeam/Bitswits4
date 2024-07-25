@@ -81,8 +81,8 @@ const YourTech = () => {
                 <Row>
                     <Col lg={12}>
                         <div className={`${styles.txt} text-center`}>
-                            <h2 className='manrope font-bold mb-md-3'>Your <span className='newfycolr'>Tech Stack</span> Is Our Burden</h2>
-                            <p className='manrope font16 font-medium pb-2 pb-md-4 mb-xl-4'>Our teams hold expertise in a multitude of programming aspects</p>
+                            <h2 className='manrope font-bold mb-md-3'>Our <span className='newfycolr'>3D Game Developmentk</span> Technology Stack</h2>
+                            <p className='manrope font16 font-medium pb-2 pb-md-4 mb-xl-4'>We select for you the right database, language, and framework for an ideal gaming experience.</p>
                         </div>
                     </Col>
                     <Col lg={12}>
@@ -90,35 +90,27 @@ const YourTech = () => {
                             <ul className={styles.tabList}>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab1" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab1")}>
-                                   CMS & eCommerce
+                                   Game Engines
                                 </li>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab2" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab2")}>
-                                    Frontend
+                                    Programming Languages
                                 </li>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab3" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab3")}>
-                                    Backend
+                                   Graphics & Design Tools
                                 </li>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab4" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab4")}>
-                                   Mobile App
+                                   Databases
                                 </li>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab5" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab5")}>
-                                    Databases
+                                    Frameworks & Libraries
                                 </li>
                                 <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab6" ? styles.active : styles.nonActive}`}
                                     onClick={() => fun1("tab6")}>
-                                    Cloud Services
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab7" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab7")}>
-                                    Tools
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab8" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab8")}>
-                                    PMS
+                                    Testing & QA Tools
                                 </li>
                             </ul>
                         </div>
@@ -131,7 +123,7 @@ const YourTech = () => {
                                                 <Image src={TechOne} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>WordPress</p>
+                                                <p className='manrope'>Unity</p>
                                             </div>
                                         </div>
                                     </div>
@@ -141,7 +133,7 @@ const YourTech = () => {
                                                 <Image src={TechTwo} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>WooCommerce</p>
+                                                <p className='manrope'>Unreal Engine</p>
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +143,7 @@ const YourTech = () => {
                                                 <Image src={TechThree} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Shopify</p>
+                                                <p className='manrope'>Godot</p>
                                             </div>
                                         </div>
                                     </div>
@@ -161,67 +153,7 @@ const YourTech = () => {
                                                 <Image src={TechFour} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Magento</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFive} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Webflow</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Prestashop</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>BigCommerce</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Squarespace</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechNine} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Joomla</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Drupal</p>
+                                                <p className='manrope'>CryEngine</p>
                                             </div>
                                         </div>
                                     </div>
@@ -235,7 +167,7 @@ const YourTech = () => {
                                                 <Image src={TechEleven} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>HTML</p>
+                                                <p className='manrope'>C++</p>
                                             </div>
                                         </div>
                                     </div>
@@ -245,7 +177,7 @@ const YourTech = () => {
                                                 <Image src={TechTwelve} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>JQuery</p>
+                                                <p className='manrope'>C#</p>
                                             </div>
                                         </div>
                                     </div>
@@ -255,7 +187,7 @@ const YourTech = () => {
                                                 <Image src={TechThirteen} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>React JS</p>
+                                                <p className='manrope'>Python</p>
                                             </div>
                                         </div>
                                     </div>
@@ -265,11 +197,11 @@ const YourTech = () => {
                                                 <Image src={TechFourteen} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Next.JS</p>
+                                                <p className='manrope'>JavaScript</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
+                                    {/* <div>
                                         <div className={styles.tech}>
                                             <div className={styles.techImage}>
                                                 <Image src={TechFifteen} alt='Bitswits' className='img-fluid' />
@@ -288,7 +220,7 @@ const YourTech = () => {
                                                 <p className='manrope'>Vue.JS</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                             {activeTab1 == "tab3" && (
@@ -299,7 +231,7 @@ const YourTech = () => {
                                                 <Image src={TechSeventeen} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>PHP</p>
+                                                <p className='manrope'>Autodesk Maya</p>
                                             </div>
                                         </div>
                                     </div>
@@ -309,7 +241,7 @@ const YourTech = () => {
                                                 <Image src={TechEighteen} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Laravel</p>
+                                                <p className='manrope'>Blender</p>
                                             </div>
                                         </div>
                                     </div>
@@ -319,7 +251,7 @@ const YourTech = () => {
                                                 <Image src={TechNineteen} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Codelgniter</p>
+                                                <p className='manrope'>Adobe Photoshop</p>
                                             </div>
                                         </div>
                                     </div>
@@ -329,7 +261,7 @@ const YourTech = () => {
                                                 <Image src={TechTwenty} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Node.JS</p>
+                                                <p className='manrope'>Substance Painter</p>
                                             </div>
                                         </div>
                                     </div>
@@ -400,134 +332,10 @@ const YourTech = () => {
                                     <div>
                                         <div className={styles.tech}>
                                             <div className={styles.techImage}>
-                                                <Image src={TechTwentySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Android</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>iOS</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyNine} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>React Native</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirty} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Windows App</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyOne} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Xamarin</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Flutter</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Cross Platform</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Hybrid</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab5" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
                                                 <Image src={TechThirtyFive} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
                                                 <p className='manrope'>MySQL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtySix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Firebase</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>MongoDB</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>AWS DynamoDB</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyNine} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Redis</p>
                                             </div>
                                         </div>
                                     </div>
@@ -541,6 +349,70 @@ const YourTech = () => {
                                             </div>
                                         </div>
                                     </div>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtyEight} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>SQLite</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtySeven} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>MongoDB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                            {activeTab1 == "tab5" && (
+                                <div className={styles.tenchnologies}>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtyFive} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>Three.js</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtySix} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>Babylon.js</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtySeven} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>OpenGL</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className={styles.tech}>
+                                            <div className={styles.techImage}>
+                                                <Image src={TechThirtyEight} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <div className="texhTxt">
+                                                <p className='manrope'>Vulkan</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             )}
                             {activeTab1 == "tab6" && (
@@ -551,7 +423,7 @@ const YourTech = () => {
                                                 <Image src={TechFourtyOne} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>AWS</p>
+                                                <p className='manrope'>Jenkins</p>
                                             </div>
                                         </div>
                                     </div>
@@ -561,7 +433,7 @@ const YourTech = () => {
                                                 <Image src={TechFourtyTwo} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Google Cloud</p>
+                                                <p className='manrope'>Selenium</p>
                                             </div>
                                         </div>
                                     </div>
@@ -571,225 +443,17 @@ const YourTech = () => {
                                                 <Image src={TechFourtyThree} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Azure</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab7" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>VS Code</p>
+                                                <p className='manrope'>JIRA</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div>
                                         <div className={styles.tech}>
                                             <div className={styles.techImage}>
-                                                <Image src={TechFourtyFive} alt='Bitswits' className='img-fluid' />
+                                                <Image src={TechFourtyThree} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <div className="texhTxt">
-                                                <p className='manrope'>Sublime</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtySix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>GitHub</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Bitbucket</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Selenium</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyNine} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Php Unit</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFifty} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>DevTools</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyOne} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Figma</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Sketch</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Photoshop</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Illustrator</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyFive} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Adobe XD</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftySix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>InVision</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab8" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>ClickUp</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Jira</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFiftyNine} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Basecamp</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixty} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Asana</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixtyOne} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Salck</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixtyTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Blue</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixtyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Trello</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixtyFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Monday</p>
+                                                <p className='manrope'>TestRail</p>
                                             </div>
                                         </div>
                                     </div>
