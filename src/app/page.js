@@ -2,13 +2,13 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Script from "next/script";
-// slick slider
+//============= slick slider
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// CSS
+//============= CSS
 import styles from "../../styles/new-home-page-fy.module.css"
-// Components 
+//============= Components 
 import NewIndexBanner from "../components/new-home-page-fy/NewIndexBanner.js";
 import NewHomeWho from "../components/new-home-page-fy/NewHomeWho.js";
 import NewHomeWhat from "../components/new-home-page-fy/NewHomeWhat.js";
@@ -24,7 +24,7 @@ import LpChoose from "../components/new-home-page-fy/LpChoose.js";
 import Formnewlp from "../components/new-home-page-fy/Formnewlp.js";
 import Faqs from "../components/new-home-page-fy/NewhomeFaqs.js";
 import HomeLocation from "../components/HomeLocation"
-//Images
+//============= Images
 import customios from "/public/newHomePage/images/mobileimages/newMaintain1.png";
 import iphoneapp from "/public/newHomePage/images/mobileimages/newMaintain2.png";
 import applewatch from "/public/newHomePage/images/mobileimages/newMaintain3.png";
