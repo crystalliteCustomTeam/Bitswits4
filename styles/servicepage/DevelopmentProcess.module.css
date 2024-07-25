@@ -15,7 +15,6 @@
     border-bottom: 1px solid white;
     padding: 0 0 30px;
 }
-
 .nonActive {
     background: transparent;
     border: 1px solid white;
@@ -37,7 +36,10 @@
     color: white;
     width: max-content;
 }
-
+.tabList .lists{
+    white-space: nowrap;
+    overflow: hidden;
+}
 .tabContent {
     padding-top: 50px;
 }

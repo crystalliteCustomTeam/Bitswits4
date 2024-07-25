@@ -10,6 +10,7 @@ import { FaAngleUp } from "react-icons/fa";
 
 
 const Faqs = (props) => {
+    const {classes} = props
     const [faqStates, setFaqStates] = useState(Array(props.faqsData.length).fill(false));
     const [isClassAdded, setClassAdded] = useState(false);
     const toggleFaq = (index) => {
@@ -22,7 +23,7 @@ const Faqs = (props) => {
         <>
             <section className={`${styles.faqs} newfaqsgloble newlevel`}>
                 <Container>
-                    <Row>
+                    <Row className={classes}>
                         <Col lg={12}>
                             <h6 className="manrope center">Asked Questions With Value</h6>
                             <h2 className="text-black manrope center pb-md-3 pb-xxl-5 mb-lg-4">
