@@ -1,4 +1,3 @@
-
 import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from 'react-bootstrap'
@@ -14,7 +13,6 @@ import BlogNavigation from "@/src/components/BlogNavigation";
 import Client from "media/newblogs/innerclient.png"
 import verified from "media/newblogs/blog-verify.png"
 import experience from "media/newblogs/experience.png"
-
 
 
 export async function generateMetadata({ params, searchParams }, parent) {
