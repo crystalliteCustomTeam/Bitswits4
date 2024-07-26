@@ -86,7 +86,7 @@ const JournyForm = () => {
             "Time": currentdate,
             "JSON": JSONdata,
         });
-        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+        await fetch("https://sheetdb.io/api/v1/71sd48ae8vab6", {
             method: "POST",
             body: bodyContent,
             headers: headersList
@@ -161,13 +161,10 @@ const JournyForm = () => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.content}>
-                                <h2 className='manrope'>
-                                    <span>Start </span> Your <span>Mobile App </span> Development <br className='d-xl-block d-none'/>
-                                    Journey with Us?</h2>
+                                <h2 className='manrope'>Ready to Launch Your Game Project?</h2>
                                 <div className={styles.experts}>
-                                    <h5 className='manrope'>30 Minute Breakdown</h5>
-                                    <h4 className='manrope'>Get Your Free 30 Minute Strategy Session With An
-                                    Experienced App Experts Valued At $300</h4>
+                                    <h5 className='manrope'>Book A Free Discovery Call!</h5>
+                                    <h4 className='manrope'>Book a session with our game development team to discuss your project and get a detailed estimate tailored to your needs. </h4>
                                 </div>
                             </div>
                         </Col>

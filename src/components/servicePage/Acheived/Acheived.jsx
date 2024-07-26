@@ -58,8 +58,8 @@ const Acheived = () => {
                 <Row>
                     <Col lg={12}>
                         <div className="txt">
-                            <h2 className='text-center manrope font-bold mb-xl-3'>Together We've <span className='newfycolr'>Achieved </span></h2>
-                            <p className='font16 text-black font-medium text-center manrope mb-5 pb-3'>We’re a software development company that ensures its expertise extends to offer <br className='d-lg-block d-none' /> a seamlessly productive and growth-oriented partnership</p>
+                            <h2 className='text-center manrope font-bold mb-xl-3'>We Architect the <span className='newfycolr'>Future of Gaming!</span></h2>
+                            <p className='font16 text-black font-medium text-center manrope mb-5 pb-3'>At BitsWits, our passion for innovation to excellence sets us apart in 3D game development. We create <br className='d-lg-block d-none' /> engaging experiences that redefine gaming, ensuring our clients stay ahead in the industry.</p>
                         </div>
                     </Col>
                 </Row>

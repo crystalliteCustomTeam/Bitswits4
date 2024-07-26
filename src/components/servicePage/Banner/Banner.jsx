@@ -2,11 +2,11 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
+import Axios from "axios";
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/servicepage/Banner.module.css"
 // Images
 import formImg from 'media/newmobileapp/formImg.png'
-import correcticon from "media/services/correct-icon.svg"
 
 const Banner = ({ content }) => {
     // const { title, desc } = content;
@@ -55,8 +55,7 @@ const Banner = ({ content }) => {
             IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
             currentdate: currentdate,
         };
-        const JSONdata = JSON.stringify(data);
-
+        const JSONdata = JSON.stringify(data); 
         // First API call to your server
         fetch('/api/emailapidubai/', {
             method: 'POST',
@@ -87,7 +86,7 @@ const Banner = ({ content }) => {
             "Time": currentdate,
             "JSON": JSONdata,
         });
-        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+        await fetch("https://sheetdb.io/api/v1/71sd48ae8vab6", {
             method: "POST",
             body: bodyContent,
             headers: headersList
@@ -161,14 +160,12 @@ const Banner = ({ content }) => {
                 <Row className='align-items-center'>
                     <Col lg={7} xl={6} className='p-lg-0'>
                         <div className="txt">
-                            <p className={`mb-2 ${styles.firstPara} manrope font-bold`}>Quickly – Efficiently – Effortlessly</p>
-                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Empower Your Business With Top-Class <span className='newfycolr'>Software Development</span></h1>
-                            <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'> 
-                                We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days. We’re a software development company that ensures its experts. Cost-Effective Functional App Delivery In Just 45 Days Almost.
-                            </p>
+                            {/* <p className={`mb-2 ${styles.firstPara} manrope font-bold`}>Quickly – Efficiently – Effortlessly</p> */}
+                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>3D Game <span className='newfycolr'>Development Company</span></h1>
+                            <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>BitsWits is a premium-grade 3D game development company that creates immersive 3D games for PC, consoles, mobile, and VR/AR. Utilizing Unity and Unreal Engine, our results-driven 3D game development services ensure exceptional visuals and implement monetization strategies to boost engagement and drive ROI by 30%.</p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
                                 <a href="#href" className={`${styles.demoBtn} font-bold manrope`}>
-                                    Get a Free Demo
+                                    Let’s Talk!
                                 </a>
                                 <a href="#href" className={`${styles.portfolioBtn} font-bold manrope`}>
                                     See Portfolio

@@ -82,7 +82,7 @@ const Freequote = (props) => {
       "Time": currentdate,
       "JSON": JSONdata,
     });
-    await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+    await fetch("https://sheetdb.io/api/v1/71sd48ae8vab6", {
       method: "POST",
       body: bodyContent,
       headers: headersList

@@ -14,14 +14,12 @@ const SmallBanner = () => {
                         <Col lg={6} className='p-0'>
                             <div className={styles.txt}>
                                 <h2 className='manrope font-bold text-white'>
-                                    No Risks With An MVP!
-                                    Launch Your IDEA To See
-                                    How They Like It!
+                                Hook Your Audience with Our Studio’s Optimized Games Across Any Genre!
                                 </h2>
-                                <p className='manrope font-medium font16 text-white'>BitsWits believes in taking a creative, hands-on approach to mobile application development because we know it’s not just</p>
+                                <p className='manrope font-medium font16 text-white'>Launch a glitch-free, full-cycle game with optimized UX and stunning graphics, developed by our expert game artists!</p>
                                 <div className={styles.secBtn}>
                                     <a href="#href" className='manrope'>
-                                        Get Free Consultation
+                                    Let’s Connect!
                                     </a>
                                 </div>
                             </div>
