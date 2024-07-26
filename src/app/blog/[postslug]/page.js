@@ -34,7 +34,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
             images: "/public/images/icons/footerlogo.png",
         },
         //===== Canonical =====
-        alternates: { canonical: postData.seo.opengraphTitle },
+        alternates: { canonical: postData.seo.opengraphUrl },
         //===== GEO Tags =====
         other: {},
     }
