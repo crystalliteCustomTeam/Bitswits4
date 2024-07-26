@@ -24,7 +24,7 @@ const Platforms = () => {
                         <Col lg={6}>
                             <div className={styles.txt}>
                                 <h2 className='manrope text-white'>
-                                    Our Game App Developers Work On The World’s Biggest Platforms
+                                    Our Game App Developers Work On Platforms
                                 </h2>
                                 <p className='manrope font16 text-white'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                                 <div className={styles.secBtn}>

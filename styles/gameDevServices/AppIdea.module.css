@@ -13,11 +13,11 @@
 
 .image {
   position: absolute;
-  top: -6%;
+  top: -8%;
 }
 
 .image img {
-  width: 50%;
+  width: 100%;
   height: auto;
   animation: scale 2s linear infinite;
 }
@@ -113,7 +113,7 @@
   }
 
   .image {
-    top: -3%;
+    top: -5%;
   }
 
   .image img {
