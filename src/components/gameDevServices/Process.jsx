@@ -7,7 +7,7 @@ import styles from "@/styles/gameDevServices/Process.module.css"
 //====== Image
 import processImg from "media/gameServices/processImg.png"
 
-
+ 
 const Process = () => {
     /* ============================= */
     const tabs = [
