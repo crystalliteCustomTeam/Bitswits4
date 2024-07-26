@@ -2,11 +2,11 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
+import Axios from "axios";
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/servicepage/Banner.module.css"
 // Images
 import formImg from 'media/newmobileapp/formImg.png'
-import correcticon from "media/services/correct-icon.svg"
 
 const Banner = ({ content }) => {
     // const { title, desc } = content;
@@ -55,8 +55,7 @@ const Banner = ({ content }) => {
             IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
             currentdate: currentdate,
         };
-        const JSONdata = JSON.stringify(data);
-
+        const JSONdata = JSON.stringify(data); 
         // First API call to your server
         fetch('/api/emailapidubai/', {
             method: 'POST',
@@ -166,10 +165,10 @@ const Banner = ({ content }) => {
                             <p className='font16 text-black font-medium mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>BitsWits is a premium-grade 3D game development company that creates immersive 3D games for PC, consoles, mobile, and VR/AR. Utilizing Unity and Unreal Engine, our results-driven 3D game development services ensure exceptional visuals and implement monetization strategies to boost engagement and drive ROI by 30%.</p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
                                 <a href="#href" className={`${styles.demoBtn} font-bold manrope`}>
-                                Let’s Talk!
+                                    Let’s Talk!
                                 </a>
                                 <a href="#href" className={`${styles.portfolioBtn} font-bold manrope`}>
-                                See Portfolio
+                                    See Portfolio
                                 </a>
                             </div>
                         </div>

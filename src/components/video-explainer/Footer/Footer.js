@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
+import Axios from "axios";
 import styles from "@/styles/video-explainer/Footer.module.css"
 import { FaComments, FaEnvelope, FaGlobeAsia, FaPhoneAlt, FaUser } from 'react-icons/fa';
 // images
 import Payment from "media/videoexplainer/payment-img.png"
 import UpArrow from "media/videoexplainer/up-arrow.png"
-
 
 const VideoFooter = () => {
     // form Start 
