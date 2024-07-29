@@ -33,8 +33,6 @@ export async function generateMetadata({ params, searchParams }, parent) {
         },
         //===== Canonical =====
         alternates: { canonical: postData.seo.opengraphUrl },
-        //===== GEO Tags =====
-        other: {},
     }
 }
 
