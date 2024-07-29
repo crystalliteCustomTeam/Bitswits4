@@ -131,9 +131,6 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  /* position: sticky;
-  top: 0%;
-  z-index: 99; */
 }
 
 .articleSec .share li {
@@ -172,11 +169,36 @@
   justify-content: center;
 }
 
+.articleSec h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.articleSec h3 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.articleSec h4 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .articleSec p {
   font-size: 17px;
   font-weight: 300;
   line-height: 35px;
-  font-family: "SF-Pro-Display-Regular", sans-serif;
+}
+
+.articleSec p img {
+  width: 100%;
+  height: auto;
 }
 
 .articleSec h2 a,
@@ -185,59 +207,17 @@
   color: #212529;
 }
 
-.articleSec h2 {
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 53px;
-  font-family: "SF-Pro-Display-Regular", sans-serif;
+.articleSec table {
+  margin-bottom: 10px;
 }
 
-.articleSec h3 {
-  font-size: 25px;
-  line-height: 33px;
-  font-family: "SF-Pro-Display-Regular", sans-serif;
-}
-
-.articleSec .blockchain {
-  background-image: url(../../public/newblogs/blockchain-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 60px 20px;
-  border-radius: 17px;
-  margin-bottom: 40px;
-}
-
-.articleSec .blockchain h3 {
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 40px;
-  font-family: "SF-Pro-Display-Regular", sans-serif;
-}
-
-.articleSec .blockchain p {
-  font-size: 18px;
-  line-height: 35px;
-  font-weight: 300;
-  margin-bottom: 40px;
-  font-family: "SF-Pro-Display-Regular", sans-serif;
-}
-
-.articleSec .blockchain .btn {
-  background: #000000;
-  box-shadow: 0px 3px 25px rgba(65, 59, 59, 0.75);
-  width: 200px;
-  height: 45px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin: 0 auto;
-}
-
-.articleSec .blockchain .btn a {
-  color: white;
+.articleSec tbody,
+.articleSec td,
+.articleSec tfoot,
+.articleSec th,
+.articleSec thead,
+.articleSec tr {
+  border: 1px solid #000 !important;
 }
 
 .articleSec ul li {
@@ -260,87 +240,14 @@
   display: none;
 }
 
-/*============ Read Section ============*/
+/*============ SideBar ============*/
 
-.readSec {
-  padding-top: 30px;
-  padding-bottom: 80px;
-}
-
-.readSec h2 {
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 53px;
-}
-
-.readSec .card {
-  background-color: #f3f3f3;
-  border-radius: 10px;
-  border: 0;
-}
-
-.readSec .cardContent {
-  padding: 0 25px 25px;
-  border-bottom: 1px solid #d4d4d4;
-}
-
-.readSec .cardContent p:first-of-type {
-  color: #f32f53;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 22px;
-  padding-top: 24px;
-}
-
-.readSec .cardContent h5 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 27px;
-}
-
-.readSec .cardContent p:last-of-type {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 25px;
-  padding-right: 10px;
-  margin-bottom: 0;
-}
-
-.readSec .cardContent .btn {
-  display: flex;
-  align-items: center;
-}
-
-.readSec .cardContent .btn a {
+.sidebar {
+  width: 90%;
   margin-left: auto;
-  border-bottom: 2px solid black;
-  padding-bottom: 5px;
-}
-
-.readSec .cardBottom {
-  padding: 25px 25px 10px;
-  display: flex;
-  align-items: start;
-  gap: 10px;
-}
-
-.readSec .cardBottomImg {
-  width: 30%;
-}
-
-.readSec .cardBottom .cardbottomContent h3 {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 24px;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-.readSec .cardBottom .cardbottomContent p {
-  font-size: 12px;
-  line-height: 20px;
-  color: #aeaeae;
-  margin-bottom: 0;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
 
 /*============ Faqs Section ============*/
@@ -423,10 +330,6 @@
   .articleSec p {
     font-size: 15px;
     line-height: 28px;
-  }
-
-  .articleSec .blockchain {
-    padding: 40px 20px;
   }
 }
 

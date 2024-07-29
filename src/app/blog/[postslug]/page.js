@@ -9,6 +9,7 @@ import BlogShare from "@/src/components/BlogShare";
 import BlogFaqs from "@/src/components/BlogFaqs";
 import BlogArticle from '@/src/components/BlogArticle'
 import BlogNavigation from "@/src/components/BlogNavigation";
+import BlogsRelevant from "@/src/components/BlogsRelevant";
 // ===== Images
 import Client from "media/newblogs/innerclient.png"
 import verified from "media/newblogs/blog-verify.png"
@@ -129,7 +130,10 @@ export default async function Post({ params, searchParams }) {
                                     <BlogFaqs faqData={postData.blogDescription.faq} />
                                 </Col>
                                 <Col lg={4}>
-                                    <BlogNavigation postData={postData} />
+                                    <div className={styles.sidebar}>
+                                        <BlogNavigation postData={postData} />
+                                        <BlogsRelevant />
+                                    </div>
                                 </Col>
                             </Row>
                         </Container>

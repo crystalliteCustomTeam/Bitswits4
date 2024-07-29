@@ -1,11 +1,3 @@
-.sidebar {
-  width: 90%;
-  margin-left: auto;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-}
-
 .sidebar h3 {
   font-size: 28px;
   font-weight: 500;
@@ -98,14 +90,19 @@
 
 .articles ul li p {
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   color: #f32f53;
+  margin-bottom: 12px;
 }
 
 .articles ul li h6 {
   font-size: 20px;
-  line-height: 27px;
+  line-height: 30px;
   font-weight: 500;
+}
+
+.sidebar a {
+  color: #212529;
 }
 
 .services ul {
@@ -129,7 +126,7 @@
   display: none;
 }
 
-/* Media Query Start */
+/*============ Media Queries ============*/
 
 @media only screen and (max-width: 1299px) {
   .navigations ul li a {

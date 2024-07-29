@@ -14,10 +14,8 @@ import profile from "media/newblogs/blog-client.png"
 
 const BlogList = async () => {
 
-    // =============== Post Data ===============
     const posts = await getPostList();
-
-    // =============== Rander ===============
+    
     return (
         <>
             <section className={styles.blogcontent}>
