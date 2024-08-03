@@ -276,7 +276,9 @@ const page = () => {
                     ["Adventure Games", "Embark on epic journeys with our immersive 2D adventure games. Solve puzzles, overcome challenges, and dive into captivating stories. Explore vast worlds, meet intriguing characters, and interact with environments that spark the spirit of adventure."]
                 ]}
             />
-            <YourTech tabsData={tabsData2} />
+            <YourTech 
+            title="Our <span class='newfycolr'>2D Game Development</span> Technology Stack"
+            tabsData={tabsData2} />
             <Industries
                 desc="Discover how our tailored 2D game development solutions enhance engagement and streamline operations across <br class='d-lg-block d-none'/> healthcare, education, finance, retail, and more."
                 industriesCards={[
