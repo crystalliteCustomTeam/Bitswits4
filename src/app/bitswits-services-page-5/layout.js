@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "3D Game Development Company | BitsWits",
-  description: "Hire the top 1% game developers in USA to create immersive games with our 3D game development company, offering end-to-end services to ambitious clients!",
+  title: "Leading Android App Development Company - BitsWits",
+  description: "BitsWits is a premier Android app development company that makes user-friendly and premium android apps for all types of businesses.",
   //===== OG Tags =====
   openGraph: {
-    title: '3D Game Development Company | BitsWits',
-    description: 'Hire the top 1% game developers in USA to create immersive games with our 3D game development company, offering end-to-end services to ambitious clients!',
-    url: '/bitswits-services-page-1',
+    title: 'Leading Android App Development Company - BitsWits',
+    description: 'BitsWits is a premier Android app development company that makes user-friendly and premium android apps for all types of businesses.',
+    url: '/bitswits-services-page-5',
     siteName: 'BitsWits',
     locale: 'en_US',
-    type: 'website',
+    type: 'website'
   },
   //===== Canonical =====
-  alternates: { canonical: '/bitswits-services-page-1' },
+  alternates: { canonical: '/bitswits-services-page-5' },
   //===== No-Index =====
   robots: {
     index: false,

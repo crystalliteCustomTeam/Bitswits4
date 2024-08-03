@@ -69,7 +69,60 @@ import TechSixtyTwo from "media/services/pms-6.svg"
 import TechSixtyThree from "media/services/pms-7.svg"
 import TechSixtyFour from "media/services/pms-8.svg"
 
-const YourTech = () => {
+const YourTech = ({
+    title = "Our <span class='newfycolr'>3D Game Development</span> Technology Stack",
+    desc = "We select for you the right database, language, and framework for an ideal gaming experience.",
+    tabsData = [
+        ["Game Engines",
+            "tab1",
+            [
+                [TechOne, "Unity"],
+                [TechTwo, "Unreal Engine"],
+                [TechThree, "Godot"],
+                [TechFour, "CryEngine"]
+            ]],
+        ["Programming Languages",
+            "tab2",
+            [
+                [TechEleven, "C++"],
+                [TechTwelve, "C#"],
+                [TechThirteen, "Python"],
+                [TechFourteen, "JavaScript"]
+            ]],
+        ["Graphics & Design Tools",
+            "tab3",
+            [
+                [TechSeventeen, "Autodesk Maya"],
+                [TechEighteen, "Blender"],
+                [TechNineteen, "Adobe Photoshop"],
+                [TechTwenty, "Substance Painter"]
+            ]],
+        ["Databases",
+            "tab4",
+            [
+                [TechThirtyFive, "MySQL"],
+                [TechFourty, "PostgreSQL"],
+                [TechThirtyEight, "SQLite"],
+                [TechThirtySeven, "MongoDB"]
+            ]],
+        ["Frameworks & Libraries",
+            "tab5",
+            [
+                [TechThirtyFive, "Three.js"],
+                [TechThirtySix, "Babylon.js"],
+                [TechThirtySeven, "OpenGL"],
+                [TechThirtyEight, "Vulkan"]
+            ]],
+        ["Testing & QA Tools",
+            "tab6",
+            [
+                [TechFourtyOne, "Jenkins"],
+                [TechFourtyTwo, "Selenium"],
+                [TechFourtyThree, "JIRA"],
+                [TechFourtyThree, "TestRail"]
+            ]],
+    ]
+}) => {
     // Tabs
     const [activeTab1, setActiveTab1] = useState("tab1");
     function fun1(tabs1) {
@@ -81,384 +134,40 @@ const YourTech = () => {
                 <Row>
                     <Col lg={12}>
                         <div className={`${styles.txt} text-center`}>
-                            <h2 className='manrope font-bold mb-md-3'>Our <span className='newfycolr'>3D Game Developmentk</span> Technology Stack</h2>
-                            <p className='manrope font16 font-medium pb-2 pb-md-4 mb-xl-4'>We select for you the right database, language, and framework for an ideal gaming experience.</p>
+                            <h2 className='manrope font-bold mb-md-3' dangerouslySetInnerHTML={{ __html: title }} />
+                            <p className='manrope font16 font-medium pb-2 pb-md-4 mb-xl-4'>{desc}</p>
                         </div>
                     </Col>
                     <Col lg={12}>
                         <div className={styles.tabList}>
                             <ul className={styles.tabList}>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab1" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab1")}>
-                                   Game Engines
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab2" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab2")}>
-                                    Programming Languages
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab3" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab3")}>
-                                   Graphics & Design Tools
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab4" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab4")}>
-                                   Databases
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab5" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab5")}>
-                                    Frameworks & Libraries
-                                </li>
-                                <li className={`manrope font-medium ${styles.lists} ${activeTab1 == "tab6" ? styles.active : styles.nonActive}`}
-                                    onClick={() => fun1("tab6")}>
-                                    Testing & QA Tools
-                                </li>
+                                {tabsData.map(([tabName, tabId, items]) => (
+                                    <li
+                                        key={tabId}
+                                        className={`manrope font-medium ${styles.lists} ${activeTab1 === tabId ? styles.active : styles.nonActive}`}
+                                        onClick={() => fun1(tabId)}>
+                                        {tabName}
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className={styles.tabContent}>
-                            {activeTab1 == "tab1" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechOne} alt='Bitswits' className='img-fluid' />
+                            {tabsData.map(([tabName, tabId, items]) => (
+                                activeTab1 === tabId && (
+                                    <div key={tabId} className={styles.tenchnologies}>
+                                        {items.map(([img, title], i) => (
+                                            <div key={i} className={styles.tech}>
+                                                <div className={styles.techImage}>
+                                                    <Image src={img} alt={title} className='img-fluid' />
+                                                </div>
+                                                <div className={styles.techTxt}>
+                                                    <p className='manrope'>{title}</p>
+                                                </div>
                                             </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Unity</p>
-                                            </div>
-                                        </div>
+                                        ))}
                                     </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Unreal Engine</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Godot</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>CryEngine</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab2" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechEleven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>C++</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwelve} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>C#</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Python</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>JavaScript</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFifteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Angular</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSixteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Vue.JS</p>
-                                            </div>
-                                        </div>
-                                    </div> */}
-                                </div>
-                            )}
-                            {activeTab1 == "tab3" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechSeventeen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Autodesk Maya</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechEighteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Blender</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechNineteen} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Adobe Photoshop</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwenty} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Substance Painter</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyOne} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Symfony</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Python</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Yii</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyFour} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>GraphQL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentyFive} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Typo3</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechTwentySix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>CakePHP</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab4" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyFive} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>MySQL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourty} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>PostgreSQL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>SQLite</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>MongoDB</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab5" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyFive} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Three.js</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtySix} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Babylon.js</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtySeven} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>OpenGL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechThirtyEight} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Vulkan</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            {activeTab1 == "tab6" && (
-                                <div className={styles.tenchnologies}>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyOne} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Jenkins</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyTwo} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>Selenium</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>JIRA</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={styles.tech}>
-                                            <div className={styles.techImage}>
-                                                <Image src={TechFourtyThree} alt='Bitswits' className='img-fluid' />
-                                            </div>
-                                            <div className="texhTxt">
-                                                <p className='manrope'>TestRail</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
+                                )
+                            ))}
                         </div>
                     </Col>
                 </Row>

@@ -5,7 +5,11 @@ import styles from "@/styles/servicepage/SmallBanner.module.css"
 import ImageOne from "media/services/smallBannerImg.svg"
 import Image from 'next/image'
 
-const SmallBanner = () => {
+const SmallBanner = ({
+    title="Hook Your Audience with Our Studio’s Optimized Games Across Any Genre!",
+    desc="Launch a glitch-free, full-cycle game with optimized UX and stunning graphics, developed by our expert game artists!",
+    cta="Let’s Connect!"
+}) => {
     return (
         <section className={styles.SmallBannerSec}>
             <Container>
@@ -14,12 +18,12 @@ const SmallBanner = () => {
                         <Col lg={6} className='p-0'>
                             <div className={styles.txt}>
                                 <h2 className='manrope font-bold text-white'>
-                                Hook Your Audience with Our Studio’s Optimized Games Across Any Genre!
+                                {title}
                                 </h2>
-                                <p className='manrope font-medium font16 text-white'>Launch a glitch-free, full-cycle game with optimized UX and stunning graphics, developed by our expert game artists!</p>
+                                <p className='manrope font-medium font16 text-white'>{desc}</p>
                                 <div className={styles.secBtn}>
                                     <a href="#href" className='manrope'>
-                                    Let’s Connect!
+                                    {cta}
                                     </a>
                                 </div>
                             </div>

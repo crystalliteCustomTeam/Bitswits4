@@ -8,7 +8,11 @@ import Axios from "axios";
 import styles from '@/styles/servicepage/JourneyForm.module.css'
 import formImg from 'media/newmobileapp/formImg.png'
 
-const JournyForm = () => {
+const JournyForm = ({
+    title = "Ready to Launch Your Game Project?",
+    subTitle = "Book A Free Discovery Call!",
+    desc = "Book a session with our game development team to discuss your project and get a detailed estimate tailored to your needs."
+}) => {
     const [checkboxes, setCheckboxes] = useState([]);
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
@@ -161,10 +165,10 @@ const JournyForm = () => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.content}>
-                                <h2 className='manrope'>Ready to Launch Your Game Project?</h2>
+                                <h2 className='manrope'>{title}</h2>
                                 <div className={styles.experts}>
-                                    <h5 className='manrope'>Book A Free Discovery Call!</h5>
-                                    <h4 className='manrope'>Book a session with our game development team to discuss your project and get a detailed estimate tailored to your needs. </h4>
+                                    <h5 className='manrope'>{subTitle}</h5>
+                                    <h4 className='manrope'>{desc}</h4>
                                 </div>
                             </div>
                         </Col>

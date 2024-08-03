@@ -57,16 +57,14 @@ const page = () => {
             {
                 num: "",
                 title: "AR/VR",
-                content: `<p class='font-medium'>Our AR/VR game development services focus on creating immersive experiences for virtual reality and augmented reality platforms. We develop interactive games for HTC Vive Pro, Valve Index VR Kit, Sony PlayStation VR, Meta Quest, and Apple Vision Pro. Utilizing the power of Unreal Engine and Unity, we craft games that transport players into new worlds with seamless, lifelike interactions.</p>`
+                content: `<p class='font-medium'>Our AR/VR game development services offers immersive experiences for virtual reality and augmented reality platforms. We can develop interactive games for HTC Vive Pro, Valve Index VR Kit, Sony PlayStation VR, Meta Quest, and Apple Vision Pro.</p>`
             },
         ],
         [
             {
                 num: "",
                 title: "Cross-Platform",
-                content: `<p class='font-medium'> As a bespoke 3D games development company, we excel in cross-platform game development, making sure your game reaches a wider audience by running smoothly on multiple platforms. 
-We develop games that are easily ported across PC, consoles, mobile, and AR/VR using advanced engines like Unity, Unreal Engine, and Godot.
-</p>`
+                content: `<p class='font-medium'>As a bespoke 3D games development company, we develop games that are easily ported across PC, consoles, mobile, and AR/VR using advanced engines like Unity, Unreal Engine, and Godot. With our specialty in cross-platform game development, we make sure your game reaches a wider audience by running smoothly on multiple platforms!</p>`
             },
         ],
     ];

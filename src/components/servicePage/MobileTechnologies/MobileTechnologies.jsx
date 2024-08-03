@@ -13,15 +13,20 @@ import Icon7 from "media/services/icon-7.svg"
 import Icon8 from "media/services/icon-8.svg"
 import TachnoImg from "media/services/technoImg.svg"
 
-const MobileTechnologies = () => {
+const MobileTechnologies = ({
+    title = "Strategic Advantages Of Hiring BitsWits As Your 3D Game Development Company",
+    desc = "When you partner with BitsWits, you sign up for the highest quality games with strategic advantages. As a premium-grade 3D game development company in the USA, our experts enhance player engagement and drive market competitiveness. Here’s what you should expect when you hire us:",
+    cta = "Let’s Discuss Your Project"
+
+}) => {
     return (
         <section className={styles.technologiesSec}>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={7}>
                         <div className={styles.txt}>
-                            <h2 className='manrope font-bold mb-3'>The Benefits When You Hire A 3D Game Development Company</h2>
-                            <p className='font16 manrope font-medium my-3'>When you hire a top-grade 3D game development company in USA, you benefit from customized full-cycle development, ensuring every aspect of your game is expertly created. Flexible team selection allows you to choose the best 3D game developers tailored to your project’s needs. Utilizing cutting-edge technology, these companies create standout experiences, boasting a 90% player satisfaction rate and over 20 million downloads in stores.</p>
+                            <h2 className='manrope font-bold mb-3'>{title}</h2>
+                            <p className='font16 manrope font-medium my-3'>{desc}</p>
                         </div>
                         <div className={styles.services}>
                             <div className={styles.service}>
@@ -59,7 +64,7 @@ const MobileTechnologies = () => {
                         </div>
                         <div className={styles.serviBtn}>
                             <a href="#href">
-                                Let’s Discuss Your Project
+                                {cta}
                             </a>
                         </div>
                     </Col>

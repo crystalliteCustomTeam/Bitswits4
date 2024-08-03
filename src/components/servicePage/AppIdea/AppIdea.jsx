@@ -8,7 +8,10 @@ import Axios from "axios";
 import AppIdeaMobile from "media/services/app-idea.svg"
 import { usePathname } from 'next/navigation'
 
-const AppIdea = () => {
+const AppIdea = ({
+    title = "Quit Procrastinating and Build Your Dream Game Now!",
+    desc = "Book your free consultation to learn how we create stunning games that enhance engagement and increase your revenue!"
+}) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [checkboxes, setCheckboxes] = useState([]);
@@ -165,8 +168,8 @@ const AppIdea = () => {
                         </Col>
                         <Col lg={7}>
                             <div className={styles.secform}>
-                                <h2 className='font-bold text-white manrope mb-3'>Quit Procrastinating and Build Your Dream Game Now!</h2>
-                                <p className='font16 text-white font-medium manrope mb-md-4 pb-3'>Book your free consultation to learn how we create stunning games that enhance engagement and increase your revenue!</p>
+                                <h2 className='font-bold text-white manrope mb-3'>{title}</h2>
+                                <p className='font16 text-white font-medium manrope mb-md-4 pb-3'>{desc}</p>
                                 <form onSubmit={handleSubmit}>
                                     <Row className=''>
                                         <Col lg={6}>

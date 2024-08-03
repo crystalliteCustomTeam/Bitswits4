@@ -7,7 +7,10 @@ import styles from '@/styles/servicepage/ApplicationOffer.module.css';
 import BtnArrow from 'media/newmobileapp/right-arrow.png';
 import appLong from 'media/newmobileapp/appLong.png';
 
-const ApplicationOffer = ({ content }) => {
+const ApplicationOffer = ({ 
+    title = "Developing <span class='newfycolr'>3D Games </span> for Key Platforms",
+    desc = "Our end-to-end 3D game development services cover consoles, mobile, AR/VR, and much more! We make sure your game is optimized for an immersive experience and a smooth gameplay.",
+     content }) => {
     const { menus, sections } = content;
     const [activeTab, setActiveTab] = useState(0);
 
@@ -22,8 +25,8 @@ const ApplicationOffer = ({ content }) => {
                     <Row className="m-0 align-items-center">
                         <Col lg={12} className='p-0'>
                             <div className={styles.txt}>
-                                <h2 className='manrope font-bold'>Developing <span className='newfycolr'>3D Games </span> for Key Platforms</h2>
-                                <p className='manrope font16 font-medium mb-2 mb-lg-5 pb-2'>Our end-to-end 3D game development services cover a range of key platforms. From personal <br /> computers to consoles, mobile, AR/VR, and more, we ensure your games are optimized for <br /> smooth gameplay and immersive experiences.</p>
+                                <h2 className='manrope font-bold' dangerouslySetInnerHTML={{__html : title}} />
+                                <p className='manrope font16 font-medium mb-2 mb-lg-5 pb-2' dangerouslySetInnerHTML={{__html : desc}} />
                             </div>
                         </Col>
                     </Row>

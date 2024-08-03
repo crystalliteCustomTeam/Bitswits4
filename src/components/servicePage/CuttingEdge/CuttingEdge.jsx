@@ -16,48 +16,62 @@ import cuttingNine from "media/services/cutting9.png"
 import cuttingTen from "media/services/cutting10.png"
 import cuttingEleven from "media/services/cutting11.png"
 
-const CuttingEdge = () => {
+const CuttingEdge = ({
+    title = "High-Performance 3D Game <span class='newfycolr'> Development Services!</span>",
+    desc = "As your dedicated 3D game developers, we provide high-performance 3D game development services for ambitious <br /> clients to achieve exceptional success!",
+    services = [
+        ["Full-Cycle Development","Access top talents and the latest trends with our full-cycle 3D game development services. We can create any genre using Unity and Unreal Engine, delivering immersive experiences from concept to completion."],
+        ["3D Art","We create visually appealing and eye-catching designs. Our skilled 3D artists develop detailed character models and expansive game worlds that captivate and engage players."],
+        ["AAA Art","Our advanced artists and top experts use Maya and Blender to create hyper realistic characters, environments, weapons, and vehicles. Each asset is designed to match your game's level and perfectly complement the storyline."],
+        ["3D Animation","3D animation involves complex tasks that our top experts handle with precision. As a custom 3D game development company, we deliver streamlined animation and incomparable design, ensuring every movement or interaction captivates players."],
+        ["3D Game UI/UX Design","Our interface artists create optimal architecture for the best UX. We focus on UX-driven design, ensuring easy navigation, responsive interfaces, and seamless integration with game programming for an engaging player experience."],
+        ["3D Game QA Testing","Our experienced testers identify and resolve errors or shortcomings before release, ensuring a flawless gaming experience. We rigorously test every aspect to guarantee your game meets the highest quality standards."],
+    ]
+}) => {
     return (
         <section className={styles.cuttingEdgeSec}>
             <Container>
                 <Row>
                     <Col lg={12}>
                         <div className="txt">
-                            <h2 className='text-center text-white manrope font-bold mb-2 mb-lg-4'>High-Performance 3D Game 
-                            <span className='newfycolr'> Development Services!</span></h2>
-                            <p className='font16 text-white font-medium text-center manrope mb-md-5 pb-3'>As your dedicated 3D game developers, we provide high-performance 3D game development services for ambitious <br /> clients to achieve exceptional success!</p>
+                            <h2 className='text-center text-white manrope font-bold mb-2 mb-lg-4' dangerouslySetInnerHTML={{ __html: title }} />
+                            <p className='font16 text-white font-medium text-center manrope mb-md-5 pb-3' dangerouslySetInnerHTML={{ __html: desc }} />
                         </div>
                     </Col>
                     <Col lg={9}>
                         <div className={styles.services}>
-                            <div className={`${styles.servicesItem}`}>
-                                <div className={styles.content}>
-                                    <div className={styles.heading}>
-                                        <h3 className='manrope'>Full-Cycle Development</h3>
-                                        <div className='d-md-block d-none'>
-                                            <div className={styles.edgeBtn}>
-                                                <a href="#href" className='manrope font-bold'>
-                                                    Let’s Do This!
-                                                </a>
+                            {
+                                services && services?.map(([title,desc], i) => (
+                                    <div key={i} className={`${styles.servicesItem}`}>
+                                        <div className={styles.content}>
+                                            <div className={styles.heading}>
+                                                <h3 className='manrope'>{title}</h3>
+                                                <div className='d-md-block d-none'>
+                                                    <div className={styles.edgeBtn}>
+                                                        <a href="#href" className='manrope font-bold'>
+                                                            Let’s Do This!
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={styles.desc}>
+                                                <p className='font16 font-medium manrope'>{desc}</p>
+                                                <div className='d-md-none d-block'>
+                                                    <div className={styles.edgeBtn}>
+                                                        <a href="#href" className='manrope font-bold'>
+                                                            Let’s Do This!
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>Access top talents and the latest trends with our full-cycle 3D game development services. We can create any genre using Unity and Unreal Engine, delivering immersive experiences from concept to completion.</p>
-                                        <div className='d-md-none d-block'>
-                                            <div className={styles.edgeBtn}>
-                                                <a href="#href" className='manrope font-bold'>
-                                                    Let’s Do This!
-                                                </a>
-                                            </div>
+                                        <div className={styles.serviceImage}>
+                                            <Image src={cuttingOne} alt='Bitswits' className='img-fluid' />
                                         </div>
                                     </div>
-                                </div>
-                                <div className={styles.serviceImage}>
-                                    <Image src={cuttingOne} alt='Bitswits' className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className={`${styles.servicesItem}`}>
+                                ))
+                            }
+                            {/* <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>
                                         <h3 className='manrope'>3D Art</h3>
@@ -70,7 +84,7 @@ const CuttingEdge = () => {
                                         </div>
                                     </div>
                                     <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>We create visually appealing and eye-catching designs. Our skilled 3D artists develop detailed character models and expansive game worlds that captivate and engage players.</p>
+                                        <p className='font16 font-medium manrope'></p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -87,7 +101,7 @@ const CuttingEdge = () => {
                             <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>
-                                        <h3 className='manrope'>AAA Art</h3>
+                                        <h3 className='manrope'></h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -97,7 +111,7 @@ const CuttingEdge = () => {
                                         </div>
                                     </div>
                                     <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>Our advanced artists and top experts use Maya and Blender to create hyper realistic characters, environments, weapons, and vehicles. Each asset is designed to match your game's level and perfectly complement the storyline.</p>
+                                        <p className='font16 font-medium manrope'></p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -114,7 +128,7 @@ const CuttingEdge = () => {
                             <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>
-                                        <h3 className='manrope'>3D Animation</h3>
+                                        <h3 className='manrope'></h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -124,7 +138,7 @@ const CuttingEdge = () => {
                                         </div>
                                     </div>
                                     <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>3D animation involves complex tasks that our top experts handle with precision. As a custom 3D game development company, we deliver streamlined animation and incomparable design, ensuring every movement or interaction captivates players.</p>
+                                        <p className='font16 font-medium manrope'></p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -141,7 +155,7 @@ const CuttingEdge = () => {
                             <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>
-                                        <h3 className='manrope'>3D Game UI/UX Design</h3>
+                                        <h3 className='manrope'></h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -151,7 +165,7 @@ const CuttingEdge = () => {
                                         </div>
                                     </div>
                                     <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>Our interface artists create optimal architecture for the best UX. We focus on UX-driven design, ensuring easy navigation, responsive interfaces, and seamless integration with game programming for an engaging player experience.</p>
+                                        <p className='font16 font-medium manrope'></p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -168,7 +182,7 @@ const CuttingEdge = () => {
                             <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>
-                                        <h3 className='manrope'>3D Game QA Testing</h3>
+                                        <h3 className='manrope'></h3>
                                         <div className='d-md-block d-none'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -178,7 +192,7 @@ const CuttingEdge = () => {
                                         </div>
                                     </div>
                                     <div className={styles.desc}>
-                                        <p className='font16 font-medium manrope'>Our experienced testers identify and resolve errors or shortcomings before release, ensuring a flawless gaming experience. We rigorously test every aspect to guarantee your game meets the highest quality standards.</p>
+                                        <p className='font16 font-medium manrope'></p>
                                         <div className='d-md-none d-block'>
                                             <div className={styles.edgeBtn}>
                                                 <a href="#href" className='manrope font-bold'>
@@ -191,7 +205,7 @@ const CuttingEdge = () => {
                                 <div className={styles.serviceImage}>
                                     <Image src={cuttingSix} alt='Bitswits' className='img-fluid' />
                                 </div>
-                            </div>
+                            </div> */}
                             {/* <div className={`${styles.servicesItem}`}>
                                 <div className={styles.content}>
                                     <div className={styles.heading}>

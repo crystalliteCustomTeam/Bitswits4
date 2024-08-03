@@ -19,7 +19,10 @@ import Slider12 from "/public/newDubaiPagev1/award12.svg"
 import Slider13 from "/public/newDubaiPagev1/award13.svg"
 import Slider from 'react-slick';
 
-const Acheived = () => {
+const Acheived = ({
+    title="We Architect the <span class='newfycolr'>Future of Gaming!</span>",
+    desc="At BitsWits, our passion for innovation to excellence sets us apart in 3D game development. We create <br className='d-lg-block d-none' /> engaging experiences that redefine gaming, ensuring our clients stay ahead in the industry."
+}) => {
     var acheivedSlider = {
         arrows: false,
         slidesToShow: 7,
@@ -58,8 +61,8 @@ const Acheived = () => {
                 <Row>
                     <Col lg={12}>
                         <div className="txt">
-                            <h2 className='text-center manrope font-bold mb-xl-3'>We Architect the <span className='newfycolr'>Future of Gaming!</span></h2>
-                            <p className='font16 text-black font-medium text-center manrope mb-5 pb-3'>At BitsWits, our passion for innovation to excellence sets us apart in 3D game development. We create <br className='d-lg-block d-none' /> engaging experiences that redefine gaming, ensuring our clients stay ahead in the industry.</p>
+                            <h2 className='text-center manrope font-bold mb-xl-3' dangerouslySetInnerHTML={{__html : title}} />
+                            <p className='font16 text-black font-medium text-center manrope mb-5 pb-3' dangerouslySetInnerHTML={{__html : desc}} />
                         </div>
                     </Col>
                 </Row>

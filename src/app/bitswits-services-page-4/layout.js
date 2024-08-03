@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "3D Game Development Company | BitsWits",
-  description: "Hire the top 1% game developers in USA to create immersive games with our 3D game development company, offering end-to-end services to ambitious clients!",
+  title: "Top-Tier 2D Game Development Company",
+  description: "BitsWits is a leading 2D game development company with 200+ expert-vetted developers, designers, and artists creating breathtaking gaming experiences",
   //===== OG Tags =====
   openGraph: {
-    title: '3D Game Development Company | BitsWits',
-    description: 'Hire the top 1% game developers in USA to create immersive games with our 3D game development company, offering end-to-end services to ambitious clients!',
-    url: '/bitswits-services-page-1',
+    title: 'Top-Tier 2D Game Development Company',
+    description: 'BitsWits is a leading 2D game development company with 200+ expert-vetted developers, designers, and artists creating breathtaking gaming experiences',
+    url: '/bitswits-services-page-4',
     siteName: 'BitsWits',
     locale: 'en_US',
-    type: 'website',
+    type: 'website'
   },
   //===== Canonical =====
-  alternates: { canonical: '/bitswits-services-page-1' },
+  alternates: { canonical: '/bitswits-services-page-4' },
   //===== No-Index =====
   robots: {
     index: false,
