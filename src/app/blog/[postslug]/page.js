@@ -1,4 +1,3 @@
-
 import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from 'react-bootstrap'
@@ -10,11 +9,11 @@ import BlogShare from "@/src/components/BlogShare";
 import BlogFaqs from "@/src/components/BlogFaqs";
 import BlogArticle from '@/src/components/BlogArticle'
 import BlogNavigation from "@/src/components/BlogNavigation";
+import BlogsRelevant from "@/src/components/BlogsRelevant";
 // ===== Images
 import Client from "media/newblogs/innerclient.png"
 import verified from "media/newblogs/blog-verify.png"
 import experience from "media/newblogs/experience.png"
-
 
 
 export async function generateMetadata({ params, searchParams }, parent) {
@@ -34,9 +33,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
             images: "/public/images/icons/footerlogo.png",
         },
         //===== Canonical =====
-        alternates: { canonical: postData.seo.opengraphTitle },
-        //===== GEO Tags =====
-        other: {},
+        alternates: { canonical: postData.seo.canonical },
     }
 }
 
@@ -133,7 +130,10 @@ export default async function Post({ params, searchParams }) {
                                     <BlogFaqs faqData={postData.blogDescription.faq} />
                                 </Col>
                                 <Col lg={4}>
-                                    <BlogNavigation postData={postData} />
+                                    <div className={styles.sidebar}>
+                                        <BlogNavigation postData={postData} />
+                                        <BlogsRelevant />
+                                    </div>
                                 </Col>
                             </Row>
                         </Container>

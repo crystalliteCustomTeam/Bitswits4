@@ -65,7 +65,7 @@ const DubaiTimeline = ({ content }) => {
                                     </div>
                                     <div className={`${styles.timeline} ${styles.timeThree} ${styles.timeLeft} d-flex align-items-center justify-content-between`}>
                                         <div className={`${styles.timelineContent} ${styles.paddingSix} ${styles.spacingFour}`}>
-                                            <Image src={TimelineFour} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the deployment phase of an app' />
+                                            <Image src={TimelineFour} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the scaling phase of an app' />
                                             <h3 className=''>{heading4}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para4}
@@ -75,7 +75,7 @@ const DubaiTimeline = ({ content }) => {
                                         <div className={`d-lg-block d-none ${styles.numberFour}`}></div>
                                         <div className={` ${styles.numberFourMobile}`}></div>
                                         <div className={`${styles.timelineContent} ${styles.paddingFive} ${styles.spacingThree}`}>
-                                            <Image src={TimelineFive} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the scaling phase of an app' />
+                                            <Image src={TimelineFive} loading="lazy" sizes="100vw" width={207} height={202} alt='This image shows about the deployment phase of an app' />
                                             <h3 className=''>{heading5}</h3>
                                             <p className={`${styles.timePara} fontsfregular`}>
                                                 {para5}

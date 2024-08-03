@@ -34,16 +34,6 @@
   --transparentBlue: #4a79ef1c;
 }
 
-/* 
-@import url("../public/fonts/font1.css");
-@import url("../public/fonts/font2.css");
-@import url("../public/fonts/font3.css");
-@import url("../public/fonts/font4.css"); */
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"); */
-
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
