@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -426,6 +427,114 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": " Mobile App Development Company in Miami - BitsWits ",
+            "url": " https://www.bitswits.co/mobile-app-development-company-miami ",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": " Mobile App Development Company in Miami - BitsWits ",
+            "alternateName": "BitsWits",
+            "url": " https://www.bitswits.co/mobile-app-development-company-miami ",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": " 3022168231",
+              "contactType": "customer service",
+              "areaServed": "US",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": " Mobile App Development Company in Miami - BitsWits ",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmiami.5dc36a47.webp&w=1920&q=75 ",
+            "@id": "",
+            "url": " https://www.bitswits.co/mobile-app-development-company-miami ",
+            "telephone": " 3022168231",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": " 601 Brickell Key Dr #700 ",
+              "addressLocality": "Miami",
+              "addressRegion": "FL",
+              "postalCode": "33131",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 25.7671623,
+              "longitude": -80.1859032
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": " Mobile App Development Company in Miami - BitsWits ",
+            "image": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "description": " Trust BitsWits as your go-to mobile app development company in Miami. We provide expert app development services to meet the needs of your business.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "974"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 
