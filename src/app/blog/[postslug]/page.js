@@ -137,7 +137,7 @@ export default async function Post({ params, searchParams }) {
                                 <Col lg={4}>
                                     <div className={styles.sidebar}>
                                         <BlogNavigation postData={postData} />
-                                        <BlogsRelevant />
+                                        <BlogsRelevant postData={postData} />
                                     </div>
                                 </Col>
                             </Row>
