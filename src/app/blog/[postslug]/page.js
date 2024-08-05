@@ -57,6 +57,11 @@ export default async function Post({ params, searchParams }) {
                         <meta property="og:locale" content="en_IN" />
                         <meta property="og:site_name" content={postData.opengraphSiteName} />
                     </Head>
+                    {postData.blogDescription.schema && (
+                        <>
+                            <div dangerouslySetInnerHTML={{ __html: postData.blogDescription.schema }}></div>
+                        </>
+                    )}
                     <section className={styles.innerBannerSec}>
                         <Container>
                             <Row className="align-items-center">
