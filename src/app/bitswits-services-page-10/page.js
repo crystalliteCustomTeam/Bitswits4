@@ -324,6 +324,10 @@ const page = () => {
                         question: "Is Flutter good for app development?",
                         answer: "Yes, Flutter is an excellent choice for app development <br/> It offers numerous advantages, such as cost efficiency, rapid development, and a short time-to-market. Its ease of team organization makes it increasingly popular for new projects. <br/> Additionally, Flutter can seamlessly integrate with existing apps written in native languages, making it versatile for both new and ongoing projects."
                     },
+                    {
+                        question: "How long does it take to build a Flutter app?",
+                        answer: "The time it takes to build a Flutter app varies based on complexity. <br/> A simple Flutter app can typically be completed in about 2 months. Medium-complexity projects usually take around 4 months, while more complex apps may require 4 to 6 months of development. <br/> For example, creating a basic messaging app generally takes less time compared to more feature-rich applications."
+                    },
                 ]}
             />
             <BlogPosts />
