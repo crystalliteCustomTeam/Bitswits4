@@ -118,6 +118,30 @@ const ConditionalLayout = ({ children }) => {
                                         <NewServiceHeaderTwo />
                                         <NewHeaderMbl />
                                     </> :
+                                    pathname == "/bitswits-services-page-5" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-6" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-7" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-8" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-9" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
+                                    pathname == "/bitswits-services-page-10" ? <>
+                                        <NewServiceHeaderTwo />
+                                        <NewHeaderMbl />
+                                    </> :
                                         pathname == "/bitswits-services-page-2" ? <>
                                             <NewServiceHeader />
                                             <HeaderMbl />

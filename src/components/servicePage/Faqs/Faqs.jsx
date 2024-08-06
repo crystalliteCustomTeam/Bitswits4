@@ -53,7 +53,7 @@ const Faqs = (props) => {
                                     </div>
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
-                                            <p className="manrope font-medium">{faq.answer}</p>
+                                            <p className="manrope font-medium" dangerouslySetInnerHTML={{__html : faq.answer}}/>
                                         </div>
                                     </div>
                                 </div>
