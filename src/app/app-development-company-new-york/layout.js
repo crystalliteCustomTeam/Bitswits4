@@ -14,6 +14,24 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-company-new-york' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Mobile App Development Company in New York -Bitswits",
+    "geo.region": "US",
+    "geo.position": "40.7054441, -74.01309",
+    "ICBM": " 40.7054441, -74.01309",
+    //==========
+    "DC.title": "Mobile App Development Company in New York -Bitswits",
+    "geo.region": "US-NY",
+    "geo.position": "40.7054441, -74.01309",
+    "ICBM": "40.7054441, -74.01309",
+    //==========
+    "DC.title": "Mobile App Development Company in New York -Bitswits",
+    "geo.region": "US-NY",
+    "geo.placename": "New York",
+    "geo.position": "40.7054441, -74.01309",
+    "ICBM": "40.7054441, -74.01309",
+  },
   //===== No-Index =====
   robots: {
     index: true,

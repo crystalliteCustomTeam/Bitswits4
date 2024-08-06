@@ -1,5 +1,6 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -636,6 +637,99 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "Website",
+            "name": " Mobile App Development Company in New York - BitsWits ",
+            "url": " https://www.bitswits.co/app-development-company-new-york",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="corporationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Corporation",
+            "name": " Mobile App Development Company in New York - BitsWits ",
+            "url": " https://www.bitswits.co/app-development-company-new-york",
+            "logo": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1920&q=75"
+          }
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": " https://www.bitswits.co/app-development-company-new-york",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouston.5c03c25c.webp&w=1920&q=75 ",
+            "@id": "",
+            "url": " https://www.bitswits.co/app-development-company-new-york",
+            "telephone": "3022168231",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": " 26 Broadway Suite 934 ",
+              "addressLocality": " New York ",
+              "addressRegion": "NY",
+              "postalCode": " 10004 ",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.7054441,
+              "longitude": -74.01309
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"	
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": " Mobile App Development Company in New York - BitsWits ",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnewyork.4988cafe.webp&w=1920&q=75",
+            "description": " BitsWits is a top-tier app development company in NYC helping startups and entrepreneurs across 10+ industries build scalable, and feature-rich mobile apps.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "974"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 

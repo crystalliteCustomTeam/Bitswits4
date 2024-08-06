@@ -14,6 +14,23 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/mobile-app-development-company-miami' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "geo.region": "US",
+    "geo.position": "25.7671623, -80.1859032",
+    "ICBM": " 25.7671623, -80.1859032",
+    //==========
+    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "geo.region": "US",
+    "geo.position": "25.7671623, -80.1859032",
+    "ICBM": "25.7671623, -80.1859032",
+    //==========
+    "DC.title": "Mobile App Development Company in Miami - BitsWits",
+    "geo.region": "US",
+    "geo.position": "25.7671623, -80.1859032",
+    "ICBM": "25.7671623, -80.1859032",
+  },
   //===== No-Index =====
   robots: {
     index: true,

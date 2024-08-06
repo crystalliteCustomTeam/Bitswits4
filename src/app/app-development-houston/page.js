@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -347,6 +348,114 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": " Mobile App Development Company in Houston - BitsWits",
+            "url": " https://www.bitswits.co/app-development-houston ",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Mobile App Development Company in Houston- BitsWits ",
+            "alternateName": "BitsWits",
+            "url": " https://www.bitswits.co/app-development-houston ",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "833 500-6007",
+              "contactType": "customer service",
+              "areaServed": "US",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": " https://www.bitswits.co/app-development-houston ",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouston.5c03c25c.webp&w=1920&q=75 ",
+            "@id": "",
+            "url": " https://www.bitswits.co/app-development-houston ",
+            "telephone": "833 500-6007",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2800 Post Oak Blvd STE 4100",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": " 77056",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.7372487,
+              "longitude": -95.4618603
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": " Mobile App Development Company in Houston - BitsWits ",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouston.5c03c25c.webp&w=1920&q=75",
+            "description": " BitsWits is a leading mobile app development company in Houston offering innovative solutions customized to your business needs for unparalleled success!.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1174"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 

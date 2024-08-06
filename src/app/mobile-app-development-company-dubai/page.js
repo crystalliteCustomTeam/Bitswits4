@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -401,6 +402,68 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": " Mobile App Development Company in Dubai - BitsWits ",
+            "url": " https://www.bitswits.co/mobile-app-development-company-dubai ",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": " Mobile App Development Company in Dubai - BitsWits ",
+            "alternateName": "BitsWits",
+            "url": " https://www.bitswits.co/mobile-app-development-company-dubai ",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+971555031266",
+              "contactType": "customer service",
+              "areaServed": "AE",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": " Mobile App Development Company in Dubai - BitsWits ",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdubai.07d013c3.webp&w=1920&q=75",
+            "description": "Partner with BitsWits, your reliable mobile app development company in Dubai, for exceptional app development services perfectly suited to your needs. ",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "974"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 

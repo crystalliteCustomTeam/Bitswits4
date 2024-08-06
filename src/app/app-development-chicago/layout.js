@@ -14,6 +14,24 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-chicago' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Mobile App Development Company in Chicago - BitsWits",
+    "geo.region": "US",
+    "geo.position": "41.8780354, -87.6324002",
+    "ICBM": " 41.8780354, -87.6324002",
+    //==========
+    "DC.title": "Mobile App Development Company in Chicago - BitsWits",
+    "geo.region": "US-IL",
+    "geo.position": "41.8780354, -87.6324002",
+    "ICBM": "41.8780354, -87.6324002",
+    //==========
+    "DC.title": "Mobile App Development Company in Chicago - BitsWits",
+    "geo.region": "US-IL",
+    "geo.placename": "Chicago",
+    "geo.position": "41.8780354, -87.6324002",
+    "ICBM": "41.8780354, -87.6324002",
+  },
   //===== No-Index =====
   robots: {
     index: true,

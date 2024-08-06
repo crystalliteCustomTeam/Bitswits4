@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -392,6 +393,114 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": " Mobile App Development Company in Dallas - BitsWits ",
+            "url": " https://www.bitswits.co/mobile-app-development-company-dallas ",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Mobile App Development Company in Dallas - BitsWits ",
+            "alternateName": "BitsWits",
+            "url": " https://www.bitswits.co/mobile-app-development-company-dallas ",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+13022168231",
+              "contactType": "customer service",
+              "areaServed": "US",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Mobile App Development Company in Dallas - BitsWits",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75 ",
+            "@id": "",
+            "url": " https://www.bitswits.co/mobile-app-development-company-dallas",
+            "telephone": "+13022168231",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1341 W Mockingbird Ln",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX",
+              "postalCode": "75247",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 32.8219006,
+              "longitude": -96.8662865
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Mobile App Development Company in Dallas - BitsWits",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdallas.783ee556.webp&w=1920&q=75 ",
+            "description": " Trust our leading mobile app development company in Dallas to deliver expert solutions meeting your business needs with top-notch app development services ",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "974"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 

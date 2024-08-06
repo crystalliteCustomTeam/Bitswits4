@@ -18,25 +18,17 @@ const BlogsRelevant = async () => {
                         posts.nodes.map((post) => (
                             <ul className={`${styles.noList} mt-4`}>
                                 <li>
-                                    {(() => {
-                                        const elements = [];
-                                        for (const category of post.categories.nodes) {
-                                            elements.push(
-                                                <>
-                                                    <p className='fontsfregular' key={category.slug}>
-                                                        {category.name}
-                                                    </p>
-                                                    <Link href={`/blog/${post.slug}`}>
-                                                        <h6 className='fontsfregular'>{post.title}</h6>
-                                                    </Link>
-                                                </>
-                                            );
-                                        }
-                                        return elements;
-                                    })()}
-
+                                    {
+                                        post.categories.nodes.map((category) => (
+                                            <p className='fontsfregular' key={category.slug}>
+                                                {category.name}
+                                            </p>
+                                        ))
+                                    }
+                                    <Link href={`/blog/${post.slug}`}>
+                                        <h6 className='fontsfregular'>{post.title}</h6>
+                                    </Link>
                                 </li>
-
                             </ul>
                         ))
                     }

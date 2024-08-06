@@ -14,6 +14,24 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-houston' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Mobile App Development Company in Houston",
+    "geo.region": "US",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": " 29.7372487; -95.4618603",
+    //==========
+    "DC.title": "Mobile App Development Company in Houston",
+    "geo.region": "US-TX",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487; -95.4618603",
+    //==========
+    "DC.title": "Mobile App Development Company in Houston",
+    "geo.region": "US-TX",
+    "geo.placename": "Houston",
+    "geo.position": "29.7372487; -95.4618603",
+    "ICBM": "29.7372487; -95.4618603",
+  },
   //===== No-Index =====
   robots: {
     index: true,
