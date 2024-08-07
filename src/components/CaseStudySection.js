@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Col, Row } from 'react-bootstrap'
@@ -29,13 +29,20 @@ const CaseStudySection = () => {
         setActiveTab((prevTab) => (prevTab < 4 ? prevTab + 1 : 0));
     };
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setActiveTab((prevTab) => (prevTab < 4 ? prevTab + 1 : 0));
+        }, 5000); 
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <>
             <section className={styles.appStyles}>
                 <div className="container">
                     <div className="text-center">
                         <h2>Our Clients <span>Trust Us</span></h2>
-                        <p>We develop amazing first-rate iOS, Android, and web applications and <br /> superior Windows and OS X solutions.</p>
+                        <p>We develop amazing first-rate iOS, Android, and web applications and <br className='d-none d-md-block' /> superior Windows and OS X solutions.</p>
                     </div>
                     <div className="tabs">
                         <Row className={styles.tabList}>
@@ -49,17 +56,9 @@ const CaseStudySection = () => {
                     <div className="tabsContent">
                         {activeTab == 0 && (
                             <Row className={styles.caseRow}>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.featured}>
                                         <div className={styles.contentBox}>
-                                            <div className={styles.arrows}>
-                                                <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
-                                                    <Image src={arrow} alt='Bitswits' className='img-fluid' />
-                                                </button>
-                                                <button className={styles.btnRight} onClick={handleBtnRightClick}>
-                                                    <Image src={arrow} alt='Bitswits' className='img-fluid' />
-                                                </button>
-                                            </div>
                                             <h3>The Practice Pen</h3>
                                             <p>Fitnow is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.</p>
                                             <div className={styles.blackBtn}>
@@ -101,8 +100,16 @@ const CaseStudySection = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.caseImg}>
+                                        <div className={styles.arrows}>
+                                            <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                            <button className={styles.btnRight} onClick={handleBtnRightClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                        </div>
                                         <Image src={slider1} alt='Bitswits' fill={true} className='img-fluid' />
                                     </div>
                                 </Col>
@@ -110,7 +117,7 @@ const CaseStudySection = () => {
                         )}
                         {activeTab == 1 && (
                             <Row className={styles.caseRow}>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.featured}>
                                         <div className={styles.contentBox}>
                                             <div className={styles.arrows}>
@@ -125,7 +132,7 @@ const CaseStudySection = () => {
                                             <p>Fitnow is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#">
+                                                <Link href="/social-app-development-case-study">
                                                     View Case Study
                                                 </Link>
                                             </div>
@@ -162,8 +169,16 @@ const CaseStudySection = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.caseImg}>
+                                        <div className={styles.arrows}>
+                                            <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                            <button className={styles.btnRight} onClick={handleBtnRightClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                        </div>
                                         <Image src={slider2} alt='Bitswits' fill={true} className='img-fluid' />
                                     </div>
                                 </Col>
@@ -171,7 +186,7 @@ const CaseStudySection = () => {
                         )}
                         {activeTab == 2 && (
                             <Row className={styles.caseRow}>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.featured}>
                                         <div className={styles.contentBox}>
                                             <div className={styles.arrows}>
@@ -186,7 +201,7 @@ const CaseStudySection = () => {
                                             <p>Fitnow is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#">
+                                                <Link href="/food-delivery-app-development-case-study">
                                                     View Case Study
                                                 </Link>
                                             </div>
@@ -223,8 +238,16 @@ const CaseStudySection = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.caseImg}>
+                                        <div className={styles.arrows}>
+                                            <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                            <button className={styles.btnRight} onClick={handleBtnRightClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                        </div>
                                         <Image src={slider3} alt='Bitswits' fill={true} className='img-fluid' />
                                     </div>
                                 </Col>
@@ -232,7 +255,7 @@ const CaseStudySection = () => {
                         )}
                         {activeTab == 3 && (
                             <Row className={styles.caseRow}>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.featured}>
                                         <div className={styles.contentBox}>
                                             <div className={styles.arrows}>
@@ -247,7 +270,7 @@ const CaseStudySection = () => {
                                             <p>Fitnow is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#">
+                                                <Link href="/fitness-app-development-case-study">
                                                     View Case Study
                                                 </Link>
                                             </div>
@@ -284,8 +307,16 @@ const CaseStudySection = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.caseImg}>
+                                        <div className={styles.arrows}>
+                                            <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                            <button className={styles.btnRight} onClick={handleBtnRightClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                        </div>
                                         <Image src={slider4} alt='Bitswits' fill={true} className='img-fluid' />
                                     </div>
                                 </Col>
@@ -293,7 +324,7 @@ const CaseStudySection = () => {
                         )}
                         {activeTab == 4 && (
                             <Row className={styles.caseRow}>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.featured}>
                                         <div className={styles.contentBox}>
                                             <div className={styles.arrows}>
@@ -345,8 +376,16 @@ const CaseStudySection = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='p-0'>
+                                <Col md={6} className='p-0'>
                                     <div className={styles.caseImg}>
+                                        <div className={styles.arrows}>
+                                            <button className={styles.btnLeft} onClick={handleBtnLeftClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                            <button className={styles.btnRight} onClick={handleBtnRightClick}>
+                                                <Image src={arrow} alt='Bitswits' className='img-fluid' />
+                                            </button>
+                                        </div>
                                         <Image src={slider5} alt='Bitswits' fill={true} className='img-fluid' />
                                     </div>
                                 </Col>
