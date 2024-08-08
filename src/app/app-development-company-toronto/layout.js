@@ -14,6 +14,24 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/app-development-company-toronto' },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "Leading Mobile App Development Company in Toronto",
+    "geo.region": "CA",
+    "geo.position": "43.643198, -79.399139",
+    "ICBM": " 43.643198, -79.399139",
+    //==========
+    "DC.title": "Leading Mobile App Development Company in Toronto",
+    "geo.region": "CA-ON",
+    "geo.position": "43.643198, -79.399139",
+    "ICBM": "43.643198, -79.399139",
+    //==========
+    "DC.title": "Leading Mobile App Development Company in Toronto",
+    "geo.region": "CA-ON",
+    "geo.placename": "Toronto",
+    "geo.position": "43.643198, -79.399139",
+    "ICBM": "43.643198, -79.399139",
+  },
   //===== No-Index =====
   robots: {
     index: true,
@@ -27,8 +45,6 @@ export const metadata = {
       'max-image-preview': 'large',
     },
   },
-  //===== GEO Tags =====
-  other: {},
 }
 
 export default function RootLayout({ children }) {

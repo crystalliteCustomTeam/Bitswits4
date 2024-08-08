@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Script from "next/script";
 // componets
 import Bannerdubai from "../../components/Bannerdubainew";
 import NewDubaiAwards from "@/src/components/NewDubaiAwards";
@@ -414,6 +415,114 @@ export default function dubaidevelopmentcompany() {
       <Globalmap
         content={global}
       />
+
+      <Script id="websiteSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Leading Mobile App Development Company in Toronto",
+            "url": "https://www.bitswits.co/app-development-company-toronto",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}
+      </Script>
+      <Script id="organizationSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Leading Mobile App Development Company in Toronto",
+            "alternateName": "BitsWits",
+            "url": "https://www.bitswits.co/app-development-company-toronto",
+            "logo": "https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooterlogo.6d359c19.webp&w=1080&q=75",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+13022168231",
+              "contactType": "customer service",
+              "areaServed": "CA",
+              "availableLanguage": "en"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ]
+          }
+        `}
+      </Script>
+      <Script id="localBusinessSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Leading Mobile App Development Company in Toronto",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
+            "@id": "",
+            "url": "https://www.bitswits.co/app-development-company-toronto",
+            "telephone": "+13022168231",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "512 Wellington St W,",
+              "addressLocality": "Toronto",
+              "addressRegion": "Ontario",
+              "postalCode": "M5V1E3",
+              "addressCountry": "Canada"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude":43.643198,
+              "longitude": -79.399139
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/officialBitsWits",
+              "https://twitter.com/BitsWits_/",
+              "https://www.instagram.com/officialBitsWits/",
+              "https://www.youtube.com/@officialBitsWits",
+              "https://www.linkedin.com/company/officialBitsWits"
+            ] 
+          }
+        `}
+      </Script>
+      <Script id="productSchema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Leading Mobile App Development Company in Toronto",
+            "image": " https://www.bitswits.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftoronto.568b0dc8.webp&w=1920&q=75",
+            "description": "BitsWits is a top-grade mobile app development company in Toronto that specializes in creating UX-driven mobile apps for startups and Fortune 500 companies.",
+            "brand": {
+              "@type": "Brand",
+              "name": "BitsWits"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "974"
+            }
+          }
+        `}
+      </Script>
     </>
   );
 } 

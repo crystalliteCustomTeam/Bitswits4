@@ -44,8 +44,6 @@ export const metadata = {
       'max-image-preview': 'large',
     },
   },
-  //===== GEO Tags =====
-  other: {},
 }
 
 export default function RootLayout({ children }) {
